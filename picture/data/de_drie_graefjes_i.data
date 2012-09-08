@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/netherlands/de_drie_graefjes_i.jpeg';
-	$thumbnail = 'photo/netherlands/de_drie_graefjes_is.jpeg'; 
-	$width = 141; 
-	$height = 198; 
-	$caption = 'upstairs, i De Drie Graefjes cafe, Amsterdam, the Netherlands';
-</SCRIPT>

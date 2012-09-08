@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/canada/algonquin-campsite.jpeg';
-	$thumbnail = 'photo/canada/algonquin-campsite-l.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Algonquin Provincial Park, Canada: our camp site for the Above &amp; Beyond Adventures trip';
-</SCRIPT>

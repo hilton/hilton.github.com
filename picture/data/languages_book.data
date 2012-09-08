@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/england/languages_book.jpeg';
-	$thumbnail = 'photo/england/languages_book_s.jpeg';
-	$width = 151; 
-	$height = 223;
-	$caption = 'Languages Of The World - the book by Kenneth Katzner';
-</SCRIPT>

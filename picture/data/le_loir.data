@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/france/le_loir.jpeg';
-	$thumbnail = 'photo/france/le_loir_s.jpeg'; 
-	$width = 141; 
-	$height = 198; 
-	$caption = 'Le Loir dans la Th&eacute;i&egrave;re (has sofas), rue des Rosiers, Paris, France';
-</SCRIPT>

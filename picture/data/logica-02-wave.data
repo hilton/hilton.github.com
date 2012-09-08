@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/at-sea/logica-02-wave.jpeg';
-	$thumbnail = 'photo/at-sea/logica-02-wave-l.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'At sea on \'Logica\': waving good bye to fine weather in Scheveningen before heading out to sea';
-</SCRIPT>

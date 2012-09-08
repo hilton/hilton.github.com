@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/france/metro.jpeg';
-	$thumbnail = 'photo/france/metro_s.jpeg';
-	$width = 255; 
-	$height = 183;
-	$caption = 'F&eacute;lix Faure, when it was my local metro station';
-</SCRIPT>

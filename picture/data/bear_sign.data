@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'photo/luxembourg/bear_sign.gif'; 
-	$width = 124; 
-	$height = 164; 
-	$caption = 'a sign somewhere in Luxembourg';
-</SCRIPT>

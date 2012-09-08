@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'illustration/cake.gif'; 
-	$width = 117; 
-	$height = 104; 
-	$caption = '[Illustration: eat lots of chocolate cake!]';
-</SCRIPT>

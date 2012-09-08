@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/ireland/dublin_pub.jpeg';
-	$thumbnail = 'photo/ireland/dublin_pub_s.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'a pub in Dublin - a welcome sight at any time of day';
-</SCRIPT>

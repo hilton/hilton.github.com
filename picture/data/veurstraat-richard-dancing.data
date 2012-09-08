@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/netherlands/veurstraat-richard-dancing.jpeg';
-	$thumbnail = 'photo/netherlands/veurstraat-richard-dancing-p.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Richard dancing with Gail at my birthday party in 2001';
-</SCRIPT>

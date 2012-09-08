@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/belgium/antwerp_hilton_l.jpeg';
-	$thumbnail = 'photo/belgium/antwerp_hilton_ls.jpeg';
-	$width = 198;
-	$height = 117;
-	$caption = 'Antwerp: the Antwerp Hilton - no connection to Hilton Harbour whatsoever';
-</SCRIPT>

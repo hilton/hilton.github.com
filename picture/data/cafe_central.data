@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/luxembourg/cafe_central.jpeg';
-	$thumbnail = 'photo/luxembourg/cafe_central_s.jpeg'; 
-	$width = 198; 
-	$height = 125; 
-	$caption = 'Cafe Central, Echternach, Luxembourg';
-</SCRIPT>

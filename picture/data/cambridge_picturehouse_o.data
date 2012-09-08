@@ -1,7 +1,0 @@
-<script language="php">
-	$big_version = 'photo/england/cambridge_picturehouse_o.jpeg';
-	$thumbnail = 'photo/england/cambridge_picturehouse_os.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'The first-floor facade of the Picturehouse cinema, Cambridge, England';
-</script>

@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/canada/algonquin-camera.jpeg';
-	$thumbnail = 'photo/canada/algonquin-camera-l.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Algonquin Provincial Park, Canada: Marion getting better shots than this one';
-</SCRIPT>

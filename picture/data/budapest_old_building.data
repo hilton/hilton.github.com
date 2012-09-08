@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/hungary/budapest_old_building.jpeg';
-	$thumbnail = 'photo/hungary/budapest_old_building_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Budapest: like many old buildings, the grand building that looks across one of the Danube bridges is beautiful but tatty';
-</SCRIPT>

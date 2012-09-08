@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'photo/england/bridge.jpeg'; 
-	$width = 227; 
-	$height = 257; 
-	$caption = 'a bridge in Cambridge, England';
-</SCRIPT>

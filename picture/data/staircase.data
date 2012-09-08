@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/luxembourg/staircase.jpeg';
-	$thumbnail = 'photo/luxembourg/staircase_s.jpeg'; 
-	$width = 125; 
-	$height = 198; 
-	$caption = 'Fleur, Alex, Dave and Silvia on the staircase';
-</SCRIPT>

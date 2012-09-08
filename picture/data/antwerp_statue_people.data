@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/belgium/antwerp_statue_people.jpeg';
-	$thumbnail = 'photo/belgium/antwerp_statue_people_s.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'Antwerp: they thought it was a game so they joined in - Marion, Mukund and Chris';
-</SCRIPT>

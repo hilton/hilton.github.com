@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/england/cambridge_cycle_team.jpeg';
-	$thumbnail = 'photo/england/cambridge_cycle_team_s.jpeg'; 
-	$width = 198; 
-	$height = 125; 
-	$caption = 'Cambridge: Peter and the PI cycle team on Midsummer Common after having cycled from London';
-</SCRIPT>

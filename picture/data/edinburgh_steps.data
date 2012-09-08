@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/scotland/edinburgh_steps.jpeg';
-	$thumbnail = 'photo/scotland/edinburgh_steps_s.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'Edinburgh, Scotland';
-</SCRIPT>

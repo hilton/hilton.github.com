@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/canada/algonquin-treetops.jpeg';
-	$thumbnail = 'photo/canada/algonquin-treetops-l.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Algonquin Provincial Park, Canada: tree tops - the view from the ground at our camp site';
-</SCRIPT>

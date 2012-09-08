@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/netherlands/veurstraat-philosopher.jpeg';
-	$thumbnail = 'photo/netherlands/veurstraat-philosopher-p.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Peter Lloyd philosophises at my birthday party in 2001';
-</SCRIPT>

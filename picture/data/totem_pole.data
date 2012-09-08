@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/england/totem_pole.jpeg';
-	$thumbnail = 'photo/england/totem_pole_s.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'The totem pole in Great Windsor Park, England';
-</SCRIPT>

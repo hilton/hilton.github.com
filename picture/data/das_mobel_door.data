@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/austria/das_mobel_door.jpeg';
-	$thumbnail = 'photo/austria/das_mobel_door_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Das Mobel\'s door is hidden behind a big curtain in the corner, unlike the rather more striking chairs';
-</SCRIPT>

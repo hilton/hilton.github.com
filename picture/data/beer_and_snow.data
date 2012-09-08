@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/luxembourg/beer_and_snow.jpeg';
-	$thumbnail = 'photo/luxembourg/beer_and_snow_s.jpeg'; 
-	$width = 198; 
-	$height = 115; 
-	$caption = 'Judith, her car, Takeshi and our beers';
-</SCRIPT>

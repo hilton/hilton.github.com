@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/england/train_carriage.jpeg';
-	$thumbnail = 'photo/england/train_carriage_s.jpeg';
-	$width = 198;
-	$height = 115;
-	$caption = 'a carriage in an old British train';
-</SCRIPT>

@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/luxembourg/ball_games_sign.jpeg';
-	$thumbnail = 'photo/luxembourg/ball_games_sign_s.jpeg'; 
-	$width = 125; 
-	$height = 198; 
-	$caption = 'my favourite road sign: ball games allowed, in Luxembourg';
-</SCRIPT>

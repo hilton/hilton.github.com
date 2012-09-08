@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/netherlands/marion_portrait.jpeg';
-	$thumbnail = 'photo/netherlands/marion_portrait_s.jpeg';
-	$width = 79; 
-	$height = 121;
-	$caption = 'Dr Marion Smits';
-</SCRIPT>

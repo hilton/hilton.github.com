@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/netherlands/leiden_canoes.jpeg';
-	$thumbnail = 'photo/netherlands/leiden_canoes_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Canine canoe race: Leiden, the Netherlands';
-</SCRIPT>

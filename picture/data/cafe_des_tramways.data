@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'photo/luxembourg/cafe_des_tramways.gif';
-	$width = 279; 
-	$height = 211;
-	$caption = 'Caf&eacute; des Tramways, Luxembourg';
-</SCRIPT>

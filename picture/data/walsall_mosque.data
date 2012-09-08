@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'photo/england/walsall_mosque.jpeg';
-	$width = 456;
-	$height = 205;
-	$caption = 'Walsall: a mosque seen from the window of the train from Birmingham';
-</SCRIPT>

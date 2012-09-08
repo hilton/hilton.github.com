@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/austria/vienna-aera.jpeg';
-	$thumbnail = 'photo/austria/vienna-aera-l.jpeg';
-	$width = 216;
-	$height = 125;
-	$caption = 'Vienna: inside Cafe Aera, my favourite of the more modern cafes';
-</SCRIPT>

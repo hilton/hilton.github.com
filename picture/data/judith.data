@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'photo/luxembourg/judith.jpeg'; 
-	$width = 150; 
-	$height = 198; 
-	$caption = 'Judith on the road';
-</SCRIPT>

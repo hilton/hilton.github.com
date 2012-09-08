@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/canada/algonquin-fleur.jpeg';
-	$thumbnail = 'photo/canada/algonquin-fleur-p.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'Algonquin Provincial Park, Canada: Fleur puts our wet stuff to dry in the sun after the rain';
-</SCRIPT>

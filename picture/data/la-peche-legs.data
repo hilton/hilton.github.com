@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/canada/la-peche-legs.jpeg';
-	$thumbnail = 'photo/canada/la-peche-legs-p.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'Peter goes paddling at La Peche, Canada';
-</SCRIPT>

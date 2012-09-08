@@ -1,6 +1,0 @@
-<SCRIPT language="php">
-	$thumbnail = 'hh_banner.gif';
-	$width = 35;
-	$height = 282;
-	$caption = '[]';
-</SCRIPT>

@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/ireland/dublin_street.jpeg';
-	$thumbnail = 'photo/ireland/dublin_street_s.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'Dublin on a Saturday morning - everyone is still in bed!';
-</SCRIPT>

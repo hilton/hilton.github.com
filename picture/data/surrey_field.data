@@ -1,7 +1,0 @@
-<script language="php">
-	$big_version = 'photo/england/surrey_field.jpeg';
-	$thumbnail = 'photo/england/surrey_field_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'A field of lavender in Surrey, England';
-</script>

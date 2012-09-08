@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/austria/vienna_michaelerplatz.jpeg';
-	$thumbnail = 'photo/austria/vienna_michaelerplatz_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Vienna: Michaelaplatz is typical of Vienna\'s grandeur';
-</SCRIPT>

@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/england/cambridge_cb2_daniel.jpeg';
-	$thumbnail = 'photo/england/cambridge_cb2_daniel_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Cambridge: Daniel Sturdy in CB2';
-</SCRIPT>

@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/austria/vienna_kiddie_houses.jpeg';
-	$thumbnail = 'photo/austria/vienna_kiddie_houses_s.jpeg';
-	$width = 198;
-	$height = 125;
-	$caption = 'Vienna: childrens\' play houses on a square';
-</SCRIPT>

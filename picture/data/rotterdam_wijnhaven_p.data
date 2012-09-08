@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = 'photo/netherlands/rotterdam_wijnhaven_p.jpeg';
-	$thumbnail = 'photo/netherlands/rotterdam_wijnhaven_ps.jpeg';
-	$width = 125;
-	$height = 198;
-	$caption = 'The Logica office in Wijnhaven, in the centre Rotterdam, the Netherlands';
-</SCRIPT>

@@ -1,7 +1,0 @@
-<SCRIPT language="php">
-	$big_version = '';
-	$thumbnail = 'illustration/computers_dont_work.gif';
-	$width = 206;
-	$height = 134;
-	$caption = 'Illustration: computers that don\'t work';
-</SCRIPT>

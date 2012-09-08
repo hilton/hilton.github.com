@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/luxembourg/peche_mignon_inside.jpeg';
+	$thumbnail = 'photo/luxembourg/peche_mignon_inside_s.jpeg'; 
+	$width = 200; 
+	$height = 133; 
+	$caption = 'inside P&eacute;ch&eacute; Mignon cafe, rue de St Esprit, Luxembourg';
+</SCRIPT>

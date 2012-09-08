@@ -1,0 +1,6 @@
+<SCRIPT language="php">
+	$thumbnail = 'photo/france/condom_cathedral.jpeg';
+	$width = 353; 
+	$height = 231;
+	$caption = 'the cathedral in Condom, France';
+</SCRIPT>

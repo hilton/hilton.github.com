@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/disco_biscuit_upstairs.jpeg';
+	$thumbnail = 'photo/england/disco_biscuit_upstairs_s.jpeg'; 
+	$width = 180; 
+	$height = 198; 
+	$caption = 'sofas upstairs in Disco Biscuit, Queens Road, Brighton, England';
+</SCRIPT>

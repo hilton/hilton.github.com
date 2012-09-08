@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/rotterdam-reflection.jpeg';
+	$thumbnail = 'photo/netherlands/rotterdam-reflection-p.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Rotterdam: arty reflected shot of Peter in at the harbour (photo: Marion)';
+</SCRIPT>

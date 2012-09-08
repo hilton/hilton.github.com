@@ -1,0 +1,7 @@
+<script language="php">
+	$big_version = 'photo/england/london_whitehall.jpeg';
+	$thumbnail = 'photo/england/london_whitehall_s.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Repairs to Big Ben (St Stephen\'s Tower)? London, England';
+</script>

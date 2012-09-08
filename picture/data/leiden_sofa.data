@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/leiden_sofa.jpeg';
+	$thumbnail = 'photo/netherlands/leiden_sofa_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Leiden in the summer: so relaxed, there is even a sofa outside';
+</SCRIPT>

@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/puccinos_sofa_marion.jpeg';
+	$thumbnail = 'photo/england/puccinos_sofa_marion_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Marion enjoying the sofa upstairs in Puccinos, Brighton';
+</SCRIPT>

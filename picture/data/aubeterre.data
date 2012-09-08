@@ -1,0 +1,6 @@
+<SCRIPT language="php">
+	$thumbnail = 'photo/france/aubeterre.jpeg';
+	$width = 358; 
+	$height = 200;
+	$caption = 'five cold people in Aubeterre';
+</SCRIPT>

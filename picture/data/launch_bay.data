@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/launch_bay.jpeg';
+	$thumbnail = 'photo/england/launch_bay_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'A departures lounge at Heathrow airport, converted from one of Battlestar Galactica\'s landing bays';
+</SCRIPT>

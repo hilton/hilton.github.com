@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/peter_anusha_alison.jpeg';
+	$thumbnail = 'photo/england/peter_anusha_alison_s.jpeg';
+	$width = 198; 
+	$height = 125;
+	$caption = 'Peter Hilton, Anusha Edwards and Alison Noble in Bristol, 1994';
+</SCRIPT>

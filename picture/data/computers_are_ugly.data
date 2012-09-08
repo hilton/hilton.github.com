@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = '';
+	$thumbnail = 'illustration/computers_are_ugly.gif';
+	$width = 488;
+	$height = 148;
+	$caption = 'Illustration: what computers are as ugly as';
+</SCRIPT>

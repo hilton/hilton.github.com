@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/austria/vienna_sperl_i.jpeg';
+	$thumbnail = 'photo/austria/vienna_sperl_is.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'the dark, welcoming interior of Cafe Sperl, Vienna';
+</SCRIPT>

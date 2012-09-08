@@ -1,0 +1,5 @@
+{% if page.url == menu_url %}
+<strong>{{ menu_label }}</strong>
+{% else %}
+<a title="{{ menu_title }}" href="{{ menu_url }}">{{ menu_label }}</a>
+{% endif %}

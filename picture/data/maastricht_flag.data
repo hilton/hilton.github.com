@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/maastricht_flag.jpeg';
+	$thumbnail = 'photo/netherlands/maastricht_flag_s.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Maastricht: the flag in the main square';
+</SCRIPT>

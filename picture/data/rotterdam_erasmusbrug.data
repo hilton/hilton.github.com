@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/rotterdam_erasmusbrug.jpeg';
+	$thumbnail = 'photo/netherlands/rotterdam_erasmusbrug_s.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Rotterdam: the Erasmusbrug viewed from the river - the Nieuwe Maas';
+</SCRIPT>

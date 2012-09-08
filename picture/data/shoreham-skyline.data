@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/shoreham-skyline.jpeg';
+	$thumbnail = 'photo/england/shoreham-skyline-w.jpeg';
+	$width = 361;
+	$height = 123;
+	$caption = 'View across the river Adur to the skyline of Shoreham-by-sea, West Sussex, England';
+</SCRIPT>

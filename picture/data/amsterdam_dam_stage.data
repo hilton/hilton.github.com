@@ -1,0 +1,7 @@
+<script language="php">
+	$big_version = 'photo/netherlands/amsterdam_dam_stage.jpeg';
+	$thumbnail = 'photo/netherlands/amsterdam_dam_stage_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Amsterdam: the stage at the millennium celebrations';
+</script>

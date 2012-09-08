@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/hungary/budapest_station.jpeg';
+	$thumbnail = 'photo/hungary/budapest_station_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Budapest: the railway station was a very grand start to the day';
+</SCRIPT>

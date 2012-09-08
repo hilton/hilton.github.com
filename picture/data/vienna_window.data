@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/austria/vienna_window.jpeg';
+	$thumbnail = 'photo/austria/vienna_window_s.jpeg';
+	$width = 125;
+	$height = 241;
+	$caption = 'Vienna: the stained glass window of one of the churches';
+</SCRIPT>

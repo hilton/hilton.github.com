@@ -1,0 +1,7 @@
+<script language="php">
+	$big_version = 'photo/england/exeter_boston_tea_party_l.jpeg';
+	$thumbnail = 'photo/england/exeter_boston_tea_party_ls.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'The vast upstairs room in the Boston Tea Party cafe, Exeter, England';
+</script>

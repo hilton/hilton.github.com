@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/luxembourg/sul_palco_upstairs.jpeg';
+	$thumbnail = 'photo/luxembourg/sul_palco_upstairs_s.jpeg'; 
+	$width = 125; 
+	$height = 198; 
+	$caption = 'Takeshi and Nasera modelling the armchairs upstairs in cafe Sul Palco, Luxembourg';
+</SCRIPT>

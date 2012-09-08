@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/amsterdam_statue.jpeg';
+	$thumbnail = 'photo/netherlands/amsterdam_statue_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Amsterdam: a statue near the maritime museum';
+</SCRIPT>

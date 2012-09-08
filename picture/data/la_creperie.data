@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/austria/la_creperie.jpeg';
+	$thumbnail = 'photo/austria/la_creperie_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'La Creperie, a pancake restaurant in Vienna';
+</SCRIPT>

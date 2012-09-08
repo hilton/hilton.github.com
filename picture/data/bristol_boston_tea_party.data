@@ -1,0 +1,7 @@
+<script language="php">
+	$big_version = 'photo/england/bristol_boston_tea_party.jpeg';
+	$thumbnail = 'photo/england/bristol_boston_tea_party_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Boston Tea Party in Bristol, England: my favourite cafe in Europe';
+</script>

@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/austria/das_mobel_bar.jpeg';
+	$thumbnail = 'photo/austria/das_mobel_bar_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'The bar is about the most conventional thing in Das Mobel';
+</SCRIPT>

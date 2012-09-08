@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/maastricht_clock.jpeg';
+	$thumbnail = 'photo/netherlands/maastricht_clock_s.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Maastricht: clocks on lampposts are nothing out of the ordinary';
+</SCRIPT>

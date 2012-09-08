@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/peter_aged_five.jpeg';
+	$thumbnail = 'photo/england/peter_aged_five_s.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Peter, aged five, at South Lancing Primary School';
+</SCRIPT>

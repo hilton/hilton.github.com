@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/austria/vienna_spike.jpeg';
+	$thumbnail = 'photo/austria/vienna_spike_s.jpeg';
+	$width = 321;
+	$height = 125;
+	$caption = 'Vienna: the view from the office where I worked at the UN';
+</SCRIPT>

@@ -1,0 +1,6 @@
+<SCRIPT language="php">
+	$thumbnail = 'illustration/ha.gif';
+	$width = 150;
+	$height = 74;
+	$caption = '[Hilton Airlines]';
+</SCRIPT>

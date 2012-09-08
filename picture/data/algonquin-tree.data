@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/canada/algonquin-tree.jpeg';
+	$thumbnail = 'photo/canada/algonquin-tree-p.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Algonquin Provincial Park, Canada: a really big tree - one of the old pines';
+</SCRIPT>

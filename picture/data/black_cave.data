@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = '';
+	$thumbnail = 'illustration/black_cave.gif';
+	$width = 200;
+	$height = 150;
+	$caption = 'Illustration: you are trapped in a black cave...';
+</SCRIPT>

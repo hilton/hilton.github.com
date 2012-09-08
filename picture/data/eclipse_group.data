@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/eclipse_group.jpeg';
+	$thumbnail = 'photo/netherlands/eclipse_group_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Marc Smits, Szilvia Biro, Russell, Peter Hilton, Alex Zeffertt, Carl Dolby, Marion Smits, Fleur Van Rootselaar and Jean-Didier Garaud stopping off in the Netherlands on the way home from the 1999 total eclipse';
+</SCRIPT>

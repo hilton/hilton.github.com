@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/scotland/edinburgh_horizon.jpeg';
+	$thumbnail = 'photo/scotland/edinburgh_horizon_s.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Edinburgh: looking North from the castle';
+</SCRIPT>

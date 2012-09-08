@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/canada/algonquin-start.jpeg';
+	$thumbnail = 'photo/canada/algonquin-start-l.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'The water taxi leaves Marion, Emily, Ray and Fleur, lots of bags and two canoes in Algonquin Provincial Park, Canada';
+</SCRIPT>

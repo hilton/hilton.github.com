@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/peter_and_katie.jpeg';
+	$thumbnail = 'photo/netherlands/peter_and_katie_s.jpeg';
+	$width = 255; 
+	$height = 156;
+	$caption = 'Katie Walker and myself in Maastricht, the Netherlands';
+</SCRIPT>

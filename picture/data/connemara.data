@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/ireland/connemara.jpeg';
+	$thumbnail = 'photo/ireland/connemara_s.jpeg'; 
+	$width = 149; 
+	$height = 807; 
+	$caption = 'Connemara, Ireland';
+</SCRIPT>

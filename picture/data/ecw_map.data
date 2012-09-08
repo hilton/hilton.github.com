@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = '';
+	$thumbnail = 'illustration/ecw_map.gif';
+	$width = 292;
+	$height = 264;
+	$caption = 'Illustration: map of Europe showing the locations of the featured cafes';
+</SCRIPT>

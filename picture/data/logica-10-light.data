@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/at-sea/logica-10-light.jpeg';
+	$thumbnail = 'photo/at-sea/logica-10-light-p.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'At sea on \'Logica\': Marko, Monique and Chris';
+</SCRIPT>

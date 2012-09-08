@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/camden_lock.jpeg';
+	$thumbnail = 'photo/england/camden_lock_s.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'Camden: Camden Lock is an oasis of calm in North London';
+</SCRIPT>

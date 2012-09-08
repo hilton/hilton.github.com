@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/canada/algonquin-canoe.jpeg';
+	$thumbnail = 'photo/canada/algonquin-canoe-l.jpeg';
+	$width = 198;
+	$height = 125;
+	$caption = 'Algonquin Provincial Park, Canada: &quot;Yes Marion, all the way to the other side&quot;';
+</SCRIPT>

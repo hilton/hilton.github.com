@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/zuid-wtc-construction.jpg';
+	$thumbnail = 'photo/netherlands/zuid-wtc-construction-s.jpg';
+	$width = 198; 
+	$height = 125;
+	$caption = 'Construction at the World Trade Center south of Amsterdam, the Netherlands';
+</SCRIPT>

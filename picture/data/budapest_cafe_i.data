@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/hungary/budapest_cafe_i.jpeg';
+	$thumbnail = 'photo/hungary/budapest_cafe_is.jpeg';
+	$width = 125;
+	$height = 198;
+	$caption = 'The big posh cafe I went to in Budapest has leather sofas i.';
+</SCRIPT>

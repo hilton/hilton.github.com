@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/rotterdam-ship.jpeg';
+	$thumbnail = 'photo/netherlands/rotterdam-ship-w.jpeg';
+	$width = 361;
+	$height = 123;
+	$caption = 'Rotterdam: <em>De Buffel</em> - a ship at the maritime museum';
+</SCRIPT>

@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/austria/kleines_cafe.jpeg';
+	$thumbnail = 'photo/austria/kleines_cafe_s.jpeg';
+	$width = 198;
+	$height = 142;
+	$caption = 'Kleines Cafe, an excellent small cafe in Vienna';
+</SCRIPT>

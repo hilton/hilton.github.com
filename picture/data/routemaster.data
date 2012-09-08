@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/luxembourg/routemaster.jpeg';
+	$thumbnail = 'photo/luxembourg/routemaster_s.jpeg'; 
+	$width = 198; 
+	$height = 125; 
+	$caption = 'not your average bus - a Routemaster on Pont Adolphe, Luxembourg';
+</SCRIPT>

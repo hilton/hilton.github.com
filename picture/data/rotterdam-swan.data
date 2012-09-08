@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/netherlands/rotterdam-swan.jpeg';
+	$thumbnail = '';
+	$width = 198;
+	$height = 125;
+	$caption = 'Rotterdam: a swan near where I live';
+</SCRIPT>

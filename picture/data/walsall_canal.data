@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = 'photo/england/walsall_canal.jpeg';
+	$thumbnail = 'photo/england/walsall_canal_s.jpeg';
+	$width = 141;
+	$height = 198;
+	$caption = 'Walsall: some of the canalside locations are quite pleasant on those rare sunny days';
+</SCRIPT>

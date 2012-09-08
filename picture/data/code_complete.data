@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = '%';
+	$thumbnail = 'illustration/code_complete.gif';
+	$width = 111;
+	$height = 140;
+	$caption = 'illustration: the cover of Code Complete (from www.amazon.com)';
+</SCRIPT>

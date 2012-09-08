@@ -1,0 +1,7 @@
+<SCRIPT language="php">
+	$big_version = '';
+	$thumbnail = 'photo/austria/ron.jpeg';
+	$width = 178;
+	$height = 661;
+	$caption = 'The impressively large rum collection at Comida y Ron, Vienna';
+</SCRIPT>

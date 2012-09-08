@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Copyright ©2007 Peter Hilton - http://hilton.org.uk/
+	This work is licenced under a Creative Commons license:	http://creativecommons.org/licenses/by-nc-sa/1.0/
+	Required attribution is a credit to 'Peter Hilton' and a link to http://hilton.org.uk/
+-->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name>Rotterdam - Delft (East) cycle route</name>
+	<description><![CDATA[Cycle route with <a href="http://hilton.org.uk/cycling_delft_e.phtml">directions and photos</a>]]></description>
+	<Style id="linestyle">
+		<LineStyle>
+			<color>800000c2</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint-highlight">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="start">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="finish">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_grn-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>waypoints</name>
+		<Placemark>
+			<name>North on Coolsingel</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>4.481597470193313</longitude>
+				<latitude>51.9182803825143</latitude>
+				<altitude>0</altitude>
+				<range>303.3117193404126</range>
+				<tilt>9.051347075092621e-11</tilt>
+				<heading>-9.184178263716979e-07</heading>
+			</LookAt>
+			<styleUrl>#start</styleUrl>
+			<Point>
+				<coordinates>4.481267944156457,51.9182280846086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead across Hofplein</name>
+			<open>1</open>
+			<description>Continue North underneath the railway</description>
+			<LookAt>
+				<longitude>4.478825274734744</longitude>
+				<latitude>51.92392512435371</latitude>
+				<altitude>0</altitude>
+				<range>101.9392217527958</range>
+				<tilt>1.549499752044174e-10</tilt>
+				<heading>-0.002183180963630097</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.478435976881201,51.924007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bear left on Schiekade</name>
+			<open>1</open>
+			<description>Continue NW on cycle path</description>
+			<LookAt>
+				<longitude>4.477148382206935</longitude>
+				<latitude>51.92664895349081</latitude>
+				<altitude>0</altitude>
+				<range>182.148768898363</range>
+				<tilt>0</tilt>
+				<heading>-0.003503239066444205</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.477029,51.92679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead on Schieweg</name>
+			<open>1</open>
+			<description>Continue WNW on Schieweg</description>
+			<LookAt>
+				<longitude>4.470287752469358</longitude>
+				<latitude>51.93118038640831</latitude>
+				<altitude>0</altitude>
+				<range>345.6270873947411</range>
+				<tilt>0</tilt>
+				<heading>-0.008903141539781475</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.470107,51.931043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bear right on Schieweg</name>
+			<description>Continue NNW on Schieweg</description>
+			<LookAt>
+				<longitude>4.468126561972453</longitude>
+				<latitude>51.93137985679064</latitude>
+				<altitude>0</altitude>
+				<range>349.1501434878982</range>
+				<tilt>0</tilt>
+				<heading>-0.01112981379403906</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.467433522561151,51.93184164993106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead to roundabout</name>
+			<description>Continue NNW over the canal and follow the cycle path across the roundabout</description>
+			<LookAt>
+				<longitude>4.463213909986615</longitude>
+				<latitude>51.93735609318034</latitude>
+				<altitude>0</altitude>
+				<range>336.5203070207321</range>
+				<tilt>0</tilt>
+				<heading>-0.01499754094261873</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.462794303106207,51.93713900420185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left on Dwarskeiweg</name>
+			<open>1</open>
+			<description>Continue for 150 m</description>
+			<LookAt>
+				<longitude>4.460284047546292</longitude>
+				<latitude>51.94150784099871</latitude>
+				<altitude>0</altitude>
+				<range>336.5203070214394</range>
+				<tilt>0</tilt>
+				<heading>-0.01730441658616132</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.461005988732879,51.941914,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Right on Overschiese Kleiweg</name>
+			<open>1</open>
+			<description>Continue North on road</description>
+			<LookAt>
+				<longitude>4.460284047546292</longitude>
+				<latitude>51.94150784099871</latitude>
+				<altitude>0</altitude>
+				<range>336.5203070214394</range>
+				<tilt>0</tilt>
+				<heading>-0.01730441658616132</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.458912,51.94207200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Continue on cycle path</name>
+			<open>1</open>
+			<description>Continue North under trees, over the HSL train line, then follow the path to the right around the airport</description>
+			<LookAt>
+				<longitude>4.459907105740005</longitude>
+				<latitude>51.9487988458048</latitude>
+				<altitude>0</altitude>
+				<range>336.5203070242687</range>
+				<tilt>0</tilt>
+				<heading>-0.01760099474036726</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.458548142368997,51.94922705803551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Continue left on Bovendijk</name>
+			<open>1</open>
+			<description>Continue NNE and follow the road around to the left</description>
+			<LookAt>
+				<longitude>4.45859004129384</longitude>
+				<latitude>51.96103857048947</latitude>
+				<altitude>0</altitude>
+				<range>299.0950758732849</range>
+				<tilt>0</tilt>
+				<heading>-0.0168433030363267</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.458269060695528,51.96089261162598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bear left on cycle path</name>
+			<LookAt>
+				<longitude>4.458248292866195</longitude>
+				<latitude>51.96549103611212</latitude>
+				<altitude>0</altitude>
+				<range>225.6070763914237</range>
+				<tilt>1.294966011822213e-10</tilt>
+				<heading>-0.01740186284641043</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.458190762904295,51.96550967828112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left on Landscheiding</name>
+			<open>1</open>
+			<description>Continue ENE on the road, bending around to the left around the edge of the airport</description>
+			<LookAt>
+				<longitude>4.4575338246938</longitude>
+				<latitude>51.96576146938126</latitude>
+				<altitude>0</altitude>
+				<range>333.5831277335839</range>
+				<tilt>0</tilt>
+				<heading>-0.01796460655135296</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.456983131735129,51.9659544238398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Right across road</name>
+			<description>Dog leg left then right and continue NW on Oude Bovendijk.</description>
+			<LookAt>
+				<longitude>4.44827838073792</longitude>
+				<latitude>51.96253208539814</latitude>
+				<altitude>0</altitude>
+				<range>576.272957560868</range>
+				<tilt>0</tilt>
+				<heading>-0.02525452141473955</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.447597861349081,51.96261766076501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead on path</name>
+			<open>1</open>
+			<description>Continue NW on path, the follow it around to the left, then right</description>
+			<LookAt>
+				<longitude>4.426680158938457</longitude>
+				<latitude>51.9771302812598</latitude>
+				<altitude>0</altitude>
+				<range>348.1201540457137</range>
+				<tilt>1.594111292785353e-10</tilt>
+				<heading>-0.0396524202462045</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.42618380883286,51.97805685801514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead on Ackersdijkseweg</name>
+			<open>1</open>
+			<description>After 200 m continue straight ahead on Zuideindseweg</description>
+			<LookAt>
+				<longitude>4.414293957900388</longitude>
+				<latitude>51.98255770236414</latitude>
+				<altitude>0</altitude>
+				<range>269.7956315863994</range>
+				<tilt>3.440472501713292e-10</tilt>
+				<heading>-0.04844062398156779</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.41369616489925,51.98270461201165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead across road</name>
+			<description>Continue NNE on Noordeindseweg</description>
+			<LookAt>
+				<longitude>4.396204428120392</longitude>
+				<latitude>52.00989322138037</latitude>
+				<altitude>0</altitude>
+				<range>328.2176877384457</range>
+				<tilt>0</tilt>
+				<heading>-0.06269458500104669</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.395830352465396,52.00952119586681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left after trees</name>
+			<open>1</open>
+			<description>After the trees, turn left before the field. Continue SW along the path past Ikea.</description>
+			<LookAt>
+				<longitude>4.390802232004509</longitude>
+				<latitude>52.01688209352399</latitude>
+				<altitude>0</altitude>
+				<range>328.2176877391531</range>
+				<tilt>1.809446602385297e-10</tilt>
+				<heading>-0.06695224288368536</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.390934421041834,52.01693103457534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Right across road to cycle path</name>
+			<open>1</open>
+			<description>Continue 60 m.</description>
+			<LookAt>
+				<longitude>4.379971890372834</longitude>
+				<latitude>52.01199455605069</latitude>
+				<altitude>0</altitude>
+				<range>328.2176877391531</range>
+				<tilt>0</tilt>
+				<heading>-0.07548835303800285</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.379760478300668,52.01189397860396,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left on cycle path</name>
+			<open>1</open>
+			<description>Continue SW under the motorway</description>
+			<LookAt>
+				<longitude>4.379971890372834</longitude>
+				<latitude>52.01199455605069</latitude>
+				<altitude>0</altitude>
+				<range>328.2176877391531</range>
+				<tilt>0</tilt>
+				<heading>-0.07548835303800285</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.379265604605224,52.01239289117069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Continue on cycle path</name>
+			<description>Continue West for 250 m</description>
+			<LookAt>
+				<longitude>4.375926107685171</longitude>
+				<latitude>52.01132224524153</latitude>
+				<altitude>0</altitude>
+				<range>328.2176878190805</range>
+				<tilt>0</tilt>
+				<heading>-0.0786770633738465</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.375410851406613,52.01106400977702,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left on Weidepad</name>
+			<description>Cross the small footbridge and continue 150m SW along Weidepad.</description>
+			<LookAt>
+				<longitude>4.371872211906251</longitude>
+				<latitude>52.01131840134839</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241787145</range>
+				<tilt>0</tilt>
+				<heading>-0.08187206575188703</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.37192720064219,52.01126878055485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left across road</name>
+			<open>1</open>
+			<description>Cross the road and dog left then right on the cyclepath on Kanaalweg and over the Groenebrug bridge.</description>
+			<LookAt>
+				<longitude>4.370649742999301</longitude>
+				<latitude>52.01093784610515</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241249579</range>
+				<tilt>0</tilt>
+				<heading>-0.08283553000396177</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.3701334878062,52.0108539413723,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Right on Oostpoort</name>
+			<open>1</open>
+			<description>Continue across the small bridge then bear left.</description>
+			<LookAt>
+				<longitude>4.370091234772168</longitude>
+				<latitude>52.01097708297635</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241263725</range>
+				<tilt>0</tilt>
+				<heading>-0.08327570314611793</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.368975995348123,52.01030852420645,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Straight ahead on Oosteinde</name>
+			<open>1</open>
+			<description>Dog leg right-left over the bridge and continue on the right-hand side of the canal</description>
+			<LookAt>
+				<longitude>4.368321557679132</longitude>
+				<latitude>52.01115641815552</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241249579</range>
+				<tilt>0</tilt>
+				<heading>-0.08467043917437259</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.368260782338893,52.01092589796518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left on Oude Langendijk</name>
+			<open>1</open>
+			<description>Continue on the left hand side of the church and along the left hand side of the market square.</description>
+			<LookAt>
+				<longitude>4.362309262368878</longitude>
+				<latitude>52.0123784705948</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241249579</range>
+				<tilt>1.70465213721505e-10</tilt>
+				<heading>-0.08940896246582856</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.362615327884498,52.01261121588392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left then right on Oude Langendijk</name>
+			<open>1</open>
+			<description>Dog leg left-right and over the canal.</description>
+			<LookAt>
+				<longitude>4.358692481282369</longitude>
+				<latitude>52.01104179835777</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241263725</range>
+				<tilt>4.260590761502537e-10</tilt>
+				<heading>-0.09225948463114025</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.358387933500211,52.01110716398893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left then right on Peperstraat</name>
+			<description>Continue 70 m SW, straight ahead over the next canal, then continue 100 m on Binnenwatersloot.</description>
+			<LookAt>
+				<longitude>4.359298471698062</longitude>
+				<latitude>52.01089754183308</latitude>
+				<altitude>0</altitude>
+				<range>240.2987241292018</range>
+				<tilt>0</tilt>
+				<heading>-0.0917818882595855</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.358068693530939,52.01079202663457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Left on Westvest</name>
+			<open>1</open>
+			<description>Continue SSE</description>
+			<LookAt>
+				<longitude>4.356955090886978</longitude>
+				<latitude>52.00926160272051</latitude>
+				<altitude>0</altitude>
+				<range>179.4227699052649</range>
+				<tilt>4.295090609773225e-10</tilt>
+				<heading>-0.09362873949798782</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.355888200878127,52.00959077015766,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Right over bridge to Stationsplein</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>4.357339142069822</longitude>
+				<latitude>52.00776979025027</latitude>
+				<altitude>0</altitude>
+				<range>320.1892760613818</range>
+				<tilt>4.305022129369201e-10</tilt>
+				<heading>-0.09332606101826837</heading>
+			</LookAt>
+			<styleUrl>#msn_icon60</styleUrl>
+			<Point>
+				<coordinates>4.357770696378481,52.00741764833907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>End at Deflt railway station</name>
+			<LookAt>
+				<longitude>4.357339142069822</longitude>
+				<latitude>52.00776979025027</latitude>
+				<altitude>0</altitude>
+				<range>320.1892760613818</range>
+				<tilt>4.305022129369201e-10</tilt>
+				<heading>-0.09332606101826837</heading>
+			</LookAt>
+			<styleUrl>#finish</styleUrl>
+			<Point>
+				<coordinates>4.356735098255641,52.00695079849686,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>track</name>
+		<styleUrl>#linestyle</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+4.481225720800424,51.91828545773397,0 4.480703055865106,51.91896576092081,0 4.480083031337813,51.92058366230503,0 4.478431394462092,51.92401512867486,0 4.478724390906862,51.92440118786354,0 4.478489616170648,51.92483385394571,0 4.477912526503573,51.92500496143579,0 4.477645965845738,51.92541214270576,0 4.477002062677727,51.92662992630449,0 4.477022119118402,51.92677569239196,0 4.47641074149594,51.92708956379975,0 4.47631739983953,51.92709740905953,0 4.476238161671873,51.92712758222155,0 4.475698386573427,51.92741090992553,0 4.475363009381468,51.92761737695075,0 4.474666168750559,51.9280683445994,0 4.47398277551045,51.928495264765,0 4.47378042092059,51.9285988594366,0 4.470828595742944,51.93050227317269,0 4.470700848907541,51.93061251889543,0 4.470509232086769,51.9307574110198,0 4.470124574041392,51.93099976891997,0 4.470094196076147,51.93103661352074,0 4.469802509156096,51.9311384334524,0 4.469632801790553,51.93117445746645,0 4.469414136827126,51.93123088008986,0 4.468064943994278,51.9316396964394,0 4.467373607763051,51.93184686185807,0 4.46725112818666,51.93191812615914,0 4.462632349600597,51.93729328573787,0 4.462284709169964,51.93773688747982,0 4.462143026029338,51.93798727179863,0 4.462133687642364,51.9381160509375,0 4.462240400806792,51.93823626336263,0 4.462423689217161,51.93839798400847,0 4.462412060506381,51.93845521810624,0 4.462261076908035,51.93874094165701,0 4.46216819446866,51.93884252050211,0 4.462059067359576,51.93893756133566,0 4.46195923316121,51.93901052108188,0 4.461859406559924,51.93906487912306,0 4.461661909155595,51.93918494498008,0 4.461490579852736,51.9392414049497,0 4.461083099537461,51.93924502036204,0 4.460963546862629,51.93932850458964,0 4.460867880031998,51.93944928163576,0 4.460707953477296,51.93981422313778,0 4.460719828361292,51.93998299560624,0 4.460896935029226,51.94037468834272,0 4.460994370295879,51.94075520997828,0 4.461006143445516,51.94115305085837,0 4.461001546739055,51.94190762400331,0 4.460542623201718,51.9419032878406,0 4.460383271213118,51.94185836557363,0 4.459680632665979,51.9418553098577,0 4.459509732008613,51.94187524883926,0 4.458897751050699,51.94204155168443,0 4.458802267065096,51.94224012448267,0 4.458717009567437,51.94231351882473,0 4.459110935909678,51.94401778118598,0 4.459371673280046,51.94459089356664,0 4.459489467930084,51.94500516920233,0 4.45955355591488,51.94557383608848,0 4.45953903525232,51.94602524017098,0 4.459491844663575,51.94651333053162,0 4.458674223469032,51.94857715706581,0 4.458520615873553,51.94863147060151,0 4.458472247894122,51.94866827427796,0 4.458349697235448,51.94916960830836,0 4.458543097348723,51.949169645385,0 4.458290735101627,51.95115141339665,0 4.458194341098789,51.95176737064082,0 4.457911752221477,51.95265144380993,0 4.457492205943311,51.95357423403175,0 4.456918449521709,51.95459041123883,0 4.456550302666514,51.95514966787482,0 4.456280410489882,51.95548370247888,0 4.455207589395272,51.95663220737728,0 4.454686605264953,51.95712884464313,0 4.454101610303141,51.95764829151427,0 4.453765046218365,51.95795190955708,0 4.453584236127554,51.9581064470288,0 4.453511297329044,51.95828926631219,0 4.453588304601169,51.95844998023769,0 4.453679924049069,51.95859294615146,0 4.454057422556616,51.95879249147759,0 4.455210469998804,51.95935423862271,0 4.455749800076404,51.95959536775521,0 4.456292538808071,51.95977042218466,0 4.456958682180044,51.95998371914591,0 4.457717849074285,51.96034349721216,0 4.457956875755158,51.9604599444604,0 4.458102458226449,51.96060956611837,0 4.458240743774198,51.96089352209988,0 4.458370231547761,51.96086435900673,0 4.459790213126809,51.96372468084165,0 4.45983210056616,51.96391800291853,0 4.459812137802516,51.96408136375103,0 4.4597634661136,51.96421476938308,0 4.459652917372608,51.96437194497524,0 4.459392077168189,51.96462375088816,0 4.458642678347843,51.96534132667004,0 4.458386530850646,51.96549329513709,0 4.458205288295048,51.96550096572411,0 4.457749229634459,51.96558912321861,0 4.457482142067107,51.96566700841765,0 4.457254090462854,51.9657535609577,0 4.457088498114061,51.96585263471716,0 4.456994559864924,51.9659151364167,0 4.456978910234483,51.96597575197178,0 4.456631598145862,51.96608974890957,0 4.455943144369655,51.9662402805176,0 4.455254429937455,51.96631372227692,0 4.454638276351403,51.96630493924061,0 4.454006801576526,51.96626329377587,0 4.45359222724143,51.96621304939821,0 4.453042193859744,51.9660953302499,0 4.45245987526755,51.96593721778126,0 4.45195197206715,51.96578146014261,0 4.451570116705696,51.96564553510871,0 4.451048244460466,51.96540503674639,0 4.450578750408297,51.96515499286753,0 4.450091546738392,51.96483552005337,0 4.449746468576549,51.96458638813351,0 4.447936202487696,51.96284874111692,0 4.447559999227153,51.96260684601199,0 4.447161324755029,51.96281942992581,0 4.447043451091062,51.96282285435409,0 4.446914401428472,51.96276056366916,0 4.446731756188967,51.96273976008134,0 4.446168045638601,51.96318584380771,0 4.444440773112689,51.96448612614974,0 4.442819114036894,51.96563773376424,0 4.441569582197218,51.96650622382765,0 4.434222715288286,51.9719595546161,0 4.434089985181544,51.97201922711344,0 4.434095005286068,51.97209781506879,0 4.433074643325241,51.97286370496141,0 4.43204288643426,51.97359372430183,0 4.431308971425949,51.97411149575077,0 4.430705941736193,51.97458485185226,0 4.430143155753342,51.97501523916308,0 4.429413066828843,51.97557351968236,0 4.428995389451259,51.97590657779452,0 4.428791959394417,51.97601350613415,0 4.428605905597905,51.97608775963326,0 4.428474993063674,51.97616061416424,0 4.428338059948416,51.97626912795559,0 4.428236549580902,51.97638369401038,0 4.427878937603097,51.97674681827596,0 4.427444111131635,51.97716687828321,0 4.427329958613953,51.97727070643707,0 4.426689616194906,51.97768267589146,0 4.426174826820755,51.97804845203736,0 4.425982592294147,51.97813268957859,0 4.425522668831093,51.97846372263567,0 4.424772441202293,51.97900979889292,0 4.423463592816944,51.97994127489095,0 4.423084838097253,51.98021047231326,0 4.422703321317499,51.98038161033443,0 4.422423126854554,51.98044992698254,0 4.422163689731491,51.98047482280806,0 4.421013835954625,51.98051274297645,0 4.420090740865788,51.98054884392567,0 4.419637494923336,51.98059865910725,0 4.419415493880663,51.98062855530137,0 4.418984044953561,51.98073612900201,0 4.417650687816248,51.98119090589509,0 4.417406798979044,51.98126584982267,0 4.417196910868654,51.98130231077182,0 4.41698439404837,51.98129449573124,0 4.416487561192298,51.98121915043791,0 4.415886108331534,51.98111304312256,0 4.415579873440635,51.9810762986971,0 4.415389210263214,51.98108581790969,0 4.415267245939845,51.98113580019336,0 4.415170253134676,51.98120697142328,0 4.415037717706994,51.98138197246865,0 4.414476915956214,51.9822902563919,0 4.414417416698839,51.98236722329532,0 4.414317312845199,51.98242774358931,0 4.414211011604351,51.98245078343266,0 4.414070349856274,51.98246032874038,0 4.413951580828794,51.9824602613441,0 4.413832785553922,51.98247751883034,0 4.413748306772149,51.98253714581242,0 4.413682701634499,51.98267677104976,0 4.413623023392063,51.98287116185006,0 4.413563428622396,51.9830097279229,0 4.412824818554029,51.98414864035706,0 4.409630106180174,51.9889184902164,0 4.408782579081318,51.99028570076918,0 4.408017334928331,51.99142880621088,0 4.406355903863442,51.99373963141429,0 4.402667671293202,51.99929760665115,0 4.401467304596878,52.0011625438729,0 4.400587125999124,52.00251367626043,0 4.399989240402959,52.00346716464085,0 4.398312931253955,52.00591828391627,0 4.397519700211589,52.00709126906855,0 4.396786202930343,52.00820976933942,0 4.395718563907138,52.00964075295068,0 4.395725939224093,52.00984886206893,0 4.39562256646704,52.01005330314038,0 4.395408522867669,52.01019570917244,0 4.395096704954597,52.01063591468261,0 4.394419593149024,52.01178297335316,0 4.39416826642794,52.01204009356164,0 4.393532299683514,52.01305599699506,0 4.393069432700827,52.01379256539275,0 4.392733834528087,52.01437181088085,0 4.390918638287744,52.01691051297645,0 4.39066559672041,52.01681778675499,0 4.389730621344555,52.01643354359999,0 4.389156831010567,52.01618684733941,0 4.388395487290921,52.01585480843461,0 4.387754382983388,52.0155761926569,0 4.386879690460617,52.01518299586915,0 4.386118648456176,52.01483786182641,0 4.385102822492215,52.01437924058673,0 4.384763521155236,52.01420636342391,0 4.384603871009134,52.01420469777737,0 4.384501622714211,52.01419079621425,0 4.384372000224801,52.01414616547459,0 4.383556048434386,52.01373019506094,0 4.383032335018243,52.01346429181082,0 4.380988964546731,52.01248028660157,0 4.379747830337891,52.01187245570205,0 4.379547908093116,52.01203349396471,0 4.379259670048626,52.01238715173574,0 4.379201334133342,52.01238074379937,0 4.379125613651112,52.0123503202427,0 4.379080005570643,52.01230363287453,0 4.379013980133479,52.01224211888827,0 4.378923443059392,52.01219796069748,0 4.378812085848566,52.01218204221497,0 4.378702864746174,52.01216876245338,0 4.378602302777537,52.01211593502579,0 4.378434035710441,52.01193515433129,0 4.378365603932806,52.01188367303519,0 4.377960912301873,52.01174621197752,0 4.377020046263723,52.01143995148379,0 4.3768909936054,52.01139764671127,0 4.376788145946023,52.01140810375851,0 4.376638146194423,52.01142906693936,0 4.376528917720933,52.01141974042788,0 4.376396683594038,52.01137154122181,0 4.376372546741464,52.01131738352937,0 4.376299887914683,52.01126131580525,0 4.37582386423982,52.01114088285976,0 4.375737787938888,52.0111382214824,0 4.375408377931876,52.01104358848544,0 4.375219489899095,52.01101240365318,0 4.374984368321677,52.01099926914885,0 4.374127462750124,52.0110010809886,0 4.373506389178218,52.01102717521471,0 4.372368254678705,52.01115269943774,0 4.371985782622929,52.01122365156495,0 4.371864046043228,52.0112627568318,0 4.37169893461737,52.01116277681774,0 4.371377769503624,52.01103412857292,0 4.370934914089972,52.01085682218955,0 4.370720823825692,52.01076392478144,0 4.370571297029571,52.01075130768939,0 4.370153991722887,52.01085430855721,0 4.369876186852537,52.01076134960606,0 4.3700242810894,52.01060461705744,0 4.369844903026546,52.0105295765992,0 4.369751797534121,52.01046321379903,0 4.369679579534065,52.01038827476747,0 4.369639148463222,52.01034188789389,0 4.369534948775907,52.01031683224308,0 4.36898930959417,52.01029281222002,0 4.368762206438078,52.01053008294732,0 4.368869340866041,52.01067433086161,0 4.368736244110224,52.01082336498472,0 4.368188921956076,52.0109197277663,0 4.368144334051138,52.0110591047853,0 4.367685447152425,52.01114003076361,0 4.36688763936462,52.01127857960603,0 4.366084984748156,52.01150451253476,0 4.3650788044054,52.01189704522573,0 4.364139459944226,52.01218249819875,0 4.363042577768212,52.01246567421392,0 4.362566674796184,52.01262510644379,0 4.360910354122097,52.01195590845206,0 4.360665937042441,52.01195777817887,0 4.3603803934257,52.01189180354525,0 4.358376787041664,52.01109707475781,0 4.358495688297822,52.0109513208327,0 4.358060227715072,52.01078675622811,0 4.358209148073371,52.01049776229355,0 4.357359189492911,52.01024419454238,0 4.355881681101437,52.00958431595286,0 4.3564294858447,52.0089641879969,0 4.357091020427703,52.00831657282991,0 4.357744099615701,52.00762411214762,0 4.357896075262403,52.0074569791315,0 4.357763230657113,52.00741166293142,0 4.357628947703034,52.00736107721926,0 4.357600339177253,52.00731683373676,0 4.357384274618937,52.00723958961844,0 4.357046554170978,52.00710265544991,0 4.356728214654296,52.00694535149091,0 </coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

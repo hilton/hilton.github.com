@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<time>2007-03-17T02:09:22Z</time>
+<bounds minlat="50.9333333" minlon ="4.0666667" maxlat="53.2333333" maxlon="6.5500000" />
+<wpt lat="50.9333333" lon="5.7833333"><ele>0.000000</ele><name>Beek-Elsloo</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.4166667" lon="4.1666667"><ele>0.000000</ele><name>Rilland-Bath</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.4333333" lon="6.0500000"><ele>0.000000</ele><name>Horst-Sevenum</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.5833333" lon="4.0666667"><ele>0.000000</ele><name>Uiterst-Nieuwland</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.6833333" lon="4.6666667"><ele>0.000000</ele><name>Lage Zwaluwe</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.8166667" lon="5.8000000"><ele>0.000000</ele><name>Nijmegen Dukenburg</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.8333333" lon="5.8666667"><ele>0.000000</ele><name>Nijmegen Heyendaal</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.9000000" lon="4.5166667"><ele>0.000000</ele><name>Rotterdam Zuid</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.9166667" lon="4.3666667"><ele>0.000000</ele><name>Vlaardingen Oost</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.9333333" lon="4.4833333"><ele>0.000000</ele><name>R'dam Hofplein</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.9666667" lon="6.2833333"><ele>0.000000</ele><name>Doetinchem West</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.9833333" lon="5.9166667"><ele>0.000000</ele><name>Arnhem Velperpoort</name><sym>Truck Stop</sym></wpt>
+<wpt lat="51.9833333" lon="5.9500000"><ele>0.000000</ele><name>Arnhem Presikhaaf</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.0833333" lon="4.3500000"><ele>0.000000</ele><name>Laan van NOI</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.0833333" lon="4.3833333"><ele>0.000000</ele><name>Leidschendam-Voorburg</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.1000000" lon="5.1166667"><ele>0.000000</ele><name>Utrecht CS</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.1833333" lon="6.0833333"><ele>0.000000</ele><name>Klarenbeek</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.3500000" lon="4.9166667"><ele>0.000000</ele><name>Amstelstation</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.3666667" lon="4.9333333"><ele>0.000000</ele><name>Muiderpoort</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.3833333" lon="4.9000000"><ele>0.000000</ele><name>Amsterdam CS</name><sym>Truck Stop</sym></wpt>
+<wpt lat="52.4166667" lon="5.9000000"><ele>0.000000</ele><name>Legerplaats ’t Harde</name><sym>Truck Stop</sym></wpt>
+<wpt lat="53.2333333" lon="6.5500000"><ele>0.000000</ele><name>Groningen Noord</name><sym>Truck Stop</sym></wpt>
+</gpx>

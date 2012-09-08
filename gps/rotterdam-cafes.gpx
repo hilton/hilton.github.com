@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<time>2007-03-12T19:30:22Z</time>
+<bounds minlat="51.913356" minlon ="4.463389" maxlat="51.93097" maxlon="4.499234" />
+<wpt lat="51.93097" lon="4.470019"><ele>0.000000</ele><name>angelo betti</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.916373" lon="4.481113"><ele>0.000000</ele><name>bagel bakery</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.919583" lon="4.475341"><ele>0.000000</ele><name>bagels and more</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.91589" lon="4.47871"><ele>0.000000</ele><name>bazar</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.922931" lon="4.484439"><ele>0.000000</ele><name>cafe pol</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.920006" lon="4.490919"><ele>0.000000</ele><name>cambrinus</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.9191932678" lon=" 4.48210000992"><ele>0.000000</ele><name>cappucino</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.917677" lon="4.475974"><ele>0.000000</ele><name>daily wok</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.922852" lon="4.499234"><ele>0.000000</ele><name>de kleine ondeugd</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.915943" lon="4.467412"><ele>0.000000</ele><name>de pijp</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.9206199646" lon=" 4.47923517227"><ele>0.000000</ele><name>de volendammer</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.915282" lon="4.476317"><ele>0.000000</ele><name>de witte aap</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.920655" lon="4.481875"><ele>0.000000</ele><name>dim daily</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.913356" lon="4.463389"><ele>0.000000</ele><name>dizzy</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.922011" lon="4.482433"><ele>0.000000</ele><name>dudok</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.926974" lon="4.472702"><ele>0.000000</ele><name>dunya lokanta</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.920165" lon="4.4743"><ele>0.000000</ele><name>floor</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.915586" lon="4.477497"><ele>0.000000</ele><name>het gelagh</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.921224" lon="4.481606"><ele>0.000000</ele><name>indonesia satebar</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.91321" lon="4.463453"><ele>0.000000</ele><name>lux</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.915682" lon="4.477095"><ele>0.000000</ele><name>opa</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.917558" lon="4.473968"><ele>0.000000</ele><name>open</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.919583" lon="4.475341"><ele>0.000000</ele><name>pssst amigo</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.921972" lon="4.49034"><ele>0.000000</ele><name>ristorante opazzo</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.917452" lon="4.474268"><ele>0.000000</ele><name>sijf</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.916896" lon="4.471875"><ele>0.000000</ele><name>stalles</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.920893" lon="4.47033"><ele>0.000000</ele><name>tai ka lok</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.919713" lon="4.472133"><ele>0.000000</ele><name>tai wu</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.919193" lon="4.482626"><ele>0.000000</ele><name>tastoe</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.923685" lon="4.487529"><ele>0.000000</ele><name>toaster</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.9219512939" lon=" 4.48188495636"><ele>0.000000</ele><name>toen</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.919523" lon="4.492893"><ele>0.000000</ele><name>weimar</name><sym>Restaurant</sym></wpt>
+<wpt lat="51.913713" lon="4.464065"><ele>0.000000</ele><name>wester paviljoen</name><sym>Restaurant</sym></wpt>
+</gpx>

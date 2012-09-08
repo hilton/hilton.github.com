@@ -1,0 +1,17 @@
+BODY { font-family: Garamond, serif; color:black; background-color:white; font-size:12.5pt; }
+DIV.photo { float:right; width:20%; padding:1em; }
+DIV.photo P { text-indent:0; font-weight:bold; font-size:0.8em; line-height:1em; text-align:left; margin:0 0 0.5em 0; }
+DIV.photo IMG { margin:0 }
+
+H1 { font-size:150%; text-align:center; margin-left:5%; margin-right:5%; margin-top:2em; margin-bottom:0; }
+
+P { margin:0; text-indent:5%; line-height:140%; text-align:justify; }
+P.subhead { font-size:0.8em; text-indent:0; text-align:center; margin-bottom:4em; }
+P.caption { font-size:80%; margin-left:15%; margin-right:15%; text-indent:0; font-weight:bold; text-align:right; margin-bottom:4em; }
+
+IMG { border:0; margin:1.5em; }
+H2, H3, H4, ADDRESS { margin-left:5%; margin-right:5%; }
+LI { margin-left:5%; margin-right:5%; line-height:140%; }
+BLOCKQUOTE { font-size:80%;  margin-left:15%; margin-right:15%; text-indent:0; line-height:150%; }
+HR { height:0.5pt; border-style:solid; margin-bottom:1em; margin-top:1em; }
+HR.header { margin-bottom:0; margin-top:0; }

@@ -1,4 +1,8 @@
-_layouts/hh.html
-	InsertNavigationLink
 _includes/footer.html
+	file modification
 	current year
+Photo thumbnails
+Photo pages
+Antwerp
+Madrid
+Rotterdam

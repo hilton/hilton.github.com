@@ -1,45 +1,24 @@
 /**
  * Create GitHub pages files from HH page files.
- *
- * TODO
- * Photo thumbnails
- * Photo pages
- * Antwerp
- * Madrid
- * Rotterdam
  */
 
 import io.Source
 import java.io.File
 
-val SOURCE_DIR = "/Users/pedro/Dropbox/hh";
-val TARGET_DIR = "/Users/pedro/Documents/code/hilton/hilton.github.com/";
+val SOURCE_DIR = "/Users/pedro/Dropbox/hh"
+val TARGET_DIR = "/Users/pedro/Documents/code/hilton/hilton.github.com"
+
+def error(message: String) {
+  System.err.println("[ERROR] " + message)
+  System.exit(1)
+}
 
 // Check SOURCE_DIR
 val sourceDirectory = new File(SOURCE_DIR)
-if (!sourceDirectory.isDirectory) {
-  System.err.println("[ERROR] Not a directory: " + SOURCE_DIR)
-  System.exit(1)
-}
+if (!sourceDirectory.isDirectory) error("Not a directory: " + SOURCE_DIR)
+
 val targetDirectory = new File(TARGET_DIR)
-if (!targetDirectory.isDirectory) {
-  System.err.println("[ERROR] Not a directory: " + TARGET_DIR)
-  System.exit(1)
-}
-
-// Extract metadata from a set of PHP variables.
-def readData(file: File): Map[String, String] = {
-  val Assignment = """\s*\$(\w+)\s*=\s*"([^"]+)";""".r
-  var data: Map[String, String] = Map()
-
-  for (line <- Source.fromFile(file).getLines) {
-    line match {
-      case Assignment(name, value) => data = data + (name -> value)
-      case _ => {}
-    }
-  }
-  data
-}
+if (!targetDirectory.isDirectory) error("Not a directory: " + TARGET_DIR)
 
 // Metadata for a web site content.
 case class Page(title: Option[String], description: Option[String], keywords: Option[String], path: Option[String])
@@ -55,13 +34,13 @@ for (file <- sourceDirectory.listFiles) {
 
     val page = readPage(file)
 
-    //    // Log missing values
+    // Log missing values
     if (page.path.isEmpty) {
-      println("[WARN] Missing path: " + file.getName)
+            println("[WARN] Missing path: " + file.getName)
     }
     else {
-      if (page.title.isEmpty) println("[WARN] Missing title: " + file.getName)
-      if (page.description.isEmpty) println("[WARN] Missing description: " + file.getName)
+            if (page.title.isEmpty) println("[WARN] Missing title: " + file.getName)
+            if (page.description.isEmpty) println("[WARN] Missing description: " + file.getName)
 
 
       // Output
@@ -89,9 +68,10 @@ for (file <- sourceDirectory.listFiles) {
           for (line <- Source.fromFile(pageFile).getLines) {
             line match {
               case Thumbnail(prefix, name, align, target, suffix) => {
-                out.println(prefix)
-                out.println(pictureHtml(name, align, target))
-                out.println(suffix)
+                out.print(prefix)
+                out.print(pictureHtml(name, align, target))
+                out.print(suffix)
+                out.println
               }
 
               case _ => out.println(line)
@@ -99,12 +79,31 @@ for (file <- sourceDirectory.listFiles) {
           }
         }
         else {
-          System.err.println("[ERROR] Missing page file: " + page.path.get)
-          System.exit(1)
+          error("Missing page file: " + page.path.get)
         }
         out.close()
       }
     }
+  }
+}
+
+// Extract metadata from a set of PHP variables.
+def readData(file: File): Map[String, String] = {
+  if (file.exists()) {
+    val Assignment = """\s*\$(\w+)\s*=\s*["']?([^"']+)["']?;""".r
+    var data: Map[String, String] = Map()
+
+    for (line <- Source.fromFile(file).getLines) {
+      line match {
+        case Assignment(name, value) => data = data + (name -> value)
+        case _ => {}
+      }
+    }
+    data
+  }
+  else {
+    error("File not found: " + file.getName)
+    Map()
   }
 }
 
@@ -118,30 +117,38 @@ def readPicture(file: File): Picture = {
   Picture(data.get("big_version"), data.get("thumbnail"), data.get("width"), data.get("height"), data.get("caption"))
 }
 
+case class Attr(name: String, value: Option[String]) {
+  override def toString = {
+    value.map(name + "='" + _ + "'").getOrElse("")
+  }
+}
+
+// Build HTML for an image thumbnail, which may be wrapped in a link.
 def pictureHtml(name: String, align: String, target: String): String = {
-  println("Picture(%s, %s, %s)".format(name, align, target)
+  println("Picture(%s, %s, %s)".format(name, align, target))
 
   val pic = readPicture(new File(SOURCE_DIR, "picture/data/" + name + ".data"))
-  println("  " + pic.big)
-  println("  " + pic.thumbnail)
-  println("  " + pic.width)
-  println("  " + pic.height)
-  println("  " + pic.caption)
+
+  if (pic.thumbnail.isEmpty) {
+    error("Thumbnail not found: " + name)
+  }
 
   // Check if thumbnail is an absolute URL, and make a relative URL for local images.
+  val thumbnail = pic.thumbnail.getOrElse("")
   val url =
-    if (pic.thumbnail.getOrElse("") == "http://")
-      pic.thumbnail.get
+    if (thumbnail == "http://")
+      thumbnail
     else
-      "picture/" + pic.thumbnail
+      "picture/" + thumbnail
 
-  val imgAttr = "src='%s' width='%s' height='%s' alt='%s'".format(url, pic.width, pic.height, pic.caption)
+  val imgAttr = List(Attr("src", Some(url)), Attr("width", pic.width), Attr("height", pic.height), Attr("alt", pic.caption))
 
   val imgTag =
     if (align == "left" || align == "right")
-      "<img " + imgAttr + " style='float:'" + align + "'>"
+      "<img " + imgAttr.mkString(" ") + " style='float:" + align + "'>"
     else
-      "<img " + imgAttr + ">"
+      "<img " + imgAttr.mkString(" ") + ">"
+  println("  " + imgTag)
 
   target match {
     case "" => imgTag

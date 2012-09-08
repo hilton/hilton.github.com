@@ -1,0 +1,143 @@
+---
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="viewport" content="width=590" />
+<title>Peter’s Perspective</title>
+<link rel="stylesheet" type="text/css" href="">
+<style type="text/css">
+@font-face { font-family: "Queens Park"; font-style: normal; font-weight: normal; src: url("style/font/queens-park/QUEENS__.ttf"); }
+@font-face { font-family: "Queens Park"; font-style: italic; font-weight: normal; src: url("style/font/queens-park/QUEENS_I.ttf"); }
+@font-face { font-family: "Queens Park"; font-style: normal; font-weight: bold; src: url("style/font/queens-park/QUEENS_B.ttf"); }
+@font-face { font-family: "Queens Park"; font-style: italic; font-weight: bold; src: url("style/font/queens-park/QUEENSBI.ttf"); }
+body { margin:2em; font-family: "Queens Park"; line-height:120%;}
+div.header { text-transform:uppercase; font-size:80%; padding-bottom:0.2em; border-bottom: 1px solid #ccc; }
+div.header p { margin:0; padding:0; }
+div.header a { color:black; }
+.right { float:right; }
+h1 { text-align:center; font-size:400%; }
+p.subhead {text-align:center; font-style:italic; padding-bottom: 0.5em; font-size:120%; }
+div.columns { column-width:18em; -webkit-column-width:18em; -moz-column-width:18em; column-gap:1em; -webkit-column-gap:1em; -moz-column-gap:1em; column-rule: 1px solid #ccc; -moz-column-rule: 1px solid #ccc; -webkit-column-rule: 1px solid #ccc; text-align:justify; }
+.selected {  background-color:#ffffbf; }
+p { padding:0 0.5em;}
+dt { font-weight:bold; padding:0.3em 0.5em 0 0.5em; }
+dd { margin:0; padding:0 0.5em 0.3em 0.5em; break-inside: avoid-column; }
+a { color:#900; }
+a:visited { color:#600; }
+a.byline {font-style:italic;}
+p.footer { margin-top:2em; font-size:80%; text-align:justify; line-height:100%; }
+p.footer a { color:black; }
+p.footer strong { font-weight:normal; }
+</style>
+<script type="text/javascript" src="scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+	jQuery(function($) {
+		select($(location.hash));
+		
+		$('dt').click(function(e) {
+			select($(this));
+		});
+		
+		$('a').click(function(e) {
+			select($( $(this).attr("href") ));
+		});
+	});
+
+	function select(element) {
+		$('.selected').removeClass("selected");
+		element.addClass("selected");
+		var $sibling = element[0].tagName == 'DT' ? element.next() : element.prev();
+		$sibling.addClass("selected");
+	}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3676019-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div class="header">
+<p class="right"><?php echo strftime("%d %B %Y", filemtime(substr($_SERVER["SCRIPT_NAME"], 1))); ?></p>
+<p><a href="http://hilton.org.uk/">Hilton Harbour</a> | Perspective</p>
+</div>
+
+<h1>Peter’s Perspective</h1>
+
+<p class="subhead">Wikipedia has a <a href="http://en.wikipedia.org/wiki/NPOV">neutral point of view</a> and Gordon states <em>How It Is</em>. Peter has his own perspective.</p>
+
+<div class="columns">
+
+<dl>
+<!--
+<dt id=""></dt>
+<dd></dd>
+
+-->
+<dt id="beer_English">beer, English</dt>
+<dd>English beer is almost as widely misunderstood by foreigners as <a href="#Marmite">Marmite</a>, which is ironic when you consider how the latter is made. Unlike most other European beers, English ale is not sweet or consumed in a hot country, which means that it does not need to be served cold to be palatable. That and the relatively low alcohol content make a pint (568&nbsp;ml) a more sensible unit than what is common elsewhere. This generally comes as a shock to foreigners who are used to beer that has to be served in small enough glasses for the beer still to be cold as you approach the bottom, especially since they have not been trained to drink quickly by an early <a href="#closing_time">closing time</a>. Unfortunately, this also causes British tourists overseas to down small beers at double speed and without reference to its strength. Needless to say, this often ends badly, especially when Belgian beer is involved.</dd>
+
+<dt id="Brussels">Brussels</dt>
+<dd>Brussels. Unlike other European <a href="#capital_city">capital cities</a>, it is difficult to take Brussels seriously because it lacks a proper river.</dd>
+
+<dt id="Cambridge">Cambridge</dt>
+<dd><strong>1.</strong> <em>native perspective.</em> Small, isolated UK town with a disproportionate number of beautiful historic buildings, tourists from other continents, enormous book shops, good cafes and restaurants, and sickeningly wealthy institutions founded hundreds of years ago. Cambridge is so bizarre that anyone who enjoys living there for more than four of five years risks getting used to it and becoming unable to live anywhere else (a sort of academic <a href="#capital_city">capital city</a>): visiting to do a PhD is just about safe, provided that no other undergraduate or postgrad study years are added on.
+<strong>2.</strong> <em>foreign visitors’ perspective.</em> A perfectly typical UK provincial town.
+<strong>3.</strong> Massachusetts, US, copy of sense 1, in an attempt to recreate sense 2.</dd>
+
+<dt id="capital_city">capital city</dt>
+<dd>City that has acquired enough self-importance for its native inhabitants to consider it the centre of modern civilisation, to never seriously contemplate living elsewhere, and to treat all compatriots from elsewhere as uncivilised peasants. In reality, capital cities are unnecessarily large and expensive, usually resulting in a sub-standard quality of life a substantial distance from the actual city centre. The availability of ‘everything’ in the capital city is irrelevant because, in practice, a given person only makes use of a subset of what the city provides, which can also be found in other cities. These other cities, however, do lack one thing: lots of people with the capital city mind set, and people who work in the media in particular.</dd>
+
+<dt id="children">children</dt>
+<dd>Like farts, you can just about stand your own. Fortunately, for most people, the horrors of children are more or less compensated for by the joys of <a href="#parenthood">parenthood</a>.</dd>
+
+<dt id="closing_time">closing time</dt>
+<dd>The time of day when UK pubs are required to stop serving, which until relatively recently was 11 p.m. Some pubs now stay open later, on certain days of the week. This differs from the rest of Europe, where bars generally close later, and not all at the same time. The counter-intuitive result of a strict early closing time is that people go out more and drink more, especially during the working week. In <a href="#Paris">Paris</a>, for example, bars are generally open until at least 2 a.m. and are consequently rather empty until around 10 p.m. This means that it is not much fun to go out during the working week, because bars only start to get lively around the time that you need to be getting some sleep if you have the conventional kind of job that requires you to be awake and perky by 9 a.m. In the UK, on the other hand, everything both ends and starts several hours earlier: the evening is well underway by 8 p.m. and may even start at 5 p.m. if there are enough offices around, and you can still be home by midnight. A secondary consequence is that people drink more and faster, given the time limit, which in turn explains why pubs are organised to serve beer as quickly and efficiently as possible (no table service) and why selling beer is a low-margin high-volume affair.</dd>
+
+<dt id="cocktails">cocktails</dt>
+<dd>As with many creative endeavours, cocktail-making is fundamentally about achieving balance. As with cooking, cocktail-making is largely about balancing competing flavours, and sweet versus sour in particular, except that there are generally few ingredients. And no actual cooking. In fact, the best cocktails only have three, occasionally four ingredients, beyond which the result tends to me a muddy mix of flavours, and too sweet. The exception is the Long Island Iced Tea, which combines four spirits, one liqueur, one fruit juice, and cola; and is fantastic. There is a somewhat finite set of cocktail ingredients, and all of the reasonable combinations were discovered decades ago; the good ones are called ‘classic cocktails’, such as the Piña Colada.</dd>
+
+<dt id="cultural_heritage">cultural heritage</dt>
+<dd>Each country gets a millennial quota of artistic and cultural talent. Italy’s was mostly spent in the renaissance, and used up in the baroque period shortly after; its modern architecture and music is generally terrible. France had used it all up in Napoleonic times, but had the good sense to prevent future embarassment by decreeing that at least its language and cuisine not be changed at all after about 1900; unfortunately they left pop music to its own devices.</dd>
+
+<dt id="London">London</dt>
+<dd>Canonical example of the <a href="#capital_city">capital city</a> effect, due to the extreme cost of accommodation, the length of commute from affordable (often shared and usually crappy) accommodation, the bizarrely large area in which people still claim to live ‘in London’, and the concentration of parochial arrogant media wankers. The effect is somewhat mitigated by the fact that you can treat any part of London as its own self-contained small town (which it probably originally was) and ignore the rest. London also redeems itself with its serious bookshops. Too bad the pubs are rubbish.</dd>
+
+<dt id="Marmite">Marmite</dt>
+<dd>A British foodstuff, made from yeast extract as a by-product of beer brewing, whose taste foreigners generally fail to acquire. Not having been introduced to the stuff as children, they generally neglect to accord the little jar due caution and respect and get a bad first impression. Precisely the wrong thing to do on one’s first encounter with Marmite is to stick one’s nose into the jar for a sniff and lick some off your finger, or even spread a large smear on some bread as if it were Nutella. The result is disgusting simply because the concentration and quantity is far too high. A more suitable first serving is to spread the volume of a single pea thinly and evenly across at least 100&nbsp;cm<sup>2</sup> of buttered toast. (‘Some people like to put Marmite on toast. The toast likes it too. Some English people go on to eat the Marmite, which is going a bit far, I think.’ - <a class="byline" href="http://web.archive.org/web/19990508121023/http://www.indy.net/~toast/">Tracy Aileen Copeland</a>) The smallest (125&nbsp;g) pot size is generally considered to be a year’s supply, and the larger pots are intended for large families and adults who have spent years building up a tolerance, so that they need ever-larger doses to achieve the same flavour-sensation.</dd>
+
+<dt id="parenthood">parenthood</dt>
+<dd>Eighteen-plus-year project commitment to developing one or more <a href="#children">children</a>. Extremely popular, but generally sold despite its apparent horror on account of how wonderful it feels once you start, just like heroin. You might love your kids, but that doesn’t mean that you love being a parent. The alternative is to go child-free.</dd>
+
+<dt id="Paris">Paris</dt>
+<dd>A severe example of the <a href="#capital_city">capital city</a> effect, with extreme accommodation prices and snobbism in the centre, the result of which is that instead of a conventional North-South divide, as found in most countries, France experiences more of a Paris-<em>Province</em> divide. Otherwise, Paris is famously beautiful and charming, except in the autumn when it rains more than in <a href="#London">London</a>, and in August when it is largely uninhabitable (and uninhabited).</dd>
+
+<dt id="Rotterdam">Rotterdam</dt>
+<dd>Rotterdam. From a UK perspective, Rotterdam is basically Manchester - a large and much-modernised industrial city that values its differences from the capital: a no-nonsense working culture, few tourists and plenty of space on the pavement when you walk down the street. Rotterdam's enormous port, meanwhile, has little apparent impact on the city centre; less than the imposing river and bridges.</dd>
+
+<dt id="Television">Television</dt>
+<dd>Excellently summed-up by <a href="http://www.amazon.co.uk/gp/product/0747536899/">Get A Life</a>: you are just sitting there staring at a piece of furniture that features people who are not, in fact, your friends (and who do not care if you live or die) and whose creative sociable exciting lives unnaccountably do not include television.</dd>
+
+<dt id="Writing">Writing</dt>
+<dd>Activity that stems from a common human desire to be creative, but which often suffers from a lack of actual creativity that leads to writing about writing and other textual noise. Strangely, many people associate writing with 'work', which may be why recreational reading is far more popular than recreational writing, such as blogging or tweeting.</dd>
+
+</dl>
+</div>
+
+{% assign footer_suffix = 'This page uses the <a href='http://www.rogersfonts.org.uk/html/files9.html'>Queens Park</a> font by Roger White.' %}
+{% include footer.html %}
+
+
+</body>
+</html>

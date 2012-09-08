@@ -34,24 +34,20 @@ for (file <- sourceDirectory.listFiles) {
 
     val page = readPage(file)
 
-    // Log missing values
-    if (page.path.isEmpty) {
-            println("[WARN] Missing path: " + file.getName)
+    // Output: don’t overwrite existing files.
+    val outputFile = new File(targetDirectory, file.getName.replace(".phtml", ".html"))
+    if (outputFile.exists()) {
+      println("Skipping " + file.getName.replace(".phtml", ".html"))
     }
     else {
-            if (page.title.isEmpty) println("[WARN] Missing title: " + file.getName)
-            if (page.description.isEmpty) println("[WARN] Missing description: " + file.getName)
-
-
-      // Output
-
-      val outputFile = new File(targetDirectory, file.getName.replace(".phtml", ".html"))
-
-      // Don’t overwrite existing files.
-      if (outputFile.exists()) {
-        println("Skipping " + file.getName.replace(".phtml", ".html"))
+      // Log missing values
+      if (page.path.isEmpty) {
+        println("[WARN] Missing path: " + file.getName)
       }
       else {
+        if (page.title.isEmpty) println("[WARN] Missing title: " + file.getName)
+        if (page.description.isEmpty) println("[WARN] Missing description: " + file.getName)
+
         println("Create " + outputFile)
         val out = new java.io.PrintWriter(outputFile)
 
@@ -90,7 +86,7 @@ for (file <- sourceDirectory.listFiles) {
 // Extract metadata from a set of PHP variables.
 def readData(file: File): Map[String, String] = {
   if (file.exists()) {
-    val Assignment = """\s*\$(\w+)\s*=\s*["']?([^"']+)["']?;""".r
+    val Assignment = """\s*\$(\w+)\s*=\s*["']?([^"']+)["']?;\s*""".r
     var data: Map[String, String] = Map()
 
     for (line <- Source.fromFile(file).getLines) {
@@ -125,7 +121,7 @@ case class Attr(name: String, value: Option[String]) {
 
 // Build HTML for an image thumbnail, which may be wrapped in a link.
 def pictureHtml(name: String, align: String, target: String): String = {
-  println("Picture(%s, %s, %s)".format(name, align, target))
+  println("  Picture(%s, %s, %s)".format(name, align, target))
 
   val pic = readPicture(new File(SOURCE_DIR, "picture/data/" + name + ".data"))
 
@@ -148,13 +144,13 @@ def pictureHtml(name: String, align: String, target: String): String = {
       "<img " + imgAttr.mkString(" ") + " style='float:" + align + "'>"
     else
       "<img " + imgAttr.mkString(" ") + ">"
-  println("  " + imgTag)
+  println("    " + imgTag)
 
   target match {
     case "" => imgTag
     case "big" => {
       if (pic.big.isDefined)
-        "<a href='photo/" + name + "'>" + imgTag + "</a>"
+        "<a href='picture/" + pic.big.get + "'>" + imgTag + "</a>"
       else
         imgTag
     }

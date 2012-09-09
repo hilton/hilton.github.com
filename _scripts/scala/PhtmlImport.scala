@@ -24,6 +24,8 @@ if (!targetDirectory.isDirectory) error("Not a directory: " + TARGET_DIR)
 
 // Regular expressions for matching page content lines
 val Thumbnail = """(.*?)<\?php Thumbnail \('([^']+)', '([^']*)', '([^']*)'\); \?>(.*)""".r
+val LocalLink = """(.*?href=['"])([a-z0-9_]+?)\.phtml(.*)""".r
+
 
 // Get list of source files from the directory or command line arguments
 val files =
@@ -36,9 +38,9 @@ for (file <- files) {
 
     val page = readPage(file)
 
-    // Output: don’t overwrite existing files.
+    // Output: if files weren’t specified explicitly, don’t overwrite existing files.
     val outputFile = new File(targetDirectory, file.getName.replace(".phtml", ".html"))
-    if (outputFile.exists()) {
+    if (args.isEmpty && outputFile.exists()) {
       println("Skipping " + file.getName.replace(".phtml", ".html"))
     }
     else {
@@ -53,6 +55,7 @@ for (file <- files) {
         println("Create " + outputFile)
         val out = new java.io.PrintWriter(outputFile)
 
+        // Metadata
         out.println("---")
         page.title.foreach((value) => out.println("title: " + value))
         page.description.foreach((value) => out.println("description: " + value))
@@ -61,8 +64,10 @@ for (file <- files) {
         out.println("---")
         out.println()
 
+        // Page content
         val pageFile = new File(SOURCE_DIR, page.path.get)
         if (pageFile.exists()) {
+          println("  reading " + pageFile.getName)
           for (line <- Source.fromFile(pageFile).getLines) {
             line match {
               case Thumbnail(prefix, name, align, target, suffix) => {
@@ -70,6 +75,10 @@ for (file <- files) {
                 out.print(pictureHtml(name, align, target))
                 out.print(suffix)
                 out.println
+              }
+              case LocalLink(prefix, baseName, suffix) => {
+                out.println(prefix + baseName + ".html" + suffix)
+                println("  " + line)
               }
 
               case _ => out.println(line)
@@ -120,6 +129,7 @@ def readPicture(file: File): Picture = {
   Picture(data.get("big_version"), data.get("thumbnail"), data.get("width"), data.get("height"), data.get("caption"))
 }
 
+// HTML attribute
 case class Attr(name: String, value: Option[String]) {
   override def toString = {
     value.map(name + "='" + _ + "'").getOrElse("")

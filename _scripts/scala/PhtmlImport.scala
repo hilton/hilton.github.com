@@ -1,5 +1,6 @@
 /**
- * Create GitHub pages files from HH page files.
+ * Create GitHub pages files from HH page files. All files in the source directory are processed,
+ * unless command line arguments specify input files.
  */
 
 import io.Source
@@ -20,16 +21,17 @@ if (!sourceDirectory.isDirectory) error("Not a directory: " + SOURCE_DIR)
 val targetDirectory = new File(TARGET_DIR)
 if (!targetDirectory.isDirectory) error("Not a directory: " + TARGET_DIR)
 
-// Metadata for a web site content.
-case class Page(title: Option[String], description: Option[String], keywords: Option[String], path: Option[String])
-
-case class Picture(big: Option[String], thumbnail: Option[String], width: Option[String], height: Option[String], caption: Option[String])
 
 // Regular expressions for matching page content lines
 val Thumbnail = """(.*?)<\?php Thumbnail \('([^']+)', '([^']*)', '([^']*)'\); \?>(.*)""".r
 
+// Get list of source files from the directory or command line arguments
+val files =
+  if (args.isEmpty) sourceDirectory.listFiles
+  else args.map(new File(SOURCE_DIR, _))
+
 // Loop over source files
-for (file <- sourceDirectory.listFiles) {
+for (file <- files) {
   if (!file.isDirectory && file.getName.endsWith(".phtml") && !file.getName.startsWith("cycling")) {
 
     val page = readPage(file)
@@ -103,10 +105,15 @@ def readData(file: File): Map[String, String] = {
   }
 }
 
+// Metadata for a web site content.
+case class Page(title: Option[String], description: Option[String], keywords: Option[String], path: Option[String])
+
 def readPage(file: File): Page = {
   val data = readData(file)
   Page(data.get("title"), data.get("description"), data.get("keywords"), data.get("page_file"))
 }
+
+case class Picture(big: Option[String], thumbnail: Option[String], width: Option[String], height: Option[String], caption: Option[String])
 
 def readPicture(file: File): Picture = {
   val data = readData(file)
@@ -137,7 +144,7 @@ def pictureHtml(name: String, align: String, target: String): String = {
     else
       "picture/" + thumbnail
 
-  val imgAttr = List(Attr("src", Some(url)), Attr("width", pic.width), Attr("height", pic.height), Attr("alt", pic.caption))
+  val imgAttr = List(Attr("src", Some(url)), Attr("width", pic.width), Attr("height", pic.height), Attr("alt", pic.caption), Attr("title", pic.caption))
 
   val imgTag =
     if (align == "left" || align == "right")

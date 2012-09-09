@@ -1,0 +1,169 @@
+---
+title: "Book review: Code Complete"
+description: A review of Code Complete, by Steve McConnell, with extracts from the book
+keywords: Code Complete, programming, code, writing code, advice
+layout: hh
+---
+
+<p><em>Code Complete, Steve McConnel (Microsoft Press, 1993)</em></p>
+
+<h2>A strong focus on a single topic</h2>
+
+<p><a href='photos_maastricht.phtml'><img src='picture/photo/netherlands/maastricht_flag_s.jpeg' width='125' height='198' alt='Maastricht: the flag in the main square' title='Maastricht: the flag in the main square' style='float:right'></a>
+<strong><em>Code Complete</em> is devoted to a single topic - writing 
+code.</strong> This is more clearly defined than programming in general, because that is often taken to mean 'all of the different things that programmers do', including design, testing and integration.</p>
+
+<p><strong><em>Code Complete</em> treats the subject intelligently</strong>, and is not 
+distracted by side-issues, such as choice of programming language, or the latest buzz-word topics related to the subject. This is not a book about a particular programming language or technology; the examples in the book use whichever language best illustrates the point.</p>
+
+<p>There is a difference between 'writing code' in general, and writing 
+C++, say. For example, you wouldn't expect a book about C++ to deal with issues such as choice of variable names, because that isn't intrinsically a C++ issue. Of course, many computer books about a particular programming language do stray from the topic (just as I am doing now), and discuss programming in general.</p>
+
+
+<h2>A thorough treatment of writing code</h2>
+
+<p><strong><em>Code Complete</em> is a thick book because it gives a 
+thorough treatment of a single subject</strong>, rather than just a shallow overview. This is an exception to the general rule that computer books that are more than 2&nbsp;cm thick have little content <a href="computer_books.html" class="why" title="Why thick computer books are worse than thin ones">&nbsp;WHY?&nbsp;</a>.</p>
+
+<p>See the extracts from some of the 33 chapters below, for some idea of 
+the breadth and level of detail in the book.</p>
+
+
+<h2>Balanced presentation of multiple views and clear advice</h2>
+
+<p><a href='photos_maastricht.phtml'><img src='picture/photo/netherlands/maastricht_de_percee_chairs_s.jpeg' width='198' height='125' alt='Maastricht: the terrace of Cafe de Percee' title='Maastricht: the terrace of Cafe de Percee' style='float:right'></a>
+<strong><em>Code Complete</em> discusses alternative and conflicting viewpoints, 
+set against both academic studies and the author's commercial experience.</strong> This lends a great deal authority to the content of the book, and is a combination rarely found in the IT section of your average bookshop.</p>
+
+<p><strong>The author also offers explicit and clearly-worded 
+advice</strong>, which is refreshing and useful. As well as daring to be prescriptive, he is careful to indicate which issues are controversial, giving a balanced presentation of both sides of the argument. All of this makes the various suggestions much easier to understand and swallow.</p>
+
+
+<h2>Examples of advice from the book</h2>
+
+<p><strong>The following extracts taken from ten of <em>Code Complete's</em> 33 chapters illustrate its 
+style and the nature of the advice.</strong> A disproportionate number of the extracts chosen quote academic studies, as the clear way that these results are presented and tied in with the rest of the text is one of the book's major strengths. Page numbers are given for each quotation.</p>
+
+
+<p>From Chapter 5 - <em>Characteristics of high-quality routines</em>:
+<ul>
+<li>'For a procedure name, use a strong verb followed by an object', e.g.
+PrintReport(), CheckBatteryStatus() (Except in object-oriented languages, where you don't need to include the name of the object.) (p80)</li>
+
+<li>'For a function name, use a description of the return value [... e.g.] 
+NextCustomerID(), PrinterReady()' (p80)</li>
+
+<li>'Make routine names as long as necessary.' Good function and subroutine 
+names tend to be longer than variable names; 15-20 characters is a realistic average length. (p81)</li>
+
+<li>'Limit the number of a routine's parameters to about seven. [...] 
+Psychological research has shown that people generally cannot keep track of more than about seven chunks of information at once (Miller 1956).'
+<br/>Miller, G. A. 1956. "The Magical Number Seven, Plus or Minus Two: Some 
+Limits on Our Capacity for Processing Information." The Psychological Review 63, no. 2 (March): 81-87. (p108)</li>
+
+<li>'[When passing arguments to a routine, pass] only the parts of 
+structured variables that the routine needs. [...] This is an aspect of information hiding: some information is hidden <em>in</em> routines; some is hidden <em>from</em> routines.' (p?)</li>
+</ul>
+
+
+<p>From Chapter 6 - <em>Three out of four programmers surveyed prefer modules</em>:
+<ul>
+<li>'[...] Information hiding is one of the few theoretical techniques that 
+has indisputably proven its value in practice (Boehm 1987a).' (p118)</li>
+</ul>
+
+
+<p><a href='photos_maastricht.phtml'><img src='picture/photo/netherlands/maastricht_clock_s.jpeg' width='125' height='198' alt='Maastricht: clocks on lampposts are nothing out of the ordinary' title='Maastricht: clocks on lampposts are nothing out of the ordinary' style='float:right'></a>
+From Chapter 7 - <em>High-level design in construction</em>:
+<ul>
+<li>On software design: 'Horst Rittel and Melvin Webber defined a "wicked" 
+problem as one that could be clearly defined only by solving it, or by solving part of it (1973). [...] One of the main differences between programs that you develop in school and those you develop as a professional is that the design problems solved by school programs are rarely, if ever, wicked. [...] A key to effective design is that it's a heuristic process. Design always involves some trial and error.' (p160)</li>
+</ul>
+
+
+<p>From Chapter 8 - <em>Creating data</em>:
+<ul>
+<li>In data processing (i.e. programming) the data is more important than 
+the processing (i.e. the program). So understand data structures.</li>
+
+<li>'Initialize each variable close to where it's used. [...] throwing all 
+the initializations together creates the impression that all the variables are used throughout the whole routine [...]. This is an example of the Principle of Proximity: Keep related actions together.' (p180)</li>
+
+</ul>
+
+
+<p>From Chapter 9 - <em>The power of data names</em>:
+<ul>
+<li>'You can't give a variable a name the way you give a dog a name - 
+because it's cute or it has a good sound. Unlike the dog and its name, which are different entities, a variable and a variable's name are essentially the same thing. [...] The most important consideration in naming a variable is that the name fully and accurately describe the entity the variable represents.' (p185)</li>
+
+<li>'A good mnemonic [variable] name speaks to the problem rather than the 
+solution. [...] In genreral, if a name refers to some aspect of computing rather than to the problem [such as <em>InputRec</em> instead of <em>EmployeeData</em>, or <em>BitFlag</em> instead of <em>PrinterReady</em>], it's a <em>how</em> rather than a <em>what</em> [and probably isn't the best name].' (p187)</li>
+
+<li>'Gorla, Benander, and Benander found that the effort required to debug a 
+COBOL program was minimized when variables had names that averaged 10 to 16 characters (1990). [this should only be taken to mean] that if you look over your code and see many names that are shorter, you should check to be sure that the names are as clear as they need to be.' (p188)</li>
+
+<li><a href='photos_maastricht.phtml'><img src='picture/photo/netherlands/maastricht_de_percee_bikes_s.jpeg' width='125' height='198' alt='Maastricht: the Dutch do it right - in front of this pavement cafe a cycle path is much better than a busy road' title='Maastricht: the Dutch do it right - in front of this pavement cafe a cycle path is much better than a busy road' style='float:right'></a>
+'When you find yourself &quot;figuring out&quot; a section of code, consider 
+renaming the variables. It's OK to figure out murder mysteries, but you shouldn't need to figure out code. You should be able to read it.' (p193)</li>
+
+<li>'Remember that names matter more to the reader of the code than to the 
+writer', which means that being able to understand your own code is not a sufficient condition for it to be readable. (p209)</li>
+
+<li>'Avoid numerals in names. If the numerals in a name are really 
+significant, use an array instead of separate variables. If an array is inappropriate, numerals are even more inappropriate. [...] You can almost always think of a better way to differentiate between two variables by tacking a 1 or a 2 onto the end of the name. I can't say <em>never</em> use numerals, but you should be desperate before you do.' (p210)</li>
+</ul>
+
+
+<p>From Chapter 11 - <em>Fundamental data types</em>:
+<ul>
+<li>'Think of arrays as sequential structures. Some of the brightest people 
+in computer science have suggested that arrays never be accessed randomly, but only sequentially (Mills and Linger 1986). Their argument is that random accesses in arrays are similar to random "gotos" in a program.' (p251)</li>
+</ul>
+
+
+<p>From Chapter 12 - <em>Complex data types</em>:
+<ul>
+<li>'Traditionally, programming books [and university courses] wax 
+mathematical when they arrive at the topic of abstract data types [and ...] provide some boring examples of how to write access routines for a stack, a queue, or a list. [...] Such dry explanations of abstract data types completely miss the point [...] because you can use them to manipulate real-world entities rather than computer-science entities.' (p288)</li>
+
+</ul>
+
+
+<p>From Chapter 13 - <em>Organizing straight-line code</em>:
+<ul>
+<li>Minimise a variable's 'live time' - the number of statements between the 
+first and last references to the variable in the source code. This makes the code easier to read and reduces the likelihood of bugs being introduced as the code is modified and straight line code has loops added, for example. (p305)</li>
+
+<li>Group related lines of code. 'They can be related because they operate 
+on the same data, perform similar tasks, or depend on each other's being formed in order.' (p308)</li>
+</ul>
+
+
+<p><a href='photos_maastricht.phtml'><img src='picture/photo/netherlands/maastricht_falstaff_marion_s.jpeg' width='198' height='125' alt='Maastricht: sitting outside the Falstaff in summer, with a glass of Wickse Witte' title='Maastricht: sitting outside the Falstaff in summer, with a glass of Wickse Witte' style='float:right'></a>
+From Chapter 14 - <em>Using conditionals</em>:
+<ul>
+<li>IF statements: 'Write the nominal path through the code first; then 
+write the exceptions. [...] Make sure you branch correctly on equality. [...] Put the nominal case after the IF rather than after the ELSE. [...] Follow the IF clause with a meaningful statement.' (p312)</li>
+
+<li>IF statements: 'If you think you need a plain IF statement, consider 
+whether you don't actually need an IF-THEN-ELSE statement. In a General Motors analysis of code written in PL/1, only 17 percent of IF statements had an ELSE clause. Further analysis of the code showed that 50 to 80 percent should have had one (Elshoff 1976).' (p314)</li>
+
+<li>IF statements: 'Use boolean [sic] variables to simplify complicated 
+tests. [... or] Simplify complicated tests with boolean [sic] function calls.' (p315)</li>
+
+<li>case statements: 'You might sometimes have only one case remaining and 
+decide to code that case as the default clause. Though sometimes tempting, that's dumb. [...] Use the default clause to detect errors. (p319)</li>
+
+</ul>
+
+
+<p>From Chapter 15 - <em>Controlling loops</em>:
+<ul>
+<li>'Make each loop perform only one function. [...] If it seems inefficient 
+to use two loops where one would suffice, write the code as two loops, comment that they could be combined for efficiency, and then wait until benchmarks show that the section of the program poses a performance problem before changing the two loops into one.' (p334)</li>
+
+<li>'Studies have shown that the ability of programmers to comprehend a loop 
+deteriorates significantly beyond three levels of nesting (Yourdon 1986a). If you're going beyond that number of levels, make the loop shorter (conceptually) by breaking part of it into a routine or simplifying the control structure.' (p341)</li>
+</ul>
+

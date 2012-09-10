@@ -1,0 +1,714 @@
+---
+title: Lime - an editor for online HTML publishing
+description: A design for Lime, an HTML logical mark-up editor.
+layout: hh
+---
+
+<BLOCKQUOTE>
+Note: the design on this page has never been implemented as an application;
+I wrote it in 1999 to encapsulate my ideas about what was missing from
+current HTML editors, which were anything but writers' tools. At the time,
+the closest implementation I found was <a href="http://www.xmetal.com/">XMeTaL</a>, but that's expensive
+overkill for this purpose. In September 2002 the most promising tool was <a href="http://www.ektron.com/ewebeditpro.cfm">eWebEditPro</a>. 
+This design is &copy;1999 Peter Hilton (all rights reserved).</BLOCKQUOTE>
+
+<h2>Introduction</h2>
+
+
+<H3>The problem at hand</H3>
+
+<p><a href='picture/photo/scotland/edinburgh_buildings.jpeg'><img src='picture/photo/scotland/edinburgh_buildings_s.jpeg' width='198' height='125' alt='Edinburgh: near the city centre' title='Edinburgh: near the city centre' style='float:right'></a>
+When a novellist submits a manuscript its content is used, not its 
+design. In the same way, authors of web pages, technical documentation and internal corporate communications are not and should not be the designers of those documents' appearances.</p>
+
+<p>Word-processors do not allow this, as they are oriented towards 
+typography. HTML has the potential for content and design to be separated, but unfortunately, current HTML editors do not allow this. This is presumably because they are addressing a different problem - WYSIWY(NT)G editing for graphic-rich content-free web page design.</p>
+
+
+<H3>Cascading Style Sheets</H3>
+
+<p>The abstract to the 
+<a href="http://www.w3.org/TR/REC-CSS2/"><em>Cascading Style Sheets, level 2: CSS2 Specification</em></a> describes Cascading Style Sheets (CSS) as follows.</p>
+
+<BLOCKQUOTE>
+<DFN>CSS2 is a style sheet language that allows authors and users to attach style (e.g., fonts, spacing, and aural cues) to structured documents (e.g., HTML documents and XML applications)</DFN>. By separating the presentation style of documents from the content of documents, CSS2 simplifies Web authoring and site maintenance. </BLOCKQUOTE>
+
+<p>The separation of presentation style and content is crucial in making it 
+possible to separate the roles of document designer and document author.</p>
+
+
+<H3>The HTML 4.0 Strict DTD</H3>
+
+<p>There are three document type definitions (DTDs) of 
+<a href="http://www.w3.org/TR/REC-html40/">HTML 4.0</a>, which define three variants of the language. According to the World Wide Web Consortium (W3C) the '<DFN>HTML 4.0 Strict DTD includes all elements and attributes that have not been deprecated or do not appear in frameset documents</DFN>. [...] We recommend that authors write documents that conform to the strict DTD rather than the other DTDs defined by [the HTML 4.0] specification'. In this document I shall refer to HTML that validates to the HTML 4.0 Strict DTD as <DFN>Strict HTML 4</DFN>.</p>
+
+
+<H3>The Strict HTML 4/CSS platform</H3>
+
+<p><a href='picture/photo/scotland/edinburgh_horizon.jpeg'><img src='picture/photo/scotland/edinburgh_horizon_s.jpeg' width='198' height='125' alt='Edinburgh: looking North from the castle' title='Edinburgh: looking North from the castle' style='float:right'></a>
+The combination of and Strict HTML 4 and external Cascading Style Sheets 
+promises separation of content and presentation in HTML, because this prohibits presentation mark-up in the HTML. Ideally this would let content authors concentrate on writing without having to code valid HTML by hand.</p>
+
+<p>A visual editor that met the requirements listed in this document would 
+make HTML 4.0 Strict/CSS a usable platform for many types of document, other than web pages, particularly internal company documents, for which presenting information in a standard format is more important than flexibility of design for individual documents.
+</p>
+
+
+<H3>Current visual HTML editors</H3>
+
+<p>The current visual editors - those which do not require knowledge of the
+HTML element names - are typified by Microsoft FrontPage. These editors reflect a trend to try to turn HTML into an ever-richer typographical page-description language, a purpose for which it was not designed, by those people who failed to understand the concept of structural mark-up.</p>
+
+<p>HTML mark-up is concerned with structure and semantics, not
+presentation, so any editor that hides this is fundamentally flawed. See <em><a href="http://www.itlibrary.com/library/1575210967/ch3.htm#WhatHTMLIsandWhatItIsnt">What HTML Is... and What It Isn't</a></em> for a further explanation.</p>
+
+
+<H3>The goals of <em>Lime</em></H3>
+
+<p><a href='picture/photo/scotland/edinburgh_royal_mile.jpeg'><img src='picture/photo/scotland/edinburgh_royal_mile_s.jpeg' width='125' height='198' alt='Edinburgh: looking East down the Royal Mile' title='Edinburgh: looking East down the Royal Mile' style='float:right'></a>
+<em>Lime</em> is intended to be a new kind of WYSIWYG HTML editor - an
+alternative to a word-processor that</p>
+<ul>
+<li>allows content authors to produce HTML documents without knowledge of HTML markup
+<li>guarantees <em>valid</em> version 4.0 strict HTML
+<li>allows content authors to concentrate on content, not design
+<li>is a simple and elegant application
+</ul>
+<p>This is clearly not achieved by a word-processor - the current default 
+tool, or any current WYSIWYG editor.</p>
+
+<p>One editor that almost meets these goals is Softquad's 
+<a href="http://www.xmetal.com/">XMetaL</a>, which is designed to be a customisable XML authoring tool. A simplified customised set-up can be created, for authoring HTML 4.0 Strict/CSS, but XMetaL is a more complex and expensive product than is really necessary.</p>
+
+
+<H3>Benefits of <em>Lime</em> and HTML/CSS</H3>
+
+<p><em>Lime</em> will be better than a word-processor because</p>
+<ol>
+<li>it will be simple and easy-to-use as it will avoid the complexity
+associated with typographical and logout control
+<li>it will generate smaller files, in an open human-readable format
+<li>it will be a simpler action application
+<li>it will allow authors to concentrate exclusively on content, without
+being distracted by formatting
+<li>it will produce documents with a consistent design
+<li>HTML and CSS are proven, well-supported and open technologies
+<li>is will have an Open Source licence
+</ol>
+
+
+<h2>Requirements Specification</h2>
+
+<p>These are the strict requirements for the basic concept to work.</p>
+
+
+<H3>Common application requirements</H3>
+<ol>
+<li><a href='picture/photo/scotland/edinburgh_doorway.jpeg'><img src='picture/photo/scotland/edinburgh_doorway_s.jpeg' width='125' height='198' alt='Edinburgh: a doorway' title='Edinburgh: a doorway' style='float:right'></a>
+For user-interface consistency, <em>Lime</em> <em>shall</em> comply with 
+the <I>Windows Interface Guidelines For Software Design</I>, or whatever guidelines are appropriate for the chosen platform
+<li><em>Lime</em> <em>shall</em> have Find and Find/Replace facilities.
+<li><em>Lime</em> <em>shall</em> have online help.
+<li><em>Lime</em> <em>shall</em> have an Undo facility.
+<li><em>Lime</em> <em>shall</em> implement the clipboard.
+<li><em>Lime</em> <em>shall</em> implement the File menu MRU list.
+<li><em>Lime</em> <em>shall</em> provide keyboard shortcuts for most options
+<li><em>Lime</em> <em>shall</em> support multiple document windows.
+</ol>
+
+
+<H3>Editing facilities</H3>
+<ol>
+<li>The content <em>shall</em> be editable in a view that renders the external style 
+sheet.
+
+<li>The user interface <em>shall</em> indicate the currently chosen block-level 
+element and any current inline elements.
+
+<li>The user interface <em>shall</em> allow block-level elements to be chosen from a 
+fixed set of valid options.
+
+<li>The user interface <em>shall</em> allow <CODE>DIV</CODE> and 
+<CODE>SPAN</CODE> elements to be entered.
+
+<li>The user interface <em>shall</em> allow inline elements to be chosen from a fixed set of 
+valid options.
+
+<li><em>Lime</em> <em>shall</em> not allow multiple consecutive spaces to be entered.
+
+<li><em>Lime</em> <em>shall</em> not allow multiple empty paragraphs to be 
+entered; and <em>shall</em> not save empty paragraphs.
+</ol>
+
+
+<H3>Tables</H3>
+<ol>
+<li>The user <em>shall</em> be able to include tables in the document.
+<li>The user <em>shall</em> be able to add or remove rows and columns from a table.
+<li>The user <em>shall</em> be able to add or remove table cells from a table.
+<li>The user <em>shall</em> be able to split or merge table cells.
+</ol>
+
+
+<H3>Lists</H3>
+<ol>
+<li>The user <em>shall</em> be able to include ordered or unordered lists in the document.
+<li>The user <em>shall</em> be able to include definition lists in the document.
+<li>The user <em>shall</em> be able to nest lists.
+</ol>
+
+
+<H3>Additional requirements</H3>
+<ol>
+<li><a href='picture/photo/scotland/edinburgh_steps.jpeg'><img src='picture/photo/scotland/edinburgh_steps_s.jpeg' width='125' height='198' alt='Edinburgh, Scotland' title='Edinburgh, Scotland' style='float:right'></a>
+<em>Lime</em> <em>shall</em> load all versions of HTML, and shall attempt
+to interpret invalid mark-up, rather than fail to load the document.
+
+<li><em>Lime</em> <em>shall</em> always save HTML 4.0, which exludes all 
+deprecated attributes and elements, most of which are for formatting.
+
+<li>The user <em>shall</em> be able to choose an external style sheet for the current 
+document.
+
+<li>The user <em>shall</em> be able to edit values for all valid 
+<CODE>HEAD</CODE> section elements, including custom <CODE>META</CODE> tags.
+
+<li>The user <em>shall</em> have the option to save either the contents of 
+the <CODE>BODY</CODE> tag as an HTML fragment, or the complete HTML document.
+
+<li><em>Lime</em> <em>shall</em> have a spelling checker facility.
+
+<li><em>Lime</em> <em>shall</em> always present to the user full names for
+the HTML elements, as well as the tag names.
+
+</ol>
+
+
+<h2>Successive versions of <em>Lime</em></h2>
+
+<p>The priorities for successive versions of <em>Lime</em> are</p>
+<ol>
+<li>basic functionality</li>
+<li>style sheet support</li>
+<li>outliner functionality</li>
+<li>the remaining missing 'word-processor functionality'.</li>
+</ol>
+
+<p>The extra requirements are</p>
+<ol>
+<li><em>Lime</em> <em>should</em> provide a document map view that shows HTML heading 
+styles with levels.
+
+<li><em>Lime</em> <em>should</em> include 'outliner' functionality, based on 
+HTML heading styles.
+
+<li>The user <em>should</em> be able to specify classes for HTML elements 
+from a pick list of classes defined in the current style sheet(s).
+
+<li>The user <em>should</em> be able to include HTML forms in the document.
+
+<li><em>Lime</em> <em>should</em> include a facility to sort tables, as in
+Microsoft Word.</li>
+
+<li>The user <em>should</em> be able to configure the list of valid tags.
+
+<li><em>Lime</em> <em>should</em> include version tracking functionality, using the
+<CODE>INS</CODE> and <CODE>DEL</CODE> tags.
+
+<li>The user <em>should</em> be able to insert and edit client-side scripts 
+in the document.
+</ol>
+
+
+<h2>Example design</h2>
+
+<p><a href='picture/photo/scotland/edinburgh_marion_lisa.jpeg'><img src='picture/photo/scotland/edinburgh_marion_lisa_s.jpeg' width='125' height='198' alt='Edinburgh: Marion and Lisa' title='Edinburgh: Marion and Lisa' style='float:right'></a>
+This section describes a possible design for <em>Lime</em>, not to 
+serve as <em>the</em> design, but to illustrate what <em>Lime</em> might be like.
+
+<H3>Dialogue boxes</H3>
+
+<p>The <em>Find</em>, <em>Replace</em> and <em>About</em> dialogue boxes 
+should provide standard functionality. The <em>Document Properties</em> dialogue box will allow the user to specify the data used in the HTML <CODE>HEAD</CODE> section. The <em>Insert Image</em> and <em>Insert Table</em> dialogue boxes will allow the user to specify initial value, in order to create valid <CODE>IMG</CODE> and <CODE>TABLE</CODE> elements, respectively.</p>
+
+
+<H4>Structure Editor</H4>
+
+<p>The <em>Structure Editor</em> is a non-modal dialogue box, or inspector,
+that will show the document element structure as a tree control, with one node for each HTML element. The tree control selection indicates the current HTML element. The selected node will be synchronised with the cursor position in the main view. Clicking a node in the structure tree sets the document selection to that element's contents - a few emphasised words or a paragraph, for example.</p>
+
+
+<H4>Attribute Editor</H4>
+
+<p>The <em>Attribute Editor</em> is a non-modal dialogue box, or inspector,
+that lists attributes for the current HTML element as a list of name-value pairs, in a two-column grid control. Each attribute name cell is a type-in control that also has a pick-list. This pick-list gives a choice of the valid attributes for the current element that are not already in the element list.</p>
+
+<p>The attribute value cells are just text-entry fields, except for the 
+<CODE>class</CODE> attribute, whose value <em>should</em> have a pick list of the available classes defined for the current element in the current style sheet.</p>
+
+
+<H3>Toolbars and status bar</H3>
+
+<p>Toolbars <em>shall</em> include</p>
+<ol>
+<li>standard buttons for common menu options
+<li>a pulldown list to choose the current block-level element
+
+<li>toggle buttons to show state of inline elements; turning one off removes 
+the current span of that element; turning one on applies the element to the current selection, or the current word if there is no selection
+
+<li>a URL toolbar, as on a web browser, that displays the current file URL
+and allows the user to specify a document to load
+</ol>
+
+<p>The status bar <em>should</em> show the current HTML context.</p>
+
+
+<H3>Lists</H3>
+
+<p>Ordered and unordered lists will be treated as block styles, rather
+than deal with <CODE>OL</CODE>/<CODE>UL</CODE> and <CODE>LI</CODE> tags separately. Choosing one of these block styles will set the current block tag to be <CODE>LI</CODE>. If one of the two surrounding blocks is also an <CODE>LI</CODE> in a list of the same type, then the current block will be merged into that list. Otherwise, a new <CODE>OL</CODE> or <CODE>UL</CODE> list will be created with the current block as its only list item.</p>
+
+<p>Definition list <em>terms</em> and <em>definitions</em> will be treated 
+as separate block styles. Consecutive <em>terms</em> and <em>definitions</em> will form a single <CODE>DL</CODE> element in the same way that consecutive <CODE>LI</CODE> list items form either a <CODE>UL</CODE> or <CODE>OL</CODE> element.</p>
+
+
+<H3>Menus</H3>
+
+<p>This section lists menus and menu options, with keyboard short-cut keys
+and descriptions of the menu options actions'. Where no action is given, the conventional behaviour under Windows should be assumed.
+
+<H4>File menu</H4>
+<TABLE>
+<tr><TH>Menu item</TH>
+<TH>Shortcut</TH>
+<TH>Action</TH>
+</tr>
+
+<tr><td>New</td><td>N</td>
+<td></td>
+</tr>
+
+<tr><td>Open...</td><td>O</td>
+<td></td>
+</tr>
+
+<tr><td>Close</td><td>W</td>
+<td></td>
+</tr>
+
+<tr><td>Save</td><td>S</td>
+<td></td>
+</tr>
+
+<tr><td>Save As...</td><td></td>
+<td></td>
+</tr>
+
+<tr><td>Document Properties</td><td></td>
+<td>Open the <em>Document Properties</em> dialogue box</td>
+</tr>
+
+<tr><td>(MRU list)</td><td></td>
+<td></td>
+</tr>
+
+<tr><td>Exit</td><td></td>
+<td></td>
+</tr>
+
+</TABLE>
+
+
+<H4>Edit menu</H4>
+<TABLE>
+<tr><TH>Menu item</TH>
+<TH>Shortcut</TH>
+<TH>Action</TH>
+</tr>
+
+<tr><td>Undo</td><td>Z</td>
+<td></td>
+</tr>
+
+<tr><td>Cut</td><td>X</td>
+<td></td>
+</tr>
+
+<tr><td>Copy</td><td>C</td>
+<td></td>
+</tr>
+
+<tr><td>Paste</td><td>V</td>
+<td></td>
+</tr>
+
+<tr><td>Clear</td><td></td>
+<td></td>
+</tr>
+
+<tr><td>Select All</td><td>A</td>
+<td></td>
+</tr>
+
+<tr><td>Find...</td><td>F</td>
+<td>Opens the <em>Find</em> dialogue box</td>
+</tr>
+
+<tr><td>Find Next</td><td>G</td>
+<td></td>
+</tr>
+
+<tr><td>Replace...</td><td>H</td>
+<td>Opens the <em>Replace</em> dialogue box</td>
+</tr>
+</TABLE>
+
+
+<H4>View menu</H4>
+<TABLE>
+<tr><TH>Menu item</TH>
+<TH>Shortcut</TH>
+<TH>Action</TH>
+</tr>
+
+<tr><td>Toolbar</td><td></td>
+<td>Toggles display of the toolbar</td>
+</tr>
+
+<tr><td>Structure Editor</td><td></td>
+<td>Toggles display of the Structure Editor</td>
+</tr>
+
+<tr><td>Attribute Editor</td><td></td>
+<td>Toggles display of the Attribute Editor</td>
+</tr>
+
+<tr><td>Zoom In</td><td>]</td>
+<td>Enlarges typefaces, images and all relative spacing</td>
+</tr>
+
+<tr><td>Zoom Out</td><td>[</td>
+<td>Shrinks typefaces, images and all relative spacing</td>
+</tr>
+
+<tr><td>Normal Zoom</td><td>=</td>
+<td>Sets typefaces, images and spacing to their default sizes</td>
+</tr>
+
+<tr><td>Use Style Sheet</td><td></td>
+<td>Toggles whether the display is rendered according to the document's style sheet</td>
+</tr>
+</TABLE>
+
+
+<H4>Insert menu</H4>
+<TABLE>
+<tr><TH>Menu item</TH>
+<TH>Shortcut</TH>
+<TH>Action</TH>
+</tr>
+
+<tr><td>Line Break</td><td>Shift Enter</td>
+<td>Inserts an HTML <CODE>BR</CODE> element at the current cursor location</td>
+</tr>
+
+<tr><td>List</td><td>L</td>
+<td>Inserts a list at the cursor location, or a nested list if the current paragraph is a list item</td>
+</tr>
+
+<tr><td>Image...</td><td></td>
+<td>Opens the <em>Insert Image</em> dialogue box, to allow the user to define a new image to insert at the current cursor location</td>
+</tr>
+
+<tr><td>File...</td><td></td>
+<td>Opens a file selector, to allow the user to choose a file to insert at the current cursor location</td>
+</tr>
+</TABLE>
+
+
+<H4>Table menu</H4>
+<TABLE>
+<tr><TH>Menu item</TH>
+<TH>Shortcut</TH>
+<TH>Action</TH>
+</tr>
+
+<tr><td>Insert Table...</td><td>T</td>
+<td>Opens the <em>Insert Table</em> dialogue box, to allow the user to define a new table to insert at the current cursor location</td>
+</tr>
+
+<tr><td>Delete Table</td><td></td>
+<td>Deletes the current table</td>
+</tr>
+
+<tr><td>Split Table</td><td></td>
+<td>Splits the current table into two tables, making the current row the first row of the second table</td>
+</tr>
+
+<tr><td>Insert Row/Column/Cell</td><td></td>
+<td>Inserts a row, column or cell at the cursor location, according to the current selection</td>
+</tr>
+
+<tr><td>Delete Rows/Columns/Cells</td><td></td>
+<td>Deletes a row, column or cell at the cursor location, according to the current selection</td>
+</tr>
+
+<tr><td>Merge Cells</td><td></td>
+<td>Merges the currently selected cells, to form a single table cell</td>
+</tr>
+
+<tr><td>Split Cell</td><td></td>
+<td>Splits the current cell into two adjacent cells</td>
+</tr>
+
+<tr><td>Select Row</td><td></td>
+<td>Selects the current row</td>
+</tr>
+
+<tr><td>Select Column</td><td></td>
+<td>Selects the current column</td>
+</tr>
+
+<tr><td>Select Table</td><td></td>
+<td>Selects the current table</td>
+</tr>
+</TABLE>
+
+
+<H4>Help menu</H4>
+<TABLE>
+<tr><TH>Menu item</TH>
+<TH>Shortcut</TH>
+<TH>Action</TH>
+</tr>
+
+<tr><td>Help Contents</td><td></td>
+<td>Displays the contents page of the online help</td>
+</tr>
+
+<tr><td>Lime Web Site</td><td></td>
+<td>Launches the <em>Lime</em> web site</td>
+</tr>
+
+<tr><td>About Lime</td><td></td>
+<td>Displays the About dialogue box</td>
+</tr>
+</TABLE>
+
+
+
+<h2>Appendix: List of editable elements and attributes</h2>
+
+<p>The design implies that only the following tags will be used. For each
+tag, the valid attributes will be as defined in the HTML specification, for the Strict DTD.</p>
+
+<H3>Block-level elements</H3>
+
+<TABLE>
+<tr><th>Tag name</TH><TH>Description</TH></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-ADDRESS">ADDRESS</a></td>
+<td>contact information for the author</td>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-BLOCKQUOTE">BLOCKQUOTE</a></td>
+<td>long quotation</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-H1">H1</a></td>
+<td>heading</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-H2">H2</a></td>
+<td>heading</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-H3">H3</a></td>
+<td>heading</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-H4">H4</a></td>
+<td>heading</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-H5">H5</a></td>
+<td>heading</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/global.html#edef-H6">H6</a></td>
+<td>heading</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#edef-HR">HR</a></td>
+<td>horizontal rule</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-P">P</a></td>
+<td>paragraph</td>
+<td></td></tr>
+
+</TABLE>
+
+
+<H3>Inline elements</H3>
+
+<TABLE>
+<tr><th>Tag name</TH><th>Description</TH>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/links.html#edef-A">A</a></td>
+<td>anchor</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-ABBR">ABBR</a></td>
+<td>abbreviated form (e.g., WWW, HTTP, etc.)</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-ACRONYM">ACRONYM</a></td>
+<td>acronym</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#edef-B">B</a>
+<td>bold text style</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/dirlang.html#edef-BDO">BDO</a></td>
+<td>I18N bi-directional text over-ride</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#edef-BIG">BIG</a>
+<td>large text style</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-BR">BR</a></td>
+<td>forced line break</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-CITE">CITE</a></td>
+<td>citation</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-CODE">CODE</a></td>
+<td>computer code fragment</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-DFN">DFN</a></td>
+<td>instance definition</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-EM">EM</a></td>
+<td>emphasis</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-KBD">KBD</a></td>
+<td>text to be entered by the user</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#edef-I">I</a>
+<td>italic text style</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-Q">Q</a></td>
+<td>short inline quotation</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-SAMP">SAMP</a></td>
+<td>sample program output, scripts, etc.</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#edef-SMALL">SMALL</a>
+<td>small text style</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-STRONG">STRONG</a></td>
+<td>strong emphasis</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-SUB">SUB</a></td>
+<td>subscript</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-SUP">SUP</a></td>
+<td>superscript</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#edef-TT">TT</a>
+<td>teletype or monospaced text style</td>
+<td></td></tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/REC-html40/struct/text.html#edef-VAR">VAR</a></td>
+<td>instance of a variable or program argument
+
+</TABLE>
+
+
+<H3>Core attributes</H3>
+
+<p>The following core attributes apply to all of the elements listed above.</p>
+
+
+<TABLE>
+<tr><TH>Attribute name</TH><TH>Description</TH><TH>Notes</TH></tr>
+
+<tr>
+<td><a href="">id</a>
+<td>document-wide unique id --</td>
+<td></td></tr>
+
+<tr>
+<td><a href="">class</a>
+<td>space separated list of classes</td>
+<td></td></tr>
+
+<tr>
+<td><a href="">dir</a>
+<td>direction for weak/neutral text</td>
+<td>(but not <CODE>HR</CODE> or <CODE>BR</CODE>)</td></tr>
+
+<tr>
+<td><a href="">lang</a>
+<td>space separated list of classes</td>
+<td>(but not <CODE>HR</CODE> or <CODE>BR</CODE>)</td></tr>
+
+<tr>
+<td><a href="">style</a>
+<td>associated style info</td>
+<td></td></tr>
+
+<tr>
+<td><a href="">title</a>
+<td>advisory title/amplification</td>
+<td></td></tr>
+
+</TABLE>

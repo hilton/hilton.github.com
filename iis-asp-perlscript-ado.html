@@ -1,0 +1,136 @@
+---
+title: Pros and cons of using IIS, ASP, PerlScript and ADO on Windows NT
+description: Observations on the pros and cons of using these to produce a web application.
+keywords: comparison, IIS, ASP, PerlScript, ADO, Windows NT, Microsoft Internet Information Server, Active Server Pages, PerlScript, ActiveX Data Objects, OLE DB
+layout: hh
+---
+
+
+<p>This document records some observations on the pros and cons of using 
+<em>Microsoft Internet Information Server, Active Server Pages, PerlScript and ActiveX Data Objects</em> together on <em>Windows NT</em> to produce a web application.</p>
+
+<p>Ideally it would be possible to consider each of these components 
+independently, but this is not generally the case. This is why, when choosing a web server, programming language, programming language interface, and database interface, it is important to consider whether the choice of one restricts the choice of any of the others.</p>
+
+<p>In the past, <em>Common Gateway Interface (CGI)</em> was a standard interface 
+between the web server and the programming language. Nowadays the two are usually more closely integrated for better performance and functionality. The downside of this is that this web server interface may impose a dependency on the programming language and even on the code itself. For example using <em>Active Server Pages</em> restricts your choice of programming language and will make some of your code dependent on <em>Microsoft Internet Information Server</em>.</p>
+
+
+
+<h2>Internet Information Server (IIS)</h2>
+
+<p>Microsoft <em>Internet Information Server (IIS)</em> is Microsoft's 'enterprise' web server.</p>
+
+<h3>Pros</h3>
+
+<p>The graphical user interface <strong>(GUI) helps new users</strong>.
+<em>IIS</em> has <strong>good integration with <em>Performance Monitor</em></strong>, which provides for
+easy access to extensive usage statistics.
+</p>
+
+<h3>Cons</h3></p>
+<ul>
+<li><em>IIS</em> is <strong>not robust</strong> and can easily be made to 'hang' so that the server 
+must be rebooted to recover. It is certainly unacceptable for an NT Service to fail in this way.
+
+<li><em>IIS</em> <strong>can only be configured using the GUI</strong>, which can be a complex and 
+laborious manual process in a production environment. There seems to be no way to encapsulate all of the settings in a single configuration file, as you can with Apache, which is essential for configuration management.
+
+
+<li><em>IIS</em> <strong>lacks flexibility</strong> in many areas. For example, there is almost no way 
+to control how URLs are parsed.
+
+<li><strong>Remote administration and configuration of <em>IIS</em> is almost impossible</strong>, as 
+this can only be done using a crippled web-interface that, of course, requires <em>IIS</em> to be running and correctly configured!
+
+<li><em>IIS</em> is <strong>only available for <em>Windows</em></strong>.
+</ul>
+
+
+<h3>Conclusion</h3>
+
+<p>Almost none of <em>IIS</em>' 'unique selling points' are unique, or selling 
+points. Avoid <em>IIS</em>; instead use Apache, the industry standard web server.</p>
+
+
+
+<h2>Active Server Pages (ASP)</h2>
+
+<p><em>ASP</em> is an <em>IIS</em> plug-in that pre-processes web pages, allowing you to 
+embed server-side code in a more efficient way than <em>CGI</em>.</p>
+
+<h3>Pros</h3>
+
+<p><em>ASP</em> provides a <strong>simple interface to user-session management and cookies</strong>, 
+which is very useful for most web applications. Using the <em>Windows Scripting Host</em>, <em>ASP</em> also allows a <strong>choice of programming language</strong>: <em>VBScript, JScript</em> or <em>Perl</em>.
+</p>
+
+<h3>Cons</h3>
+
+<p><em>ASP</em> does not expose <em>HTTP</em> variables as environment 
+variables, which is the conventional approach in web server programming environments (because <em>VBScript</em> cannot access environment variables). Instead <strong>a 'Request object' is used, which makes code specific to <em>AS</em>P</strong>.
+</p>
+
+<h3>Conclusion</h3>
+
+<p><em>ASP</em> is a good environment for web applications programming, but it 
+offers no particular advantages over the alternatives that it is copied from, such as <a href="http://www.php.net/" title="PHP home page"><em>PHP</em></a>, <em>GNU Server Pages</em> or the various forms of embedded <em>Perl</em>, such as the <em>Apache::ASP</em> <em>Perl</em> module for <em>Apache</em>. In fact, these alternatives are generally superior to <em>ASP</em>.</p>
+
+
+
+<h2>PerlScript</h2>
+
+<p><a href="http://www.activestate.com/ActivePerl/docs/PerlScript.html"><em>PerlScript</em></a> is ActiveX scripting engine for <a href="http://www.activestate.com/activeperl/"><em>ActivePerl</em></a>, <a href="http://www.activestate.com/">ActiveState</a>'s 
+<em>Perl</em> distribution for the Win32 platform. <em>PerlScript</em> allows you to use <em>Perl</em> as the <em>ASP</em> language, instead of <em>VBScript</em> or <em>JScript</em>.</p>
+
+<h3>Pros</h3></p>
+<ul>
+<li>The ActivePerl <em>Perl</em> distribution is extrememly <strong>straightforward 
+to install and use</strong>.
+
+<li>ActivePerl installs a <strong>very usable set of the complete Perl
+documentation</strong>.
+
+<li>The <em>Perl Package Manager (PPM)</em> makes it ridiculously <strong>easy to 
+download and install <em>Perl</em> modules</strong> from the huge number available on the <em><a href="http://www.perl.com/CPAN/">Comprehensive Perl Achive Network</a> (CPAN)</em>, so there is no need to compile or 'build' anything.
+
+<li>It is straightforward to <strong>run programs interactively at the command line</strong>, 
+which is useful for debugging. This is not easy to do with some other languages.
+
+<li>As <em>Perl</em> is the most widely-used programming language for web server 
+applications, the <strong>support and documentation available on the web surpasses that for all other languages</strong>, either because they are less popular or because they are not as closely associated with the web.
+
+<li><em>Perl</em> is <strong>independent of the other technologies</strong> involved, such as
+<em>VBScript</em>.
+</ul>
+
+<h3>Cons</h3>
+
+<p><em>Perl</em> <em>can</em> be a <strong>messy language</strong> and requires 
+programmer-discipline to produce maintainable code. This is because 'There's More Than One Way To Do It', as the <em>Perl</em> motto goes, which means that coding styles can vary a lot.</p>
+
+<h3>Conclusion</h3>
+
+<p><em>Perl</em> is a good choice of server-side programming language, particularly
+because it is extrememly well-established in this area. Furthermore, <em>CPAN</em> provides access to an unrivalled repository of high-quality Open Source third-party code. However, other languages such as <em>PHP</em> and <em>Python</em> have certain advantages over <em>Perl</em>, such as cleaner implementations of Object-Oriented Programming.</p>
+
+
+<h2>ActiveX Data Objects (ADO) and OLE DB</h2>
+
+<p><em>ADO</em> is Microsoft's high-level data access interface; <em>OLE DB</em> is Microsoft's
+low-level data access interface.</p>
+
+<h3>Pros</h3>
+
+<p>There is very little to recommend <em>ADO</em> other than the fact that 
+<strong>it works</strong> and doesn't require any complicated configuration.</p>
+
+<h3>Cons</h3>
+
+<p>There is very <strong>little official <em>ADO</em> or <em>OLE DB</em>
+documentation</strong> and, because neither are widely used, there is very <strong>little information available on the web</strong>. This is in stark contrast to <em>Perl DBI</em>, for example. The situation is even worse for <em>OLE DB</em>.</p>
+
+<h3>Conclusion</h3>
+
+<p><em>ADO</em> might be a good choice if you have already decided to use 
+<em>IIS</em> and <em>SQL Server</em>, because of the level of integration. Otherwise, a more mainstream database interface, such as <em>ODBC</em> or <em>Perl DBI</em> would be a better choice.</p>

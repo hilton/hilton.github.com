@@ -1,0 +1,111 @@
+---
+title: H-Graph FAQ
+description: Everything you need to know about H-graphs.
+keywords: H-graph, diagram, graph
+layout: hh
+---
+
+<P>There is, in fact, only one frequent question about H-graphs: 
+<EM>you what?</EM></P>
+
+<P>In response to that, here is everything you need to know about H-graphs,
+namely</P>
+
+<UL>
+ <LI><A href="h_graph_faq.html#what_is">what H-graphs are</A></LI>
+ <LI><A href="h_graph_faq.html#examples">example H-graphs</A></LI>
+ <LI><A href="h_graph_faq.html#the_point">the point of H-graphs</A></LI>
+ <LI><A href="h_graph_faq.html#axes">what each axis represents</A></LI>
+ <LI><A href="h_graph_faq.html#draw_computer">how to draw an H-graph using a computer</A></LI>
+ <LI><A href="h_graph_faq.html#draw_paper">how to draw an H-graph using pen and paper</A></LI>
+ <LI><A href="h_graph_faq.html#simple">what Simple H-graphs are</A></LI>
+ <LI><A href="h_graph_faq.html#directional">what Directional H-graphs are</A></LI>
+ <LI><A href="h_graph_faq.html#dynamic">what Dynamic H-graphs are</A>.</LI>
+ </UL>
+
+
+<h2><A name="what_is">what H-graphs are</A></h2>
+
+<P>An H-graph is a diagram that shows the ratings of a collection of items 
+for two independent criteria. That is, an H-graph is an easy way to show how much each item meets some <EM>pair</EM> of criteria. This is an H-graph.</P>
+
+<DIV align="center">
+<IMG src="picture/illustration/fun_productive.gif" Width=375 height=375 alt="fun-productive H-graph">
+</DIV>
+
+<P>In the example above a collection of activities is rated according to 
+how much fun they are and, separately, how productive they are. Each item effectively has two scores that are not related.</P>
+
+
+<h2><A name="examples">example H-graphs</A></h2>
+
+<P>The original H-graph that inspired me was the Shiny vs Useful chart in 
+<A href="http://www.suck.com/filler/96/09/04/">one of suck.com fillers</A>. Here's a (modified) screen grab of my own Task-Graph in use.</P>
+
+<DIV align="center">
+<A HREF="picture/illustration/urgent_important_example.gif"><IMG SRC="picture/illustration/urgent_important_example_s.gif" WIDTH=275 HEIGHT=266 ALT="Task-Graph example"></A>
+</DIV>
+
+
+<h2><A name="the_point">the point of H-graphs</A></h2>
+
+<P>If the items and their scores were represented textually it would be 
+almost impossible to see at a glance how the items compare to each other. An ordered list, for example, would only show the ranking of one of the two criteria. In fact, I can't think of any other elegant way of displaying this information.</P>
+
+<P>Most importantly, the two scores for each item are independent - the two 
+axes of an H-graph emphasise this by allowing items in all four corners of the graph.</P>
+
+
+<h2><A name="axes">what each axis represents</A></h2>
+
+<P>A feature of H-graphs is the lack of units for the axes. The axes may represent more than a simple ranking, as the items need not be evenly spaced in each direction.</P>
+
+<P>In the example above different horizontal positions can be thought of 
+as different degrees of importance, from 0% important (not important) to 100% important, on the left. 'Importance' is a good example because it is a subjective measure - the items do not each have an intrinsic importance; rather, it is relative to other items' importance.</P>
+
+
+<h2><A name="draw_computer">how to draw an H-graph using a computer</A></h2>
+
+<P>Obviously there is more than one way to draw an H-graph using a computer. 
+There are three main approaches, each with its pros and cons.</P>
+
+<OL>
+ <LI>Drawing H-graphs with a bitmap image editor is not a very convenient 
+solution in general. If you are using a package that has 'layers' such as Photoshop, though, then you can put the items on a separate layer to the background which makes it easier. The advantage of using a paint program is that it is simpler to produce bitmap pictures of H-graphs to put on web pages, say, as I have done above.</LI>
+
+ <LI>The most flexible way to create H-graphs on a computer is to use a 
+vector-based drawing program. Typically, this allows you to lock the background and to make each item on the graph a single draggable object. The disadvantage is that most drawing programs are overkill for this problem and that it may be a hassle to produce bitmap pictures.</LI>
+
+ <LI>A completely different approach to computer-based H-graphs is to use 
+the 'desktop', in MacOS or Windows, or the equivalent in other GUIs. The idea is that you set your desktop background colour to 50 per cent grey, and then centre the <a href="picture/illustration/urgent_important.gif"> Urgent-Important graph</A> on your desktop background. Then, you use desktop icons for the different items. This is good because you don't need extra software to use the graph and because it is very easy to use. Unfortunately, you can't copy the graph to another computer and the only way to make a picture of it is to do a screen grab.</LI>
+</OL>
+
+
+<h2><A name="draw_paper">how to draw an H-graph using pen and paper</A></h2>
+
+<P>The best way of putting an H-graph on paper is to use yellow stickies on 
+top of a big sheet of paper that has the graph axes on it. Using a yellow sticky for each item is essential so that you can move it 'up a bit', say, and so that it then stays where you put it. This approach is better than a printout of an H-graph drawn on a computer: that's just a <EM>picture</EM> of an H-graph - you cannot actually <EM>use</EM> it.</P>
+
+
+<h2><A name="simple">what Simple H-graphs are</A></h2>
+
+<P>A Simple H-graph is an H-graph that does no more than rank the items in
+order for each of the two criteria, with shared rankings allowed. This is the same as saying that on a a Simple H-graph the items are horizontal spacings are equal and the items' vertical spacings are equal. For example:</P>
+
+<DIV align="center">
+<IMG SRC="picture/illustration/good_strong.gif" width=281 height=281 alt="Simple H-graph example">
+</DIV>
+
+
+
+<h2><A name="directional">what Directional H-graphs are</A></h2>
+
+<P>A directional H-graph is one where each node has a direction, usually
+indicated by drawing an arrow from the node. The direction generally indicates a trend - which way the item is expected to move over time.</P>
+
+
+<h2><A name="dynamic">what Dynamic H-graphs are</A></h2>
+
+<P>A Dynamic H-graph is just an animated directional H-graph. To put it
+another way, it is an H-graph where each item has an associated (directed) velocity as well as a position. This would be useful on a Task-Graph, because then you could have automatic escalation of urgency or importance.</P>
+

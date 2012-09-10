@@ -38,7 +38,7 @@ LI { margin-bottom:0.5em; }
 
 A:link { color:#AF1E24; }
 A:visited, A:active { color:#51050A; }
-A.why:link { color:white; background:#AF1E24; font-weight:bold; font-size:75%; }
+A.why:link { color:white; background:#AF1E24; font-weight:bold; font-size:75%; text-decoration:none; }
 A.why:visited, A.why:active { color:white; background:#636; font-weight:bold; font-size:75%; }
 A.out {font-style:italic; }
 

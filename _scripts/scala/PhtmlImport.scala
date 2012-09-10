@@ -25,6 +25,7 @@ if (!targetDirectory.isDirectory) error("Not a directory: " + TARGET_DIR)
 // Regular expressions for matching page content lines
 val Thumbnail = """(.*?)<\?php Thumbnail \('([^']+)', '([^']*)', '([^']*)'\); \?>(.*)""".r
 val LocalLink = """(.*?href=['"])([a-z0-9_]+?)\.phtml(.*)""".r
+val Facade = """(.*?)src="/facade/(.*)""".r
 
 
 // Get list of source files from the directory or command line arguments
@@ -80,6 +81,7 @@ for (file <- files) {
                 write(prefix + baseName + ".html" + suffix)
                 println("  " + line)
               }
+              case Facade(prefix, suffix) => write(prefix + "src=\"facade/" + suffix)
 
               case _ => write(line)
             }

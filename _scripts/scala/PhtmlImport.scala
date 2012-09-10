@@ -55,14 +55,17 @@ for (file <- files) {
         println("Create " + outputFile)
         val out = new java.io.PrintWriter(outputFile)
 
+        val write = (value: String) => out.println(value)
+        val writeKeyValue = (key: String, value: String) => out.println(key + ": " + value)
+
         // Metadata
-        out.println("---")
-        page.title.foreach((value) => out.println("title: " + value))
-        page.description.foreach((value) => out.println("description: " + value))
-        page.keywords.foreach((value) => out.println("keywords: " + value))
-        out.println("layout: hh")
-        out.println("---")
-        out.println()
+        write("---")
+        page.title.foreach(writeKeyValue("title", _))
+        page.description.foreach(writeKeyValue("description", _))
+        page.keywords.foreach(writeKeyValue("keywords", _))
+        writeKeyValue("layout", "hh")
+        write("---")
+        write("")
 
         // Page content
         val pageFile = new File(SOURCE_DIR, page.path.get)
@@ -71,17 +74,14 @@ for (file <- files) {
           for (line <- Source.fromFile(pageFile).getLines) {
             line match {
               case Thumbnail(prefix, name, align, target, suffix) => {
-                out.print(prefix)
-                out.print(pictureHtml(name, align, target))
-                out.print(suffix)
-                out.println
+                write(prefix + pictureHtml(name, align, target) + suffix)
               }
               case LocalLink(prefix, baseName, suffix) => {
-                out.println(prefix + baseName + ".html" + suffix)
+                write(prefix + baseName + ".html" + suffix)
                 println("  " + line)
               }
 
-              case _ => out.println(line)
+              case _ => write(line)
             }
           }
         }

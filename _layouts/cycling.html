@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>{{ page.title }} - HH Rotterdam Cycle Routes</title>
+<link rel="stylesheet" type="text/css" media="screen" href="cycling/cycling-screen.css"/>
+<link rel="contents"	href="/contents.html">
+<link rel="top"	href="/">
+<link rel="index"	href="/titles.html">
+<meta name="keywords" content="Rotterdam,Delft,cycling,cycle route"/>
+<meta name="language" content="en"/>
+<style type="text/css" media="screen">
+{% if page.css %}
+{{ page.css}}
+{% else %}
+#map { width:480px; height:550px; float:left; margin:0 20px 1em 0; }
+{% endif %}
+#content p {max-width:978px;}
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3676019-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div id="masthead">
+<h1><a href="cycling.html">Rotterdam Cycle Routes</a></h1>
+<p>How to escape the city and find open countryside by bike</p>
+</div>
+
+<div id="content">
+
+<h2><a href="cycling.html">Cycle routes »</a> {{ page.title }}</h2>
+
+<div id="map"></div>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
+{% if page.kml %}
+<script type="text/javascript">
+	if (GBrowserIsCompatible()) {
+		var map = new GMap2(document.getElementById("map"));
+		var point = new GLatLng(51.968808,4.413071);
+		map.setCenter(point, 12);
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		var overlay = new GGeoXml("{{ page.kml }}");
+		map.addOverlay(overlay);
+	}
+</script>
+{% else %}
+<script type="text/javascript">
+	if (GBrowserIsCompatible()) {
+		var map = new GMap2(document.getElementById("map"));
+		var point = new GLatLng(51.960000,4.434000);
+		map.setCenter(point, 11);
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-delft-e.kml"));
+		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-delft-s.kml"));
+		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-kinderdijk.kml"));
+		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-maassluis.kml"));
+		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-rottemeren.kml"));
+
+	}
+</script>
+{% endif %}
+
+<p>Map: <a href="http://maps.google.nl/maps?f=q&hl=en&geocode=&q={{ page.kml }}&ie=UTF8&ll=51.915262,4.367065&spn=0.126427,0.265732&z=12&om=1">Google Maps</a>, <a href="{{ page.kml }}">Google Earth</a> (KML).</p>
+
+{{ content }}
+
+</div>
+
+<div id="navigation">
+<ul>
+<li><a title="Hilton Harbour main page" href="index.html">HH home</a></li>
+<li><a title="what's newest on Hilton Harbour" href="new.html">what's new</a></li>
+<li><a title="Hilton Harbour - table of contents" href="contents.html">contents</a></li>
+<li><a title="Alphabetical index of page titles" href="titles.html">index</a></li>
+<li><a title="Alphabetical index of page photos" href="photos.html">photo index</a></li>
+<li><a title="about Hilton Harbour" href="about_hh.html">about</a></li>
+<li><a title="Peter Hilton's home page" href="about_ph.html">about PH</a></li>
+</ul>
+</div>
+
+<div id="flash"></div>
+
+{% include footer.html %}
+
+</body>
+</html>

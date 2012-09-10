@@ -1,0 +1,158 @@
+---
+title: The Solution to Intranet Web Publishing
+description: A low-cost intranet web publishing solution that separates non-technical content authors and web publishers.
+keywords: intranet,publishing,html,authoring,outlook express,newsgroups,nntp
+layout: hh
+---
+
+<h2>Contents</h2>
+<ul>
+ <li><a href="intranet_publishing.html#introduction">Introduction</a></li>
+ <li><a href="intranet_publishing.html#summary">Design summary</a></li>
+ <li><a href="intranet_publishing.html#functional">Functional design</a></li>
+ <li><a href="intranet_publishing.html#technical">Technical design</a></li>
+</ul>
+
+
+<h2><a name="introduction"></a>Introduction</h2>
+
+<p>This article describes a solution to a recurrent problem in intranet web publishing: a large organisation wants all of its members to be able to publish documents on the intranet, but the barriers to entry are too high for non-technical staff.</p>
+
+<p>Typically, in this situation, the IS department has made Microsoft FrontPage available to staff who identify themselves as 'web authors', which they should use to write documents in HTML documents and publish to the web server. This fails because FrontPage, which seems to be desiged for authoring jazzy content-free pages, is an inappropriate tool for the job - writing. Ironically, staff prefer to use the more complex but more familiar Microsoft Word.</p>
+
+<p>A better approach would not require writers to learn about the techical aspects of web publishing, without imposing a large burden on the web masters.</p>
+
+
+<h2><a name="summary"></a>Design summary</h2>
+
+<p>In this solution, writing and publishing are separated , and performed by different people.</p>
+
+<p><strong>First, writers use an HTML-aware news client to write their documents and post them to a newsgroup on an internal news server.</strong> This, in itself, is already an improvement on the conventional web publishing approach because</p>
+<ul>
+ <li>news clients such as Outlook Express and Netscape Collabra are much simpler than HTML editors such as FrontPage, so more people can publish in practice</li>
+ <li>documents posted to the news server are already available to all staff, using standard news clients</li>
+ <li>news clients automatically include basic meta-data: subject, author and date</li>
+ <li>writers can use the news server for version control, by posting updates to each others documents in replies to the original posting, which are automatically stamped with the new date and author.</li>
+</ul>
+
+<p><strong>Secondly, web publishers use a simple web interface to edit documents on the news server  and then transfer them to the web server.</strong> This web interface could be implemented on almost any web server platform and would make publishing existing documents a quick easy task that requires minimal skills.</p>
+
+
+<h2><a name="functional"></a>Functional design</h2>
+
+<p><strong>Write page.</strong> First the writer posts documents to the news server, as described above. Then the web editor publishes a document to the web server, using the web-interface, as follows.</p>
+<ol>
+ <li><strong>Choose newsgroup posting.</strong> The publisher selects a news group from a list of internal news groups. The publisher then selects an individual posting from a list of postings in the chosen newsgroup.</li>
+
+ <li><strong>Edit document and meta-data.</strong> The publisher then sees a web page form that contains the content of the news posting. There are separate fields for the author's name, date, subject/title and document body, which the publisher can use to edit any of the content. There may be additional fields for the web page URL, publisher's name, choice of HTML page template, choice of HTML or plain text document format, and any other required meta-data.</li>
+
+ <li><strong>Preview document.</strong> After submitting the previous form the publisher is shown a preview of the document, in HTML format. At this stage the publisher can go back and re-edit the document or post the new document to the web server.</li>
+
+ <li><strong>View new web page.</strong> After submitting the new page the publisher sees the new page immediately.</li>
+</ol>
+
+<p>Notes.</p>
+<ul>
+ <li>The dynamic page that fetches the posting from the news server and displays the <em>Edit document and meta-data</em> page should pre-process the posting to clean up the HTML, removing <code>FONT</code> tags for example.</li>
+
+ <li>Step 3 previews the part of the document's body that contains its actual content, separate from the final HTML page template.</li>
+
+ <li>When the document is saved to the web server it could either be combined with a static page template, by inserting the document content inside the template's <code>BODY</code> element and inserting the meta-data in the appropriate places inside the document's <code>HEAD</code> element. Alternatively, the document could be inserted into a dynamic page-templating system.</li>
+
+ <li>The views for steps 1. and 2. above, for a given newsgroup posting, should have a unique URL.</li>
+
+ <li>As pages for steps 1. and 2. above have URLs, a web view of the newsgroups could include 'publish this page' links for authorised users.</li>
+
+ <li>Similarly, previous published web pages could include 'edit page'  and 'delete page' links for authorised users.</li>
+</ul>
+
+
+
+
+<h2><a name="technical"></a>Technical design</h2>
+
+<p>Once the document to be published is on the news server the editor will use a web interface to publish the document on the web server. This section defines the implementation of that interface, in terms of its four URLs.</p>
+
+<p>For each URL the following information is given.</p>
+<ul>
+ <li><em> Title:</em>  the title of the page generated by the URL.</li>
+ <li><em> Purpose:</em>  the purpose of the page or program.</li>
+ <li><em> Parameters:</em>  names and values of query string parameters.</li>
+ <li><em> Input:</em>  input to the script other than the query string parameters, such as data sent to the URL using HTTP POST, or user input in forms</li>
+ <li><em> Output:</em>  a description of the output HTML page.</li>
+ <li><em> Actions:</em>  side-effects of the program or form actions.</li>
+ <li><em> Notes:</em>  further information about the implementation.</li>
+</ul>
+
+
+<h3>document-select.html</h3>
+
+<p><em>Title:</em> Select Document.</p>
+
+<p><em>Purpose:</em> Allows the editor to specify a newsgroup posting to publish to the web server.</p>
+
+<p><em>Parameters:</em> <i>s</i> (optional) - the name of the news server.</p>
+
+<p><em>Input:</em> The news server name and the posting message ID, entered by the editor.</p>
+
+<p><em>Output:</em> An HTML with text input fields for the news server name and posting message ID.</p>
+
+<p><em>Actions:</em> Uses HTTP GET to request <code>document-edit.html?s=<i>servername</i>&amp;m=<i>messageid</i></code>, where <i>servername</i> and <i>messageid</i> are the values input by the editor.</p>
+
+<p><em>Notes:</em> The optional news server name parameter is used as the initial value of the corresponding text input field on the form.</p>
+
+<p>This URL could be implemented with varying levels of sophistication. Instead of the simple HTML form described here this could be a full web-based search/browse interface to the news server with generated hyperlinks to <code>document-edit.html</code> for each posting. Alternatively, these hyperlinks could be added to an existing web-based news client.</p>
+
+
+<h3>document-edit.html</h3>
+
+<p><em>Title:</em> Edit Document.</p>
+
+<p><em>Purpose:</em> Allows the editor to make changes to a document's meta-data and content.</p>
+
+<p><em>Parameters:</em> <i>s</i> - the name of the news server.
+<br/><i>m</i> - the newsgroup posting's message ID.</p>
+
+<p><em>Input:</em> The document's content and basic meta-data, retrieved from the news server using NNTP; additional meta-data entered by the editor, web server URL stub and the editor's name.</p>
+
+<p><em>Output:</em> A generated HTML form that has text input fields for each of the meta-data items and the content.</p>
+
+<p><em>Actions:</em> The form submits the document to <code>document-preview.html</code> using HTTP POST.</p>
+
+<p><em>Notes:</em> The additional meta-data could include a named template to apply to the document.</p>
+
+<p>Since this page is completely specified, for a particular posting, by its URL and query string it can be bookmarked or used as the destination of a generated 'Edit this document' hyperlink on a published web page.</p>
+
+
+<h3>document-preview.html</h3>
+
+<p><em>Title:</em> Preview Document.</p>
+
+<p><em>Purpose:</em> Displays an HTML preview of the document's validated meta-data and content, which can then be published on the web server.</p>
+
+<p><em>Parameters:</em> None.</p>
+
+<p><em>Input:</em> The document, by HTTP POST, with values for the following control-names: author, title, date, content, url, editor, newsserver, messageid, and (optionally) template.</p>
+
+<p><em>Output:</em> An HTML preview of the document.</p>
+
+<p><em>Actions:</em> A form, with the data encoded in generated hidden <code>INPUT</code> elements, submits the document to <code>document-publish.html</code> using HTTP POST.</p>
+
+
+<h3>document-publish.html</h3>
+
+<p><em>Title:</em> None.</p>
+
+<p><em>Purpose:</em> A non-displaying page that publishes the document on the web server.</p>
+
+<p><em>Parameters:</em> None.</p>
+
+<p><em>Input:</em> As for <code>document-preview.html</code>.</p>
+
+<p><em>Output:</em> An HTTP redirect response, specifying the URL of the new web page.</p>
+
+<p><em>Actions:</em> Writes the document to web server storage, then redirects the browser to the new web page.</p>
+
+<p><em>Notes:</em> The web server storage might be an HTML file on the web server's file system, a relational database or some kind of XML store, for example. Note that the meta-data might be stored separately from the document itself.</p>
+
+<p>When the document is written it might be stored as a static HTML page, with some template applied, or it could be integrated with an existing dynamic page templating system.</p>

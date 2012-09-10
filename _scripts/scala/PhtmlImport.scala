@@ -57,7 +57,11 @@ for (file <- files) {
         val out = new java.io.PrintWriter(outputFile)
 
         val write = (value: String) => out.println(value)
-        val writeKeyValue = (key: String, value: String) => out.println(key + ": " + value)
+
+        val writeKeyValue = (key: String, value: String) => {
+          if (value.contains(":")) out.println("\"" + key + ": " + value + "\"")
+          else out.println(key + ": " + value)
+        }
 
         // Metadata
         write("---")

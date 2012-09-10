@@ -62,8 +62,8 @@ table.hgraph TH { font-size:80%; border:solid 0.5em white; text-align:center; }
 table.hgraph TD { padding:0.8em; text-align:center; width:3em; border:0; }
 table.hgraph TD.h { background:#cca; }
 
-div.sidebar { float:right; margin:0 1em 1em 2em; border:solid 1px #cca; width:16em; text-align:left; line-height:1.1em; padding-bottom:0.5em}
-div.sidebar h2 { margin:0 0 1em 0; font-size:1em; color:white; background:#cca; padding:0.4em; }
+div.sidebar { float:right; margin:0 1em 1em 2em; border:solid 1px #516B71; width:16em; text-align:left; line-height:1.1em; padding-bottom:0.5em}
+div.sidebar h2 { margin:0 0 1em 0; font-size:1em; color:white; background:#516B71; padding:0.4em; }
 div.sidebar p, div.sidebar li { font-size:0.9em; }
 div.sidebar p, div.sidebar ul { margin:0.5em 1em; }
 div.sidebar UL { padding-left:1.5em; }

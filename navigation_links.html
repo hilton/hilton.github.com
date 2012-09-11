@@ -1,0 +1,79 @@
+---
+title: How to generate navigation bar links
+keywords: generated links,php3,php,navigation links,self-linking
+layout: hh
+---
+
+<p><a href='picture/photo/england/totem_pole.jpeg'><img src='picture/photo/england/totem_pole_s.jpeg' width='125' height='198' alt='The totem pole in Great Windsor Park, England' title='The totem pole in Great Windsor Park, England' style='float:right'></a>
+A common part of an HTML page template is a common navigation bar, just like the one above. If you're being nice to the user, then the navigation bar never includes a link to the current page. This HOWTO shows one way of achieving that using some server-side PHP code.</p>
+
+<p>The approach I use is to</p>
+<ol>
+ <li>	use a single page template with common code for the navigation bar</li>
+ <li>	define a function that outputs a single link, taking parameters that specify the current page, and the link's destination, text and title</li>
+ <li>	code the function so that it navigation item text is not a hyperlink when the current page is the same as the link destination</li>
+ <li>	call the function, in the template, for each of the navigation bar links.</li>
+</ol>
+
+<p>Here's what this looks like, in PHP, for these pages. First, the PHP function is</p>
+
+<div class="example">
+<pre><code>
+function InsertNavigationLink($page_basename, $url_basename, $label, $title) {
+
+  if (strcmp ($page_basename, $url_basename) == 0) {
+	 echo &quot;&lt;strong&gt;$label&lt;/strong&gt;&quot;;
+  }
+  else {
+	 echo &quot;&lt;a title=\&quot;$title\&quot; href=\&quot;$url_basename\&quot;&gt;$label&lt;/a&gt;&quot;;
+  }
+}
+</code></pre>
+</div>
+
+<p>Then, in my page template, I output the navigation bar like this, having already populated the <code>$base_name</code> variable with the file name of the current page's URL.</p>
+
+<div class="example">
+<pre><code>
+&lt;?php $base_name = basename($_SERVER['REQUEST_URI']); ?&gt;
+
+&lt;?php InsertNavigationLink($base_name, 'index.phtml', 'HH home', 'Hilton Harbour main page'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'new.phtml', 'what\'s new', 'what\'s newest on Hilton Harbour'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.phtml?theme=contents', 'contents', 'Table of contents'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.phtml?theme=index', 'index', 'Alphabetical index'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.phtml?theme=photos', 'photo index', 'Alphabetical index'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'about_hh.phtml', 'about', 'about Hilton Harbour'); ?&gt; |
+</code></pre>
+</div>
+
+<p>In this example <code>InsertNavigationLink</code> is a subroutine that outputs the label directly. It would probably be neater to make it a function that returns the HTML as a string, like this.</p>
+
+<div class="example">
+<pre><code>
+function NavigationItem($page_basename, $url_basename, $label, $title) {
+
+   if (strcmp ($page_basename, $url_basename) == 0) {
+      return &quot;&lt;strong&gt;$label&lt;/strong&gt;&quot;;
+   }
+   else {
+      return &quot;&lt;a title=\&quot;$title\&quot; href=\&quot;discussion/$url_basename\&quot;&gt;$label&lt;/a&gt;&quot;;
+   }
+}
+</code></pre>
+</div>
+
+<p>This has the advantage that I can then use slightly neater code in the page template:</p>
+
+<div class="example">
+<pre><code>
+&lt;?php
+$links = NavigationItem($base_name, 'index.phtml', 'HH home', 'Hilton Harbour main page') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'new.phtml', 'what\'s new', 'what\'s newest on Hilton Harbour') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'index.phtml?theme=contents', 'contents', 'Table of contents') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'index.phtml?theme=index', 'index', 'Alphabetical index') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'index.phtml?theme=photos', 'photo index', 'Alphabetical index') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'about_hh.phtml', 'about', 'about Hilton Harbour');
+echo $links;
+?&gt;
+</code></pre>
+</div>

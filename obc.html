@@ -1,75 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html>  
-<head>  
-<?php	
-        import_request_variables("g");
-
-	if ($c == '') {
-	   $title = 'Hilton Harbour - Theatrical Adventures';
-	}
-	else {
-	   $title = ucwords(ereg_replace('_', ' ', $c));
-	}
-
-	echo "<title>$title</title>\n";
-?>
-<base href="http://hilton.org.uk/obc.phtml">
-<link rel="contents" href="http://hilton.org.uk/index.phtml?theme=contents">
-<link rel="home" href="http://hilton.org.uk/">
-<link rel="index" href="http://hilton.org.uk/index.phtml?theme=index">
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="author" content="Peter Hilton">
-<meta name="description" content="Musings and memories of a thespian, by O.B. Clarence">
-<meta name="keywords" content="O.B. Clarence, theatre, actor, acting">
-<meta name="language" content="en">
-
-<!--	margins (mm) left/right 88.75, top 15, bottom 20; landscape orientation 
-	cut 69 mm from each side to leave pages 158.5 x 210 mm -->
-
-<style type="text/css">
-
-BODY { font-family: Garamond, serif; color:black; background-color:white; font-size:12.5pt; }
-DIV.photo { float:right; width:20%; padding:1em; }
-DIV.photo P { text-indent:0; font-weight:bold; font-size:0.8em; line-height:1em; text-align:left; margin:0 0 0.5em 0; }
-DIV.photo IMG { margin:0 }
-
-H1 { font-size:150%; text-align:center; margin-left:5%; margin-right:5%; margin-top:2em; margin-bottom:0; }
-
-P { margin:0; text-indent:5%; line-height:140%; text-align:justify; }
-P.subhead { font-size:0.8em; text-indent:0; text-align:center; margin-bottom:4em; }
-P.caption { font-size:80%; margin-left:15%; margin-right:15%; text-indent:0; font-weight:bold; text-align:right; margin-bottom:4em; }
-
-IMG { border:0; margin:1.5em; }
-H2, H3, H4, ADDRESS { margin-left:5%; margin-right:5%; }
-LI { margin-left:5%; margin-right:5%; line-height:140%; }
-BLOCKQUOTE { font-size:80%;  margin-left:15%; margin-right:15%; text-indent:0; line-height:150%; }
-HR { height:0.5pt; border-style:solid; margin-bottom:1em; margin-top:1em; }
-HR.header { margin-bottom:0; margin-top:0; }
-
-</style>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3676019-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>redirect</title>
+<meta http-equiv="refresh" content="3;url=http://hilton.org.uk/obc/">
 </head>
-
 <body>
-
-<?php	if ($c == "") {
-	   include ("obc/contents.phtml"); 
-	} else {
-	   include ("obc/$c.phtml"); 
-	}
-?>
-
+<p>Redirecting to <a href="obc/">Theatrical Adventures</a>…</p>
 </body>
 </html>

@@ -2,7 +2,11 @@
 /* 2011 colour scheme: masthead hsv(40,52,54)=#8A7242, headings hsv(38,57,43)=#6E572F,	links #36c/#0E316D;	Helvetica Neue; */
 /* 2012 colour scheme: 
 	base hsv(191, 100, 52)
-	masthead hsv(191, 25, 52)=#516B71,	headings hsv(191, 30, 41)=#395055,	links #AF1E24/#51050A;	Helvetica Neue; */
+	masthead hsv(191, 25, 52)=#516B71,
+	headings hsv(191, 30, 41)=#395055,
+	links #AF1E24/#51050A;
+	background #C4DADF;
+	Helvetica Neue; */
 
 BODY { color:#333; background:white; margin:0 2% 2% 0; font-family:"Helvetica Neue", Helvetica, sans-serif; }
 
@@ -46,8 +50,8 @@ small, p.tags { font-size:85%; color:#999; }
 div.content BR { clear:left; }
 
 TABLE { font-size:85%; width:90%; }
-TH { color:#395055; text-align:left; border-top:solid 1px #cca; border-bottom:solid 1px #cca; border-right:solid 5px white; padding:0.2em; }
-TD { vertical-align:top; border-bottom:solid 1px #cca; border-right:solid 5px white; }
+TH { color:#395055; text-align:left; border-top:solid 1px #C4DADF; border-bottom:solid 1px #C4DADF; border-right:solid 5px white; padding:0.2em; }
+TD { vertical-align:top; border-bottom:solid 1px #C4DADF; border-right:solid 5px white; }
 
 .good { color:#080; background:white; }
 .poor { color:#800; background:white; }
@@ -55,12 +59,12 @@ TD { vertical-align:top; border-bottom:solid 1px #cca; border-right:solid 5px wh
 
 div.comments { color:#395055; margin-bottom:2em; }
 
-div.example { background:#cca; padding-top:1em; padding-bottom:1em; padding-left:1em; }
-div.example H4 { background:#cca; color:black; }
+div.example { background:#C4DADF; padding-top:1em; padding-bottom:1em; padding-left:1em; }
+div.example H4 { background:#C4DADF; color:black; }
 
 table.hgraph TH { font-size:80%; border:solid 0.5em white; text-align:center; }
 table.hgraph TD { padding:0.8em; text-align:center; width:3em; border:0; }
-table.hgraph TD.h { background:#cca; }
+table.hgraph TD.h { background:#C4DADF; }
 
 div.sidebar { float:right; margin:0 1em 1em 2em; border:solid 1px #516B71; width:16em; text-align:left; line-height:1.1em; padding-bottom:0.5em}
 div.sidebar h2 { margin:0 0 1em 0; font-size:1em; color:white; background:#516B71; padding:0.4em; }

@@ -1,4 +1,4 @@
-BODY { font-family: Garamond, serif; color:black; background-color:white; font-size:12.5pt; }
+BODY { font-family: Garamond, serif; color:black; background-color:white; font-size:12.5pt; margin:4em; max-width:42em; }
 DIV.photo { float:right; width:20%; padding:1em; }
 DIV.photo P { text-indent:0; font-weight:bold; font-size:0.8em; line-height:1em; text-align:left; margin:0 0 0.5em 0; }
 DIV.photo IMG { margin:0 }
@@ -15,3 +15,6 @@ LI { margin-left:5%; margin-right:5%; line-height:140%; }
 BLOCKQUOTE { font-size:80%;  margin-left:15%; margin-right:15%; text-indent:0; line-height:150%; }
 HR { height:0.5pt; border-style:solid; margin-bottom:1em; margin-top:1em; }
 HR.header { margin-bottom:0; margin-top:0; }
+
+p.footer { clear:both; font-size: 80%; text-indent: 0; margin: 4em 0; }
+p.footer a { color:inherit; }

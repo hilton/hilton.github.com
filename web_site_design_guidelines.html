@@ -1,0 +1,188 @@
+---
+title: Web site design guidelines
+description: This article for web site developers and maintainers describes and explains a set of guidelines for implementing a web site.
+keywords: site structure,site design,design guidelines,information architecture,style guide,architecture,web site,web sites
+layout: hh
+---
+
+<p><strong>This page has now been superceded by my newer page on 
+<a href="web_site_architecture.html">Web site Architecture</a>.</strong></p>
+
+<h2>summary</h2>
+
+<p>This article is not about implementing web <em>page</em> design, 
+<strong>this article is about implementing web <em>site</em> design</strong> and explains ten <STRIKE>commandments</STRIKE> <strong>guidelines for implementing a web site</strong>. These guidelines, for web site developers and maintainers, are designed to meet the requirements that I described in 
+<a href="web_site_architecture_requirements.html" title="Web site architecture requirements">
+<em>Web site architecture requirements</em></a>. <strong>The guidelines on this page are that</strong></p>
+
+<ol>
+<li><a href="web_site_design_guidelines.html#guideline_1" title="URL organisation guidelines">
+never change a page's URL</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_2" title="URL organisation guidelines">
+all URLs shall all be at the site's root level</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_3" title="URL organisation guidelines">
+all internal links shall be relative URLs, consisting of just a file name</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_4" title="URL naming guidelines">
+URLs shall use unabbreviated words or common acronyms</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_5" title="URL naming guidelines">
+each URL file name shall be the same as, or based on, the page title</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_6" title="URL naming guidelines">
+URL file names shall only use the characters <TT>a-z</TT>, <TT>0-9</TT> and <TT>_</TT></a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_7" title="URL naming guidelines">
+URL file names should have a <TT>.html</TT> extension</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_8" title="URL naming guidelines">
+digits shall only be used in URLs if there is a compelling reason to do so</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_9" title="file system guidelines">
+for small sites all of the files shall be stored in the site's root directory</a></li>
+
+<li><a href="web_site_design_guidelines.html#guideline_10" title="file system guidelines">
+for large sites the files shall be stored in a hierarchical directory structure</a></li>
+
+</ol>
+
+
+<h2>navigation model guidelines</h2>
+
+<p>A site's navigation model is the logical structure presented to the user as 'the way the site is organised'. I have not written any guidelines for this <em>yet</em>; just remember that</p>
+
+<ul>
+<li>unlike the file systems the pages are stored on, <strong>web sites are not intrinsically hierarchical</strong></li>
+<li>your choice of navigation model should reflect the relationship between the pages on your site</li>
+<li>the 'top' of your site is whichever page the user sees first, so <strong>the navigation module must not be based on a particular starting point</strong>.</li>
+</ul>
+
+<p>Chances are, you should think of your web site as just a... um... <em>web</em> of pages.</p>
+
+
+<h2>URL organisation guidelines</h2>
+
+
+<h3><a name="guideline_1">GL1. Never change a page's URL.</a></h3>
+
+<p>This is the big one - '<a href="web_site_architecture_requirements.html#goal_3" title="Web site architecture requirements">every page should exist <em>for ever at the same URL</em></a>'. This is not as hard as it sounds if you know <a href="web_site_design_guidelines.phtml#how_to_separate">how to separate page content from URLs</a>.</p>
+
+
+
+<h3><a name="guideline_2">GL2. All URLs shall all be at the site's root level.</a></h3>
+
+<p>URLs should be at the site's root level because of the requirements that</p>
+
+<ul>
+<li>'<a href="web_site_architecture_requirements.html#goal_3" title="Web site architecture requirements">there should be some limit to the length of URLs</a>'</li>
+
+<li>'<a href="web_site_architecture_requirements.html#goal_5" title="Web site architecture requirements">URLs should be 'choppable', so that the result is a valid URL</a>'</li>
+
+<li>'<a href="web_site_architecture_requirements.html#goal_7" title="Web site architecture requirements">small sites should have a simple structure</a>'.</li>
+</ul>
+
+<p>This gives you URLs like <TT>http://your.site.com/some_page.html</TT> rather than URLs like <TT>http://your.site.com/lots/of/directories/page.html</TT>.</p>
+
+
+
+<h3><a name="guideline_3">
+GL3. All internal links shall be relative URLs, consisting of just a file name.</a></h3>
+
+<p>You only need relative links consisting of just a file name, like <TT>&lt;A&nbsp;href=&quot;just_a_file_name.html&quot;&gt;</TT>, because of the previous guideline. If you include a line like</p>
+
+<CODE>&lt;BASE href=&quot;http://your.site.com/index.html&quot;&gt;</CODE>
+
+<p>in the <TT>HEAD</TT> tag of each page then all links are relative to your main page. <strong>This makes your pages are more portable</strong>, because you use relative URLs, and <strong>your links are less likely to be broken</strong>, because they are simpler.</p>
+
+
+
+<h2>URL naming guidelines</h2>
+
+
+<h3><a name="guideline_4">GL4. URLs shall use unabbreviated words or common acronyms.</a></h3>
+
+<p>This is because '<a href="web_site_architecture_requirements.html#goal_two" title="Web site architecture requirements">URLs should &quot;read well&quot;</a>' for the user. Words should be spelled correctly; 'common acronyms' are those that you might find in a dictionary, not any acronym that the webmaster happens to understand. <strong>This approach makes URLs easier to remember and use correctly</strong>, which helps both the webmaster much as the user, who shouldn't ever <em>need</em> to use the URL anyway.</p>
+
+
+
+<h3><a name="guideline_5">
+GL5. Each URL file name shall be the same as, or based on, the page title.</a></h3>
+
+<p>This is also because '<a href="web_site_architecture_requirements.html#goal_two" title="Web site architecture requirements">URLs should &quot;read well&quot;</a>'. It also gives the webmaster and the user a clue about which page a URL points to.</p>
+
+
+<h3><a name="guideline_6">
+GL6. URL file names shall only use the characters <TT>a-z</TT>, <TT>0-9</TT> and <TT>_</TT>.</a></h3>
+
+<p><strong>This makes the URLs simpler</strong> by reducing the number of possible variations, which makes them less likely to be broken. In particular, it makes it easy to get the case right. <strong>Underscores should be used to separate words</strong>, which makes the URL easier to read.</p>
+
+
+
+<h3><a name="guideline_7">
+GL7. URL file names should have a <TT>.html</TT> extension</a>.</a></h3>
+
+<p>Again, <strong>this makes the URLs simpler</strong> by reducing the number of possible variations. If you are using some exotic extension for server-processed pages, such as <TT>tcl</TT>, <TT>pl</TT>, <TT>shtml</TT> or <TT>php3</TT> say, it is a good idea to get the server to use <TT>html</TT> as an alias for the real extension so that your URLs don't change if you switch extension.</p>
+
+<h3><a name="guideline_8">
+GL8. Digits shall only be used in URLs if there is a compelling reason to do so.</a></h3>
+
+<p>This is just a sensible naming convention - you should <strong>use meaningful names</strong>. For example, if you have <TT>review.html</TT>, <TT>review2.html</TT> and <TT>review3.html</TT> then <TT>2</TT> and <TT>3</TT> probably only mean 'another' and 'yet another'. .</p>
+
+
+<h3>how to construct a URL file name</h3>
+
+<p>To construct a URL file name that follows the above guidelines, simply
+
+<ol>
+<li>take the page title</li>
+<li>convert the title to lower case</li>
+<li>separate words with underscores, instead of spaces or hyphens</li>
+<li>remove all punctuation, and other non-alphanumeric characters</li>
+<li>add the file extension <tt>html</tt></li>
+<li>if the name is too long - more than three or four words - then remove any words that are not essential to the meaning of the title and are not required to make the file name unique.</li>
+</ol>
+
+
+
+<h2>file system guidelines</h2>
+
+
+<h3><a name="guideline_9">
+GL9. For small sites all of the files shall be stored in the site's root directory.</a></h3>
+
+<p>If you don't want to do anything fancy then you shouldn't have to - because 
+'<a href="web_site_architecture_requirements.html#goal_7" title="Web site architecture requirements">small sites should have a simple structure</a>'. If your site only consists of four pages then it you probably only want to have four HTML files together in the same directory, with URLs that point directly at the files.</p>
+
+
+<h3><a name="guideline_10">
+GL10. For large sites the files shall be stored in a hierarchical directory structure.</a></h3>
+
+<p>This guideline is here because 
+'<a href="web_site_architecture_requirements.html#goal_9" title="Web site architecture requirements">the site maintainers should be able to find files, however big the site</a>'. Unlike the other guidelines, this one requires a little trickery if you want to follow it, while still following all of the others - you need to know...</p>
+
+
+
+<h3><a name="how_to_separate">how to separate page content from URLs</a></h3>
+
+<p>What you need is something like Server Side Includes or server-side scripting like <a href="http://www.php.net/" title="PHP home page">PHP</a> or Active Server Pages. The idea is that the URL works like a <em>shortcut</em>, or <em>alias</em> to where the real HTML content is stored, elsewhere in the file system.</p>
+
+<p>For example, with Server Side Includes, the file at <TT>http://your.site.com/some_page.html</TT> might only contain the single line</p>
+
+<CODE>&lt;!--#INCLUDE file=&quot;/deep/in/the/file/system/some_file&quot; --&gt;</CODE>
+
+<p>where <TT>some_file</TT> does not even need to be an HTML document - it could be a script, say.</p>
+
+<p>With this approach, you can move <TT>some_file</TT> anywhere you like and you only have to <em>edit</em> <TT>some_page.html</TT>, rather than changing the URL.</p>
+
+<hr noshade size="1">
+
+<h2>further reading</h2>
+
+<ul>
+<li><a href="http://www.photo.net/wtr/thebook/static.html" title="Philip and Alex's Guide to Web Publishing"><I>Static Site Development</I></a>,	
+by <a href="http://www.photo.net/philg/" title="Philip Greenspun's home page">Philip Greenspun</a>.</li>
+
+<li><a href="http://webreview.com/wr/pub/96/09/20/arch/"><I>What is web archtecture? (And why should I care?)</I></a>. This article from <a href="http://webreview.com/">webreview.com</a> explains the point of having these kinds of guidelines.</li>
+</ul>

@@ -1,0 +1,82 @@
+---
+title: Using a Garmin eTrex Venture Cx GPS with a Mac
+description: How to use a Garmin eTrex Venture Cx or Legend Cx with a Mac and OSX
+keywords: garmin,venture cx,legend cx,gps,mac,osx
+layout: hh
+---
+
+<p>Although Garmin have not yet released OSX software for using your GPS with your Mac, there are various things that do work. This page tells you what you can do, and how to do it.</p>
+
+<p>I am using a <a href="http://www.garmin.com/products/etrexVenturecx/">Garmin Venture Cx</a> (firmware version 2.50), one of the newer low-end devices with a USB interface and colour screen. Everything that works for the Venture Cx may also work for the Legend Cx and Vista Cx, which are probably identical or near-identical hardware.
+
+
+<h2>What works</h2>
+
+<div class="sidebar">
+	<h2>Not yet working</h2>
+	<p>I have not worked out how to:</p>
+	<ul>
+	<li>Upload a Points of Interest (POI) database</li>
+	<li>Upload a custom waypoint icon</li>
+	<li>Upload MapSource maps</li>
+	</ul>
+	<p>I suspect that these can be done.</p>
+</div>
+
+
+<p>The good news is that lots of things just work, using the USB interface and some open-source software.</p>
+<ul>
+<li><a href="#s1">Download track logs to the Mac</a></li>
+<li><a href="#s2">View a track log in Google Earth on the Mac</a></li>
+<li>Create a set of waypoints on the Mac</li>
+<li>Upload a set of waypoints to the GPS</li>
+<li>Create a route on the Mac</li>
+<li>Upload a route to the GPS</li>
+</ul>
+
+
+<h2 id="s1">How to download track logs</h2>
+
+<p>You can download track logs, simply by connecting the GPS as a USB Mass Storage device and copying the <a href="http://en.wikipedia.org/wiki/GPX">GPX</a> file using the Finder.</p>
+<ol>
+<li><strong>Put a MicroSD card in the GPS to store track logs</strong>
+<br/>The Venture Cx does not come with a MicroSD card, so I borrowed a 64 Mb one from my mobile phone. I expect to replace this with a new 1 Gb MicroSD card for less than €20.</li>
+<li><strong>On the GPS, select <em>Main Menu » Tracks » Setup » Data Card Setup » Log track to data card</em></strong></li>
+<li><strong>On the GPS, select <em>Main Menu » Tracks » On</em></strong></li>
+<li><strong>Go for a walk</strong></li>
+<li><strong>On the GPS, select <em>Main Menu » Tracks » Save » Yes » OK</em></strong>
+<br/>This saves the current track on the card.</li>
+<li><strong>Connect the GPS to the Mac using a mini-USB cable</strong>
+<br/>This seems to be a standard cable with a normal USB plug on the Mac end, and a <a href="http://en.wikipedia.org/wiki/Image:Mini_usb_AB.jpg">USB Mini-B plug</a> on the other end. The Venture Cx does not come with this cable, but I already had a spare one from a digital camera. You can probably get one for less than €10 in an electronics shop.</li>
+<li><strong>On the GPS, select <em>Main Menu » Setup » Interface</em></strong></li>
+<li><strong>On the GPS' <em>Interface Setup</em> screen, press Enter to select <em>USB Mass Storage</em></strong>
+<br/>This will mount the MicroSD card as a disk in Finder on the Mac.</li>
+<li><strong>Copy the GPX file from the MicroSD card to the Mac</strong>
+<br/>The track log file name includes is a date, so a file for 18 March 2007 would be <code>20070318.gpx</code>.</li>
+</ol>
+<p>This gives you a GPX file, which is an XML file that you can view in a text editor and convert to KML and view it in Google Earth, or Google maps. Here is an example file that I downloaded from my GPS: <a href="
+20070312.gpx" title="GPX file">20070312.gpx</a>.
+
+
+<h2 id="s2">How to view a track log in Google Earth</h2>
+
+<p>You can convert a track log from the device to the KML format used by Google Earth and Google Maps, using <a href="http://www.gpsbabel.org/">GPSBabel+</a> or <a href="http://www.scriptamac.at/gpsactions.html">GPS Automator Actions</a>. These are both front-ends to the cross-platform open-source <a href="http://www.gpsbabel.org/">GPSBabel</a> command-line tool.</p>
+<ol>
+<li><strong>On the <a href="http://sourceforge.net/project/showfiles.php?group_id=58972&package_id=54959">GPSBabel download page</a>, download and install the latest <em>.dmg</em> file.</strong></li>
+<li><strong>Start the GPSBabel+ application</strong></li>
+<li><strong>In the <em>Quick GPSBabel</em> window, in the <em>Input Options</em> section, select <em>Use file</em>, click the <em>Select…</em> button and select the GPX file from the GPS.</strong>
+<br/>You can use the <a href="picture/venture_cx_mac/20070312.gpx" title="GPX file">20070312.gpx</a> example from <em>How to download track logs</em>, above. After you select the file, the <em>Input file type</em> option changes to <em>GPX XML</em>.</li>
+<li><strong>In the <em>Output options</em> section, select <em>Use file</em>, and select the <em>Google Earth (Keyhole) Markup Language</em> option.</strong></li>
+<li><strong>Click the <em>Save File…</em> button, choose a file to save and click <em>OK</em>.</strong>
+<br/>After the file is successfully saved, GPSBabel should an alert with the message <em>Processed fully.</em></li>
+<li><strong>Download and install <a href="http://earth.google.com/download-earth.html">Google Earth</a></strong>
+<br/>if you do not already have it.</li>
+<li><strong>In the Finder, open the <em>20070312.kml</em> file you saved in step 5.</strong>
+<br/>The file opens in Google Earth, and is shown in the <em>Places</em> pane as <em>Temporary Places » GPS Device » Track</em></li>
+<li><strong>In Google Earth, at the top-right of the main window, click the play button to the right of the track's time series.</strong>
+<br/>For some reason, the whole track is not initially shown, just the first point. To view the whole track log, drag the vertical time position cursor to reveal the whole time range:</li>
+</ol>
+
+<p><img alt="Track log viewed in Google Earth" src="picture/venture_cx_mac/google-earth.png"/></p>
+
+<p>A web-based alternative to using Google Earth is to <a href="http://maps.google.com/maps?q=http://hilton.org.uk/picture/venture_cx_mac/20070312.kml">view the KML file in Google Maps</a>.</p>

@@ -1,0 +1,493 @@
+---
+title: Web site Architecture
+description: Design guidelines intended to help create a viable web site design in which Uniform Resource Locators (URLs) are never changed. 
+keywords: web site design goals, web, website, design goals, design, web site, information architecture, web site architecture, requirements
+layout: hh
+---
+
+<h2>1. Introduction</h2>
+
+
+<H3>1.1 Purpose</H3>
+
+<p><a href='picture/photo/luxembourg/big_red_bridge_l.jpeg'><img src='picture/photo/luxembourg/big_red_bridge_ls.jpeg' width='198' height='125'   style='float:right'></a>
+<strong>These design guidelines provide practical details to help 
+implement a web site.</strong> Whilst a lot of people have written about how to make web pages look 
+nice, there is little advice about how to design a web site for simplicity, scalability and usability. These guidelines represent an effort to fill the gap.</p>
+
+<p>These guidelines are not definitive; they merely represent one approach 
+that avoids many common pitfalls of web site design and implementation.</p>
+
+
+<H3>1.2 Scope</H3>
+
+<p>These guidelines concern a web site's physical implementation. As such, 
+the guidelines are relevant to whoever will assemble a collection of web pages into a web site, and to the 'webmaster' who subsequently administers and maintains the site.</p>
+
+<p>Here a 'web site' could be a public Internet site, an intranet site or a 
+web-based front-end to a server application.</p>
+
+<p>These guidelines do not deal with information architecture, which deals 
+with how to organise a web site's content as a set of pages, or web page design, which only deals with single pages. Most importantly these guidelines are not concerned with the content of any page on the web site.</p>
+
+
+<H3>1.3 Summary</H3>
+
+<p>These design guidelines are intended to help create a viable web site 
+design in which Uniform Resource Locators (URLs) are never changed. With most designs, never breaking URLs involves either an increasingly disorganised file system, as new sections are added, or a complex design, even for very simple sites. These guidelines should reduce, or even remove, these problems.</p>
+
+
+<H3>1.4 Abbreviations &amp; glossary</H3>
+<DL>
+<DT>sub-site
+<DD>A self-contained section of a web site, with its own look and subject 
+area. For example, on a magazine site there might be a sub-site for one writer's column; <a HREF="http://www.useit.com/">Jakob Nielsen's site</a> has the <a HREF="http://www.useit.com/alertbox">Alertbox</a> sub-site , and <a HREF="http://photo.net/">http://photo.net/</a> has the <a HREF="http://photo.net/wtr/">Web Tools Review</a> sub-site.
+
+<DT>URL
+<DD>Uniform Resource Locator - the address of a web page.
+
+<DT>URL file
+<DD>A file that is the target of one of a site's valid URLs.
+</DL>
+
+
+<H3>1.5 Conventions used in this document</H3>
+
+<ul>
+<li>Book and web page titles are set in italics.</li>
+<li>HTML and code fragments are set in the courier typeface.</li>
+<li>References and external examples are given in footnotes, preceded by '<em>See also</em>'.</li>
+<li>Additional explanations and justifications are given in footnotes, preceded by '<em>Why?</em>'.</li>
+<li>Examples are shown on a grey background. Several of the examples will refer to the design of <a HREF="http://hilton.org.uk/">Hilton Harbour</a>, which illustrates several of the design guidelines.</li>
+</ul>
+
+
+<H3>1.6 Background</H3>
+
+<p>The following two web sites have contributed to, or strongly influenced, 
+the design goals. These sites are good background reading.</p>
+<ul>
+<li><a HREF="http://www.useit.com/alertbox">Alertbox</a>, Jakob Nielson's column</li>
+<li><a HREF="http://photo.net/wtr/thebook">Philip and Alex's Guide to Web 
+Publishing</a>, the online edition of Philip Greenspun's book</li>
+</ul>
+
+
+<H3>1.7 URL and file system structures</H3>
+
+<p>The guidelines concern URL structure and file system structure, which 
+are introduced in this section. The <strong>URL structure</strong> is the scheme that results in the set of a site's URLs, where related pages have similarly structured URLs.</p>
+
+<p>The <strong>file system structure</strong> is the organisation of the 
+web site's files on a file system. Here, the structure is a hierarchical directory structure.</p>
+
+<div class="example">
+<H4>HH file system structure example</H4>
+
+<p><CODE>
+/about_hh.phtml
+<br/>/peter/
+<br/>&nbsp;about_hh_text.phtml
+<br/>/part/
+<br/>&nbsp;hh_page_template.phtml
+<br/>&nbsp;hh.css
+</CODE>
+</p>
+
+<p>Example 2: The page 
+<a HREF="http://hilton.org.uk/about_hh.phtml"><CODE>http://hilton.org.uk/about_hh.phtml</CODE></a> is built from the five files listed above. <CODE>about_hh_text.phtml</CODE> contains the content; the <CODE>part</CODE> directory contains the page template and style sheet. <CODE>about_hh_text.phtml</CODE>, can be moved without breaking the URL, which corresponds to <CODE>about_hh.phtml</CODE>.</p>
+</div>
+
+<p>These URL structure and file system structure are the same when each 
+file associated with a valid URL. Many of the following design goals rely on the premise that there is not necessarily any fixed relationship between the file system, navigation model and the URLs.</p>
+
+<p>For most web sites site navigation, URL and file system structures are 
+not independent. However, unless they are separated then some of the design goals are mutually exclusive.</p>
+
+
+<h2>2. Design Goals</h2>
+
+<p><a href='picture/photo/luxembourg/vianden_musicians.jpeg'><img src='picture/photo/luxembourg/vianden_musicians_s.jpeg' width='125' height='198' alt='musicians in Vianden, Luxembourg' title='musicians in Vianden, Luxembourg' style='float:right'></a>
+This section describes web site design goals for URL structure and file 
+system structure. They are based on the experience of what is annoying about other people's web sites, and what is annoying about trying to maintain my own. Ideally a web site should meet all of these goals.</p>
+
+<p>This section does not explain how to implement a web site that meets 
+these goals; that is the purpose of the guidelines in the section 3.</p>
+
+
+<H3>2.1 Uniform Resource Locators (URLs)</H3>
+
+<H4><em>Goal.</em>  Every page should exist for ever at the same URL</H4>
+
+<p><em>Purpose.</em> This is the most important of all the requirements 
+because you have no control over who links to your site, with the dubious exception of search engines. This goal is most important on public Internet web sites. On the assumption that you want people to be able to read your pages, you should leave each page where each reader first found it. They will appreciate it.</p>
+
+<p><em>Notes.</em> You also need to have your own domain name so that your 
+URL does not change if (i.e. when) you change service provider (public Internet) or web server machine (intranet).</p>
+
+
+<H4><em>Goal.</em>  URLs should 'read well'</H4>
+
+<p><em>Purpose.</em> If a URL reads well then it will be more recognisable 
+out of context, in an e-mail or on a piece of paper. The URL will also be easier to transcribe or dictate correctly. URLs that read help the site maintainer in a similar way. In particular, the site's internal links are less likely to be incorrect (broken).</p>
+
+<p><em>Notes.</em> A URL 'reads well' if it is meaningful to humans: 
+something like <CODE>/reviews/restaurants/cambridge.html</CODE> helps the user more than <CODE>/file/all/03/rr9801219.html</CODE>. Unfortunately, this goal often conflicts with the goal 'have a well-organised file structure', especially when URLs are associated with dates, as for an online news service, say.</p>
+
+<p>It is difficult to keep URLs for a search engine's results pages 
+readable. For example, <CODE>kl=XX&amp;pg=q&amp;text=yes&amp;act=search&amp;q=one</CODE> is the 'query string', appended to the URL that specifies an Altavista search. If all of the <CODE>name=value</CODE> pairs used whole words then the URL would become too long very quickly, so some compromise is required.</p>
+
+
+<H4><em>Goal.</em>  There should be some limit to the length of URLs</H4>
+
+<p><em>Purpose.</em> A web site design should ensure that URLs don't become 
+arbitrarily long, as the site grows and more sections are added. If your site structure strategy involves a deep hierarchical structure then each new sub-section gives longer URLs. If this happens the URLs become too long to remember, to be visible in the browser's location text box, or to write down.</p>
+
+<p><em>Notes.</em> A good maximum length is 80 characters, as URLs that are 
+longer than this will not typically fit on one line of a paragraph.</p>
+
+
+<H4><em>Goal. </em>URLs should hide the implementation technology</H4>
+
+<p><em>Purpose.</em> Your web site's implementation might suggest exotic 
+URL file extensions, such as <CODE>tcl</CODE>, <CODE>pl</CODE>, <CODE>shtml</CODE>, <CODE>php3</CODE>, <CODE>asp</CODE>, etc. Hiding the implementation allows you to change technology without changing URLs.</p>
+
+<p><em>Notes.</em> It should always be possible to configure the web server 
+to process html files as if they had some other file extension, or to replace the file extension internally using something like Apache's URL rewriting ability.</p>
+
+
+<H4><em>Goal. </em>URLs should be 'choppable', so that the result is a valid URL</H4>
+
+<p><em>Purpose.</em> Given a URL like 
+<CODE>reviews/restaurants/cambridge.html</CODE> many users will look in the parent directories, hoping to find more restaurant reviews at <CODE>reviews/restaurants/</CODE>, perhaps. This should be a valid URL.</p>
+
+<p>Users, such as myself, only do this after giving up on the site's 
+navigation interface. This goal is relevant because in practice, you can never <em>guarantee</em> that the web site interface design is <em>perfect</em>.</p>
+
+<p><em>Notes.</em> Assuming that the restaurants directory really does 
+contain more restaurant reviews, which it probably should, then you have at least three choices. You could let the user see a directory listing (naff), show the user a 'no such page' or 'directory listing not allowed' error (unfriendly) or show a restaurant reviews index page (nicest). However, unless you resort to trickery, choosing the last option results in the need to maintain a whole raft of identically named index files, which violates Goal 0.</p>
+
+<H3>2.2 File system structure</H3>
+
+<H4><em>Goal.</em>  Small sites should have a simple structure, but be able to evolve</H4>
+
+<p><em>Purpose.</em> It should be easy to start small, without making it 
+hard to grow. A web site with a 'simple structure' consists of only a few files and directories, whereas some designs involve a complex directory hierarchy from the start or a complex middleware solution such as Cold Fusion.</p>
+
+<p>On the other hand, it should be possible to add 1000 pages to the site 
+such that none of the other guidelines are broken for all 1004 pages.</p>
+
+<p><em>Notes.</em> This is hard! This goal is essentially a requirement 
+that a design scheme should be simple for small sites of a few pages, and allow the site to scale up to a large site of thousands of pages without conflicting with the other goals, such as the requirement not to break URLs.</p>
+
+<div class="example">
+<H4>HH file system structure example</H4>
+
+<p>The first version of <em>Hilton Harbour</em> started off with only a couple of HTML files for restaurant reviews, and images in another directory. I could have used the structure</p>
+
+<p><CODE>restaurants/
+<br/>&nbsp;paris.html
+<br/>&nbsp;cambridge.html
+<br/>images/
+<br/>&nbsp;...
+</CODE></p>
+
+<p>This is a simple enough structure, but I didn't write about any more 
+restaurants, so the new pages on other topics would need new directories for each topic.</p>
+</div>
+
+
+<H4><em>Goal.</em>  The file structure should be well-organised</H4>
+
+<p><em>Purpose.</em> There must be a coherent scheme for locating files on 
+the web server, so that the webmaster knows both where to find each file and where to put a file found out of context. For a large site with many maintainers a coherent strategy is essential so that everyone involved saves or looks for each file in the same place.</p>
+
+<p><em>Notes.</em> The webmaster would need to know where to put a file 
+found out of context if the file has been edited elsewhere, or gets put in the wrong place. This means knowing exactly where <CODE>about.html</CODE> belongs, for example.</p>
+
+<div class="example">
+<H4>HH URL structure example</H4>
+
+<p>The first version of <em>Hilton Harbour</em> used a combined directory/URL structure like</p>
+
+<p><CODE>
+resources/
+<br/>&nbsp;cambridge/
+<br/>&nbsp;&nbsp;cafes.html
+<br/>&nbsp;&nbsp;restaurants.html
+<br/>&nbsp;paris/
+<br/>words/
+<br/>&nbsp;opinion/
+<br/>&nbsp;poetry/
+</CODE></p>
+
+<p>This structure was well organised in the sense that there was a fairly 
+coherent hierarchy of categories. My first problem was that each directory needed an <CODE>index.html</CODE> file to act as a navigation page or content page. This meant that I had lots of files with the same file name; I put an <CODE>index.html</CODE> file in the wrong place more than once.</p>
+
+<p>The second problem was that I inevitably had chosen the categories 
+badly; for example, I left Paris in May 1997 and never wrote another Paris page. If I had used few directories - a simpler structure - this problem would have been worse.</p>
+</div>
+
+
+<h2>3. Design Guidelines</h2>
+
+<p><a href='picture/photo/luxembourg/ministry_of_health_l.jpeg'><img src='picture/photo/luxembourg/ministry_of_health_ls.jpeg' width='198' height='125' alt='The Ministry Of Health, Luxembourg' title='The Ministry Of Health, Luxembourg' style='float:right'></a>
+This section contains the web site design guidelines for the URL and file system structures. Several of the guidelines are mutually dependent: some are only practicable or worthwhile if certain other guidelines are followed.</p>
+
+<p>The intention is that a web site design that follows these guidelines will meet the design goals of the previous section.</p>
+
+
+
+<H3>3.1 URL structure</H3>
+
+<H4><em>Guideline.</em> <em>Never</em> change a page's URL</H4>
+
+<p><em>Purpose.</em> This is just the first of the goals, and is the most 
+important guideline. It is easy to state by itself, and hard to implement in practice. The purpose of many of the remaining guidelines is to make this guideline practicable.</p>
+
+<p><em>Notes.</em> 'Never' really does mean never, not merely 'hardly ever'. However, sometimes a page may be withdrawn, in which case the URL should still work, but point to either a withdrawal notice, or some navigation page.</p>
+
+
+<H4><em>Guideline. </em>Put all URLs at the web site root</H4>
+
+
+<p><em>Purpose.</em> If all of the URLs are at the site's root level then 
+you automatically satisfy the following design goals.</p>
+<ul>
+<li><em>Goal. </em>There should be some limit to the length of URLs.</li>
+<li><em>Goal. </em>URLs should be 'choppable', so that the result is a valid URL.</li>
+<li><em>Goal. </em>Small sites should have a simple structure, but be able to evolve.</li>
+</ul>
+
+<p><em>Notes.</em> This gives you 
+<CODE>http://your.site.com/some-page.html</CODE> rather than <CODE>http://your.site.com/lots/of/directories/page.html</CODE>. As your site grows, you get lots of files in the root directory, but that doesn't turn out to be a problem. You might want another scheme once you have more than a thousand or so pages, though.</p>
+
+<p>Putting all of the URL files in the same directory means that their names must be unique, which creates a problem if more than one person is adding pages to the site. The webmaster could control URL file names, which would help give a coherent scheme, but might not be practicable if too many pages are involved. Alternatively, if different people add to different sections of the site, then a unique prefix could be used for each section, e.g. <CODE>review-</CODE>, <CODE>press-release-</CODE> or <CODE>product-</CODE>.</p>
+
+<div class="example">
+<H4>HH URL file name example</H4>
+
+<p>As of July 1999 <em>Hilton Harbour</em> consists of about 80 pages. It would probably be impossible to neatly classify these pages into categories and sub-categories, so any URL structure other than a flat one would be flawed. Instead they have URL file names that stand alone like</p>
+
+<p><CODE>
+cambridge_restaurants.phtml
+<br/>cambridge_cafes.phtml
+<br/>international_assignment.phtml
+<br/>gourmet_dish.phtml
+<br/>questions.phtml
+</CODE></p>
+</div>
+
+
+<H4><em>Guideline. </em>Use relative URLs for internal hyperlinks</H4>
+
+<p><em>Purpose.</em> This makes your pages are more portable, because you 
+use relative URLs, and your links are less likely to be broken, because they are simpler. The previous guideline means that all of the HTML anchor tags in your pages contain something like <CODE>href="just-a-file-name.html"</CODE>.</p>
+
+<p><em>Notes.</em> This also applies to links to images. If they are all in 
+an images sub-directory of the web site root then all of your HTML image tags contain something like <CODE>src="images/sofa.jpeg"</CODE>.</p>
+
+
+<H4><em>Guideline. </em>Only use lower-case letters, numbers and hyphens in URLs</H4>
+
+<p><em>Purpose.</em> This is to satisfy the goal that URLs should read 
+well This makes the URLs simpler by reducing the number of possible variations, which makes them less likely to be broken. The path portion of a URL is case-sensitive, in general, so only using lower-case makes it easy to get the case right. Use hyphens to separate words, which makes the URL easier to read.</p>
+
+<p><em>Notes.</em> 1. This guideline does not apply to the query string 
+that can appear at the end of a URL, after a question mark. 2. Underscores are a good alternative to hyphens. Choose whichever the webmaster can type fastest.</p>
+
+<H4><em>Guideline. </em>Only use unabbreviated words or common acronyms in URLs</H4>
+
+<p><em>Purpose.</em> This is also to satisfy the goal that URLs should 
+read well. This guideline makes URLs easier to remember and use correctly, which helps both the webmaster much as the user.</p>
+
+<p><em>Notes.</em> Words should be spelled correctly; 'common acronyms' are 
+those found in a dictionary or understood by the page's audience, rather than abbreviations the webmaster made up in the same way that Unix shell commands were named. Presumably the acronym will be expanded the first time it is used in the text of the page anyway, as it should be.</p>
+
+<p>This is not practicable for search results pages, where the search is 
+specified in the URL. A good idea is, for each <CODE>name=value</CODE> pair, to restrict the name to one or two letters.</p>
+
+
+<H4><em>Guideline. </em>Avoid digits in URLs, where the digits are not essential</H4>
+
+<p><em>Purpose.</em> This is just a sensible naming convention - you should 
+use meaningful names. Numbers <em>are</em> meaningful in dates, when they are part of a name, and when they represent a series of similar pages.</p>
+
+<p><em>Notes.</em> For example, numbers occur in names like 
+<CODE>68000_processor.html</CODE>; serial numbers are essential for press releases, for example, where there may be many hundred issued per month. These examples are the exception though: most URLs do not need numbers. For example, the digits in <CODE>review1.html</CODE>, <CODE>review2.html</CODE> and <CODE>review3.html</CODE> do not distinguish the different reviews in any way; longer names could do this by saying what each one is a review of.</p>
+
+
+<H4><em>Guideline. </em>Create URL file names in a consistent way</H4>
+
+<p><em>Purpose.</em> Since (unfortunately) URLs must be human-readable they 
+must be meaningful. A consistent naming scheme is the only way to have a large number of meaningful and related URLs.</p>
+
+<p><em>Notes.</em> For example, to construct a URL file name that follows 
+these guidelines,</p>
+<ol>
+<li>take the page title</li>
+<li>convert the title to lower case</li>
+<li>separate words with hyphens</li>
+<li>remove all punctuation, and other non-alphanumeric characters</li>
+<li>add the file extension <CODE>.html</CODE></li>
+<li>if the name is too long - more than three or four words - then remove 
+any words that are not essential to the meaning of the title and are not required to make the file name unique</li>
+<li>move important words to the front of the URL, so that similar pages have 
+similar names that appear next to each other in alphabetic lists.</li>
+</ol>
+
+<p>This scheme should not give URLs that are too long if you follow the 
+guideline to 'put URLs in the web site root', because there will be no directory names.</p>
+
+<div class="example">
+<H4>HH URL file name example</H4>
+
+<p><em>Hilton Harbour</em> has URL file names are constructed from the page 
+titles, and do not use abbreviations. For example:</p>
+
+<p><CODE>european_phrase_book.phtml
+<br/>photos_luxembourg_city.phtml
+<br/>luxembourgish_verb_table.phtml
+<br/>why_i_hate_computers.phtml
+</CODE></p>
+
+<p>Because these file names are constructed from the page titles and do not 
+use abbreviations, I only have to remember the title to know the URL.</p>
+</div>
+
+
+<H4><em>Guideline.</em> Do not have URL file extensions, or use <CODE>.html</CODE></H4>
+
+<p><em>Purpose.</em> This is to satisfy the goal that the implementation
+should be hidden. Also, non-standard extensions make URLs harder to memorise or transcribe.</p>
+
+<p><em>Notes.</em> The best idea is for URLs not to have a file extension 
+at all, as there is no need to indicated the content type in the name of the file: this is already handled in the HTTP headers.</p>
+
+<p>Ideally the web server will serve the correct right page back for any 
+URL ending with <CODE>.html</CODE>, whatever the real extension. The Apache web server can be configured to correct such 'spelling errors' automatically.</p>
+
+<div class="example">
+<H4>HH URL file name example</H4>
+
+<p>The first pages on <em>Hilton Harbour</em> were just static HTML files, 
+so the files had <CODE>.html</CODE> file extensions. Then I used Server-Side Includes, so I had to change the file extensions to <CODE>.shtml</CODE>, breaking all of the URLs. Again, when I changed to PHP for server-side scripts I had to change the extensions to <CODE>.phtml</CODE>. If I had the option, I would have enabled PHP for all files, regardless of extension, in order to meet the guideline, and not ever break the URLs.</p>
+</div>
+
+
+<H3>3.2 File system structure</H3>
+
+<H4><em>Guideline. </em>File names should be unique</H4>
+
+<p><em>Purpose.</em> This is necessary to satisfy the goal that the file 
+system be well-organised. Otherwise, when files are in the wrong place, or have been edited in another location, you will not know where some file belongs. </p>
+
+<p><em>Notes.</em> If you are editing a lot of <CODE>index.html</CODE> 
+files in different directories then it can be difficult to remember which is which: copying one to the wrong place and overwriting some other pages is an easy mistake to make.</p>
+
+<p>In the case of index.html directory index files it is probably easy to 
+keep file names unique by automatically redirecting requests to <CODE>restaurants/</CODE> or <CODE>restaurants/index.html</CODE>, say, some canonical name such as <CODE>restaurants/restaurants-index.html</CODE>.</p>
+
+
+<H4><em>Guideline. </em>For small sites, put all of the files in the site's root directory.</H4>
+
+<p><em>Purpose.</em> This is to satisfy the goal that small sites be simple. </p>
+
+<p><em>Notes.</em> If your site only consists of four pages then it you 
+probably only want to have four HTML files together in the same directory, with URLs that point directly at the files. This could include image files, but you are probably better off putting all of the images in one subdirectory.</p>
+
+<div class="example">
+<H4>HH file system structure example</H4>
+
+<p>I should have started <em>Hilton Harbour</em> with just three files in the root directory:</p>
+
+<p><CODE>index.html </CODE> (the home page) <CODE>
+<br/>peters_peachy_paris_page.html
+<br/>cambridge_restaurants.html
+</CODE></p>
+
+<p>Then, when the site grew and I implemented page templating, I could have 
+created a hierarchical directory structure to organise everything, leaving the original three files in place along with all of the new URL files.</p>
+</div>
+
+
+<H4><em>Guideline. </em>For large sites, put the files in a hierarchical directory structure.</H4>
+
+<p><em>Purpose.</em> This is for the goal that the file structure be well-organised.</p>
+
+<p><em>Notes.</em> If you want to follow this as well as all of the other 
+guidelines then you need to use some kind of page templating mechanism. In particular, you need to separate page content locations from URLs. See the next section.</p>
+
+<div class="example">
+<H4>HH file system structure example</H4>
+
+<p><em>Hilton Harbour</em> is currently organised with one sub-directory for each author:</p>
+
+<p><CODE>
+peter
+<br/>robert
+<br/>marion
+</CODE></p>
+
+<p><CODE>marion</CODE> has no sub-directories because it only contains two 
+HTML files that contain the page content for her two pages. If Marion writes another hundred pages then I can create a subject hierarchy for the page content files, and move the content files for the two original pages without breaking their URLs, which are fixed to files in the root directory. Originally, <code>peter</code> had half a dozen subdirectories, but after getting annoyed with this for long enough, I just put everything in the same directory. It turns out that 137 files in the same directory is not too many at all, and now I don't have to try to remember which subdirectory a given file is in.</p>
+</div>
+
+
+<h2>4. Notes On Implementation</h2>
+
+<H3>4.1 Make URLs independent of content location</H3>
+
+<p><a href='picture/photo/luxembourg/ministry_of_health_p.jpeg'><img src='picture/photo/luxembourg/ministry_of_health_ps.jpeg' width='125' height='198' alt='The Ministry Of Health, Luxembourg' title='The Ministry Of Health, Luxembourg' style='float:right'></a>
+The crucial step in being able to implement all of the guidelines is to 
+separate the URLs from the page content. In the simplest case, each page is a static HTML file, such as <CODE>/reviews/restaurants/cambridge.html</CODE>. Do not use this as the URL; instead have a URL file called <CODE>/cambridge-restaurants.html</CODE> that refers to the content file.</p>
+
+<p>You can use one file to refer to another in many ways, such as</p>
+<ul>
+<li>using Server Side Includes - the URL file contains the single line
+<br/><CODE>&lt;!--#INCLUDE file="/reviews/restaurants/cambridge.html" --&gt;</CODE>
+<li>use a server-side script to do the same thing as the Server Side Includes</li>
+<li>redirect all requests to a single server-side script that parses the URL and 'includes' the appropriate file</li>
+<li>use Unix symbolic links, or their equivalent.</li>
+</ul>
+
+<H3>4.2 Using page templates</H3>
+
+<p>Page templating generally works using a server-side script that performs the following steps.</p>
+<ul>
+<li>Use the URL to locate the page's meta-data.</li>
+<li>Get the page's meta-data.</li>
+<li>Get the page content.</li>
+<li>Combine the meta-data and page content with the page template.</li>
+</ul>
+
+<p>The meta-data includes all of the information that will go in the HTML 
+page's <CODE>HEAD</CODE> section. The page content is what goes inside the HTML page's <CODE>BODY</CODE> section. This information could be retrieved from a database or read from one or more files.</p>
+
+<p>There are a variety of technologies that could be used to implement page 
+templating, and therefore a web site that follows all of the guidelines. These technologies include</p>
+
+<ul>
+<li>Perl scripts that use the <CODE>Text::Template</CODE> module, run offline, or as server-side scripts</li>
+<li><a href="http://www.php.net/">PHP</a>, an Open Source server-side scripting language</li>
+<li>Active Server Pages (and presumably GNU Server pages and JavaServer Pages and GNU Java Server Pages)</li>
+<li><a href="http://www.zope.org/">Zope</a>, an Open Source web application server package.</li>
+</ul>
+
+<p>Descriptions of these technologies, and how to use them for page 
+templating are outside the scope of this document.</p>
+
+
+<H3>4.3 Very large sites</H3>
+
+<p>I have not tried the guidelines on a very large site of many thousands 
+of pages. Such large sites are always divided into sub-sites, and there are two obvious ways to approach these sub-sites.</p>
+
+<p>The first would be to have one sub-directory for each sub-site. Then, 
+simply apply the guidelines to the sub-site as if it were a whole web site, with its directory as the 'web site root'.</p>
+
+<p>The second approach is to have a different domain name for each sub-site 
+and, for the purposes of these guidelines, treat it as a separate web site.</p>
+
+<p>In both cases, the problem is in evolving a group of pages from the main 
+web site into it's own sub-site. Introducing a new URL-subdirectory or domain name means new URLs, which is exactly what my guidelines have tried to avoid.</p>

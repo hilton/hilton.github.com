@@ -1,0 +1,151 @@
+---
+title: Web site architecture requirements
+description: This article for web site managers lists, explains and attempts to justify my choice of requirements for a web site architecture.
+keywords: web site design goals, web, website, design goals, design, web site, information architecture, web site architecture, requirements
+layout: hh
+---
+
+<p><strong>This page has now been superceded by my newer page on 
+<a href="web_site_architecture.html">Web site Architecture</a>.</strong></p>
+
+<h2>summary</h2>
+
+<p>This article is not about web <em>page</em> design, <strong>this article 
+is about web <em>site</em> design</strong> and attempts to justify my choice of some <strong>requirements for a web site architecture</strong>. My follow-up article describes my <a href="web_site_design_guidelines.html" title="Web site design guidelines"><em>Web site design guidelines</em></a>, which show how to meet these requirements. I am writing for web site managers or maintainers, webmasters, web site gardeners or whatever you call yourself - you know who you are.</p>
+
+<p>I wrote this article because although <em>a lot</em> of people have 
+written about how to make web pages look nice, there is little advice about how to manage a web site. These requirements are about scaleability and being nice to users and maintainers, and are of varying importance. <strong>The requirements on this page are that</strong></p>
+
+<ol>
+<li><a href="web_site_architecture_requirements.html#goal_1">
+every page should exist <em>for ever at the same URL</em></a> (important)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_2">
+URLs should 'read well'</a> (helpful)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_3">
+there should be some limit to the length of URLs</a> (helpful)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_4">
+file names should be unique across the web site</a> (not essential)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_5">
+URLs should be 'choppable', so that the result is a valid URL</a> (helpful)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_6">
+in URLs, HTML file names should have a <TT>.html</TT> extension</a> (helpful)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_7">
+small sites should have a simple structure</a> (helpful)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_8">
+users should still be able to find pages, however big the site</a> (important)</li>
+
+<li><a href="web_site_architecture_requirements.html#goal_9">
+the site maintainers should be able to find files, however big the site</a> (important).</li>
+</ol>
+
+
+<h2>the file system, navigation model and URLs</h2>
+
+<p>Three aspects of a web site's implementation are the organisation of the 
+files on the web server, the form that the site's URLs take and the navigation model presented to the user on the pages. Many of the requirements above rely on the premise that <strong>there is not necessarily any fixed relationship between the file system, navigation model and the URLs</strong>. For most web sites these three aspects of the site are not independent. However, unless they are separated then some of the requirements described in this article are mutually exclusive.</p>
+
+<p>For example, if the URLs always refer to <TT>.html</TT> files on the web 
+server directly, then the URL is determined by the file's location. This means that files at the 'bottom' of a deep hierarchy where directory names are whole words must have long URLs. Also, if a site's structure is initially simple, then a coherent hierarchical structure cannot be maintained without creating new categories as the site grows. This in turn requires that files are moved into the new directories, which cannot be done without changing a page's URL.</p>
+
+
+<h2>'niceness' requirements</h2>
+
+
+<h3><a name="goal_1">DG1. every page should exist <em>for ever at the same URL</em></a></h3>
+
+<p>This is the most important of all the requirements <strong>because you 
+have no control over who links to your site</strong>, with the dubious exception of search engines. On the assumption that you want people to be able to read your pages, you should leave each page where each reader first found it. They will appreciate it.</p>
+
+<p>Note: if you are really serious about this then you need to have your 
+own domain name so that your URL does not change if (i.e. when) you change service provider.</p>
+
+
+<h3><a name="goal_2">DG2. URLs should 'read well'</a></h3>
+
+<p>It is better to have URLs like 
+<TT>/reviews/restaurants/cambridge.html</TT> than <TT>/file/all/03/rr9801219.html</TT>. That is, <strong>URLs should be composed of whole words</strong>, with no abbreviations other than common acronyms, such that the URL 'makes sense' when the words are read, in order.</p>
+
+<p>If a URL reads then the user is more likely to be able to copy it onto a 
+piece of paper without getting it wrong, and then to remember what the URL refers to a week later. URLs that read help the site maintainer in a similar way. In particular, the site's internal links are less likely to be incorrect - i.e. broken.</p>
+
+
+<h3><a name="goal_3">DG3. there should be some limit to the length of URLs</a></h3>
+
+<p>If your site structure strategy involves a deep hierarchical structure 
+then you can end up with very long URLs after the site has grown, especially if you don't use abbreviations. The disadvantage here is that the <strong>URLs become too long to remember</strong>, to fit in the browser's location text box, or to write down.</p>
+
+
+<h3><a name="goal_4">DG4. file names should be unique across the web site</a></h3>
+
+<p>Although not essential, this helps the site maintainer. When files are 
+in the wrong place, or have been edited in another location, then <strong>unique file names help the webmaster know where a file is supposed to go</strong>. If you are editing a lot of <TT>index.html</TT> files in different directories then it can be difficult to remember which is which. I have edited an <TT>index.html</TT> file and then put it back in the wrong place myself on more than one occasion.</p>
+
+<p>In the case of <TT>index.html</TT> directory index files it is probably 
+easy to keep file names unique by automatically redirecting requests to <TT>restaurants/</TT> or <TT>restaurants/index.html</TT>, say, some canonical name such as <TT>restaurants/restaurants_index.html</TT>.</p>
+
+
+<h3><a name="goal_5">DG5. URLs should be 'choppable', so that the result is a valid URL</a></h3>
+
+<p>If you are going to use URLs such as 
+<TT>reviews/restaurants/cambridge.html</TT> then you should <strong>expect users to look in the parent directories</strong>, hoping to find more restaurant reviews at <TT>reviews/restaurants/</TT>, say.</p>
+
+<p>Assuming that the <TT>restaurants</TT> directory really does contain 
+more restaurant reviews, which it probably should, then you have at least three choices. You could let the user see a directory listing (naff), show the user a 'no such page' error (unfriendly) or have a restaurant reviews index page in <TT>index.html</TT> (nicest). Choosing the last option, though, results in the need to maintain a whole raft of index files, which probably have the same name.</p>
+
+<p>Presumably users, such as myself, do this after giving up on the site's 
+navigation interface.</p>
+
+<h3><a name="goal_6">DG6. in URLs, HTML file names should have a <TT>.html</TT> extension</a></h3>
+
+<p>It is nicer for the user if the server always gives the right page back 
+when he or she uses a URL ending with <TT>.html</TT>, whatever the real extension. The files on your server might have exotic extensions, such as <TT>tcl</TT>, <TT>pl</TT>, <TT>shtml</TT>, <TT>php3</TT>. They might even have a primitive extension, such as <TT>htm</TT>. </p>
+
+<h2>scaleability requirements</h2>
+
+
+<h3><a name="goal_7">DG7. small sites should have a simple structure</a></h3>
+
+<p><strong>It should be easy to start small</strong>, without making it 
+hard to grow. For example, if a site only has four pages then these should only have to be in four files in the root directory. It would not make sense to use a complex directory structure for just a few pages. After all, the site might never grow.</p>
+
+<h3><a name="goal_8">DG8. users should still be able to find pages, however big the site</a></h3>
+
+<p>Unlike the URL or directory structure, <strong>it does not necessarily 
+make sense for a web site to have a 'top'</strong>, in the way that an FTP site does. It might well make sense for the navigational model to be independent of the URLs and the file system directory structure. </p>
+
+<p>When using most FTP clients, the starting point at an FTP site is 
+probably the <TT>/pub</TT> directory. From there you navigate 'down' the directory structure to find the files you want. Similarly, a web site maintainer usually accesses files on the web server by starting at the top of the directory structure on the server. However, <strong>users of your web site will start at an arbitrary page</strong>. This is because other people and search engines will link to your content rather than to your main page. How to help the user navigate your site is outside the scope of this article, and is extensively discussed elsewhere.</p>
+
+
+<h3><a name="goal_9">DG9. the site maintainers should be able to find files, 
+however big the site</a></h3>
+
+<p>This goal essentially says that <strong>there should be a coherent 
+scheme for locating files on the web server</strong>. For a large site with many maintainers a coherent strategy is essential so that everyone involved saves or looks for each file in the same place.</p>
+
+<p>This is related to, but may be independent of, all of the other web site 
+architecture requirements. Ultimately, though, if your files on your server are a mess then your site is unlikely to stay neat and tidy for ever.</p>
+
+<hr noshade size="1">
+
+<h2>further reading</h2>
+
+<ul>
+<li><a href="http://www.useit.com/alertbox/9605.html" title="The Alertbox: 
+Current Issues in Web Usability">Top Ten Mistakes in Web Design</a>, by <a href="http://www.useit.com" title="Jakob Nielsen's Website">Jakob Nielson</a>. In this web classic, Jakob Nielson's number four mistake is 'Complex URLs' (that don't read well).</a>
+
+<li><a href="http://www.useit.com/alertbox/980614.html" title="The Alertbox: 
+Current Issues in Web Usability">Fighting Linkrot</a>, 
+<a href="http://www.useit.com/alertbox/981129.html" title="The Alertbox: Current Issues in Web Usability">Web Pages Must Live Forever</a>, by <a href="http://www.useit.com" title="Jakob Nielsen's Website">Jakob Nielson</a>. In these two more recent editions of his daily column, Jakob Nielson's explains exactly why every page should exist <em>for ever at the same URL</em>.</a>
+
+<li><a href="http://www.photo.net/wtr/thebook/static.html" title="Philip and 
+Alex's Guide to Web Publishing">Static Site Development</a>, by 
+<a href="http://www.photo.net/philg/" title="Philip Greenspun's home page">Philip Greenspun</a>. In this chapter of his book on web publishing, Philip Greenspun tackles the subject of how to organise your web server.</li>
+</ul>

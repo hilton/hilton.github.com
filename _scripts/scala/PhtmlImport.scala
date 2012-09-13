@@ -9,6 +9,8 @@ import java.io.File
 val SOURCE_DIR = "/Users/pedro/Dropbox/hh"
 val TARGET_DIR = "/Users/pedro/Documents/code/hilton/hilton.github.com"
 
+val EXCLUDE = List("photo_index.phtml", "photos_logica_at_sea.phtml", "rankings.html")
+
 def error(message: String) {
   System.err.println("[ERROR] " + message)
   System.exit(1)
@@ -149,7 +151,7 @@ def pictureHtml(name: String, align: String, target: String): String = {
   val pic = readPicture(new File(SOURCE_DIR, "picture/data/" + name + ".data"))
 
   if (pic.thumbnail.isEmpty) {
-    error("Thumbnail not found: " + name)
+    error("Thumbnail not found: " + name + " " + pic)
   }
 
   // Check if thumbnail is an absolute URL, and make a relative URL for local images.

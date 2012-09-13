@@ -1,0 +1,14 @@
+---
+title: Index of titles
+description: Sail through an eclectic collection of writing by Peter Hilton and others.
+keywords: Peter Hilton, Marion Smits, Robert Hilton, cafes, writing
+layout: hh
+---
+
+{% for page in site.pages %}
+{% if page.title %}
+<p><a href=\"$file_name\">{{ page.title }}</a>
+<br>{{ page.description }}</p>
+
+{% endif %}
+{% endfor %}

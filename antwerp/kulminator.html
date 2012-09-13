@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Review: Kulminator, Antwerp</title>
+<link rel="stylesheet" href="cafe-belgium.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3676019-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<article class="review" itemscope itemtype="http://data-vocabulary.org/Review">
+	<header>
+		
+		<h1 itemprop="itemreviewed" itemscope itemtype="http://data-vocabulary.org/Organization">
+			<span itemprop="name">Kulminator</span>
+		</h1>
+
+	</header>
+	<div class="info">
+		<p class="photo"><img itemprop="photo" src="../facade/antwerp-kulminator.jpg"></p>
+		<p class="address">
+			<span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+					<span itemprop="street-address">Vleminckveld 32</span>, 
+					<span itemprop="locality">Antwerp</span>, 
+					<span itemprop="postal-code">2000</span>,
+					<span itemprop="country-name">Belgium</span>
+			</span>
+			<span class="tel" itemprop="tel">03 232 45 38</span>
+			<span class="geo" itemprop="geo">
+					<span itemprop="latitude">51.214549</span>, 
+					<span itemprop="longitude">4.403216</span>
+			</span>
+		</p>
+		<div id="map"></div>
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
+		<script type="text/javascript">
+			if (GBrowserIsCompatible()) {
+				var map = new GMap2(document.getElementById("map"));
+				map.addControl(new GSmallMapControl());
+				var point = new GLatLng(51.214549, 4.403216);
+				map.setCenter(point, 16);
+				map.addOverlay(new GMarker(point, {clickable: false, title: "Kulminator"}));
+			}
+		</script>
+	</div>
+	
+	<p class="summary" itemprop="summary">The only place for the serious beer-drinker in Antwerp</p>
+	
+    <div class="description" itemprop="description">
+		<p>Kulminator is from that rare breed of specialist beer pub that combines a truly impressive menu and an atmosphere unmolested by any kind of change in recent decades, resulting in a calm quiet environment to enjoy the best and most varied selection of beer in town. Outside Belgium, and to a lesser degree the Netherlands, this kind of place is very rare.</p>
+
+		<p>The menu features a very large beer selection, including plenty of unusual draught beers, large 75 cl bottles to share, and even vintage bottled beer. Food, such as it is, consists of portions of cheese or meat to accompany the beer without unduly distracting attention from it.</p>
+
+		<p>The service is quiet and friendly, with just the slightest feeling that the beers and the proprietors deserve more respect than mere customers, which is reassuring if you are used to the idea but can be somewhat disconcerting if you are expecting fast or obsequious service.</p>
+
+		<p>It is perhaps fortunate that Kulminator is not always open all day, given the result of spending too long there. It opens around 8 pm on Mondays, noon for the rest of the week, 5 pm on Saturdays and not at all on Sundays. It is also fortunate that it is not right in the centre of the old town, and easy to mistake as somewhere that has closed down, from the otherwise uninteresting street, so it is unlikely to be completely full.</p>
+	
+		<p class="rating">
+			<span class="rating"><meta itemprop="rating" content="5"> <em>★★★★★</em></span>
+			<span class="reviewer" itemprop="reviewer">Peter Hilton</span>
+			<time itemprop="dtreviewed" datetime="2010-10-03" pubdate>3 October 2010</time>
+		</p>
+	</div>
+</article>
+
+<nav>
+	<ul>
+	<li><a title="Hilton Harbour main page" href="/">HH Home</a></li>
+	<li><a title="What’s newest on Hilton Harbour" href="/new.phtml">What’s new</a></li>
+	<li><a title="Table of contents" href="/index.phtml?theme=contents">Contents</a></li>
+	<li><a title="Index of page titles" href="/index.phtml?theme=index">Index</a></li>
+	<li><a title="About this web site" href="/about_hh.phtml">About</a></li>
+	<li><a title="Peter Hilton’s home page" href="/about_ph.phtml">About PH</a></li>
+	</ul>
+	<h1><img class="flag" src="flag-be.png">
+	<a href="/antwerp/">Eating &amp; drinking in Antwerp</a></h1>
+</nav>
+
+<footer>
+	<p>Contact: hh3@cocktail.demon.nl. Content and page design copyright ©Peter Hilton 2010.
+	This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>; required attribution is a credit to ‘Peter Hilton’ and a link to http://hilton.org.uk</p>
+</footer>
+
+</body>
+
+</html>

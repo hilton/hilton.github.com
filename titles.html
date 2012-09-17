@@ -7,7 +7,7 @@ layout: hh
 
 {% for page in site.pages %}
 {% if page.title %}
-<p><a href=\"$file_name\">{{ page.title }}</a>
+<p><a href="{{ page.url }}">{{ page.title }}</a>
 <br>{{ page.description }}</p>
 
 {% endif %}

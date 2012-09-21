@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <name>Rotterdam Cafes &amp; Restaurants</name>
+  <description><![CDATA[Independent cafe and restaurant reviews, with photos]]></description>
+  <Style id="blue-dot">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>A Nous Deux</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-a-nous-deux.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/a-nous-deux">A Nous Deux review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.459548,51.930242,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Angelo Betti</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-angelo-betti.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/angelo-betti">Angelo Betti review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.470170,51.930916,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Asian Glories</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-asian-glories.jpg" alt="Asian Glories"></p></p></p></p>
+<p><a href="http://hilton.org.uk/rotterdam/asian-glories">Asian Glories review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.482197,51.921291,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bagel Bakery</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-bagel-bakery.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/bagel-bakery">Bagel Bakery review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.481172,51.916409,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bagels &amp; Beans</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-bagels-and-beans.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/bagels-and-beans">Bagels &amp; Beans review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.488494,51.921548,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bazar</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-bazar.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/bazar">Bazar review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.478753,51.915871,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beyzade</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-beyzade.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/beyzade">Beyzade review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.465977,51.915226,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Pol</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-cafe-pol.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/cafe-pol">Cafe Pol review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.484428,51.922913,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cambrinus</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-cambrinus.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/cambrinus">Cambrinus review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.490533,51.919701,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cappucino</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-cappucino.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/cappucino">Cappucino review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.482132,51.919178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coffee Studio</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-coffee-studio.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/coffee-studio">Coffee Studio review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.484117,51.923111,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coopvaert</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-coopvaert.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/coopvaert">Coopvaert review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.483956,51.917982,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Kleine Ondeugd</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-de-kleine-ondeugd.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/de-kleine-ondeugd">De Kleine Ondeugd review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.499073,51.922844,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Weimar</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-weimar.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/weimar">Weimar review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.493025,51.919617,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Popocatepetl</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-popocatepetl.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/popocatepetl">Popocatepetl review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.492129,51.919765,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ristorante O&#39;Pazzo</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-ristorante-opazzo.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/ristorante-opazzo">Ristorante O'Pazzo review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.490423,51.922009,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Urban Espresso Bar</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-urban-espresso-bar.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/urban-espresso-bar">Urban Espresso Bar review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.488232,51.922100,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gamasot</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-gamasot.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/gamasot">Gamasot review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.488476,51.921806,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Papaya</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-papaya.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/papaya">Papaya review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.495058,51.922421,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dim Daily</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-dim-daily.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/dim-daily">Dim Daily review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.481875,51.920689,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dudok</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-dudok.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/dudok">Dudok review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.482454,51.921997,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Indonesia</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-restaurant-indonesia.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/restaurant-indonesia">Restaurant Indonesia review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.481671,51.921219,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Indonesia Satebar</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-indonesia-satebar.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/indonesia-satebar">Indonesia Satebar review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.481564,51.921211,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Staal</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-staal.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/staal">Staal review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.480866,51.920338,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Anti-Chic</name>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.482583,51.919193,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Volendammer</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-de-volendammer.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/de-volendammer">De Volendammer review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.479525,51.920464,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Panini</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-panini.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/panini">Panini review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.479600,51.918526,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Daily Wok</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-daily-wok.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/daily-wok">Daily Wok review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.475609,51.917599,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Melief Bender</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-melief-bender.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/melief-bender">Melief Bender review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.474536,51.917320,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sijf</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-sijf.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/sijf">Sijf review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.474289,51.917427,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Open</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-open.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/open">Open review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.473978,51.917511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deli-Chat</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-deli-chat.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/deli-chat">Deli-Chat review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.475298,51.919594,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nostra</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-nostra.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/nostra">Nostra review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.472970,51.918907,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tai Wu</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-tai-wu.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/tai-wu">Tai Wu review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.472444,51.919220,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Floor</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-floor.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/floor">Floor review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.474397,51.920105,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parket</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-parket.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/parket">Parket review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.472240,51.917007,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stalles</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-stalles.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/stalles">Stalles review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.472144,51.916988,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rotown</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-rotown.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/rotown">Rotown review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.471790,51.916916,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Pijp</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-de-pijp.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/de-pijp">De Pijp review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.467444,51.916103,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wester Paviljoen</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-wester-paviljoen.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/wester-paviljoen">Wester Paviljoen review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.466213,51.914932,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dizzy</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-dizzy.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/dizzy">Dizzy review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.463523,51.913414,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lux</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-lux.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/lux">Lux review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.463531,51.913315,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Safir</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-safir.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/safir">Safir review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.500275,51.910748,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel New York</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-hotel-new-york.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/hotel-new-york">Hotel New York review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.484460,51.903984,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Marcus Exotic</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-marcus-exotic.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/marcus-exotic">Marcus Exotic review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.467450,51.922688,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pssst Amigo</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-pssst-amigo.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/pssst-amigo">Pssst Amigo review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.478120,51.922745,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nazar</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-nazar.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/nazar">Nazar review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.480330,51.917114,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Opa</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-opa.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/opa">Opa review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.477194,51.915691,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Het Gelagh</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-het-gelagh.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/het-gelagh">Het Gelagh review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.477422,51.915592,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Witte Aap</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-de-witte-aap.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/de-witte-aap">De Witte Aap review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.476328,51.915298,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tai Ka Lok</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-tai-ka-lok.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/tai-ka-lok">Tai Ka Lok review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.470357,51.920860,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dunya Lokanta</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-dunya-lokanta.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/dunya-lokanta">Dunya Lokanta review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.472718,51.927010,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Terra Ferma</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-terra-ferma.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/terra-ferma">Terra Ferma review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.479756,51.911823,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shanghai City</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-shanghai-city.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/shanghai-city">Shanghai City review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.548699,51.928555,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hoofdstuk II</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-hoofdstuk-2.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/hoofdstuk-2">Hoofdstuk II review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.497957,51.921866,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>White Elephant</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-white-elephant.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/white-elephant">White Elephant review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.467536,51.920316,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Prachtig</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-prachtig.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/prachtig">Prachtig review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.483532,51.910953,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Koosie</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-koosie.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/koosie">Koosie review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.477197,51.915606,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Little V</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-little-v.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/little-v">Little V review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.4849,51.921813,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mockamore</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-mockamore.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/mockamore">Mockamore review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.48236,51.919915,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vivu</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-vivu.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/vivu">Vivu review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.47555,51.915139,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Fred</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-restaurant-fred.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/restaurant-fred">Restaurant Fred review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.517749,51.916992,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hokkaido</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-hokkaido.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/hokkaido">Hokkaido review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.4756,51.935184,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Het Ijslokaal</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-het-ijslokaal.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/het-ijslokaal">Het Ijslokaal review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.461329,51.913329,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>UEB West</name>
+    <description><![CDATA[<p><img src="http://hilton.org.uk/facade/rotterdam-ueb-west.jpg"></p></p><p><a href="http://hilton.org.uk/rotterdam/ueb-west">UEB West review</a> on <a href="http://hilton.org.uk/">Hilton Harbour</a></p></p>]]></description>
+    <styleUrl>#blue-dot</styleUrl>
+    <Point>
+      <coordinates>4.460192,51.91329,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

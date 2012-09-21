@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>
+{% if page.title %}
+	Review: {{ page.title }}, Rotterdam
+	{% assign description = 'One of Hilton Harbour’s cafe &amp; restaurant reviews' %}
+{% else %}
+	Rotterdam Cafe &amp; Restaurant Reviews
+	{% assign description = 'Reviews and photos of Rotterdam's cafes and restaurants' %}
+{% endif %}
+</title>
+<link rel="contents" href="../contents.html"/>
+<link rel="home" href="/"/>
+<link rel="index" href="../titles.html"/>
+<link rel="author" href="../about_ph.html"/>
+{% if page.title %}
+<style type="text/css" media="screen">@import "rotterdam.css";</style>
+{% else %}
+<style type="text/css" media="screen">@import "rotterdam/rotterdam.css";</style>
+{% endif %}
+<meta name="description" content="{{ description }}"/>
+<meta name="keywords" content="Rotterdam,Holland,Netherlands,restaurant reviews,restaurants,bars,cafes"/>
+<meta name="language" content="en"/>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3676019-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body class="">
+
+<div class="content">
+
+	<h1>Rotterdam cafes &amp; restaurants</h1>
+
+{% if page.title %}
+	<p><a href="rotterdam.html">reviews index and recommendations</a></p>
+	<div class="review" itemscope itemtype="http://schema.org/Review">
+	
+	<p style="clear:both">One of <?= count($name) ?>
+	<a href="rotterdam.html">Rotterdam Cafe &amp; Restaurant reviews</a>.</p>
+	<div class="review" itemscope itemtype="http://schema.org/Review">
+	
+		<h3 itemprop="itemReviewed" itemscope itemtype="http://schema.org/LocalBusiness" id="{{ page.slug }}">
+		{{ page.title }}, {{ page.address }}{% if page.telephone %}, {{ page.telephone }}{% endif %}
+		</h3>
+		
+		<div class="left">
+			<p><img src="../facade/rotterdam-{{ page.slug }}.jpg" alt="{{ page.name }}"/></p>
+			<div id="map" itemprop="maps"></div>
+			<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
+			<script type="text/javascript">
+				if (GBrowserIsCompatible()) {
+					var map = new GMap2(document.getElementById("map"));
+					map.addControl(new GSmallMapControl());
+					var point = new GLatLng({{ page.lat }}, {{ page.lon }});
+					map.setCenter(point, 16);
+					map.addOverlay(new GMarker(point, {clickable: false, title: "{{ page.name }}"}));
+				}
+			</script>
+		</div>
+		
+		{{ content }}
+	
+	</div>
+{% else %}
+
+	<div class="thumbnail">
+		<p>See also:</p>
+		<p><a href="rotterdam_cafe_map.html" title="Rotterdam Cafe Map"><img src="rotterdam/rotterdam-cafe-map-thumbnail.png"/></a></p>
+		<p><a href="rotterdam_cafe_map.html">Rotterdam Cafe Map</a></p>
+		<p style="margin-top:3em"><a href="rotterdam_cocktail.html" title="Rotterdam Cocktail Bar Reviews"><img src="cocktail/cocktail-2.png"/><img src="cocktail/cocktail-2.png"/></a></p>
+		<p><a href="rotterdam_cocktail.html">Rotterdam Cocktail Bars</a></p>
+		<p style="margin-top:3em"><a href="european_cafe_watch.html"><img src="picture/icon/at.png"/><img src="picture/icon/be.png"/><img src="picture/icon/es.png"/><img src="picture/icon/fr.png"/><img src="picture/icon/england.png"/><img src="picture/icon/ie.png"/><img src="picture/icon/lu.png"/><img src="picture/icon/it.png"/></a></p>
+		<p><a href="european_cafe_watch.html">European Cafe Watch</a></p>
+		<p>Other web sites:</p>
+		<ul>
+		<li><a href="http://www.iens.nl/english/restaurantsIn/Rotterdam/">IENS Independent Index</a><br/>(restaurants)</li>
+		<li><a href="http://www.vvv.rotterdam.nl/uk/">Rotterdam tourist info</a></li>
+		</ul>
+	</div>
+
+		{{ content }}
+{% endif %}
+
+<ul class="navigation">
+
+<li><a title="Hilton Harbour main page" href="index.html">HH home</a></li>
+<li><a title="what's newest on Hilton Harbour" href="new.html">what's new</a></li>
+<li><a title="Hilton Harbour - table of contents" href="index.html?theme=contents">contents</a></li>
+<li><a title="Alphabetical index of page titles" href="index.html?theme=index">index</a></li>
+<li><a title="Alphabetical index of page photos" href="index.html?theme=photos">photo index</a></li>
+<li><a title="about Hilton Harbour" href="about_hh.html">about</a></li>
+<li><script type="text/javascript">//<![CDATA[;
+var e="hh3"+String.fromCharCode(1<<6)+"cocktail.demon.nl"; 
+document.write("<a href='mai"+"lto:"+e+"?subject=HH%20Rotterdam'>feedback</"+"a>");//]]></script></li>
+<li><a title="Peter Hilton's home page" href="about_ph.html">about PH</a></li>
+</ul>
+
+{% include footer.html %}
+
+</body>
+</html>

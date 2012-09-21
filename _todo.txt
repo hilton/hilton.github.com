@@ -1,9 +1,6 @@
 _includes/footer.html
 	file modification
 	current year
-Photo thumbnails
-Photo pages
-Antwerp
-Madrid
 Rotterdam
-luxembourgish_verb_table
+Photo pages
+sitemap.xml

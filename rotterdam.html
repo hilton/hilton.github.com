@@ -1,0 +1,79 @@
+---
+layout: rotterdam
+---
+
+<div class="text">
+
+	<p>The centre of Rotterdam has lots of cafes and restaurants, good and bad; 
+	Hilton Harbour has reviewed <?= count($name) ?> of them.</p> 
+	
+	<ul class="names">
+		{% for page in site.categories.rotterdam | sort %}
+			<li><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></li>
+		{% endfor %}
+	</ul>
+		
+	<p><em>Also recommended:</em> 
+	<strong>Gusto</strong> - good terrace and veggie pizza, 
+	<strong>De Hemel Op Aarde</strong> - good tapas, good service, 
+	<strong>Nul-10</strong> - expensive but good food and atmosphere, 
+	<strong>Spaghettata</strong> - good wine and pasta, 
+	<strong>Zinc</strong> - expensive but excellent food and wine.
+	</p>
+	
+	<p><em>Not recommended:</em> 
+	<strong>Ari</strong> - Westerpaviljoen has better lunch,
+	<strong>Look</strong> - good food and service but <a href="rotterdam/soit">Soit</a> is slightly better,
+	<strong>Stockholm</strong> - Soho and Level have better cocktails,
+	<strong>Wok To Go</strong> - Daily Wok has better food.
+	</p>
+
+</div>
+		
+
+<div class="features">
+
+	<div id="map" style="margin-top:1em; height:240px"></div>
+	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
+	<script type="text/javascript">
+		if (GBrowserIsCompatible()) {
+			var map = new GMap2(document.getElementById("map"));
+			map.addControl(new GSmallMapControl());
+			var point = new GLatLng(51.920464,4.479525);
+			map.setCenter(point, 14);
+			var overlay = new GGeoXml("http://hilton.org.uk/cafe/rotterdam/rotterdam_cafes.kml");
+			map.addOverlay(overlay);
+		}
+	</script>
+	
+	<p>View full map in
+	<a href="http://maps.google.nl/?q=http://hilton.org.uk/cafe/rotterdam/rotterdam_cafes.kml">Google Maps</a> or download <a href="http://hilton.org.uk/cafe/rotterdam/rotterdam_cafes.kml">KML for Google Earth</a>.</p>
+			
+	<p><strong>Latest <a href="closed.html">closure</a></strong>: <a href="closed.html#simply-bread">Simply Bread</a>.</p>
+	
+	<p>Our <strong>favourite places</strong> - the best:</p>
+	<ul>
+	<li>bar - <a href="rotterdam/de-witte-aap">De Witte Aap</a> and <strong>Stalles</strong></li>
+	<li>beer specialist - <strong>Locus Publicus</strong></li>
+	<li>Chinese food - <strong>Orient</strong></li>
+	<li>cocktail bar - see <a href="rotterdam_cocktail.html">cocktail bar reviews</a></li>
+	<li>coffee and cake - <a href="rotterdam/ueb-west">UEB West</a></li>
+	<li><em>eetcafe</em> - <a href="rotterdam/opa">Opa</a></li>
+	<li>French food - <a href="rotterdam/soit">Soit</a></li>
+	<li>Indonesian food - <a href="rotterdam/papaya">Papaya</a></li>
+	<li>jazz cafe - <a href="rotterdam/dizzy">Dizzy</a></li>
+	<li>noodles - <a href="rotterdam/dim-daily">Dim Daily</a></li>
+	<li>pasta - <strong>Spaghetatta</strong></li>
+	<li>pizza - <a href="rotterdam/angelo-betti">Angelo Betti</a></li>
+	<li>sandwiches - <a href="rotterdam/pasta-di-mamma">Pasta di Mamma</a></li>
+	<li>Turkish food - <a href="rotterdam/nazar">Nazar</a></li>			
+	<li>Vietnamese food - <a href="rotterdam/vivu">Vivu</a>.</li>			
+	</ul>
+			
+	<p>The <strong>worst service</strong> we've had was at:</p>
+	<ul>
+	<li><a href="rotterdam/dudok">Dudok</a> - where staff avoid eye-contact when you want to order</li>
+	</ul>
+
+</div>
+

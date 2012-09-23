@@ -1,6 +1,5 @@
 _includes/footer.html
 	file modification
 	current year
-Rotterdam
 Photo pages
 sitemap.xml

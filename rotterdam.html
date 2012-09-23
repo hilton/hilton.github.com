@@ -9,7 +9,7 @@ layout: rotterdam
 	
 	<ul class="names">
 		{% for page in site.categories.rotterdam reversed %}
-			<li><a href="{{ page.url | replace:'.html','.html' }}">{{ page.title }}</a></li>
+			<li><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></li>
 		{% endfor %}
 	</ul>
 		

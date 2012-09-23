@@ -5,11 +5,11 @@ layout: rotterdam
 <div class="text">
 
 	<p>The centre of Rotterdam has lots of cafes and restaurants, good and bad; 
-	Hilton Harbour has reviewed <?= count($name) ?> of them.</p> 
+	Hilton Harbour has reviewed {{ site.categories.rotterdam | size }} of them.</p> 
 	
 	<ul class="names">
-		{% for page in site.categories.rotterdam | sort %}
-			<li><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></li>
+		{% for page in site.categories.rotterdam reversed %}
+			<li><a href="{{ page.url | replace:'.html','.html' }}">{{ page.title }}</a></li>
 		{% endfor %}
 	</ul>
 		

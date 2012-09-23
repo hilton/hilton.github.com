@@ -36,7 +36,7 @@ div.content div.text, div.content div.features { float:left; }
 
 div.content div.text { width:30em; margin-right:1em; }
 
-div.content div.text ul.names { width:15em; float:left; margin-top:0; }
+div.content div.text ul.names { width:30em; margin-top:0; column-width:14.5em; -webkit-column-width:14.5em; -moz-column-width:14.5em; column-gap:1em; -webkit-column-gap:1em; -moz-column-gap:1em; }
 div.content div.text ul.names li {list-style:none; margin-left:0; }
 div.content div.text ul.names li.new:before {content:'NEW'; color:white; background:#900; padding:0 0.3em; margin-right:0.5em; font-size:80%; }
 div.content div.text ul.names li.new { margin-left: -2.8em; }

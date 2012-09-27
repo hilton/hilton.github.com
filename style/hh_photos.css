@@ -1,0 +1,63 @@
+body {
+ font-family:Verdana, sans-serif;
+ font-size:95%;
+ color:#333;
+ background:white;
+ margin:0 10%;
+ background-position:top left;
+ background-attachment:fixed;
+ background-repeat:no-repeat;
+ background-image:url(hh_black.gif);
+ padding-bottom:3em;
+}
+h1 {
+ font-size:110%;
+ margin-top:3em;
+}
+
+div.photos {
+ margin:2em 0;
+}
+div.photos img {
+ border:none;
+}
+div.photos p {
+ margin:0;
+}
+p.caption, div.caption {
+ line-height:180%;
+ clear:both;
+ padding-bottom:2em;
+}
+
+p.footer, div.categories ul, div#comments ul {
+ color:#666;
+ font-size:80%;
+ text-align:left;
+ padding-top:1em;
+ margin:1em 0;
+ border-top:solid 1px #ccc;
+}
+
+div.categories ul:before {
+ content:'Categories:';
+}
+
+div.categories ul {
+ padding-left:0;
+}
+
+div#comments ul {
+ border:none;
+}
+
+div.categories li {
+ list-style:none;
+ display:inline;
+ padding:0;
+ margin:0;
+}
+
+div.categories li:after {
+ content:' | ';
+}

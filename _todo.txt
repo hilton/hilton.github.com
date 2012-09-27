@@ -2,4 +2,3 @@ _includes/footer.html
 	file modification
 	current year
 Photo pages
-sitemap.xml

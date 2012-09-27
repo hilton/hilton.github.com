@@ -1,0 +1,8 @@
+---
+title: Index of photographs
+description: Index of photo captions.
+layout: hh
+---
+
+{% for page in site.categories.photo %}
+<p><a href="{{ page.url }}">{{ page.caption }}</a></p>{% endfor %}

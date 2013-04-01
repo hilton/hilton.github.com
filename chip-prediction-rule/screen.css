@@ -1,0 +1,137 @@
+body {
+ font-family:Verdana, sans-serif;
+ margin:1em 2em;
+ font-size:85%;
+ color:black;
+ background:white;
+}
+
+h1, h2, h3, p.score, p.credits, p.credits a {
+ color:#1f5299;
+}
+
+h1 {
+ margin:0;
+}
+
+h2, h3 {
+ font-size:100%;
+}
+
+h2 {
+ margin-top:2em;
+}
+
+h3 {
+ font-weight:normal;
+}
+
+form {
+ padding:0.5em 1em;
+ background:#eee;
+ width:63em;
+ position:relative;
+ left:0;
+}
+
+td input, p input {
+ margin-left:0;
+ vertical-align:top;
+}
+
+form td {
+ padding:0 0.3em 0.5em 0;
+ vertical-align:top;
+}
+
+form td p {
+ margin-top:0;
+}
+
+fieldset {
+ padding:0.3em 0.5em 0 0.5em;
+ margin-bottom:0.5em;
+ width:26em;
+ margin-right:1em;
+}
+
+table {
+ clear:left;
+}
+
+
+#chip {
+ margin:0 0 1em 1em;
+ float:right;
+}
+#chip img {
+ border:none;
+}
+
+img.checkbox {
+ margin:0 0.5em;
+}
+
+img.definition {
+ vertical-align:top;
+}
+p img.definition {
+ vertical-align:baseline;
+}
+
+p.score {
+ font-size:200%;
+ margin:0 2em 0 0;
+}
+
+p.probability {
+ text-align:right;
+ position:absolute;
+ right:0;
+}
+
+p.reset {
+ margin-bottom:0.5em;
+}
+p.reset input {
+ font-family:Verdana, sans-serif;
+}
+
+input.number {
+ width:3em;
+}
+
+fieldset.checkboxes {
+ padding-bottom:1em;
+}
+
+fieldset.checkboxes p {
+ margin:0;
+}
+
+p.credits {
+ font-size:80%;
+ margin:3em 0;
+}
+
+legend {
+ color:#1f5299;
+}
+
+#definition {
+ background:#ff9;
+ padding:0.5em;
+ display:none;
+}
+#definition:before{
+ font-style:italic;
+ content:'Definition: ';
+}
+
+
+
+#neurological {
+ float:right;
+ width:30em;
+}
+

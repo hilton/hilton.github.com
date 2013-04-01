@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- Copyright 2006 Peter Hilton, all rights reserved. -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title></title>
+<link rel="stylesheet" type="text/css" href="screen.css">
+<script type="text/javascript" src="chip-prediction-rule.js"></script>
+</head>
+<body onload="calculate()">
+
+<p id="chip"><a href="http://www.marionsmits.net/"><img src="chip.png"/></a></p>
+
+<h1>CHIP Prediction Rule</h1>
+
+<p>Calculate the score for the CHIP prediction rule and predicted probability of intracranial traumatic findings on CT, as described in Smits et al, <a href="http://www.annals.org/cgi/content/abstract/146/6/397">Ann Intern Med. 2007;146:397-405</a>: <em>Predicting Intracranial Traumatic Findings on Computed Tomography in Patients with Minor Head Injury: The CHIP Prediction Rule</em>.</p>
+
+<p id="definition"></p>
+
+<form name="chip" action="">
+
+<fieldset id="neurological">
+<legend>Neurological examination</legend>
+<table>
+<tr>
+	<td><label for="">GCS score upon presentation <img src="information.png" class="definition" title="GCS - Glasgow Coma Scale" onclick="showDefinition(this)"/>:</label></td>
+	<td>
+		<input id="gcs015" onclick="calculate(this)" type="radio" name="gcs0" value="15"> <label for ="gcs015">15</label>
+		<br/><input id="gcs014" onclick="calculate(this)" type="radio" name="gcs0" value="14"> <label for ="gcs014">14</label>
+		<br/><input id="gcs013" onclick="calculate(this)" type="radio" name="gcs0" value="13"> <label for ="gcs013">13</label>
+	</td>
+</tr>
+<tr>
+	<td><label for="gcs1">GCS score after one hour <img src="information.png" class="definition" title="GCS - Glasgow Coma Scale (range 3-15)" onclick="showDefinition(this)"/>:</label></td>
+	<td><input onkeyup="calculate(this)" type="text" name="gcs1" id="gcs1" class="number"> (3-15)</td>
+</tr>
+<tr>
+	<td><label for="">Post-traumatic amnesia:</label></td>
+	<td>
+		<input id="ptanone" onclick="calculate(this)" type="radio" name="pta" value="0"> <label for="ptanone">none</label>
+		<br/><input id="pta0" onclick="calculate(this)" type="radio" name="pta" value="0"> <label for="pta0">up to 2 hours</label>
+		<br/><input id="pta2" onclick="calculate(this)" type="radio" name="pta" value="2"> <label for="pta2">2-4 hours</label>
+		<br/><input id="pta4" onclick="calculate(this)" type="radio" name="pta" value="4"> <label for="pta4">more than 4 hours</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2"><input onclick="calculate(this)" type="checkbox" name="memory" id="memory"> <label for="memory">Persistent anterograde amnesia</label><img src="information.png" class="checkbox definition" title="Persistent anterograde amnesia - short-term memory deficit" onclick="showDefinition(this)"/></td>
+</tr>
+<tr>
+	<td colspan="2"><input onclick="calculate(this)" type="checkbox" name="deficit" id="deficit"> <label for="deficit">Neurologic deficit</label><img src="information.png" class="checkbox definition" title="Neurologic deficit - any abnormality on routine clinical neurologic examination" onclick="showDefinition(this)"/></td>
+</tr>
+</table></fieldset>
+<fieldset class="checkboxes" id="signs">
+<legend>Signs and symptoms</legend>
+<p><input onclick="calculate(this)" type="checkbox" name="fracture" id="fracture"> <label for="fracture">Signs of skull fracture</label><img src="information.png" class="checkbox definition" title="Signs of skull fracture - any injury suggesting a skull fracture, such as palpable discontinuity of the skull, leakage of cerebrospinal fluid, 'raccoon eye' bruising, and bleeding from the ear" onclick="showDefinition(this)"/></p>
+<p><input onclick="calculate(this)" type="checkbox" name="contusion" id="contusion"> <label for="contusion">Contusion of the skull</label><img src="information.png" class="checkbox definition" title="Contusion of the skull - clinically significant discontinuity of the skin or extensive bruising" onclick="showDefinition(this)"/></p>
+<p><input onclick="calculate(this)" type="checkbox" name="vomit" id="vomit"> <label for="vomit">Vomiting</label></p>
+<p><input onclick="calculate(this)" type="checkbox" name="loc" id="loc"> <label for="loc">Loss of consciousness</label><img src="information.png" class="checkbox definition" title="Loss of consciousness - either witnessed or reported by the patient" onclick="showDefinition(this)"/></p>
+<p><input onclick="calculate(this)" type="checkbox" name="seizure" id="seizure"> <label for="seizure">Posttraumatic seizure</label></p>
+</fieldset>
+
+<fieldset>
+<legend>Patient characteristics</legend>
+<table>
+<tr>
+	<td><label for="age">Patient age:</label></td>
+	<td><input id="age" onkeyup="calculate(this)" type="text" name="age" class="number"> years (16 or above)</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input id="act" onclick="calculate(this)" type="checkbox" name="act"> <label for="act">Use of anticoagulant therapy</label><img src="information.png" class="checkbox definition" title="Use of anticoagulant therapy - coumarin derivatives or noniatrogenic coagulopathy" onclick="showDefinition(this)"/></td>
+</tr>
+</table></fieldset>
+
+<fieldset class="checkboxes">
+<legend>Mechanism of injury</legend>
+<p><input id="fall" onclick="calculate(this)" type="radio" name="mechanism" value="fall"> <label for="fall">Fall from any elevation</label></p>
+<p><input id="cyclist" onclick="calculate(this)" type="radio" name="mechanism" value="cyclist"> <label for="cyclist">Pedestrian/cyclist versus vehicle</label></p>
+<p><input id="ejected" onclick="calculate(this)" type="radio" name="mechanism" value="ejected"> <label for="ejected">Ejected from vehicle</label></p>
+</fieldset>
+
+<p>Prior probability <img src="information.png" class="definition" title="Prior probability - Prior probability of an intracranial traumatic finding on CT in the patient population" onclick="showDefinition(this)"/>: <select name="prior" onchange="calculate(this);">
+		<option value="2.5">2.5%</option>
+		<option value="5">5.0%</option>
+		<option value="7.5" selected>7.5% (default)</option>
+		<option value="10">10.0%</option>
+		<option value="12.5">12.5%</option>
+		<option value="15">15.0%</option>
+</select></p>
+
+<p class="score probability">Predicted probability: <span id="probabilityValue">0%</span></p>
+<p class="score">Total score: <span id="scoreValue">0.0</span></p>
+
+<p class="reset"><input type="reset" onclick="this.form.reset(); calculate()" value="Reset values"></p>
+</form>
+
+<h2>Legal statement</h2>
+<p>The CHIP prediction rule may be used as an aid to decide whether to perfom a CT in minor head injury patients. However, the prediction rule can only complement, never replace, clinical judgment and can therefore be used only as a decision-support system. If clinical suspicion is high, a CT scan is indicated regardless of the prediction rule.</p>
+<h3>No Medical Advice Given</h3>
+<p>This site is not an attempt to practice medicine or provide specific medical advice, nor does the use of the site establish a doctor-patient relationship. For medical treatment or answers to personal questions, we strongly encourage you to consult with a qualified health care provider. For advice about your own care, please ask your doctor.</p>
+<h3>Restrictions on Use</h3>
+<p>You assume full responsibility for using the information on this site, and you understand and agree that this site is not responsible or liable for any claim, loss, or damage resulting from its use. While we try to keep the information on the site as accurate as possible, we disclaim any warranty concerning its accuracy, timeliness, and completeness, and any other warranty, express or implied, including warranties of merchantability or fitness for a particular purpose. We do not warrant that access to the site will be error- or virus-free.</p>
+</p>
+
+<p class="credits">CHIP logo, web page design and CHIP Prediction Rule calculator implementation &copy;Copyright 2007 <a href="http://hilton.org.uk/">Peter Hilton</a>. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>; any reproduction or derivative work must link to http://www.marionsmits.net/chip-prediction-rule/. Information icon by <a href="http://www.famfamfam.com/lab/icons/silk/">FamFamFam</a>.</p>
+
+</body>
+</html>

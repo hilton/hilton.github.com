@@ -5,8 +5,8 @@ layout: hh
 
 <P>It's my fault - I probably broke a link to <TT><script type="text/javascript">document.write(window.location.href)</script></TT> and I am not planning to put it back.</P>
 <script type="text/javascript">
-if (window.location.href.endsWith('.phtml')) {
-	var url = window.location.href.replace('phtml$', 'html');
+if (window.location.href.substr(window.location.href.length - 6) === '.phtml') {
+	var url = window.location.href.replace(/phtml$/, 'html');
 	document.write('<p>The correct URL is probably <a href="' + url + '">' + url + '</a></p>');
 }
 </script>

@@ -1,24 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title>
 	{% if page.title %}{{ page.title }} - {% endif %}HH Madrid Bar &amp; Restaurant Reviews
 </title>
 <style type="text/css" media="screen">@import "madrid.css";</style>
-<link rel="contents" href="../contents.html"/>
-<link rel="home" href="/"/>
-<link rel="index" href="../titles.html"/>
-<link rel="author" href="../about_ph.html"/>
-<meta name="description" content="Guide to eating and drinking in Madrid, with independent reviews and photos of 65 bars, cafes and restaurants"/>
-<meta name="keywords" content="Madrid,bar reviews,restaurant reviews,restaurants,bars,cafes"/>
-<meta name="language" content="en"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="contents" href="../contents.html">
+<link rel="home" href="/">
+<link rel="index" href="../titles.html">
+<link rel="author" href="../about_ph.html">
+<meta name="description" content="Guide to eating and drinking in Madrid, with independent reviews and photos of 65 bars, cafes and restaurants">
+<meta name="keywords" content="Madrid,bar reviews,restaurant reviews,restaurants,bars,cafes">
+<meta name="language" content="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
 
 <div id="yellow"></div>
 
-<h1><a title="Hilton Harbour main page" href="../index.html"><img src="hh-madrid.png" alt="[HOME]" /></a>Madrid Bars &amp; Restaurants</h1>
+<h1><a title="Hilton Harbour main page" href="../index.html"><img src="hh-madrid.png" alt="[HOME]"></a>Madrid Bars &amp; Restaurants</h1>
 
 <div class="bars">
 
@@ -84,7 +84,7 @@
 <div id="content" class="content">
 {% if page.url != '/madrid/index.html' %}
 <h2>{{ page.title }}, {{ page.address }}</h2>
-<p class="facade"><img src="../facade/madrid-{{ page.url | replace: 'madrid/', '' | replace: '.html', '' }}.jpg" alt="{{ page.title }}"/></p>
+<p class="facade"><img src="../facade/madrid-{{ page.url | replace: 'madrid/', '' | replace: '.html', '' }}.jpg" alt="{{ page.title }}"></p>
 {% endif %}
 {{ content }}
 

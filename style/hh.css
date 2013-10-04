@@ -1,7 +1,7 @@
 /* 1999 colour scheme: masthead #CCCCAA,	headings #999966,	links #36c/#663366;	Verdana;  */
 /* 2011 colour scheme: masthead hsv(40,52,54)=#8A7242, headings hsv(38,57,43)=#6E572F,	links #36c/#0E316D;	Helvetica Neue; */
 /* 2012 colour scheme: 
-	base hsv(191, 100, 52)
+	base hsv(191, 100, 52) = rgb(11, 89, 113)
 	masthead hsv(191, 25, 52)=#516B71,
 	headings hsv(191, 30, 41)=#395055,
 	links #AF1E24/#51050A;
@@ -84,15 +84,15 @@ div.panel {
 	border: 1px solid #ADADAD;
 	-moz-border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
-	background: -moz-linear-gradient(top, #EEE6D1 0%, #DECDA9 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE6D1), color-stop(100%, #DECDA9));
-	background: -ms-linear-gradient(top, #EEE6D1 0%, #DECDA9 100%);
-	background: linear-gradient(top, #EEE6D1 0%, #DECDA9 100%);
+	background: -moz-linear-gradient(top, rgba(11, 89, 113, 0.1) 0%, rgba(11, 89, 113, 0.2) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(11, 89, 113, 0.1)), color-stop(100%, rgba(11, 89, 113, 0.2)));
+	background: -ms-linear-gradient(top, rgba(11, 89, 113, 0.1) 0%, rgba(11, 89, 113, 0.2) 100%);
+	background: linear-gradient(top, rgba(11, 89, 113, 0.1) 0%, rgba(11, 89, 113, 0.2) 100%);
 	border-radius: 0.5em;
-	width:75%;
-	min-height:182px;
+	width:83%;
+	min-height:228px;
 	line-height:150%;
 }
 div.panel h2, div.panel p { margin:20px 20px 10px 20px; background:transparent; color:black; }
-div.panel p { margin-left:135px; max-width:34em; }
-div.panel img { vertical-align:bottom; margin:0 10px 0 0; float:left; border:none; }
+div.panel p { margin-left:190px; max-width:34em; }
+div.panel img { vertical-align:bottom; margin:20px 10px 20px 20px; float:left; border:none; }

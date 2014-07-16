@@ -89,17 +89,17 @@ footer a {
 
 
 /* Original pages. */
-div.content img {
+.content img {
 	margin-top:0; margin-bottom:1em; margin-left:1em; margin-right:1em; }
-div.content img.framed {
+.content img.framed {
 	border:solid 4px black; margin-left:0; float:left; }
-div.content img.square {
+.content img.square {
 	border:solid 4px black; margin-left:0; float:left; width:320px; height:320px; }
-div.content img.inline {
+.content img.inline {
 	border:solid 4px black; margin:0; }
-div.content img.icon {
+.content img.icon {
 	border:none; margin:0; }
-div.content div.indent { 
+.content div.indent { 
 	margin-left: 328px; padding-left: 1em; min-height:328px; clear:left; }
 
 /* /blog/ */
@@ -107,4 +107,6 @@ div.content div.indent {
 .blog h3.title {
 	margin-bottom: 0; }
 
-
+.related {
+	font-weight: 600;
+	margin-top: 3em; }

@@ -18,4 +18,6 @@ To test the effectiveness of Betteridge’s Law, I used [All my tweets](http://w
 
 As far as Betteridge’s Law is concerned, we can consider a ‘maybe’ to be equivalent to a ‘no’, as it is also a failure to affirm the claim that the headline weakly hinted at. These results therefore contradict Betteridge’s supposed law in 24% of cases.
 
+Meanwhile, informal analysis of the tweets by [@BetteridgesLaw](https://twitter.com/betteridgeslaw) reveals a collection of headlines where the answer is ‘no’ in all cases. This may, however, be due to prior selection.
+
 In conclusion, and as Betteridge’s Law predicts, the answer to the question _Does @SavedYouAClick prove Betteridge’s Law?_ is ‘no’, in this case. But it _is_ right most of the time.

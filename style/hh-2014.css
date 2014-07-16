@@ -9,6 +9,8 @@ section nav a {
 	color: inherit;
 	text-transform: uppercase;
 	text-decoration: none; }
+.nav > li > a {
+	padding: 0 1em; }
 
 h1, h2, h3 { 
 	font-weight: 300; }

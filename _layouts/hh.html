@@ -4,12 +4,15 @@
 <meta charset="utf-8">
 {% if page.categories %}
 	{% assign home = '../' %}
-{% else %}
+{% endif %}
+{% if page.title == 'Page not found' %}
+	{% assign home = '/' %}
 {% endif %}
 <title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton’s blog{% endif %}</title>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="{{ home }}style/hh-2014.css">
+
 {% if page.css %}
 <style type="text/css">{{ page.css }}</style>
 {% endif %}

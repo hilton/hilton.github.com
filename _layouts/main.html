@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{{ page.title }} - Peter Hilton’s blog</title>
+<title>{{ page.title }} - Peter Hilton</title>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="../style/hh-2014.css">
@@ -13,10 +13,7 @@
 </head>
 <body class="blog">
 
-<section class="main"></section>
-<section class="development"></section>
-
-<section class="writing">
+<section class="main">
 	<div class="container">
 		<nav class="navbar pull-right" role="navigation">
 			<ul class="nav navbar-nav navbar-right">
@@ -25,21 +22,25 @@
 				<li><a href="/contact">contact</a></li>
 			</ul>
 		</nav>
-		<h2><a href="/blog/">Writing by Peter Hilton</a></h2>
+		<h2><a href="/">Peter Hilton</a></h2>
 	</div>
 </section>
 
+<section class="development"></section>
+<section class="writing"></section>
 <section class="speaking"></section>
 <section class="music"></section>
 
 <div class="container">
 
 	<h1>{{ page.title }}</h1>
-	<p class="lead">{{ page.description }} <small>- {{ page.date | date_to_long_string }}</small></p>
+	<p class="lead">{{ page.description }}</p>
 	{{ content }}
-
+	
 	<footer class="text-muted">
-		<p>{% include footer.html %}</p>
+		<p>{% include footer.html %}
+		<a href="https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons">Social media icons</a> 
+		by Lee Gargano.</p>
 	</footer>
 </div>
 

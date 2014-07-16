@@ -1,0 +1,135 @@
+---
+title: Peter Hilton’s blog
+description: Software development, travel, cafes, and other curiosities
+layout: writing
+---
+	
+<div class="row">
+	<div class="col-md-8">
+		<h2>Blog</h2>
+		{% for page in site.categories.blog reversed %}
+			<h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
+			<p>{{ page.description }}</small> <span class="text-muted">- {{ page.date | date_to_long_string }}</span></p>
+		{% endfor %}
+
+		<h2>Older articles (2005-2014)</h2>
+
+		<p>Articles from 2005 to early 2014 are published on the  
+		<a href="http://blog.lunatech.com/author/peter-hilton">Lunatech Blog</a>.</p>
+
+	</div>
+	
+	<div class="col-md-4">
+		<h2>Cafe reviews</h2>
+
+		<p>Peter has spent a lot of time in cafes. Independent cafe and restaurant reviews with photos:</p>
+
+		<p><img class="icon" src="../picture/icon/nl.png" alt="The Netherlands">
+		<a href="rotterdam.html" title="Rotterdam Cafes, Bars &amp; Restaurants">Rotterdam</a>,
+		<a href="maastricht.html">Maastricht</a>,
+		<a href="amsterdam.html" title="Amsterdam lunch cafe reviews">Amsterdam</a>,
+		<a href="delft.html" title="Delft cafe reviews">Delft</a></p>
+
+		<p><img class="icon" src="../picture/icon/ca.png" alt="Canada"> <a href="kw.html">Kitchener-Waterloo</a></p>
+
+		<p><img class="icon" src="../picture/icon/es.png" alt="Spain"> <a href="madrid/index.html">Madrid</a></p>
+
+		<p><img class="icon" src="../picture/icon/england.png" alt="England">
+		<a href="cambridge.html" title="Cambridge Cafes &amp; Restaurants">Cambridge</a>,
+		<a href="oxford_cafes.html">Oxford</a>,
+		<a href="london.html" title="London Cafes">London</a></p>
+
+		<p><img class="icon" src="../picture/icon/it.png" alt="Italy"> <a href="florence.html" title="Florence Cafes &amp; Restaurants">Florence</a></p>
+		<p><img class="icon" src="../picture/icon/be.png" alt="Belgium"> <a href="leuven.html" title="Leuven Cafes">Leuven</a>,
+		<a href="antwerp/index.html" title="Antwerp Cafes">Antwerp</a></p>
+
+		<p><img class="icon" src="../picture/icon/fr.png" alt="France"> <a href="pppp.html" title="Paris Cafes &amp; Restaurants">Paris</a>, 
+		<a href="hyeres.html" title="Hyères Cafes &amp; Restaurants">Hyères</a></p>
+
+		<p><img class="icon" src="../picture/icon/ie.png" alt="Ireland"> <a href="galway.html" title="Galway Cafes">Galway</a></p>
+		<p><img class="icon" src="../picture/icon/lu.png" alt="Luxembourg"> <a href="luxembourg.html" title="Luxembourg Cafes">Luxembourg</a></p>
+		<p><img class="icon" src="../picture/icon/at.png" alt="Austria"> <a href="out_in_vienna.html" title="Out in Vienna">Vienna</a></p>			
+
+		<h2 id="others">Other people’s writing</h2>
+		<p><a href="/obc/">Theatrical Adventures - Musings and memories of a thespian</a>, by O.B. Clarence</p>	
+		<p><a href="poetry.html">Poetry by C R Hilton</a></p>	
+		<p><a href="tristan_and_iseult.html"><I>Tristan And Iseult: A Jungian Interpretation</I></a></p>	
+
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<h2>Older articles (1996-2004)</h2>
+	</div>
+	<div class="col-md-4">
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-4">
+	
+		<h3 id="places">Travel writing</h3>
+		<p><a href="cambridge_cafes.html">Cambridge Coffee &amp; Cake Guide</a>
+		<br><a href="cambridge_restaurants.html">Cambridge Restaurant Reviews</a>
+		<br><a href="international_assignment.html">Diary Of An International Assignment</a> (Luxembourg)
+		<br><a href="european_cafe_watch.html">European Caf&eacute; Watch</a>
+		<br><a href="bordeaux_guide.html">Everything You Always Wanted To Know About Bordeaux</a>
+		<br><a href="budapest.html">Seven Hours In Budapest</a>	</p>
+
+		<h3 id="computers">Computers</h3>
+		<p><a href="computer_books.html">Computer books</a> - how to choose them
+		<br><a href="lime_design.html"><EM>Lime</EM> - an editor for online HTML publishing</a>
+		<br><a href="machine_translation.html">Machine translation of the World Wide Web</a>
+		<br><a href="navigation_links.html">Navigation bar links</a> - how to generate them
+		<br><a href="http://hilton.org.uk/photo_thumbnails.html">Photograph thumbnails</a> - how to make them
+		<br><a href="web_page_design_principles.html">Web Page Design Principles</a>
+		<br><a href="web_site_architecture.html">Web site architecture</a>
+		<br><a href="why_i_hate_computers.html">Why I hate computers</a></p>
+
+		<h3 id="practical">Practical stuff</h3>
+		<p><a href="cccc.html">Cunning Cryptic Crossword Clues</a>
+		<br><a href="european_phrase_book.html">European phrase book</a>
+		<br><a href="tips.html">Handy tips</a>
+		<br><a href="luxembourgish_verb_table.html">Luxembourgish verb table</a>
+		<br><a href="mmmm.html">My magnificent midnight munchies</a>
+		<br><a href="rrrr.html">Rough &amp; ready rapid rapid recipes</a></p>
+		
+	</div>
+	<div class="col-md-4">
+
+		<h3 id="opinion">Opinion</h3>
+		<p><a href="books.html">Book reviews</a> - short reviews of computer books
+		<br><a href="car_ownership.html">Car ownership</a>
+		<br><a href="critical_camera.html">The Critical Camera</a>
+		<br><a href="films.html">Film reviews</a> - tiny reviews of films I was watching
+		<br><a href="h_graph_faq.html">H-graph FAQ</a>
+		<br><a href="questions.html">Important Questions</a>
+		<br><a href="code_complete.html"><EM>Code Complete</EM></a> book review
+		<br><a href="meta_content.html">Meta-content</a>
+		<br><a href="ideas.html">Spare ideas</a>
+		<br><a href="why_sofas.html">Why every cafe needs a sofa</a>
+		<br><a href="why_obscure_languages.html">Why obscure languages are more fun to learn</a>
+		<br><a href="what_numbers_are_not.html">What 'What Numbers Could Not Be', by Paul Benacerraf, Is</a>
+		</p>
+
+		<h3 id="photos">Photographs</h3>
+		<p><a href="photos_algonquin.html">Algonquin Provincial Park, Canada</a>
+		<br><a href="photos_antwerp.html">Antwerp</a>
+		<br><a href="photos_budapest.html">Budapest</a>
+		<br><a href="photos_cafes_inside.html">Cafes On The Inside</a>
+		<br><a href="photos_cafes_outside.html">Cafes On The Outside</a>
+		<br><a href="photos_edinburgh.html">Edinburgh</a>
+		<br><a href="photos_luxembourg_city.html">Luxembourg</a> (city)
+		<br><a href="photos_maastricht.html">Maastricht</a>
+		<br><a href="photos_transport.html">public transport</a>
+		<br><a href="photos_vienna.html">Vienna</a></p>
+		
+	</div>
+	
+</div>
+
+<h2>Index</h2>
+<p><a title="Index of page titles" href="../titles.html">Page index</a></p>
+<p><a title="Index of page titles" href="../photo_index.html">Photo index</a></p>
+

@@ -15,9 +15,7 @@
 	{% assign path = 'rotterdam/' %}
 {% endif %}
 </title>
-<link rel="contents" href="{{ home }}contents.html">
 <link rel="home" href="/">
-<link rel="index" href="{{ home }}titles.html">
 <link rel="author" href="{{ home }}about_ph.html">
 <style type="text/css" media="screen">@import "{{ path }}rotterdam.css";</style>
 <meta name="description" content="{{ description }}">
@@ -97,20 +95,12 @@
 </div>
 
 <ul class="navigation">
-
-<li><a title="Hilton Harbour main page" href="{{ home }}index.html">HH home</a></li>
-<li><a title="what's newest on Hilton Harbour" href="{{ home }}new.html">what's new</a></li>
-<li><a title="Hilton Harbour - table of contents" href="{{ home }}contents.html">contents</a></li>
-<li><a title="Alphabetical index of page titles" href="{{ home }}titles.html">index</a></li>
-<li><a title="Index of page titles" href="{{ home }}photo_index.html">Photo index</a></li>
-<li><a title="about Hilton Harbour" href="about_hh.html">about</a></li>
-<li><script type="text/javascript">//<![CDATA[;
-var e="hh3"+String.fromCharCode(1<<6)+"cocktail.demon.nl"; 
-document.write("<a href='mai"+"lto:"+e+"?subject=HH%20Rotterdam'>feedback</"+"a>");//]]></script></li>
-<li><a title="Peter Hilton's home page" href="{{ home }}about_ph.html">about PH</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/contact">Contact</a></li>
 </ul>
 
-{% include footer.html %}
+<p class="footer">{% include footer.html %}</p>
 
 </body>
 </html>

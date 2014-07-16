@@ -6,7 +6,7 @@ layout: hh
 <div class="row">
 	<div class="col-md-8">
 		<h1>Blog</h1>
-		{% for page in site.categories.blog reversed %}
+		{% for page in site.categories.blog %}
 			<h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
 			<p>{{ page.description }}</small> <span class="text-muted">- {{ page.date | date_to_long_string }}</span></p>
 		{% endfor %}

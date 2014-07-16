@@ -2,54 +2,64 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{{ page.title }} - Hilton Harbour</title>
-<link rel="contents"	href="/contents.html">
-<link rel="up"	href="/">
-<link rel="index"	href="/titles.html">
-<link rel="author" href="/about_ph.html">
-<link rel="stylesheet" type="text/css" href="style/hh.css">
-<link rel="openid.server" href="http://www.myopenid.com/server">
-<link rel="openid.delegate" href="http://peter.hilton.myopenid.com/">
+{% if page.categories %}
+	{% assign home = '../' %}
+{% else %}
+{% endif %}
+<title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton’s blog{% endif %}</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="{{ home }}style/hh-2014.css">
+{% if page.css %}
+<style type="text/css">{{ page.css }}</style>
+{% endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
-<meta name="description" content="{{ page.description }}">
-<meta name="keywords" content="{{ page.keywords }}">
 </head>
-<body>
+<body class="blog">
 
-<p class="masthead"><a href="./"><img src="style/hh4.png" alt="[HOME] " style="border:0; width:1.7em; height:1em; font-size:73%"></a>Hilton&nbsp;Harbour</p>
+<section class="main"></section>
+<section class="development"></section>
 
-<p class="navigation">
-{% assign menu_url = '/index.html' %}{% assign menu_label = 'HH home' %}{% assign menu_title = 'Hilton Harbour main page' %}
-{% include menu.html %} |
-{% assign menu_url = '/new.html' %}{% assign menu_label = 'what’s new' %}{% assign menu_title = 'what’s newest on Hilton Harbour' %}
-{% include menu.html %} |
-{% assign menu_url = '/contents.html' %}{% assign menu_label = 'contents' %}{% assign menu_title = 'Hilton Harbour - table of contents' %}
-{% include menu.html %} |
-{% assign menu_url = '/titles.html' %}{% assign menu_label = 'index' %}{% assign menu_title = 'Alphabetical index of page titles' %}
-{% include menu.html %} |
-{% assign menu_url = '/photo_index.html' %}{% assign menu_label = 'photo index' %}{% assign menu_title = 'Alphabetical index of photos' %}
-{% include menu.html %} |
-{% assign menu_url = '/about_hh.html' %}{% assign menu_label = 'about' %}{% assign menu_title = 'about Hilton Harbour' %}
-{% include menu.html %} |
-{% assign menu_url = '/about_ph.html' %}{% assign menu_label = 'about PH' %}{% assign menu_title = 'Peter Hilton’s home page' %}
-{% include menu.html %}
-</p>
+<section class="writing">
+	<div class="container">
+		<nav class="navbar pull-right" role="navigation">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/">home</a></li>
+				<li><a href="{{ home }}about.html">about</a></li>
+				<li><a href="{{ home }}contact.html">contact</a></li>
+			</ul>
+		</nav>
+		<h2><a href="/blog/">Writing by Peter Hilton</a></h2>
+	</div>
+</section>
 
-<div class="search">
-<form method="get" action="http://search.atomz.com/search/">
-<p><input style="width:9em" name="sp-q" accesskey="s"> <input type=submit value="Search" style="width:6em">
-<input type=hidden name="sp-a" value="00021ba8-sp00000000">
-</p>
-</form>
+<section class="speaking"></section>
+<section class="music"></section>
+
+<div class="container">
+
+	{% if page.title %}
+	<header>
+		<h1>{{ page.title }}</h1>
+		<p class="lead">{{ page.description }}
+			{% if page.date %}<small>- {{ page.date | date_to_long_string }}</small>{% endif %}
+		</p>
+	<header>
+	{% endif %}
+
+	<div class="content">
+	{{ content }}
+	</div>
+
+	<footer class="text-muted">
+		<p>{% include footer.html %}</p>
+	</footer>
 </div>
 
-<div class="content">
-<h1>{{ page.title }}</h1>
-<p class="description">{{ page.description}}</p>
-{{ content }}
-</div>
-
-<p class="footer">{% include footer.html %}</p>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

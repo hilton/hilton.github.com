@@ -21,11 +21,11 @@ p.footer A { color:#516B71; background:white; }
 div.search {position:absolute; top:0.5em; right:1.5em; width:17em; text-align:right; }
 
 div.content { margin-left:63px; margin-bottom:2em; color:#333; background:white; line-height:140%; }
-div.content IMG { margin-top:0; margin-bottom:1em; margin-left:1em; margin-right:1em; }
-div.content IMG.framed {border:solid 4px black; margin-left:0; float:left; }
-div.content IMG.square {border:solid 4px black; margin-left:0; float:left; width:320px; height:320px; }
-div.content IMG.inline {border:solid 4px black; margin:0; }
-div.content IMG.icon {border:none; margin:0; }
+div.content img { margin-top:0; margin-bottom:1em; margin-left:1em; margin-right:1em; }
+div.content img.framed {border:solid 4px black; margin-left:0; float:left; }
+div.content img.square {border:solid 4px black; margin-left:0; float:left; width:320px; height:320px; }
+div.content img.inline {border:solid 4px black; margin:0; }
+div.content img.icon {border:none; margin:0; }
 div.content div.indent { margin-left: 328px; padding-left: 1em; min-height:328px; clear:left; }
 
 H1 { font-size:150%; margin-top:1.2em; margin-bottom:0; }
@@ -55,16 +55,11 @@ TD { vertical-align:top; border-bottom:solid 1px #C4DADF; border-right:solid 5px
 
 .good { color:#080; background:white; }
 .poor { color:#800; background:white; }
-.beige { color:#395055; }
 
 div.comments { color:#395055; margin-bottom:2em; }
 
 div.example { background:#C4DADF; padding-top:1em; padding-bottom:1em; padding-left:1em; }
 div.example H4 { background:#C4DADF; color:black; }
-
-table.hgraph TH { font-size:80%; border:solid 0.5em white; text-align:center; }
-table.hgraph TD { padding:0.8em; text-align:center; width:3em; border:0; }
-table.hgraph TD.h { background:#C4DADF; }
 
 div.sidebar { float:right; margin:0 1em 1em 2em; border:solid 1px #516B71; width:16em; text-align:left; line-height:1.1em; padding-bottom:0.5em}
 div.sidebar h2 { margin:0 0 1em 0; font-size:1em; color:white; background:#516B71; padding:0.4em; }
@@ -76,23 +71,5 @@ div.sidebar big { font-size:120%; }
 big a {text-decoration:none;}
 
 div.column { width:32%; margin-right:1%; float:left; }
-div.column2 {width:47%; margin-right:2%; float:left;}
 
 div.columns { column-width:24em; -webkit-column-width:24em; -moz-column-width:24em; column-gap:2em; -webkit-column-gap:2em; -moz-column-gap:2em; column-rule: 1px solid #ccc; -moz-column-rule: 1px solid #ccc; -webkit-column-rule: 1px solid #ccc; text-align:justify; }
-
-div.panel { 
-	border: 1px solid #ADADAD;
-	-moz-border-radius: 0.5em;
-	-webkit-border-radius: 0.5em;
-	background: -moz-linear-gradient(top, rgba(11, 89, 113, 0.1) 0%, rgba(11, 89, 113, 0.2) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(11, 89, 113, 0.1)), color-stop(100%, rgba(11, 89, 113, 0.2)));
-	background: -ms-linear-gradient(top, rgba(11, 89, 113, 0.1) 0%, rgba(11, 89, 113, 0.2) 100%);
-	background: linear-gradient(top, rgba(11, 89, 113, 0.1) 0%, rgba(11, 89, 113, 0.2) 100%);
-	border-radius: 0.5em;
-	width:83%;
-	min-height:228px;
-	line-height:150%;
-}
-div.panel h2, div.panel p { margin:20px 20px 10px 20px; background:transparent; color:black; }
-div.panel p { margin-left:190px; max-width:34em; }
-div.panel img { vertical-align:bottom; margin:20px 10px 20px 20px; float:left; border:none; }

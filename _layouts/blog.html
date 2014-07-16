@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{{ page.title }} - Peter Hilton’s blog</title>
+<title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton’s blog{% endif %}</title>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="../style/hh-2014.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Peter Hilton’s personal web site">
-<meta name="keywords" content="software development, writing, blog, presentations, speaking, training, consultancy, music">
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
 </head>
 <body class="blog">
@@ -21,8 +21,8 @@
 		<nav class="navbar pull-right" role="navigation">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="/">home</a></li>
-				<li><a href="/about">about</a></li>
-				<li><a href="/contact">contact</a></li>
+				<li><a href="/about.html">about</a></li>
+				<li><a href="/contact.html">contact</a></li>
 			</ul>
 		</nav>
 		<h2><a href="/blog/">Writing by Peter Hilton</a></h2>
@@ -34,8 +34,16 @@
 
 <div class="container">
 
-	<h1>{{ page.title }}</h1>
-	<p class="lead">{{ page.description }} <small>- {{ page.date | date_to_long_string }}</small></p>
+<p>[{{ page.categories }}][{{ page.url }}]</p>
+	{% if page.title %}
+	<header>
+		<h1>{{ page.title }} [{{ page.categories }}][{{ page.url }}]</h1>
+		<p class="lead">{{ page.description }}
+			{% if page.date %}<small>- {{ page.date | date_to_long_string }}</small>{% endif %}
+		</p>
+	<header>
+	{% endif %}
+
 	{{ content }}
 
 	<footer class="text-muted">

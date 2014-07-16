@@ -1,7 +1,7 @@
 ---
 title: Does @SavedYouAClick prove Betteridge’s Law?
 description: A brief study of clickbait headlines
-layout: blog
+layout: hh
 ---
 
 [Betteridge’s law of headlines](http://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines) tells us how to interpret headlines that ask a question:

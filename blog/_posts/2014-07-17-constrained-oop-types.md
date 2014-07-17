@@ -1,7 +1,7 @@
 ---
 title: Object-oriented programming with constrained types
 description: What if you had to define types for all values?
-layout.: hh
+layout: hh
 ---
 
 With object-oriented programming in a language like Java or Scala, we’re used to defining classes for complex types, such as Person and Organisation. At the same time, we use ‘primitive types’ such as String and Integer for single values, such as a person’s name or a company’s registration number. We also use general types such as Date, for a date of birth say, that are not built into the language.

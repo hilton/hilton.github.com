@@ -1,8 +1,10 @@
 ---
-title: Index of photographs
+title: Photographs
 description: Index of photo captions.
 layout: hh
 ---
 
-{% for page in site.categories.photo %}
-<p><a href="{{ page.url }}">{{ page.caption }}</a></p>{% endfor %}
+{% assign sorted_pages = site.categories.photo | sort: 'title' %}
+
+{% for page in sorted_pages %}
+<p><a href="{{ page.url }}">{{ page.title }}</a></p>{% endfor %}

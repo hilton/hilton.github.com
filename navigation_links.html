@@ -37,12 +37,12 @@ function InsertNavigationLink($page_basename, $url_basename, $label, $title) {
 <pre><code>
 &lt;?php $base_name = basename($_SERVER['REQUEST_URI']); ?&gt;
 
-&lt;?php InsertNavigationLink($base_name, 'index.phtml', 'HH home', 'Hilton Harbour main page'); ?&gt; |
-&lt;?php InsertNavigationLink($base_name, 'new.phtml', 'what\'s new', 'what\'s newest on Hilton Harbour'); ?&gt; |
-&lt;?php InsertNavigationLink($base_name, 'index.phtml?theme=contents', 'contents', 'Table of contents'); ?&gt; |
-&lt;?php InsertNavigationLink($base_name, 'index.phtml?theme=index', 'index', 'Alphabetical index'); ?&gt; |
-&lt;?php InsertNavigationLink($base_name, 'index.phtml?theme=photos', 'photo index', 'Alphabetical index'); ?&gt; |
-&lt;?php InsertNavigationLink($base_name, 'about_hh.phtml', 'about', 'about Hilton Harbour'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.html', 'HH home', 'Hilton Harbour main page'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'new.html', 'what\'s new', 'what\'s newest on Hilton Harbour'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.html?theme=contents', 'contents', 'Table of contents'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.html?theme=index', 'index', 'Alphabetical index'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'index.html?theme=photos', 'photo index', 'Alphabetical index'); ?&gt; |
+&lt;?php InsertNavigationLink($base_name, 'about_hh.html', 'about', 'about Hilton Harbour'); ?&gt; |
 </code></pre>
 </div>
 
@@ -67,12 +67,12 @@ function NavigationItem($page_basename, $url_basename, $label, $title) {
 <div class="example">
 <pre><code>
 &lt;?php
-$links = NavigationItem($base_name, 'index.phtml', 'HH home', 'Hilton Harbour main page') . &quot;|&quot;;
-$links .= NavigationItem($base_name, 'new.phtml', 'what\'s new', 'what\'s newest on Hilton Harbour') . &quot;|&quot;;
-$links .= NavigationItem($base_name, 'index.phtml?theme=contents', 'contents', 'Table of contents') . &quot;|&quot;;
-$links .= NavigationItem($base_name, 'index.phtml?theme=index', 'index', 'Alphabetical index') . &quot;|&quot;;
-$links .= NavigationItem($base_name, 'index.phtml?theme=photos', 'photo index', 'Alphabetical index') . &quot;|&quot;;
-$links .= NavigationItem($base_name, 'about_hh.phtml', 'about', 'about Hilton Harbour');
+$links = NavigationItem($base_name, 'index.html', 'HH home', 'Hilton Harbour main page') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'new.html', 'what\'s new', 'what\'s newest on Hilton Harbour') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'index.html?theme=contents', 'contents', 'Table of contents') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'index.html?theme=index', 'index', 'Alphabetical index') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'index.html?theme=photos', 'photo index', 'Alphabetical index') . &quot;|&quot;;
+$links .= NavigationItem($base_name, 'about_hh.html', 'about', 'about Hilton Harbour');
 echo $links;
 ?&gt;
 </code></pre>

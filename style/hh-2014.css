@@ -93,6 +93,8 @@ footer a {
 /* Original pages. */
 .content img {
 	margin-top:0; margin-bottom:1em; margin-left:1em; margin-right:1em; }
+.blog .content img {
+	margin: 0; }
 .content img.framed {
 	border:solid 4px black; margin-left:0; float:left; }
 .content img.square {

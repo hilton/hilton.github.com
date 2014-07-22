@@ -85,17 +85,17 @@ web site's files on a file system. Here, the structure is a hierarchical directo
 <H4>HH file system structure example</H4>
 
 <p><CODE>
-/about_hh.phtml
+/about_hh.html
 <br/>/peter/
-<br/>&nbsp;about_hh_text.phtml
+<br/>&nbsp;about_hh_text.html
 <br/>/part/
-<br/>&nbsp;hh_page_template.phtml
+<br/>&nbsp;hh_page_template.html
 <br/>&nbsp;hh.css
 </CODE>
 </p>
 
 <p>Example 2: The page 
-<a HREF="http://hilton.org.uk/about_hh.phtml"><CODE>http://hilton.org.uk/about_hh.phtml</CODE></a> is built from the five files listed above. <CODE>about_hh_text.phtml</CODE> contains the content; the <CODE>part</CODE> directory contains the page template and style sheet. <CODE>about_hh_text.phtml</CODE>, can be moved without breaking the URL, which corresponds to <CODE>about_hh.phtml</CODE>.</p>
+<a HREF="http://hilton.org.uk/about_hh.html"><CODE>http://hilton.org.uk/about_hh.html</CODE></a> is built from the five files listed above. <CODE>about_hh_text.html</CODE> contains the content; the <CODE>part</CODE> directory contains the page template and style sheet. <CODE>about_hh_text.html</CODE>, can be moved without breaking the URL, which corresponds to <CODE>about_hh.html</CODE>.</p>
 </div>
 
 <p>These URL structure and file system structure are the same when each 
@@ -270,11 +270,11 @@ you automatically satisfy the following design goals.</p>
 <p>As of July 1999 <em>Hilton Harbour</em> consists of about 80 pages. It would probably be impossible to neatly classify these pages into categories and sub-categories, so any URL structure other than a flat one would be flawed. Instead they have URL file names that stand alone like</p>
 
 <p><CODE>
-cambridge_restaurants.phtml
-<br/>cambridge_cafes.phtml
-<br/>international_assignment.phtml
-<br/>gourmet_dish.phtml
-<br/>questions.phtml
+cambridge_restaurants.html
+<br/>cambridge_cafes.html
+<br/>international_assignment.html
+<br/>gourmet_dish.html
+<br/>questions.html
 </CODE></p>
 </div>
 
@@ -345,10 +345,10 @@ guideline to 'put URLs in the web site root', because there will be no directory
 <p><em>Hilton Harbour</em> has URL file names are constructed from the page 
 titles, and do not use abbreviations. For example:</p>
 
-<p><CODE>european_phrase_book.phtml
-<br/>photos_luxembourg_city.phtml
-<br/>luxembourgish_verb_table.phtml
-<br/>why_i_hate_computers.phtml
+<p><CODE>european_phrase_book.html
+<br/>photos_luxembourg_city.html
+<br/>luxembourgish_verb_table.html
+<br/>why_i_hate_computers.html
 </CODE></p>
 
 <p>Because these file names are constructed from the page titles and do not 
@@ -371,7 +371,7 @@ URL ending with <CODE>.html</CODE>, whatever the real extension. The Apache web 
 <H4>HH URL file name example</H4>
 
 <p>The first pages on <em>Hilton Harbour</em> were just static HTML files, 
-so the files had <CODE>.html</CODE> file extensions. Then I used Server-Side Includes, so I had to change the file extensions to <CODE>.shtml</CODE>, breaking all of the URLs. Again, when I changed to PHP for server-side scripts I had to change the extensions to <CODE>.phtml</CODE>. If I had the option, I would have enabled PHP for all files, regardless of extension, in order to meet the guideline, and not ever break the URLs.</p>
+so the files had <CODE>.html</CODE> file extensions. Then I used Server-Side Includes, so I had to change the file extensions to <CODE>.shtml</CODE>, breaking all of the URLs. Again, when I changed to PHP for server-side scripts I had to change the extensions to <CODE>.html</CODE>. If I had the option, I would have enabled PHP for all files, regardless of extension, in order to meet the guideline, and not ever break the URLs.</p>
 </div>
 
 

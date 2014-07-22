@@ -24,3 +24,4 @@ Meanwhile, the experience in the UK is different, and better. Apart from the fac
 4. Thursday afternoon - ‘we delivered your order’.
 
 That’s much more like it! I’m more impressed by the last two status updates than how long the delivery actually took, which wasn’t actually that fast because I didn’t pay extra for next day delivery.
+

@@ -1,6 +1,6 @@
 ---
 title: Simple processes need case workers too
-description: Reducing errors with end-to-end responsibility
+description: Reducing errors with end-to-end responsibility #BPM
 layout: hh
 ---
 
@@ -26,7 +26,9 @@ When cafe staff take end-to-end responsibility for a set of tables, service is b
 
 > When I make a service call, don’t bounce me from person to person
 
-If you’re thinking about enterprise business process management at this point, then you’re probably dealing with processes that are complex than getting me a coffee. These processes are no less likely to benefit from a case-worker approach.
+If you’re thinking about enterprise business process management at this point, then you’re probably dealing with processes that are more complex than getting me a coffee. These processes are no less likely to benefit from a case-worker approach. Perhaps more importantly, focusing on one case at a time prevents delays and backlogs due to batching.
+
+## Do one thing at a time
 
 If you squint a little, the first instruction of the artwork [How to Work Better](http://blog.idonethis.com/empty-work-quotes/) (‘do one thing at a time’) is about case management, and good advice for people working in both cafes and large organisations. So is number 10 - ‘Smile’.
 

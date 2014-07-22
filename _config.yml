@@ -1,3 +1,4 @@
 future: false
 markdown: kramdown
 permalink: ":categories/:title.html"
+timezone: Europe/London

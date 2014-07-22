@@ -6,9 +6,9 @@ layout: hh
 
 A [2008 Coding Horror article](http://blog.codinghorror.com/actual-performance-perceived-performance/) describes the difference between perceived performance and actual performance, referring to a study of progress bars in computer software. In [the study](http://chrisharrison.net/projects/progressbars/ProgBarHarrison.pdf) (PDF) it turned out that the people tested ‘perceived progress bars with pauses as taking longer to complete’ and that ‘accelerated progress was strongly favoured’.
 
-Put another way, it seems that people remember things as taking longer when there were pauses in the feedback, and think that progress was faster when the feedback showed accelerating progress at the end.
+It seems that people remember things as taking longer when there were pauses in the feedback, and think that progress was faster when the feedback showed accelerating progress at the end.
 
-This helps explain the value of regular feedback for people tracking orders in a supply chain. In particular, regular feedback on progress requires status updates for different milestones in the supply chain, rather than a big gap between ‘order created’ and ‘order complete’.
+This helps explain the value of regular feedback for people tracking orders in a supply chain. In particular, regular feedback on progress requires status updates for different milestones in the supply chain, rather than a long wait between ‘order created’ and ‘order complete’.
 
 It is harder to make an analogy with accelerating (displayed) progress at the end of the process, perhaps because it would be harder to show acceleration without continuous real-time feedback and because order delivery is a non-linear process. On the other hand, the study does suggest that people are ‘most willing to tolerate negative process behaviour (e.g. stalls and inconsistent progress) at the beginning of an operation’. Therefore, perhaps perceived performance might be improved by focusing on more consistent and accurate status updates towards the end of the delivery process.
 

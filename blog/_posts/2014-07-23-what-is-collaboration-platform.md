@@ -4,7 +4,11 @@ description: Collaboration is a tag - not a category
 layout: hh
 ---
 
-I once got into a discussion about the merits of a few collaboration software products: _[Confluence](http://en.wikipedia.org/wiki/Confluence_%28software%29)_, _[Microsoft SharePoint](http://en.wikipedia.org/wiki/Microsoft_SharePoint)_ and _[Sametime](http://en.wikipedia.org/wiki/IBM_Sametime)_. The discussion seemed reasonable, but excluded all of the software we use that isn’t called a ‘Collaboration Platform’, which is a bit like a discussion about blog authoring tools based on word-processors. Collaboration is broader than that.
+A few years ago, I got into a discussion about the merits of a few collaboration software products: 
+_[Confluence](http://en.wikipedia.org/wiki/Confluence_%28software%29)_, 
+_[Microsoft SharePoint](http://en.wikipedia.org/wiki/Microsoft_SharePoint)_ and 
+_[Sametime](http://en.wikipedia.org/wiki/IBM_Sametime)_. 
+The discussion seemed reasonable, but excluded all of the software we use that isn’t called a ‘Collaboration Platform’, which is a bit like a discussion about blog authoring tools based on word-processors. Collaboration is broader than that.
 
 ## Bug tracking - a collaboration example
 

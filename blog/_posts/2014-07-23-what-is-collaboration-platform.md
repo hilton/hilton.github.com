@@ -20,7 +20,7 @@ More recently, I worked on smaller development project and used _[Trello](http:/
 
 ## What a collaboration platform is
 
-My experiences with more or less collaborative bug tracking tools raises to a few questions.
+My experiences with more or less collaborative bug tracking tools raises a few questions.
 
 1. Was the old _Observation Report Database_ a collaboration platform?
 2. Is _JIRA_ a collaboration platform?

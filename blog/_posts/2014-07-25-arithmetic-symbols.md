@@ -6,7 +6,7 @@ layout: hh
 
 <p style="font-weight:bold; width:4.8em; font-size:10em; line-height:70%"><span style="color:#334D5C">+</span> <span style="color:#45B29D">−</span> <span style="color:#E27A3F">×</span> <span style="color:#DF5A49">÷</span></p>
 
-Despite being rather long (around 6000 words) the [Wikipedia article on ASCII](http://en.wikipedia.org/wiki/ASCII) doesn’t seem to give any clues about why its 128 characters don’t only include two of the four basic arithmetic operations: `+` and `-` are included, but not `×` or `÷`. The standard was first published in 1963, so perhaps no-one can remember. Perhaps typewriters are to blame.
+Despite being rather long at around 6000 words, the [Wikipedia article on ASCII](http://en.wikipedia.org/wiki/ASCII) doesn’t seem to give any clues about why its character set only includes two of the four basic arithmetic operations: `+` and `-` are included, but not `×` or `÷`. The standard was first published in 1963, so perhaps no-one can remember. Perhaps typewriters are to blame.
 
 ASCII shouldn’t matter any more, now that Unicode encoded as UTF-8 has been around for _twenty years_. What’s more, as first [reported by Google](http://googleblog.blogspot.co.uk/2008/05/moving-to-unicode-51.html) in 2008, UTF-8 is the most common encoding for web pages, which is how pages like this one can display multiplication and division symbols without using the HTML entities (`&times;` and `&divide;`) in the page source.
 
@@ -44,6 +44,6 @@ I will concede that mathematical logic symbols are a grey area, because they are
 
 <p style="font-weight:bold; width:4.8em; font-size:10em; line-height:70%"><span style="color:#334D5C">+</span> <span style="color:#45B29D">−</span> <span style="color:#DF5A49">-</span></p>
 
-At the start of this article I glossed over one thing, suggesting that only the multiplication and division signs were missing from ASCII. It turns out that a hyphen is not the same character as a minus sign, typographically, at least. The first two symbols above are arithmetic symbols, but the hyphen on the right (the third) just doesn’t fit.
+At the start of this article I glossed over one thing, suggesting that only the multiplication and division signs were missing from ASCII. It turns out that a hyphen is not the same character as a minus sign, typographically or in Unicode. The first two symbols above are arithmetic symbols, but the hyphen on the right (the third) just doesn’t fit.
 
 I guess our newfangled number-crunching machines are stuck with the legacy of a nineteenth-century novelist’s tool after all. Here’s hoping that a programming language designer with an eye for typography takes up this particular challenge sooner, rather than later.

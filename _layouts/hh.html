@@ -67,8 +67,15 @@
 		Next article: <a href="{{ page.next.url | replace:'.html','' }}">{{ page.next.title }}</a>
 	{% endif %}
 	</article>
-	
+
 	{% if page.title and page.url contains '/blog/' %}
+	<article class="social">
+		<a title="Share on Twitter" href="https://twitter.com/share?url=http://hilton.org.uk{{ page.url }}&amp;text={{ page.title | cgi_escape }}+-+{{ page.description | cgi_escape }}+-+%40PeterHilton"><img src="../picture/social/minimal/twitter.png"></a>
+		<!--
+		<img src="../picture/social/minimal/linkedin.png">	<img src="../picture/social/minimal/googleplus.png">
+		-->
+	</article>
+	
 	<article class="comments">
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">

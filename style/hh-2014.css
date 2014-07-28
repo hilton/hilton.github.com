@@ -115,5 +115,19 @@ footer a {
 	font-weight: 600;
 	margin-top: 3em; }
 
-.comments {
+.social img {
+	margin-right: 32px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%); }
+.social img:hover {
+	filter: none;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-o-filter: none;
+	-ms-filter: none; }
+	
+.social, .social2, .comments {
 	margin-top: 3em; }

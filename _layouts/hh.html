@@ -70,10 +70,10 @@
 
 	{% if page.title and page.url contains '/blog/' %}
 	<article class="social">
-		<a title="Share on Twitter" href="https://twitter.com/share?url=http://hilton.org.uk{{ page.url }}&amp;text={{ page.title | cgi_escape }}+-+{{ page.description | cgi_escape }}+-+%40PeterHilton"><img src="../picture/social/minimal/twitter.png"></a>
-		<!--
-		<img src="../picture/social/minimal/linkedin.png">	<img src="../picture/social/minimal/googleplus.png">
-		-->
+		<a href="https://twitter.com/share?url=http://hilton.org.uk{{ page.url }}&amp;text={{ page.title | cgi_escape }}+-+{{ page.description | cgi_escape }}+-+%40PeterHilton" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://hilton.org.uk{{ page.url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ page.description | cgi_escape }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a><a href="https://plus.google.com/share?url=http://hilton.org.uk{{ page.url }}" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="../picture/social/minimal/googleplus.png" alt="Share on Google+"></a>
 	</article>
 	
 	<article class="comments">

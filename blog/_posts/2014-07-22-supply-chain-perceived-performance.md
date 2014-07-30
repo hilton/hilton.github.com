@@ -1,6 +1,6 @@
 ---
 title: Supply chain delivery performance improvements
-description: How status updates can improve perceived performance
+description: How status updates can improve perceived performance #supplychain
 layout: hh
 ---
 

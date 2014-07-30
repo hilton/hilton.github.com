@@ -1,6 +1,6 @@
 ---
 title: Learning another programming language
-description: The second language is hardest
+description: The second language is hardest #programming
 layout: hh
 ---
 

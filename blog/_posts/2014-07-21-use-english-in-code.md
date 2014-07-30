@@ -1,6 +1,6 @@
 ---
 title: Using only English words in code
-description: What if you could tell the compiler to require correct spelling?
+description: What if you could tell the compiler to require correct spelling? #programming
 layout: hh
 ---
 

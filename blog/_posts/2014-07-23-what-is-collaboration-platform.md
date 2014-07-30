@@ -1,6 +1,6 @@
 ---
 title: What is a collaboration platform?
-description: Collaboration is a tag - not a category
+description: Collaboration is a tag - not a category #collaboration
 layout: hh
 ---
 

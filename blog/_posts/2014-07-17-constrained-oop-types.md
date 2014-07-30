@@ -1,6 +1,6 @@
 ---
 title: Object-oriented programming with constrained types
-description: What if you had to define types for all values?
+description: What if you had to define types for all values? #programming
 layout: hh
 ---
 

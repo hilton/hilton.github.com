@@ -1,6 +1,7 @@
 ---
 title: Enforcing coding style as part of the language
-description: What if the compiler only accepted one coding style? #programming
+description: What if the compiler only accepted one coding style?
+tags: programming
 layout: hh
 ---
 

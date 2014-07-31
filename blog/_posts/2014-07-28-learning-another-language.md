@@ -1,6 +1,7 @@
 ---
 title: Learning another programming language
-description: The second language is hardest #programming
+description: The second language is hardest
+tags: programming
 layout: hh
 ---
 

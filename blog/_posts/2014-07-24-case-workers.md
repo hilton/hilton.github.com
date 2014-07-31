@@ -1,6 +1,7 @@
 ---
 title: Simple processes need case workers too
-description: Reducing errors with end-to-end responsibility #BPM
+description: Reducing errors with end-to-end responsibility
+tags: BPM
 layout: hh
 ---
 

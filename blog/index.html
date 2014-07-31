@@ -8,7 +8,12 @@ layout: hh
 		<h1>Blog</h1>
 		{% for page in site.categories.blog %}
 			<h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
-			<p>{{ page.description }}</small> <span class="text-muted">- {{ page.date | date_to_long_string }}</span></p>
+			<p>
+			{{ page.description }}
+			<span class="text-muted">- {{ page.date | date_to_long_string }}
+			{% for tag in page.tags %}#{{ tag }} {% endfor %}
+			</span>
+			</p>
 		{% endfor %}
 
 		<h2>Older articles (2005-2014)</h2>

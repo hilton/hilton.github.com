@@ -1,6 +1,7 @@
 ---
 title: Agile user modelling with TV character personas
-description: Better-looking software requirements analysis #agile
+description: Better-looking software requirements analysis
+tags: agile
 layout: hh
 ---
 

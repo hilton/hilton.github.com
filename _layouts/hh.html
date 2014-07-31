@@ -43,18 +43,21 @@
 <section class="speaking"></section>
 <section class="music"></section>
 
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Article">
 
 	{% if page.title %}
 	<header>
-		<h1>{{ page.title }}</h1>
-		<p class="lead">{{ page.description }}
-			{% if page.date %}<small>- {{ page.date | date_to_long_string }}</small>{% endif %}
+		<h1 itemprop="name">{{ page.title }}</h1>
+		<p class="lead" itemprop="description">{{ page.description }}
+			<small><span class="text-muted">
+			{% if page.date %}- {{ page.date | date_to_long_string }}{% endif %}
+			{% for tag in page.tags %}#{{ tag }} {% endfor %}
+			</span></small>
 		</p>
 	<header>
 	{% endif %}
 
-	<article class="content">
+	<article class="content" itemprop="text">
 	{{ content }}
 	</article>
 
@@ -69,9 +72,10 @@
 	</article>
 
 	{% if page.title and page.url contains '/blog/' %}
+	{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}
 	<article class="social">
-		<a href="https://twitter.com/share?url=http://hilton.org.uk{{ page.url }}&amp;text={{ page.title | cgi_escape }}:+{{ page.description | cgi_escape }}+|+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://hilton.org.uk{{ page.url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ page.description | cgi_escape }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
+		<a href="https://twitter.com/share?url=http://hilton.org.uk{{ page.url }}&amp;text={{ page.title | cgi_escape }}:+{{ description }}+|+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://hilton.org.uk{{ page.url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a><a href="https://plus.google.com/share?url=http://hilton.org.uk{{ page.url }}" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="../picture/social/minimal/googleplus.png" alt="Share on Google+"></a>
 	</article>

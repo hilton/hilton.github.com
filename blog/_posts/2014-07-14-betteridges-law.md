@@ -1,6 +1,7 @@
 ---
 title: Does @SavedYouAClick prove Betteridge’s Law?
-description: A brief study of clickbait headlines #socialmedia
+description: A brief study of clickbait headlines
+tags: socialmedia
 layout: hh
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Dropping the ‘agile’ from ‘software development’
-description: Why ‘agile’ is still the new name for methodology #agile
+description: Why ‘agile’ is still the new name for methodology
+tags: agile
 layout: hh
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Arithmetic symbols in source code
-description: Why ASCII’s fifty year-old legacy is still with us #programming
+description: Why ASCII’s fifty year-old legacy is still with us
+tags: programming
 layout: hh
 ---
 

@@ -12,9 +12,11 @@ The [Scala Style Guide](http://docs.scala-lang.org/style/) is a useful set of
 [Code Conventions for the Java Programming Language](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html) (1999) or the newer 
 [Google Java Style](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html). The Scala guide is more like Sun’s Java guide in that it provides basic guidelines but doesn’t specify everything, like Google’s Java guide.
 
-Leaving things out is a good choice for a public style guide, because it lends focus to the important things and leaves development teams to make their own choices for questions where there are tradeoffs. Java teams often write quite concise code conventions that start with the phrase ‘Follow _Code Conventions for the Java Programming_ unless specified here’, and only specify deviations or more specific guidelines than Sun’s guide.
+Leaving things out is a good choice for a public style guide, because it lends focus to the important things and leaves development teams to make their own choices where there are tradeoffs. Java teams often write quite concise code conventions that start with the phrase ‘Follow _Code Conventions for the Java Programming_ unless specified here’, and only specify deviations or more specific guidelines than Sun’s guide.
 
-I haven’t yet worked on a Scala team that wrote explicit guidelines, instead relying on ad-hoc code review and everyone’s memory, but team code conventions documents will probably emerge, following the same model of using the Scala Style Guide as a starting point. The next step is to specify several different kinds of guidelines:
+I expect that Scala teams will write explicit code conventions to use, following the same model of using the Scala Style Guide as a starting point. This hasn’t yet happened in teams I’ve worked on, probably because very small teams of just a few developers can instead rely on code review and everyone’s memory. Larger teams would get more benefit.
+
+The next step is to specify several different kinds of guidelines:
 
 1. Stricter guidelines: ‘always’ or ‘never’ where the Scala Style Guide says ‘prefer’, ‘may’ or ‘avoid’.
 2. A single choice where the Scala Style Guide gives multiple options.
@@ -32,7 +34,7 @@ Questions for your code conventions:
 3. Is it okay to vertically-align consecutive lines on anything other than the first non-whitespace character?
 4. Is there a limit on the number of method arguments?
 
-The Scala Style Guide (the guide) doesn’t specify a maximum line length, which makes sense because it depends on various factors. Code conventions should probably pick one, depending on their development hardware and software, and how progressive the team is. The guide merely says that there is a maximum length and that:
+The Scala Style Guide (henceforth, ‘the guide’) doesn’t specify a maximum line length, which makes sense because it depends on various factors. Code conventions should probably pick one, depending on their development hardware and software, and how progressive the team is. The guide merely says that there is a maximum length and that:
 
 > usually that length is anywhere above 80 characters
 

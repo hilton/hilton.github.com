@@ -21,9 +21,9 @@ The lazy way to identify the key non-functional requirements for application sof
 
 Alternatively, start with the nice long 
 [list of example non-functional requirements](http://en.wikipedia.org/wiki/Non-functional_requirement#Examples)
-from Wikipedia. Take an hour with the Product Owner to walk through the list and summarising what each one means. Cross off the ones that don’t apply to the software you’re building, and rank the ones whose absence would affect the software’s business value. At this point you should probably just pick the three or four most critical, although it’s work keeping the others in mind.
+from Wikipedia. Take an hour with the Product Owner to walk through the list and summarise what each one means. Cross off the ones that don’t apply to the software you’re building, and rank the ones whose absence would affect the software’s business value. At this point you should probably just pick the three or four most critical, although it’s work keeping the others in mind.
 
-That was the easy part. Once you have identified the key non-functional requirements, the hard part is to integrate them with Scrum-based software development. It is not obvious how to do this, because Scrum focuses on the business value of user stories, which most naturally describe software functionality.
+That was the easy part. Once you have identified the key non-functional requirements, the hard part is to integrate them with Scrum-based software development. It is not obvious how to do this, because Scrum focuses on the business value of user stories, which most naturally describe software functionality. Enter the architect.
 
 
 ## The software architect role

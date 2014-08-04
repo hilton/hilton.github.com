@@ -1,6 +1,7 @@
 ---
 title: Architect - the missing Scrum role
-description: Agile architecture for non-functional requirements #agile
+description: Agile architecture for non-functional requirements
+tags: agile
 layout: hh
 ---
 

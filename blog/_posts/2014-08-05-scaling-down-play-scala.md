@@ -1,7 +1,7 @@
 ---
 title: Scaling down Play and Scala web applications
 description: Cruising with Play, Scala and in style
-tags: scala
+tags: Scala
 layout: hh
 ---
 

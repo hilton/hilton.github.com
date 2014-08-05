@@ -10,7 +10,7 @@ layout: hh
 What’s the best kind of car for getting around town, popping out to the shops and cruising along the seafront on a warm summer evening? The most basic small car will do, perhaps, but it won’t do it in style. If you can afford it, it’s far more classy to cruise along in a massively overpowered Rolls Royce, with nothing more than a soft purr from its V12 engine.
 
 Sometimes, building a database-backed web application is just a short drive, rather than a round-the-world expedition. For a small web application, PHP will do, and is perhaps the most popular choice. Using 
-[Play](http://playframework.com/) with [Scala](http://www.scala-lang.org) is more classy, though, and unlike the cost of a Rolls Royce it doesn’t have to cost more to build.
+[Play](http://playframework.com/) with [Scala](http://www.scala-lang.org) is more classy, though, and like owning a Rolls if you already know how to use them. Learning Scala might have been more effort than PHP, although that’s debatable, but once you have it, you have it.
 
 There is a lot of attention for how Play and Scala scale up to complex applications, and how reactive programming enables large high-performance applications, but there is a lot of mileage in learning to scale _down_ as well and and giving all those PHP developers a run for their money.
 

@@ -49,4 +49,4 @@ The flaw in the address book example is that I called it an ‘address book’, 
 
 Adding support for these processes as well might result in a different kind of software - some kind of [customer relationship management](http://en.wikipedia.org/wiki/Customer_relationship_management) software. Process-first design results in an application whose nature reflects the process and interactions, not the underlying data.
 
-Photo: [Henry M Karshis](https://www.flickr.com/photos/hmk/3972213129)
+_Photo: [Henry M Karshis](https://www.flickr.com/photos/hmk/3972213129)_

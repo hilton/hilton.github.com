@@ -73,4 +73,4 @@ Either way, scaling down database access means avoiding complexity or magic. Wit
 
 After you’ve scaled down your coding, the last step is to scale up your development workstation hardware. To truly cruise in style, you need such a powerful workstation that the quietest sound in the room is a low hum from continuous Scala compilation as you type.
 
-Photo: [Alexandre Prévot](https://www.flickr.com/photos/alexprevot/8696067685)
+_Photo: [Alexandre Prévot](https://www.flickr.com/photos/alexprevot/8696067685)_

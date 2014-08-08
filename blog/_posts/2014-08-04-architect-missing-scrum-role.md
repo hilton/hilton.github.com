@@ -60,4 +60,4 @@ The final catch, as if this weren’t difficult enough already, is that non-func
 
 The result is software architecture must continuously evolve to respond to two kinds of continuous change. Not only does the size of the system change, as you build it, but also the non-functional requirements that the architecture must support. An architect’s work is never done.
 
-Photo: [Juhan Sonin](https://www.flickr.com/photos/juhansonin/12140602074)
+_Photo: [Juhan Sonin](https://www.flickr.com/photos/juhansonin/12140602074)_

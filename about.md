@@ -1,22 +1,24 @@
 ---
 title: About
-description: Where I am and where I’ve been
+description: Peter Hilton in detail
 layout: main
 ---
 
 <div class="row">
 <div class="col-md-8">
 
-<p>I am a software developer, writer, speaker and trainer. My professional interests are web application architecture, design and construction, with technical project management. My interests include JVM web application frameworks, agile software development process and practices, and web-based collaboration. I have extensive experience on projects for large customers in the logistics, government, financial services, energy, utilities, pharmaceutical, transport and space industries.</p>
+<p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are web application development, functional design, agile software development and project management. He has extensive experience on projects for large customers in the logistics, government, financial services, energy, utilities, pharmaceutical, transport and space industries.</p>
 
-<p>Specialties: Database-backed intranet web application architecture, design and build. Agile software development process and practices and web-based collaboration. Technologies: Play framework (Typesafe-certified trainer), Scala, Slick; Java EE, Drools.</p>
+<p>Peter’s software development interests include JVM web application frameworks, software development methodology and practices, and web-based collaboration. Peter’s speciality is database-backed intranet web application architecture, design and build. He currently builds web applications using Scala, Play Framework and Slick. Previously, Peter gained significant experience with Java EE web technology and middleware, such as Drools.</p>
+
+<p>Peter has presented at several European developer conferences, including Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a Typesafe certified trainer for <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a>.</p>
 
 
 <h2>Now &amp; next</h2>
 
-<p>On sabbatical in central London (July - December 2014), after which I plan to return to Rotterdam.</p>
+<p>On sabbatical in central London (July - December 2014), after which Peter plans to return to Rotterdam.</p>
 
-<p>I am available for employment or consulting opportunities from January 2015 onwards.</p>
+<p>Peter is available for employment or consulting opportunities from January 2015 onwards.</p>
 
 
 <h2>Writing</h2>

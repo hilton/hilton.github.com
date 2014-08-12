@@ -7,6 +7,8 @@ layout: hh
 
 For a programmer, two especially useful ways to learn to use new technologies are tutorials and sample applications. The problem with sample applications, though, is that application source code is not linear, and it can be difficult to discover a useful way to approach it.
 
+## Typesafe Activator
+
 Tutorials provide a guided linear flow, but make it difficult to see the big picture. A challenge when writing a book like [Play for Scala](http://bit.ly/playscala2p) is to include enough enough context with code snippets to allow the reader to see how they relate to each other, while avoiding listings that are too long to follow. The usual compromise is to first explain a series of short snippets, and then repeat the code in one long listing.
 
 [Typesafe Activator](https://typesafe.com/activator) cleverly combines the ability to browse and run sample applications with linear tutorials, and therefore has the potential to be more useful than conventional programming books. I decided to try it out, and wrote my own Activator template.

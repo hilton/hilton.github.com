@@ -30,7 +30,7 @@ You’ll have to trust me (or Wikipedia) about the pseudonym thing. That he was 
 
 > Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.
 
-Orwell’s first rule is clearly about design patterns. Design patterns are a useful technique, but that they are for _object-oriented_ programming. Scala does not restrict programming style to object-oriented programming, and functional programming offers an alternative idiom to pattern-based object-oriented design that Scala programmers would do well to keep in mind. Orwell cleverly predicted the present day, in which decades of object-oriented design have created an inertia that now hinders the adoption of functional programming in commercial software development.
+Orwell’s first rule is clearly about design patterns. Design patterns are a useful technique, but they are for _object-oriented_ programming. Scala does not restrict programming style to object-oriented programming, and functional programming offers an alternative idiom to pattern-based object-oriented design that Scala programmers would do well to keep in mind. Orwell cleverly predicted the present day, in which decades of object-oriented design have created an inertia that now hinders the adoption of functional programming in commercial software development.
 
 Incidentally, the book [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns) was published in 1994, which pre-dates Java. This didn’t stop a generation of Java programmers from misunderstanding the book’s advice to always ‘program to an _interface_, not an _implementation_’, which refers to a class’ public members, not Java interfaces.
 

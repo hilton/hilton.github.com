@@ -23,7 +23,7 @@ There are two things that you might not know about George Orwell’s advice to w
 1. George Orwell’s real name was ‘Eric Blair’.
 2. He was really writing about Scala programming, not English.
 
-You’ll have trust me (or Wikipedia) about the pseudonym thing. That he was writing about Scala, however, is self-evident once you consider the rules individually.
+You’ll have to trust me (or Wikipedia) about the pseudonym thing. That he was writing about Scala, however, is self-evident once you consider the rules individually.
 
 
 ## 1. Don’t use object-oriented design patterns
@@ -32,7 +32,7 @@ You’ll have trust me (or Wikipedia) about the pseudonym thing. That he was wri
 
 Orwell’s first rule is clearly about design patterns. Design patterns are a useful technique, but that they are for _object-oriented_ programming. Scala does not restrict programming style to object-oriented programming, and functional programming offers an alternative idiom to pattern-based object-oriented design that Scala programmers would do well to keep in mind. Orwell cleverly predicted the present day, in which decades of object-oriented design have created an inertia that now hinders the adoption of functional programming in commercial software development.
 
-Incidentally, the book [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns) was published in 1994, which pre-dates Java. This didn’t stop a generation of Java programmers from misunderstanding the book’s advice to ‘always to program to an interface’, which refers to a class’ public members, not Java interfaces.
+Incidentally, the book [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns) was published in 1994, which pre-dates Java. This didn’t stop a generation of Java programmers from misunderstanding the book’s advice to always ‘program to an _interface_, not an _implementation_’, which refers to a class’ public members, not Java interfaces.
 
 
 ## 2. Prefer concise names for values

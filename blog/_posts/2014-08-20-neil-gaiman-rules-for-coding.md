@@ -7,11 +7,11 @@ layout: hh
 
 ![Neil Gaiman](neil-gaiman.jpg)
 
-The problem with getting programming advice from programmers is none of them are really famous, and hardly any of them can write. It’s easier to get good programming advice from someone famous who writes fiction.
+The problem with getting programming advice from programmers is none of them are really famous, and hardly any of them can write. It’s easier to get good programming advice from someone a famous novellist.
 
 [George Orwell](george-orwell-rules-scala) is not the only writer to give advice to programmers. The Guardian’s collection of [Ten rules for writing fiction](http://www.theguardian.com/books/2010/feb/20/ten-rules-for-writing-fiction-part-one), includes a contribution from Neil Gaiman, who is also somewhat famous (two million Twitter followers at the time of writing).
 
-Gaiman’s eight rules cover several areas of software development, although confusingly he uses the word ‘writing’ when he means ‘coding’. Most of these rules require little comment.
+Gaiman’s eight rules cover several areas of software development, although he uses the word ‘writing’ when he means ‘coding’. These rules require little comment.
 
 
 ## Productivity & agile software development

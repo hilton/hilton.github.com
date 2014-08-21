@@ -23,6 +23,9 @@ h3 {
 .content blockquote p, .content blockquote li {
 	font-size: 90%;
 	max-width: 36em; }
+.content img {
+	max-width: 100%;
+	height: auto; }
 
 section {
 	min-height: 10px;

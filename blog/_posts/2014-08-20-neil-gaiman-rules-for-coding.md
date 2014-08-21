@@ -1,7 +1,7 @@
 ---
 title: Neil Gaiman’s rules for coding
 description: "@neilhimself writes about programming"
-tags: Scala
+tags: programming
 layout: hh
 ---
 

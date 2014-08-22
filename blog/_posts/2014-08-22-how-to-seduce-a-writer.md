@@ -4,7 +4,7 @@ description: "Neil Gaiman doesn’t always write about programming"
 layout: hh
 ---
 
-The earlier article about [Neil Gaiman’s rules for coding](neil-gaiman-rules-for-coding) notes that his rules for writing fiction are really about software development. However, Gaiman doesn’t always write about programming. For example, in [one of his blog posts](http://neil-gaiman.tumblr.com/post/18932682858/as-requested-by-too-many-people-making-the-last-post) he responded to the question of how to seduce a writer, to which he responded as follows.
+Although [Neil Gaiman’s rules for writing](neil-gaiman-rules-for-coding) fiction are really about software development, Gaiman doesn’t always write about programming. In [one of his blog posts](http://neil-gaiman.tumblr.com/post/18932682858/as-requested-by-too-many-people-making-the-last-post) he responded to the question of how to seduce a writer, as follows.
 
 > In my experience, writers tend to be really good at the inside of their own heads and imaginary people, and a lot less good at the stuff going on outside, which means that quite often if you flirt with us we will completely fail to notice, leaving everybody involved slightly uncomfortable and more than slightly unlaid.
 > 

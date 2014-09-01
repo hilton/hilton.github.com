@@ -1,5 +1,5 @@
 ---
-title: Camel HTTP integration example
+title: Camel message processing using the Scala DSL
 description: A new Typesafe Activator template
 tags: Camel Scala
 layout: hh

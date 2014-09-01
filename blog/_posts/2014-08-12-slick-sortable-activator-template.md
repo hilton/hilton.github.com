@@ -20,3 +20,5 @@ Tutorials provide a guided linear flow, but make it difficult to see the big pic
 In case you were wondering, jQuery UI Sortable is a JavaScript library that allows you to reposition elements in an HTML list with drag and drop. If you add a persistent server-side back-end then you can use this to add manual-reordering to a web application user-interface.
 
 For example, you could write a new front-end for [GitHub Issues](https://github.com/features#issues) that lets you manually order a Scrum product backlog. This is of course not included in the Activator template, but left as an exercise for the reader.
+
+Template source: [github.com/hilton/activator-slick-sortable](https://github.com/hilton/activator-slick-sortable)

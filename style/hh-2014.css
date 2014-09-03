@@ -134,3 +134,29 @@ footer a {
 	
 .social, .social2, .comments {
 	margin-top: 3em; }
+
+blockquote.big {
+background-color: #334D5C;
+color: white;
+border-left: 0;
+padding:1em;
+margin-top:2em;
+max-width: 26em; }
+
+blockquote.big p {
+	font-size: 2em; }
+
+blockquote.big a {
+	color: inherit; }
+	
+.solid-one {
+	background-color: #334D5C ! important; }
+.solid-two {
+	background-color: #45B29D ! important; }
+.solid-three {
+	color: #334D5C ! important;
+	background-color: #EFC94C ! important; }
+.solid-four {
+	background-color: #E27A3F ! important; }
+.solid-five {
+	background-color: #DF5A49 ! important; }

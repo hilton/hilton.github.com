@@ -17,23 +17,20 @@ layout: speaking
 	<th>Date</th>
 	<th>Title</th>
 	<th>Venue</th>
-	<th>Event</th>
 	<th>Location</th>
 	<th>Media</th>
 	</tr>
 <tr>
 	<td>2014-10-07</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
-	<td>Scala UG</td>
-	<td>user group</td>
+	<td><a href="http://www.meetup.com/london-scala/">Scala Users’ Group</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2014-10-07</td>
 	<td>Introduction to the Play Framework</td>
-	<td>VMware</td>
-	<td>company</td>
+	<td><a href="http://www.vmware.com/uk/">VMware</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>
@@ -41,17 +38,8 @@ layout: speaking
 <td>2014-09-18</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://www.meetup.com/london-software-craftsmanship/events/206817472/">LSSC Talks</a></td>
-	<td>meetup</td>
 	<td class="flag uk">London</td>
-	<td><a href="https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming">video</a> <a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
-</tr>
-<tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td><a href="https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming">video</a>, <a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
 </tr>
 </table>
 

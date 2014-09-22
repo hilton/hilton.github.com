@@ -160,3 +160,6 @@ blockquote.big a {
 	background-color: #E27A3F ! important; }
 .solid-five {
 	background-color: #DF5A49 ! important; }
+
+.bordered {
+	border: 1px solid #ccc; }

@@ -59,7 +59,8 @@ section.music {
 
 section.speaking a, section.music a {
 	color: #B2D9FE; }
-
+section.speaking h2 a, section.speaking nav a {
+	color: white}
 
 /* Home page. */
 
@@ -163,3 +164,16 @@ blockquote.big a {
 
 .bordered {
 	border: 1px solid #ccc; }
+
+.flag {
+	padding-left: 28px !important;
+	background-position: 8px;
+	background-repeat: no-repeat; }
+.be {	background-image: url(../picture/icon/be.png) }
+.ee {	background-image: url(../picture/icon/ee.png) }
+.nl {	background-image: url(../picture/icon/nl.png) }
+.no {	background-image: url(../picture/icon/no.png) }
+.pl {	background-image: url(../picture/icon/pl.png) }
+.se {	background-image: url(../picture/icon/se.png) }
+.uk {	background-image: url(../picture/icon/uk.png) }
+	

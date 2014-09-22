@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton - Speaking &amp; training{% endif %}</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../style/hh-2014.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+<meta name="author" content="Peter Hilton">
+</head>
+<body class="speaking">
+
+<section class="main"></section>
+<section class="development"></section>
+<section class="writing"></section>
+
+<section class="speaking">
+	<div class="container">
+		<nav class="navbar pull-right" role="navigation">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/">home</a></li>
+				<li><a href="../about">about</a></li>
+				<li><a href="../contact">contact</a></li>
+			</ul>
+		</nav>
+		<h2><a href="/presentations/">Peter Hilton - Speaking &amp; training</a></h2>
+	</div>
+</section>
+
+<section class="music"></section>
+
+<div class="container" itemscope itemtype="http://schema.org/Article">
+
+	{% if page.title %}
+	<header>
+		<h1 itemprop="name">{{ page.title }}</h1>
+		<p class="lead">
+			<span itemprop="description">{{ page.description }}</span>
+			<small><span class="text-muted">
+			{% if page.date %}- {{ page.date | date_to_long_string }}{% endif %}
+			{% for tag in page.tags %}#{{ tag }} {% endfor %}
+			</span></small>
+		</p>
+	<header>
+	{% endif %}
+
+	<article class="content">
+	{{ content }}
+	</article>
+
+	{% if page.title %}
+	{% capture url %}http%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
+	{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}
+	<article class="social">
+		<a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Presentations+by+Peter+Hilton" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a><a href="https://plus.google.com/share?url={{ url }}" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="../picture/social/minimal/googleplus.png" alt="Share on Google+"></a>
+	</article>
+	
+	<article class="comments">
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+			var disqus_shortname = 'peterhilton';
+			var disqus_identifier = '{{ page.id }}';
+		    var disqus_title = '{{ page.title }}';
+		    var disqus_url = 'http://hilton.org.uk{{ page.url | replace:'.html','' }}';
+
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	</article>
+	{% endif %}
+    	
+
+	<footer class="text-muted">
+		<p>{% include footer.html %}</p>
+	</footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

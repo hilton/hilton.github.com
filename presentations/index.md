@@ -5,7 +5,9 @@ layout: speaking
 
 # Presentations
 
-<p>Peter Hilton has presented at a conferences, user groups and companies in several countries on a variety of software development topics. Please get in touch if you would like Peter to speak at your event or company.</p>
+<p>Peter Hilton has presented at a conferences, user groups and companies in several countries on a variety of software development topics.</p>
+
+<p>Please get in touch if you would like Peter to speak at your event or company.</p>
 
 
 ## Upcoming & recent
@@ -21,7 +23,7 @@ layout: speaking
 	</tr>
 <tr>
 	<td>2014-10-07</td>
-	<td>Scaling business application development with Play and Scala</td>
+	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td>Scala UG</td>
 	<td>user group</td>
 	<td class="flag uk">London</td>
@@ -41,7 +43,7 @@ layout: speaking
 	<td><a href="http://www.meetup.com/london-software-craftsmanship/events/206817472/">LSSC Talks</a></td>
 	<td>meetup</td>
 	<td class="flag uk">London</td>
-	<td><a href="https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming">video</a></td>
+	<td><a href="https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming">video</a> <a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
 </tr>
 <tr>
 	<td></td>

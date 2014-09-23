@@ -35,6 +35,12 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2014-10-01</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://www.bcs-spa.org/">British Computer Society SPA</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
 <td>2014-09-18</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://www.meetup.com/london-software-craftsmanship/events/206817472/">LSSC Talks</a></td>

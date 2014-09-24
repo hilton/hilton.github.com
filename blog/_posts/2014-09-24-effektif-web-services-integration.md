@@ -1,6 +1,6 @@
 ---
 title: Systems integration with Effektif
-description: Accessing web services with JavaScript
+description: Using JavaScript tasks to access web services
 tags: BPM
 layout: hh
 ---

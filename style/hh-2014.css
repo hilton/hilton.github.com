@@ -59,7 +59,8 @@ section.music {
 
 section.speaking a, section.music a {
 	color: #B2D9FE; }
-section.speaking h2 a, section.speaking nav a {
+section.speaking h2 a, section.speaking nav a,
+section.music h2 a, section.music nav a {
 	color: white}
 
 /* Home page. */

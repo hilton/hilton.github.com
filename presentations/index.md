@@ -37,7 +37,7 @@ layout: speaking
 <tr>
 	<td>2014-10-01</td>
 	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.bcs-spa.org/">British Computer Society SPA</a></td>
+	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>

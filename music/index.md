@@ -18,6 +18,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br><a href="http://www.saintcuthbert.org">St Cuthbert's Church</a>, 50 Philbeach Gardens, Earl's Court, SW5 9EB London</p>
 
 <p><strong><a href="http://www.renaissancesingers.com/">O What Evil Is War: War and Peace in 17th century Germany</a></strong>
+<br>Music by Schütz, Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Staden
 <br><em>The Renaissance Singers</em>
 <br>Saturday, 25 October 2014, 7:30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>

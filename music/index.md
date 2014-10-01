@@ -12,13 +12,8 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Upcoming performances</h2>
 
-<p><strong><a href="https://www.facebook.com/events/1478810692375628/">Ludford - Videte Miraculum Mass</a></strong>
-<br><em>The Lacock Scholars</em> (as guest singer)
-<br>Sunday, 28 September 2014
-<br><a href="http://www.saintcuthbert.org">St Cuthbert's Church</a>, 50 Philbeach Gardens, Earl's Court, SW5 9EB London</p>
-
 <p><strong><a href="http://www.renaissancesingers.com/">O What Evil Is War: War and Peace in 17th century Germany</a></strong>
-<br>Music by Schütz, Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Staden
+<br>Music by Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Schein, Schütz, Staden
 <br><em>The Renaissance Singers</em>
 <br>Saturday, 25 October 2014, 7:30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>
@@ -37,6 +32,15 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br><em>The Renaissance Singers</em>
 <br>Saturday, 20 December 2014, 7.30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>
+
+<h2>Recent performances</h2>
+
+<p><strong><a href="https://www.facebook.com/events/1478810692375628/">Ludford - Videte Miraculum Mass</a></strong>
+<br><em>The Lacock Scholars</em> (as guest singer)
+<br>Sunday, 28 September 2014
+<br><a href="http://www.saintcuthbert.org">St Cuthbert's Church</a>, 50 Philbeach Gardens, Earl's Court, SW5 9EB London
+<br><a href="https://www.youtube.com/watch?v=1DeSHsybbgA">video clip</a>, 
+<a href="https://www.youtube.com/watch?v=uo2oWmxjILI">video clip</a></p>
 
 </div>
 <div class="col-md-3">

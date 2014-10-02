@@ -79,8 +79,8 @@ Monday, 6 October 2014, London
 20 September 2014, Clapham & Patcham, West Sussex, UK
 
 [Lacock Consort Workshop](http://www.lacock.org), directed by Jan Joost van Ellburg  
-July 2014, Corsham, UK
+6-11 July 2014, Corsham, UK
 
 [Tallis Scholars Summer Schools](http://www.tsss.uk.com) (UK)  
-directed by Peter Phillips, Deborah Roberts, David Woodcock, Janet Coxwell
+directed by Peter Phillips, Deborah Roberts, David Woodcock, Janet Coxwell  
 2010, 2011, 2012, 2013

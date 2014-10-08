@@ -29,9 +29,11 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>Royal Albert Hall, London</p>
 
 <p><strong>Christmas Concert</strong>
+<br>Music by Sheppard, Byrd, Tallis and Cornysh
 <br><em>The Renaissance Singers</em>
 <br>Saturday, 20 December 2014, 7.30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>
+
 
 <h2>Recent performances</h2>
 

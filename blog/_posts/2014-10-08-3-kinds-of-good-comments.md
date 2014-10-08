@@ -1,6 +1,6 @@
 ---
 title: 3 kinds of good comments
-description: Comments that you should write in code
+description: Code tells you what and how - you need comments to say why
 tags: programming
 layout: hh
 ---

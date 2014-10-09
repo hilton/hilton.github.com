@@ -58,4 +58,4 @@ Rewriting code to reduce the need for comments is also understandably popular wi
 
 Reducing the need for comments only gets you so far, though. The next step is to understand which comments improve the code, and to start writing good comments. Even if we agree that you’re not going to write bad comments, you’re not done yet.
 
-Photo: [quinnanya](https://www.flickr.com/photos/quinnanya/4869433260) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
+_Photo: [quinnanya](https://www.flickr.com/photos/quinnanya/4869433260) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

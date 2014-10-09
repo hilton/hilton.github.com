@@ -11,7 +11,7 @@ I’m sure you’re not going to write [bad comments](7-ways-to-write-bad-commen
 
 Too many discussions about code commenting seem to conclude that there are so many kinds of bad comments that you’d probably be better off with no comments at all. Perhaps your code really is so bad that you could improve the average comment quality by deleting all of the comments.
 
-The truth about code comments is that if you don’t write any, because they would make your code worse, then there’s a powerful language feature that you don’t know how to use and questions that your code doesn’t answer:
+The truth about code comments is that if you don’t write any, because they would make your code worse, then there’s a powerful language feature that you don’t know how to use, and questions that your code doesn’t answer:
 
 > Why is this code here?  
 > What is it _for?_  

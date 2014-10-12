@@ -53,6 +53,10 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>chamber choir
 <br>London, September-December 2014</p>
 
+<p><a href="https://www.facebook.com/NuncetTunc">Nunc et Tunc</a>
+<br>early music quintet
+<br>Brighton, September-December 2014</p>
+
 <p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
 <br>chamber choir
 <br>Rotterdam, 2005-2014</p>
@@ -71,8 +75,11 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 [Triora Musica - Thomas Tallis and John Sheppard](http://www.trioramusica.com), directed by Deborah Roberts  
 5-13 September 2015
 
+**Music from the Sistine Chapel**, directed by Deborah Roberts  
+11 October 2014, Brighton, UK
+
 [Byrd Across the Ages](http://www.renaissancesingers.com/The_Renaissance_Singers/Open_Workshops_14-15.html), directed by Andrew Carwood  
-Monday, 6 October 2014, London
+6 October 2014, London
 
 [Triora Musica - The Music of William Byrd](http://www.trioramusica.com), directed by Deborah Roberts  
 6-14 September 2014
@@ -80,9 +87,25 @@ Monday, 6 October 2014, London
 [Intermedi Della Natura](https://www.facebook.com/events/1510819269135664/), directed by Deborah Roberts  
 20 September 2014, Clapham & Patcham, West Sussex, UK
 
+[Byrd masses and motets](http://www.siglodeoro.co.uk/event/workshop/), directed by Patrick Allies  
+20-22 August 2014, London
+
+[Byrd’s Great Service](http://www.orlandochoir.org.uk/events.php?20140809), directed by James Weeks  
+9 August 2014, London
+
 [Lacock Consort Workshop](http://www.lacock.org), directed by Jan Joost van Ellburg  
 6-11 July 2014, Corsham, UK
+
+[Leonhard Lechner - Quid Chaos](http://haagsrenaissancekamerkoor.nl/index.php/workshops/2014), directed by Frans Scheffers  
+15 March 2014, Utrecht, NL
+
+[Lassus for amateur singers](http://www.oudemuziek.nl/agenda/alle-concerten-2013-2014/seizoen-2013-2014/37-paul-van-nevel-lassus-voor-amateurzangers/37-paul-van-nevel-lassus-voor-amateurzangers/), directed by Paul van Nevel  
+26 August 2013, Utrecht, NL
 
 [Tallis Scholars Summer Schools](http://www.tsss.uk.com) (UK)  
 directed by Peter Phillips, Deborah Roberts, David Woodcock, Janet Coxwell  
 2010, 2011, 2012, 2013
+
+[Thomas Tallis - Spem in alium](http://www.haagsrenaissancekamerkoor.nl/old/Oude%20bestanden/workshop-Tallis-terugblik.htm), directed by Frans Scheffers  
+6 March 2010, Utrecht, NL
+

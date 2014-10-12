@@ -12,12 +12,12 @@ Although I’d rather write about how to write good comments, I have to first wr
 Bad comments cause as many problems as bad code, so don't write comments that:
 
 1. contain syntax or grammar errors
-2. contradict the code
-3. are otherwise out-of-date with respect to the code
-4. are verbose, taking up too much space
-5. are too numerous, adding clutter
-6. duplicate the code
-7. explain awkward logic.
+2. are otherwise out-of-date with respect to the code
+3. are verbose, taking up too much space
+4. are too numerous, adding clutter
+5. duplicate the code
+6. explain awkward logic
+7. contradict the code.
 
 Most of these require further explanation, just to point out how obvious they are, or should be. Only the last two are less obvious in practice.
 
@@ -25,11 +25,6 @@ Most of these require further explanation, just to point out how obvious they ar
 ## Incorrect syntax or grammar
 
 When you’re writing comments in English, say, it needs to be correct English or the humans are likely to misunderstand it. Letting English syntax or grammar errors pass code review would be like accepting code that doesn’t compile. Use a spell-checker.
-
-
-## Wrong information
-
-In theory a comment could contradict the code, perhaps because the person who wrote the comment didn’t understand the code, or because the code was changed enough to make the comment obsolete. This is obviously wrong - I don’t know why we’re even talking about this.
 
 
 ## Too much
@@ -51,6 +46,12 @@ Kevlin Henney explains this one in the essay [Comment only what the code cannot 
 Comments that duplicate the code are sometimes caused by code that is so difficult to read that it needs explaining. If you’ve worked out that the code is difficult to read, then comments are the wrong solution to the right problem. The easily-stated right solution is to rewrite the code to be clear enough that no comments are required.
 
 Writing self-explanatory code is easier said than done, but is a worthy goal, because it helps avoid all of the kinds of bad comments. Without a separate explanation in a comment, there is no duplication and fewer comments. This, in turn, means few comments to maintain and less information in comments than can later be wrong.
+
+
+## Wrong information
+
+Sometimes a comment contradicts the code, perhaps because the whoever wrote the comment didn’t understand the code. If the code was changed enough to make the comment obsolete, though, the comment was probably duplicating or explaining the code. In any case, contradicting the code is obviously wrong - I don’t know why we’re even talking about this.
+
 
 ## Writing good comments
 

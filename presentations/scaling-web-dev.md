@@ -10,4 +10,4 @@ Two case studies of commercial projects illustrate using Play and Scala to compl
 
 ## Presentations
 
-* [London Scala Users’ Group](http://www.meetup.com/london-scala/) - 7 October 2014
+* [London Scala Users’ Group](http://www.meetup.com/london-scala/events/210465962/) - 13 November 2014

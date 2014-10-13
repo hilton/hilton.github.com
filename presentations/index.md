@@ -21,7 +21,7 @@ layout: speaking
 	<th>Media</th>
 	</tr>
 <tr>
-	<td>2014-10-07</td>
+	<td>2014-11-13</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="http://www.meetup.com/london-scala/">Scala Users’ Group</a></td>
 	<td class="flag uk">London</td>

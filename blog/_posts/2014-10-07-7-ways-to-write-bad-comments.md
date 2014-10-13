@@ -12,12 +12,12 @@ Although I’d rather write about how to write good comments, I have to first wr
 Bad comments cause as many problems as bad code, so don't write comments that:
 
 1. contain syntax or grammar errors
-2. are otherwise out-of-date with respect to the code
 3. are verbose, taking up too much space
 4. are too numerous, adding clutter
 5. duplicate the code
 6. explain awkward logic
-7. contradict the code.
+7. contradict the code
+2. are otherwise out-of-date with respect to the code.
 
 Most of these require further explanation, just to point out how obvious they are, or should be. Only the last two are less obvious in practice.
 

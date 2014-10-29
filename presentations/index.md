@@ -10,6 +10,11 @@ layout: speaking
 <p>Please get in touch if you would like Peter to speak at your event or company.</p>
 
 
+## Not yet scheduled
+
+<p><a href="comments">How to write good comments: Why ‘no comments’ is admitting defeat</a></p>
+
+
 ## Upcoming & recent
 
 <table class="table">

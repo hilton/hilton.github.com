@@ -19,7 +19,21 @@ layout: speaking
 	<th>Venue</th>
 	<th>Location</th>
 	<th>Media</th>
-	</tr>
+</tr>
+<tr>
+	<td>2014-12-08</td>
+	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
+	<td><a href="https://skillsmatter.com/conferences/1948-scala-exchange-2014">Scala eXchange</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2014-12-02</td>
+	<td><a href="naming">How to name things</a></td>
+	<td>British Computer Society SPA London (South)</td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
 <tr>
 	<td>2014-11-13</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
@@ -37,7 +51,7 @@ layout: speaking
 <tr>
 	<td>2014-10-01</td>
 	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA</a></td>
+	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA London</a></td>
 	<td class="flag uk">London</td>
 	<td><a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
 </tr>

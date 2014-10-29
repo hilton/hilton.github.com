@@ -17,4 +17,5 @@ Developers can get better at their craft by learning from the great writers who 
 ## Presentations
 
 * [London Software Craftsmanship Community](http://www.meetup.com/london-software-craftsmanship/events/206817472/) - 18 September 2014
-* [British Computer Society SPA](http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007) - 1 October 2014
+* [British Computer Society SPA London](http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007) - 1 October 2014
+* British Computer Society SPA London (South) - 2 December 2014

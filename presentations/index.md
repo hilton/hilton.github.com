@@ -30,7 +30,7 @@ layout: speaking
 <tr>
 	<td>2014-12-02</td>
 	<td><a href="naming">How to name things</a></td>
-	<td>British Computer Society SPA London (South)</td>
+	<td><a href="http://www.bcs-spa.org/">British Computer Society SPA London (South)</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>

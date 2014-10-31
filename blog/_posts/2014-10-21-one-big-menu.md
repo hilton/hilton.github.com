@@ -24,7 +24,7 @@ Online music retail shows that the CD album was largely a distribution channel c
 
 In the same way that you might decide which symphony you want to listen to before you choose an orchestra, you might know what you want to eat before you know where. What’s missing online is web site that let’s you search your town for pizza with prosciutto and rocket, stake and ale pie, or Pad Thai with prawns. You need _One Big Menu_.
 
-Once you can search by dish as well as browsing by restaurant, you realise that reviews should be per-dish instead of per-restaurant. If you’re looking for perfect risotto the you don’t care how pizza-eaters rate the restaurant. Moreover, consistency across dishes is a good indicator of all-round quality.
+Once you can search by dish as well as browsing by restaurant, you realise that reviews should be per-dish instead of per-restaurant. If you’re looking for perfect risotto then you don’t care how pizza-eaters rate the restaurant. Moreover, consistency across dishes is a good indicator of all-round quality.
 
 Most importantly, a service that focuses on dishes can make it easy enough for restaurants to update their listed dishes from day to day. In the Netherlands, for example, [pea soup](http://en.wikipedia.org/wiki/Pea_soup#Netherlands) (photo) is a seasonal dish that’s only made after the first frost, so it only ever appears on the specials board. Making it easy for restaurants to update dishes online would make it possible to actually find the daily specials.
 

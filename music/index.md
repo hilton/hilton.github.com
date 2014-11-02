@@ -12,11 +12,10 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Upcoming performances</h2>
 
-<p><strong><a href="http://www.renaissancesingers.com/">O What Evil Is War: War and Peace in 17th century Germany</a></strong>
-<br>Music by Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Schein, Schütz, Staden
+<p><strong><a href="https://www.royalacademy.org.uk/event/a-renaissance-christmas-at-the-ra">A Renaissance Christmas at the RA</a></strong>
 <br><em>The Renaissance Singers</em>
-<br>Saturday, 25 October 2014, 7:30pm
-<br>St George’s Bloomsbury, London WC1A 2HR</p>
+<br>Saturday, 29 November 2014, 6:30-10pm
+<br>Royal Academy of Arts, London</p>
 
 <p><strong>Carol service</strong>
 <br><em>The Renaissance Singers</em>
@@ -36,6 +35,19 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 
 <h2>Recent performances</h2>
+
+<p><strong>All saints mass</strong>
+<br>Victoria - O Quam Gloriosum (mass and motet)
+<br>guest singer
+<br>Saturday, 1 November 2014
+<br>St Mary Magdalen’s, Brighton</p>
+
+
+<p><strong><a href="http://www.renaissancesingers.com/">O What Evil Is War: War and Peace in 17th century Germany</a></strong>
+<br>Music by Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Schein, Schütz, Staden
+<br><em>The Renaissance Singers</em>
+<br>Saturday, 25 October 2014, 7:30pm
+<br>St George’s Bloomsbury, London WC1A 2HR</p>
 
 <p><strong><a href="https://www.facebook.com/events/1478810692375628/">Ludford - Videte Miraculum Mass</a></strong>
 <br><em>The Lacock Scholars</em> (as guest singer)
@@ -108,4 +120,3 @@ directed by Peter Phillips, Deborah Roberts, David Woodcock, Janet Coxwell
 
 [Thomas Tallis - Spem in alium](http://www.haagsrenaissancekamerkoor.nl/old/Oude%20bestanden/workshop-Tallis-terugblik.htm), directed by Frans Scheffers  
 6 March 2010, Utrecht, NL
-

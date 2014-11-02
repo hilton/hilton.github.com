@@ -10,11 +10,6 @@ layout: speaking
 <p>Please get in touch if you would like Peter to speak at your event or company.</p>
 
 
-## Not yet scheduled
-
-<p><a href="comments">How to write good comments: Why ‘no comments’ is admitting defeat</a></p>
-
-
 ## Upcoming & recent
 
 <table class="table">
@@ -36,6 +31,13 @@ layout: speaking
 	<td>2014-12-02</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://www.bcs-spa.org/">British Computer Society SPA London (South)</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2014-11-24</td>
+	<td><a href="comments">How to write good comments: Why ‘no comments’ is admitting defeat</a></td>
+	<td><a href="http://www.softwire.com">Softwire</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>

@@ -1,9 +1,11 @@
 ---
 title: Comments are the introduction
-description: 
+description: three ways to introduce code
 tags: programming
 layout: hh
 ---
+
+![Introduction…](introduction.jpg)
 
 I’ve learned something from writing about [good comments](3-kinds-of-good-comments), [bad comments](7-ways-to-write-bad-comments), and [how to write them](how-to-comment-code). Not only are code comments hard to write, so is writing about writing comments. Here’s yet another way about thinking about comments in code.
 
@@ -50,3 +52,5 @@ Note that there is a special case for domain model classes that model a real-wor
 > An [Incoterm](http://en.wikipedia.org/wiki/Incoterms) for a shipment.
 
 Handily, there are lots of [obscure things with Wikipedia pages](http://hilton.org.uk/blog/today-i-learned).
+
+_Photo: [earlynovelsdatabase](https://www.flickr.com/photos/97741188@N04/14486379561/) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

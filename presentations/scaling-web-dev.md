@@ -1,5 +1,5 @@
 ---
-title: Scaling down business application development
+title: Scaling business application development
 description: Faster web development with Play and Scala
 layout: speaking
 ---

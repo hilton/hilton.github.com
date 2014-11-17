@@ -46,7 +46,7 @@ layout: speaking
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="http://www.meetup.com/london-scala/">Scala Users’ Group</a></td>
 	<td class="flag uk">London</td>
-	<td><a href="http://www.slideshare.net/pirhilton/scaling-business-app-development">slides</a></td>
+	<td><a href="https://skillsmatter.com/skillscasts/5828-scaling-business-application-development-with-play-and-scala">video</a></td>
 </tr>
 <tr>
 	<td>2014-10-07</td>

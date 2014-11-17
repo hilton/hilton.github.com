@@ -8,7 +8,7 @@ Developers can get better at their craft by learning from the great writers who 
 
 ## Video
 
-[How to name things video at skillsmatter.com](https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming)
+[_How to name things_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming)
 
 ## Slides
 

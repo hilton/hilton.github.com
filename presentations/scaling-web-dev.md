@@ -8,6 +8,10 @@ Scaling web applications is usually about runtime performance for high-traffic c
 
 Two case studies of commercial projects illustrate using Play and Scala to complete development so easily it feels like cheating. Both projects used Play, Scala, Slick, Bootstrap and minimal JavaScript or front-end development. The lessons learned from these projects show how this architecture makes trade-offs between development cost and complexity. Best of all, there wasn’t any PHP at all.
 
+## Video
+
+[_Scaling business application development with Play and Scala_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/5828-scaling-business-application-development-with-play-and-scala)
+
 ## Slides
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/41534322" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>

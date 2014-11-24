@@ -37,9 +37,9 @@ layout: speaking
 <tr>
 	<td>2014-11-24</td>
 	<td><a href="comments">How to write good comments</a></td>
-	<td><a href="http://www.softwire.com">Softwire</a></td>
+	<td><a href="http://www.softwire.com/">Softwire</a></td>
 	<td class="flag uk">London</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/how-to-write-good-comments">slides</a></td>
 </tr>
 <tr>
 	<td>2014-11-13</td>

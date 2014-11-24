@@ -127,7 +127,7 @@ layout: speaking
 	<td>JAX London</td>
 	<td>conference</td>
 	<td class="flag uk">London</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/jaxlondon2012/play-framework-2-peter-hilton">slides</a></td>
 </tr>
 <tr>
 	<td>2012-05-28</td>

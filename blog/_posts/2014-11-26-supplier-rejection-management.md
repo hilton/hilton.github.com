@@ -11,7 +11,7 @@ An annoying thing about working for a company that’s too small to have a full-
 
 Part of the problem is that the potential suppliers who resort to cold-calling have software support that helps minimise the effort, and scripts that are designed to make it difficult to screen calls. Even worse is the brute force approach: armies of telemarketers in call centres whose job it is to waste your time.
 
-One of the telemarketers’ tools is [Customer Relationship Management](http://en.wikipedia.org/wiki/Customer_relationship_management) (CRM) software. CRM is a mature software category for businesses to manage interactions with their customers. When combined with a call-centre and sales scripts, CRM supports [interruption marketing](http://en.wikipedia.org/wiki/Interruption_marketing) - organised cold-calling. This is asking for something to level the playing field.
+One of the telemarketers’ tools is [Customer Relationship Management](http://en.wikipedia.org/wiki/Customer_relationship_management) (CRM) software. CRM is a mature software category for businesses to manage interactions with their customers. When combined with a call-centre and sales scripts, CRM supports [interruption marketing](http://en.wikipedia.org/wiki/Interruption_marketing) - organised cold-calling. Their victims need something to level the playing field.
 
 
 ## Introducing Supplier Rejection Management
@@ -29,11 +29,11 @@ Advanced features, such as a voice-response maze for persistent time wasters and
 
 ## Implementing SRM with Twilio
 
-[Twilio](https://www.twilio.com/) is a [cloud communications](http://en.wikipedia.org/wiki/Cloud_communications) provider whose services include a telephony API. The [quickstart tutorial](http://www.twilio.com/docs/quickstart/php/twiml) shows you how to use the API to handle incoming telephone calls by writing a simple web application.
+[Twilio](https://www.twilio.com/) is a [cloud communications](http://en.wikipedia.org/wiki/Cloud_communications) provider whose services include a telephony API. The [quickstart tutorial](http://www.twilio.com/docs/quickstart/php/twiml) shows you how to use the API to handle incoming telephone calls by writing a simple web application. For each incoming call, Twilio consults the web application for instructions on how to handle it, specified using an XML application called TwiML.
 
 [Connect Call to a Second Person](https://www.twilio.com/docs/quickstart/php/twiml/connect-call-to-second-person), for example, shows you how to use the `From` request parameter to route calls. SRM uses this to automatically accept or reject calls by implementing supplier blacklist functionality.
 
-After you have identified the caller as a blacklisted supplier (or just about any recruiter) then you use SRM gamification features to have more fun. One approach (pioneered by Sietse) is to see how long the caller will wait on hold before giving up. Using Twilio, SRM can automate this:
+After you have identified the caller as a blacklisted supplier (or just about any recruiter) then you use SRM gamification features to have more fun. One approach (pioneered by Sietse) is to see how long the caller will wait on hold before giving up. Using Twilio, SRM automates this:
 
 {% highlight xml %}
 <Response>
@@ -42,7 +42,7 @@ After you have identified the caller as a blacklisted supplier (or just about an
 </Response>
 {% endhighlight %}
 
-Alternatively, just play a surprise audio clip. (Sadly, video is not yet supported.)
+Alternatively, SRM can play a surprise audio clip. (Sadly, video is not yet supported.)
 
 {% highlight xml %}
 <Response>
@@ -68,7 +68,7 @@ As well as blacklisting known spammers, and whitelisting known contacts, SRM can
 </Response>
 {% endhighlight %}
 
-As you can see in this example, Twilio can capture key-presses using a similar model to HTML form processing, and request a new web service resource whose TwiML (XML) response handles the next step. Twilio sends a POST request to the given `/srm/navigate-1` with a `Digits` request parameter that captures the key the caller pressed.
+As you can see in this example, Twilio captures key-presses using a similar model to HTML form processing, and requests a new web service resource whose TwiML (XML) response handles the next step in the menu. Twilio sends a POST request to the given `/srm/navigate-1` with a `Digits` request parameter that captures the key the caller pressed.
 
 
 ## Martin’s maze
@@ -103,7 +103,7 @@ The game ends when the caller finds the centre of the maze, or when they fall in
 
 ## Counterscript
 
-The SRM Counterscript module provides an implementation of the [Counterscript]( http://egbg.home.xs4all.nl/counterscript.html) that was written to provide countermeasures to the call-centre scripts that cold-callers use.
+The SRM Counterscript module provides an implementation of the [Counterscript]( http://egbg.home.xs4all.nl/counterscript.html) that was written to provide countermeasures to the call-centre scripts that cold-callers use. This script turns the tables on the caller, and puts SRM in control of the conversation.
 
 {% highlight xml %}
 <Response>

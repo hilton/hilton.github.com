@@ -17,6 +17,11 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>Saturday, 29 November 2014, 6:30-10pm
 <br>Royal Academy of Arts, London</p>
 
+<p><strong>A Whyte Christmas</strong>
+<br><em>Nunc et Tunc</em>
+<br>Friday, 5 December 2014, 7-7:30 pm
+<br>NCP car park, Regency Square, Brighton</p>
+
 <p><strong>Carol service</strong>
 <br><em>The Renaissance Singers</em>
 <br>Tuesday, 9 December 2014
@@ -24,7 +29,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <p><strong><a href="http://www.royalalberthall.com/tickets/christmas/messiah-1/default.aspx">Handel’s Messiah</a></strong>
 <br><em>combined choirs’ 500 voice chorus</em> (as guest singer)
-<br>Sunday, 14 December 2014, 7:30pm; Friday, 19 December, 7:30pm
+<br>Sunday, 14 December 2014, 7:30pm
 <br>Royal Albert Hall, London</p>
 
 <p><strong>Christmas Concert</strong>

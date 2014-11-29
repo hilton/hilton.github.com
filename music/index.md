@@ -18,6 +18,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>Royal Academy of Arts, London</p>
 
 <p><strong>A Whyte Christmas</strong>
+<br>Robert White - Lamentations of Jeremiah
 <br><em>Nunc et Tunc</em>
 <br>Friday, 5 December 2014, 7-7:30 pm
 <br>NCP car park, Regency Square, Brighton</p>

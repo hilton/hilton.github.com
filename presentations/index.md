@@ -37,7 +37,7 @@ layout: speaking
 <tr>
 	<td>2014-12-02</td>
 	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.bcs-spa.org/">British Computer Society SPA London (South)</a></td>
+	<td><a href="http://www.bcs.org/content/conEvent/9118">British Computer Society SPA London (South)</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>
@@ -51,7 +51,7 @@ layout: speaking
 <tr>
 	<td>2014-11-13</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
-	<td><a href="http://www.meetup.com/london-scala/">Scala Users’ Group</a></td>
+	<td><a href="http://www.meetup.com/london-scala/events/210465962/">Scala Users’ Group</a></td>
 	<td class="flag uk">London</td>
 	<td><a href="https://skillsmatter.com/skillscasts/5828-scaling-business-application-development-with-play-and-scala">video</a></td>
 </tr>

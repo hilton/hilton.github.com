@@ -21,6 +21,13 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2014-12-17</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://www.softwire.com/">Softwire</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2014-12-08</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="https://skillsmatter.com/conferences/1948-scala-exchange-2014">Scala eXchange</a></td>

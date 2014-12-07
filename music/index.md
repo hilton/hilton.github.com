@@ -28,6 +28,10 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>Tuesday, 9 December 2014
 <br>St John’s Priory Church, Clerkenwell, London</p>
 
+<p><strong><a href="https://www.facebook.com/events/324384354429203/">Carol Singing for the Red Cross Ebola Appeal</a></strong>
+<br>Friday, 12 December 2014, 5-8pm
+<br>Russel Square tube station, London</p>
+
 <p><strong><a href="http://www.royalalberthall.com/tickets/christmas/messiah-1/default.aspx">Handel’s Messiah</a></strong>
 <br><em>combined choirs’ 500 voice chorus</em> (as guest singer)
 <br>Sunday, 14 December 2014, 7:30pm

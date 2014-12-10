@@ -23,7 +23,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <p><strong>Christmas Concert</strong>
 <br>Music by Sheppard, Byrd, Tallis and Lambe
-<br><em>The Renaissance Singers</em>
+<br><em>The Renaissance Singers - directed by David Allinson</em>
 <br>Saturday, 20 December 2014, 7.30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>
 
@@ -31,7 +31,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <h2>Recent performances</h2>
 
 <p><strong>Carol service</strong>
-<br><em>The Renaissance Singers</em>
+<br><em>The Renaissance Singers - directed by Edward Tambling</em>
 <br>Tuesday, 9 December 2014
 <br>St John’s Priory Church, Clerkenwell, London</p>
 
@@ -42,7 +42,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>NCP car park, Regency Square, Brighton</p>
 
 <p><strong><a href="https://www.royalacademy.org.uk/event/a-renaissance-christmas-at-the-ra">A Renaissance Christmas at the RA</a></strong>
-<br><em>The Renaissance Singers</em>
+<br><em>The Renaissance Singers - directed by David Allinson</em>
 <br>Saturday, 29 November 2014, 6:30-10pm
 <br>Royal Academy of Arts, London</p>
 
@@ -54,7 +54,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <p><strong><a href="http://www.renaissancesingers.com/">O What Evil Is War: War and Peace in 17th century Germany</a></strong>
 <br>Music by Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Schein, Schütz, Staden
-<br><em>The Renaissance Singers</em>
+<br><em>The Renaissance Singers - directed by Gawain Glenton</em>
 <br>Saturday, 25 October 2014, 7:30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>
 

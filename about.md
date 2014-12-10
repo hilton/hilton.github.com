@@ -11,7 +11,7 @@ layout: main
 
 <p>Peter’s software development interests include JVM web application frameworks, software development methodology and practices, and web-based collaboration. Peter’s speciality is database-backed intranet web application architecture, design and build. He currently builds web applications using Scala, Play Framework and Slick. Previously, Peter gained significant experience with Java EE web technology and middleware, such as Drools.</p>
 
-<p>Peter has presented at several European developer conferences, including Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a Typesafe certified trainer for <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a>.</p>
+<p>Peter has presented at several European developer conferences, including Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a Typesafe certified trainer for <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a>.</p>
 
 
 <h2>CV</h2>

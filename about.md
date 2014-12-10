@@ -14,6 +14,14 @@ layout: main
 <p>Peter has presented at several European developer conferences, including Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a Typesafe certified trainer for <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a>.</p>
 
 
+<h2>CV</h2>
+
+<p>Peter’s CV consists of his bio (above) and his profiles on 
+<a href="http://www.linkedin.com/in/peterhilton">LinkedIn</a>,
+<a href="https://github.com/hilton">Github</a> and
+<a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.</p>
+
+
 <h2>Now &amp; next</h2>
 
 <p>On sabbatical in central London (July - December 2014), after which Peter plans to return to Rotterdam.</p>
@@ -39,9 +47,7 @@ layout: main
 <h2>History</h2>
 
 <ul>
-<!--
-<li>Singing (baritone) with <a href="http://cappellagabrieli.nl/">Cappella Gabrieli</a> and <a href="http://retorisch.com">Het Retorisch Kwartet</a>, a Rotterdam chamber choir and quartet, respectively.</li>
--->
+<li>Six-month sabbatical in London (2014)</li>
 <li>Working (as software developer) for <a href="http://www.lunatech.com">Lunatech Research</a> in Rotterdam, the Netherlands (2004-2014).</li>
 <li>Working for Logica, which later became LogicaCMG, in Rotterdam (2000-2004).</li>
 <li>Eight months working at <a href="http://www.sb.com/">SmithKline Beecham</a> in Surrey (1999).</li>

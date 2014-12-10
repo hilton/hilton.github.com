@@ -21,6 +21,13 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2015-01-15</td>
+	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
+	<td><a href="http://www.meetup.com/amsterdam-scala/">Amsterdam Scala</a></td>
+	<td class="flag nl">Amsterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2014-12-17</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://www.softwire.com/">Softwire</a></td>
@@ -32,7 +39,7 @@ layout: speaking
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="https://skillsmatter.com/conferences/1948-scala-exchange-2014">Scala eXchange</a></td>
 	<td class="flag uk">London</td>
-	<td></td>
+	<td><a href="https://skillsmatter.com/skillscasts/5846-scaling-business-application-development-with-play-and-scala">video</a></td>
 </tr>
 <tr>
 	<td>2014-12-02</td>

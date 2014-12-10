@@ -10,7 +10,10 @@ Two case studies of commercial projects illustrate using Play and Scala to compl
 
 ## Video
 
-[_Scaling business application development with Play and Scala_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/5828-scaling-business-application-development-with-play-and-scala)
+[_Scaling business application development with Play and Scala_ video from Scala eXchange](https://skillsmatter.com/skillscasts/5846-scaling-business-application-development-with-play-and-scala) - 8 December 2014
+
+[_Scaling business application development with Play and Scala_ video at London Scala Users’ Group](https://skillsmatter.com/skillscasts/5828-scaling-business-application-development-with-play-and-scala) - 13 November 2014
+
 
 ## Slides
 
@@ -19,3 +22,5 @@ Two case studies of commercial projects illustrate using Play and Scala to compl
 ## Presentations
 
 * [London Scala Users’ Group](http://www.meetup.com/london-scala/events/210465962/) - 13 November 2014
+* [Scala eXchange](https://skillsmatter.com/conferences/1948-scala-exchange-2014) - 8 December 2014
+* [Amsterdam Scala](http://www.meetup.com/amsterdam-scala/) - 15 January 2015

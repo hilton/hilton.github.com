@@ -12,22 +12,6 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Upcoming performances</h2>
 
-<p><strong><a href="https://www.royalacademy.org.uk/event/a-renaissance-christmas-at-the-ra">A Renaissance Christmas at the RA</a></strong>
-<br><em>The Renaissance Singers</em>
-<br>Saturday, 29 November 2014, 6:30-10pm
-<br>Royal Academy of Arts, London</p>
-
-<p><strong>A Whyte Christmas</strong>
-<br>Robert White - Lamentations of Jeremiah
-<br><em>Nunc et Tunc</em>
-<br>Friday, 5 December 2014, 7-7:30 pm
-<br>NCP car park, Regency Square, Brighton</p>
-
-<p><strong>Carol service</strong>
-<br><em>The Renaissance Singers</em>
-<br>Tuesday, 9 December 2014
-<br>St John’s Priory Church, Clerkenwell, London</p>
-
 <p><strong><a href="https://www.facebook.com/events/324384354429203/">Carol Singing for the Red Cross Ebola Appeal</a></strong>
 <br>Friday, 12 December 2014, 5-8pm
 <br>Russel Square tube station, London</p>
@@ -38,7 +22,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>Royal Albert Hall, London</p>
 
 <p><strong>Christmas Concert</strong>
-<br>Music by Sheppard, Byrd, Tallis and Cornysh
+<br>Music by Sheppard, Byrd, Tallis and Lambe
 <br><em>The Renaissance Singers</em>
 <br>Saturday, 20 December 2014, 7.30pm
 <br>St George’s Bloomsbury, London WC1A 2HR</p>
@@ -46,12 +30,27 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Recent performances</h2>
 
+<p><strong>Carol service</strong>
+<br><em>The Renaissance Singers</em>
+<br>Tuesday, 9 December 2014
+<br>St John’s Priory Church, Clerkenwell, London</p>
+
+<p><strong>A Whyte Christmas</strong>
+<br>Robert White - Lamentations of Jeremiah
+<br><em>Nunc et Tunc</em>
+<br>Friday, 5 December 2014, 7-7:30 pm
+<br>NCP car park, Regency Square, Brighton</p>
+
+<p><strong><a href="https://www.royalacademy.org.uk/event/a-renaissance-christmas-at-the-ra">A Renaissance Christmas at the RA</a></strong>
+<br><em>The Renaissance Singers</em>
+<br>Saturday, 29 November 2014, 6:30-10pm
+<br>Royal Academy of Arts, London</p>
+
 <p><strong>All saints mass</strong>
 <br>Victoria - O Quam Gloriosum (mass and motet)
 <br>guest singer
 <br>Saturday, 1 November 2014
 <br>St Mary Magdalen’s, Brighton</p>
-
 
 <p><strong><a href="http://www.renaissancesingers.com/">O What Evil Is War: War and Peace in 17th century Germany</a></strong>
 <br>Music by Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Schein, Schütz, Staden

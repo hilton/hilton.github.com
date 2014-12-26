@@ -1,7 +1,7 @@
 ---
 title: Start-up company ideas are cheap
 description: A good team that executes well matters most
-tags: #startups
+tags: startups
 layout: hh
 ---
 

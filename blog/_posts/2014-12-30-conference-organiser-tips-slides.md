@@ -23,7 +23,7 @@ Presentation slides are the speaker’s responsibility, of course, but conferenc
 
 **Encourage speakers to go to an earlier talk in the same room** as their own talk, and sit on the back row, so they know what to expect for slide visibility and audibility. It may be too late to change the slides, but at least it helps speakers avoid asking silly questions like ‘can you read this at the back?’ (If you have to ask if the text is big enough then it isn’t.)
 
-**Require speakers to be early for their talks** so there is time to identify and solve common technical problems, such as no slides on the projector. 
+**Require speakers to be early for their talks** so there is time to identify and solve the ultimate legibility issue: when the laptop won’t connect to the projector. 
 
 
 _Photo: [Pablo Twose Valls](https://www.flickr.com/photos/twose/887903401) / [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0//)_

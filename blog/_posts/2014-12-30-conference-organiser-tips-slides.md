@@ -5,7 +5,7 @@ tags: conferences
 layout: hh
 ---
 
-![Photo - yellow crowd](crowd.jpg)
+![Photo - conference audience](crowd.jpg)
 
 Tech conference organisers put a lot of effort into selecting great talks, which results in a lot of really good conferences. However, one persistent problem frequently gets in the way of otherwise great talks: slides that are illegible for half of the people in the room.
 
@@ -26,4 +26,4 @@ Presentation slides are the speaker’s responsibility, of course, but conferenc
 **Require speakers to be early for their talks** so there is time to identify and solve the ultimate legibility issue: when the laptop won’t connect to the projector. 
 
 
-_Photo: [Pablo Twose Valls](https://www.flickr.com/photos/twose/887903401) / [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0//)_
+_Photo: [Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

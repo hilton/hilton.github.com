@@ -12,11 +12,12 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Recent performances</h2>
 
-<p><strong>Christmas Concert</strong>
+<p><strong>A Tudor Christmas</strong>
 <br>Music by Sheppard, Byrd, Tallis and Lambe
 <br><em>The Renaissance Singers - directed by David Allinson</em>
 <br>Saturday, 20 December 2014, 7.30pm
-<br>St George’s Bloomsbury, London WC1A 2HR</p>
+<br>St George’s Bloomsbury, London WC1A 2HR
+<br><a href="https://soundcloud.com/renaissance-singers/sets/live-in-concert-a-tudor-christmas">audio clips</a></p>
 
 <p><strong><a href="http://www.royalalberthall.com/tickets/christmas/messiah-1/default.aspx">Handel’s Messiah</a></strong>
 <br><em>combined choirs’ 500 voice chorus</em> (as guest singer)
@@ -53,7 +54,8 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>Music by Albert, Franck, Kindermann, Hammerschmidt, Scheidt, Schein, Schütz, Staden
 <br><em>The Renaissance Singers - directed by Gawain Glenton</em>
 <br>Saturday, 25 October 2014, 7:30pm
-<br>St George’s Bloomsbury, London WC1A 2HR</p>
+<br>St George’s Bloomsbury, London WC1A 2HR
+<br><a href="https://soundcloud.com/renaissance-singers/in-concert-da-pacem-domine-melchior-franck-c1579-1639">audio clip</a></p>
 
 <p><strong><a href="https://www.facebook.com/events/1478810692375628/">Ludford - Videte Miraculum Mass</a></strong>
 <br><em>The Lacock Scholars</em> (as guest singer)

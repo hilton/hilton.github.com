@@ -9,7 +9,7 @@ layout: hh
 
 Tech conference organisers put a lot of effort into selecting great talks, which results in a lot of really good conferences. However, one persistent problem frequently gets in the way of otherwise great talks: slides that are illegible for half of the people in the room.
 
-Presentation slides are the speaker’s responsibility, of course, but conference organisers are in a good position make it easier for speakers to get it 
+Presentation slides are the speaker’s responsibility, of course, but conference organisers are in a good position make it easier for speakers to get their stories across. Here are a few tips.
 
 **Remind speakers to avoid basic presentation mistakes**, perhaps with a copy of something like [Garr Reynolds’ presentation tips](http://www.garrreynolds.com/Presentation/pdf/presentation_tips.pdf). Tech conferences have a high proportion of first-time speakers, often the technical lead of a brand new library or framework. Only people who present regularly have time to look into this themselves or read books like [Presentation Zen](http://books.google.co.uk/books/about/Presentation_Zen.html?id=m1xt5IMJbXAC).
 

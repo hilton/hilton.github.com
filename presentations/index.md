@@ -5,7 +5,7 @@ layout: speaking
 
 # Presentations
 
-<p>Peter Hilton has presented at a conferences, user groups and companies in several countries on a variety of software development topics.</p>
+<p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.</p>
 
 <p>Please get in touch if you would like Peter to speak at your event or company.</p>
 

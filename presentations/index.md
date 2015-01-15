@@ -21,6 +21,20 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2015-04-24</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
+	<td class="flag uk">Bristol</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2015-01-19</td>
+	<td><a href="primitives">Escaping from primitives</a></td>
+	<td><a href="http://www.meetup.com/Rotterdam-rb/events/219329511/">Rotterdam.rb</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-01-15</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="http://www.meetup.com/amsterdam-scala/">Amsterdam Scala</a></td>

@@ -20,3 +20,4 @@ Developers can get better at their craft by learning from the great writers who 
 * [British Computer Society SPA London](http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007) - 1 October 2014
 * [British Computer Society SPA London (South)](http://www.bcs-spa.org/) - 2 December 2014
 * [Softwire](http://www.softwire.com) - 17 December 2014
+* [ACCU 2015](http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule) - 24 April 2015

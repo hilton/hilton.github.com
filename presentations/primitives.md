@@ -11,6 +11,3 @@ This talk introduces a coding exercise (for you to try at home) that shows you h
 Ruby source code for the exercise, shown in the talk, is in the repository at [https://github.com/codurance/task-list](https://github.com/codurance/task-list).
 
 
-## Presentations
-
-* [Rotterdam.rb](http://www.meetup.com/Rotterdam-rb/events/219329511/) - 19 January 2015

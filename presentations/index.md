@@ -28,13 +28,6 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
-	<td>2015-01-19</td>
-	<td><a href="primitives">Escaping from primitives</a></td>
-	<td><a href="http://www.meetup.com/Rotterdam-rb/events/219329511/">Rotterdam.rb</a></td>
-	<td class="flag nl">Rotterdam</td>
-	<td></td>
-</tr>
-<tr>
 	<td>2015-01-15</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="http://www.meetup.com/amsterdam-scala/">Amsterdam Scala</a></td>

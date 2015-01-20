@@ -47,7 +47,7 @@ Your followers are generally following you because of a shared interest in a sma
 
 **Limit off-topic posts** because it’s unfair to bait-and-switch your readers. Off-topic tweets cost you followers, although you can get away with some. It’s interesting to write about programming in Scala or living in Rotterdam, for example, because there are lots of people doing that, but not from the same account, because there are relatively few people who do both. Not enough to make a respectable number of Twitter followers, at least.
 
-**Post off-topic about what you care about**, though, because a little randomness keeps life interesting and makes you less one-dimensional as a writer. That’s why and old-school encyclopaedia (in an actual book) is interesting because you often end up reading the article next to the one year were looking up, and alphabetical order is random with respect to topics.
+**Post off-topic about what you care about**, though, because a little randomness keeps life interesting and makes you less one-dimensional as a writer. That’s why and old-school encyclopaedia (in an actual book) is interesting because you often end up reading the article next to the one you were looking up, and alphabetical order is random with respect to topics.
 
 **Don’t switch languages** - because however much those of us who are trilingual like to brag about it, tweets in a different language are like those off-topic tweets that only mean anything to a small subset of your usual followers. Twitter shouldn’t be monolingual, though, so let’s hope Twitter clients start integrating automatic translation sometime soon.
 

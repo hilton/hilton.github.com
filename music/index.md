@@ -79,11 +79,11 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
 <br>chamber choir
-<br>Rotterdam, 2005-2014</p>
+<br>Rotterdam, since 2005</p>
 
 <p><a href="http://retorisch.com">Het Retorisch Kwartet</a>
 <br>early music quartet
-<br>Rotterdam, 2012-2014</p>
+<br>Rotterdam, since 2012</p>
 
 </div>
 </div>

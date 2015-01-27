@@ -5,7 +5,7 @@ tags: BPM
 layout: hh
 ---
 
-Following my earlier look at [Effektif](effektif-hosted-bpm), here is a first look at another process management platform - camunda BPM:
+Following my earlier look at [Effektif](effektif-hosted-bpm), here is a first look at another process management platform - [camunda BPM](http://camunda.org):
 
 <blockquote class="big" style="max-width:29em"><p>camunda BPM is a Business Process Management platform dedicated to Java developers and their typical software development infrastructure.</p></blockquote>
 

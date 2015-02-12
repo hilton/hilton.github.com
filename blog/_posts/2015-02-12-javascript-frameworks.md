@@ -29,7 +29,7 @@ My first conclusion, then, is that JavaScript turns out to be remarkably good at
 
 ## JavaScript framework proliferation
 
-The problem with it being so easy to create a little framework is neatly summed up by [James Ward](), in this ‘sign at the W3C headquarters’:
+The problem with it being so easy to create a little framework is neatly summed up by [James Ward](http://www.jamesward.com), in this ‘sign at the W3C headquarters’:
 
 ![0 days since last new JavaScript framework](javascript-frameworks-days.png)
 

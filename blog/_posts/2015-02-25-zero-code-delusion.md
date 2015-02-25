@@ -18,7 +18,7 @@ Two software categories that are traditionally susceptible to zero-code marketin
 One explanation for this particular problem is that the programming doesn’t go away when you introduce a business rules editor or a business process designer.
 
 <blockquote class="big solid-one" style="max-width:33em"><p>‘Anyone who says “and using this tool I can remove the programmers” just became the programmer’</p>
-<p>- Allan Kelly</p></blockquote>
+<p>- <a href="https://twitter.com/allankellynet">Allan Kelly</a></p></blockquote>
 
 What this means is that it is helpful to adopt a broader view of what programming  is than just _typing code_.
 

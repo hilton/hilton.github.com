@@ -28,6 +28,13 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2015-04-02</td>
+	<td><a href="meeting-avoidance">Meeting-avoidance for self-managing developers</a></td>
+	<td><a href="http://www.sytac.nl/">Sytac IT Consulting</a></td>
+	<td class="flag nl">Haarlem</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-01-15</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="http://www.meetup.com/amsterdam-scala/">Amsterdam Scala</a></td>

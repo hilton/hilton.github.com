@@ -28,6 +28,13 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2015-04-10</td>
+	<td>Free as in beer: claiming expenses and personal freedom</td>
+	<td>Nerd Night</td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-04-02</td>
 	<td><a href="meeting-avoidance">Meeting-avoidance for self-managing developers</a></td>
 	<td><a href="http://www.sytac.nl/">Sytac IT Consulting</a></td>

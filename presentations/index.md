@@ -29,7 +29,7 @@ layout: speaking
 </tr>
 <tr>
 	<td>2015-04-10</td>
-	<td>Free as in beer: claiming expenses and personal freedom</td>
+	<td><a href="free">Free as in beer</a></td>
 	<td>Nerd Night</td>
 	<td class="flag nl">Rotterdam</td>
 	<td></td>

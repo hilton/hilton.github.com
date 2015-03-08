@@ -7,7 +7,7 @@ layout: hh
 
 ![Playing with models](lego-play.jpg)
 
-If you’ve had any involvement in Business Process Management (BPM), you should have heard (and heeded) warnings not to get stuck on process modelling. Many a BPM expert explains that ‘getting insight into your processes’ is a non-goal. Processes are meant to be performed, and the only value comes from the end results of these processes: results they deliver for an (internal or external) customer.
+If you’ve had any involvement in Business Process Management (BPM), you should have heard (and heeded) warnings not to get hung up on process modelling. Many a BPM expert explains that ‘getting insight into your processes’ is a non-goal. Processes are meant to be performed, and the only value comes from the end results of these processes: results they deliver for an (internal or external) customer.
 
 <blockquote class="big solid-one" style="max-width:28em"><p>‘I don’t want better processes. I want better process results.’</p>
 <p>- <a href="http://procesje.nl/">Procesje</a></p></blockquote>

@@ -15,9 +15,13 @@ No, BPM shouldn’t be the preferred approach, because there may be a better alt
 
 For example, it’s common to use a data-centric design approach for building business applications, where you start from a data modelling perspective, rather than a process modelling perspective.
 
+## Easy data modelling
+
 When you start with data modelling, it’s usually fairly easy to discover which data people are using as part of their jobs, which means you can produce a nice satisfying data model diagram. Then you can code it all together into a nice big data management application, with the obvious CRUD style user interface: master-detail views and the like.
 
 In fact, the hardest part of this is that the acronym that ends with IMS (… Information Management System) has probably already been used for something else. I once sat in a really long customer meeting with lots of highly paid people to try to find a different name for the system we’d built because the organisation (a large oil company) already had several other systems called ‘PIMS’, but that’s another story…
+
+## Business process difficulties
 
 The really great thing about data-centric application design is that it’s entirely unnecessary to figure out what business process the resulting Information Management System might be useful for, or how people are going to use the application, or what end result it might help them achieve. Even better: it’s entirely possible to complete a whole custom software development project to build some software without actually being sure that anyone will use it at all. After all, the idea situation is when there are no users at all, which really keeps software maintenance costs down.
 

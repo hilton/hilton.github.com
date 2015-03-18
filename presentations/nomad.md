@@ -1,5 +1,5 @@
 ---
-title: Free as in beer
+title: Modern IT nomad
 description: How I claimed expenses and personal freedoms
 layout: speaking
 ---
@@ -12,4 +12,4 @@ After 20 years, 12 countries, and more expense claims than you've had hot dinner
 
 ## Presentations
 
-* Nerd night, [Rotterdam Storytelling Community](http://www.meetup.com/RotterdamStorytellingCommunity/) - 10 April 2015
+* Nerd night, [Rotterdam Storytelling Community](http://nerdnight-rotterdam.tumblr.com/post/113780696094/modern-it-nomad) - 10 April 2015

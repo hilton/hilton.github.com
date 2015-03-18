@@ -29,8 +29,8 @@ layout: speaking
 </tr>
 <tr>
 	<td>2015-04-10</td>
-	<td><a href="free">Free as in beer</a></td>
-	<td>Nerd Night</td>
+	<td><a href="nomad">Modern IT nomad</a></td>
+	<td><a href="http://nerdnight-rotterdam.tumblr.com/post/113780696094/modern-it-nomad">Nerd Night</a></td>
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
 </tr>

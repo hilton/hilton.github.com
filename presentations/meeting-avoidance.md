@@ -8,6 +8,10 @@ Meetings are a problem for any organisations, because they dull the attention-sp
 
 This presentation introduces various approaches that software developers can use to reduce the number of meetings in their organisation, so they have more time to write code. In particular, developer contributions to project management can drastically reduce the number of meetings.
 
+## Slides
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/46603608" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 ## Presentations
 
 * [Sytac IT Consulting](http://www.sytac.nl/) - 2 April 2015

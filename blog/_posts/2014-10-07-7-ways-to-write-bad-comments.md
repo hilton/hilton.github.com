@@ -7,7 +7,7 @@ layout: hh
 
 ![I comment my code - but I still don’t know what I did or why](comments-bad.jpg)
 
-Although I’d rather write about how to write good comments, I have to first write about bad comments. Discussion about how ‘bad comments are bad’ gets in the way, so I have to get it off the table first. Think of the following as a kind of sanity check, making sure that we’re all in the same codebase, so to speak.
+Although I’d rather write about [how to write good comments](3-kinds-of-good-comments), I have to first write about bad comments. Discussion about how ‘bad comments are bad’ gets in the way, so I have to get it off the table first. Think of the following as a kind of sanity check, making sure that we’re all in the same codebase, so to speak.
 
 Bad comments cause as many problems as bad code, so don't write comments that:
 

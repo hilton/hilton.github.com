@@ -1,6 +1,6 @@
 ---
 title: My documentation problem
-description: #accu2015 lightning talk transcript
+description: ACCU2015 lightning talk transcript
 tags: documentation
 layout: hh
 ---

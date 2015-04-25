@@ -17,7 +17,7 @@ layout: hh
 
 ‘To get through the day I started carrying this kind of hip flask that I’d use to get a quick hit. I’d sit on the toilet, where no-one could see me, and use it to write Tweets.
 
-‘These days it’s worse, because I’ve started working from home. As soon as I get up in the morning I don’t even get dressed before I’m at the keyboard open a new draft. I need at least two hundred words just to clear my head in the morning.
+‘These days it’s worse, because I’ve started working from home. When I get up in the morning I don’t even get dressed before I’m at the keyboard, opening a new draft. I need at least two hundred words just to clear my head in the morning.
 
 ‘All this writing is a pretty solitary activity: it's not like you can say ‘I'm a social writer’. Two days ago, another writer at this conference told me about what it was like when he started going to writers anonymous meetings. He said, ‘if you think programmers are loners with poor social skills, then you should see the writers’.
 

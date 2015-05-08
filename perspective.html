@@ -1,9 +1,9 @@
 ---
 ---
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta charset="utf-8">
 <meta name="viewport" content="width=590" />
 <title>Peter’s Perspective</title>
 <link rel="stylesheet" type="text/css" href="">
@@ -45,10 +45,10 @@ p.footer strong { font-weight:normal; }
 		});
 	});
 
-	function select(element) {
+	function select($element) {
 		$('.selected').removeClass("selected");
-		element.addClass("selected");
-		var $sibling = element[0].tagName == 'DT' ? element.next() : element.prev();
+		$element.addClass("selected");
+		var $sibling = $element[0].tagName == 'DT' ? $element.next() : $element.prev();
 		$sibling.addClass("selected");
 	}
 </script>
@@ -97,7 +97,7 @@ p.footer strong { font-weight:normal; }
 <strong>3.</strong> Massachusetts, US, copy of sense 1, in an attempt to recreate sense 2.</dd>
 
 <dt id="capital_city">capital city</dt>
-<dd>City that has acquired enough self-importance for its native inhabitants to consider it the centre of modern civilisation, to never seriously contemplate living elsewhere, and to treat all compatriots from elsewhere as uncivilised peasants. In reality, capital cities are unnecessarily large and expensive, usually resulting in a sub-standard quality of life a substantial distance from the actual city centre. The availability of ‘everything’ in the capital city is irrelevant because, in practice, a given person only makes use of a subset of what the city provides, which can also be found in other cities. These other cities, however, do lack one thing: lots of people with the capital city mind set, and people who work in the media in particular.</dd>
+<dd>City such as <a href="#London">London</a> or <a href="#Paris">Paris</a> that has acquired enough self-importance for its native inhabitants to consider it the centre of modern civilisation, to never seriously contemplate living elsewhere, and to treat all compatriots from elsewhere as uncivilised peasants. In reality, capital cities are unnecessarily large and expensive, usually resulting in a sub-standard quality of life a substantial distance from the actual city centre. The availability of ‘everything’ in the capital city is irrelevant because, in practice, a given person only makes use of a subset of what the city provides, which can also be found in other cities, like <a href="#Rotterdam">Rotterdam</a>. These other cities, however, do lack one thing: lots of people with the capital city mind set, and people who work in the media in particular.</dd>
 
 <dt id="children">children</dt>
 <dd>Like farts, you can just about stand your own. Fortunately, for most people, the horrors of children are more or less compensated for by the joys of <a href="#parenthood">parenthood</a>.</dd>
@@ -135,9 +135,10 @@ p.footer strong { font-weight:normal; }
 </dl>
 </div>
 
+<p class="footer">
 {% assign footer_suffix = 'This page uses the <a href='http://www.rogersfonts.org.uk/html/files9.html'>Queens Park</a> font by Roger White.' %}
 {% include footer.html %}
-
+</p>
 
 </body>
 </html>

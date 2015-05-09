@@ -21,6 +21,13 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2015-06-06</td>
+	<td><a href="http://www.typesafe.com/subscription/training">Fast Track To Play With Scala</a> (training course)</td>
+	<td><a href="http://event.scaladays.org/scaladays-amsterdam-2015#03-Training">Scala Days 2015</a></td>
+	<td class="flag nl">Amsterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-04-24</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>

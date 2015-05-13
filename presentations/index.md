@@ -28,6 +28,13 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2015-05-28</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://www.meetup.com/010DEV/events/221930670/">Joy of Coding Warm-Up Party</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-04-24</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>

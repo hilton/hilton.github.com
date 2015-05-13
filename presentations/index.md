@@ -46,7 +46,7 @@ layout: speaking
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
 	<td class="flag uk">Bristol</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
 </tr>
 <tr>
 	<td>2015-04-10</td>
@@ -60,14 +60,14 @@ layout: speaking
 	<td><a href="meeting-avoidance">Meeting-avoidance for self-managing developers</a></td>
 	<td><a href="http://www.sytac.nl/">Sytac IT Consulting</a></td>
 	<td class="flag nl">Haarlem</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/meeting-avoidance-for-self-managing-developers">slides</a></td>
 </tr>
 <tr>
 	<td>2015-01-15</td>
 	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
 	<td><a href="http://www.meetup.com/amsterdam-scala/">Amsterdam Scala</a></td>
 	<td class="flag nl">Amsterdam</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/scaling-business-app-development">slides</a></td>
 </tr>
 <tr>
 	<td>2014-12-17</td>
@@ -116,7 +116,7 @@ layout: speaking
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA London</a></td>
 	<td class="flag uk">London</td>
-	<td><a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
+	<td></td>
 </tr>
 <td>2014-09-18</td>
 	<td><a href="naming">How to name things</a></td>

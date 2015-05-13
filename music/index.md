@@ -10,7 +10,22 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <div class="row">
 <div class="col-md-7">
 
+<h2>Upcoming performances</h2>
+
+<p><strong>Palestrina - Song of Songs</strong>
+<br>A cycle of 29 motets by Giovanni Pierluigi da Palestrina
+<br><em>Cappella Gabrieli</em>
+<br>20 June 2015, 8:15 pm - Citykerk Het Steiger Sint Dominicus, Hang 18, 3011 GG, Rotterdam
+<br>27 June 2015, 8:15 pm - Pieterskerk, Pieterskerkhof 5, Utrecht</p>
+
+
 <h2>Recent performances</h2>
+
+<p><strong>Dutch Remembrance Day</strong>
+<br>Three motets by Jean Mouton &amp; Tomás Luis de Victoria
+<br><em>Het Retorisch Kwartet</em>
+<br>Sunday, 3 May 2015, 4 pm
+<br>Galerie Kralingen, Gashouderstraat 9, 3061 EH Rotterdam</p>
 
 <p><strong>A Tudor Christmas</strong>
 <br>Music by Sheppard, Byrd, Tallis and Lambe
@@ -93,7 +108,10 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 ## Workshops
 
 [Triora Musica - Thomas Tallis and John Sheppard](http://www.trioramusica.com), directed by Deborah Roberts  
-5-13 September 2015
+5-13 September 2015, Triora, Italy
+
+[BREMF singing weekend](http://www.bremf.org.uk/singweekend/), directed by Deborah Roberts  
+24-26 July 2015, Brighton, UK
 
 **Music from the Sistine Chapel**, directed by Deborah Roberts  
 11 October 2014, Brighton, UK

@@ -113,7 +113,7 @@ footer a {
 
 /* /blog/ */
 
-.blog h3.title {
+.blog h3.title, .tag h3.title {
 	margin-bottom: 0; }
 
 .related {

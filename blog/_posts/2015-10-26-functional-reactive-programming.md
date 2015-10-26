@@ -9,6 +9,8 @@ layout: hh
 
 For this review of [_Functional Reactive Programming_](http://www.manning.com/blackheath/) (FRP), I read MEAP (pre-publication early access) version 8, which includes 12 out of 15 planned chapters. It was a good read and the more-important first half of the book seems to be complete.
 
+Update: MEAP version 9 is now available, which includes all 15 chapters (but no appendices).
+
 # Important & intelligent
 
 Possibly the most important question about a technical book is also the most subjective: does its topic matter? _FRP_ (the book) is indeed important because FRP (the topic) is a new programming style that builds on the well-established practice of functional programming as well as the more recent trend for ’reactive programming’. This book describes a specific intersection of the two. 

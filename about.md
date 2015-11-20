@@ -48,12 +48,13 @@ and is available approximately one day per week for consulting, training and spe
 <ul>
 <li>Six-month sabbatical in London (2014)</li>
 <li>Working (as software developer) for <a href="http://www.lunatech.com">Lunatech Research</a> in Rotterdam, the Netherlands (2004-2014).</li>
-<li>Working for Logica, which later became LogicaCMG, in Rotterdam (2000-2004).</li>
-<li>Eight months working at <a href="http://www.sb.com/">SmithKline Beecham</a> in Surrey (1999).</li>
-<li>Three and a half weeks working at the <a href="http://www.odccp.org/" title="UN Office for Drug Control &amp; Crime Prevention ">ODCCP</a> in <a href="out_in_vienna.html" title="Out In Vienna">Vienna</a> (1999).</li>
-<li>Seven months working at <a href="http://www.astra.de/" title="Societe Europeen des Satellites - Astra">SES-Astra</a> in <a href="international_assignment.html" title="Diary Of An International Assignment">Luxembourg</a> (1998-1999).</li> 
-<li>One year working at <a href="http://www.csc.co.uk/">CSC Computer Sciences Ltd</a> in <a href="cambridge_cafes.html" title="1998 Cambridge Coffee And Cake Guide">Cambridge</a> (1997-1998).</li> 
-<li>Seven months working at <a href="http://www.eutelsat.org/" title="European Telecommunications Satellite Organisation">EUTELSAT</a> in <a href="pppp.html" title="Peter’s Peachy Paris Page">Paris</a> (1996-1997).</li>
+<li>Working for Logica NL, which later became LogicaCMG, in Rotterdam (2000-2004).</li>
+<li>Working for Logica UK (1996-2000). Assignments included
+<a href="http://www.sb.com/">SmithKline Beecham</a> in Surrey (1999),
+<a href="http://www.odccp.org/" title="UN Office for Drug Control &amp; Crime Prevention ">ODCCP</a> in <a href="out_in_vienna.html" title="Out In Vienna">Vienna</a> (1999),
+<a href="http://www.astra.de/" title="Societe Europeen des Satellites - Astra">SES-Astra</a> in <a href="international_assignment.html" title="Diary Of An International Assignment">Luxembourg</a> (1998-1999),
+<a href="http://www.csc.co.uk/">CSC Computer Sciences Ltd</a> in <a href="cambridge_cafes.html" title="1998 Cambridge Coffee And Cake Guide">Cambridge</a> (1997-1998),
+<a href="http://www.eutelsat.org/" title="European Telecommunications Satellite Organisation">EUTELSAT</a> in <a href="pppp.html" title="Peter’s Peachy Paris Page">Paris</a> (1996-1997).</li>
 <li>Three years studying pure mathematics at the <a href="http://www.bris.ac.uk/">University Of Bristol</a> (1992-1994, 1995-1996).</li>
 <li> Ten months as an Erasmus student at l’Universit&eacute; de Bordeaux I	and studying French stuff at the Maison du DEFLE (1994-1995).</li>
 <li>Lots of Monday nights working at Avon Phototypesetting Ltd (1994).</li>

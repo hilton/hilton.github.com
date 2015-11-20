@@ -7,11 +7,17 @@ layout: main
 <div class="row">
 <div class="col-md-8">
 
-<p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are web application development, functional design, agile software development and project management. He has extensive experience on projects for large customers in the logistics, government, financial services, energy, utilities, pharmaceutical, transport and space industries.</p>
+<p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a programmer and technical writer on a workflow management product team, and also delivers the occasional lecture and training course.</p>
 
-<p>Peter’s software development interests include workflow and business process management (BPM), JVM web application frameworks, software development methodology and practices, and web-based collaboration. Peter’s speciality is database-backed intranet web application architecture, design and build. He currently builds web applications using Scala, Play Framework and Slick. Previously, Peter gained significant experience with Java EE web technology and middleware, such as Drools.</p>
+<p>Peter’s software development interests include web application frameworks, software development methodology and practices, and web-based collaboration. Peter’s speciality is database-backed intranet web application architecture, design and build. His tools of choice are currently Scala, Play Framework and Slick.</p>
 
-<p>Peter has presented at several European developer conferences, including Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a Typesafe certified trainer for <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a>.</p>
+<p>Peter has presented at several European developer conferences, including ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a Typesafe certified trainer for <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a>.</p>
+
+
+<h2>Now &amp; next</h2>
+
+<p>Peter is currently working as a product developer at <a href="http://www.effektif.com">Effektif</a>,
+and is available approximately one day per week for consulting, training and speaking opportunities.</p>
 
 
 <h2>CV</h2>
@@ -20,12 +26,6 @@ layout: main
 <a href="http://www.linkedin.com/in/peterhilton">LinkedIn</a>,
 <a href="https://github.com/hilton">Github</a> and
 <a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.</p>
-
-
-<h2>Now &amp; next</h2>
-
-<p>Peter is currently working as a product developer at <a href="http://www.effektif.com">Effektif</a>,
-and is available approximately one day per week for consulting, training and speaking opportunities.</p>
 
 
 <h2>Writing</h2>

@@ -11,7 +11,7 @@ For this review of [_Functional Reactive Programming_](http://www.manning.com/bl
 
 Update: MEAP version 9 is now available, which includes all 15 chapters (but no appendices).
 
-# Important & intelligent
+## Important & intelligent
 
 Possibly the most important question about a technical book is also the most subjective: does its topic matter? _FRP_ (the book) is indeed important because FRP (the topic) is a new programming style that builds on the well-established practice of functional programming as well as the more recent trend for ’reactive programming’. This book describes a specific intersection of the two. 
 
@@ -19,7 +19,7 @@ FRP is about a declarative approach to coding program logic, as opposed to mixin
 
 The FRP programming style is carefully and intelligently presented. Fortunately,  this book avoids the hyperbole and hard sell that so many introductions to a new software development approach lazily use. Instead the authors are careful to note limitations and disadvantages alongside benefits, and to compare related approaches, such as actor-based programming with Akka, when appropriate. 
 
-# Clearly explained
+## Clearly explained
 
 _FRP_ is a case study in how to write a technical tutorial, because of how consistently and successfully it avoids the common pitfalls of technical writing. Each section starts with concrete examples that strike a careful balance between being short enough to swallow and large enough to include realistic complexity. 
 
@@ -29,7 +29,7 @@ More importantly, the authors give the reader a chance to fully understand a sin
 
 This kind of humour turns out to be a regular feature of the book, whose clarity is matched by its wit.
 
-# Witty
+## Witty
 
 The writing style is fluent and easy to read, which I liked a lot because this makes the explanations easy to follow without getting stuck on a section that you have to re-read several times. What I like even more is that there are so many great jokes in the prose.
 
@@ -37,7 +37,7 @@ This is certainly the funniest technical book I’ve read for a while, and that'
 
 The humour is less present in the second half of the book, but that is reasonable because the later chapters are less of a tutorial and more like reference material. Reference documentation humour is no doubt harder than tutorial humour.
 
-# Criticism
+## Criticism
 
 There’s not much to criticise about this book, mostly because it has such a clear focus on a specific style of programming, and delivers exactly what you want: lots of code samples that illustrate and explain the style.
 
@@ -45,6 +45,6 @@ The only potentially negative point is that the book’s code examples use the a
 
 What’s really missing is that the authors don't say whether there are any alternative FRP libraries for Java. Moreover, as a Scala programmer, all the talk of functional programming and immutable data structures makes me wonder what the options are in Scala. I hope a future MEAP version addresses this, likely in the planned ‘Comparison of FRP systems’ appendix, but I suspect that what's really needed is for someone else to port Sodium to Scala and write a new book called _FRP in Scala_.
 
-# Recommendation
+## Recommendation
 
 I recommend this book to all programmers, provided they are comfortable with Java code examples, because its ideas represent a fundamentally different approach to coding to the usual imperative and object oriented approaches. Furthermore, FRP is a fascinating application of functional programming to practical application development.

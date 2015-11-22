@@ -19,8 +19,6 @@ Legacy code is [the devil. Legacy Code is evil incarnate.](http://us.battle.net/
 
 Legacy code is [intractable](http://www.researchgate.net/publication/2770646_Reverse_Engineering_of_Legacy_Code_is_Intractable)
 
-Legacy code is [hilarious and makes me cry](http://www.makingitscale.com/2010/legacy-code-is-hilarious-and-makes-me-cry.html)
-
 Legacy code is code written by someone who left the team.
 
 Legacy code is your inheritance.

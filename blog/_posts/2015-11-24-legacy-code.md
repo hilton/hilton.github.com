@@ -26,3 +26,5 @@ Legacy code is your inheritance.
 Legacy code is what you call code you don’t like.
 
 Legacy code is what you call code you didn’t write.
+
+Legacy code is orphaned.

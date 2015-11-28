@@ -19,7 +19,7 @@ Legacy code is [the devil. Legacy Code is evil incarnate.](http://us.battle.net/
 
 Legacy code is [intractable.](http://www.researchgate.net/publication/2770646_Reverse_Engineering_of_Legacy_Code_is_Intractable)
 
-[All code is legacy code.](https://twitter.com/chrismhw/status/670149684107825152) It just doesn't know it yet.
+[All code is legacy code.](https://twitter.com/chrismhw/status/670149684107825152) It just doesn’t know it yet.
 
 Legacy code is code written by someone who left the team.
 

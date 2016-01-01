@@ -4,9 +4,16 @@ description: Unravelling woolly thinking about how we really explain code to eac
 layout: speaking
 ---
 
-However good your code, other people never seem to get it. Instead they ruin your day (and your productivity) by asking questions and expecting documentation. You need to know how to explain code without being stuck in meetings or spending half your time on the only thing that’s worse than meetings: writing documentation. This presentation’s goals are to fix confusion about how we really explain code to each other, and to discover how irrational programmers are about the sensitive subjects of talking to each other, documentation and code comments.
+However good your code, other people never seem to get it.
+Instead they ruin your day (and your productivity) by asking questions and expecting documentation.
+You need to know how to explain code without being stuck in meetings or spending half your time on the only thing that’s worse than meetings: writing documentation.
+This presentation’s aims to fix confusion about how we really explain code to each other, and to understand why programmers’ frequently irrational behaviour about the sensitive subjects of talking to each other, documentation and code comments.
 
-This talk explores what we talk about when we talk about code, how we do it, and the tools we use. Detailed up-front specifications are now ancient history, but remote working and distributed teams make written explanations more valuable than ever. Talking face to face is easier, but most of the code you see is written by people you rarely or never meet. Software craftsmanship has failed to make written documentation unnecessary. Instead we shall turn to README-Driven Development, comments evasion, documentation-avoidance, just-in-time documentation and the art of not writing it in the first place.
+This talk explores what we talk about when we talk about code, how we do it, and the tools we use.
+Not everyone writes detailed up-front specifications these days, but remote working and distributed teams make written explanations more valuable than ever.
+Talking face to face requires less effort, but you rarely or never meet the authors of most of the code you see.
+Software craftsmanship has failed to make written documentation unnecessary.
+Instead we shall turn to README-Driven Development, comments evasion, documentation-avoidance, just-in-time documentation and the art of not writing it in the first place.
 
 ## Outline
 
@@ -19,11 +26,3 @@ This talk explores what we talk about when we talk about code, how we do it, and
 * README-Driven Development
 * Tutorials, instructions & other written forms
 * Chat rooms, wikis & other tools for talking code
-
-# More wordy abstract
-
-As a thoughtful programmer, you picture the code you write as an idealised form of self-explanatory perfection. Annoyingly, other people never seem to get it: instead they ruin your day (and your productivity) by asking questions and expecting documentation. You expect code to be self-documenting, and yet you still read API docs, tutorials, Q&A web sites and the occasional book. And even though you prefer face-to-face discussion, your noise-cancelling headphones are a clear warning to anyone who would dare interrupt your flow state.
-
-This talk explores what we talk about when we talk about code, and all of the different ways, media and tools we use along the way. We’ve come along way since the days of detailed up-front specifications, and have invented many new kinds of documentation and tool support. But even as our distributed teams speak ubiquitous languages in bot-patrolled chat rooms, all our test-driven software craftsmanship has failed to make written documentation unnecessary. Instead we shall turn to README-Driven Development, comments evasion, documentation-avoidance, just-in-time documentation and the art of not writing it in the first place.
-
-This presentation’s goals are to unravel woolly thinking about how we really explain code to each other, and to delve into how irrational programmers can be about the highly charged subjects of talking to each other, documentation and code comments.

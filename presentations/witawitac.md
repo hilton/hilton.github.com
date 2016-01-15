@@ -7,7 +7,7 @@ layout: speaking
 However good your code, other people never seem to get it.
 Instead they ruin your day (and your productivity) by asking questions and expecting documentation.
 You need to know how to explain code without being stuck in meetings or spending half your time on the only thing that’s worse than meetings: writing documentation.
-This presentation’s aims to fix confusion about how we really explain code to each other, and to understand why programmers’ frequently irrational behaviour about the sensitive subjects of talking to each other, documentation and code comments.
+This presentation’s aims to fix confusion about how we really explain code to each other, and to understand programmers’ frequently irrational behaviour about the sensitive subjects of talking to each other, documentation and code comments.
 
 This talk explores what we talk about when we talk about code, how we do it, and the tools we use.
 Not everyone writes detailed up-front specifications these days, but remote working and distributed teams make written explanations more valuable than ever.

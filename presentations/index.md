@@ -21,6 +21,13 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2016-04-22</td>
+	<td><a href="documentation">Documentation avoidance for programmers</a></td>
+	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-06-06</td>
 	<td><a href="http://www.typesafe.com/subscription/training">Fast Track To Play With Scala</a> (training course)</td>
 	<td><a href="http://event.scaladays.org/scaladays-amsterdam-2015#03-Training">Scala Days 2015</a></td>
@@ -69,61 +76,6 @@ layout: speaking
 	<td class="flag nl">Amsterdam</td>
 	<td><a href="http://www.slideshare.net/pirhilton/scaling-business-app-development">slides</a></td>
 </tr>
-<tr>
-	<td>2014-12-17</td>
-	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.softwire.com/">Softwire</a></td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2014-12-08</td>
-	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
-	<td><a href="https://skillsmatter.com/conferences/1948-scala-exchange-2014">Scala eXchange</a></td>
-	<td class="flag uk">London</td>
-	<td><a href="https://skillsmatter.com/skillscasts/5846-scaling-business-application-development-with-play-and-scala">video</a></td>
-</tr>
-<tr>
-	<td>2014-12-02</td>
-	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.bcs.org/content/conEvent/9118">British Computer Society SPA London (South)</a></td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2014-11-24</td>
-	<td><a href="comments">How to write good comments</a></td>
-	<td><a href="http://www.softwire.com/">Softwire</a></td>
-	<td class="flag uk">London</td>
-	<td><a href="http://www.slideshare.net/pirhilton/how-to-write-good-comments">slides</a></td>
-</tr>
-<tr>
-	<td>2014-11-13</td>
-	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
-	<td><a href="http://www.meetup.com/london-scala/events/210465962/">Scala Users’ Group</a></td>
-	<td class="flag uk">London</td>
-	<td><a href="https://skillsmatter.com/skillscasts/5828-scaling-business-application-development-with-play-and-scala">video</a></td>
-</tr>
-<tr>
-	<td>2014-10-07</td>
-	<td><a href="play-framework-lessons-learned">Play Framework lessons learned</a></td>
-	<td><a href="http://www.vmware.com/uk/">VMware</a></td>
-	<td class="flag uk">London</td>
-	<td><a href="http://www.slideshare.net/pirhilton/play-framework-lessons-learned">slides</a></td>
-</tr>
-<tr>
-	<td>2014-10-01</td>
-	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA London</a></td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
-<td>2014-09-18</td>
-	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.meetup.com/london-software-craftsmanship/events/206817472/">LSSC Talks</a></td>
-	<td class="flag uk">London</td>
-	<td><a href="https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming">video</a></td>
-</tr>
 </table>
 
 ## Selected previous presentations
@@ -138,12 +90,46 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2013-10-25</td>
-	<td>Play framework lessons learned</td>
-	<td>iBanx</td>
+	<td>2014-12-08</td>
+	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
+	<td><a href="https://skillsmatter.com/conferences/1948-scala-exchange-2014">Scala eXchange</a></td>
+	<td>conference</td>
+	<td class="flag uk">London</td>
+	<td>
+		<a href="http://www.slideshare.net/pirhilton/scaling-business-app-development">slides</a>
+		<a href="https://skillsmatter.com/skillscasts/5846-scaling-business-application-development-with-play-and-scala">video</a>
+	</td>
+</tr>
+<tr>
+	<td>2014-11-24</td>
+	<td><a href="comments">How to write good comments</a></td>
+	<td><a href="http://www.softwire.com/">Softwire</a></td>
 	<td>company</td>
-	<td class="flag nl">Amsterdam</td>
+	<td class="flag uk">London</td>
+	<td><a href="http://www.slideshare.net/pirhilton/how-to-write-good-comments">slides</a></td>
+</tr>
+<tr>
+	<td>2014-10-07</td>
+	<td><a href="play-framework-lessons-learned">Play Framework lessons learned</a></td>
+	<td><a href="http://www.vmware.com/uk/">VMware</a></td>
+	<td>company</td>
+	<td class="flag uk">London</td>
+	<td><a href="http://www.slideshare.net/pirhilton/play-framework-lessons-learned">slides</a></td>
+</tr>
+<tr>
+	<td>2014-10-01</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA London</a></td>
+	<td>user group</td>
+	<td class="flag uk">London</td>
 	<td></td>
+</tr>
+<td>2014-09-18</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://www.meetup.com/london-software-craftsmanship/events/206817472/">LSSC Talks</a></td>
+	<td>meetup</td>
+	<td class="flag uk">London</td>
+	<td><a href="https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming">video</a></td>
 </tr>
 <tr>
 	<td>2013-10-18</td>

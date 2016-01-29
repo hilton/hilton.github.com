@@ -10,6 +10,11 @@
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@PeterHilton" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Peter Hilton - Speaking &amp; training{% endif %}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }} #presentation{% else %}Recent &amp; upcoming presentations{% endif %}" />
+<meta name="twitter:image" content="http://hilton.org.uk/picture/face/hilton-peter.jpg" />
 </head>
 <body class="speaking">
 
@@ -37,13 +42,7 @@
 	{% if page.title %}
 	<header>
 		<h1 itemprop="name">{{ page.title }}</h1>
-		<p class="lead">
-			<span itemprop="description">{{ page.description }}</span>
-			<small><span class="text-muted">
-			{% if page.date %}- {{ page.date | date_to_long_string }}{% endif %}
-			{% for tag in page.tags %}#{{ tag }} {% endfor %}
-			</span></small>
-		</p>
+		<p class="lead"><span itemprop="description">{{ page.description }}</span></p>
 	<header>
 	{% endif %}
 

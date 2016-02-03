@@ -5,9 +5,9 @@ tags: programming book
 layout: hh
 ---
 
-<a class="pull-right" href="https://www.manning.com/books/functional-programming-in-java" style="margin-left:1em"><img src="functional-programming-in-java.jpg" alt="Functional Programming in Java"></a>
+<a class="pull-right" href="https://www.manning.com/books/functional-programming-in-java?a_aid=playscala" style="margin-left:1em"><img src="functional-programming-in-java.jpg" alt="Functional Programming in Java"></a>
 
-_[Functional Programming in Java](https://www.manning.com/books/functional-programming-in-java)_, by Pierre-Yves Saumont, is a new programming book that is currently available via the Manning Early Access Program (MEAP).
+_[Functional Programming in Java](https://www.manning.com/books/functional-programming-in-java?a_aid=playscala)_, by Pierre-Yves Saumont, is a new programming book that is currently available via the Manning Early Access Program (MEAP).
 This is a review of MEAP version 8, which includes draft versions of the first seven out of fifteen chapters.
 
 A draft version of the first half of this kind of book is generally enough to understand the book’s focus, and the quality of the writing, but does not always clearly indicate how much the final book will have benefited from editing and polishing.

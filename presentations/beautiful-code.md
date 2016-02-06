@@ -4,16 +4,15 @@ description: Reimagining how we read code
 layout: speaking
 ---
 
-The way we visually present code today would be recognisable to the first owner of the 1955 IBM typewriter that introduced the Courier typeface.
+The way we visually present code today would do little to surprise the first owner of the 1955 IBM typewriter that introduced the Courier typeface.
 Innovations since then include little more than bigger monitors, syntax colouring and better monospace typefaces.
-Meanwhile, layout and typography have progressed somewhat further in the 600+ years since Gutenberg’s printing press.
-Unfortunately, source code missed out on the desktop publishing revolution thirty years ago that made layout and typography mainstream.
+Meanwhile, layout and typography, already centuries old during the desktop publishing revolution thirty years ago, inform the visual presentation of most kinds of text.
 
-The goal of this talk is to reevaluate how we see code.
-This talk uses step-by-step examples to show how fancy layout and typography can make code beautiful, and considers how this could improve programmers’ lives.
-After all, we spend more time reading code that writing it, so we would benefit from making code easier to read.
+The goal of this talk is to reconsider what code looks like.
+This talk uses step-by-step examples to show how layout and typography can make code beautiful, and considers how this would change the programming experience.
+After all, as Knuth pointed out, ‘Programs are meant to be read by humans, and only incidentally for computers to execute.’
 
-Finally, we’ll see one typographic innovation that we will actually be able to use in the near future: functional programming font ligatures.
+Finally, we’ll look forwards and focus on one typographic innovation that we will actually be able to use in the near future: functional programming font ligatures.
 
 # Example
 

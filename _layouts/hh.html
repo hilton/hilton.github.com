@@ -25,7 +25,11 @@
 <meta name="twitter:site" content="@PeterHilton" />
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Peter Hilton’s blog{% endif %}" />
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Programming and other matters{% endif %}" />
+{% if page.image %}
+<meta name="twitter:image" content="{{ page.image }}" />
+{% else %}
 <meta name="twitter:image" content="http://hilton.org.uk/picture/face/hilton-peter.jpg" />
+{% endif %}
 </head>
 <body class="{{ page.categories }}">
 

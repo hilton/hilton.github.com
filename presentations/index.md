@@ -28,6 +28,13 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2016-03-10</td>
+	<td>TBD</td>
+	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
+	<td class="flag de">Berlin</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2015-06-06</td>
 	<td><a href="http://www.typesafe.com/subscription/training">Fast Track To Play With Scala</a> (training course)</td>
 	<td><a href="http://event.scaladays.org/scaladays-amsterdam-2015#03-Training">Scala Days 2015</a></td>
@@ -141,24 +148,24 @@ layout: speaking
 </tr>
 <tr>
 	<td>2013-06-27</td>
-	<td><a href="http://www.meetup.com/amsterdam_play_framework/messages/54919312/">What we can learn from the Play Framework</a></td>
-	<td>Play Framework Meetup</td>
+	<td>What we can learn from the Play Framework</td>
+	<td><a href="http://www.meetup.com/amsterdam_play_framework/messages/54919312/">Play Framework Meetup</a></td>
 	<td>user group</td>
 	<td class="flag nl">Amsterdam</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2012-11-07</td>
-	<td><a href="http://oredev.org/2012/sessions/play-framework-2">Play Framework 2</a></td>
-	<td>Øredev</td>
+	<td>Play Framework 2</td>
+	<td><a href="http://oredev.org/2012/sessions/play-framework-2">Øredev</a></td>
 	<td>conference</td>
 	<td class="flag se">Malmö</td>
 	<td><a href="http://vimeo.com/53065671">video</a></td>
 </tr>
 <tr>
 	<td>2012-11-02</td>
-	<td><a href="http://topconf.com/Conference/Abstracts/Transparentdevelopmentandtheprojectmanagement/tabid/141/language/en-US/Default.aspx">Transparent development and the project management renaissance</a></td>
-	<td>Topconf</td>
+	<td>Transparent development and the project management renaissance</td>
+	<td><a href="http://topconf.com/Conference/Abstracts/Transparentdevelopmentandtheprojectmanagement/tabid/141/language/en-US/Default.aspx">Topconf</a></td>
 	<td>conference</td>
 	<td class="flag ee">Tallinn</td>
 	<td></td>
@@ -173,24 +180,24 @@ layout: speaking
 </tr>
 <tr>
 	<td>2012-05-28</td>
-	<td><a href="http://010dev.nl/post/social-tech-event-the-disruptor-and-the-perfect-programmer">In search of the perfect programmer</a></td>
-	<td>010DEV</td>
+	<td>In search of the perfect programmer</td>
+	<td><a href="http://010dev.nl/post/social-tech-event-the-disruptor-and-the-perfect-programmer">010DEV</a></td>
 	<td>user group</td>
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2012-05-24</td>
-	<td><a href="http://gotocon.com/amsterdam-2012/presentation/Play%20Framework%202.0">Play Framework 2.0</a></td>
-	<td>GOTO Amsterdam</td>
+	<td>Play Framework 2.0</td>
+	<td><a href="http://gotocon.com/amsterdam-2012/presentation/Play%20Framework%202.0">GOTO Amsterdam</a></td>
 	<td>conference</td>
 	<td class="flag nl">Amsterdam</td>
 	<td><a href="http://gotocon.com/dl/goto-amsterdam-2012/slides/PeterHilton_PlayFramework20.pdf">slides</a></td>
 </tr>
 <tr>
 	<td>2012-05-18</td>
-	<td><a href="http://2012.geecon.org/speakers/peter-hilton/index.html">Play Framework 2.0</a></td>
-	<td>GeeCON</td>
+	<td>Play Framework 2.0</td>
+	<td><a href="http://2012.geecon.org/speakers/peter-hilton/index.html">GeeCON</a></td>
 	<td>conference</td>
 	<td class="flag pl">Poznań</td>
 	<td><a href="http://vimeo.com/44790820">video</a></td>
@@ -205,8 +212,8 @@ layout: speaking
 </tr>
 <tr>
 	<td>2012-02-08</td>
-	<td><a href="http://blog.lunatech.com/2012/02/08/scala-stockholm">Why Play needs Scala and why Scala needs Play</a></td>
-	<td>Scala-Stockholm</td>
+	<td>Why Play needs Scala and why Scala needs Play</td>
+	<td><a href="http://blog.lunatech.com/2012/02/08/scala-stockholm">Scala-Stockholm</a></td>
 	<td>user group</td>
 	<td class="flag se">Stockholm</td>
 	<td></td>
@@ -221,8 +228,8 @@ layout: speaking
 </tr>
 <tr>
 	<td>2011-09-08</td>
-	<td><a href="http://javazone.no/incogito10/events/JavaZone%202011/sessions#7f248f8a-300e-4078-b711-399d97135b02">Play! Framework: to infinity and beyond</a></td>
-	<td>Javazone</td>
+	<td>Play! Framework: to infinity and beyond</td>
+	<td><a href="http://javazone.no/incogito10/events/JavaZone%202011/sessions#7f248f8a-300e-4078-b711-399d97135b02">Javazone</a></td>
 	<td>conference</td>
 	<td class="flag no">Oslo</td>
 	<td><a href="http://vimeo.com/28769045">video</a></td>
@@ -269,8 +276,8 @@ layout: speaking
 </tr>
 <tr>
 	<td>2008-12-10</td>
-	<td><a href="http://www.devoxx.com/display/JV08/Meeting-avoidance+for+self-managing+developers">Meeting-avoidance for self-managing developers</a></td>
-	<td>Devoxx</td>
+	<td>Meeting-avoidance for self-managing developers</td>
+	<td><a href="http://www.devoxx.com/display/JV08/Meeting-avoidance+for+self-managing+developers">Devoxx</a></td>
 	<td>conference</td>
 	<td class="flag be">Antwerp</td>
 	<td><a href="http://blog.lunatech.com/2008/12/05/meeting-avoidance-self-managing-developers-devoxx-2008">slides</a></td>

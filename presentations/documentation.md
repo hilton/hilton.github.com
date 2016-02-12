@@ -25,3 +25,7 @@ This talk explores what we talk about when we talk about code, how we do it, and
 * Commit messages
 * Tutorials, instructions & other written forms
 * Chat rooms, wikis & other tools for talking code
+
+## Presentations
+
+* [ProgSCon London](http://progscon.co.uk/talks#tlk-peterhiltontalk) - 22 April 2016

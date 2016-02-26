@@ -8,7 +8,7 @@ However good your code, other people never seem to get it. Instead they ruin you
 
 This talk teaches you how to avoid writing documentation, by making it unnecessary or delegating the work to someone else. You will also learn how to deal with the awkward situation when you can’t away with avoidance or delegation, and have to write the documentation yourself.
 
-This talk explores what we talk about when we talk about code, how we do it, and the tools we use. You can often find a better tool that documentation, but not always. Not everyone writes detailed specifications these days, but remote working and distributed teams make written explanations more valuable than ever. Talking face to face requires less effort, but you rarely or never meet the authors of most of the code you see. Software craftsmanship has failed to make written documentation unnecessary. Instead we shall turn to README-Driven Development, comments evasion, documentation-avoidance, just-in-time documentation and the art of not writing it in the first place.
+This talk explores what we talk about when we talk about code, how we do it, and the tools we use. You can often find a better tool than documentation, but not always. Not everyone writes detailed specifications these days, but remote working and distributed teams make written explanations more valuable than ever. Talking face to face requires less effort, but you rarely or never meet the authors of most of the code you see. Software craftsmanship has failed to make written documentation unnecessary. Instead we shall turn to README-Driven Development, comments evasion, documentation-avoidance, just-in-time documentation and the art of not writing it in the first place.
 
 ## Outline
 

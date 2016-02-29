@@ -3,7 +3,7 @@ categories: speaking
 layout: speaking
 ---
 
-# Presentations
+# Presentations & other appearances
 
 <p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.</p>
 
@@ -21,6 +21,20 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2016-06-13</td>
+	<td>Process modelling simplified: Business Process Modelling Patterns (TBC)</td>
+	<td><a href="http://www.irmuk.co.uk/bpm2016/">IRM UK</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-04-25</td>
+	<td>Leveraging process maps &amp; models for continuous improvement (workshop)</td>
+	<td><a href="http://www.opexweekeurope.com/">OPEX &amp; Process Transformation Week</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-04-22</td>
 	<td><a href="documentation">Documentation avoidance for programmers</a></td>
 	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a></td>
@@ -28,8 +42,15 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2016-03-03</td>
+	<td>Achieving process excellence through organisation-wide collaborative BPM</td>
+	<td><a href="http://c-parity.com/2nd-annual-global-process-improvement-operational-excellence-summit/">Process Improvement &amp; OPEX Summit</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-03-10</td>
-	<td>TBD</td>
+	<td><a href="documentation">Documentation avoidance for programmers</a></td>
 	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
 	<td class="flag de">Berlin</td>
 	<td></td>

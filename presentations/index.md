@@ -21,6 +21,20 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2016-06-17</td>
+	<td><a href="documentation">Documentation avoidance for programmers</a></td>
+	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-06-16</td>
+	<td>Introduction to Signavio Workflow</td>
+	<td>Signavio Community Day</td>
+	<td class="flag be">Antwerp</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-06-13</td>
 	<td>Process modelling simplified: Business Process Modelling Patterns (TBC)</td>
 	<td><a href="http://www.irmuk.co.uk/bpm2016/">IRM UK</a></td>

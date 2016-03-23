@@ -40,3 +40,5 @@ As with spreadsheets, reaching and going beyond the limits of the tool is a good
 When office workers have general-purpose software for process management, they will be able to experiment in a way that they cannot on a conventional process-based software development project. If and when custom development then starts, there will be much less guesswork, and more concrete details about how the processes actually work, including an actual executable (and executed) process diagram.
 
 This is why a tool like Effektif is important for enterprise software developers: it joins the dots between what people actually do it their job - the real business process - and a software-based model. Without this concrete process description, business analysts and software developers are just left with what people _say_ they do, which is a poor substitute indeed.
+
+Photo: [atlken77](https://www.flickr.com/photos/floridaken77/5964733034) / CC [BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)

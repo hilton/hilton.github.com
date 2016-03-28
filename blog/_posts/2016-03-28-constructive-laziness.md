@@ -6,6 +6,8 @@ layout: hh
 image: http://hilton.org.uk/blog/image.jpeg
 ---
 
+![Plain old laziness](image.jpeg)
+
 Productivity patterns give catchy names to productivity hacks and other habits, good and bad: like [design patterns](https://en.wikipedia.org/wiki/Design_pattern) but for productivity. For programmers, constructive laziness trumps all other productivity patterns by turning productivity problems into coding problems.
 
 

@@ -15,7 +15,8 @@ Productivity patterns give catchy names to productivity hacks and other habits, 
 
 To begin to understand constructive laziness, you need an explanation that fits in a Tweet. My friend Denis wrote my favourite example:
 
-> Constructive laziness is when you’re lazy about doing, but not lazy about thinking.
+> Constructive Laziness: being lazy about doing, not lazy about thinking.
+> Ingenuity is born from constructive laziness.
 > 
 > [@DenisHowlett](https://twitter.com/DenisHowlett)
 

@@ -1,7 +1,7 @@
 ---
 title: Constructive laziness
 description: Creative productivity for programmers
-tags: programming
+tags: programming documentation
 layout: hh
 image: http://hilton.org.uk/blog/image.jpeg
 ---
@@ -17,7 +17,7 @@ To begin to understand constructive laziness, you need an explanation that fits 
 
 > Constructive laziness is when you’re lazy about doing, but not lazy about thinking.
 > 
-> [@DenisHowlett](https://twitter.com/DenisHowlett), 2016
+> [@DenisHowlett](https://twitter.com/DenisHowlett)
 
 Denis means that programmers who tackle the prospect of doing real work _by thinking about it_ often figure out a way to automate the solution by writing code. Another way to think about constructive laziness starts by considering the end rather than the method. Ten years ago, Eric Raymond wrote:
 
@@ -49,7 +49,8 @@ The following examples show that this applies to more than one kind of problem o
 The following joke sums up the value of notifications:
 
 > Save money on doorbell batteries by removing them and simply popping to the door every two minutes to see if anyone is there.
-> @VizComic
+> 
+> [@VizComic](https://twitter.com/VizComic)
 
 Apparently, you can even apply constructive laziness to language design:
 

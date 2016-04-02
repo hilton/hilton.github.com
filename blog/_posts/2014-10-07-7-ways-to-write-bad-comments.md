@@ -20,6 +20,7 @@ Bad comments cause as many problems as bad code, so don't write comments that:
 2. are otherwise out-of-date with respect to the code.
 
 Most of these require further explanation, just to point out how obvious they are, or should be. Only the last two are less obvious in practice.
+Meanwhile, in [Slash Slash Massive Hack](http://monospacedmonologues.com/post/137738860257/slash-slash-massive-hack), Samir Talwar presents more examples of bad or at least unnecessary comments.
 
 
 ## Incorrect syntax or grammar
@@ -58,5 +59,6 @@ Sometimes a comment contradicts the code, perhaps because the whoever wrote the 
 Rewriting code to reduce the need for comments is also understandably popular with programmers, because it replaces something you don’t like (commenting code) with something you do (coding). Just beware that this is not always the solution: some comments are a good idea, and need spell-checking, editing for readability and updating.
 
 Reducing the need for comments only gets you so far, though. The next step is to understand which comments improve the code, and to start writing good comments. Even if we agree that you’re not going to write bad comments, you’re not done yet.
+You also need to know about [good comments](3-kinds-of-good-comments).
 
 _Photo: [quinnanya](https://www.flickr.com/photos/quinnanya/4869433260) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

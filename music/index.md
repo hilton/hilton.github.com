@@ -10,16 +10,35 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <div class="row">
 <div class="col-md-7">
 
-<h2>Upcoming performances</h2>
+<h2>Upcoming workshops</h2>
 
-<p><strong>Palestrina - Song of Songs</strong>
+<p><strong><a href="http://www.trioramusica.com">Triora Musica - Palestrina</a></strong>
+<br>directed by Deborah Roberts  
+<br>September 2016, Triora, Italy</p>
+
+<h2>Previous performances</h2>
+
+<p><strong><a href="http://cappellagabrieli.nl/concert-2016-03_en.html">Portuguese polyphony - Cardoso requiem</a></strong>
+<br><em>Cappella Gabrieli</em>
+<br>19/20 March 2016, Rotterdam/Geervliet</p>
+
+<p><strong><a href="http://retorisch.com/2016-01-17">Madrigals from Bosch to Breughel</a></strong>
+<br><em>Het Retorisch Kwartet</em>
+<br>17 January 2016, Museum Boijmans Van Beuningen, Rotterdam</p>
+
+<p><strong><a href="http://retorisch.com/2015-10-10">Italian madrigals on the Kunstroute Kralingen-Crooswijk</a></strong>
+<br><em>Het Retorisch Kwartet</em>
+<br>10 October 2015, Lambertusstraat, Rotterdam</p>
+
+<p><strong><a href="http://cappellagabrieli.nl/concert-2015-10_en.html">Voorn, Schütz &amp; Monteverdi</a></strong>
+<br><em>Cappella Gabrieli</em>
+<br>3 October 2015, Dorpskerk, Kalverstraat 1, Ouderkerk aan den Ĳssel</p>
+
+<p><strong><a href="http://cappellagabrieli.nl/concert-2015-06_en.html">Palestrina - Song of Songs</a></strong>
 <br>A cycle of 29 motets by Giovanni Pierluigi da Palestrina
 <br><em>Cappella Gabrieli</em>
 <br>20 June 2015, 8:15 pm - Citykerk Het Steiger Sint Dominicus, Hang 18, 3011 GG, Rotterdam
 <br>27 June 2015, 8:15 pm - Pieterskerk, Pieterskerkhof 5, Utrecht</p>
-
-
-<h2>Recent performances</h2>
 
 <p><strong>Dutch Remembrance Day</strong>
 <br>Three motets by Jean Mouton &amp; Tomás Luis de Victoria
@@ -84,6 +103,14 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Ensembles</h2>
 
+<p><a href="http://retorisch.com">Het Retorisch Kwartet</a>
+<br>early music quartet
+<br>Rotterdam, since 2012</p>
+
+<p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
+<br>chamber choir
+<br>Rotterdam, since 2005</p>
+
 <p><a href="http://www.renaissancesingers.com/">The Renaissance Singers</a>
 <br>chamber choir
 <br>London, September-December 2014</p>
@@ -91,14 +118,6 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <p><a href="https://www.facebook.com/NuncetTunc">Nunc et Tunc</a>
 <br>early music quintet
 <br>Brighton, September-December 2014</p>
-
-<p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
-<br>chamber choir
-<br>Rotterdam, since 2005</p>
-
-<p><a href="http://retorisch.com">Het Retorisch Kwartet</a>
-<br>early music quartet
-<br>Rotterdam, since 2012</p>
 
 </div>
 </div>

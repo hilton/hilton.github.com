@@ -36,7 +36,7 @@ layout: speaking
 </tr>
 <tr>
 	<td>2016-06-13</td>
-	<td>Process modelling simplified: Business Process Modelling Patterns (TBC)</td>
+	<td><a href="http://irmuk.co.uk/eac2016/day1.cfm#Day1PS4">Modelling with Business Process Patterns</a></td>
 	<td><a href="http://www.irmuk.co.uk/bpm2016/">IRM UK</a></td>
 	<td class="flag uk">London</td>
 	<td></td>

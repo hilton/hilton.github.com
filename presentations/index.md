@@ -5,7 +5,8 @@ layout: speaking
 
 # Presentations & other appearances
 
-<p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.</p>
+<p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
+See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyrd</a>.</p>
 
 <p>Please get in touch if you would like Peter to speak at your event or company.</p>
 
@@ -21,17 +22,17 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
+	<td>TBD</td>
+	<td>Introduction to Signavio Workflow</td>
+	<td>Signavio Community Day</td>
+	<td class="flag be">Antwerp</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-06-17</td>
 	<td><a href="documentation">Documentation avoidance for programmers</a></td>
 	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
 	<td class="flag nl">Rotterdam</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-06-16</td>
-	<td>Introduction to Signavio Workflow</td>
-	<td>Signavio Community Day</td>
-	<td class="flag be">Antwerp</td>
 	<td></td>
 </tr>
 <tr>
@@ -88,7 +89,7 @@ layout: speaking
 	<td><a href="/blog/my-documentation-problem">My documentation problem</a> (lightning talk)</td>
 	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
 	<td class="flag uk">Bristol</td>
-	<td></td>
+	<td><a href="/blog/my-documentation-problem">script</a></td>
 </tr>
 <tr>
 	<td>2015-04-24</td>

@@ -54,7 +54,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="documentation">Documentation avoidance for programmers</a></td>
 	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a></td>
 	<td class="flag uk">London</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a></td>
 </tr>
 <tr>
 	<td>2016-03-03</td>

@@ -3,10 +3,10 @@ title: Constructive laziness
 description: Creative productivity for programmers
 tags: programming documentation
 layout: hh
-image: http://hilton.org.uk/blog/image.jpeg
+image: http://hilton.org.uk/blog/laziness.jpg
 ---
 
-![Plain old laziness](image.jpeg)
+![Plain old laziness](laziness.jpg)
 
 Productivity patterns give catchy names to productivity hacks and other habits, good and bad: like [design patterns](https://en.wikipedia.org/wiki/Design_pattern) but for productivity. For programmers, constructive laziness trumps all other productivity patterns by turning productivity problems into coding problems.
 

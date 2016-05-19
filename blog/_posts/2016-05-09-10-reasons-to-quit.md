@@ -30,7 +30,7 @@ And some programmers just like to socialise more.
 
 Programmers like to use fancy technology to solve hard problems.
 After all, [motivation](http://www.danpink.com/books/drive/) requires an element of technical mastery.
-Of course, fashion drives a lot of software architecture, and programmers want to think they’re learning up-to-date technology, rather than last decades langages, platforms, frameworks and libraries.
+Of course, fashion drives a lot of software architecture, and programmers want to think they’re learning up-to-date technology, rather than last the decade’s languages, platforms, frameworks and libraries.
 
 **3. Tools & equipment - the best money can buy**
 
@@ -75,6 +75,6 @@ Sometimes, people need more money to enable or support a change in their persona
 
 Last but not least, culture eats everything else for breakfast, and people want to work somewhere they fit in just as much as managers want to hire people who are a _good fit_.
 Company culture can be hard to describe, but the management approach largely determines culture and everyone is looking for a way to [reinvent management](http://www.reinventing-business.com/2010/06/objective.html).
-Programmers might not all be looking for a company that uses [Holocracy](http://www.holacracy.org), but they probably at least want to work for someone who understands software development.
+Programmers might not all be looking for a company that uses [Holacracy](http://www.holacracy.org), but they probably at least want to work for someone who understands software development.
 
 Photo: [Phil Campbell](https://www.flickr.com/photos/clanlife/3074758879) / CC [BY 2.0](https://creativecommons.org/licenses/by/2.0/)

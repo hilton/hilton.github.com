@@ -22,6 +22,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2016-10-21</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="https://voxxeddays.com/thessaloniki/">Voxxed Days Thessaloniki</a></td>
+	<td class="flag gr">Thessaloniki</td>
+	<td></td>
+</tr>
+<tr>
 	<td>TBD</td>
 	<td>Introduction to Signavio Workflow</td>
 	<td>Signavio Community Day</td>
@@ -30,7 +37,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-06-17</td>
-	<td><a href="documentation">Documentation avoidance for programmers</a></td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
@@ -43,6 +50,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2016-05-27</td>
+	<td>Modelling with Business Process Patterns</a></td>
+	<td>banking industry</td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-04-25</td>
 	<td>Leveraging process maps &amp; models for continuous improvement (workshop)</td>
 	<td><a href="http://www.opexweekeurope.com/">OPEX &amp; Process Transformation Week</a></td>
@@ -51,7 +65,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-04-22</td>
-	<td><a href="documentation">Documentation avoidance for programmers</a></td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a></td>
 	<td class="flag uk">London</td>
 	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a></td>
@@ -65,7 +79,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-03-10</td>
-	<td><a href="documentation">Documentation avoidance for programmers</a></td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
 	<td class="flag de">Berlin</td>
 	<td></td>
@@ -84,41 +98,6 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
 </tr>
-<tr>
-	<td>2015-04-24</td>
-	<td><a href="/blog/my-documentation-problem">My documentation problem</a> (lightning talk)</td>
-	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
-	<td class="flag uk">Bristol</td>
-	<td><a href="/blog/my-documentation-problem">script</a></td>
-</tr>
-<tr>
-	<td>2015-04-24</td>
-	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
-	<td class="flag uk">Bristol</td>
-	<td><a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
-</tr>
-<tr>
-	<td>2015-04-10</td>
-	<td><a href="nomad">Modern IT nomad</a></td>
-	<td><a href="http://nerdnight-rotterdam.tumblr.com/post/113780696094/modern-it-nomad">Nerd Night</a></td>
-	<td class="flag nl">Rotterdam</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2015-04-02</td>
-	<td><a href="meeting-avoidance">Meeting-avoidance for self-managing developers</a></td>
-	<td><a href="http://www.sytac.nl/">Sytac IT Consulting</a></td>
-	<td class="flag nl">Haarlem</td>
-	<td><a href="http://www.slideshare.net/pirhilton/meeting-avoidance-for-self-managing-developers">slides</a></td>
-</tr>
-<tr>
-	<td>2015-01-15</td>
-	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
-	<td><a href="http://www.meetup.com/amsterdam-scala/">Amsterdam Scala</a></td>
-	<td class="flag nl">Amsterdam</td>
-	<td><a href="http://www.slideshare.net/pirhilton/scaling-business-app-development">slides</a></td>
-</tr>
 </table>
 
 ## Selected previous presentations
@@ -131,6 +110,38 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Event</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2015-04-24</td>
+	<td><a href="/blog/my-documentation-problem">My documentation problem</a> (lightning talk)</td>
+	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
+	<td>conference</td>
+	<td class="flag uk">Bristol</td>
+	<td><a href="/blog/my-documentation-problem">script</a></td>
+</tr>
+<tr>
+	<td>2015-04-24</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule">ACCU 2015</a></td>
+	<td>conference</td>
+	<td class="flag uk">Bristol</td>
+	<td><a href="http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">slides</a></td>
+</tr>
+<tr>
+	<td>2015-04-10</td>
+	<td><a href="nomad">Modern IT nomad</a></td>
+	<td><a href="http://nerdnight-rotterdam.tumblr.com/post/113780696094/modern-it-nomad">Nerd Night</a></td>
+	<td>meetup</td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2015-04-02</td>
+	<td><a href="meeting-avoidance">Meeting-avoidance for self-managing developers</a></td>
+	<td><a href="http://www.sytac.nl/">Sytac IT Consulting</a></td>
+	<td>company</td>
+	<td class="flag nl">Haarlem</td>
+	<td><a href="http://www.slideshare.net/pirhilton/meeting-avoidance-for-self-managing-developers">slides</a></td>
 </tr>
 <tr>
 	<td>2014-12-08</td>

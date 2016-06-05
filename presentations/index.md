@@ -22,6 +22,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2016-11-16/17</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="http://topconf.com/tallinn-2016/">Topconf</a></td>
+	<td class="flag ee">Tallinn</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-10-21</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="https://voxxeddays.com/thessaloniki/">Voxxed Days Thessaloniki</a></td>
@@ -78,7 +85,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
-	<td>2016-03-10</td>
+	<td>2016-02-25</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
 	<td class="flag de">Berlin</td>

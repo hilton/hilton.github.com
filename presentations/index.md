@@ -24,7 +24,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 <tr>
 	<td>2016-11-16/17</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://topconf.com/tallinn-2016/">Topconf</a></td>
+	<td><a href="http://topconf.com/tallinn-2016/speaker/peter-hilton/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
 	<td></td>
 </tr>
@@ -80,7 +80,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 <tr>
 	<td>2016-03-03</td>
 	<td>Achieving process excellence through organisation-wide collaborative BPM</td>
-	<td><a href="http://c-parity.com/2nd-annual-global-process-improvement-operational-excellence-summit/">Process Improvement &amp; OPEX Summit</a></td>
+	<td><a href="http://c-parity.com/CP/2nd-annual-global-process-improvement-operational-excellence-summit-2/">Process Improvement &amp; OPEX Summit</a></td>
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>

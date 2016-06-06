@@ -31,8 +31,9 @@ This talk explores what we talk about when we talk about code, how we do it, and
 * Tutorials, instructions & other written forms
 * Chat rooms, wikis & other tools for talking code
 
-## Presentations
+## Conference presentations
 
 * [ProgSCon London](http://progscon.co.uk/talks#tlk-peterhiltontalk) - 22 April 2016
 * [Joy of Coding](http://joyofcoding.org/) - 17 June 2016
 * [Voxxed Days Thessaloniki](https://voxxeddays.com/thessaloniki/) - 21 October 2016
+* [Topconf Tallinn](http://topconf.com/tallinn-2016/speaker/peter-hilton/) - 16 November 2016

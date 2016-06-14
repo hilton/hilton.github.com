@@ -23,8 +23,15 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-11-16/17</td>
+	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
+	<td><a href="http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/">Topconf</a></td>
+	<td class="flag ee">Tallinn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-11-16/17</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://topconf.com/tallinn-2016/speaker/peter-hilton/">Topconf</a></td>
+	<td><a href="http://topconf.com/tallinn-2016/trackevent/documentation-avoidance-for-developers/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
 	<td></td>
 </tr>

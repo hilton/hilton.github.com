@@ -27,3 +27,7 @@ Part 3: workflow as the missing ingredient for microservices
 * Microservice coordination using workflow
 * Why human workers are like microservices
 * Human task coordination using workflow
+
+## Conference presentations
+
+* [Topconf Tallinn](http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/) - 16/17 November 2016

@@ -114,6 +114,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 </table>
 
+
+## Work in progress and other unfinished ideas
+
+* [Layout & typography for beautiful code](beautiful-code)
+* 7 joys of coding - things that bring joy to writing code
+
+
 ## Selected previous presentations
 
 <table class="table">

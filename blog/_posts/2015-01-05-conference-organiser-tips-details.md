@@ -32,7 +32,7 @@ Attendee badges and lanyards are a common target for creative ideas, most of whi
 
 **Print the same thing on both sides of the attendee badge**. Otherwise it'll always be the wrong way around, and therefore effective only about as often as dropped toast lands butter side up.
 
-**Print additional useful information on the back** such as a summary of the schedule, or at least a URL to download the conference app that provides the same thing.
+**Print additional useful information inside** such as a summary of the schedule, or at least a URL to download the conference app that provides the same thing.
 
 **Use a novelty or reusable object.** In 2012, the [JFokus](http://www.jfokus.se/) badges were (working) new 3.5 inch floppy disks, in different colours according to attendee status. These are durable, cheap in large quantities, served by self-adhesive labels that for exactly and have a convenient lanyard attachment hole in the corner. Later that year, [Øredev](http://oredev.org/) used a thick plastic rectangle that turned out to be a car windscreen ice-scraper.
 

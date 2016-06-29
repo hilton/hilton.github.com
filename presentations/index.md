@@ -199,7 +199,8 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>
-<td>2014-09-18</td>
+<tr>
+	<td>2014-09-18</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://www.meetup.com/london-software-craftsmanship/events/206817472/">LSSC Talks</a></td>
 	<td>meetup</td>

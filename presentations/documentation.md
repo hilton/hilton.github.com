@@ -13,7 +13,7 @@ This talk explores what we talk about when we talk about code, how we do it, and
 
 ## Video
 
-[Documentation avoidance for developers at ProgSCon London 2015](https://www.infoq.com/presentations/minimal-code-documentation)
+[Documentation avoidance for developers at ProgSCon London 2016](https://www.infoq.com/presentations/minimal-code-documentation)
 
 
 ## Slides

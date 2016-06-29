@@ -11,6 +11,11 @@ You will also learn how to deal with the awkward situation when you can’t get 
 
 This talk explores what we talk about when we talk about code, how we do it, and the tools we use. You can often find a better tool than documentation, but not always. Not everyone writes detailed specifications these days, but remote working and distributed teams make written explanations more valuable than ever. Talking face to face requires less effort, but you rarely or never meet the authors of most of the code you see. Software craftsmanship has failed to make written documentation unnecessary. Instead we shall turn to README-Driven Development, comments evasion, documentation-avoidance, just-in-time documentation and the art of not writing it in the first place.
 
+## Video
+
+[Documentation avoidance for developers at ProgSCon London 2015](https://www.infoq.com/presentations/minimal-code-documentation)
+
+
 ## Slides
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/NNWObhEapz69Qy" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>

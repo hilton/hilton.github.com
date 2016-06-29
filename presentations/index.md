@@ -65,7 +65,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-05-27</td>
-	<td>Modelling with Business Process Patterns</a></td>
+	<td>Modelling with Business Process Patterns</td>
 	<td>banking industry</td>
 	<td class="flag uk">London</td>
 	<td></td>

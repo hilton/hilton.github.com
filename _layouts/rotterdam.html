@@ -67,7 +67,7 @@
 			review by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
 			<span itemprop="name">Peter Hilton</span></span>
 			{% if page.visited %}•
-			last visit <time itemprop="dtreviewed" datetime="{{ page.visited }}">{{ page.visited | date: '%d %B %Y' }}</time>{% endif %}
+			review updated <time itemprop="dtreviewed" datetime="{{ page.visited }}">{{ page.visited | date: '%d %B %Y' }}</time>{% endif %}
 			</p>
 			{% if page.tags != empty %}<p class="tags">Tags: <span itemprop="keywords">{{ page.tags | join, ' ' }}</span></p>{% endif %}
 		</div>

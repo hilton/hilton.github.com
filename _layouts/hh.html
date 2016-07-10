@@ -21,6 +21,7 @@
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
+{% feed_meta %}
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@PeterHilton" />
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Peter Hilton’s blog{% endif %}" />

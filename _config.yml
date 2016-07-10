@@ -4,3 +4,6 @@ permalink: ":categories/:title.html"
 timezone: Europe/London
 gems:
   - jekyll-feed
+title: Peter Hilton’s blog
+author: Peter Hilton
+description: Programming and other curiosities

@@ -126,6 +126,12 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 ## Workshops
 
+[BREMF Early Music Weekend - The Song of Songs](http://www.bremf.org.uk/earlymusicweekend/), directed by Deborah Roberts
+12-14 August 2016, Brighton, UK
+
+[Weird and Wonderful in the Late Renaissance](http://www.bremf.org.uk/bricon/), directed by Greg Skidmore
+11 June 2016, Brighton, UK
+
 [Triora Musica - Thomas Tallis and John Sheppard](http://www.trioramusica.com), directed by Deborah Roberts  
 5-13 September 2015, Triora, Italy
 

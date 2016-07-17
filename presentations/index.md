@@ -50,6 +50,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2016-07-18</td>
+	<td><a href="http">HTTP demystified for web developers</a></td>
+	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td><a href="http://www.slideshare.net/pirhilton/http-demystified-for-web-developers/">slides</a></td>
+</tr>
+<tr>
 	<td>2016-06-17</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>

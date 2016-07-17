@@ -8,7 +8,7 @@ layout: speaking
 <p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
 See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyrd</a>.</p>
 
-<p>Please get in touch if you would like Peter to speak at your event or company.</p>
+<p>Please <a href="../contact">contact Peter</a> if you would like him to speak at your event or company.</p>
 
 
 ## Upcoming & recent

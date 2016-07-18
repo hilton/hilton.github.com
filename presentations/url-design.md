@@ -1,6 +1,6 @@
 ---
 title: Designing good URLs
-description: How to get a web application’s public HTTP API right
+description: The most important part of a web application’s public HTTP interface
 layout: speaking
 ---
 

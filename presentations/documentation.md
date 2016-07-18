@@ -20,6 +20,10 @@ This talk explores what we talk about when we talk about code, how we do it, and
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/NNWObhEapz69Qy" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
+## Reviews
+
+[Thoughts on ‘Documentation Avoidance for Programmers’](http://idratherbewriting.com/2016/07/09/programmer-explains-how-to-get-out-of-writing-documentation/), by Tom Johnson
+
 ## Outline
 
 * Constructive laziness, or the art of having more time to write code

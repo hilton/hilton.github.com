@@ -10,7 +10,7 @@ This talk goes beyond bad comments to discover different kinds of good comments 
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/41960704" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/41960704" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ## Presentations
 

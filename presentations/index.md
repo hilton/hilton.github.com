@@ -50,6 +50,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2016-07-19</td>
+	<td><a href="comments">How to write good comments</a></td>
+	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td><a href="http://www.slideshare.net/pirhilton/how-to-write-good-comments">slides</a></td>
+</tr>
+<tr>
 	<td>2016-07-18</td>
 	<td><a href="http">HTTP demystified for web developers</a></td>
 	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>

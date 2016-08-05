@@ -54,7 +54,7 @@ When not to write this kind of comment: when the code is obviously an essential 
 When you write clean code, it is clear how the implementation works. For example, the following code divides an amount of money by two, and even has a comment that explains why the code exists.
 
 {% highlight scala %}
-// Returns half of the given amount, so we can split the bill.
+// Splits an amount, e.g. so we can split the bill.
 def half(amount: Money) = amount.dividedBy(2, RoundingMode.UP)
 {% endhighlight %}
 
@@ -90,11 +90,11 @@ However, perhaps the function fails when the kitten is dead or if it is more tha
 These are reasonable restrictions to document in a comment:
 
 {% highlight scala %}
-// Returns a cuteness estimate for non-dead kittens less than one year old.
+// Returns a cuteness estimate for a non-dead kitten less than one year old.
 def estimateCuteness(kitten: Kitten): Int = { … }
 {% endhighlight %}
 
-The need for this kind of comment is arguable, because the code might be able to make it clear what these pre-conditions are. This introduces the trade-off between adding comments so that you can understand a function from its interface - the function signature and any explanation in the comment - versus having to read the implementation to find important details.
+The need for this kind of comment is arguable, because the code or its tests might be able to make it clear what these pre-conditions are. This introduces the trade-off between adding comments so that you can understand a function from its interface - the function signature and any explanation in the comment - versus having to read the implementation to find important details.
 
 Sometimes, a restriction is an implicit TODO task, to remove the restriction:
 

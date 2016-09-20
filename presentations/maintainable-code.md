@@ -9,3 +9,7 @@ Scala’s biggest problem isn’t adoption any more, it’s unmaintainable code.
 Attendees will see how to combine a number of techniques they have already encountered separately, plus at least one technique they’ve never heard of and can use immediately. Naming and abstraction are too hard to get right every single time, so you need to know when to add small doses of comments and documentation. More importantly, you need to know how to avoid wasting time on bad comments and unnecessary documentation without giving up entirely and not having any at all.
 
 After the excitement of early adoption, and the joy of coding among experts comes the horror of your first Scala maintenance project. As Jean-Paul Sartre said*, ‘Hell is other people’s code’. Whether you are a new Scala developer or an experienced team lead, your future developer experience and happiness depends on maintainable code.
+
+## Presentations
+
+* [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 8-9 December 2016

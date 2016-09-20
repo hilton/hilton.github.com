@@ -22,6 +22,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2014-12-08</td>
+	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
+	<td><a href="https://skillsmatter.com/conferences/7432-scala-exchange-2016">Scala eXchange</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-11-16/17</td>
 	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
 	<td><a href="http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/">Topconf</a></td>
@@ -36,17 +43,17 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2016-11-03</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="http://www.nljug.org/jfall/timetable/2016/">J-Fall</a></td>
+	<td class="flag nl">Ede</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-10-21</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="https://voxxeddays.com/thessaloniki/">Voxxed Days Thessaloniki</a></td>
 	<td class="flag gr">Thessaloniki</td>
-	<td></td>
-</tr>
-<tr>
-	<td>TBD</td>
-	<td>Introduction to Signavio Workflow</td>
-	<td>Signavio Community Day</td>
-	<td class="flag be">Antwerp</td>
 	<td></td>
 </tr>
 <tr>

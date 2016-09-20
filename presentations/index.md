@@ -138,9 +138,9 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 
 ## Work in progress and other unfinished ideas
 
-* [How to write maintainable Scala code](maintainable-code)
 * [Layout & typography for beautiful code](beautiful-code)
 * 7 joys of coding - things that bring joy to writing code
+* 4 kinds of software design for application developers
 
 
 ## Selected previous presentations

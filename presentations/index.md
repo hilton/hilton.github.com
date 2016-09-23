@@ -57,6 +57,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2016-09-21</td>
+	<td>Putting the ‘shared’ into finance shared services with collaborative models</td>
+	<td><a href="http://www.sharedservicesexchange.co.uk">Finance Shared Services & GBS Exchange</a></td>
+	<td class="flag nl">Hoofddorp</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-07-19</td>
 	<td><a href="comments">How to write good comments</a></td>
 	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>

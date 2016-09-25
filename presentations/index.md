@@ -143,13 +143,6 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </table>
 
 
-## Work in progress and other unfinished ideas
-
-* [Layout & typography for beautiful code](beautiful-code)
-* 7 joys of coding - things that bring joy to writing code
-* 4 kinds of software design for application developers
-
-
 ## Selected previous presentations
 
 <table class="table">
@@ -389,3 +382,10 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="http://blog.lunatech.com/2007/12/14/seam-action-javapolis-presentation">slides</a></td>
 </tr>
 </table>
+
+
+## Work in progress and other unfinished ideas
+
+* [Layout & typography for beautiful code](beautiful-code)
+* 7 joys of coding - things that bring joy to writing code
+* 4 kinds of software design for application developers

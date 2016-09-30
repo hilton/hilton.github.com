@@ -126,20 +126,6 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td class="flag de">Berlin</td>
 	<td></td>
 </tr>
-<tr>
-	<td>2015-06-06</td>
-	<td><a href="http://www.typesafe.com/subscription/training">Fast Track To Play With Scala</a> (training course)</td>
-	<td><a href="http://event.scaladays.org/scaladays-amsterdam-2015#03-Training">Scala Days 2015</a></td>
-	<td class="flag nl">Amsterdam</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2015-05-28</td>
-	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.meetup.com/010DEV/events/221930670/">Joy of Coding Warm-Up Party</a></td>
-	<td class="flag nl">Rotterdam</td>
-	<td></td>
-</tr>
 </table>
 
 
@@ -153,6 +139,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Event</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2015-06-06</td>
+	<td><a href="http://www.typesafe.com/subscription/training">Fast Track To Play With Scala</a> (training course)</td>
+	<td><a href="http://event.scaladays.org/scaladays-amsterdam-2015#03-Training">Scala Days 2015</a></td>
+	<td class="flag nl">Amsterdam</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2015-04-24</td>

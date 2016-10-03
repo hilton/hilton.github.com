@@ -1,6 +1,6 @@
 ---
 title: Where to start documenting a legacy system
-description: Which docs you need first, to help developers understand a system
+description: What new team members need, to understand a system
 tags: documentation
 layout: hh
 ---

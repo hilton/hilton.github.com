@@ -23,14 +23,14 @@ However, programmers choose new jobs for different and more positive reasons, wh
 **1. Open-source software - using it and contributing**
 
 Programmers want to use open-source software, participate in open-source communities and work on open-source projects.
-Programmers want this for reasons to numerous or personal to list, but many boil down to the value of peer acceptance and sense of self-worth.
+Programmers want this for reasons too numerous or personal to list, but many boil down to the value of peer acceptance and sense of self-worth.
 And some programmers just like to socialise more.
 
 **2. Technical challenges and tech fashions**
 
 Programmers like to use fancy technology to solve hard problems.
 After all, [motivation](http://www.danpink.com/books/drive/) requires an element of technical mastery.
-Of course, fashion drives a lot of software architecture, and programmers want to think they’re learning up-to-date technology, rather than last the decade’s languages, platforms, frameworks and libraries.
+Of course, fashion drives a lot of software architecture, and programmers want to think they’re learning up-to-date technology, rather than last decade’s languages, platforms, frameworks and libraries.
 
 **3. Tools & equipment - the best money can buy**
 
@@ -63,7 +63,7 @@ Programmers work within [many different business models](http://www.amazon.co.uk
 
 **8. Location - walking/cycling to work or working from home**
 
-Nobody really likes commuting - spending one our two hours per day in a train or car.
+Nobody really likes commuting - spending one or two hours per day in a train or car.
 People accept commuting when they have no alternative; when an alternative becomes available, it promises a radical lifestyle improvement.
 
 **9. Money - more of it**

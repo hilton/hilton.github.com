@@ -38,7 +38,7 @@ Fortunately, programmers are creative people.
 
 There’s a chance that despite his substantial contribution to programming humour, among other accomplishments, Phil Karlton actually did us a disservice by encouraging us to be intimidated by having to name things.
 
-<blockquote class="big solid-two">
+<blockquote class="big solid-two" style="max-width:28em">
 <p>‘There are two problems in computer science: there’s only one joke, and it isn’t funny.’</p>
 </blockquote>
 
@@ -53,7 +53,7 @@ Naming matters for both idealogical and practical reasons.
 First of all, we want names to exhibit truth and beauty: to be the right names, and to make our code clean and beautiful.
 At least, this is what we want to think about our code, but naming’s importance is far more practical.
 
-<blockquote class="big solid-three">
+<blockquote class="big solid-three" style="max-width:30em">
 <p>‘Programs are meant to be read by humans and only incidentally for computers to execute.’</p>
 <p>- Donald Knuth</p>
 </blockquote>

@@ -44,7 +44,7 @@ There’s a chance that despite his substantial contribution to programming humo
 
 Perhaps the joke’s on us, and naming isn’t actually that hard, after all.
 Naming is just one part of the micro-design activity that we call programming.
-If design weren’t hard, good we wouldn’t find good design so satisfying.
+If design weren’t hard, we wouldn’t find good design so satisfying.
 
 
 ## Why naming matters

@@ -22,7 +22,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2014-12-08</td>
+	<td>2016-12-08</td>
 	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
 	<td><a href="https://skillsmatter.com/conferences/7432-scala-exchange-2016">Scala eXchange</a></td>
 	<td class="flag uk">London</td>
@@ -54,6 +54,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="https://voxxeddays.com/thessaloniki/">Voxxed Days Thessaloniki</a></td>
 	<td class="flag gr">Thessaloniki</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-10-12</td>
+	<td>Code Smells</td>
+	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
+	<td class="flag de">Berlin</td>
 	<td></td>
 </tr>
 <tr>

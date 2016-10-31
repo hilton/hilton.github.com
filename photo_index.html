@@ -4,7 +4,8 @@ description: Index of photo captions.
 layout: hh
 ---
 
+{% if site.categories.photo %}
 {% assign sorted_pages = site.categories.photo | sort: 'title' %}
-
 {% for page in sorted_pages %}
 <p><a href="{{ page.url }}">{{ page.title }}</a></p>{% endfor %}
+{% endif %}

@@ -61,7 +61,7 @@ Trust me on this.
 ## Abbreviated names
 
 `acc` and `pos` look like abbreviated forms of words, which causes problems when you realise that you have to choose between words like `accumulator` and `accuracy`, or between `position` and `point of sale`.
-Abbreviations tend to suffer from ambiguity, since multiple words often share the same abbreviation.
+Abbreviations tend to suffer from ambiguity since multiple words often share the same abbreviation.
 
 `char`, `mod` and `auth` are more subtly ambiguous, because people may use them as standard abbreviations within specific contexts.
 This stops working when you switch context: when `character` becomes `characteristic` and `modulus` becomes `model`.
@@ -72,7 +72,7 @@ Refactor abbreviations to the complete word, which is easy as long as you know w
 
 ## Short names
 
-`a` and other single-letter names have more possible explanations that straight abbreviation, which makes them worse.
+`a` and other single-letter names have more potential explanations than abbreviation, which makes them worse.
 `a` might abbreviate a word, like `answer`, but it might also be used as a meaningless placeholder, either because it comes first in the alphabet or because `foo` was too long to type.
 
 Single-letter names are _meta-ambiguous_ because they’re ambiguous about which kind of ambiguity you’re dealing with.
@@ -116,7 +116,7 @@ Meanwhile, we have already reached peak Haskell:
 
 `InvoiceManager` suffers from a vague noun.
 Who knows what a _manager_ really does?
-[Alan Green wrote](www.bright-green.com/blog/2003_02_25/naming_java_classes_without_a.html) about the ‘-Manager’ problem, and suggests a number of more meaningful alternatives, such as `bucket`, `supervisor`, `planner` and `builder`.
+[Alan Green wrote](www.bright-green.com/blog/2003_02_25/naming_java_classes_without_a.html) about the ‘-Manager’ problem, and suggests some more meaningful alternatives, such as `bucket`, `supervisor`, `planner` and `builder`.
 
 `getScore`, on the other hand, suffers from a vague verb.
 Rename names with a `get` prefix to use a more specific verb, such as `calculateScore` or `estimateScore`.
@@ -130,7 +130,7 @@ A related anti-pattern results from the names `isScore` and `hasScore` for a Boo
 
 `isVictory` and `dateCreated` have prefixes that indicate Boolean and date types, respectively.
 This is a kind of vestigial Hungarian notation.
-In naming, [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) takes the title of the most spectacular example of something that _seemed like a good idea at the time but isn’t any more_, now that we have languages with types.
+In naming, [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) takes the title of the most spectacular example of something that _seemed like a good idea at the time but isn’t anymore_, now that we have languages with types.
 
 These names may be useful in stringly-typed languages, but you don’t need them in languages like Java and C#, where you can define your own types. Rename to drop the prefix - `victory` and `created`, and use the appropriate type.
 
@@ -154,11 +154,11 @@ In the case of a `text_correction_by_editor`, referring to the person who edits 
 ## Wrong names
 
 `order` or `carrier`, depending on the context, can be the right name for the wrong thing, i.e. the wrong name.
-In a supply chain context, for example, an _order_ might be related to a _shipment_, but isn’t the same thing.
+In a supply chain context, for example, an _order_ might be related to a _shipment_ but isn’t the same thing.
 Similarly, a _carrier_ probably isn’t the same kind of organisation as a _broker_.
 Some names are just wrong.
 
-Spotting and fixing wrong names can prove difficult, because you need some other clue that the intended concept is actually something else.
+Spotting and fixing wrong names can prove difficult because you need some other clue that the intended concept is something else.
 Documentation benefits from a little repetition, which builds confidence in the intended meaning.
 If you only have one clock, you don’t know if it has the right time.
 If you have two clocks that differ, you don’t know which one is wrong.

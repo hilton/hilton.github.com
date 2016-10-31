@@ -17,7 +17,10 @@ h1, h2, h3 {
 h3 { 
 	clear:left; }
 
-.content p, .content li {
+code {
+	font-size:86%; }
+
+.content p, .content ol, .content ul {
 	font-size: 120%;
 	max-width: 40em; }
 .content blockquote p, .content blockquote li {

@@ -113,6 +113,7 @@ Meanwhile, we have already reached peak Haskell:
 
 ![Peak Haskell naming](haskell-hieroglyphics.png)
 
+_Note: this graphic came from someone else’s tweet, which I cannot now find. Please let me know if you know the correct source._
 
 ## Vague words
 

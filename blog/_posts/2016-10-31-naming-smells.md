@@ -89,15 +89,17 @@ If you’re wondering whether it’s okay to make a _for-loop_ index exception, 
 And before you whine that single-letter names are okay _because Haskell_, one letter is too short in functional programming as well.
 
 {% highlight Scala %}
-def modp[C]
-  (f: B1⇒(B2,C), a:A1): (A2,C) = {
-  val (b,c) = f(get(a))
-  (set(a,b),c)
+/** Modify the value viewed through the lens, returning a `C` on the side. */
+def modp[C](f: B1 => (B2, C), a: A1): (A2, C) = {
+  val (b, c) = f(get(a))
+  (set(a, b), c)
 }
 {% endhighlight %}
 
-This incomprehensible uncommented method from the [`Lens`](https://github.com/scalaz/scalaz/blob/series/7.2.x/core/src/main/scala/scalaz/Lens.scala
-) class in [Scalaz](https://github.com/scalaz/scalaz) is [Scala](http://scala-lang.org/) code written with a [Haskell](https://en.wikipedia.org/wiki/Haskell_%28programming_language%29) accent.
+This method from the [`Lens`](https://github.com/scalaz/scalaz/blob/series/7.2.x/core/src/main/scala/scalaz/Lens.scala
+) class in [Scalaz](https://github.com/scalaz/scalaz) defies comprehension.
+This is what [Scala](http://scala-lang.org/) code written with a [Haskell](https://en.wikipedia.org/wiki/Haskell_%28programming_language%29) accent looks like.
+At least there’s a comment that tells you what `modp` is supposed to mean.
 
 Haskell presumably uses single-letter names because the mathematicians who invented the language use single-letters in written mathematics.
 What this Haskell-style code seems to ignore is that written mathematics includes paragraphs of text and precise symbolic definitions that explain what each name means.

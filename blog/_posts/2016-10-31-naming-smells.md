@@ -119,7 +119,7 @@ _Note: this graphic came from someone else’s tweet, which I cannot now find. P
 
 `InvoiceManager` suffers from a vague noun.
 Who knows what a _manager_ really does?
-[Alan Green wrote](www.bright-green.com/blog/2003_02_25/naming_java_classes_without_a.html) about the ‘-Manager’ problem, and suggests some more meaningful alternatives, such as `bucket`, `supervisor`, `planner` and `builder`.
+[Alan Green wrote](http://www.bright-green.com/blog/2003_02_25/naming_java_classes_without_a.html) about the ‘-Manager’ problem, and suggests some more meaningful alternatives, such as `bucket`, `supervisor`, `planner` and `builder`.
 
 `getScore`, on the other hand, suffers from a vague verb.
 Rename names with a `get` prefix to use a more specific verb, such as `calculateScore` or `estimateScore`.

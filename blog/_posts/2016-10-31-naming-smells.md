@@ -109,11 +109,9 @@ What this Haskell-style code seems to ignore is that written mathematics include
 
 `>=>` ends up being called the [fish operator](https://github.com/yannmoisan/hands-on-scalaz#main-symbols---thanks-to-reactormonk) by the Scalaz programmers who don’t know what it’s called.
 This ASCII-art fish follows mathematics’ tradition of starting with single-letter names, running out of letters, subsequently exhausting the Greek and Hebrew alphabets, and then inventing new symbols in the vain hope that they’ll catch on.
-Meanwhile, we have already reached peak Haskell:
+Meanwhile, we have already reached peak Haskell, as noted in a [tweet](https://twitter.com/aisamanra/status/579040253169668096) by [@aisamanra](https://twitter.com/aisamanra):
 
 ![Peak Haskell naming](haskell-hieroglyphics.png)
-
-_Note: this graphic came from someone else’s tweet, which I cannot now find. Please let me know if you know the correct source._
 
 ## Vague words
 

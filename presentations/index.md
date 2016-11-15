@@ -151,6 +151,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td>2015-06-06</td>
 	<td><a href="http://www.typesafe.com/subscription/training">Fast Track To Play With Scala</a> (training course)</td>
 	<td><a href="http://event.scaladays.org/scaladays-amsterdam-2015#03-Training">Scala Days 2015</a></td>
+	<td>training</td>
 	<td class="flag nl">Amsterdam</td>
 	<td></td>
 </tr>

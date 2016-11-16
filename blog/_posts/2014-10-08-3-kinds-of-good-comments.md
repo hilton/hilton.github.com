@@ -1,7 +1,7 @@
 ---
 title: 3 kinds of good comments
 description: Code tells you what and how - you need comments to say why
-tags: programming
+tags: programming comments
 layout: hh
 ---
 
@@ -41,7 +41,7 @@ If you can write a clear answer to these questions in a single sentence, then th
 A block of code cannot explain why it exists, however clean and beautiful it is. Instead, write a comment that explains why the code is there:
 
 {% highlight scala %}
-// Photo of a kitten to console a trader after a loss, with 
+// Photo of a kitten to console a trader after a loss, with
 // cuteness proportional to the magnitude of the loss.
 case class Kitten(photo: URL, cutenessScore: Int)
 {% endhighlight %}
@@ -58,7 +58,7 @@ When you write clean code, it is clear how the implementation works. For example
 def half(amount: Money) = amount.dividedBy(2, RoundingMode.UP)
 {% endhighlight %}
 
-But why are we using [Joda Money](http://www.joda.org/joda-money/) instead of just dividing a numeric amount? The code cannot explain why you didn’t choose a different implementation - an alternative approach or a different algorithm. 
+But why are we using [Joda Money](http://www.joda.org/joda-money/) instead of just dividing a numeric amount? The code cannot explain why you didn’t choose a different implementation - an alternative approach or a different algorithm.
 
 Also, why does the division round up, rather than down or to the nearest amount? The same kind of question applies to the functional details, as well as the implementation approach.
 
@@ -107,4 +107,3 @@ def estimateCuteness(kitten: Kitten): Int = { … }
 When not to write this kind of comment: if you can find a way to make it clear in the code what the restrictions are or, even better, enforce them in the types you use. For example, the `Kitten` type could already enforce an age less than one year. In fact, if you find yourself writing detailed comments about function parameters and return values, then perhaps you should move to a more strongly-typed programming language.
 
 _Photo: [jmenj](https://www.flickr.com/photos/jmenj/9597334273) / [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)_
-

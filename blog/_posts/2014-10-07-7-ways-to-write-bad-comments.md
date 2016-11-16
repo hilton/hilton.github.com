@@ -1,7 +1,7 @@
 ---
 title: 7 ways to write bad comments
 description: Things you don’t want to do to your code
-tags: programming
+tags: programming comments
 layout: hh
 ---
 

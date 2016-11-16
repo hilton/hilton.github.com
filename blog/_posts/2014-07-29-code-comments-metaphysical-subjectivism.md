@@ -1,7 +1,7 @@
 ---
 title: Code comments and metaphysical subjectivism
 description: The philosophy of software maintenance and the objective meaning of legacy code
-tags: programming
+tags: programming comments
 layout: hh
 ---
 

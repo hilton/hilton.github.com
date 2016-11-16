@@ -1,7 +1,7 @@
 ---
 title: How to comment code
 description: What you have to actually do to get good comments
-tags: programming
+tags: programming comments
 layout: hh
 ---
 

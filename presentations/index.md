@@ -22,10 +22,17 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2016-12-08</td>
+	<td>2016-12-09</td>
 	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
 	<td><a href="https://skillsmatter.com/conferences/7432-scala-exchange-2016">Scala eXchange</a></td>
 	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-12-07</td>
+	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
+	<td><a href="https://www.meetup.com/brabant-scala/events/235797609/">Brabant.scala</a></td>
+	<td class="flag nl">Eindhoven</td>
 	<td></td>
 </tr>
 <tr>

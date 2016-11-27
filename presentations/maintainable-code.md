@@ -12,4 +12,5 @@ After the excitement of early adoption, and the joy of coding among experts come
 
 ## Presentations
 
-* [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 8-9 December 2016
+* [Brabant.scala](https://www.meetup.com/brabant-scala/events/235797609/) - 7 December 2016
+* [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 9 December 2016

@@ -10,7 +10,7 @@ Modern workflow management tools enable a convenient process-oriented approach t
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/2b7Ffrxmycwlri" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2b7Ffrxmycwlri" width="640" height="444" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ## Conference presentations
 

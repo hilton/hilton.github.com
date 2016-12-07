@@ -18,7 +18,7 @@ This talk explores what we talk about when we talk about code, how we do it, and
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/NNWObhEapz69Qy" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/NNWObhEapz69Qy" width="640" height="444" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ## Reviews
 

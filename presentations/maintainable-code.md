@@ -10,6 +10,10 @@ Attendees will see how to combine a number of techniques they have already encou
 
 After the excitement of early adoption, and the joy of coding among experts comes the horror of your first Scala maintenance project. As Jean-Paul Sartre said*, ‘Hell is other people’s code’. Whether you are a new Scala developer or an experienced team lead, your future developer experience and happiness depends on maintainable code.
 
+## Slides
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mNReVAH4S9nkfD" width="640" height="444" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 ## Presentations
 
 * [Brabant.scala](https://www.meetup.com/brabant-scala/events/235797609/) - 7 December 2016

@@ -12,7 +12,7 @@ After the excitement of early adoption, and the joy of coding among experts come
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/mNReVAH4S9nkfD" width="640" height="444" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mNReVAH4S9nkfD" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ## Presentations
 

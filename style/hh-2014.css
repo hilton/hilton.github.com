@@ -12,9 +12,9 @@ section nav a {
 .nav > li > a {
 	padding: 0 1em; }
 
-h1, h2, h3 { 
+h1, h2, h3 {
 	font-weight: 300; }
-h3 { 
+h3 {
 	clear:left; }
 
 code {
@@ -29,6 +29,13 @@ code {
 .content img {
 	max-width: 100%;
 	height: auto; }
+
+.content .banner p {
+	max-width:100%;
+}
+.content .banner img {
+	margin:0;
+}
 
 section {
 	min-height: 10px;
@@ -111,7 +118,7 @@ footer a {
 	border:solid 4px black; margin:0; }
 .content img.icon {
 	border:none; margin:0; }
-.content div.indent { 
+.content div.indent {
 	margin-left: 328px; padding-left: 1em; min-height:328px; clear:left; }
 
 /* /blog/ */
@@ -136,7 +143,7 @@ footer a {
 	-moz-filter: none;
 	-o-filter: none;
 	-ms-filter: none; }
-	
+
 .social, .social2, .comments {
 	margin-top: 3em; }
 
@@ -153,7 +160,7 @@ blockquote.big p {
 
 blockquote.big a {
 	color: inherit; }
-	
+
 .solid-one {
 	background-color: #334D5C ! important; }
 .solid-two {
@@ -182,4 +189,3 @@ blockquote.big a {
 .pl {	background-image: url(../picture/icon/pl.png) }
 .se {	background-image: url(../picture/icon/se.png) }
 .uk {	background-image: url(../picture/icon/uk.png) }
-	

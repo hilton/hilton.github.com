@@ -26,11 +26,21 @@ src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessal
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2016-12-15</td>
+	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
+	<td><a href="https://www.meetup.com/amsterdam-scala/events/235864793/">Amsterdam.scala</a></td>
+	<td class="flag nl">Amsterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-12-09</td>
 	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
 	<td><a href="https://skillsmatter.com/conferences/7432-scala-exchange-2016">Scala eXchange</a></td>
 	<td class="flag uk">London</td>
-	<td></td>
+	<td>
+		<a href="http://www.slideshare.net/pirhilton/how-to-write-maintainable-scala-code">slides</a>
+		<a href="https://skillsmatter.com/skillscasts/9104-how-to-write-maintainable-scala-code#video">video</a>
+	</td>
 </tr>
 <tr>
 	<td>2016-12-07</td>
@@ -44,14 +54,14 @@ src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessal
 	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
 	<td><a href="http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/processoriented-reactive-service-architecture">slides</a></td>
 </tr>
 <tr>
 	<td>2016-11-16</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://topconf.com/tallinn-2016/trackevent/documentation-avoidance-for-developers/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
-	<td></td>
+	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a></td>
 </tr>
 <tr>
 	<td>2016-11-03</td>
@@ -100,7 +110,7 @@ src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessal
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
 	<td class="flag nl">Rotterdam</td>
-	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a></td>
+	<td></td>
 </tr>
 <tr>
 	<td>2016-06-13</td>

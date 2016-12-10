@@ -10,6 +10,10 @@ Attendees will see how to combine a number of techniques they have already encou
 
 After the excitement of early adoption, and the joy of coding among experts comes the horror of your first Scala maintenance project. As Jean-Paul Sartre said*, ‘Hell is other people’s code’. Whether you are a new Scala developer or an experienced team lead, your future developer experience and happiness depends on maintainable code.
 
+## Video
+
+[_How to write maintainable Scala code_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/9104-how-to-write-maintainable-scala-code#video)
+
 ## Slides
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/mNReVAH4S9nkfD" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>

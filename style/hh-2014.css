@@ -20,7 +20,7 @@ h3 {
 code {
 	font-size:86%; }
 
-.content p, .content ol, .content ul {
+.content p, .content ol, .content ul, .content blockquote {
 	font-size: 120%;
 	max-width: 40em; }
 .content blockquote p, .content blockquote li {

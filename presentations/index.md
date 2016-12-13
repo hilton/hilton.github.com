@@ -1,9 +1,8 @@
 ---
+title: Presentations & other appearances
 categories: speaking
 layout: speaking
 ---
-
-# Presentations & other appearances
 
 <p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
 See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyrd</a>.</p>

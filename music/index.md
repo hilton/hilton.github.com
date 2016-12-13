@@ -1,9 +1,8 @@
 ---
+title: Early music - singing
 categories: music
 layout: music
 ---
-
-# Singing
 
 Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. During his recent sabbatical in London (July-December 2014), Peter sang with various ensembles and attending a number of workshops.
 
@@ -95,7 +94,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br><em>The Lacock Scholars</em> (as guest singer)
 <br>Sunday, 28 September 2014
 <br><a href="http://www.saintcuthbert.org">St Cuthbert's Church</a>, 50 Philbeach Gardens, Earl's Court, SW5 9EB London
-<br><a href="https://www.youtube.com/watch?v=1DeSHsybbgA">video clip</a>, 
+<br><a href="https://www.youtube.com/watch?v=1DeSHsybbgA">video clip</a>,
 <a href="https://www.youtube.com/watch?v=uo2oWmxjILI">video clip</a></p>
 
 </div>

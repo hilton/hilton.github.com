@@ -28,16 +28,16 @@
 	<h1>Rotterdam cafes &amp; restaurants</h1>
 
 	{% if page.title %}
-	
-	<div class="review" itemscope itemtype="http://schema.org/Review">	
-	
+
+	<div class="review" itemscope itemtype="http://schema.org/Review">
+
 		<div itemprop="itemReviewed" itemscope itemtype="http://schema.org/LocalBusiness">
-			<h3 id="{{ page.slug }}"><span itemprop="name">{{ page.title }}</span>, 
+			<h3 id="{{ page.slug }}"><span itemprop="name">{{ page.title }}</span>,
 			<span itemprop="address">{{ page.address }},
 			<span itemprop="locality">Rotterdam</span></span>{% if page.telephone %}, {{ page.telephone }}{% endif %}
 			<a itemprop="url" href="{{ page.website }}">{{ page.website }}</a>
 			</h3>
-			
+
 			<div class="left">
 				<p><img src="../facade/rotterdam-{{ page.slug }}.jpg" alt="{{ page.name }}"></p>
 				{% if page.lat %}
@@ -55,12 +55,12 @@
 				{% endif %}
 			</div>
 		</div>
-		
+
 		<p>One of {{ site.categories.rotterdam | size }}
 		<a href="{{ home }}rotterdam.html">Rotterdam Cafe &amp; Restaurant reviews</a>.</p>
-		
+
 		{{ content }}
-	
+
 		<div class="notes">
 			<p class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
 			{% if page.rating %}Rating <span itemprop="ratingValue">{{ page.rating }}</span>/5 •{% endif %}
@@ -69,9 +69,9 @@
 			{% if page.visited %}•
 			review updated <time itemprop="dtreviewed" datetime="{{ page.visited }}">{{ page.visited | date: '%d %B %Y' }}</time>{% endif %}
 			</p>
-			{% if page.tags != empty %}<p class="tags">Tags: <span itemprop="keywords">{{ page.tags | join, ' ' }}</span></p>{% endif %}
+			{% if page.tags != empty %}<p class="tags">Tags: <span itemprop="keywords">{{ page.tags | join: ' ' }}</span></p>{% endif %}
 		</div>
-	
+
 	</div>
 {% else %}
 

@@ -26,6 +26,10 @@ The surprising thing about naming things well in code is not that it’s hard, b
 * [Softwire](http://www.softwire.com) - 17 December 2014
 * [ACCU 2015](http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule) - 24 April 2015
 
+## Podcast interview
+
+* [SE-Radio Episode 278: Peter Hilton on Naming](http://www.se-radio.net/2016/12/se-radio-episode-278-peter-hilton-on-naming/)
+
 ## Comments
 
 * [‘How to name things’ on Hacker News](https://news.ycombinator.com/item?id=9598527)

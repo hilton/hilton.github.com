@@ -10,6 +10,8 @@ This session first explores the similarities between writing and coding, and use
 
 The surprising thing about naming things well in code is not that it’s hard, but how easy it is to accept bad names. This is a hard problem that’s worth working on, because although you can’t make the naming problem go away, you can learn to write much better code regardless of which technologies you use.
 
+Read more: [blog posts about naming](../tag/naming)
+
 ## Video
 
 [_How to name things_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming)

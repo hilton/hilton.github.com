@@ -23,3 +23,4 @@ After the excitement of early adoption, and the joy of coding among experts come
 * [Brabant.scala](https://www.meetup.com/brabant-scala/events/235797609/) - 7 December 2016
 * [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 9 December 2016
 * [Amsterdam.scala](https://www.meetup.com/amsterdam-scala/events/235864793/) - 15 December 2016
+* [Data Driven Rijnmond](https://www.meetup.com/Data-Driven-Rijnmond/events/236256531/) - 10 February 2017

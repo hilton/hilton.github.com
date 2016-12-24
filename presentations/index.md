@@ -23,6 +23,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2017-02-10</td>
+	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
+	<td><a href="https://www.meetup.com/Data-Driven-Rijnmond/events/236256531/">Data Driven Rijnmond</a></td>
+	<td class="flag nl">Capelle aan den IJssel</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2016-12-15</td>
 	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
 	<td><a href="https://www.meetup.com/amsterdam-scala/events/235864793/">Amsterdam.scala</a></td>

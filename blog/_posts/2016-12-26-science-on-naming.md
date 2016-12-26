@@ -23,7 +23,7 @@ They then state that good identifiers are made of existing words from a dictiona
 
 In _Relating Identifier Naming Flaws and Code Quality: an empirical study_, on the other hand, [Butler et al (2009)](https://www.researchgate.net/publication/224079441_Relating_Identifier_Naming_Flaws_and_Code_Quality_An_Empirical_Study) use a list of ‘Identifier naming style guidelines’ to identify naming flaws.
 
-![Identifier naming style guidelines](naming-linguistic-anti-patterns.png)
+![Identifier naming style guidelines](naming-guidelines-butler.png)
 
 As you can see, this is a broader list than Lawrie’s, as ‘Dictionary Words’ is just one of the items on the list.
 
@@ -35,7 +35,7 @@ Here’s hoping that he replies to our email.
 In _Linguistic Antipatterns: What They Are and How Developers Perceive Them_, [Arnaoudova et al (2015)](http://www.veneraarnaoudova.com/wp-content/uploads/2014/10/2014-EMSE-Arnaodova-et-al-Perception-LAs.pdf) takes yet another approach.
 She analyzed source code from three open-source Java projects (ArgoUML, Cocoon, and Eclipse) and categorized the flaws they found into seventeen categories.
 
-![Linguistic anti-patterns](Arnaodova_15 anti-patterns.png)
+![Linguistic anti-patterns](naming-linguistic-anti-patterns.png)
 
 These are mostly method naming problems in which the method name does not match the method body.
 This differs from the kind of naming smell that identifies the kind of identifiers that causes problems regardless of context, such as abbreviations.

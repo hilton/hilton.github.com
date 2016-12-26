@@ -1,6 +1,6 @@
 ---
 title: What science says about naming
-description: Computer science papers about naming
+description: Computer science papers about naming (co-written with Felienne Hermans)
 layout: hh
 tags: naming programming
 ---

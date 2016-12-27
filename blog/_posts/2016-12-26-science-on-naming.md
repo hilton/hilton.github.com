@@ -32,6 +32,8 @@ Unfortunately, we were not able to find this presentation, called _Achieving sof
 The link in the paper is dead and we could not find him on Twitter either :(
 Here’s hoping that he replies to our email.
 
+**Update: Phillip Relf sent a copy of his 2004 paper, which turns out to be a good read, and potentially material for another blog post.**
+
 In _Linguistic Antipatterns: What They Are and How Developers Perceive Them_, [Arnaoudova et al (2015)](http://www.veneraarnaoudova.com/wp-content/uploads/2014/10/2014-EMSE-Arnaodova-et-al-Perception-LAs.pdf) takes yet another approach.
 She analyzed source code from three open-source Java projects (ArgoUML, Cocoon, and Eclipse) and categorized the flaws they found into seventeen categories.
 

@@ -35,3 +35,5 @@ Read more: [blog posts about naming](../tag/naming)
 ## Comments
 
 * [‘How to name things’ on Hacker News](https://news.ycombinator.com/item?id=9598527)
+* [Naming is hard - or is it?](http://www.levelofindirection.com/journal/2015/5/1/naming-is-hard-or-is-it.html)
+* [Jokey Code?](http://wordaligned.org/articles/jokey-code)

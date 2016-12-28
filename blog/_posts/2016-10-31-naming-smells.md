@@ -165,3 +165,8 @@ If you only have one clock, you don’t know if it has the right time.
 If you have two clocks that differ, you don’t know which one is wrong.
 Only three clocks give you more confidence in the correct time than one, assuming that it’s unlikely for more than one to be wrong.
 Naming and documentation are like a pocket watch and a clock, in that respect.
+
+
+## Reactions
+
+* [On Naming Smells - Vaidas Pilkauskas](http://pilkauskas.lt/design/2016/11/06/on-naming-smells.html)

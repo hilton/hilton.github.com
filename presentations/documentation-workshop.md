@@ -35,7 +35,7 @@ The following list of sessions forms a basis for a schedule, which retains flexi
 2. README Driven Development - a technique for Minimum Viable Documentation. Exercise: develop an outline for the ideal project README with sticky notes.
 3. Technical writing techniques - learn the basics for better documentation. Exercise: Critique and review a documentation sample, and apply the presented techniques.
 4. Documentation process. Exercise: map out your own ideal documentation process with stickies, to identify documentation tasks, roles and key events.
-5. Documentation-avoidance. Exercise: group quiz with examples architecture and code that can improved to make its documentation unnecessary.
+5. Documentation-avoidance. Exercise: group quiz with examples of architecture and code that can improved to make its documentation unnecessary.
 6. Wrap-up.
 
 Depending on the length of the workshop, more or fewer 20-minute sessions can be accommodated but experience shows that having this format works well.

@@ -113,6 +113,9 @@ This paper’s specific findings mean that you can expect to find numerous writt
 However, don’t expect to find all guidelines equally acceptable.
 Furthermore, consider that novice developers may require more work explanation that more experienced developers.
 
+Beyond the paper’s results, you may choose to the collected guidelines directly.
+This kind of of guideline belongs in a coding standards (code review) checklist, or as part of automated checks.
+
 ## References
 
 P. Relf, _Achieving Software Quality through Source Code Readability_ (2004)

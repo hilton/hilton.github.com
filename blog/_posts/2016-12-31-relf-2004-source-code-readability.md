@@ -1,8 +1,8 @@
 ---
-title: Paper review: Achieving Software Quality through Source Code Readability
+title: "Paper review: Achieving Software Quality through Source Code Readability"
 description: A computer science paper reviewed from an industry perspective.
 layout: hh
-tags: naming, readability, paper
+tags: naming readability paper
 ---
 
 This blog post reviews  _Achieving Software Quality through Source Code Readability_, which Phillip Relf presented at [Qualcon 2004](http://2014.qualcon.com.au), an Australian software quality conference.

@@ -60,8 +60,7 @@ No | Guideline | Example violation | R
 17 | Similar Identifier Names i.e., the appearance of two similar identifier names both in scope | `Apple_Count` Procedure … `Apple_Counts` | 3
 18 | Unused Identifier i.e., an identifier declared by never used | N/A | 1
 19 | Same Words i.e., two identifiers composed of the same words but used in a different order | `Apple_Count` … `Count_Apple` | 1
-20 | Enumeration Identifier Definition Order i.e., enumeration constants declared in non-alphabetical order | `Type Colour_Type is (Colour_Red, Colour_Blue, 
-Colour_Green)` | 2
+20 | Enumeration Identifier Definition Order i.e., enumeration constants declared in non-alphabetical order | `Type Colour_Type is (Colour_Red, Colour_Blue, Colour_Green)` | 2
 21 | Enumeration Identifier Qualification i.e., the non-qualification of enumeration constants to identify their base type | `Type Colour_Type is (Blue, Green, Red)` | 5
 
 To illustrate why someone might not accept all of these guidelines, the following paragraphs explain my rationale for those I do not ‘strongly accept’.

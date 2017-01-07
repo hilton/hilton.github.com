@@ -37,6 +37,16 @@ code {
 	margin:0;
 }
 
+.content table {
+	border-collapse: collapse;
+	margin: 1.5em 0;
+}
+.content th, .content td {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.2em 0.5em;vertical-align: top;
+}
+
 section {
 	min-height: 10px;
 	color: white; }

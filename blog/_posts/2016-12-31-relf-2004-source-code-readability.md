@@ -49,7 +49,7 @@ No | Guideline | Example violation | R
 6 | **Identifier Encoding** i.e., the use of Hungarian notation to attach the identifier data type to the identifier name | `iApple_Count` | 1
 7 | **Short Identifier Name** i.e., an identifier name shorter than eight characters, excluding: `i`, `j`, `k`. `l`, `m`, `n`, `t`, `x`, `y` or `z` | `Count` | 4
 8 | **Long Identifier Name** i.e., an identifier name longer than twenty characters | `Foreign_And_Domestic_Apple_Count` | 2
-9 | **Number of Words** i.e., an identifier should consist of two, three or four words | `Count` | 3 
+9 | **Number of Words** i.e., an identifier should consist of two, three or four words | `Count` | 3
 10 | **Class/Type Qualification** i.e., class names and type names should be qualified to identify their nature | `Fruit` (`FruitClass` and `Fruit_Tree` is considered more readable) | 5
 11 | **Abstract Words** i.e., the construction of an identifier only using abstract words | `Do_It` | 1
 12 | **English Word(s)** i.e., the use of ‘words’ not found in the English language | `App_Cnt` | 1
@@ -60,14 +60,14 @@ No | Guideline | Example violation | R
 17 | **Similar Identifier Names** i.e., the appearance of two similar identifier names both in scope | `Apple_Count` Procedure … `Apple_Counts` | 3
 18 | **Unused Identifier** i.e., an identifier declared by never used | N/A | 1
 19 | **Same Words** i.e., two identifiers composed of the same words but used in a different order | `Apple_Count` … `Count_Apple` | 1
-20 | **Enumeration Identifier Definition** Order i.e., enumeration constants declared in non-alphabetical order | `Type Colour_Type is (Colour_Red, Colour_Blue, Colour_Green)` | 2
+20 | **Enumeration Identifier Definition Order** i.e., enumeration constants declared in non-alphabetical order | `Type Colour_Type is (Colour_Red, Colour_Blue, Colour_Green)` | 2
 21 | **Enumeration Identifier Qualification** i.e., the non-qualification of enumeration constants to identify their base type | `Type Colour_Type is (Blue, Green, Red)` | 5
 
 To illustrate why someone might not accept all of these guidelines, the following paragraphs explain my rationale for those I do not ‘strongly accept’.
 
 **7. Short Identifier Name**.
 I don’t use this guideline, in practice, because I’m more concerned about avoiding abbreviations (guideline 12) than that names should not be too short.
-In fact, I'd partly accept this guideline, were it not for it’s exception for single-letter names, which I consider the worst kind of abbreviation.
+In fact, I’d partly accept this guideline, were it not for its exception for single-letter names, which I consider the worst kind of abbreviation.
 
 **8. Long Identifier Name**.
 I only partly accept this guideline, because I prefer names to be as long as necessary.
@@ -99,7 +99,7 @@ I partly accept this guideline, which at least requires an order and thus preven
 However, some enumerations, such as weekdays, have their own non-alphabetical _natural_ order.
 Fortunately, we follow guidelines blindly.
 
-**21. Enumeration Identifier Qualification**.
+**21. Enumeration Identifier Qualification Order**.
 Adding an enumeration type’s name to its constants’ name make as little sense as adding a class’ name to its instances’ names (or guideline come to that).
 Fortunately, I’ve never seen this in practice.
 
@@ -126,5 +126,5 @@ Pearse, Troy; Oman, Paul (1995) _Maintainability Measurements on Industrial Sour
 
 Spinellis, Diomidis (2003) _Reading Writing and Code_. ACM: Queue. October 2003, Vol: 1, No: 7, pp:84-89
 
-Crutchfield, Richard; Workman, David A (1994) _Quality Guidelines = Designer 
+Crutchfield, Richard; Workman, David A (1994) _Quality Guidelines = Designer
 Metrics_.

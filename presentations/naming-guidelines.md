@@ -15,22 +15,33 @@ These teams can use third-party naming guidelines to inform these reviews, and i
 This paper examines various sources of naming guidelines, in the context of the author’s twenty years’ experience as a professional programmer.
 This paper then presents a consolidated set of naming guidelines that professional programmers can use in their work.
 
+<!--- I added a section here, because I would like to first establish why naming itself matters. This is not the same a saying that guidelines matter, it is more a step before, hope that makes sense! --->
+
+## Why naming matters
+
+<!--- Preferably here we have some books and papers thta say that naming matters, both the consistency in the names and the names themselves. Do you have somthing? Otherwise I will have a look in the papers we read over Christmans for some nice quotes --->
+
+
 
 ## Purpose of naming guidelines
 
-Naming guidelines aim to make code more readable, and thus maintainable.
-Two well-known quotes illuminate this purpose:
+In the above, we have established that naming is important, but also hard, ans Phil Karlton famously said:
 
-> ‘Programs are meant to be read by humans and only incidentally for computers to execute.’ - Donald Knuth
->
 > ‘There are only two hard things in Computer Science: cache invalidation and naming things.’ - Phil Karlton
 
-Long-term software maintenance presents a key difficulty to professional programmers.
-Programmers don’t always try write code to be maintainable, and when they do they typically find it difficult to achieve.
+We think some programmers make the mistake of focusing too much on the executability of the code, rather than on the value of the code as a thing for humans to read, forgettting that other famous quote:
+
+> ‘Programs are meant to be read by humans and only incidentally for computers to execute.’ - Donald Knuth
+
+A good name helps a future reader of code to quickly understand what a value means, thus making code more readable and easier to understand.
+
+However, programmers don’t always try write code to be maintainable, and when they do they typically find it difficult to achieve.
 Readability requires good naming, because bad names obscure intent.
 Unfortunately, programmers struggle to write readable code because they struggle to avoid using bad names.
-
 Naming guidelines aim to help programmers identify and avoid bad names, and to guide programmers towards good names.
+
+<!-- not sure what to do with these, maybe better to leave maintenance out of it for now and focus on names? Then later in the paper in the conclusion we can revisit the braoder impact. --->
+
 Naming guidelines ultimately aim to help programmers write more maintainable code, and to reduce the cost and difficulty of software development.
 Crucially, these benefits apply to all software development, not just long-term maintenance of legacy systems.
 

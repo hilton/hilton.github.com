@@ -121,108 +121,133 @@ These guidelines are not concerned with which words names use, except for the gu
 
 ### Use naming conventions
 
-* Guideline: Follow the programming language’s conventions for names
-* Smell: Random capitalisation, Non-standard word separation
-* Refactoring: Apply standard case
-* Example violations: `appleCOUNT`, `apple_count` (when camel-case is standard)
-* Ref: \[[2](#references)\]
+_Guideline._ Follow the programming language’s conventions for names.
+
+_Refactoring._ Apply standard case
+
+_Example violations._ `appleCOUNT`, `apple_count` (when camel-case is standard)
+
+_References:_ \[[2](#references)\]
 
 ### Replace numeric suffixes
 
-* Guideline: don’t add numbers to multiple identifiers with the same base name
-* Smell: Numeric suffix
-* Refactoring: replace the numbers with words that describe the difference
-* Example violations: `employee2`
-* Ref: \[[1](#references)\], \[[2](#references)\]
+_Guideline._ don’t add numbers to multiple identifiers with the same base name
+
+_Refactoring._ replace the numbers with words that describe the difference
+
+_Example violations._ `employee2`
+
+_References:_ \[[1](#references)\], \[[2](#references)\]
 
 ### Use dictionary words
 
-* Guideline: only use dictionary words and abbreviations
+_Guideline._ only use dictionary words and abbreviations
 * Exceptions: `id`, documented domain-specific language/abbreviations
-* Smell: Abbreviated name, Unpronounceable name
-* Refactoring: spell words out in full and define abbreviations for the bounded context
-* Example violations: `acc`, `pos`, `char`, `mod`, `auth`, `appCnt`
-* Ref: \[[1](#references)\], \[[5](#references)\]
+
+_Refactoring._ spell words out in full and define abbreviations for the bounded context
+
+_Example violations._ `acc`, `pos`, `char`, `mod`, `auth`, `appCnt`
+
+_References:_ \[[1](#references)\], \[[5](#references)\]
 
 ### Expand single-letter names
 
-* Guideline: don’t make exceptions to using dictionary words for single-letter names; use searchable names
-* Smell: Short name
-* Refactoring: [use dictionary words](#use-dictionary-words)
-* Example violations: `i`, `j`, `k`, `l`, `m`, `n`, `t`, `x`, `y`, `z`
-* Ref: \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
+_Guideline._ don’t make exceptions to using dictionary words for single-letter names; use searchable names
+
+_Refactoring._ [use dictionary words](#use-dictionary-words)
+
+_Example violations._ `i`, `j`, `k`, `l`, `m`, `n`, `t`, `x`, `y`, `z`
+
+_References:_ \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
 
 ### Articulate symbolic names
 
-* Guideline: don’t use ASCII art symbols instead of words
+_Guideline._ don’t use ASCII art symbols instead of words
 * Exceptions: documented domain-specific symbols, e.g. `+` in arithmetic
-* Smell: Symbolic name
-* Refactoring: [use dictionary words](#use-dictionary-words)
-* Example violations: `>=>`, `<*>`
-* Ref: \[[1](#references)\]
+
+_Refactoring._ [use dictionary words](#use-dictionary-words)
+
+_Example violations._ `>=>`, `<*>`
+
+_References:_ \[[1](#references)\]
 
 ### Name constant value
 
-* Guideline: define a named constant for a literal value
-* Smell: magic number, magic Boolean or other literal value
-* Refactoring: Extract constant
-* Example violations: `radius * 3.142591`
-* Ref: \[[2](#references)\]
+_Guideline._ define a named constant for a literal value
+
+_Refactoring._ Extract constant
+
+_Example violations._ `radius * 3.142591`
+
+_References:_ \[[2](#references)\]
 
 ### Only use one underscore at a time
 
-* Guideline: Don’t use more than one consecutive underscore
-* Smell: Consecutive underscores
-* Refactoring: Replace with a single underscore
-* Example violations: `APPLE__COUNT`
-* Ref: \[[2](#references)\]
+_Guideline._ Don’t use more than one consecutive underscore
+
+_Refactoring._ Replace with a single underscore
+
+_Example violations._ `APPLE__COUNT`
+
+_References:_ \[[2](#references)\]
 
 ### Only use underscores between words
 
-* Guideline: Don’t use underscores and prefixes or suffixes.
-* Smell: Leading/trailing underscore
-* Refactoring: Trim underscores
-* Example violations: `_APPLE_COUNT`, `APPLE_COUNT_`
-* Ref: \[[2](#references)\]
+_Guideline._ Don’t use underscores and prefixes or suffixes.
+
+_Refactoring._ Trim underscores
+
+_Example violations._ `_APPLE_COUNT`, `APPLE_COUNT_`
+
+_References:_ \[[2](#references)\]
 
 ### Limit name character length
 
-* Guideline: Keep name length within a twenty character maximum
-* Smell: Long name
-* Refactoring: Simplify name, Extract variable
-* Example violations: `ForeignDomesticAppleCount`
-* Ref: \[[2](#references)\]
+_Guideline._ Keep name length within a twenty character maximum
+
+_Refactoring._ Simplify name, Extract variable
+
+_Example violations._ `ForeignDomesticAppleCount`
+
+_References:_ \[[2](#references)\]
 
 ### Limit name word length
 
-* Guideline: Keep name length within a four word maximum, and avoid gratuitous context
-* Smell: Long name
-* Refactoring: Simplify name, Extract variable
-* Example violations: `NewRedAppleSizeType`, `MyAppSizeType`
-* Ref: \[[2](#references)\], \[[5](#references)\]
+_Guideline._ Keep name length within a four word maximum, and avoid gratuitous context
+
+_Refactoring._ Simplify name, Extract variable
+
+_Example violations._ `NewRedAppleSizeType`, `MyAppSizeType`
+
+_References:_ \[[2](#references)\], \[[5](#references)\]
 
 ### Qualify values with suffixes
 
-* Guideline: describe constant and variable values, such as numeric ranges with a suffix
-* Smell: Missing/preceding qualification
-* Refactoring: Move the qualification to the end
-* Example violations: `MINIMUM_APPLE_COUNT` (replace with `APPLE_COUNT_MINIMUM`)
-* Ref: \[[2](#references)\]
+_Guideline._ describe constant and variable values, such as numeric ranges with a suffix
+
+_Refactoring._ Move the qualification to the end
+
+_Example violations._ `MINIMUM_APPLE_COUNT` (replace with `APPLE_COUNT_MINIMUM`)
+
+_References:_ \[[2](#references)\]
 
 ### Don’t name numbers
 
-* Guideline: Don’t construct names from numbers’ names.
-* Smell: Number names
-* Refactoring: [Describe meaning](#describe-meaning)
-* Example violations: `ONE_HUNDRED`
-* Ref: \[[2](#references)\]
+_Guideline._ Don’t construct names from numbers’ names.
+
+_Refactoring._ [Describe meaning](#describe-meaning)
+
+_Example violations._ `ONE_HUNDRED`
+
+_References:_ \[[2](#references)\]
 
 ### Make names unique
 
-* Guideline: Don’t overwrite a name with a duplicate name in the same scope
-* Smell: Duplicate name
-* Refactoring: Use a less specific name in nested scopes
-* Ref: \[[2](#references)\]
+_Guideline._ Don’t overwrite a name with a duplicate name in the same scope
+
+_Refactoring._ Use a less specific name in nested scopes
+
+_References:_ \[[2](#references)\]
 
 
 ## Vocabulary guidelines
@@ -231,67 +256,83 @@ Vocabulary guidelines address word choice, with the rationale that using the _ri
 
 ### Describe meaning
 
-* Guideline: Use a descriptive name whose meaning describes a recognisable concept, with enough context.
-* Smell: Meaningless name, Meaning depends on context
-* Refactoring: describe what the identifier represents
-* Example violations: `foo`, `blah`
-* Ref: \[[1](#references)\], \[[5](#references)\]
+_Guideline._ Use a descriptive name whose meaning describes a recognisable concept, with enough context.
+
+_Refactoring._ describe what the identifier represents
+
+_Example violations._ `foo`, `blah`
+
+_References:_ \[[1](#references)\], \[[5](#references)\]
 
 ### Be precise
 
-* Guideline: Identify a specific kind of information and its purpose.
-* Smell: Abstract name
-* Refactoring: be more specific
-* Example violations: `data`, `object`
-* Ref: \[[1](#references)\]
+_Guideline._ Identify a specific kind of information and its purpose.
+
+_Refactoring._ be more specific
+
+_Example violations._ `data`, `object`
+
+_References:_ \[[1](#references)\]
 
 ### Choose concrete words
 
-* Guideline: use words that have a single clear meaning
-* Smell: Vague word
-* Refactoring: replace with more specific words
-* Example violations: `Manager` suffix, `get` prefix, `doIt`
-* Ref: \[[1](#references)\], \[[2](#references)\]
+_Guideline._ use words that have a single clear meaning
+
+_Refactoring._ replace with more specific words
+
+_Example violations._ `Manager` suffix, `get` prefix, `doIt`
+
+_References:_ \[[1](#references)\], \[[2](#references)\]
 
 ### Use standard language
 
-* Guideline: avoid being cute or funny when it results in a name that requires shared culture or more effort to understand
-* Smell: Colloquialism, Humour
-* Refactoring:
-* Example violations: `whack` instead of kill
-* Ref: \[[5](#references)\]
+_Guideline._ avoid being cute or funny when it results in a name that requires shared culture or more effort to understand
+
+_Refactoring._
+
+_Example violations._ `whack` instead of kill
+
+_References:_ \[[5](#references)\]
 
 ### Use a large vocabulary
 
-* Guideline: use a richer single word instead of multiple words that describe a well-known concept
-* Smell: Multiple words, Pidgin language
-* Refactoring: replace multiple words that describe a concept when ‘there’s a word for that’
-* Example violations: `CompanyPerson` (replace with `Employee`)
-* Ref: \[[1](#references)\]
+_Guideline._ use a richer single word instead of multiple words that describe a well-known concept
+
+_Refactoring._ replace multiple words that describe a concept when ‘there’s a word for that’
+
+_Example violations._ `CompanyPerson` (replace with `Employee`)
+
+_References:_ \[[1](#references)\]
 
 ### Use domain terms
 
-* Guideline: Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept
-* Smell: Wrong name
-* Refactoring: consistently use the correct domain language term
-* Example violations: `Order` when you mean `Shipment`, in a supply-chain context
-* Ref: \[[1](#references)\], \[[5](#references)\]
+_Guideline._ Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept
+
+_Refactoring._ consistently use the correct domain language term
+
+_Example violations._ `Order` when you mean `Shipment`, in a supply-chain context
+
+_References:_ \[[1](#references)\], \[[5](#references)\]
 
 ### Make names differ by more than one or two letters
 
-* Guideline: Don’t use a name that barely differs from an existing name
-* Smell: Similar name
-* Refactoring: Make the difference more explicit
-* Example violations: `appleCount` vs `appleCounts`
-* Ref: \[[2](#references)\] \[[5](#references)\]
+_Guideline._ Don’t use a name that barely differs from an existing name
+
+_Refactoring._ Make the difference more explicit
+
+_Example violations._ `appleCount` vs `appleCounts`
+
+_References:_ \[[2](#references)\] \[[5](#references)\]
 
 ### Make names differ by more than word order
 
-* Guideline: Don’t use a name that only differs from an existing name in word order
-* Smell: Similar name
-* Refactoring: Make the difference more explicit
-* Example violations: `appleCount` vs `countApple`
-* Ref: \[[2](#references)\]
+_Guideline._ Don’t use a name that only differs from an existing name in word order
+
+_Refactoring._ Make the difference more explicit
+
+_Example violations._ `appleCount` vs `countApple`
+
+_References:_ \[[2](#references)\]
 
 
 ## Data type guidelines
@@ -301,35 +342,43 @@ Some of these guidelines only apply to languages whose type system allows code t
 
 ### Omit type information
 
-* Guideline: don’t use prefixes or suffixes that encode the data type
-* Smell: Vestigial Hungarian notation
-* Refactoring: remove words that duplicate the data type
-* Example violations: `isValid`, `dateCreated`, `iAppleCount`
-* Ref: \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
+_Guideline._ don’t use prefixes or suffixes that encode the data type
+
+_Refactoring._ remove words that duplicate the data type
+
+_Example violations._ `isValid`, `dateCreated`, `iAppleCount`
+
+_References:_ \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
 
 ### Use singular names for values
 
-* Guideline: Don’t pluralise names for single values.
-* Smell: Plural name
-* Refactoring: Use the singular
-* Example violations: `appleCounts`
-* Ref: \[[2](#references)\], [3]
+_Guideline._ Don’t pluralise names for single values.
+
+_Refactoring._ Use the singular
+
+_Example violations._ `appleCounts`
+
+_References:_ \[[2](#references)\], [3]
 
 ### Use plural names for collections
 
-* Guideline: Pluralise names for collection values, such as lists.
-* Smell: Singular name
-* Refactoring: Use the plural
-* Example violations: `remainingApple` for a set of apples
-* Ref: \[[3](#references)\]
+_Guideline._ Pluralise names for collection values, such as lists.
+
+_Refactoring._ Use the plural
+
+_Example violations._ `remainingApple` for a set of apples
+
+_References:_ \[[3](#references)\]
 
 ### Prefer collective nouns for collections
 
-* Guideline: If a collection’s type has a collective noun, in the name’s context, use it instead of a plural.
-* Smell: Plural name
-* Refactoring: Use the collective noun
-* Example violations: `appointments` (replace with `calendar`), `pickedApples` (replace with `harvest`)
-* Ref: \[[1](#references)\]
+_Guideline._ If a collection’s type has a collective noun, in the name’s context, use it instead of a plural.
+
+_Refactoring._ Use the collective noun
+
+_Example violations._ `appointments` (replace with `calendar`), `pickedApples` (replace with `harvest`)
+
+_References:_ \[[1](#references)\]
 
 
 ## Class name guidelines
@@ -338,28 +387,34 @@ Class name guidelines specifically address names for classes in object-oriented 
 
 ### Use a noun-phrase name
 
-* Guideline: make the class name a noun phrase
-* Smell: Missing noun
-* Refactoring: Add the missing noun, remembering to [Choose concrete words](#choose-concrete-words)
-* Example violations: `Calculate`
-* Ref: \[[5](#references)\], \[[6](#references)\]
+_Guideline._ make the class name a noun phrase
+
+_Refactoring._ Add the missing noun, remembering to [Choose concrete words](#choose-concrete-words)
+
+_Example violations._ `Calculate`
+
+_References:_ \[[5](#references)\], \[[6](#references)\]
 
 
 ### Use a name that allows all possible states
 
-* Guideline: Don’t use class names that assume a particular state, and are inconsistent as the return type of a method that changes that state.
-* Smell: Method name and return type are opposite
-* Refactoring: Make class name less specific
-* Example violations: `disable` method that returns a `ControlEnableState` (rename class to `ControlState`)
-* Ref: \[[3](#references)\]
+_Guideline._ Don’t use class names that assume a particular state, and are inconsistent as the return type of a method that changes that state.
+
+_Refactoring._ Make class name less specific
+
+_Example violations._ `disable` method that returns a `ControlEnableState` (rename class to `ControlState`)
+
+_References:_ \[[3](#references)\]
 
 ### Choose a name consistent with possible values
 
-* Guideline: Don’t use a name that appears to contradict certain possible values.
-* Smell: Attribute name and type are opposite
-* Refactoring: Make class name inclusive
-* Example violations: `start` field has type `MAssociationEnd` (rename class to `MAssociationExtremity`)
-* Ref: \[[3](#references)\]
+_Guideline._ Don’t use a name that appears to contradict certain possible values.
+
+_Refactoring._ Make class name inclusive
+
+_Example violations._ `start` field has type `MAssociationEnd` (rename class to `MAssociationExtremity`)
+
+_References:_ \[[3](#references)\]
 
 
 ## Method name guidelines
@@ -369,67 +424,82 @@ Several of these guidelines apply to Java in particular, due to the bad habits t
 
 ### Use a verb-phrase name
 
-* Guideline: make the method name an active verb phrase, except for accessor methods and some conversions
-* Smell: Missing verb
-* Refactoring: Add the missing verb, remembering to [Choose concrete words](#choose-concrete-words)
-* Example violations: `calculation()`
-* Ref: \[[5](#references)\], \[[6](#references)\]
+_Guideline._ make the method name an active verb phrase, except for accessor methods and some conversions
+
+_Refactoring._ Add the missing verb, remembering to [Choose concrete words](#choose-concrete-words)
+
+_Example violations._ `calculation()`
+
+_References:_ \[[5](#references)\], \[[6](#references)\]
 
 
 ### Don’t use `get`, `is` or `has` prefixes for methods with side-effects
 
-* Guideline: Use a verb phrase that suggests the side-effect, if there is one.
-* Smell: ‘get’ more than an accessor
-* Refactoring: Replace ‘get’ with another verb
-* Example violations: `getImageData` method that constructs a new object
-* Ref: \[[3](#references)\]
+_Guideline._ Use a verb phrase that suggests the side-effect, if there is one.
+
+_Refactoring._ Replace ‘get’ with another verb
+
+_Example violations._ `getImageData` method that constructs a new object
+
+_References:_ \[[3](#references)\]
 
 ### Only use `get`, `is` and `has` prefixes for methods that only peform field access
 
-* Guideline: Only use the conventional accessor method name prefixes for accessor methods that directly return a field value.
-* Smell: ‘get’ more than an accessor
-* Refactoring: Replace ‘get’ with another verb
-* Example violations: `getScore` that performs calculation or accesses external data
+_Guideline._ Only use the conventional accessor method name prefixes for accessor methods that directly return a field value.
+
+_Refactoring._ Replace ‘get’ with another verb
+
+_Example violations._ `getScore` that performs calculation or accesses external data
 
 ### Only use `get` prefix for field accessors that return a value
 
-* Guideline: Don’t use the `get` field accessor method name prefix for methods that don’t return a value.
-* Smell: ‘get’ method returns `void`
-* Refactoring: Replace ‘get’ with a verb that describes the side-effect
-* Example violations: `getMethodBodies` populates the method bodies but doesn’t return them
-* Ref: \[[3](#references)\]
+_Guideline._ Don’t use the `get` field accessor method name prefix for methods that don’t return a value.
+
+_Refactoring._ Replace ‘get’ with a verb that describes the side-effect
+
+_Example violations._ `getMethodBodies` populates the method bodies but doesn’t return them
+
+_References:_ \[[3](#references)\]
 
 ### Only use `is` and `has` prefixes for Boolean field accessors
 
-* Guideline: Don’t use the conventionals Boolean accessor method name prefixes for methods that don’t return a Boolean value.
-* Smell: ‘is’ returns more than a Boolean
-* Refactoring: Replace prefix with `get`
-* Example violations: `isValid` returns an `int` value
-* Ref: \[[3](#references)\]
+_Guideline._ Don’t use the conventionals Boolean accessor method name prefixes for methods that don’t return a Boolean value.
+
+_Refactoring._ Replace prefix with `get`
+
+_Example violations._ `isValid` returns an `int` value
+
+_References:_ \[[3](#references)\]
 
 ### Only use `set` prefix for field accessors that don’t return a value
 
-* Guideline: Don’t use the `set` field accessor method name prefix for methods that return a value.
-* Smell: ‘set’ method returns
-* Refactoring: Replace ‘set’ with another verb, or remote it in a fluent API
-* Example violations: `setBreadth` creates and returns a new object, or updates and returns `this` (fluent API)
-* Ref: \[[3](#references)\]
+_Guideline._ Don’t use the `set` field accessor method name prefix for methods that return a value.
+
+_Refactoring._ Replace ‘set’ with another verb, or remote it in a fluent API
+
+_Example violations._ `setBreadth` creates and returns a new object, or updates and returns `this` (fluent API)
+
+_References:_ \[[3](#references)\]
 
 ### Only use validation verbs for methods that provide the result
 
-* Guideline: Only use verbs like `validate`, `check` or `ensure` to name methods that either result or throw an exception when validation fails.
-* Smell: Validation method does not confirm
-* Refactoring: Return result
-* Example violations: `validateSnaps` and `checkCurrentState` that return `void`.
-* Ref: \[[3](#references)\]
+_Guideline._ Only use verbs like `validate`, `check` or `ensure` to name methods that either result or throw an exception when validation fails.
+
+_Refactoring._ Return result
+
+_Example violations._ `validateSnaps` and `checkCurrentState` that return `void`.
+
+_References:_ \[[3](#references)\]
 
 ### Only use transformation verbs for methods that return a transformed value
 
-* Guideline: Only use verbs that suggest transformation, like `convert`, for methods that return the result.
-* Smell: Transform method does not return
-* Refactoring: Return result, or change the verb to indicate what the method transforms
-* Example violations:
-* Ref: \[[3](#references)\]
+_Guideline._ Only use verbs that suggest transformation, like `convert`, for methods that return the result.
+
+_Refactoring._ Return result, or change the verb to indicate what the method transforms
+
+_Example violations._
+
+_References:_ \[[3](#references)\]
 
 
 _TODO: extract more guidelines from Code Complete_

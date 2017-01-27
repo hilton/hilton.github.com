@@ -39,7 +39,7 @@ Naming might has been found to matter for the quality of source code. Butler *et
 Developers agree that naming matters. In an ethnographic study among 12 professional developers and 18 third-year students [24], researchers found that both students and
 professional developers find the use of a naming
 guidelines important. The study also found a remarkable difference between professionals and students: professional developers pay more attention to the name of the identifiers than to source code comments. Could this be due to the fact that computer science courses tend to emphasize the importance of comments but largely neglect naming?
- 
+
 While developers agree that guidelines are important, we have observed that in software development typically turns out to cost more and take longer than anyone expects. As Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
 We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
 These activities clearly require programmers to read and understand existing code.
@@ -741,7 +741,6 @@ Adding an enumeration type’s name to its constants’ name make as little sens
 Fortunately, we’ve never seen this in practice.
 
 
-
 ## Further research
 
 While developers agree guidelines are important [24], they remain underused in the software industry.
@@ -750,12 +749,19 @@ Our industry would benefit from more rigorous answers to the following questions
 
 1. Which naming guidelines apply universally to all kinds of code?
 1. Which naming guidelines have the most positive impact on code readability and maintainability?
-1. Can naming guidelines be usefully reduced to a short checklist for use in code review?
+1. Can we usefully reduce naming guidelines to a short checklist for use in code review?
+1. Can mining large collections generate ‘crowd-sourced’ standard vocabularies for specific domains?
 1. How should software developers _write_ naming guidelines?
 1. How should software developers _use_ naming guidelines?
 1. Is it possible to measure identifier name quality or naming guideline effectiveness?
 1. What can we learn from a cost-benefit analysis of naming guidelines?
 1. How do naming and naming guidelines relate to software documentation?
+1. Does better naming reduce the need for code comments?
+1. Do pair programming and mob programming significantly improve naming quality?
+1. How can an English dictionary and thesaurus help programmers choose effective names?
+1. Which techniques have a positive effect on improving programmers’ naming skills?
+1. Which tools to support naming have programmers not yet tested in an industrial setting?
+1. How does the programmer’s native language affect their approach to choosing English identifier names?
 
 Needless to say, we hope that software engineering researchers address these questions in the future.
 
@@ -773,13 +779,11 @@ Needless to say, we hope that software engineering researchers address these que
 9. Yegor Bugayenko - [How Much For This Software?](http://www.yegor256.com/2015/06/02/how-to-estimate-software-cost.html)
 10. Dave Binkley, Marcia Davis, Dawn Lawrie and Christopher Morrell - _To CamelCase or Under score_ (2009)
 11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)
-
 12. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _Effective identifier names for comprehension and memory_ (2007)
 13. Dave Binkley, Dawn Lawrie, Steve Maex and Christopher Morrell - _Identifier length and limited programmer memory_ (2009)
 
-20. F. Deißenböck and M. Pizka. Concise and consistent naming. In Proceedings of IWPC 2005.
-21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.
-22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp. _Relating Identifier Naming Flaws and Code Quality: An Empirical Study_ (2009) In Proceedings of WCRE 2009.
-23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley. _What’s in a Name? A Study of Identifiers_ (2006) In Proceedings of ICPC 2006.
-24. Felice Salviulo	and Giuseppe Scanniello. _Dealing with identifiers and comments in source code comprehension and maintenance: results from an ethnographically-informed study with students and professionals_ (2014) In Proceedings of EASE 2014
-
+20. F. Deißenböck and M. Pizka - _Concise and consistent naming_ (2005) In Proceedings of IWPC 2005.
+21. B. Caprile and P. Tonella - _Restructuring program identifier names_ (2000) In Proceedings of ICSM, 2000.
+22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp - _Relating Identifier Naming Flaws and Code Quality: An Empirical Study_ (2009) In Proceedings of WCRE 2009.
+23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _What’s in a Name? A Study of Identifiers_ (2006) In Proceedings of ICPC 2006.
+24. Felice Salviulo	and Giuseppe Scanniello - _Dealing with identifiers and comments in source code comprehension and maintenance: results from an ethnographically-informed study with students and professionals_ (2014) In Proceedings of EASE 2014

@@ -20,17 +20,17 @@ This paper then presents a consolidated set of naming guidelines that profession
 
 ## Why naming matters
 
-There have been several researchers exploring the importance of naming. For example, Deißenbock and Pizka conclude that identifier names are crucial to program comprehension: 
+There have been several researchers exploring the importance of naming. For example, Deißenbock and Pizka conclude that identifier names are crucial to program comprehension:
 
->Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process [20] 
+>Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process [20]
 
-Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program. 
+Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program.
 
 Deißenbock and Pizka [20] do not only present their opinion on naming, they have also performed measurements, and found that  in the Eclipse code base, which consists of about 2 MLoC, 33% of the tokens and 72% of characters are devoted to identifiers.
 
 ---TODO: maybe we can find something on comprehension and naming, there are some hints this exists but I have not found them yet.
 
-Naming might also matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary Words and using more than 4 words were correlated with issues. 
+Naming might also matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary Words and using more than 4 words were correlated with issues.
 
 In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
 As Yegor Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
@@ -202,6 +202,10 @@ _Guideline._ Don’t make exceptions to using dictionary words for single-letter
 Single-letter names, when used as abbreviations, introduce the maximum possible ambiguity.
 They end up being used with specific meanings, usually by unwritten convention, which makes the code harder to read for programmers when they first encounter the convention or who have to switch between conflicting conventions in different contexts.
 
+One study of over 100 programmers that compared comprehension for single letters, ‘well-formed’ common abbreviations and full words supports this guideline:
+
+> The results show that full-word identifiers lead to the best comprehension; however, in many cases, there is no statistical difference between using full words and abbreviations. \[[12](#references)\]
+
 _Refactoring._ [Use dictionary words](#use-dictionary-words)
 
 _Example violations._ `i`, `j`, `k`, `l`, `m`, `n`, `t`, `x`, `y`, `z`
@@ -266,7 +270,7 @@ _Example violations._ `ForeignDomesticAppleCount`
 
 _References:_ \[[2](#references)\]
 
-### Limit name word length
+### Limit name word count
 
 _Guideline._ Keep name length within a four word maximum, and avoid gratuitous context.
 Limit names to the number of words that people can read at a glance.
@@ -758,10 +762,8 @@ Needless to say, we hope that software engineering researchers address these que
 9. Yegor Bugayenko - [How Much For This Software?](http://www.yegor256.com/2015/06/02/how-to-estimate-software-cost.html)
 10. Binkley et al - _To CamelCase or Under score_ (2009)
 11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)
+12. Dawn Lawrie et al - _Effective identifier names for comprehension and memory_ (2007)
 
 20. F. Deißenböck and M. Pizka. Concise and consistent naming. In Proceedings of IWPC 2005.
 21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.
 22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp. Relating Identifier Naming Flaws and Code Quality: An Empirical Study In Proceedings of WCRE 2009.
-
-
-

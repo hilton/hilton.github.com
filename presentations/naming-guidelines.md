@@ -3,6 +3,9 @@ title: Naming guidelines for professional programmers
 layout: paper
 ---
 
+<p>Copyright ©2017 <a href="http://hilton.org.uk">Peter Hilton</a> and
+<a href="http://www.felienne.com">Felienne Hermans</a></p>
+
 ## Abstract
 
 Programmers acknowledge the difficulty of naming things, whatever their experience level and wherever they work, but relatively few use explicit naming guidelines.

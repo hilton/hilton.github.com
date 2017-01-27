@@ -155,38 +155,39 @@ _Refactoring._ spell words out in full and define abbreviations for the bounded 
 
 _Example violations._ `acc`, `pos`, `char`, `mod`, `auth`, `appCnt`
 
-_References:_ \[[1](#references)\], \[[5](#references)\]
+_References:_ \[[1](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Expand single-letter names
 
-_Guideline._ don’t make exceptions to using dictionary words for single-letter names; use searchable names
+_Guideline._ Don’t make exceptions to using dictionary words for single-letter names; use searchable names
 
 _Refactoring._ [use dictionary words](#use-dictionary-words)
 
 _Example violations._ `i`, `j`, `k`, `l`, `m`, `n`, `t`, `x`, `y`, `z`
 
-_References:_ \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
+_References:_ \[[1](#references)\], \[[2](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Articulate symbolic names
 
-_Guideline._ don’t use ASCII art symbols instead of words
+_Guideline._ Don’t use ASCII art symbols instead of words
 * Exceptions: documented domain-specific symbols, e.g. `+` in arithmetic
 
 _Refactoring._ [use dictionary words](#use-dictionary-words)
 
-_Example violations._ `>=>`, `<*>`
+_Example violations._ `>=>`, `<*>` - valid function identifiers in Scala, for example
 
 _References:_ \[[1](#references)\]
 
-### Name constant value
+### Name constant values
 
-_Guideline._ define a named constant for a literal value
+_Guideline._ Name what the constant represents, rather than its constant value.
+Don’t construct names from numbers’ names.
 
 _Refactoring._ Extract constant
 
-_Example violations._ `radius * 3.142591`
+_Example violations._ `radius * 3.142591`, `ONE_HUNDRED`
 
-_References:_ \[[2](#references)\]
+_References:_ \[[2](#references)\], \[[4](#references)\]
 
 ### Only use one underscore at a time
 
@@ -226,31 +227,23 @@ _Refactoring._ Simplify name, Extract variable
 
 _Example violations._ `NewRedAppleSizeType`, `MyAppSizeType`
 
-_References:_ \[[2](#references)\], \[[5](#references)\]
+_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Qualify values with suffixes
 
-_Guideline._ describe constant and variable values, such as numeric ranges with a suffix
+_Guideline._ Use a suffix to describe what kind of value constant and variable values represent.
+Suffixes such as `minimum`, `count` and `average` relate a collection of values to a single derived value.
+Using a suffix, rather than a prefix, for the qualifier naturally links the name to other similar names.
 
 _Refactoring._ Move the qualification to the end
 
 _Example violations._ `MINIMUM_APPLE_COUNT` (replace with `APPLE_COUNT_MINIMUM`)
 
-_References:_ \[[2](#references)\]
-
-### Don’t name numbers
-
-_Guideline._ Don’t construct names from numbers’ names.
-
-_Refactoring._ [Describe meaning](#describe-meaning)
-
-_Example violations._ `ONE_HUNDRED`
-
-_References:_ \[[2](#references)\]
+_References:_ \[[2](#references)\], \[[4](#references)\]
 
 ### Make names unique
 
-_Guideline._ Don’t overwrite a name with a duplicate name in the same scope
+_Guideline._ Don’t overwrite (shadow) a name with a duplicate name in the same scope
 
 _Refactoring._ Use a less specific name in nested scopes
 
@@ -264,12 +257,13 @@ Vocabulary guidelines address word choice, with the rationale that using the _ri
 ### Describe meaning
 
 _Guideline._ Use a descriptive name whose meaning describes a recognisable concept, with enough context.
+Avoid names that deliberately mean nothing.
 
 _Refactoring._ describe what the identifier represents
 
-_Example violations._ `foo`, `blah`
+_Example violations._ `foo`, `blah`, `flag`, `temp`
 
-_References:_ \[[1](#references)\], \[[5](#references)\]
+_References:_ \[[1](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Be precise
 
@@ -311,7 +305,7 @@ _Example violations._ `CompanyPerson` (replace with `Employee`)
 
 _References:_ \[[1](#references)\]
 
-### Use domain terms
+### Use problem domain terms
 
 _Guideline._ Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept
 
@@ -319,7 +313,7 @@ _Refactoring._ consistently use the correct domain language term
 
 _Example violations._ `Order` when you mean `Shipment`, in a supply-chain context
 
-_References:_ \[[1](#references)\], \[[5](#references)\]
+_References:_ \[[1](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Make names differ by more than one or two letters
 
@@ -329,7 +323,7 @@ _Refactoring._ Make the difference more explicit
 
 _Example violations._ `appleCount` vs `appleCounts`
 
-_References:_ \[[2](#references)\] \[[5](#references)\]
+_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Make names differ by more than word order
 
@@ -341,6 +335,26 @@ _Example violations._ `appleCount` vs `countApple`
 
 _References:_ \[[2](#references)\]
 
+### Make names differ in meaning
+
+_Guideline._ Don’t use names that have the same meaning as each other
+
+_Refactoring._ Rename both variables with more explicit names
+
+_Example violations._ `input`/`inputValue`, `recordCount`/`numberOfRecords`
+
+_References:_ \[[4](#references)\]
+
+### Make names differ phonetically
+
+_Guideline._ Don’t use names that sound the same when spoken
+
+_Refactoring._ Choose a name that sounds different for one of them
+
+_Example violations._ `wrap`/`rap`
+
+_References:_ \[[4](#references)\]
+
 
 ## Data type guidelines
 
@@ -349,7 +363,7 @@ Some of these guidelines only apply to languages whose type system allows code t
 
 ### Omit type information
 
-_Guideline._ don’t use prefixes or suffixes that encode the data type
+_Guideline._ Don’t use prefixes or suffixes that encode the data type
 
 _Refactoring._ remove words that duplicate the data type
 
@@ -386,6 +400,36 @@ _Refactoring._ Use the collective noun
 _Example violations._ `appointments` (replace with `calendar`), `pickedApples` (replace with `harvest`)
 
 _References:_ \[[1](#references)\]
+
+### Use opposites precisely
+
+_Guideline._ use opposites in standard pairs with naming conventions - add/remove, begin/end, create/destroy, destination/source, first/last, get/release, increment/decrememnt, insert/delete, lock/unlock, minimum/maximum, next/previous, old/new, old/new, open/close, put/get, show/hide, source/destination, start/stop, target/source, up/down
+
+_Refactoring._use the correct opposite
+
+_Example violations._ `first`/`end`
+
+_References:_ \[[4](#references)\]
+
+### Use Boolean variable names that imply _true_ or _false_
+
+_Guideline._ use names like `done` or `found` that describe a Boolean values
+
+_Refactoring._ use conventional Boolean names, possibly from a code conventions list
+
+_Example violations._ `status`
+
+_References:_ \[[4](#references)\]
+
+### Use positive Boolean names
+
+_Guideline._ don’t use negation in Boolean names
+
+_Refactoring._ invert the meaning and remove the prefix
+
+_Example violations._ `NotSuccessful`
+
+_References:_ \[[4](#references)\]
 
 
 ## Class name guidelines
@@ -507,9 +551,6 @@ _Refactoring._ Return result, or change the verb to indicate what the method tra
 _Example violations._
 
 _References:_ \[[3](#references)\]
-
-
-_TODO: extract more guidelines from Code Complete_
 
 
 ## Rejected guidelines

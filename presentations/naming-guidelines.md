@@ -744,7 +744,7 @@ Fortunately, we’ve never seen this in practice.
 
 ## Further research
 
-Naming guidelines remain underused in the software industry.
+While developers agree guidelines are important [24], they remain underused in the software industry.
 In our experience, professional software developers do not always agree on which guidelines to use, or even that they are worthwhile.
 Our industry would benefit from more rigorous answers to the following questions.
 

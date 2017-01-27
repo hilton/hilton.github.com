@@ -43,22 +43,27 @@ We think some programmers make the mistake of focusing too much on the executabi
 A good name helps a future reader of code to quickly understand what a value means, thus making code more readable and easier to understand.
 
 However, programmers don’t always try write code to be maintainable, and when they do they typically find it difficult to achieve.
-Readability requires good naming, because bad names obscure intent.
+The very idea of ‘maintenance’ lacks a common industry definition that doesn’t assume a specific (usually waterfall) software development method or software services business model.
+Similarly, software developers do not have a clear definition of ‘maintainability’, and instead focus on proxies such as code comprehension and their ability to discover and correct code errors.
+These related measures reduce ‘maintainability’ to ‘readability’.
+
+Readability requires good naming, because bad names obscure the programmer’s intent.
+We claim, above, that naming affects programmers’ ability to read and understand source code.
 Unfortunately, programmers struggle to write readable code because they struggle to avoid using bad names.
 Naming guidelines aim to help programmers identify and avoid bad names, and to guide programmers towards good names.
 
 <!-- not sure what to do with these, maybe better to leave maintenance out of it for now and focus on names? Then later in the paper in the conclusion we can revisit the broader impact. --->
 
-Naming guidelines ultimately aim to help programmers write more maintainable code, and to reduce the cost and difficulty of software development.
-Crucially, these benefits apply to all software development, not just long-term maintenance of legacy systems.
+We see naming guidelines as a means to help programmers write more maintainable code, and to reduce the cost and difficulty of software development.
+Crucially, these benefits potentially apply to all software development, not just long-term maintenance of legacy systems.
 
 
 ## Existing guidelines
 
 In my experience, professional software developers don’t use explicit naming guidelines extensively.
-The few written coding standards I’ve seen limit their guidelines to formatting and name length, but offer little to clarify the difference between good names and bad names.
+The few written coding standards in common use, such as \[[6](#references)\], limit their guidelines to formatting and name length, but offer little to clarify the difference between good names and bad names.
 
-Books for software developers sometimes include a section on naming.
+Some books for software developers include a section on naming.
 _Code Complete_ \[[4](#references)\] includes a 30-page chapter on _The Power of Data Names_.
 This includes fourteen guidelines for how to write better names, a discussion of various naming conventions, a list of eleven naming smells and a checklist that summarises these guidelines.
 For this chapter alone, I recommend that every professional programmer own a copy of this book.
@@ -77,6 +82,8 @@ A thorough literature review would no doubt turn up more naming guidelines, but 
 Professional software developers benefit from some kinds of guidelines more than others.
 Guidelines like ‘Variable names should be short yet meaningful’ \[[6](#references)\] sound reasonable, but offer little practical help, either when choosing a name when coding or when evaluating a name during code review.
 
+<!-- TODO Add citations to next paragraph -->
+
 Some academic studies have compared the relative readability of different formatting conventions, such as camel-case (caplitalised words) and snake-case (words separated by underscores).
 In practice, programmers follow the name formatting convention that a programming language community adopts, and therefore have little use for this research.
 In theory, programming language designers could use this research when setting these conventions.
@@ -90,21 +97,22 @@ Relf \[[8](#references)\], for example, concludes that:
 > should not contain plural words;
 > and should conform to the project naming conventions.
 
-Professional programmers can apply guidelines like these without reading all 293 pages of the corresponding doctoral thesis.
+Professional programmers can apply guidelines that are stated this clearly more readily than they can access and read the original scientific research that contains these conclusions.
+We therefore aim to present naming guidelines from a number of sources in a form that makes them accessible to professional programmers.
 
 
 ## Guideline styles
 
-Naming guidelines’ authors don’t all phrase them the same way.
+People who write naming guidelines phrase their guidelines in different ways.
 Some authors write prescriptive instructions, e.g. _Use intention-revealing names_ \[[5](#references)\], while some phrase them as code smells or naming problems, e.g. _Meaningless names_ \[[1](#references)\].
-Written naming guidelines include one or more of the following.
+The written naming guidelines \[[1-7](#references)\] that we examined include one or more of the following.
 
 * Prescriptive instruction
 * Naming smell name
 * Correcting refactoring name
 * Example guideline violation
 * Example name that follows the guideline
-* Rationale
+* Explanation of why the guideline matters or how it works
 
 Naming smells are ‘code smells’ that come from bad names.
 A code smell indicates where you can improve your code, and often points to some deeper problem.
@@ -117,9 +125,6 @@ Naming smells help programmers identify violations during code review, while pre
 Examples serve to explain both smells and instructions, whose abstract nature can make them hard to understand.
 
 The remainder of this paper presents and discusses specific guidelines.
-
-_TODO Consider formatting the guidelines as tables_
-
 
 ## Syntax guidelines
 
@@ -138,18 +143,18 @@ _References:_ \[[2](#references)\]
 
 ### Replace numeric suffixes
 
-_Guideline._ don’t add numbers to multiple identifiers with the same base name
+_Guideline._ Don’t add numbers to multiple identifiers with the same base name
 
 _Refactoring._ replace the numbers with words that describe the difference
 
 _Example violations._ `employee2`
 
-_References:_ \[[1](#references)\], \[[2](#references)\]
+_References:_ \[[1](#references)\], \[[2](#references)\], \[[4](#references)\]
 
 ### Use dictionary words
 
-_Guideline._ only use dictionary words and abbreviations
-* Exceptions: `id`, documented domain-specific language/abbreviations
+_Guideline._ Only use correctly-spelled dictionary words and abbreviations.
+Make exceptions for `id` and documented domain-specific language/abbreviations.
 
 _Refactoring._ spell words out in full and define abbreviations for the bounded context
 

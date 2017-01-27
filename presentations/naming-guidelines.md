@@ -5,15 +5,15 @@ layout: paper
 
 ## Abstract
 
-All kinds of programmers acknowledge the difficulty of naming things, but relatively few use explicit naming guidelines.
+Programmers acknowledge the difficulty of naming things, whatever their experience level and wherever they work, but relatively few use explicit naming guidelines.
 Various authors have published different kinds of identifier naming guidelines, but these guidelines do little to make naming easier, in practice.
 Meanwhile, professional programmers follow diverse conventions and disagree about key aspects of naming, such as acceptable name lengths.
 
 Although few teams write their own coding standards, let along naming guidelines, many teams use code review and pair programming to maintain code quality.
-These teams can use third-party naming guidelines to inform these reviews, and improve their coding style.
+We believe that these teams could use third-party naming guidelines to inform these reviews, and improve their coding style.
 
 This paper examines various sources of naming guidelines, in the context of the author’s twenty years’ experience as a professional programmer.
-This paper then presents a consolidated set of naming guidelines that professional programmers can use in their work.
+This paper then presents a consolidated set of naming guidelines that professional programmers can apply to the code they write.
 
 <!--- I added a section here, because I would like to first establish why naming itself matters. This is not the same a saying that guidelines matter, it is more a step before, hope that makes sense! --->
 

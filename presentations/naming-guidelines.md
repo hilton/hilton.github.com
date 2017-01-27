@@ -25,10 +25,15 @@ For example, Deißenbock and Pizka conclude that identifier names are crucial to
 
 >Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[20](#references)\]
 
-Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program. Deißenbock and Pizka [20] do not only present their opinion on naming, they have also performed measurements, and found that in the Eclipse code base, which consists of about 2 MLoC, 33% of the tokens and 72% of characters are devoted to identifiers.
+Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program.
+Deißenbock and Pizka \[[20](#references)\] not only present their opinion on naming, they also performed measurements.
+They found that in the Eclipse code base, which consists of about 2 MLoC, 33 per cent of the tokens and 72 per cent of characters are devoted to identifiers.
 
-Better identifiers names have known to correlate with program comprehension. For example, [23] reports on a study performed with over 100 programmers, who had to describe functions and rate their confidence in doing so. Their results show code comprehension is better for full word identifiers are used than for single letter identifiers, both measured by description
-rating and by confidence in understanding. However, they also found that in many cases there is no difference between words and abbreviations. Interestingly enough, this study also found that women comprehend more from abbreviations than men do.
+Better identifiers names have known to correlate with program comprehension.
+For example, \[[23](#references)\] reports on a study performed with over 100 programmers, who had to describe functions and rate their confidence in doing so.
+Their results show that using full word identifiers leads to better code comprehension than using single letter identifiers, measured by both description rating and by confidence in understanding.
+However, they also found that in many cases there is no difference between words and abbreviations.
+Interestingly enough, this study also found that women comprehend more from abbreviations than men do.
 
 Naming might has been found to matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary words and using more than 4 words were correlated with issues.
 

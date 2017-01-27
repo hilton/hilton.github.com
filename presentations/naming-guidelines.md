@@ -15,7 +15,7 @@ Meanwhile, professional programmers follow diverse conventions and disagree abou
 Although few teams write their own coding standards, let alone naming guidelines, many teams use code review and pair programming to maintain code quality.
 We believe that these teams could use third-party naming guidelines to inform these reviews, and improve their coding style.
 
-This paper examines various sources of naming guidelines, in the context of the author’s twenty years’ experience as a professional programmer.
+This paper examines various sources of naming guidelines, in the context of the first author’s twenty years’ experience as a professional programmer.
 This paper then presents a consolidated set of naming guidelines that professional programmers can apply to the code they write.
 
 ## Why naming matters
@@ -263,6 +263,10 @@ _References:_ \[[2](#references)\]
 ### Limit name character length
 
 _Guideline._ Keep name length within a twenty character maximum.
+
+The results of one experiment involving 158 ‘programmers of varying degrees of experience’:
+
+> \[…\] reinforce past proposals advocating the use of limited, consistent, and regular vocabulary in identifier names. In particular, good naming limits individual name length and reduces the need for specialized vocabulary. \[[13](#references)\]
 
 _Refactoring._ Simplify name, Extract variable
 
@@ -763,6 +767,7 @@ Needless to say, we hope that software engineering researchers address these que
 10. Dave Binkley, Marcia Davis, Dawn Lawrie and Christopher Morrell - _To CamelCase or Under score_ (2009)
 11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)
 12. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _Effective identifier names for comprehension and memory_ (2007)
+13. Dave Binkley, Dawn Lawrie, Steve Maex and Christopher Morrell - _Identifier length and limited programmer memory_ (2009)
 
 20. F. Deißenböck and M. Pizka. Concise and consistent naming. In Proceedings of IWPC 2005.
 21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.

@@ -12,7 +12,7 @@ Programmers acknowledge the difficulty of naming things, whatever their experien
 Various authors have published different kinds of identifier naming guidelines, but these guidelines do little to make naming easier, in practice.
 Meanwhile, professional programmers follow diverse conventions and disagree about key aspects of naming, such as acceptable name lengths.
 
-Although few teams write their own coding standards, let along naming guidelines, many teams use code review and pair programming to maintain code quality.
+Although few teams write their own coding standards, let alone naming guidelines, many teams use code review and pair programming to maintain code quality.
 We believe that these teams could use third-party naming guidelines to inform these reviews, and improve their coding style.
 
 This paper examines various sources of naming guidelines, in the context of the author’s twenty years’ experience as a professional programmer.
@@ -35,7 +35,8 @@ Although an identifier like `result` communicates little intent, a name like `_4
 
 ## Purpose of naming guidelines
 
-In the above, we have established that naming is important, but also hard, and Phil Karlton famously said:
+In the above, we have established that naming is important, but also hard.
+As Phil Karlton famously said:
 
 > ‘There are only two hard things in Computer Science: cache invalidation and naming things.’ - Phil Karlton
 
@@ -63,7 +64,7 @@ Crucially, these benefits potentially apply to all software development, not jus
 
 ## Existing guidelines
 
-In my experience, professional software developers don’t use explicit naming guidelines extensively.
+In our experience, professional software developers don’t use explicit naming guidelines extensively.
 The few written coding standards in common use, such as \[[6](#references)\], limit their guidelines to formatting and name length, but offer little to clarify the difference between good names and bad names.
 
 Some books for software developers include a section on naming.
@@ -80,16 +81,30 @@ Papers by Relf \[[2](#references)\] and Arnaodova et al \[[3](#references)\] inc
 A thorough literature review would no doubt turn up more naming guidelines, but professional programmers rarely have access to published papers, which makes them less directly useful in the software industry than books.
 
 
-## Relative importance of different guidelines
+## Importance of different guidelines to professional programmers
 
-Professional software developers benefit from some kinds of guidelines more than others.
+Professional software developers benefit more from some kinds of guidelines than from others.
 Guidelines like ‘Variable names should be short yet meaningful’ \[[6](#references)\] sound reasonable, but offer little practical help, either when choosing a name when coding or when evaluating a name during code review.
 
-<!-- TODO Add citations to next paragraph -->
+Some academic studies, such as Binkley (\[[10](#references)\]), have compared the relative readability of different formatting conventions, such as camel-case (caplitalised words) and snake-case (words separated by underscores).
+In principle, programming language designers could use this research when setting these conventions to design programming languages with a more productive developer experience.
 
-Some academic studies have compared the relative readability of different formatting conventions, such as camel-case (caplitalised words) and snake-case (words separated by underscores).
-In practice, programmers follow the name formatting convention that a programming language community adopts, and therefore have little use for this research.
-In theory, programming language designers could use this research when setting these conventions.
+Ken Arnold typifies the view that the responsibility for using this kind of research to choose a coding style lies with language designers rather than programmers.
+In his essay _Style is substance_ (\[[8](#references)\]), he argues that a programming language’s specification should fix all aspects of coding style, so that compilers reject all violations:
+
+> For almost any mature language \[…\] coding style is an essentially solved problem, and we ought to stop worrying about it. \[…\]
+> the only way to get from where we are to a place where we stop worrying about style is to enforce it _as part of the language_. \[…\]
+>
+> I want the owners of language standards to take this up.
+> I want the next version of these languages to require any code that uses new features to conform to some style.
+
+He argues that programmers follow the name formatting convention that a programming language community adopts, and that they have nothing to gain from this kind of research.
+
+> For any given language, there are one or a few common coding styles. \[…\]
+>
+> There is not now, nor will there ever be, a programming style whose benefit is significantly greater than any of the common styles.
+
+However, Binkley (\[[10](#references)\]) concludes that not all ‘common coding styles’ deliver the same productivity, and that ‘it becomes evident that the camel case style leads to better all around performance once a subject is trained on this style’.
 
 Fortunately, some research has directly addressed different guidelines’ usefulness.
 Relf \[[8](#references)\], for example, concludes that:
@@ -608,7 +623,7 @@ _References:_ \[[3](#references)\]
 
 ## Rejected guidelines
 
-To illustrate disagreement among programmers about which guidelines to use, the following paragraphs quote naming guidelines together with my rationale for why we do not ‘strongly accept’ them.
+To illustrate disagreement among programmers about which guidelines to use, the following paragraphs quote naming guidelines together with our rationale for why we do not ‘strongly accept’ them.
 
 ### Use long names for long scopes
 
@@ -705,7 +720,7 @@ Fortunately, we’ve never seen this in practice.
 ## Further research
 
 Naming guidelines remain underused in the software industry.
-In my experience, professional software developers do not always agree on which guidelines to use, or even that they are worthwhile.
+In our experience, professional software developers do not always agree on which guidelines to use, or even that they are worthwhile.
 Our industry would benefit from more rigorous answers to the following questions.
 
 1. Which naming guidelines apply universally to all kinds of code?
@@ -731,3 +746,5 @@ Needless to say, we hope that software engineering researchers address these que
 7. Sun Microsystems - [JavaBeans](http://www.oracle.com/technetwork/java/javase/documentation/spec-136004.html) - JavaBeans™ API specification version 1.01 (1997)
 8. Phillip Relf - _Source Code Readability Improvement Using Heuristic-Based Dynamic Error Reporting During Editing_ - doctoral thesis (2007)
 9. Yegor Bugayenko - [How Much For This Software?](http://www.yegor256.com/2015/06/02/how-to-estimate-software-cost.html)
+10. Binkley et al - _To CamelCase or Under score_ (2009)
+11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)

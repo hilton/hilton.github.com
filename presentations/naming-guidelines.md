@@ -25,20 +25,15 @@ For example, Deißenbock and Pizka conclude that identifier names are crucial to
 
 >Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[20](#references)\]
 
-Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program.
+Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program. Deißenbock and Pizka [20] do not only present their opinion on naming, they have also performed measurements, and found that in the Eclipse code base, which consists of about 2 MLoC, 33% of the tokens and 72% of characters are devoted to identifiers.
 
-Deißenbock and Pizka \[[20](#references)\] not only present their opinion on naming but also performed measurements.
-They found that in the Eclipse code base, which consists of about 2 MLoC, 33 per cent of the tokens and 72 per cent of characters are devoted to identifiers.
+Better identifiers names have known to correlate with program comprehension. For example, [23] reports on a study performed with over 100 programmers, who had to describe functions and rate their confidence in doing so. Their results show code comprehension is better for full word identifiers are used than for single letter identifiers, both measured by description
+rating and by confidence in understanding. However, they also found that in many cases there is no difference between words and abbreviations. Interestingly enough, this study also found that women comprehend more from abbreviations than men do.
 
-<!-- TODO: maybe we can find something on comprehension and naming, there are some hints this exists but I have not found them yet. -->
-
-Naming might also matter for the quality of source code.
-Butler *et al.* evaluated the quality of identifiers in eight large Java projects according to a number of naming style guidelines.
-They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java \[[22](#references)\].
-Errors in capitalisation, using non-dictionary words and using more than four words were especially correlated with issues.
+Naming might has been found to matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary words and using more than 4 words were correlated with issues.
 
 In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
-As Yegor Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
+As Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
 We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
 These activities clearly require programmers to read and understand existing code.
 As programmers, we can only understand code if we know what it means.
@@ -51,7 +46,7 @@ Although an identifier like `result` communicates relatively little intent, a na
 ## Purpose of naming guidelines
 
 In the above, we have established that naming is important, but also hard.
-As Phil Karlton famously said:
+As Karlton famously said:
 
 > ‘There are only two hard things in Computer Science: cache invalidation and naming things.’ - Phil Karlton
 
@@ -92,7 +87,7 @@ Most of these guidelines directly address the hardest part of naming: semantics.
 More recent programming books tend to devote fewer words to naming, perhaps because they have little to add.
 
 Computer science research sometimes includes naming guidelines.
-Papers by Relf \[[2](#references)\] and Arnaodova et al \[[3](#references)\] include collections of naming guidelines, which they evaluate in different ways.
+Papers by Relf \[[2](#references)\] and Arnaodova *et al.* \[[3](#references)\] include collections of naming guidelines, which they evaluate in different ways.
 A thorough literature review would no doubt turn up more naming guidelines, but professional programmers rarely have access to published papers, which makes them less directly useful in the software industry than books.
 
 
@@ -771,9 +766,11 @@ Needless to say, we hope that software engineering researchers address these que
 9. Yegor Bugayenko - [How Much For This Software?](http://www.yegor256.com/2015/06/02/how-to-estimate-software-cost.html)
 10. Dave Binkley, Marcia Davis, Dawn Lawrie and Christopher Morrell - _To CamelCase or Under score_ (2009)
 11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)
+
 12. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _Effective identifier names for comprehension and memory_ (2007)
 13. Dave Binkley, Dawn Lawrie, Steve Maex and Christopher Morrell - _Identifier length and limited programmer memory_ (2009)
 
 20. F. Deißenböck and M. Pizka. Concise and consistent naming. In Proceedings of IWPC 2005.
 21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.
 22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp. Relating Identifier Naming Flaws and Code Quality: An Empirical Study In Proceedings of WCRE 2009.
+23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley. What’s in a Name? A Study of Identifiers TODO add venue

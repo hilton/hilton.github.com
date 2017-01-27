@@ -23,7 +23,7 @@ This paper then presents a consolidated set of naming guidelines that profession
 <!-- TODO Add Felienne’s reference about the cost of debugging code with worse names, and link that to ‘our observations’. --->
 
 In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
-As Yegor Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
+As Yegor Bugayenko writes (\[[9](#references)\]), software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
 We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
 These activities clearly require programmers to read and understand existing code.
 As programmers, we can only understand code if we know what it means.
@@ -69,7 +69,7 @@ The few written coding standards in common use, such as \[[6](#references)\], li
 Some books for software developers include a section on naming.
 _Code Complete_ \[[4](#references)\] includes a 30-page chapter on _The Power of Data Names_.
 This includes fourteen guidelines for how to write better names, a discussion of various naming conventions, a list of eleven naming smells and a checklist that summarises these guidelines.
-For this chapter alone, I recommend that every professional programmer own a copy of this book.
+For this chapter alone, we recommend that every professional programmer own a copy of this book.
 
 _Clean Code_ \[[5](#references)\] also has a whole chapter on _Meaningful Names_, which consists of eighteen guidelines.
 Most of these guidelines directly address the hardest part of naming: semantics.
@@ -108,7 +108,7 @@ We therefore aim to present naming guidelines from a number of sources in a form
 
 People who write naming guidelines phrase their guidelines in different ways.
 Some authors write prescriptive instructions, e.g. _Use intention-revealing names_ \[[5](#references)\], while some phrase them as code smells or naming problems, e.g. _Meaningless names_ \[[1](#references)\].
-The written naming guidelines \[[1-7](#references)\] that we examined include one or more of the following.
+The written naming guidelines (\[[1-7](#references)\]) that we examined include one or more of the following.
 
 * Prescriptive instruction
 * Naming smell name
@@ -608,7 +608,7 @@ _References:_ \[[3](#references)\]
 
 ## Rejected guidelines
 
-To illustrate disagreement among programmers about which guidelines to use, the following paragraphs quote naming guidelines together with my rationale for why I do not ‘strongly accept’ them.
+To illustrate disagreement among programmers about which guidelines to use, the following paragraphs quote naming guidelines together with my rationale for why we do not ‘strongly accept’ them.
 
 ### Use long names for long scopes
 
@@ -638,58 +638,58 @@ Correctly deciding whether a scope is small enough for a variable to only need a
 
 > Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. \[[6](#references)\]
 
-I don’t use this guideline, in practice, because I’m more concerned about avoiding abbreviations (guideline 12) than that names should not be too short.
-In fact, I’d partly accept these guideline, were it not for their exceptions for single-letter names, which I consider the worst kind of abbreviation.
+We don’t use this guideline, in practice, because we’re more concerned about avoiding abbreviations (guideline 12) than that names should not be too short.
+In fact, we’d partly accept these guidelines, were it not for their exceptions for single-letter names, which we consider the worst kind of abbreviation.
 
 ### Long Identifier Name
 
 > \[avoid\] an identifier name longer than twenty characters \[[2](#references)\]
 
-I only partly accept this guideline, because I prefer names to be as long as necessary.
-However, I would also consider a name longer than twenty characters to be suspiciously long, and look for either a simpler name or extracting an intermediate declaration, which sometimes simplifies the thing with the long name.
+We only partly accept this guideline, because we prefer names to be as long as necessary.
+However, we would also consider a name longer than twenty characters to be suspiciously long, and look for either a simpler name or extracting an intermediate declaration, which sometimes simplifies the thing with the long name.
 
 ### Number of Words
 
 > an identifier should consist of two, three or four words \[[2](#references)\]
 
-As with the previous guidelines, I don’t use this because I prefer to let the other guidelines determine length.
+As with the previous guidelines, we don’t use this because we prefer to let the other guidelines determine length.
 However, in his 2007 doctoral thesis, Relf reveals the neuroscience for limiting identifiers to four words, which suggests that may be a good idea.
-I don’t know what the objection to one-word names might be, especially when the correct term in a bounded context’s vocabulary (a subject domain term) might be a single word, such as a ‘shipment’ in a supply chain context.
+We don’t know what the objection to one-word names might be, especially when the correct term in a bounded context’s vocabulary (a subject domain term) might be a single word, such as a ‘shipment’ in a supply chain context.
 
 ### Class/Type Qualification
 
 > class names and type names should be qualified to identify their nature \[…\] e.g. `Fruit` (`FruitClass` and `Fruit_Tree` are considered more readable) \[[2](#references)\]
 
-I reject this guideline, as did the study participants (in \[[2](#references)\]).
-I would consider adding a class name `Class` suffix redundant.
+We reject this guideline, as did the study participants (in \[[2](#references)\]).
+We would consider adding a class name `Class` suffix redundant.
 Many languages use a capitalisation convention for type names, and a `class` keyword for declarations.
 Furthermore, professional software developers tend to use tools (IDEs) that indicate which identifiers are types, or support navigation to the declaration.
-I have never heard of anyone systematically adopting this guideline.
+We have never heard of anyone systematically adopting this guideline.
 
 ### Constant/Variable Qualification
 
 > numeric range constants should be fully qualified \[…\] e.g. `Minimum_Apple_Count` (`Apple_Count_Minimum` is considered more readable) \[[2](#references)\]
 
-This guideline seems reasonable, but I probably prefer grammatical English word order sometimes.
+This guideline seems reasonable, but we probably prefer grammatical English word order sometimes.
 
 ### Singular Word
 
 > identifier names should be composed of words in the singular \[[2](#references)\]
 
-I reject this guideline because it doesn’t consider collection types, but it’s easily fixed.
+We reject this guideline because it doesn’t consider collection types, but it’s easily fixed.
 Only use singular names for single values, and only use plural names for collections.
 
 ### Similar Identifier Names
 
 > \[avoid\] the appearance of two similar identifier names both in scope \[[2](#references)\]
 
-I don’t know whether to accept this guideline, because I don’t experience this as a problem in practice, and don’t know how onerous I would find it.
+We don’t know whether to accept this guideline, because we don’t experience this as a problem in practice, and don’t know how onerous we would find it.
 
 ### Enumeration Identifier Definition Order
 
 > \[avoid\] the appearance of two similar identifier names both in scope \[[2](#references)\]
 
-I partly accept this guideline, which at least requires an order and thus prevents (apparently) random order.
+We partly accept this guideline, which at least requires an order and thus prevents (apparently) random order.
 However, some enumerations, such as weekdays, have their own non-alphabetical _natural_ order.
 Fortunately, we follow guidelines blindly.
 
@@ -698,7 +698,7 @@ Fortunately, we follow guidelines blindly.
 > \[avoid\] enumeration constants declared in non-alphabetical order \[[2](#references)\]
 
 Adding an enumeration type’s name to its constants’ name make as little sense as adding a class’ name to its instances’ names (or guideline come to that).
-Fortunately, I’ve never seen this in practice.
+Fortunately, we’ve never seen this in practice.
 
 
 
@@ -717,7 +717,7 @@ Our industry would benefit from more rigorous answers to the following questions
 1. What can we learn from a cost-benefit analysis of naming guidelines?
 1. How do naming and naming guidelines relate to software documentation?
 
-Needless to say, I hope that software engineering researchers address these questions in the future.
+Needless to say, we hope that software engineering researchers address these questions in the future.
 
 
 ## References

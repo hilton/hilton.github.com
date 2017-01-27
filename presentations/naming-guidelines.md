@@ -3,8 +3,7 @@ title: Naming guidelines for professional programmers
 layout: paper
 ---
 
-<p>Copyright ©2017 <a href="http://hilton.org.uk">Peter Hilton</a> and
-<a href="http://www.felienne.com">Felienne Hermans</a></p>
+Copyright ©2017 [Peter Hilton](http://hilton.org.uk) and [Felienne Hermans](http://www.felienne.com)
 
 ## Abstract
 

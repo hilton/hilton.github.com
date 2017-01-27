@@ -753,16 +753,16 @@ Needless to say, we hope that software engineering researchers address these que
 
 1. Peter Hilton - [Naming smells](http://hilton.org.uk/blog/naming-smells) (2016)
 2. Phillip Relf - _Achieving Software Quality through Source Code Readability_ (2004)
-3. Arnaodova et al - [Linguistic Antipatterns: What They Are and How Developers Perceive Them](http://www.veneraarnaoudova.com/wp-content/uploads/2014/10/2014-EMSE-Arnaodova-et-al-Perception-LAs.pdf) (2015)
+3. Venera Arnaoudova, Massimiliano Di Penta and Giuliano Antoniol - [Linguistic Antipatterns: What They Are and How Developers Perceive Them](http://www.veneraarnaoudova.com/wp-content/uploads/2014/10/2014-EMSE-Arnaodova-et-al-Perception-LAs.pdf) (2015)
 4. Steve McConnell - _Code Complete_, Microsoft Press (1993)
 5. Robert C. Martin - _Clean Code_, Prentice Hall (2009)
 6. Sun Microsystems - [Code Conventions for the Java TM Programming Language](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html) (20 April 1999)
 7. Sun Microsystems - [JavaBeans](http://www.oracle.com/technetwork/java/javase/documentation/spec-136004.html) - JavaBeans™ API specification version 1.01 (1997)
 8. Phillip Relf - _Source Code Readability Improvement Using Heuristic-Based Dynamic Error Reporting During Editing_ - doctoral thesis (2007)
 9. Yegor Bugayenko - [How Much For This Software?](http://www.yegor256.com/2015/06/02/how-to-estimate-software-cost.html)
-10. Binkley et al - _To CamelCase or Under score_ (2009)
+10. Dave Binkley, Marcia Davis, Dawn Lawrie and Christopher Morrell - _To CamelCase or Under score_ (2009)
 11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)
-12. Dawn Lawrie et al - _Effective identifier names for comprehension and memory_ (2007)
+12. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _Effective identifier names for comprehension and memory_ (2007)
 
 20. F. Deißenböck and M. Pizka. Concise and consistent naming. In Proceedings of IWPC 2005.
 21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.

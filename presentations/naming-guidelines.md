@@ -565,6 +565,28 @@ _References:_ \[[3](#references)\]
 
 To illustrate disagreement among programmers about which guidelines to use, the following paragraphs quote naming guidelines together with my rationale for why I do not ‘strongly accept’ them.
 
+### Use long names for long scopes
+
+> When you give a variable a short name like `i`, the length itself says something about the variable - namely that the variable is a scratch value with a limited scope of operation. \[[4](#references)\]
+
+> The length of a name should be related to the length of the scope. You can use very short
+variable names for tiny scopes, but for big scopes you should use longer names. \[[5](#references)\]
+
+Although this guideline sounds reasonable and enjoys wide popularity among programmers, it contradicts other guidelines and encourages bad naming.
+This guideline essentially recommends that you _encode a variable’s scope in its name length_.
+This contradicts the same authors’ advice to avoid encodings in names.
+Even if that were a good idea, this would be hard to do consistently enough that someone reading the code could reliably infer a name’s scope from its length.
+And even if that would be possible, this would impose an unrealistic maintenance burden to rename variables when their scope changes.
+
+This variable’s popularity does not arise because programmers can overcome these challenges, but because they read it as an excuse to use bad names.
+Indeed, when a name has a very small scope, a bad name does less damage.
+That does not mean that we should have a guideline to deliberately use bad names in that case.
+At best, programmers are using the actual guideline to _prioritise naming effort and use bad names when you can get away with it_.
+Even if this were a good idea, the person writing the code typically cannot judge what they can get away with.
+
+Correctly deciding whether a scope is small enough for a variable to only need a single-letter name is harder than always choosing a better name. Ignoring this would-be guideline leads to more maintainable code.
+
+
 ### Short Identifier Name
 
 > \[avoid\] an identifier name shorter than eight characters, excluding: `i`, `j`, `k`. `l`, `m`, `n`, `t`, `x`, `y` or `z` \[[2](#references)\]

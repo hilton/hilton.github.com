@@ -64,6 +64,7 @@ His anecdote
 >
 > I explained, yet again, that they apparently could not see the bug without renaming as it was obvious to me, just looking at the code.
 > With much annoyance, I finally got them to agree and I got them to change the code identifier names individually, explaining what the code was doing on each change.
+>
 > Eventually they came to the `Array_Name[ i, j ]` reference and it was obvious to them that they should have written `Array_Name[ j, i ]`.
 >
 > I was fascinated that a graduate software engineer could not see the bug and disappointed that they had no interest to use meaningful identifier names.

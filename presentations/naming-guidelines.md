@@ -19,17 +19,20 @@ This paper then presents a consolidated set of naming guidelines that profession
 
 ## Why naming matters
 
-<!--- Preferably here we have some books and papers thta say that naming matters, both the consistency in the names and the names themselves. Do you have somthing? Otherwise I will have a look in the papers we read over Christmans for some nice quotes --->
+In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
+As
+
+<!--- Preferably here we have some books and papers that say that naming matters, both the consistency in the names and the names themselves. Do you have something? Otherwise I will have a look in the papers we read over Christmas for some nice quotes --->
 
 
 
 ## Purpose of naming guidelines
 
-In the above, we have established that naming is important, but also hard, ans Phil Karlton famously said:
+In the above, we have established that naming is important, but also hard, and Phil Karlton famously said:
 
 > ‘There are only two hard things in Computer Science: cache invalidation and naming things.’ - Phil Karlton
 
-We think some programmers make the mistake of focusing too much on the executability of the code, rather than on the value of the code as a thing for humans to read, forgettting that other famous quote:
+We think some programmers make the mistake of focusing too much on the executability of the code, rather than on the value of the code as a thing for humans to read, forgetting that other famous quote:
 
 > ‘Programs are meant to be read by humans and only incidentally for computers to execute.’ - Donald Knuth
 
@@ -40,7 +43,7 @@ Readability requires good naming, because bad names obscure intent.
 Unfortunately, programmers struggle to write readable code because they struggle to avoid using bad names.
 Naming guidelines aim to help programmers identify and avoid bad names, and to guide programmers towards good names.
 
-<!-- not sure what to do with these, maybe better to leave maintenance out of it for now and focus on names? Then later in the paper in the conclusion we can revisit the braoder impact. --->
+<!-- not sure what to do with these, maybe better to leave maintenance out of it for now and focus on names? Then later in the paper in the conclusion we can revisit the broader impact. --->
 
 Naming guidelines ultimately aim to help programmers write more maintainable code, and to reduce the cost and difficulty of software development.
 Crucially, these benefits apply to all software development, not just long-term maintenance of legacy systems.
@@ -443,7 +446,7 @@ _Example violations._ `getImageData` method that constructs a new object
 
 _References:_ \[[3](#references)\]
 
-### Only use `get`, `is` and `has` prefixes for methods that only peform field access
+### Only use `get`, `is` and `has` prefixes for methods that only perform field access
 
 _Guideline._ Only use the conventional accessor method name prefixes for accessor methods that directly return a field value.
 
@@ -463,7 +466,7 @@ _References:_ \[[3](#references)\]
 
 ### Only use `is` and `has` prefixes for Boolean field accessors
 
-_Guideline._ Don’t use the conventionals Boolean accessor method name prefixes for methods that don’t return a Boolean value.
+_Guideline._ Don’t use the conventional Boolean accessor method name prefixes for methods that don’t return a Boolean value.
 
 _Refactoring._ Replace prefix with `get`
 
@@ -607,3 +610,4 @@ Needless to say, I hope that software engineering researchers address these ques
 6. Sun Microsystems - [Code Conventions for the Java TM Programming Language](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html) (20 April 1999)
 7. Sun Microsystems - [JavaBeans](http://www.oracle.com/technetwork/java/javase/documentation/spec-136004.html) - JavaBeans™ API specification version 1.01 (1997)
 8. Phillip Relf - _Source Code Readability Improvement Using Heuristic-Based Dynamic Error Reporting During Editing_ - doctoral thesis (2007)
+9. Yegor Bugayenko - [How Much For This Software?](http://www.yegor256.com/2015/06/02/how-to-estimate-software-cost.html)

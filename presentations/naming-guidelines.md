@@ -20,17 +20,22 @@ This paper then presents a consolidated set of naming guidelines that profession
 
 ## Why naming matters
 
-There have been several researchers exploring the importance of naming. For example, Deißenbock and Pizka conclude that identifier names are crucial to program comprehension:
+Several researchers have explored the importance of naming.
+For example, Deißenbock and Pizka conclude that identifier names are crucial to program comprehension:
 
->Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process [20]
+>Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[20](#references)\]
 
 Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program.
 
-Deißenbock and Pizka [20] do not only present their opinion on naming, they have also performed measurements, and found that  in the Eclipse code base, which consists of about 2 MLoC, 33% of the tokens and 72% of characters are devoted to identifiers.
+Deißenbock and Pizka \[[20](#references)\] not only present their opinion on naming but also performed measurements.
+They found that in the Eclipse code base, which consists of about 2 MLoC, 33 per cent of the tokens and 72 per cent of characters are devoted to identifiers.
 
----TODO: maybe we can find something on comprehension and naming, there are some hints this exists but I have not found them yet.
+<!-- TODO: maybe we can find something on comprehension and naming, there are some hints this exists but I have not found them yet. -->
 
-Naming might also matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary Words and using more than 4 words were correlated with issues.
+Naming might also matter for the quality of source code.
+Butler *et al.* evaluated the quality of identifiers in eight large Java projects according to a number of naming style guidelines.
+They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java \[[22](#references)\].
+Errors in capitalisation, using non-dictionary words and using more than four words were especially correlated with issues.
 
 In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
 As Yegor Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
@@ -38,9 +43,9 @@ We see that the cost of continuous software development includes the cost of deb
 These activities clearly require programmers to read and understand existing code.
 As programmers, we can only understand code if we know what it means.
 
-A thought experiment suffices to make it clear that we rely on naming to understand what code means.
-Imagine trying to read code after replacing every identifier name with an underscore followed by a random number.
-Although an identifier like `result` communicates little intent, a name like `_42` explains even less.
+A thought experiment further illustrates that we rely on naming to understand what code means.
+Imagine trying to read code after someone has replaced every identifier name with an underscore followed by a random number.
+Although an identifier like `result` communicates relatively little intent, a name like `_42` explains even less.
 
 
 ## Purpose of naming guidelines

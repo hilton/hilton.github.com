@@ -15,15 +15,19 @@ We believe that these teams could use third-party naming guidelines to inform th
 This paper examines various sources of naming guidelines, in the context of the author’s twenty years’ experience as a professional programmer.
 This paper then presents a consolidated set of naming guidelines that professional programmers can apply to the code they write.
 
-<!--- I added a section here, because I would like to first establish why naming itself matters. This is not the same a saying that guidelines matter, it is more a step before, hope that makes sense! --->
-
 ## Why naming matters
 
+<!-- TODO Add Felienne’s reference about the cost of debugging code with worse names, and link that to ‘our observations’. --->
+
 In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
-As
+As Yegor Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
+We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
+These activities clearly require programmers to read and understand existing code.
+As programmers, we can only understand code if we know what it means.
 
-<!--- Preferably here we have some books and papers that say that naming matters, both the consistency in the names and the names themselves. Do you have something? Otherwise I will have a look in the papers we read over Christmas for some nice quotes --->
-
+A thought experiment suffices to make it clear that we rely on naming to understand what code means.
+Imagine trying to read code after replacing every identifier name with an underscore followed by a random number.
+Although an identifier like `result` communicates little intent, a name like `_42` explains even less.
 
 
 ## Purpose of naming guidelines

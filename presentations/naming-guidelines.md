@@ -777,5 +777,5 @@ Needless to say, we hope that software engineering researchers address these que
 
 20. F. Deißenböck and M. Pizka. Concise and consistent naming. In Proceedings of IWPC 2005.
 21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.
-22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp. Relating Identifier Naming Flaws and Code Quality: An Empirical Study In Proceedings of WCRE 2009.
-23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley. What’s in a Name? A Study of Identifiers TODO add venue
+22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp. _Relating Identifier Naming Flaws and Code Quality: An Empirical Study_ (2009) In Proceedings of WCRE 2009.
+23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley. _What’s in a Name? A Study of Identifiers_ (2006) In Proceedings of ICPC 2006.

@@ -601,7 +601,7 @@ _Guideline._ Only use verbs that suggest transformation, like `convert`, for met
 
 _Refactoring._ Return result, or change the verb to indicate what the method transforms
 
-_Example violations._
+_Example violations._ `javaToNative` with return type `void`
 
 _References:_ \[[3](#references)\]
 

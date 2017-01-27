@@ -137,18 +137,21 @@ These guidelines are not concerned with which words names use, except for the gu
 ### Use naming conventions
 
 _Guideline._ Follow the programming language’s conventions for names.
+Programming languages usually have some conventions for how to write identifier names, or at least their specifications or communities do.
+Java programmers, for example, follow Sun Microsystems’ original guidelines (\[[6](#references)\]) for how to use upper and lower-case, nouns and verbs, in the names of classes, interfaces, methods, variables and constants.
 
-_Refactoring._ Apply standard case
+_Refactoring._ Apply standard case with rigorous consistency, and use language-specific code inspection tools to enforce it.
 
 _Example violations._ `appleCOUNT`, `apple_count` (when camel-case is standard)
 
-_References:_ \[[2](#references)\]
+_References:_ \[[2](#references)\], \[[6](#references)\])
 
 ### Replace numeric suffixes
 
-_Guideline._ Don’t add numbers to multiple identifiers with the same base name
+_Guideline._ Don’t add numbers to multiple identifiers with the same base name.
+If you already have an `employee` variable, then a name like `employee2` has as little meaning as `another_employee`.
 
-_Refactoring._ replace the numbers with words that describe the difference
+_Refactoring._ Replace the numbers with additional words that describe the difference between multiple identifiers that might otherwise have the same name.
 
 _Example violations._ `employee2`
 
@@ -158,8 +161,11 @@ _References:_ \[[1](#references)\], \[[2](#references)\], \[[4](#references)\]
 
 _Guideline._ Only use correctly-spelled dictionary words and abbreviations.
 Make exceptions for `id` and documented domain-specific language/abbreviations.
+Spelling mistakes can render names ambiguous, and result in confusing inconsistency.
+Abbreviations introduce a different kind of ambiguity that the original programmer does not see because they know which word the abbreviation stands for, even if multiple words have that same abbreviation.
 
-_Refactoring._ spell words out in full and define abbreviations for the bounded context
+_Refactoring._ Spell words out in full and define abbreviations for the bounded context.
+Use tools that identify spelling errors in identifier names.
 
 _Example violations._ `acc`, `pos`, `char`, `mod`, `auth`, `appCnt`
 
@@ -167,9 +173,11 @@ _References:_ \[[1](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Expand single-letter names
 
-_Guideline._ Don’t make exceptions to using dictionary words for single-letter names; use searchable names
+_Guideline._ Don’t make exceptions to using dictionary words for single-letter names; use searchable names.
+Single-letter names, when used as abbreviations, introduce the maximum possible ambiguity.
+They end up being used with specific meanings, usually by unwritten convention, which makes the code harder to read for programmers when they first encounter the convention or who have to switch between conflicting conventions in different contexts.
 
-_Refactoring._ [use dictionary words](#use-dictionary-words)
+_Refactoring._ [Use dictionary words](#use-dictionary-words)
 
 _Example violations._ `i`, `j`, `k`, `l`, `m`, `n`, `t`, `x`, `y`, `z`
 
@@ -177,21 +185,23 @@ _References:_ \[[1](#references)\], \[[2](#references)\], \[[4](#references)\], 
 
 ### Articulate symbolic names
 
-_Guideline._ Don’t use ASCII art symbols instead of words
-* Exceptions: documented domain-specific symbols, e.g. `+` in arithmetic
+_Guideline._ Don’t use ASCII art symbols instead of words, in programming languages that support it.
+Make very limited exceptions for documented domain-specific symbols, e.g. `+` in arithmetic.
+Ironically, programmers who encounter symbolic names in third-party libraries may invent their own names, but choose names based on what the symbol looks like, rather than what it means.
 
-_Refactoring._ [use dictionary words](#use-dictionary-words)
+_Refactoring._ [Use dictionary words](#use-dictionary-words)
 
-_Example violations._ `>=>`, `<*>` - valid function identifiers in Scala, for example
+_Example violations._ `>=>`, `<*>` - valid function identifiers in Scala, for example, colloquially named _fish_ and _space ship_.
 
 _References:_ \[[1](#references)\]
 
 ### Name constant values
 
 _Guideline._ Name what the constant represents, rather than its constant value.
-Don’t construct names from numbers’ names.
+Don’t construct numeric constant names from numbers’ names.
 
-_Refactoring._ Extract constant
+_Refactoring._ Extract constant, for the _Magic number_ code smell.
+Replace number names with either domain-specific names, such as `pi`, or a name that describes the concept that the number represents, such as `boiling_point`.
 
 _Example violations._ `radius * 3.142591`, `ONE_HUNDRED`
 
@@ -199,9 +209,11 @@ _References:_ \[[2](#references)\], \[[4](#references)\]
 
 ### Only use one underscore at a time
 
-_Guideline._ Don’t use more than one consecutive underscore
+_Guideline._ Don’t use more than one consecutive underscore.
+Multiple underscores usually appear as a single line, which makes it hard to count them.
 
-_Refactoring._ Replace with a single underscore
+_Refactoring._ Replace with a single underscore.
+Use tools that warn when names contain multiple underscores.
 
 _Example violations._ `APPLE__COUNT`
 
@@ -209,9 +221,11 @@ _References:_ \[[2](#references)\]
 
 ### Only use underscores between words
 
-_Guideline._ Don’t use underscores and prefixes or suffixes.
+_Guideline._ Don’t use underscores as prefixes or suffixes.
+Underscores lack visual prominence, which makes them good word separators, but easy to misread before or after a word.
 
-_Refactoring._ Trim underscores
+_Refactoring._ Trim underscores.
+Use tools that warn when names do not start with a letter.
 
 _Example violations._ `_APPLE_COUNT`, `APPLE_COUNT_`
 
@@ -219,7 +233,7 @@ _References:_ \[[2](#references)\]
 
 ### Limit name character length
 
-_Guideline._ Keep name length within a twenty character maximum
+_Guideline._ Keep name length within a twenty character maximum.
 
 _Refactoring._ Simplify name, Extract variable
 
@@ -229,13 +243,15 @@ _References:_ \[[2](#references)\]
 
 ### Limit name word length
 
-_Guideline._ Keep name length within a four word maximum, and avoid gratuitous context
+_Guideline._ Keep name length within a four word maximum, and avoid gratuitous context.
+Limit names to the number of words that people can read at a glance.
+Don’t unnecessarily use the same prefix, such as the softare system’s name, for all names.
 
 _Refactoring._ Simplify name, Extract variable
 
 _Example violations._ `NewRedAppleSizeType`, `MyAppSizeType`
 
-_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\]
+_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\], \[[8](#references)\]
 
 ### Qualify values with suffixes
 
@@ -251,9 +267,11 @@ _References:_ \[[2](#references)\], \[[4](#references)\]
 
 ### Make names unique
 
-_Guideline._ Don’t overwrite (shadow) a name with a duplicate name in the same scope
+_Guideline._ Don’t overwrite (shadow) a name with a duplicate name in the same scope.
+In Java, for example, a local variable hides a class field that has the same name.
+Adopt a convention that prevents ambiguity in which name the programmer intended to refer to.
 
-_Refactoring._ Use a less specific name in nested scopes
+_Refactoring._ Add words to one of the names clarify the difference between contexts.
 
 _References:_ \[[2](#references)\]
 
@@ -265,9 +283,9 @@ Vocabulary guidelines address word choice, with the rationale that using the _ri
 ### Describe meaning
 
 _Guideline._ Use a descriptive name whose meaning describes a recognisable concept, with enough context.
-Avoid names that deliberately mean nothing.
+Avoid placeholder names that deliberately mean nothing more than `a_variable`.
 
-_Refactoring._ describe what the identifier represents
+_Refactoring._ Describe what the identifier represents.
 
 _Example violations._ `foo`, `blah`, `flag`, `temp`
 
@@ -276,8 +294,9 @@ _References:_ \[[1](#references)\], \[[4](#references)\], \[[5](#references)\]
 ### Be precise
 
 _Guideline._ Identify a specific kind of information and its purpose.
+Imprecise words might apply equally to multiple identifiers, and therefore fail to distinguish them.
 
-_Refactoring._ be more specific
+_Refactoring._ Replace vague words with more specific words that would only be correct for this name.
 
 _Example violations._ `data`, `object`
 
@@ -285,9 +304,10 @@ _References:_ \[[1](#references)\]
 
 ### Choose concrete words
 
-_Guideline._ use words that have a single clear meaning
+_Guideline._ Use words that have a single clear meaning.
+Like imprecise words, abstract words might apply equally to multiple identifiers.
 
-_Refactoring._ replace with more specific words
+_Refactoring._ Replace with more specific words that narrow down the concept they refer to.
 
 _Example violations._ `Manager` suffix, `get` prefix, `doIt`
 
@@ -295,9 +315,11 @@ _References:_ \[[1](#references)\], \[[2](#references)\]
 
 ### Use standard language
 
-_Guideline._ avoid being cute or funny when it results in a name that requires shared culture or more effort to understand
+_Guideline._ Avoid being cute or funny when it results in a name that requires shared culture or more effort to understand.
+Like deliberately meaningless names, cute and funny names require the reader to understand some implicit context.
+While humour often relies on indirect references and ambiguity, these qualities do not improve code readability.
 
-_Refactoring._
+_Refactoring._ Replace indirect references and colloquial language with the corresponding explicit and standard language.
 
 _Example violations._ `whack` instead of kill
 
@@ -305,9 +327,10 @@ _References:_ \[[5](#references)\]
 
 ### Use a large vocabulary
 
-_Guideline._ use a richer single word instead of multiple words that describe a well-known concept
+_Guideline._ Use a richer single word instead of multiple words that describe a well-known concept.
+Use the word that most accurately refers to the concept the identifier refers to.
 
-_Refactoring._ replace multiple words that describe a concept when ‘there’s a word for that’
+_Refactoring._ Replace multiple words that describe a concept when ‘there’s a word for that’.
 
 _Example violations._ `CompanyPerson` (replace with `Employee`)
 
@@ -315,19 +338,21 @@ _References:_ \[[1](#references)\]
 
 ### Use problem domain terms
 
-_Guideline._ Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept
+_Guideline._ Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept.
+Consistently use the correct domain language terms that subject-matter experts use.
 
-_Refactoring._ consistently use the correct domain language term
+_Refactoring._ Rename identifiers to use the correct terminology.
 
-_Example violations._ `Order` when you mean `Shipment`, in a supply-chain context
+_Example violations._ `Order` when you mean `Shipment`, in a supply-chain context, where it means something different.
 
 _References:_ \[[1](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Make names differ by more than one or two letters
 
-_Guideline._ Don’t use a name that barely differs from an existing name
+_Guideline._ Don’t use a name that barely differs from an existing name.
+Avoid words that you will probably mix up when reading the code.
 
-_Refactoring._ Make the difference more explicit
+_Refactoring._ Make the difference more explicit by adding or changing words.
 
 _Example violations._ `appleCount` vs `appleCounts`
 
@@ -335,9 +360,10 @@ _References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\]
 
 ### Make names differ by more than word order
 
-_Guideline._ Don’t use a name that only differs from an existing name in word order
+_Guideline._ Don’t use a name that only differs from an existing name in word order.
+Don’t use two names that both combine the same set of words.
 
-_Refactoring._ Make the difference more explicit
+_Refactoring._ Make the difference more explicit by using different words rather than just different word order to communicate different meanings.
 
 _Example violations._ `appleCount` vs `countApple`
 
@@ -345,9 +371,10 @@ _References:_ \[[2](#references)\]
 
 ### Make names differ in meaning
 
-_Guideline._ Don’t use names that have the same meaning as each other
+_Guideline._ Don’t use names that have the same meaning as each other.
+Avoid names that only differ by changing words for their synonyms.
 
-_Refactoring._ Rename both variables with more explicit names
+_Refactoring._ Rename both variables with more explicit names.
 
 _Example violations._ `input`/`inputValue`, `recordCount`/`numberOfRecords`
 
@@ -355,9 +382,11 @@ _References:_ \[[4](#references)\]
 
 ### Make names differ phonetically
 
-_Guideline._ Don’t use names that sound the same when spoken
+_Guideline._ Don’t use names that sound the same when spoken.
+Aim to write code that another programmer could write down correctly if you read it out loud.
+Even though don’t transcribe code like that, as a rule, they often talk about code.
 
-_Refactoring._ Choose a name that sounds different for one of them
+_Refactoring._ Replace a homophone with a synonym.
 
 _Example violations._ `wrap`/`rap`
 
@@ -366,14 +395,17 @@ _References:_ \[[4](#references)\]
 
 ## Data type guidelines
 
-Data type guidelines are vocabulary guidelines that address data type names in identifier names.
+Data type guidelines extend vocabulary guidelines by addressing data type names in identifier names.
 Some of these guidelines only apply to languages whose type system allows code to explicitly identify data types, separately from identifier names.
+Code in other languages cannot always avoid the need to indicate types.
 
 ### Omit type information
 
-_Guideline._ Don’t use prefixes or suffixes that encode the data type
+_Guideline._ Don’t use prefixes or suffixes that encode the data type.
+Avoid Hungarian notation and its remnants.
+Don’t prefix Boolean typed values and functions with `is`.
 
-_Refactoring._ remove words that duplicate the data type
+_Refactoring._ Remove words that duplicate the data type, either literally or indirectly.
 
 _Example violations._ `isValid`, `dateCreated`, `iAppleCount`
 
@@ -383,7 +415,7 @@ _References:_ \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
 
 _Guideline._ Don’t pluralise names for single values.
 
-_Refactoring._ Use the singular
+_Refactoring._ Replace the plural with the singular form.
 
 _Example violations._ `appleCounts`
 
@@ -392,8 +424,9 @@ _References:_ \[[2](#references)\], [3]
 ### Use plural names for collections
 
 _Guideline._ Pluralise names for collection values, such as lists.
+Technically, this contradicts the guideline to avoid encoding type information in names, but English grammar requires it to make it possible to read the code normally, or out loud.
 
-_Refactoring._ Use the plural
+_Refactoring._ Use the plural form.
 
 _Example violations._ `remainingApple` for a set of apples
 
@@ -403,7 +436,7 @@ _References:_ \[[3](#references)\]
 
 _Guideline._ If a collection’s type has a collective noun, in the name’s context, use it instead of a plural.
 
-_Refactoring._ Use the collective noun
+_Refactoring._ Use the collective noun, when possible, instead of a regular plural form.
 
 _Example violations._ `appointments` (replace with `calendar`), `pickedApples` (replace with `harvest`)
 
@@ -411,9 +444,10 @@ _References:_ \[[1](#references)\]
 
 ### Use opposites precisely
 
-_Guideline._ use opposites in standard pairs with naming conventions - add/remove, begin/end, create/destroy, destination/source, first/last, get/release, increment/decrememnt, insert/delete, lock/unlock, minimum/maximum, next/previous, old/new, old/new, open/close, put/get, show/hide, source/destination, start/stop, target/source, up/down
+_Guideline._ Consistently use opposites in standard pairs with naming conventions.
+Typical pairs include add/remove, begin/end, create/destroy, destination/source, first/last, get/release, increment/decrememnt, insert/delete, lock/unlock, minimum/maximum, next/previous, old/new, old/new, open/close, put/get, show/hide, source/destination, start/stop, target/source, and up/down.
 
-_Refactoring._use the correct opposite
+_Refactoring._ Use the correct opposite, and use it consistently.
 
 _Example violations._ `first`/`end`
 
@@ -421,19 +455,21 @@ _References:_ \[[4](#references)\]
 
 ### Use Boolean variable names that imply _true_ or _false_
 
-_Guideline._ use names like `done` or `found` that describe a Boolean values
+_Guideline._ Use names like `done` or `found` that describe Boolean values.
+Use conventional Boolean names, possibly from a code conventions list.
 
-_Refactoring._ use conventional Boolean names, possibly from a code conventions list
+_Refactoring._ Replace Boolean names with names in the correct grammatical form.
 
-_Example violations._ `status`
+_Example violations._ `status` for e.g. `started`
 
 _References:_ \[[4](#references)\]
 
 ### Use positive Boolean names
 
-_Guideline._ don’t use negation in Boolean names
+_Guideline._ Don’t use negation in Boolean names.
+Don’t use names that require a prefix like `not` that inverts the variable’s truth value.
 
-_Refactoring._ invert the meaning and remove the prefix
+_Refactoring._ Invert the meaning and remove the prefix.
 
 _Example violations._ `NotSuccessful`
 
@@ -446,9 +482,10 @@ Class name guidelines specifically address names for classes in object-oriented 
 
 ### Use a noun-phrase name
 
-_Guideline._ make the class name a noun phrase
+_Guideline._ Name a class with a noun phrase so you can use the class name to complete the phrase _This class’ constructor returns a new…_.
+Follow object-oriented programming’s grammatical conventions.
 
-_Refactoring._ Add the missing noun, remembering to [Choose concrete words](#choose-concrete-words)
+_Refactoring._ Add the missing noun, remembering to [Choose concrete words](#choose-concrete-words).
 
 _Example violations._ `Calculate`
 
@@ -457,9 +494,10 @@ _References:_ \[[5](#references)\], \[[6](#references)\]
 
 ### Use a name that allows all possible states
 
-_Guideline._ Don’t use class names that assume a particular state, and are inconsistent as the return type of a method that changes that state.
+_Guideline._ Don’t use class names that assume a particular state.
+If a class models something that can have multiple states, then avoid a name that would be inconsistent with the state that results from calling a method that changes that state.
 
-_Refactoring._ Make class name less specific
+_Refactoring._ Make the class name less specific to accommodate all possible states.
 
 _Example violations._ `disable` method that returns a `ControlEnableState` (rename class to `ControlState`)
 
@@ -468,8 +506,9 @@ _References:_ \[[3](#references)\]
 ### Choose a name consistent with possible values
 
 _Guideline._ Don’t use a name that appears to contradict certain possible values.
+Some types aggregate multiple values of the same type, such as a line that has a `start` and an `end`, so use a name that applies equally to both values, such as `Extremity`, rather than naming the type after just one possible value, such as `Start`.
 
-_Refactoring._ Make class name inclusive
+_Refactoring._ Make class name inclusive.
 
 _Example violations._ `start` field has type `MAssociationEnd` (rename class to `MAssociationExtremity`)
 
@@ -483,9 +522,12 @@ Several of these guidelines apply to Java in particular, due to the bad habits t
 
 ### Use a verb-phrase name
 
-_Guideline._ make the method name an active verb phrase, except for accessor methods and some conversions
+_Guideline._ Make the method name an active verb phrase, except for accessor methods and some conversions.
+As with the guideline to use noun phrases to name class, follow object-oriented programming’s grammatical conventions.
+Some coding styles omit the verb from accessor methods, changing `Parcel.getWeight()` to `Parcel.weight()`.
+Another common style is to omit the verb from conversion methods, changing `Discount.convertToPercentage()` to `Discount.asPercentage()`.
 
-_Refactoring._ Add the missing verb, remembering to [Choose concrete words](#choose-concrete-words)
+_Refactoring._ Add the missing verb, remembering to [Choose concrete words](#choose-concrete-words).
 
 _Example violations._ `calculation()`
 
@@ -495,18 +537,21 @@ _References:_ \[[5](#references)\], \[[6](#references)\]
 ### Don’t use `get`, `is` or `has` prefixes for methods with side-effects
 
 _Guideline._ Use a verb phrase that suggests the side-effect, if there is one.
+Verbs like `create` and `convert` suggest a side-effect, while others suggest idempotence.
 
-_Refactoring._ Replace ‘get’ with another verb
+_Refactoring._ Replace ‘get’ with another verb.
 
-_Example violations._ `getImageData` method that constructs a new object
+_Example violations._ `getImageData` method that constructs a new object.
 
 _References:_ \[[3](#references)\]
 
 ### Only use `get`, `is` and `has` prefixes for methods that only perform field access
 
 _Guideline._ Only use the conventional accessor method name prefixes for accessor methods that directly return a field value.
+In Java, the JavaBeans specification (\[[7](#references)\]) requires these prefixes for certain methods.
+When some methods require a certain prefix, don’t use the same prefixes for methods that do not require them.
 
-_Refactoring._ Replace ‘get’ with another verb
+_Refactoring._ Replace ‘get’ with another verb.
 
 _Example violations._ `getScore` that performs calculation or accesses external data
 
@@ -514,7 +559,7 @@ _Example violations._ `getScore` that performs calculation or accesses external 
 
 _Guideline._ Don’t use the `get` field accessor method name prefix for methods that don’t return a value.
 
-_Refactoring._ Replace ‘get’ with a verb that describes the side-effect
+_Refactoring._ Replace ‘get’ with a verb that describes the side-effect.
 
 _Example violations._ `getMethodBodies` populates the method bodies but doesn’t return them
 
@@ -524,7 +569,7 @@ _References:_ \[[3](#references)\]
 
 _Guideline._ Don’t use the conventional Boolean accessor method name prefixes for methods that don’t return a Boolean value.
 
-_Refactoring._ Replace prefix with `get`
+_Refactoring._ Replace prefix with `get` or remove the prefix altogether.
 
 _Example violations._ `isValid` returns an `int` value
 
@@ -534,7 +579,7 @@ _References:_ \[[3](#references)\]
 
 _Guideline._ Don’t use the `set` field accessor method name prefix for methods that return a value.
 
-_Refactoring._ Replace ‘set’ with another verb, or remote it in a fluent API
+_Refactoring._ Replace ‘set’ with another verb, or remove it in a ‘fluent API’ that chains method calls.
 
 _Example violations._ `setBreadth` creates and returns a new object, or updates and returns `this` (fluent API)
 

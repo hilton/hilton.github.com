@@ -23,7 +23,7 @@ This paper then presents a consolidated set of naming guidelines that profession
 <!-- TODO Add Felienne’s reference about the cost of debugging code with worse names, and link that to ‘our observations’. --->
 
 In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
-As Yegor Bugayenko writes (\[[9](#references)\]), software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
+As Yegor Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
 We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
 These activities clearly require programmers to read and understand existing code.
 As programmers, we can only understand code if we know what it means.
@@ -86,17 +86,17 @@ A thorough literature review would no doubt turn up more naming guidelines, but 
 Professional software developers benefit more from some kinds of guidelines than from others.
 Guidelines like ‘Variable names should be short yet meaningful’ \[[6](#references)\] sound reasonable, but offer little practical help, either when choosing a name when coding or when evaluating a name during code review.
 
-Some academic studies, such as Binkley (\[[10](#references)\]), have compared the relative readability of different formatting conventions, such as camel-case (caplitalised words) and snake-case (words separated by underscores).
+Some academic studies, such as Binkley \[[10](#references)\], have compared the relative readability of different formatting conventions, such as camel-case (caplitalised words) and snake-case (words separated by underscores).
 In principle, programming language designers could use this research when setting these conventions to design programming languages with a more productive developer experience.
 
 Ken Arnold typifies the view that the responsibility for using this kind of research to choose a coding style lies with language designers rather than programmers.
-In his essay _Style is substance_ (\[[8](#references)\]), he argues that a programming language’s specification should fix all aspects of coding style, so that compilers reject all violations:
+In his essay _Style is substance_, he argues that a programming language’s specification should fix all aspects of coding style, so that compilers reject all violations:
 
 > For almost any mature language \[…\] coding style is an essentially solved problem, and we ought to stop worrying about it. \[…\]
 > the only way to get from where we are to a place where we stop worrying about style is to enforce it _as part of the language_. \[…\]
 >
 > I want the owners of language standards to take this up.
-> I want the next version of these languages to require any code that uses new features to conform to some style.
+> I want the next version of these languages to require any code that uses new features to conform to some style. \[[11](#references)\]
 
 He argues that programmers follow the name formatting convention that a programming language community adopts, and that they have nothing to gain from this kind of research.
 
@@ -104,16 +104,16 @@ He argues that programmers follow the name formatting convention that a programm
 >
 > There is not now, nor will there ever be, a programming style whose benefit is significantly greater than any of the common styles.
 
-However, Binkley (\[[10](#references)\]) concludes that not all ‘common coding styles’ deliver the same productivity, and that ‘it becomes evident that the camel case style leads to better all around performance once a subject is trained on this style’.
+However, Binkley \[[10](#references)\] concludes that not all ‘common coding styles’ deliver the same productivity, and that ‘it becomes evident that the camel case style leads to better all around performance once a subject is trained on this style’.
 
 Fortunately, some research has directly addressed different guidelines’ usefulness.
-Relf \[[8](#references)\], for example, concludes that:
+Relf, for example, concludes that:
 
 > The identifier-naming style guidelines that proved to be the most useful to programmers required that
 > identifier names should be composed of from two to four Natural language words or project accepted acronyms;
 > should not be composed only of abstract words;
 > should not contain plural words;
-> and should conform to the project naming conventions.
+> and should conform to the project naming conventions. \[[8](#references)\]
 
 Professional programmers can apply guidelines that are stated this clearly more readily than they can access and read the original scientific research that contains these conclusions.
 We therefore aim to present naming guidelines from a number of sources in a form that makes them accessible to professional programmers.
@@ -123,7 +123,7 @@ We therefore aim to present naming guidelines from a number of sources in a form
 
 People who write naming guidelines phrase their guidelines in different ways.
 Some authors write prescriptive instructions, e.g. _Use intention-revealing names_ \[[5](#references)\], while some phrase them as code smells or naming problems, e.g. _Meaningless names_ \[[1](#references)\].
-The written naming guidelines (\[[1-7](#references)\]) that we examined include one or more of the following.
+The written naming guidelines \[[1-7](#references)\] that we examined include one or more of the following.
 
 * Prescriptive instruction
 * Naming smell name
@@ -153,13 +153,13 @@ These guidelines are not concerned with which words names use, except for the gu
 
 _Guideline._ Follow the programming language’s conventions for names.
 Programming languages usually have some conventions for how to write identifier names, or at least their specifications or communities do.
-Java programmers, for example, follow Sun Microsystems’ original guidelines (\[[6](#references)\]) for how to use upper and lower-case, nouns and verbs, in the names of classes, interfaces, methods, variables and constants.
+Java programmers, for example, follow Sun Microsystems’ original guidelines \[[6](#references)\] for how to use upper and lower-case, nouns and verbs, in the names of classes, interfaces, methods, variables and constants.
 
 _Refactoring._ Apply standard case with rigorous consistency, and use language-specific code inspection tools to enforce it.
 
 _Example violations._ `appleCOUNT`, `apple_count` (when camel-case is standard)
 
-_References:_ \[[2](#references)\], \[[6](#references)\])
+_References:_ \[[2](#references)\], \[[6](#references)\]
 
 ### Replace numeric suffixes
 
@@ -563,7 +563,7 @@ _References:_ \[[3](#references)\]
 ### Only use `get`, `is` and `has` prefixes for methods that only perform field access
 
 _Guideline._ Only use the conventional accessor method name prefixes for accessor methods that directly return a field value.
-In Java, the JavaBeans specification (\[[7](#references)\]) requires these prefixes for certain methods.
+In Java, the JavaBeans specification \[[7](#references)\] requires these prefixes for certain methods.
 When some methods require a certain prefix, don’t use the same prefixes for methods that do not require them.
 
 _Refactoring._ Replace ‘get’ with another verb.
@@ -675,7 +675,7 @@ We don’t know what the objection to one-word names might be, especially when t
 
 > class names and type names should be qualified to identify their nature \[…\] e.g. `Fruit` (`FruitClass` and `Fruit_Tree` are considered more readable) \[[2](#references)\]
 
-We reject this guideline, as did the study participants (in \[[2](#references)\]).
+We reject this guideline, as did the study participants (in \[[2](#references)\].
 We would consider adding a class name `Class` suffix redundant.
 Many languages use a capitalisation convention for type names, and a `class` keyword for declarations.
 Furthermore, professional software developers tend to use tools (IDEs) that indicate which identifiers are types, or support navigation to the declaration.

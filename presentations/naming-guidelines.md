@@ -36,8 +36,11 @@ Interestingly enough, this study also found that women comprehend more from abbr
 
 Naming might has been found to matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary words and using more than 4 words were correlated with issues.
 
-In a commercial context, we have observed that software development typically turns out to cost more and take longer than anyone expects.
-As Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
+Developers agree that naming matters. In an ethnographic study among 12 professional developers and 18 third-year students [24], researchers found that both students and
+professional developers find the use of a naming
+guidelines important. The study also found a remarkable difference between professionals and students: professional developers pay more attention to the name of the identifiers than to source code comments. Could this be due to the fact that computer science courses tend to emphasize the importance of comments but largely neglect naming?
+ 
+While developers agree that guidelines are important, we have observed that in software development typically turns out to cost more and take longer than anyone expects. As Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
 We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
 These activities clearly require programmers to read and understand existing code.
 As programmers, we can only understand code if we know what it means.
@@ -778,3 +781,5 @@ Needless to say, we hope that software engineering researchers address these que
 21. B. Caprile and P. Tonella. Restructuring program identifier names. In Proceedings of ICSM, 2000.
 22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp. _Relating Identifier Naming Flaws and Code Quality: An Empirical Study_ (2009) In Proceedings of WCRE 2009.
 23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley. _What’s in a Name? A Study of Identifiers_ (2006) In Proceedings of ICPC 2006.
+24. Felice Salviulo	and Giuseppe Scanniello. _Dealing with identifiers and comments in source code comprehension and maintenance: results from an ethnographically-informed study with students and professionals_ (2014) In Proceedings of EASE 2014
+

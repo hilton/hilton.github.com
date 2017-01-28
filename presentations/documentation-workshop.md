@@ -45,3 +45,8 @@ A longer workshop would extend sessions to 30 or 40 minutes or include additiona
 * Documentation for open-source software projects
 * Manpage Challenge: write a single page of documentation (or README) for your open source project.
 * Getting started with a documentation publishing toolchain (readthedocs.org or GitHub Pages).
+
+## Conferences
+
+* [ACCU 2017](https://conference.accu.org/site/stories/2017/schedule.html) - 27 April 2017
+* [I T.A.K.E. (Un) conference 2017](http://itakeunconf.com/sessions/documentation-for-software-developers/) - 12 May 2017

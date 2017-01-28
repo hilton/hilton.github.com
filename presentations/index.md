@@ -23,6 +23,20 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2017-05-12</td>
+	<td><a href="documentation-workshop">Documentation for software developers</a> (workshop)</td>
+	<td><a href="http://itakeunconf.com/sessions/documentation-for-software-developers/">I T.A.K.E. (Un) conference 2017</a></td>
+	<td class="flag ro">Bucharest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2017-04-27</td>
+	<td><a href="documentation-workshop">Documentation for software developers</a> (workshop)</td>
+	<td><a href="https://conference.accu.org/site/stories/2017/schedule.html">ACCU 2017</a></td>
+	<td class="flag uk">Bristol</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-02-10</td>
 	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
 	<td><a href="https://www.meetup.com/Data-Driven-Rijnmond/events/236256531/">Data Driven Rijnmond</a></td>

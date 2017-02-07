@@ -245,7 +245,7 @@ Don’t construct numeric constant names from numbers’ names.
 *Refactoring.* Extract constant, for the *Magic number* code smell.
 Replace number names with either domain-specific names, such as `pi`, or a name that describes the concept that the number represents, such as `boiling_point`.
 
-*Example violations.* `radius * 3.142591`, `ONE_HUNDRED`
+*Example violations.* `3.142591`, `ONE_HUNDRED`
 
 *References:* \[[2](#references)\], \[[4](#references)\]
 
@@ -313,8 +313,8 @@ Using a suffix, rather than a prefix, for the qualifier naturally links the name
 
 ### Make names unique
 
-*Guideline.* Don’t overwrite (shadow) a name with a duplicate name in the same scope.
-In Java, for example, a local variable hides a class field that has the same name.
+*Guideline.* Don’t overwrite a name with a duplicate name in the same scope.
+In Java, for example, a local variable ‘shadows’ a class field that has the same name.
 Adopt a convention that prevents ambiguity in which name the programmer intended to refer to.
 
 *Refactoring.* Add words to one of the names clarify the difference between contexts.
@@ -384,7 +384,7 @@ Use the word that most accurately refers to the concept the identifier refers to
 
 ### Use problem domain terms
 
-*Guideline.* Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept.
+*Guideline.* Use the correct term in the problem domain’s ubiquitous language, and only one term for each concept, within each bounded context.
 Consistently use the correct domain language terms that subject-matter experts use.
 
 *Refactoring.* Rename identifiers to use the correct terminology.
@@ -443,7 +443,7 @@ Even though they don’t transcribe code like that, as a rule, they often talk a
 
 Data type guidelines extend vocabulary guidelines by addressing data type names in identifier names.
 Some of these guidelines only apply to languages whose type system allows code to explicitly identify data types, separately from identifier names.
-Code in other languages cannot always avoid the need to indicate types.
+Code in other programming languages cannot always avoid the need to indicate types.
 
 ### Omit type information
 
@@ -453,7 +453,7 @@ Don’t prefix Boolean typed values and functions with `is`.
 
 *Refactoring.* Remove words that duplicate the data type, either literally or indirectly.
 
-*Example violations.* `isValid`, `dateCreated`, `iAppleCount`
+*Example violations.* `isValid`, `dateCreated`, `iAppleCount` (replace with `valid`, `created`, `appleCount`).
 
 *References:* \[[1](#references)\], \[[2](#references)\], \[[5](#references)\]
 
@@ -463,7 +463,7 @@ Don’t prefix Boolean typed values and functions with `is`.
 
 *Refactoring.* Replace the plural with the singular form.
 
-*Example violations.* `appleCounts`
+*Example violations.* `appleCounts` (replace with `appleCount`).
 
 *References:* \[[2](#references)\], [3]
 
@@ -474,7 +474,7 @@ Technically, this contradicts the guideline to avoid encoding type information i
 
 *Refactoring.* Use the plural form.
 
-*Example violations.* `remainingApple` for a set of apples.
+*Example violations.* `remainingApple` for a set of apples (replace with `remainingApples`).
 
 *References:* \[[3](#references)\]
 
@@ -517,7 +517,7 @@ Don’t use names that require a prefix like `not` that inverts the variable’s
 
 *Refactoring.* Invert the meaning and remove the prefix.
 
-*Example violations.* `NotSuccessful`
+*Example violations.* `notSuccessful`
 
 *References:* \[[4](#references)\]
 
@@ -533,7 +533,7 @@ Follow object-oriented programming’s grammatical conventions.
 
 *Refactoring.* Add the missing noun, remembering to [Choose concrete words](#choose-concrete-words).
 
-*Example violations.* `Calculate`
+*Example violations.* `Calculate` (replace with `DiscountRule`, for example).
 
 *References:* \[[5](#references)\], \[[6](#references)\]
 
@@ -684,7 +684,7 @@ Correctly deciding whether a scope is small enough for a variable to only need a
 
 > Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. \[[6](#references)\]
 
-We don’t use this guideline, in practice, because we’re more concerned about avoiding abbreviations (guideline 12) than that names should not be too short.
+We don’t use this guideline, in practice, because we’re more concerned about avoiding abbreviations (see [Use dictionary words](#use-dictionary-words)) than that names should not be too short.
 In fact, we’d partly accept these guidelines, were it not for their exceptions for single-letter names, which we consider the worst kind of abbreviation.
 
 ### Long Identifier Name
@@ -737,7 +737,7 @@ We don’t know whether to accept this guideline, because we don’t experience 
 
 We partly accept this guideline, which at least requires an order and thus prevents (apparently) random order.
 However, some enumerations, such as weekdays, have their own non-alphabetical *natural* order.
-Fortunately, we follow guidelines blindly.
+Fortunately, we don’t follow guidelines blindly.
 
 ### Enumeration Identifier Qualification
 
@@ -751,7 +751,7 @@ Fortunately, we’ve never seen this in practice.
 
 While developers agree guidelines are important [18], they remain underused in the software industry.
 In our experience, professional software developers do not always agree on which guidelines to use, or even that they are worthwhile.
-Our industry would benefit from more rigorous answers to the following questions.
+To further good naming practices, our industry would benefit from more rigorous answers to the following questions.
 
 1. Which naming guidelines apply universally to all kinds of code?
 1. Which naming guidelines have the most positive impact on code readability and maintainability?

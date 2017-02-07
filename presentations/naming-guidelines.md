@@ -7,7 +7,7 @@ Copyright ©2017 [Peter Hilton](http://hilton.org.uk) and [Felienne Hermans](htt
 
 ## Abstract
 
-Programmers acknowledge the difficulty of naming things, whatever their experience level and wherever they work, but relatively few use explicit naming guidelines.
+Programmers generally acknowledge the difficulty of naming things, whatever their experience level and wherever they work, but relatively few use explicit naming guidelines.
 Various authors have published different kinds of identifier naming guidelines, but these guidelines do little to make naming easier, in practice.
 Meanwhile, professional programmers follow diverse conventions and disagree about key aspects of naming, such as acceptable name lengths.
 
@@ -35,8 +35,8 @@ However, they also found that in many cases there is no difference between words
 Interestingly, this study also found that women comprehend more from abbreviations than men do.
 
 Naming might have been found to matter for source code quality.
-Butler *et al.* evaluated the quality of identifiers in eight large Java projects according to a number of naming style guidelines.
-They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java \[[16](#references)\].
+Butler *et al.* \[[16](#references)\] evaluated the quality of identifiers in eight large Java projects according to a number of naming style guidelines.
+They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java.
 In particular, capitalisation errors, using non-dictionary words and using more than four words were correlated with issues.
 
 Developers agree that naming matters.
@@ -74,7 +74,7 @@ Similarly, computer science does not have a clear definition of ‘maintainabili
 These related measures reduce ‘maintainability’ to ‘readability’.
 
 Readability requires good naming, because bad names obscure the programmer’s intent.
-We claim, above, that naming affects programmers’ ability to read and understand source code.
+We report, above, that naming affects programmers’ ability to read and understand source code.
 Unfortunately, programmers struggle to write readable code because they struggle to avoid using bad names.
 Naming guidelines aim to help programmers identify and avoid bad names, and to guide programmers towards good names.
 
@@ -100,7 +100,7 @@ More recent programming books tend to devote fewer words to naming, perhaps beca
 
 Computer science research sometimes includes naming guidelines.
 Papers by Relf \[[2](#references)\] and Arnaodova *et al.* \[[3](#references)\] include collections of naming guidelines, which they evaluate in different ways.
-A thorough literature review would no doubt turn up more naming guidelines, but professional programmers rarely have access to published papers, which makes them less directly useful in the software industry than books.
+Computer scientists will likely continue publish papers that include naming guidelines, but professional programmers rarely have access to published papers, which makes them less directly useful in the software industry than books.
 
 
 ## Importance of different guidelines to professional programmers
@@ -120,7 +120,7 @@ In his essay _Style is substance_, he argues that a programming language’s spe
 > I want the owners of language standards to take this up.
 > I want the next version of these languages to require any code that uses new features to conform to some style. \[[11](#references)\]
 
-He argues that programmers follow the name formatting convention that a programming language community adopts, and that they have nothing to gain from this kind of research.
+He argues that programmers follow the name formatting convention that a programming language community adopts, and that these programmers have nothing to gain from this kind of research.
 
 > For any given language, there are one or a few common coding styles. \[…\]
 >
@@ -196,7 +196,7 @@ _References:_ \[[1](#references)\], \[[2](#references)\], \[[4](#references)\]
 
 ### Use dictionary words
 
-_Guideline._ Only use correctly-spelled dictionary words and abbreviations.
+_Guideline._ Only use correctly-spelled dictionary words and abbreviations that appear in a dictionary.
 Make exceptions for `id` and documented domain-specific language/abbreviations.
 Spelling mistakes can render names ambiguous, and result in confusing inconsistency.
 Abbreviations introduce a different kind of ambiguity that the original programmer does not see because they know which word the abbreviation stands for, even if multiple words have that same abbreviation.

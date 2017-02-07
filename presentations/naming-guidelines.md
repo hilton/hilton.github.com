@@ -732,7 +732,7 @@ We don’t know whether to accept this guideline, because we don’t experience 
 
 ### Enumeration Identifier Definition Order
 
-> \[avoid\] the appearance of two similar identifier names both in scope \[[2](#references)\]
+> \[avoid\] enumeration constants declared in non-alphabetical order \[[2](#references)\]
 
 We partly accept this guideline, which at least requires an order and thus prevents (apparently) random order.
 However, some enumerations, such as weekdays, have their own non-alphabetical _natural_ order.
@@ -740,7 +740,7 @@ Fortunately, we follow guidelines blindly.
 
 ### Enumeration Identifier Qualification
 
-> \[avoid\] enumeration constants declared in non-alphabetical order \[[2](#references)\]
+> \[avoid\] the non-qualification of enumeration constants to identify their base type \[[2](#references)\]
 
 Adding an enumeration type’s name to its constants’ name make as little sense as adding a class’ name to its instances’ names (or guideline come to that).
 Fortunately, we’ve never seen this in practice.

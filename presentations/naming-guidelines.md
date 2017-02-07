@@ -132,12 +132,12 @@ Fortunately, some research has directly addressed different guidelines’ useful
 Relf, for example, concludes that:
 
 > The identifier-naming style guidelines that proved to be the most useful to programmers required that
-> identifier names should be composed of from two to four Natural language words or project accepted acronyms;
+> identifier names should be composed of from two to four natural language words or project accepted acronyms;
 > should not be composed only of abstract words;
 > should not contain plural words;
 > and should conform to the project naming conventions. \[[8](#references)\]
 
-Professional programmers can apply guidelines that are stated this clearly more readily than they can access and read the original scientific research that contains these conclusions.
+When stated this clearly, professional programmers can apply guidelines more readily than they can access and read the original scientific research that contains these conclusions.
 We therefore aim to present naming guidelines from a number of sources in a form that makes them accessible to professional programmers.
 
 
@@ -429,7 +429,7 @@ _References:_ \[[4](#references)\]
 
 _Guideline._ Don’t use names that sound the same when spoken.
 Aim to write code that another programmer could write down correctly if you read it out loud.
-Even though don’t transcribe code like that, as a rule, they often talk about code.
+Even though they don’t transcribe code like that, as a rule, they often talk about code.
 
 _Refactoring._ Replace a homophone with a synonym.
 
@@ -544,7 +544,7 @@ If a class models something that can have multiple states, then avoid a name tha
 
 _Refactoring._ Make the class name less specific to accommodate all possible states.
 
-_Example violations._ `disable` method that returns a `ControlEnableState` (rename class to `ControlState`).
+_Example violations._ A `disable` method that returns a `ControlEnableState` (rename class to `ControlState`).
 
 _References:_ \[[3](#references)\]
 
@@ -668,7 +668,7 @@ This contradicts the same authors’ advice to avoid encodings in names.
 Even if that were a good idea, this would be hard to do consistently enough that someone reading the code could reliably infer a name’s scope from its length.
 And even if that would be possible, this would impose an unrealistic maintenance burden to rename variables when their scope changes.
 
-This variable’s popularity does not arise because programmers can overcome these challenges, but because they read it as an excuse to use bad names.
+This guideline’s popularity does not arise because programmers can overcome these challenges, but because they read it as an excuse to use bad names.
 Indeed, when a name has a very small scope, a bad name does less damage.
 That does not mean that we should have a guideline to deliberately use bad names in that case.
 At best, programmers are using the actual guideline to _prioritise naming effort and use bad names when you can get away with it_.

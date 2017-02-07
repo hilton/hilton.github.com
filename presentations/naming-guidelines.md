@@ -24,7 +24,7 @@ For example, Deißenbock and Pizka conclude that identifier names are crucial to
 
 >Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[14](#references)\]
 
-Other authors agree; Caprile and Tonella \[[15](#references)\] say that identifiers provide important information about program entities, because they give the programmer an initial idea of these entities’ roles within the whole program.
+Other authors agree; Caprile and Tonella \[[15](#references)\] state that identifiers provide important information about program entities, because they give the programmer an initial idea of these entities’ roles within the whole program.
 Deißenbock and Pizka \[[14](#references)\] not only present their opinion on naming, they also performed measurements.
 They found that in the Eclipse code base, which consists of about 2 MLoC, 33 per cent of the tokens and 72 per cent of characters are devoted to identifiers.
 
@@ -201,7 +201,7 @@ Make exceptions for `id` and documented domain-specific language/abbreviations.
 Spelling mistakes can render names ambiguous, and result in confusing inconsistency.
 Abbreviations introduce a different kind of ambiguity that the original programmer does not see because they know which word the abbreviation stands for, even if multiple words have that same abbreviation.
 
-_Refactoring._ Spell words out in full and define abbreviations for the bounded context.
+_Refactoring._ Write words out in full and define abbreviations for the bounded context.
 Use tools that identify spelling errors in identifier names.
 
 _Example violations._ `acc`, `pos`, `char`, `mod`, `auth`, `appCnt`
@@ -567,7 +567,7 @@ Several of these guidelines apply to Java in particular, due to the bad habits t
 
 ### Use a verb-phrase name
 
-_Guideline._ Make the method name an active verb phrase, except for accessor methods and some conversions.
+_Guideline._ Make the method name an active verb phrase, except for accessor methods.
 As with the guideline to use noun phrases to name class, follow object-oriented programming’s grammatical conventions.
 Some coding styles omit the verb from accessor methods, changing `Parcel.getWeight()` to `Parcel.weight()`.
 Another common style is to omit the verb from conversion methods, changing `Discount.convertToPercentage()` to `Discount.asPercentage()`.

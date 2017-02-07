@@ -24,23 +24,28 @@ For example, Deißenbock and Pizka conclude that identifier names are crucial to
 
 >Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[20](#references)\]
 
-Other authors agree; Caprile and Tonella say that identifiers are one of most important sources of information about program entities, because they give the programmer an initial idea of the role of entities within the whole program.
+Other authors agree; Caprile and Tonella say that identifiers provide important information about program entities, because they give the programmer an initial idea of these entities’ roles within the whole program.
 Deißenbock and Pizka \[[20](#references)\] not only present their opinion on naming, they also performed measurements.
 They found that in the Eclipse code base, which consists of about 2 MLoC, 33 per cent of the tokens and 72 per cent of characters are devoted to identifiers.
 
-Better identifiers names have known to correlate with program comprehension.
+Better identifier names have been known to correlate with program comprehension.
 For example, \[[23](#references)\] reports on a study performed with over 100 programmers, who had to describe functions and rate their confidence in doing so.
-Their results show that using full word identifiers leads to better code comprehension than using single letter identifiers, measured by both description rating and by confidence in understanding.
+Their results show that using full word identifiers leads to better code comprehension than using single-letter identifiers, measured by both description rating and by confidence in understanding.
 However, they also found that in many cases there is no difference between words and abbreviations.
-Interestingly enough, this study also found that women comprehend more from abbreviations than men do.
+Interestingly, this study also found that women comprehend more from abbreviations than men do.
 
-Naming might has been found to matter for the quality of source code. Butler *et al.* evaluated the quality of identifiers in 8 large Java projects according to a number of naming style guidelines. They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java [22]. Especially errors in capitalization, using non-dictionary words and using more than 4 words were correlated with issues.
+Naming might have been found to matter for source code quality.
+Butler *et al.* evaluated the quality of identifiers in eight large Java projects according to a number of naming style guidelines.
+They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java \[[22](#references)\].
+In particular, capitalisation errors, using non-dictionary words and using more than four words were correlated with issues.
 
-Developers agree that naming matters. In an ethnographic study among 12 professional developers and 18 third-year students [24], researchers found that both students and
-professional developers find the use of a naming
-guidelines important. The study also found a remarkable difference between professionals and students: professional developers pay more attention to the name of the identifiers than to source code comments. Could this be due to the fact that computer science courses tend to emphasize the importance of comments but largely neglect naming?
+Developers agree that naming matters.
+In an ethnographic study among twelve professional developers and eighteen third-year students \[[24](#references)\], researchers found that both students and professional developers find the use of naming guidelines important.
+The study also found a remarkable difference between professionals and students: professional developers pay more attention to the name of the identifiers than to source code comments.
+Could this be due to the fact that computer science courses tend to emphasise the importance of comments but largely neglect naming?
 
-While developers agree that guidelines are important, we have observed that in software development typically turns out to cost more and take longer than anyone expects. As Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
+While developers agree that guidelines are important, we have observed that software development typically turns out to cost more and take longer than anyone expects.
+As Bugayenko writes \[[9](#references)\], software development is ‘a never-ending process’ that will cost ‘All of your money, and it won't be enough’.
 We see that the cost of continuous software development includes the cost of debugging, fixing and maintaining code.
 These activities clearly require programmers to read and understand existing code.
 As programmers, we can only understand code if we know what it means.
@@ -53,7 +58,7 @@ Although an identifier like `result` communicates relatively little intent, a na
 ## Purpose of naming guidelines
 
 In the above, we have established that naming is important, but also hard.
-As Karlton famously said:
+As Karlton famously joked:
 
 > ‘There are only two hard things in Computer Science: cache invalidation and naming things.’ - Phil Karlton
 
@@ -65,7 +70,7 @@ A good name helps a future reader of code to quickly understand what a value mea
 
 However, programmers don’t always try write code to be maintainable, and when they do they typically find it difficult to achieve.
 The very idea of ‘maintenance’ lacks a common industry definition that doesn’t assume a specific (usually waterfall) software development method or software services business model.
-Similarly, software developers do not have a clear definition of ‘maintainability’, and instead focus on proxies such as code comprehension and their ability to discover and correct code errors.
+Similarly, computer science does not have a clear definition of ‘maintainability’, and instead focuses on proxies such as code comprehension and programmers’ ability to discover and correct code errors.
 These related measures reduce ‘maintainability’ to ‘readability’.
 
 Readability requires good naming, because bad names obscure the programmer’s intent.
@@ -103,7 +108,7 @@ A thorough literature review would no doubt turn up more naming guidelines, but 
 Professional software developers benefit more from some kinds of guidelines than from others.
 Guidelines like ‘Variable names should be short yet meaningful’ \[[6](#references)\] sound reasonable, but offer little practical help, either when choosing a name when coding or when evaluating a name during code review.
 
-Some academic studies, such as Binkley \[[10](#references)\], have compared the relative readability of different formatting conventions, such as camel-case (caplitalised words) and snake-case (words separated by underscores).
+Some academic studies, such as Binkley \[[10](#references)\], have compared the relative readability of different formatting conventions, such as camel-case (capitalised words) and snake-case (words separated by underscores).
 In principle, programming language designers could use this research when setting these conventions to design programming languages with a more productive developer experience.
 
 Ken Arnold typifies the view that the responsibility for using this kind of research to choose a coding style lies with language designers rather than programmers.
@@ -174,7 +179,7 @@ Java programmers, for example, follow Sun Microsystems’ original guidelines \[
 
 _Refactoring._ Apply standard case with rigorous consistency, and use language-specific code inspection tools to enforce it.
 
-_Example violations._ `appleCOUNT`, `apple_count` (when camel-case is standard)
+_Example violations._ `appleCOUNT`, `apple_count` (when camel-case is standard).
 
 _References:_ \[[2](#references)\], \[[6](#references)\]
 
@@ -213,7 +218,7 @@ One study of over 100 programmers that compared comprehension for single letters
 
 > The results show that full-word identifiers lead to the best comprehension; however, in many cases, there is no statistical difference between using full words and abbreviations. \[[12](#references)\]
 
-_Refactoring._ [Use dictionary words](#use-dictionary-words)
+_Refactoring._ [Use dictionary words](#use-dictionary-words).
 
 _Example violations._ `i`, `j`, `k`, `l`, `m`, `n`, `t`, `x`, `y`, `z`
 
@@ -225,7 +230,7 @@ _Guideline._ Don’t use ASCII art symbols instead of words, in programming lang
 Make very limited exceptions for documented domain-specific symbols, e.g. `+` in arithmetic.
 Ironically, programmers who encounter symbolic names in third-party libraries may invent their own names, but choose names based on what the symbol looks like, rather than what it means.
 
-_Refactoring._ [Use dictionary words](#use-dictionary-words)
+_Refactoring._ [Use dictionary words](#use-dictionary-words).
 
 _Example violations._ `>=>`, `<*>` - valid function identifiers in Scala, for example, colloquially named _fish_ and _space ship_.
 
@@ -275,7 +280,7 @@ The results of one experiment involving 158 ‘programmers of varying degrees of
 
 > \[…\] reinforce past proposals advocating the use of limited, consistent, and regular vocabulary in identifier names. In particular, good naming limits individual name length and reduces the need for specialized vocabulary. \[[13](#references)\]
 
-_Refactoring._ Simplify name, Extract variable
+_Refactoring._ Simplify name, Extract variable.
 
 _Example violations._ `ForeignDomesticAppleCount`
 
@@ -287,11 +292,11 @@ _Guideline._ Keep name length within a four word maximum, and avoid gratuitous c
 Limit names to the number of words that people can read at a glance.
 Don’t unnecessarily use the same prefix, such as the software system’s name, for all names.
 
-_Refactoring._ Simplify name, Extract variable
+_Refactoring._ Simplify name, Extract variable.
 
 _Example violations._ `NewRedAppleSizeType`, `MyAppSizeType`
 
-_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\], \[[8](#references)\], [22]
+_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\], \[[8](#references)\], \[[22](#references)\]
 
 ### Qualify values with suffixes
 
@@ -299,9 +304,9 @@ _Guideline._ Use a suffix to describe what kind of value constant and variable v
 Suffixes such as `minimum`, `count` and `average` relate a collection of values to a single derived value.
 Using a suffix, rather than a prefix, for the qualifier naturally links the name to other similar names.
 
-_Refactoring._ Move the qualification to the end
+_Refactoring._ Move the qualification to the end.
 
-_Example violations._ `MINIMUM_APPLE_COUNT` (replace with `APPLE_COUNT_MINIMUM`)
+_Example violations._ `MINIMUM_APPLE_COUNT` (replace with `APPLE_COUNT_MINIMUM`).
 
 _References:_ \[[2](#references)\], \[[4](#references)\]
 
@@ -361,7 +366,7 @@ While humour often relies on indirect references and ambiguity, these qualities 
 
 _Refactoring._ Replace indirect references and colloquial language with the corresponding explicit and standard language.
 
-_Example violations._ `whack` instead of kill
+_Example violations._ `whack` instead of kill.
 
 _References:_ \[[5](#references)\]
 
@@ -372,7 +377,7 @@ Use the word that most accurately refers to the concept the identifier refers to
 
 _Refactoring._ Replace multiple words that describe a concept when ‘there’s a word for that’.
 
-_Example violations._ `CompanyPerson` (replace with `Employee`)
+_Example violations._ `CompanyPerson` (replace with `Employee`).
 
 _References:_ \[[1](#references)\]
 
@@ -468,7 +473,7 @@ Technically, this contradicts the guideline to avoid encoding type information i
 
 _Refactoring._ Use the plural form.
 
-_Example violations._ `remainingApple` for a set of apples
+_Example violations._ `remainingApple` for a set of apples.
 
 _References:_ \[[3](#references)\]
 
@@ -478,14 +483,14 @@ _Guideline._ If a collection’s type has a collective noun, in the name’s con
 
 _Refactoring._ Use the collective noun, when possible, instead of a regular plural form.
 
-_Example violations._ `appointments` (replace with `calendar`), `pickedApples` (replace with `harvest`)
+_Example violations._ `appointments` (replace with `calendar`), `pickedApples` (replace with `harvest`).
 
 _References:_ \[[1](#references)\]
 
 ### Use opposites precisely
 
 _Guideline._ Consistently use opposites in standard pairs with naming conventions.
-Typical pairs include add/remove, begin/end, create/destroy, destination/source, first/last, get/release, increment/decrememnt, insert/delete, lock/unlock, minimum/maximum, next/previous, old/new, old/new, open/close, put/get, show/hide, source/destination, start/stop, target/source, and up/down.
+Typical pairs include add/remove, begin/end, create/destroy, destination/source, first/last, get/release, increment/decrement, insert/delete, lock/unlock, minimum/maximum, next/previous, old/new, old/new, open/close, put/get, show/hide, source/destination, start/stop, target/source, and up/down.
 
 _Refactoring._ Use the correct opposite, and use it consistently.
 
@@ -539,7 +544,7 @@ If a class models something that can have multiple states, then avoid a name tha
 
 _Refactoring._ Make the class name less specific to accommodate all possible states.
 
-_Example violations._ `disable` method that returns a `ControlEnableState` (rename class to `ControlState`)
+_Example violations._ `disable` method that returns a `ControlEnableState` (rename class to `ControlState`).
 
 _References:_ \[[3](#references)\]
 
@@ -550,7 +555,7 @@ Some types aggregate multiple values of the same type, such as a line that has a
 
 _Refactoring._ Make class name inclusive.
 
-_Example violations._ `start` field has type `MAssociationEnd` (rename class to `MAssociationExtremity`)
+_Example violations._ `start` field has type `MAssociationEnd` (rename class to `MAssociationExtremity`).
 
 _References:_ \[[3](#references)\]
 
@@ -593,7 +598,7 @@ When some methods require a certain prefix, don’t use the same prefixes for me
 
 _Refactoring._ Replace ‘get’ with another verb.
 
-_Example violations._ `getScore` that performs calculation or accesses external data
+_Example violations._ `getScore` that performs calculation or accesses external data.
 
 ### Only use `get` prefix for field accessors that return a value
 
@@ -601,7 +606,7 @@ _Guideline._ Don’t use the `get` field accessor method name prefix for methods
 
 _Refactoring._ Replace ‘get’ with a verb that describes the side-effect.
 
-_Example violations._ `getMethodBodies` populates the method bodies but doesn’t return them
+_Example violations._ `getMethodBodies` populates the method bodies but doesn’t return them.
 
 _References:_ \[[3](#references)\]
 
@@ -611,7 +616,7 @@ _Guideline._ Don’t use the conventional Boolean accessor method name prefixes 
 
 _Refactoring._ Replace prefix with `get` or remove the prefix altogether.
 
-_Example violations._ `isValid` returns an `int` value
+_Example violations._ `isValid` returns an `int` value.
 
 _References:_ \[[3](#references)\]
 
@@ -621,7 +626,7 @@ _Guideline._ Don’t use the `set` field accessor method name prefix for methods
 
 _Refactoring._ Replace ‘set’ with another verb, or remove it in a ‘fluent API’ that chains method calls.
 
-_Example violations._ `setBreadth` creates and returns a new object, or updates and returns `this` (fluent API)
+_Example violations._ `setBreadth` creates and returns a new object, or updates and returns `this` (fluent API).
 
 _References:_ \[[3](#references)\]
 
@@ -629,7 +634,7 @@ _References:_ \[[3](#references)\]
 
 _Guideline._ Only use verbs like `validate`, `check` or `ensure` to name methods that either result or throw an exception when validation fails.
 
-_Refactoring._ Return result
+_Refactoring._ Return result.
 
 _Example violations._ `validateSnaps` and `checkCurrentState` that return `void`.
 
@@ -639,9 +644,9 @@ _References:_ \[[3](#references)\]
 
 _Guideline._ Only use verbs that suggest transformation, like `convert`, for methods that return the result.
 
-_Refactoring._ Return result, or change the verb to indicate what the method transforms
+_Refactoring._ Return result, or change the verb to indicate what the method transforms.
 
-_Example violations._ `javaToNative` with return type `void`
+_Example violations._ `javaToNative` with return type `void`.
 
 _References:_ \[[3](#references)\]
 

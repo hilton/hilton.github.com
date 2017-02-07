@@ -22,25 +22,25 @@ This paper then presents a consolidated set of naming guidelines that profession
 Several researchers have explored the importance of naming.
 For example, Deißenbock and Pizka conclude that identifier names are crucial to program comprehension:
 
->Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[20](#references)\]
+>Research on the cognitive processes of language and text understanding show that it is the semantics inherent to words that determine the comprehension process \[[14](#references)\]
 
-Other authors agree; Caprile and Tonella say that identifiers provide important information about program entities, because they give the programmer an initial idea of these entities’ roles within the whole program.
-Deißenbock and Pizka \[[20](#references)\] not only present their opinion on naming, they also performed measurements.
+Other authors agree; Caprile and Tonella \[[15](#references)\] say that identifiers provide important information about program entities, because they give the programmer an initial idea of these entities’ roles within the whole program.
+Deißenbock and Pizka \[[14](#references)\] not only present their opinion on naming, they also performed measurements.
 They found that in the Eclipse code base, which consists of about 2 MLoC, 33 per cent of the tokens and 72 per cent of characters are devoted to identifiers.
 
 Better identifier names have been known to correlate with program comprehension.
-For example, \[[23](#references)\] reports on a study performed with over 100 programmers, who had to describe functions and rate their confidence in doing so.
+For example, \[[17](#references)\] reports on a study performed with over 100 programmers, who had to describe functions and rate their confidence in doing so.
 Their results show that using full word identifiers leads to better code comprehension than using single-letter identifiers, measured by both description rating and by confidence in understanding.
 However, they also found that in many cases there is no difference between words and abbreviations.
 Interestingly, this study also found that women comprehend more from abbreviations than men do.
 
 Naming might have been found to matter for source code quality.
 Butler *et al.* evaluated the quality of identifiers in eight large Java projects according to a number of naming style guidelines.
-They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java \[[22](#references)\].
+They found that the occurrence of naming violations correlated with code issues as reported by FindBugs, a static analysis tool for Java \[[16](#references)\].
 In particular, capitalisation errors, using non-dictionary words and using more than four words were correlated with issues.
 
 Developers agree that naming matters.
-In an ethnographic study among twelve professional developers and eighteen third-year students \[[24](#references)\], researchers found that both students and professional developers find the use of naming guidelines important.
+In an ethnographic study among twelve professional developers and eighteen third-year students \[[18](#references)\], researchers found that both students and professional developers find the use of naming guidelines important.
 The study also found a remarkable difference between professionals and students: professional developers pay more attention to the name of the identifiers than to source code comments.
 Could this be due to the fact that computer science courses tend to emphasise the importance of comments but largely neglect naming?
 
@@ -296,7 +296,7 @@ _Refactoring._ Simplify name, Extract variable.
 
 _Example violations._ `NewRedAppleSizeType`, `MyAppSizeType`
 
-_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\], \[[8](#references)\], \[[22](#references)\]
+_References:_ \[[2](#references)\], \[[4](#references)\], \[[5](#references)\], \[[8](#references)\], \[[16](#references)\]
 
 ### Qualify values with suffixes
 
@@ -748,7 +748,7 @@ Fortunately, we’ve never seen this in practice.
 
 ## Further research
 
-While developers agree guidelines are important [24], they remain underused in the software industry.
+While developers agree guidelines are important [18], they remain underused in the software industry.
 In our experience, professional software developers do not always agree on which guidelines to use, or even that they are worthwhile.
 Our industry would benefit from more rigorous answers to the following questions.
 
@@ -786,9 +786,8 @@ Needless to say, we hope that software engineering researchers address these que
 11. Ken Arnold - _The Best Software Writing I_ (2005, ed. Joel Spolsky), pp 1-6, previously published online as [Style is Substance](http://www.artima.com/weblogs/viewpost.jsp?thread=74230) (2004)
 12. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _Effective identifier names for comprehension and memory_ (2007)
 13. Dave Binkley, Dawn Lawrie, Steve Maex and Christopher Morrell - _Identifier length and limited programmer memory_ (2009)
-
-20. F. Deißenböck and M. Pizka - _Concise and consistent naming_ (2005) In Proceedings of IWPC 2005.
-21. B. Caprile and P. Tonella - _Restructuring program identifier names_ (2000) In Proceedings of ICSM, 2000.
-22.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp - _Relating Identifier Naming Flaws and Code Quality: An Empirical Study_ (2009) In Proceedings of WCRE 2009.
-23. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _What’s in a Name? A Study of Identifiers_ (2006) In Proceedings of ICPC 2006.
-24. Felice Salviulo	and Giuseppe Scanniello - _Dealing with identifiers and comments in source code comprehension and maintenance: results from an ethnographically-informed study with students and professionals_ (2014) In Proceedings of EASE 2014
+14. F. Deißenböck and M. Pizka - _Concise and consistent naming_ (2005) In Proceedings of IWPC 2005.
+15. B. Caprile and P. Tonella - _Restructuring program identifier names_ (2000) In Proceedings of ICSM, 2000.
+16.  Simon Butler, Michel Wermelinger, Yijun Yu and Helen Sharp - _Relating Identifier Naming Flaws and Code Quality: An Empirical Study_ (2009) In Proceedings of WCRE 2009.
+17. Dawn Lawrie, Christopher Morrell, Henry Feild and David Binkley - _What’s in a Name? A Study of Identifiers_ (2006) In Proceedings of ICPC 2006.
+18. Felice Salviulo	and Giuseppe Scanniello - _Dealing with identifiers and comments in source code comprehension and maintenance: results from an ethnographically-informed study with students and professionals_ (2014) In Proceedings of EASE 2014

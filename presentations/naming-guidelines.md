@@ -93,7 +93,7 @@ The few written coding standards in common use, such as \[[6](#references)\], li
 Some books for software developers include a section on naming.
 *Code Complete* \[[4](#references)\] includes a 30-page chapter on *The Power of Data Names*.
 This includes fourteen guidelines for how to write better names, a discussion of various naming conventions, a list of eleven naming smells and a checklist that summarises these guidelines.
-For this chapter alone, we recommend that every professional programmer own a copy of this book.
+For this chapter alone, we recommend that every professional programmer own a copy of this book, or at least study the collected guidelines we present below.
 
 *Clean Code* \[[5](#references)\] also has a whole chapter on *Meaningful Names*, which consists of eighteen guidelines.
 Most of these guidelines directly address the hardest part of naming: semantics.
@@ -107,10 +107,10 @@ Computer scientists will likely continue publish papers that include naming guid
 ## Importance of different guidelines to professional programmers
 
 Professional software developers benefit more from some kinds of guidelines than from others.
-Guidelines like ‘Variable names should be short yet meaningful’ \[[6](#references)\] sound reasonable, but offer little practical help, either when choosing a name when coding or when evaluating a name during code review.
+Guidelines like *Variable names should be short yet meaningful* \[[6](#references)\] sound reasonable, but offer little practical help, either when choosing a name when coding or when evaluating a name during code review.
 
 Some academic studies, such as Binkley \[[10](#references)\], have compared the relative readability of different formatting conventions, such as camel-case (capitalised words) and snake-case (words separated by underscores).
-In principle, programming language designers could use this research when setting these conventions to design programming languages with a more productive developer experience.
+In principle, programming language designers could use this research when setting these conventions to design programming languages with a more productive developer experience, but professional programmers have little use for them.
 
 Ken Arnold typifies the view that the responsibility for using this kind of research to choose a coding style lies with language designers rather than programmers.
 In his essay *Style is substance*, he argues that a programming language’s specification should fix all aspects of coding style, so that compilers reject all violations:
@@ -125,9 +125,10 @@ He argues that programmers follow the name formatting convention that a programm
 
 > For any given language, there are one or a few common coding styles. \[…\]
 >
-> There is not now, nor will there ever be, a programming style whose benefit is significantly greater than any of the common styles.
+> There is not now, nor will there ever be, a programming style whose benefit is significantly greater than any of the common styles. \[[11](#references)\]
 
 However, Binkley \[[10](#references)\] concludes that not all ‘common coding styles’ deliver the same productivity, and that ‘it becomes evident that the camel case style leads to better all around performance once a subject is trained on this style’.
+Either way, this remains a result for language designers to consider, not professional programmers.
 
 Fortunately, some research has directly addressed different guidelines’ usefulness.
 Relf, for example, concludes that:
@@ -138,15 +139,17 @@ Relf, for example, concludes that:
 > should not contain plural words;
 > and should conform to the project naming conventions. \[[8](#references)\]
 
-When stated this clearly, professional programmers can apply guidelines more readily than they can access and read the original scientific research that contains these conclusions.
-We therefore aim to present naming guidelines from a number of sources in a form that makes them accessible to professional programmers.
+Professional programmers can apply guidelines more readily than they can access and read the original scientific research, especially when stated this clearly.
+We therefore aim to present a larger collection of naming guidelines from a number of sources in a form that makes them accessible to professional programmers.
 
 
 ## Guideline styles
 
 People who write naming guidelines phrase their guidelines in different ways.
 Some authors write prescriptive instructions, e.g. *Use intention-revealing names* \[[5](#references)\], while some phrase them as code smells or naming problems, e.g. *Meaningless names* \[[1](#references)\].
-The written naming guidelines \[[1-7](#references)\] that we examined include one or more of the following.
+
+We examined a number of written naming guidelines \[[1-7](#references)\].
+On guideline styles, we conclude that a single naming guideline typically contains one or more of the following.
 
 * Prescriptive instruction
 * Naming smell name

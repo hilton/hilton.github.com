@@ -685,7 +685,7 @@ Correctly deciding whether a scope is small enough for a variable to only need a
 
 > \[avoid\] an identifier name shorter than eight characters, excluding: `i`, `j`, `k`. `l`, `m`, `n`, `t`, `x`, `y` or `z` \[[2](#references)\]
 
-> Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters. \[[6](#references)\]
+> Variable names should be short yet meaningful. The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. One-character variable names should be avoided except for temporary "throwaway" variables. Common names for temporary variables are `i`, `j`, `k`, `m`, and `n` for integers; `c`, `d`, and `e` for characters. \[[6](#references)\]
 
 We don’t use this guideline, in practice, because we’re more concerned about avoiding abbreviations (see [Use dictionary words](#use-dictionary-words)) than that names should not be too short.
 In fact, we’d partly accept these guidelines, were it not for their exceptions for single-letter names, which we consider the worst kind of abbreviation.

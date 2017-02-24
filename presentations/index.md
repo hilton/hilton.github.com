@@ -37,6 +37,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+<td>2017-03-16</td>
+	<td>README Driven Development (mini-workshop)</td>
+	<td><a href="https://www.meetup.com/010DEV/events/237779181/">010DEV</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-03-01</td>
 	<td>Code style, Code review & pair programming, Learning to be a better coder</td>
 	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>

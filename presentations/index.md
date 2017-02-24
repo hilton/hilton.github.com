@@ -37,6 +37,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2017-03-01</td>
+	<td>Code style, Code review & pair programming, Learning to be a better coder</td>
+	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
+	<td class="flag de">Berlin</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-02-10</td>
 	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
 	<td><a href="https://www.meetup.com/Data-Driven-Rijnmond/events/236256531/">Data Driven Rijnmond</a></td>

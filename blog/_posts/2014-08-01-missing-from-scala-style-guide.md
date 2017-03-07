@@ -7,10 +7,10 @@ layout: hh
 
 ![Scala Style Guide](scala-style-guide.jpg)
 
-The [Scala Style Guide](http://docs.scala-lang.org/style/) is a useful set of 
-[coding conventions](http://en.wikipedia.org/wiki/Coding_conventions), like Sun’s old 
-[Code Conventions for the Java Programming Language](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html) (1999) or the newer 
-[Google Java Style](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html). The Scala guide is more like Sun’s Java guide in that it provides basic guidelines but doesn’t specify everything, like Google’s Java guide.
+The [Scala Style Guide](http://docs.scala-lang.org/style/) is a useful set of
+[coding conventions](http://en.wikipedia.org/wiki/Coding_conventions), like Sun’s old
+[Code Conventions for the Java Programming Language](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html) (1999) or the newer
+[Google Java Style](https://google.github.io/styleguide/javaguide.html). The Scala guide is more like Sun’s Java guide in that it provides basic guidelines but doesn’t specify everything, like Google’s Java guide.
 
 Leaving things out is a good choice for a public style guide, because it lends focus to the important things and leaves development teams to make their own choices where there are tradeoffs. Java teams often write quite concise code conventions that start with the phrase ‘Follow _Code Conventions for the Java Programming_ unless specified here’, and only specify deviations or more specific guidelines than Sun’s guide.
 
@@ -105,7 +105,7 @@ Questions for your code conventions:
 
 The guide doesn’t make a recommendation for what order to put fields (or methods) in, so a code standard should. The guide merely says that:
 
-> Fields should _precede_ methods in a scope. 
+> Fields should _precede_ methods in a scope.
 
 Although the guide says that public methods should have an explicit return type, it leaves the choice open for local and private methods, which code conventions could reasonably disallow for readability:
 
@@ -146,7 +146,7 @@ Questions for your code conventions:
 
 This is the section where the guide differs most from the majority of Scala code that I have ever read, which doesn’t generally contain much in the way of ScalaDoc. Although this could be about the difference between writing library code and application code, it is nevertheless striking that the guide _almost_ requires ScalaDoc for Scala code:
 
-> It is important to provide documentation for all packages, classes, traits, methods, and other members. … Document all methods. 
+> It is important to provide documentation for all packages, classes, traits, methods, and other members. … Document all methods.
 
 On the whole, ScalaDoc syntax and conventions are a logical progression from Javadoc, which makes one difference in the syntax stand out. Not every code convention will follow the guide on this one:
 

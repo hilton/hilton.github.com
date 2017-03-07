@@ -79,8 +79,6 @@ We report, above, that naming affects programmers’ ability to read and underst
 Unfortunately, programmers struggle to write readable code because they struggle to avoid using bad names.
 Naming guidelines aim to help programmers identify and avoid bad names, and to guide programmers towards good names.
 
-<!-- not sure what to do with these, maybe better to leave maintenance out of it for now and focus on names? Then later in the paper in the conclusion we can revisit the broader impact. --->
-
 We see naming guidelines as a means to help programmers write more maintainable code, and to reduce the cost and difficulty of software development.
 Crucially, these benefits potentially apply to all software development, not just long-term maintenance of legacy systems.
 

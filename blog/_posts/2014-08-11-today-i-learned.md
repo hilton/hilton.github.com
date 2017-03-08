@@ -45,7 +45,7 @@ New ideas - whether useful or just weird - create a shared narrative. In social 
 
 [Office Assistant a.k.a. Clippit](http://en.wikipedia.org/wiki/Office_Assistant) - ‘Clippy’ was not his real name.
 
-[Voynich_manuscript](http://en.wikipedia.org/wiki/Voynich_manuscript) - a 15th century manuscript in an undeciphered unknown writing system:.
+[Voynich manuscript](http://en.wikipedia.org/wiki/Voynich_manuscript) - a 15th century manuscript in an undeciphered unknown writing system:.
 
 [Whiskey Rebellion](http://en.wikipedia.org/wiki/Whiskey_Rebellion) - violent insurgency in late eighteenth-century Western Pennsylvania.
 

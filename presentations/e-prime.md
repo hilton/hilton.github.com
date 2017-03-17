@@ -12,6 +12,10 @@ The first time you try to use E-Prime, you get stuck. You discover the difficult
 
 In this talk, Peter Hilton describes how his initial curiosity and getting hooked on the challenge led to rewriting a software user manual in E-Prime and a new perspective on all kinds of writing. He explains what writing E-Prime feels like, what it does, why it works, where it has value, when it just wastes time and when you will sneakily use it anyway.
 
+## Slides
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/4oXQvjQaVnmb2Y" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 ## Presentations
 
 * Eramsmus MC, Rotterdam - 16 March 2017

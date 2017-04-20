@@ -15,3 +15,4 @@ Modern workflow management tools enable a convenient process-oriented approach t
 ## Conference presentations
 
 * [Topconf Tallinn](http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/) - 16/17 November 2016
+* [ASAS 2017](https://www.asas.nl/2017/program/) - 5 October 2017

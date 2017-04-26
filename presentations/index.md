@@ -23,6 +23,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2017-02-10</td>
+	<td><a href="maintainable-code">How to write maintainable code</a></td>
+	<td><a href="http://amsterdam2017.codemotionworld.com/">Codemotion Amsterdam 2017</a></td>
+	<td class="flag nl">Amsterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-05-12</td>
 	<td><a href="documentation-workshop">Documentation for software developers</a> (workshop)</td>
 	<td><a href="http://itakeunconf.com/sessions/documentation-for-software-developers/">I T.A.K.E. (Un) conference 2017</a></td>

@@ -37,3 +37,7 @@ The result is much more cool, despite having the same content, and might even be
 
 That’s just the start, and is isolated to a small snippet of code.
 Other examples will take different directions, such as presenting multiple compilation units in a larger page layout.
+
+## Conference presentations
+
+* [ACCU 2017](https://conference.accu.org/site/stories/2017/schedule.html) - 26 April 2017

@@ -44,6 +44,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2017-04-26</td>
+	<td><a href="beautiful-code">Code with better type</a> (lightning talk)</td>
+	<td><a href="https://conference.accu.org/site/stories/2017/schedule.html">ACCU 2017</a></td>
+	<td class="flag uk">Bristol</td>
+	<td></td>
+</tr>
+<tr>
 <td>2017-03-16</td>
 	<td>README Driven Development (mini-workshop)</td>
 	<td><a href="https://www.meetup.com/010DEV/events/237779181/">010DEV</a></td>

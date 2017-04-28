@@ -172,34 +172,6 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td class="flag uk">London</td>
 	<td></td>
 </tr>
-<tr>
-	<td>2016-04-25</td>
-	<td>Leveraging process maps &amp; models for continuous improvement (workshop)</td>
-	<td><a href="http://www.opexweekeurope.com/">OPEX &amp; Process Transformation Week</a></td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-04-22</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a></td>
-	<td class="flag uk">London</td>
-	<td><a href="https://www.infoq.com/presentations/minimal-code-documentation">video</a></td>
-</tr>
-<tr>
-	<td>2016-03-03</td>
-	<td>Achieving process excellence through organisation-wide collaborative BPM</td>
-	<td><a href="http://c-parity.com/CP/2nd-annual-global-process-improvement-operational-excellence-summit-2/">Process Improvement &amp; OPEX Summit</a></td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-02-25</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
-	<td class="flag de">Berlin</td>
-	<td></td>
-</tr>
 </table>
 
 
@@ -213,6 +185,30 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Event</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2016-04-25</td>
+	<td>Leveraging process maps &amp; models for continuous improvement (workshop)</td>
+	<td><a href="http://www.opexweekeurope.com/">OPEX &amp; Process Transformation Week</a></td>
+	<td>conference</td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-04-22</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a> (keynote)</td>
+	<td>conference</td>
+	<td class="flag uk">London</td>
+	<td><a href="https://www.infoq.com/presentations/minimal-code-documentation">video</a></td>
+</tr>
+<tr>
+	<td>2016-03-03</td>
+	<td>Achieving process excellence through organisation-wide collaborative BPM</td>
+	<td><a href="http://c-parity.com/CP/2nd-annual-global-process-improvement-operational-excellence-summit-2/">Process Improvement &amp; OPEX Summit</a></td>
+	<td>conference</td>
+	<td class="flag uk">London</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2015-06-06</td>

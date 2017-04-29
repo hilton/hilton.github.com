@@ -14,29 +14,9 @@ After all, as Knuth pointed out, ‘Programs are meant to be read by humans, and
 
 Finally, we’ll look forwards and focus on one typographic innovation that we will actually be able to use in the near future: functional programming font ligatures.
 
-# Example
+## Slides
 
-For example, the [Fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) code would look like this in the average IDE.
-
-![Fast inverse square root - standard formatting](beautiful-code-images/fast-invsqrt-wikipedia.png)
-
-However, the following changes, presented one at a time, improve the visual design.
-
-1. Modern typeface
-2. Colour scheme more appropriate for game code
-3. Header style for function name
-4. Two-column layout
-5. Pull-out code comments
-6. Magic number highlight and abbreviate to ‘WTF’
-7. Special characters, superscripts and subscripts
-8. Tighten up magic number kerning
-
-The result is much more cool, despite having the same content, and might even be easier to read:
-
-![Fast inverse square root - improved layout and typography](beautiful-code-images/fast-invsqrt-after.png)
-
-That’s just the start, and is isolated to a small snippet of code.
-Other examples will take different directions, such as presenting multiple compilation units in a larger page layout.
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/Bs3I9JB0ElWeG7" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ## Conference presentations
 

@@ -10,6 +10,10 @@ What started as standard university student behaviour soon became an expense cla
 
 After 20 years, 12 countries, and more expense claims than you've had hot dinners, it turns out that I got a lot more out of this than just free stuff. Ironically, my expense claim habit gave me experiences that made me successful in the career that facilitated it. It also gave me plenty of stories to tell.
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1N84n6S_7LQ" frameborder="0" allowfullscreen></iframe>
+
 ## Presentations
 
 * Nerd night, [Rotterdam Storytelling Community](http://nerdnight-rotterdam.tumblr.com/post/113780696094/modern-it-nomad) - 10 April 2015

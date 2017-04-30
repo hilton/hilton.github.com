@@ -107,21 +107,23 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
 	<td><a href="http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
-	<td><a href="http://www.slideshare.net/pirhilton/processoriented-reactive-service-architecture">slides</a></td>
+	<td><a href="http://www.slideshare.net/pirhilton/processoriented-reactive-service-architecture">slides</a>
+	<a href="https://www.youtube.com/watch?v=_LUBKprSy1Q">video</a></td>
 </tr>
 <tr>
 	<td>2016-11-16</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://topconf.com/tallinn-2016/trackevent/documentation-avoidance-for-developers/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
-	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a></td>
+	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a>
+	<a href="https://www.youtube.com/watch?v=WcSKug65xJ8">video</a></td>
 </tr>
 <tr>
 	<td>2016-11-03</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://www.nljug.org/jfall/timetable/2016/">J-Fall</a></td>
 	<td class="flag nl">Ede</td>
-	<td></td>
+	<td><a href="https://www.youtube.com/watch?v=rJfuTAEl4Ts">video</a></td>
 </tr>
 <tr>
 	<td>2016-10-21</td>
@@ -247,7 +249,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="http://nerdnight-rotterdam.tumblr.com/post/113780696094/modern-it-nomad">Nerd Night</a></td>
 	<td>meetup</td>
 	<td class="flag nl">Rotterdam</td>
-	<td></td>
+	<td><a href="https://www.youtube.com/watch?v=1N84n6S_7LQ">video</a></td>
 </tr>
 <tr>
 	<td>2015-04-02</td>

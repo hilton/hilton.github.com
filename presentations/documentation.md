@@ -13,6 +13,10 @@ This talk explores what we talk about when we talk about code, how we do it, and
 
 ## Video
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJfuTAEl4Ts" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WcSKug65xJ8" frameborder="0" allowfullscreen></iframe>
+
 [Documentation avoidance for developers at ProgSCon London 2016](https://www.infoq.com/presentations/minimal-code-documentation)
 
 

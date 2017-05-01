@@ -23,6 +23,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2017-10-05</td>
+	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
+	<td><a href="https://www.asas.nl/2017/program/">ASAS 2017</a></td>
+	<td class="flag nl">Arnhem</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-02-10</td>
 	<td><a href="maintainable-code">How to write maintainable code</a></td>
 	<td><a href="http://amsterdam2017.codemotionworld.com/">Codemotion Amsterdam 2017</a></td>

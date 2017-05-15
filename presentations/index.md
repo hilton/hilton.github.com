@@ -37,7 +37,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
-	<td>2017-02-10</td>
+	<td>2017-05-16</td>
 	<td><a href="maintainable-code">How to write maintainable code</a></td>
 	<td><a href="http://amsterdam2017.codemotionworld.com/">Codemotion Amsterdam 2017</a></td>
 	<td class="flag nl">Amsterdam</td>

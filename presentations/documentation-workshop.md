@@ -48,5 +48,5 @@ A longer workshop would extend sessions to 30 or 40 minutes or include additiona
 
 ## Conferences
 
-* [ACCU 2017](https://conference.accu.org/site/stories/2017/schedule.html) - 27 April 2017
+* [ACCU 2017](https://conference.accu.org/site/stories/2017/schedule.html) - 27 April 2017 (rated 83% green, 17% yellow, 0 red; 24 votes)
 * [I T.A.K.E. (Un) conference 2017](http://itakeunconf.com/sessions/documentation-for-software-developers/) - 12 May 2017

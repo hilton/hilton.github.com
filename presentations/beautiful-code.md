@@ -18,6 +18,7 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/Bs3I9JB0ElWeG7" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
-## Conference presentations
+## Presentations
 
 * [ACCU 2017](https://conference.accu.org/site/stories/2017/schedule.html) - 26 April 2017
+* [BCS Edinburgh](http://edinburgh.bcs.org/events/2017/170802.htm) - 2 August 2017

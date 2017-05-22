@@ -37,6 +37,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2017-08-02</td>
+	<td><a href="beautiful-code">Beautiful code: code with better type</a></td>
+	<td><a href="http://edinburgh.bcs.org/events/2017/170802.htm">BCS Edinburgh</a></td>
+	<td class="flag uk">Edinburgh</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-05-16</td>
 	<td><a href="maintainable-code">How to write maintainable code</a></td>
 	<td><a href="http://amsterdam2017.codemotionworld.com/">Codemotion Amsterdam 2017</a></td>

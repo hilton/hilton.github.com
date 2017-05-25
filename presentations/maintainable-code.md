@@ -26,8 +26,8 @@ Whether you are a new developer or an experienced team lead, your future develop
 
 ## Presentations
 
-* [Brabant.scala](https://www.meetup.com/brabant-scala/events/235797609/) - 7 December 2016
-* [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 9 December 2016
-* [Amsterdam.scala](https://www.meetup.com/amsterdam-scala/events/235864793/) - 15 December 2016
+* [Codemotion Amsterdam 2017](http://amsterdam2017.codemotionworld.com/) - 16 May 2017 (rated 95% Good, 5% Neutral, 0% Bad; 137 votes)
 * [Data Driven Rijnmond](https://www.meetup.com/Data-Driven-Rijnmond/events/236256531/) - 10 February 2017
-* [Codemotion Amsterdam 2017](http://amsterdam2017.codemotionworld.com/) - 16 May 2017
+* [Amsterdam.scala](https://www.meetup.com/amsterdam-scala/events/235864793/) - 15 December 2016
+* [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 9 December 2016
+* [Brabant.scala](https://www.meetup.com/brabant-scala/events/235797609/) - 7 December 2016

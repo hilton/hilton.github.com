@@ -30,9 +30,9 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
-	<td>2017-09-27</td>
-	<td>Minimum viable documentation (workshop)</td>
-	<td><a href="http://agilecambridge.net/2017/">Agile Cambridge 2017</a></td>
+	<td>2017-09-28</td>
+	<td><a href="documentation-workshop">Minimum viable documentation</a> (workshop)</td>
+	<td><a href="http://agilecambridge.net/2017/sessions/index.php?session=18">Agile Cambridge 2017</a></td>
 	<td class="flag uk">Cambridge</td>
 	<td></td>
 </tr>

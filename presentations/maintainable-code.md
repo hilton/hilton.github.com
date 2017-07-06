@@ -18,6 +18,8 @@ Whether you are a new developer or an experienced team lead, your future develop
 
 ## Video
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6jmUmZX2pok" frameborder="0" allowfullscreen></iframe>
+
 [_How to write maintainable Scala code_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/9104-how-to-write-maintainable-scala-code#video)
 
 ## Slides

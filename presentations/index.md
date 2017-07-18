@@ -44,6 +44,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2017-07-22</td>
+	<td>Intro to HTML, CSS and the command line</td>
+	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-05-16</td>
 	<td><a href="maintainable-code">How to write maintainable code</a></td>
 	<td><a href="http://amsterdam2017.codemotionworld.com/">Codemotion Amsterdam 2017</a></td>
@@ -167,41 +174,6 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td class="flag nl">Hoofddorp</td>
 	<td></td>
 </tr>
-<tr>
-	<td>2016-07-19</td>
-	<td><a href="comments">How to write good comments</a></td>
-	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
-	<td class="flag nl">Rotterdam</td>
-	<td><a href="http://www.slideshare.net/pirhilton/how-to-write-good-comments">slides</a></td>
-</tr>
-<tr>
-	<td>2016-07-18</td>
-	<td><a href="http">HTTP demystified for web developers</a></td>
-	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
-	<td class="flag nl">Rotterdam</td>
-	<td><a href="http://www.slideshare.net/pirhilton/http-demystified-for-web-developers/">slides</a></td>
-</tr>
-<tr>
-	<td>2016-06-17</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
-	<td class="flag nl">Rotterdam</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-06-13</td>
-	<td><a href="http://irmuk.co.uk/eac2016/day1.cfm#Day1PS4">Modelling with Business Process Patterns</a></td>
-	<td><a href="http://www.irmuk.co.uk/bpm2016/">IRM UK</a></td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-05-27</td>
-	<td>Modelling with Business Process Patterns</td>
-	<td>banking industry</td>
-	<td class="flag uk">London</td>
-	<td></td>
-</tr>
 </table>
 
 
@@ -215,6 +187,38 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Event</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2016-07-19</td>
+	<td><a href="comments">How to write good comments</a></td>
+	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
+	<td>workshop</td>
+	<td class="flag nl">Rotterdam</td>
+	<td><a href="http://www.slideshare.net/pirhilton/how-to-write-good-comments">slides</a></td>
+</tr>
+<tr>
+	<td>2016-07-18</td>
+	<td><a href="http">HTTP demystified for web developers</a></td>
+	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
+	<td>workshop</td>
+	<td class="flag nl">Rotterdam</td>
+	<td><a href="http://www.slideshare.net/pirhilton/http-demystified-for-web-developers/">slides</a></td>
+</tr>
+<tr>
+	<td>2016-06-17</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td>conference</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-06-13</td>
+	<td><a href="http://irmuk.co.uk/eac2016/day1.cfm#Day1PS4">Modelling with Business Process Patterns</a></td>
+	<td><a href="http://www.irmuk.co.uk/bpm2016/">IRM UK</a></td>
+	<td>conference</td>
+	<td class="flag uk">London</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2016-04-25</td>

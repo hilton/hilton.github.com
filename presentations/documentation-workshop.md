@@ -21,6 +21,10 @@ This workshop teaches what to document, what not to, and how to produce document
 Attendees will learn to write and publish effective documentation with less effort, and develop a long-term skill.
 This benefits all software development teams, because good system documentation is a universal software requirement.
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o25QpI0NDIg" frameborder="0" allowfullscreen></iframe>
+
 ## Equipment & organisation
 
 The workshop includes group discussion and exercises that attendees can work on individually or, ideally, in groups of 2-4 people. The exercises use paper handouts, pens and sticky notes.

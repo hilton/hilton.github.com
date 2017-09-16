@@ -23,10 +23,17 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2017-10-05</td>
-	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
-	<td><a href="https://www.asas.nl/2017/program/">ASAS 2017</a></td>
-	<td class="flag nl">Arnhem</td>
+	<td>2017-11-15</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="https://www.topconf.com/conference/topconf-tallinn-2017/">Topconf</a></td>
+	<td class="flag ee">Tallinn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2017-11-02</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="http://jfall.nl/">J-Fall 2017</a></td>
+	<td class="flag nl">Ede</td>
 	<td></td>
 </tr>
 <tr>
@@ -62,7 +69,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="documentation-workshop">Documentation for software developers</a> (workshop)</td>
 	<td><a href="http://itakeunconf.com/sessions/documentation-for-software-developers/">I T.A.K.E. (Un) conference 2017</a></td>
 	<td class="flag ro">Bucharest</td>
-	<td></td>
+	<td><a href="https://www.youtube.com/watch?v=o25QpI0NDIg">video</a></td>
 </tr>
 <tr>
 	<td>2017-04-27</td>

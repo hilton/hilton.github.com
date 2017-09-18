@@ -7,7 +7,7 @@ layout: main
 <div class="row">
 <div class="col-md-8">
 
-<p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a programmer and technical writer on a workflow management product team, and also delivers the occasional lecture and training course.</p>
+<p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
 
 <p>Peter’s software development interests include web application frameworks, software development methodology and practices, and web-based collaboration.</p>
 
@@ -16,7 +16,7 @@ layout: main
 
 <h2>Now &amp; next</h2>
 
-<p>Peter is currently working as a product developer at <a href="http://www.effektif.com">Effektif</a>,
+<p>Peter consults for <a href="http://www.signavio.com">Signavio</a>,
 and is available approximately one day per week for consulting, training and speaking opportunities.</p>
 
 

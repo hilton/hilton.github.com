@@ -23,8 +23,15 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2017-11-15</td>
+	<td>2017-11-16</td>
 	<td><a href="naming">How to name things</a></td>
+	<td><a href="https://www.topconf.com/conference/topconf-tallinn-2017/">Topconf</a></td>
+	<td class="flag ee">Tallinn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2017-11-15</td>
+	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://www.topconf.com/conference/topconf-tallinn-2017/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
 	<td></td>
@@ -34,6 +41,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://jfall.nl/">J-Fall 2017</a></td>
 	<td class="flag nl">Ede</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2017-10-19</td>
+	<td><a href="maintainable-code">How to write maintainable code</a></td>
+	<td><a href="https://2017.geecon.cz/">GeeCON Prague</a></td>
+	<td class="flag cz">Prague</td>
 	<td></td>
 </tr>
 <tr>

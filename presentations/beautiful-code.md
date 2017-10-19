@@ -1,5 +1,5 @@
 ---
-title: Layout & typography for beautiful code
+title: "Beautiful code: code with better type"
 description: Reimagining how we read code
 layout: speaking
 ---

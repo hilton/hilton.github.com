@@ -23,9 +23,16 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2017-12-15</td>
+	<td><a href="naming">How to name things</a></td>
+	<td><a href="https://skillsmatter.com/conferences/8784-scala-exchange-2017">Scala eXchange</a></td>
+	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-11-16</td>
 	<td><a href="naming">How to name things</a></td>
-	<td><a href="https://www.topconf.com/conference/topconf-tallinn-2017/">Topconf</a></td>
+	<td><a href="https://www.topconf.com/conference//topconf-tallinn-2017/talk/how-to-name-things-the-hardest-problem-in-programming/">Topconf</a></td>
 	<td class="flag ee">Tallinn</td>
 	<td></td>
 </tr>

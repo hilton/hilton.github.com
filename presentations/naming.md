@@ -27,6 +27,10 @@ Read more: [blog posts about naming](../tag/naming)
 * [British Computer Society SPA London (South)](http://www.bcs-spa.org/) - 2 December 2014
 * [Softwire](http://www.softwire.com) - 17 December 2014
 * [ACCU 2015](http://accu.org/index.php/conferences/accu_conference_2015/accu2015_schedule) - 24 April 2015
+* [J-Fall](http://jfall.nl/) - 2 November 2017
+* [Topconf Tallin](https://www.topconf.com/conference//topconf-tallinn-2017/talk/how-to-name-things-the-hardest-problem-in-programming/) - 16 November 2016
+* [Scala eXchange 2017](https://skillsmatter.com/conferences/8784-scala-exchange-2017) - 15 December 2017
+
 
 ## Podcast interview
 

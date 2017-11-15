@@ -22,3 +22,4 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 
 * [ACCU 2017](https://conference.accu.org/site/stories/2017/schedule.html) - 26 April 2017
 * [BCS Edinburgh](http://edinburgh.bcs.org/events/2017/170802.htm) - 2 August 2017
+* [Topconf Tallinn](https://www.topconf.com/conference//topconf-tallinn-2017/talk/beautiful-code-typography-and-visual-programming/) - 15 November 2017

@@ -48,7 +48,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="http://jfall.nl/">J-Fall 2017</a></td>
 	<td class="flag nl">Ede</td>
-	<td></td>
+	<td><a href="https://youtu.be/27bTVvrCNFI">video</a></td>
 </tr>
 <tr>
 	<td>2017-10-19</td>

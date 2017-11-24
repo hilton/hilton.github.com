@@ -30,6 +30,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
+	<td>2017-11-29</td>
+	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
+	<td><a href="https://www.meetup.com/Developers-nl-Meetup/events/242893857/">Developers.nl Meetup</a></td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-11-16</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="https://www.topconf.com/conference//topconf-tallinn-2017/talk/how-to-name-things-the-hardest-problem-in-programming/">Topconf</a></td>
@@ -151,57 +158,6 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 		<a href="https://skillsmatter.com/skillscasts/9104-how-to-write-maintainable-scala-code#video">video</a>
 	</td>
 </tr>
-<tr>
-	<td>2016-12-07</td>
-	<td><a href="maintainable-code">How to write maintainable Scala code</a></td>
-	<td><a href="https://www.meetup.com/brabant-scala/events/235797609/">Brabant.scala</a></td>
-	<td class="flag nl">Eindhoven</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-11-17</td>
-	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
-	<td><a href="http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/">Topconf</a></td>
-	<td class="flag ee">Tallinn</td>
-	<td><a href="http://www.slideshare.net/pirhilton/processoriented-reactive-service-architecture">slides</a>
-	<a href="https://www.youtube.com/watch?v=_LUBKprSy1Q">video</a></td>
-</tr>
-<tr>
-	<td>2016-11-16</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://topconf.com/tallinn-2016/trackevent/documentation-avoidance-for-developers/">Topconf</a></td>
-	<td class="flag ee">Tallinn</td>
-	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a>
-	<a href="https://www.youtube.com/watch?v=WcSKug65xJ8">video</a></td>
-</tr>
-<tr>
-	<td>2016-11-03</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://www.nljug.org/jfall/timetable/2016/">J-Fall</a></td>
-	<td class="flag nl">Ede</td>
-	<td><a href="https://www.youtube.com/watch?v=rJfuTAEl4Ts">video</a></td>
-</tr>
-<tr>
-	<td>2016-10-21</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="https://voxxeddays.com/thessaloniki/">Voxxed Days Thessaloniki</a></td>
-	<td class="flag gr">Thessaloniki</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-10-12</td>
-	<td>Code Smells</td>
-	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
-	<td class="flag de">Berlin</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2016-09-21</td>
-	<td>Putting the ‘shared’ into finance shared services with collaborative models</td>
-	<td><a href="http://www.sharedservicesexchange.co.uk">Finance Shared Services & GBS Exchange</a></td>
-	<td class="flag nl">Hoofddorp</td>
-	<td></td>
-</tr>
 </table>
 
 
@@ -215,6 +171,56 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Event</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2016-11-17</td>
+	<td><a href="workflow-service-architecture">Process-oriented reactive service architecture</a></td>
+	<td><a href="http://topconf.com/tallinn-2016/trackevent/process-oriented-reactive-service-architecture/">Topconf</a></td>
+	<td class="flag ee">Tallinn</td>
+	<td>conference</td>
+	<td><a href="http://www.slideshare.net/pirhilton/processoriented-reactive-service-architecture">slides</a>
+	<a href="https://www.youtube.com/watch?v=_LUBKprSy1Q">video</a></td>
+</tr>
+<tr>
+	<td>2016-11-16</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="http://topconf.com/tallinn-2016/trackevent/documentation-avoidance-for-developers/">Topconf</a></td>
+	<td class="flag ee">Tallinn</td>
+	<td>conference</td>
+	<td><a href="http://www.slideshare.net/pirhilton/documentation-avoidance">slides</a>
+	<a href="https://www.youtube.com/watch?v=WcSKug65xJ8">video</a></td>
+</tr>
+<tr>
+	<td>2016-11-03</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="http://www.nljug.org/jfall/timetable/2016/">J-Fall</a></td>
+	<td class="flag nl">Ede</td>
+	<td>conference</td>
+	<td><a href="https://www.youtube.com/watch?v=rJfuTAEl4Ts">video</a></td>
+</tr>
+<tr>
+	<td>2016-10-21</td>
+	<td><a href="documentation">Documentation avoidance for developers</a></td>
+	<td><a href="https://voxxeddays.com/thessaloniki/">Voxxed Days Thessaloniki</a></td>
+	<td class="flag gr">Thessaloniki</td>
+	<td>conference</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-10-12</td>
+	<td>Code Smells</td>
+	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
+	<td class="flag de">Berlin</td>
+	<td>company</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2016-09-21</td>
+	<td>Putting the ‘shared’ into finance shared services with collaborative models</td>
+	<td><a href="http://www.sharedservicesexchange.co.uk">Finance Shared Services & GBS Exchange</a></td>
+	<td>conference</td>
+	<td class="flag nl">Hoofddorp</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2016-07-19</td>
@@ -236,8 +242,8 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td>2016-06-17</td>
 	<td><a href="documentation">Documentation avoidance for developers</a></td>
 	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
-	<td class="flag nl">Rotterdam</td>
 	<td>conference</td>
+	<td class="flag nl">Rotterdam</td>
 	<td></td>
 </tr>
 <tr>

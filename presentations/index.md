@@ -24,7 +24,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2018-02-01</td>
-	<td><a href="documentation-workshop">Documentation for software developers</a> (public training course)</td>
+	<td><a href="documentation-workshop">Documentation for software developers</a> (public training)</td>
 	<td><a href="https://mozaicworks.com/public-trainings-and-workshops/documentation-software-developers/">Mozaic Works</a></td>
 	<td class="flag ro">Bucharest</td>
 	<td></td>
@@ -34,6 +34,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="https://skillsmatter.com/conferences/8784-scala-exchange-2017">Scala eXchange</a></td>
 	<td class="flag uk">London</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2017-12-06</td>
+	<td>Business English</td>
+	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
+	<td class="flag de">Berlin</td>
 	<td></td>
 </tr>
 <tr>
@@ -223,7 +230,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-09-21</td>
-	<td>Putting the ‘shared’ into finance shared services with collaborative models</td>
+	<td>Finance shared services with collaborative models</td>
 	<td><a href="http://www.sharedservicesexchange.co.uk">Finance Shared Services & GBS Exchange</a></td>
 	<td>conference</td>
 	<td class="flag nl">Hoofddorp</td>
@@ -263,7 +270,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-04-25</td>
-	<td>Leveraging process maps &amp; models for continuous improvement (workshop)</td>
+	<td>Process models for continuous improvement (workshop)</td>
 	<td><a href="http://www.opexweekeurope.com/">OPEX &amp; Process Transformation Week</a></td>
 	<td>conference</td>
 	<td class="flag uk">London</td>
@@ -279,7 +286,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2016-03-03</td>
-	<td>Achieving process excellence through organisation-wide collaborative BPM</td>
+	<td>Achieving process excellence through collaborative BPM</td>
 	<td><a href="http://c-parity.com/CP/2nd-annual-global-process-improvement-operational-excellence-summit-2/">Process Improvement &amp; OPEX Summit</a></td>
 	<td>conference</td>
 	<td class="flag uk">London</td>
@@ -327,7 +334,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2014-12-08</td>
-	<td><a href="scaling-web-dev">Scaling business application development with Play and Scala</a></td>
+	<td><a href="scaling-web-dev">Scaling business app development with Play and Scala</a></td>
 	<td><a href="https://skillsmatter.com/conferences/1948-scala-exchange-2014">Scala eXchange</a></td>
 	<td>conference</td>
 	<td class="flag uk">London</td>
@@ -355,7 +362,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 <tr>
 	<td>2014-10-01</td>
 	<td><a href="naming">How to name things</a></td>
-	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA London</a></td>
+	<td><a href="http://www.eventbrite.co.uk/e/spa-282-how-to-name-things-the-solution-to-the-hardest-problem-in-programming-tickets-13317502007">British Computer Society SPA</a></td>
 	<td>user group</td>
 	<td class="flag uk">London</td>
 	<td></td>
@@ -482,7 +489,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2010-03-16</td>
-	<td>How to build a decision service using JBoss Rules (a.k.a. Drools)</td>
+	<td>How to build a decision service using JBoss Drools</td>
 	<td>42.nl</td>
 	<td>company</td>
 	<td class="flag nl">Rotterdam</td>

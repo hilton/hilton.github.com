@@ -9,9 +9,9 @@ layout: main
 
 <p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
 
-<p>Peter’s software development interests include web application frameworks, software development methodology and practices, and web-based collaboration.</p>
+<p>Peter’s software development interests include business process management, web application frameworks, software crafting, functional design, and agile software development.</p>
 
-<p>Peter has presented at several European developer conferences, including ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and geecon. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a certified trainer for <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a>.</p>
+<p>Peter has presented at several European developer conferences, including ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a certified trainer for <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a>.</p>
 
 
 <h2>Now &amp; next</h2>

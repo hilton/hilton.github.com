@@ -23,6 +23,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2018-02-01</td>
+	<td><a href="documentation-workshop">Documentation for software developers</a> (public training course)</td>
+	<td><a href="https://mozaicworks.com/public-trainings-and-workshops/documentation-software-developers/">Mozaic Works</a></td>
+	<td class="flag ro">Bucharest</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2017-12-15</td>
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="https://skillsmatter.com/conferences/8784-scala-exchange-2017">Scala eXchange</a></td>
@@ -129,7 +136,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 </tr>
 <tr>
 	<td>2017-03-01</td>
-	<td>Code style, Code review & pair programming, Learning to be a better coder</td>
+	<td>Code style, Code review & pair programming</td>
 	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
 	<td class="flag de">Berlin</td>
 	<td></td>

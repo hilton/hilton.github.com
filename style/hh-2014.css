@@ -77,6 +77,12 @@ section.speaking {
 section.music {
 	background-color: #DF5A49; }
 
+	section.main a {
+		color: #7FC4FF; }
+		
+	section.development a {
+		color: #C0E2FF; }
+
 section.speaking a, section.music a {
 	color: #B2D9FE; }
 section.speaking h2 a, section.speaking nav a,

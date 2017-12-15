@@ -20,7 +20,7 @@ Read more: [blog posts about naming](../tag/naming)
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/39383508" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<script async class="speakerdeck-embed" data-id="023b39bcba1e4f8e93402e3b3d643e60" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Presentations
 

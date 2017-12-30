@@ -16,7 +16,10 @@ Read more: [blog posts about naming](../tag/naming)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/27bTVvrCNFI" frameborder="0" allowfullscreen></iframe>
 
-[_How to name things_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming)
+[Scala eXchange 2017 _How to name things_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/11207-how-to-name-things-the-hardest-problem-in-programming)
+
+[2014 _How to name things_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/5747-how-to-name-things-the-solution-to-the-hardest-problem-in-programming)
+
 
 ## Slides
 

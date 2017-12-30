@@ -23,6 +23,13 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
+	<td>TBA</td>
+	<td><a href="euro-english">Euro-English for software developers</a></td>
+	<td>conference TBA</td>
+	<td class="">TBA</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2018-02-01</td>
 	<td><a href="documentation-workshop">Documentation for software developers</a> (public training)</td>
 	<td><a href="https://mozaicworks.com/public-trainings-and-workshops/documentation-software-developers/">Mozaic Works</a></td>
@@ -34,7 +41,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="naming">How to name things</a></td>
 	<td><a href="https://skillsmatter.com/conferences/8784-scala-exchange-2017">Scala eXchange</a></td>
 	<td class="flag uk">London</td>
-	<td></td>
+	<td><a href="https://skillsmatter.com/skillscasts/11207-how-to-name-things-the-hardest-problem-in-programming">video</a></td>
 </tr>
 <tr>
 	<td>2017-12-06</td>

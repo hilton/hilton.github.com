@@ -16,7 +16,7 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/Bs3I9JB0ElWeG7" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<script async class="speakerdeck-embed" data-id="bcbfc6b6929b44eb83f530693cd53ce8" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Presentations
 

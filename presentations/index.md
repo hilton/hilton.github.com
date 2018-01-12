@@ -30,7 +30,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td></td>
 </tr>
 <tr>
-	<td>2018-02-01</td>
+	<td>2018-05-15</td>
 	<td><a href="documentation-workshop">Documentation for software developers</a> (public training)</td>
 	<td><a href="https://mozaicworks.com/public-trainings-and-workshops/documentation-software-developers/">Mozaic Works</a></td>
 	<td class="flag ro">Bucharest</td>

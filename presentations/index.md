@@ -23,7 +23,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<th>Media</th>
 </tr>
 <tr>
-	<td>TBA</td>
+	<td>2018-06</td>
 	<td><a href="euro-english">Euro-English for software developers</a></td>
 	<td>conference TBA</td>
 	<td class="">TBA</td>
@@ -34,6 +34,20 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="documentation-workshop">Documentation for software developers</a> (public training)</td>
 	<td><a href="https://mozaicworks.com/public-trainings-and-workshops/documentation-software-developers/">Mozaic Works</a></td>
 	<td class="flag ro">Bucharest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2018-05-09</td>
+	<td>TBA</td>
+	<td><a href="https://2018.geecon.org">GeeCON</a></td>
+	<td class="flag pl">Krakow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2018-01-30</td>
+	<td>How to write maintainable code (training)</td>
+	<td>company in-house</td>
+	<td class="flag nl">Amsterdam</td>
 	<td></td>
 </tr>
 <tr>

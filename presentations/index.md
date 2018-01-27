@@ -97,7 +97,7 @@ See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyr
 	<td><a href="maintainable-code">How to write maintainable code</a></td>
 	<td><a href="https://2017.geecon.cz/">GeeCON Prague</a></td>
 	<td class="flag cz">Prague</td>
-	<td></td>
+	<td><a href="https://youtu.be/qacBiSNB8yU">video</a></td>
 </tr>
 <tr>
 	<td>2017-09-28</td>

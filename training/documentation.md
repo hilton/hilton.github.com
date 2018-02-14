@@ -50,7 +50,7 @@ The exact list of topics is subject to change.
 
 ## Prerequisites
 
-Course delegates will review existing documentation and write their own additions.
+Attendees will review existing documentation and write their own additions.
 
 **Each attendees is expected to bring a laptop with text editor installed** that the attendee is comfortable using.
 Each attendee should also have a GitHub account.

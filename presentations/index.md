@@ -4,8 +4,11 @@ categories: speaking
 layout: speaking
 ---
 
-<p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
-See also: <a href="http://lanyrd.com/profile/peterhilton/">Peter Hilton on Lanyrd</a>.</p>
+<p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics. See also:</p>
+
+<ul>
+<li><a href="training">Software development training courses</a></li>
+</ul>
 
 <p class="banner"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"><img src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessaloniki 2016"></p>
 

@@ -1,36 +1,66 @@
 ---
 title: How to write maintainable code
-description: Naming and tests versus comments and documentation
+description: Training course - learn how to write software that survives
 layout: speaking
 ---
 
 Modern languages’ biggest problem isn’t having enough cool features, it’s unmaintainable code.
 The core of maintainable code is clean code with good tests, but that by itself is not enough.
-This talk introduces a range of techniques for writing and improving code for maintainability, including how to get better at naming, explaining code with tests, the few code comments you actually need, README-driven development and how to write Minimum Viable Documentation.
+This training course introduces a range of techniques for writing and improving code for maintainability, including recognising bad code, how to get better at naming, and the few code comments you actually need.
 
-Attendees will see how to combine a number of techniques they have already encountered separately, plus at least one technique they’ve never heard of and can use immediately.
-Naming and abstraction are too hard to get right every single time, so you need to know when to add small doses of comments and documentation.
-More importantly, you need to know how to avoid wasting time on bad comments and unnecessary documentation without giving up entirely and not having any at all.
+## Who should attend
+
+This course is for software developers that work on successful software that isn’t thrown away before it reaches five years old.
+Developers with little experience of software maintenance will benefit from lessons learned and best practices.
+Experienced developers and team leads will benefit from the opportunity to consolidate their experience into a focused plan for becoming a better software developer, for themselves and their team members.
+
+## Why attend
+
+Attendees will learn the difference between average code and good code that won’t have to be thrown away because no-one understands it any more.
+Without this training, teams will tend to write code that gradually gets worse, year on year, until it becomes unmaintainable and has to be thrown away, at huge business cost.
 
 After the excitement of early adoption, and the joy of coding among experts comes the horror of your first maintenance project.
 As Jean-Paul Sartre said*, ‘Hell is other people’s code’.
 Whether you are a new developer or an experienced team lead, your future developer experience and happiness depends on maintainable code.
 
-## Video
+After completing this course you will be able to:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6jmUmZX2pok" frameborder="0" allowfullscreen></iframe>
+* Understand why code maintenance is a problem
+* Recognise different symptoms of code that is hard to maintain
+* Use code smells to pinpoint code that requires refactoring
+* Identify the qualities of clean code
+* Use guidelines to write more maintainable code
+* Continue learning about better code
 
-[_How to write maintainable Scala code_ video at skillsmatter.com](https://skillsmatter.com/skillscasts/9104-how-to-write-maintainable-scala-code#video)
+## Topics covered
 
-## Slides
+This is a one-day course that will cover these subjects:
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/mNReVAH4S9nkfD" width="640" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+* Unmaintainable code
+* Clean code
+* Naming
+* Code comments
+* Code style
+* Code review
+* Managing code maintenance
 
-## Presentations
+The optional second day adds:
 
-* [Codemotion Amsterdam 2017](http://amsterdam2017.codemotionworld.com/) - 16 May 2017 (rated 95% Good, 5% Neutral, 0% Bad; 137 votes)
-* [Data Driven Rijnmond](https://www.meetup.com/Data-Driven-Rijnmond/events/236256531/) - 10 February 2017
-* [Amsterdam.scala](https://www.meetup.com/amsterdam-scala/events/235864793/) - 15 December 2016
-* [Scala eXchange](https://skillsmatter.com/conferences/7432-scala-exchange-2016) - 9 December 2016
-* [Brabant.scala](https://www.meetup.com/brabant-scala/events/235797609/) - 7 December 2016
-* [GeeCON Prague](https://2017.geecon.cz/) - 19 October 2017
+* Documentation
+* Explanatory functional tests
+* Management & maintenance budget
+* Software maintenance activities
+* Duplication & refactoring
+* Knowledge management
+* Replacing legacy code
+
+These topics mix presentations and guidelines with hands-on exercises that ensure that attendees learn how to apply the techniques they learn about.
+The exact list of topics is subject to change.
+
+## Prerequisites
+
+Attendees will review and comment on existing code, but are not required to write code.
+The course does not require knowledge of a particular programming language.
+
+No computers required.
+The course uses handouts which can be printed or read on a screen.

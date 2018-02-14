@@ -5,7 +5,7 @@ keywords: Peter Hilton, Marion Smits, Robert Hilton, cafes, writing
 layout: hh
 ---
 
-{% for page in site.pages | sort: 'title' %}
+{% for page in site.pages %}
 	{% if page.title %}
 		<p><a href="{{ page.url }}">{{ page.title }}</a>
 		<br>{{ page.description }}</p>

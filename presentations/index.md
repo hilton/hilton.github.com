@@ -26,10 +26,10 @@ layout: speaking
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2018-06</td>
-	<td><a href="euro-english">Euro-English for software developers</a></td>
-	<td>conference TBA</td>
-	<td class="">TBA</td>
+	<td>2018-06-13</td>
+	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
+	<td><a href="https://ndcoslo.com/speaker/peter-hilton/">NDC</a></td>
+	<td class="flag no">Oslo</td>
 	<td></td>
 </tr>
 <tr>
@@ -41,8 +41,15 @@ layout: speaking
 </tr>
 <tr>
 	<td>2018-05-09</td>
-	<td>TBA</td>
+	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://2018.geecon.org">GeeCON</a></td>
+	<td class="flag pl">Krakow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2018-05-08</td>
+	<td>TBA</td>
+	<td><a href="https://www.codeeurope.pl/en/speakers/peter-hilton">Code Europe</a></td>
 	<td class="flag pl">Krakow</td>
 	<td></td>
 </tr>

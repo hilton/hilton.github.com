@@ -24,3 +24,5 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 * [BCS Edinburgh](http://edinburgh.bcs.org/events/2017/170802.htm) - 2 August 2017
 * [Topconf Tallinn](https://www.topconf.com/conference//topconf-tallinn-2017/talk/beautiful-code-typography-and-visual-programming/) - 15 November 2017
 * [NDC Oslo](https://ndcoslo.com/speaker/peter-hilton/) - 13 June 2018
+* [Booster](https://2018.boosterconf.no/talks/1070) - 15 March 2018
+* [GeeCON](https://2018.geecon.org/speakers/info.html?id=333) - 9 May 2018

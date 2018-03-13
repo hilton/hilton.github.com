@@ -66,6 +66,13 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
+	<td>2017-03-15</td>
+	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
+	<td><a href="https://2018.boosterconf.no/talks/1070">Booster</a></td>
+	<td class="flag no">Bergen</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2018-03-06</td>
 	<td>How to write maintainable code (training)</td>
 	<td>company in-house</td>
@@ -77,7 +84,6 @@ layout: speaking
 	<td>How to write maintainable code (training)</td>
 	<td>company in-house</td>
 	<td class="flag nl">Amsterdam</td>
-	<td></td>
 </tr>
 <tr>
 	<td>2018-01-30</td>

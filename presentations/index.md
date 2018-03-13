@@ -74,20 +74,20 @@ layout: speaking
 </tr>
 <tr>
 	<td>2018-03-06</td>
-	<td>How to write maintainable code (training)</td>
+	<td><a href="../training/maintainable-code">How to write maintainable code (training)</a></td>
 	<td>company in-house</td>
 	<td class="flag nl">Amsterdam</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2018-02-15</td>
-	<td>How to write maintainable code (training)</td>
+	<td><a href="../training/maintainable-code">How to write maintainable code (training)</a></td>
 	<td>company in-house</td>
 	<td class="flag nl">Amsterdam</td>
 </tr>
 <tr>
 	<td>2018-01-30</td>
-	<td>How to write maintainable code (training)</td>
+	<td><a href="../training/maintainable-code">How to write maintainable code (training)</a></td>
 	<td>company in-house</td>
 	<td class="flag nl">Amsterdam</td>
 	<td></td>

@@ -66,11 +66,11 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
-	<td>2017-03-15</td>
+	<td>2018-03-15</td>
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://2018.boosterconf.no/talks/1070">Booster</a></td>
 	<td class="flag no">Bergen</td>
-	<td></td>
+	<td><a href="https://vimeo.com/260487307">video</a></td>
 </tr>
 <tr>
 	<td>2018-03-06</td>

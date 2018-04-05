@@ -16,7 +16,6 @@ layout: speaking
 
 ## Work in progress & other unfinished ideas
 
-* [Euro-English for software developers](euro-english)
 * 7 joys of coding - things that bring joy to writing code
 * 4 kinds of software design for application developers
 
@@ -55,14 +54,14 @@ layout: speaking
 	<td>2018-05-09</td>
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://2018.geecon.org/speakers/info.html?id=333">GeeCON</a></td>
-	<td class="flag pl">Krakow</td>
+	<td class="flag pl">Kraków</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2018-05-08</td>
-	<td>TBA</td>
+	<td><a href="euro-english">Euro-English for software developers</a></td>
 	<td><a href="https://www.codeeurope.pl/en/speakers/peter-hilton">Code Europe</a></td>
-	<td class="flag pl">Krakow</td>
+	<td class="flag pl">Kraków</td>
 	<td></td>
 </tr>
 <tr>

@@ -58,13 +58,6 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
-	<td>2018-05-08</td>
-	<td><a href="euro-english">Euro-English for software developers</a></td>
-	<td><a href="https://www.codeeurope.pl/en/speakers/peter-hilton">Code Europe</a></td>
-	<td class="flag pl">Kraków</td>
-	<td></td>
-</tr>
-<tr>
 	<td>2018-03-15</td>
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://2018.boosterconf.no/talks/1070">Booster</a></td>

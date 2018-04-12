@@ -15,7 +15,3 @@ You’ll also become equipped to recognise previously invisible problems, and ne
 ## About the speaker
 
 Peter Hilton is a software developer, writer, speaker, trainer, and musician from Southern England. Peter has spent the last 18 years as a developer in the Netherlands, learning Euro-English and gradually getting less upset about it. As well as language and music, Peter’s software development interests include business process management, web application development, functional design, agile software development and software documentation.
-
-## Conference presentations
-
-* [Code Europe](https://www.codeeurope.pl/en/speakers/peter-hilton) - 8 May 2018

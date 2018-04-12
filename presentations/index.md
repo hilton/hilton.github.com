@@ -38,7 +38,7 @@ layout: speaking
 </tr>
 <tr>
 	<td>2018-05-31</td>
-	<td>TBD</td>
+	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="http://jspring.nl/speakers/peter-hilton/">J-Spring</a></td>
 	<td class="flag nl">Utrecht</td>
 	<td></td>

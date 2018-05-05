@@ -44,13 +44,6 @@ layout: speaking
 	<td></td>
 </tr>
 <tr>
-	<td>2018-05-15</td>
-	<td><a href="documentation-workshop">Documentation for software developers</a> (public training)</td>
-	<td><a href="https://mozaicworks.com/public-trainings-and-workshops/documentation-software-developers/">Mozaic Works</a></td>
-	<td class="flag ro">Bucharest</td>
-	<td></td>
-</tr>
-<tr>
 	<td>2018-05-09</td>
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://2018.geecon.org/speakers/info.html?id=333">GeeCON</a></td>

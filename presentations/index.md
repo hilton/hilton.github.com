@@ -14,8 +14,10 @@ layout: speaking
 
 <p>Please <a href="../contact">contact Peter</a> if you would like him to speak at your event or company.</p>
 
-## Work in progress & other unfinished ideas
+## Not yet presented
 
+* [Better source code through typography](agile-code-typography)
+* [Euro-English for software developers](euro-english)
 * 7 joys of coding - things that bring joy to writing code
 * 4 kinds of software design for application developers
 

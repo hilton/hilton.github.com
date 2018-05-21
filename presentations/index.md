@@ -18,6 +18,7 @@ layout: speaking
 
 * [Better source code through typography](agile-code-typography)
 * [Euro-English for software developers](euro-english)
+* [Flat HTTP API Documentation](flat-http-api-documentation)
 * 7 joys of coding - things that bring joy to writing code
 * 4 kinds of software design for application developers
 

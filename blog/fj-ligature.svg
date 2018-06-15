@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320">
+  <defs>
+    <font-face font-family="Adobe Garamond Pro" font-size="200" panose-1="2 2 5 2 6 5 6 2 4 3" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="394" cap-height="660" ascent="725.0015" descent="-275.00056" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AGaramondPro-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.7.1 
+    <dc:date>2018-06-15 14:08:07 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_4">
+        <text transform="translate(5 60.49992)" fill="black">
+          <tspan font-family="Adobe Garamond Pro" font-size="200" font-weight="400" fill="black" x="165.9" y="145">fj </tspan>
+          <tspan font-family="Adobe Garamond Pro" font-size="200" font-weight="400" fill="#aaa" y="145">:</tspan>
+          <tspan font-family="Adobe Garamond Pro" font-size="200" font-weight="400" fill="black" y="145"> fj</tspan>
+          <tspan font-family="Adobe Garamond Pro" font-size="200" font-weight="400" fill="#aaa" y="145">ord</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

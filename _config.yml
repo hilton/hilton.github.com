@@ -2,7 +2,7 @@ future: false
 markdown: kramdown
 permalink: ":categories/:title.html"
 timezone: Europe/London
-gems:
+plugins:
   - jekyll-feed
 title: Peter Hilton’s blog
 author: Peter Hilton

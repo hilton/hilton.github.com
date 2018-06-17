@@ -10,7 +10,7 @@ layout: speaking
 <li><a href="training">Software development training courses</a></li>
 </ul>
 
-<p class="banner"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"><img src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessaloniki 2016"></p>
+<div class="banner"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"><img src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessaloniki 2016"></div>
 
 <p>Please <a href="../contact">contact Peter</a> if you would like him to speak at your event or company.</p>
 
@@ -150,6 +150,19 @@ layout: speaking
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
 </tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
+</tr>
 <tr>
 	<td>2017-05-16</td>
 	<td><a href="maintainable-code">How to write maintainable code</a></td>
@@ -171,14 +184,6 @@ layout: speaking
 	<td class="flag uk">Bristol</td>
 	<td></td>
 </tr>
-<tr>
-	<td>2017-04-26</td>
-	<td><a href="beautiful-code">Code with better type</a> (lightning talk)</td>
-	<td><a href="https://conference.accu.org/site/stories/2017/schedule.html">ACCU 2017</a></td>
-	<td class="flag uk">Bristol</td>
-	<td></td>
-</tr>
-<tr>
 <td>2017-03-16</td>
 	<td>README Driven Development (mini-workshop)</td>
 	<td><a href="https://www.meetup.com/010DEV/events/237779181/">010DEV</a></td>
@@ -191,19 +196,6 @@ layout: speaking
 	<td>Erasmus MC</td>
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2017-03-01</td>

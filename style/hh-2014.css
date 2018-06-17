@@ -30,11 +30,20 @@ code {
 	max-width: 100%;
 	height: auto; }
 
-.content .banner p {
-	max-width:100%;
+.content .banner {
+	margin-bottom:1em;
+	width:960px;
 }
 .content .banner img {
 	margin:0;
+}
+@media (max-width: 640px) {
+	.content .banner {
+		width:100%;
+	}
+	.content .banner img {
+		max-width:33%;
+	}
 }
 
 .content table {

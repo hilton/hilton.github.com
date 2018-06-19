@@ -29,5 +29,5 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 * [Topconf Tallinn](https://www.topconf.com/conference//topconf-tallinn-2017/talk/beautiful-code-typography-and-visual-programming/) - 15 November 2017
 * [Booster](https://2018.boosterconf.no/talks/1070) - 15 March 2018
 * [GeeCON](https://2018.geecon.org/speakers/info.html?id=333) - 9 May 2018
-* [J-Spring](http://jspring.nl/speakers/peter-hilton/) - 31 May 2018
+* [J-Spring](http://jspring.nl/speakers/peter-hilton/) - 31 May 2018 (average rating 4.73/5 from 76 votes - conference second place)
 * [NDC Oslo](https://ndcoslo.com/speaker/peter-hilton/) - 13 June 2018

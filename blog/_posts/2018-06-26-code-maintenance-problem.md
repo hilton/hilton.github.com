@@ -48,6 +48,9 @@ And the best thing to do with lies is to expose them.
 
 ## Opening up about maintenance problems
 
+Johannes Brodwall wrote about clean code shaming, and why [we should embrace Compassionate Code](http://johannesbrodwall.com/2018/06/24/forget-about-clean-code-lets-embrace-compassionate-code/) instead.
+We’d certainly get along better if we were nicer to each other, and talked less about other people’s Clean Code and more about the code we have.
+
 Even without doing it publicly, a development team can benefit from talking through their code’s maintenance problems.
 Even if this is only an occasional therapy session, it will be make you all feel a little better.
 That’s only the first step, though.

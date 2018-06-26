@@ -38,8 +38,8 @@ Then one day, you realise that there’s more code than you’ll ever read, all 
 The code maintenance problem is the extent to which making changes to software gets harder, slower and less reliable as the years go by.
 
 When you break it down, it’s usually straightforward to identify where the problems lie.
-Bad naming gives you identifiers that might sense historically, or to one specific person, but don’t help you understand what things are for.
-Code comments can be [bad comments in at least seven different ways](7-ways-to-write-bad-comments), ranging from being to few to being too many, as well as just plain wrong.
+Bad naming gives you identifiers that might make sense historically, or to one specific person, but don’t help you understand what things are for.
+Code comments can be [bad comments in at least seven different ways](7-ways-to-write-bad-comments), ranging from being too few to being too many, as well as just plain wrong.
 Code can also fail to fit the intended architecture, or the team’s code style, especially since both are moving targets.
 
 The code maintenance problem is that code lies.

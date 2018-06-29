@@ -60,3 +60,5 @@ Custom [Duolingo](https://www.duolingo.com) languages to teach domain languages 
 ## Agile software development
 
 Sell decks of reusable Impediment Cards that have the usual impediments printed on them
+
+_For more occasional start-up ideas, follow [@PeterHilton](https://twitter.com/peterhilton) on Twitter._

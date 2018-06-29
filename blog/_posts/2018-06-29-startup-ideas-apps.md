@@ -10,7 +10,7 @@ Once you’ve started recognising silly ideas as no less plausible than VC-funde
 Here are some more, just for app developers.
 
 The usual rules apply: these ideas are free, because it’s execution that counts.
-However, if you get funding to pursue one of these then you’d be smart to hire me as an innovation consultant.
+However, if you get funding to pursue one of these then you’d be smart to hire me as an innovation consultant.  
 
 ## Email
 
@@ -28,6 +28,8 @@ Twitter client that automatically records which tweets made you laugh, and how m
 
 App that searches social media to find and credit the original source of the popular new jokes that immediately get ripped off
 
+A version of Twitter for people writing in Dutch and German that allows 50% more characters.
+
 ## Eating and drinking
 
 App that generates a unique one-time Starbucks name, maybe using [What's My Starbucks Name?](http://www.whatsmystarbucksname.com)
@@ -43,3 +45,5 @@ Re-release old text-only adventure games in chatbot format.
 Mobile app for writers that feeds daily word count to health apps as activity data.
 
 List-sharing app that generates a whole website full of listicles with clickbait headlines. For no reason.
+
+_For more occasional start-up ideas, follow [@PeterHilton](https://twitter.com/peterhilton) on Twitter._

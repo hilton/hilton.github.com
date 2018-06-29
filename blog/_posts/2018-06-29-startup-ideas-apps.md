@@ -3,7 +3,10 @@ title: Start-up ideas for apps
 description: Apps that someone else is going to sell if you don’t
 layout: hh
 tags: startups
+image: http://hilton.org.uk/blog/light-bulbs.jpg
 ---
+
+![Light bulbs are cheap](light-bulbs.jpg)
 
 Back in December 2014, I explained why [Start-up company ideas are cheap](startup-ideas-are-cheap), and included a bunch of free ideas by way of illustration.
 Once you’ve started recognising silly ideas as no less plausible than VC-funded start-ups’ business plans, it’s fun to keep sharing them.
@@ -29,6 +32,8 @@ Twitter client that automatically records which tweets made you laugh, and how m
 App that searches social media to find and credit the original source of the popular new jokes that immediately get ripped off
 
 A version of Twitter for people writing in Dutch and German that allows 50% more characters.
+
+Twitter/Facebook client that automatically hides fake news stories and hoaxes that have already been debunked by [Snopes](https://www.snopes.com).
 
 ## Eating and drinking
 

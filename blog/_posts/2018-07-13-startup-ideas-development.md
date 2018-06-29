@@ -3,7 +3,10 @@ title: Start-up ideas for software development
 description: Things you wish your favourite IDE vendor would invent
 layout: hh
 tags: startups
+image: http://hilton.org.uk/blog/light-bulbs.jpg
 ---
+
+![Light bulbs are cheap](light-bulbs.jpg)
 
 Following on my earlier explaination of why [Start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more [start-up ideas for app developers](startup-ideas-apps).
 If you’re more interested in software for programmers, rather than software for normal people, here are some ideas for improving the developer experience (DX).

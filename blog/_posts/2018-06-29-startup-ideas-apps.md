@@ -3,7 +3,7 @@ title: Start-up ideas for apps
 description: Apps that someone else is going to sell if you don’t
 layout: hh
 tags: startups
-image: http://hilton.org.uk/blog/light-bulbs.jpg
+image: http://hilton.org.uk/blog/light-bulbs-books.jpg
 ---
 
 ![Light bulbs are cheap; books are full of ideas and pretty cheap too](light-bulbs-books.jpg)

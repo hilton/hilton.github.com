@@ -67,3 +67,5 @@ This was a tall order for the forward-thinking and relatively small Estonian gov
 The difficulty of planned retirement and the cost of long-term maintenance are why software product lifetime is a difficult question, both from business and technical perspectives.
 In practice, neither path is easy to accept, which is why its better to have this conversation early in the software lifecycle, rather than later.
 Talking about this before development starts wouldn’t be too soon.
+
+_When you need help talking about software maintenance, [contact Peter Hilton](../contact) for training in [How to write maintainable code](../training/maintainable-code)._

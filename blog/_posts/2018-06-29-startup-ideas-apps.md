@@ -19,7 +19,7 @@ However, if you get funding to pursue one of these then you’d be smart to hire
 
 ## Email
 
-Email app that automatically identifies versions of the same document, to make attachment-oriented version control easier
+Email app that automatically identifies versions of the same document, to make attachment-oriented version control easier.
 
 Email client that learns what salutation I use for each of my contacts, so I don’t have to laboriously type ‘Hi Bob!’ etc.
 
@@ -31,7 +31,7 @@ Twitter client that automatically hides duplicate tweets that plagiarise tweets 
 
 Twitter client that automatically records which tweets made you laugh, and how much, so you can browse recent funny tweets.
 
-App that searches social media to find and credit the original source of the popular new jokes that immediately get ripped off
+App that searches social media to find and credit the original source of the popular new jokes that immediately get ripped off.
 
 A version of Twitter for people writing in Dutch and German that allows 50% more characters.
 
@@ -39,7 +39,7 @@ Twitter/Facebook client that automatically hides fake news stories and hoaxes th
 
 ## Eating and drinking
 
-App that generates a unique one-time Starbucks name, maybe using [What's My Starbucks Name?](http://www.whatsmystarbucksname.com)
+App that generates a unique one-time Starbucks name, maybe using [What's My Starbucks Name?](http://www.whatsmystarbucksname.com).
 
 Chef Stalker - app that notifies you when  a chef/sommelier quits a restaurant you (used to) like to start a new restaurant.
 

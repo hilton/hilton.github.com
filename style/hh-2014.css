@@ -1,3 +1,40 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(SourceSansPro-Light.ttf);
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(SourceSansPro-LightItalic.ttf);
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(SourceSansPro-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(SourceSansPro-Italic.ttf);
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(SourceSansPro-SemiBold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(SourceSansPro-SemiBoldItalic.ttf);
+	font-weight: 600;
+	font-style: italic;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif; }
 
@@ -12,10 +49,17 @@ section nav a {
 .nav > li > a {
 	padding: 0 1em; }
 
-h1, h2, h3 {
+h1, h2 {
 	font-weight: 300; }
 h3 {
+	font-size: 150%;
 	clear:left; }
+.content h2, .content h3, .lead {
+	color: #DF5A49;
+}
+
+.lead {
+	font-weight: 400; }
 
 code {
 	font-size:86%; }
@@ -86,11 +130,11 @@ section.speaking {
 section.music {
 	background-color: #DF5A49; }
 
-	section.main a {
-		color: #7FC4FF; }
-		
-	section.development a {
-		color: #C0E2FF; }
+section.main a {
+	color: #7FC4FF; }
+	
+section.development a {
+	color: #C0E2FF; }
 
 section.speaking a, section.music a {
 	color: #B2D9FE; }

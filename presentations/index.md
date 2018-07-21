@@ -37,7 +37,7 @@ layout: speaking
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://ndcoslo.com/talk/beautiful-code-typography-and-visual-programming/">NDC</a></td>
 	<td class="flag no">Oslo</td>
-	<td></td>
+	<td><a href="https://www.youtube.com/watch?v=7vPh-xy-kyc">video</a></td>
 </tr>
 <tr>
 	<td>2018-05-31</td>

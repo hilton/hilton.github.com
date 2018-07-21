@@ -16,6 +16,8 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 
 ## Video
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/7vPh-xy-kyc" frameborder="0" allowfullscreen></iframe>
+
 <iframe src="https://player.vimeo.com/video/260487307" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Slides

@@ -1,36 +1,36 @@
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(SourceSansPro-Light.ttf);
+  src: url(font/source-sans-pro/SourceSansPro-Light.ttf);
 	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(SourceSansPro-LightItalic.ttf);
+  src: url(font/source-sans-pro/SourceSansPro-LightItalic.ttf);
 	font-weight: 300;
 	font-style: italic;
 }
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(SourceSansPro-Regular.ttf);
+  src: url(font/source-sans-pro/SourceSansPro-Regular.ttf);
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(SourceSansPro-Italic.ttf);
+  src: url(font/source-sans-pro/SourceSansPro-Italic.ttf);
 	font-weight: 400;
 	font-style: italic;
 }
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(SourceSansPro-SemiBold.ttf);
+  src: url(font/source-sans-pro/SourceSansPro-SemiBold.ttf);
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(SourceSansPro-SemiBoldItalic.ttf);
+  src: url(font/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf);
 	font-weight: 600;
 	font-style: italic;
 }

@@ -4,15 +4,13 @@ categories: speaking
 layout: speaking
 ---
 
-<p>Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics. See also:</p>
+Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics. See also:
 
-<ul>
-<li><a href="training">Software development training courses</a></li>
-</ul>
+* [Software development training courses](../training)
 
 <div class="banner"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"><img src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessaloniki 2016"></div>
 
-<p>Please <a href="../contact">contact Peter</a> if you would like him to speak at your event or company.</p>
+Please [contact Peter](../contact) if you would like him to speak at your event or company.
 
 ## Not yet presented
 
@@ -184,7 +182,8 @@ layout: speaking
 	<td class="flag uk">Bristol</td>
 	<td></td>
 </tr>
-<td>2017-03-16</td>
+<tr>
+	<td>2017-03-16</td>
 	<td>README Driven Development (mini-workshop)</td>
 	<td><a href="https://www.meetup.com/010DEV/events/237779181/">010DEV</a></td>
 	<td class="flag nl">Rotterdam</td>

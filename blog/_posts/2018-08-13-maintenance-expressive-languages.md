@@ -84,3 +84,5 @@ However, this potential advantage is all for nothing if you fail to achieve a co
 
 The practical difficulty of writing maintainable code in more expressive languages is no doubt the secret to Java and Go’s success.
 Personally, although I’d rather write Scala code than Java, I’d also rather maintain someone else’s Java code than someone else’s Scala.
+
+_When you need help thinking through software maintenance, [contact Peter Hilton](../contact) for training in [How to write maintainable code](../training/maintainable-code)._

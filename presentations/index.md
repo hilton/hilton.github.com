@@ -17,6 +17,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 * [Better source code through typography](agile-code-typography)
 * [Euro-English for software developers](euro-english)
 * [Flat HTTP API Documentation](flat-http-api-documentation)
+* HTTP API checklist
 * 7 joys of coding - things that bring joy to writing code
 * 4 kinds of software design for application developers
 

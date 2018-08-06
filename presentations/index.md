@@ -31,6 +31,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2018-08-03</td>
+	<td>Two short talks about HTTP APIs</td>
+	<td>Lunatech</td>
+	<td class="flag nl">Rotterdam</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2018-06-13</td>
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://ndcoslo.com/talk/beautiful-code-typography-and-visual-programming/">NDC</a></td>

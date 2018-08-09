@@ -28,11 +28,11 @@ However, other things aren’t equal, so making your code more concise may end u
 
 ## Non-standard annotations harder to learn
 
-Although Java developers have a long history of reducing repetitive lines of code, by introducing annotation-based libraries such as [Project Lombok](https://projectlombok.org).
+Java developers have a long history of reducing repetitive lines of code, by introducing annotation-based libraries such as [Project Lombok](https://projectlombok.org).
 The result is less verbose code in a non-standard dialect.
 
 Non-standard coding idioms give you a trade-off between long-term coding efficiency and the short-term cost of teaching the style to new team members.
-The choice for the most maintainable code therefore depends on how fast the team rotates.
+The best choice for the most maintainable code depends on how fast the team rotates.
 This is hard to predict, but easier to observe: if you use a non-standard dialect, and all of your code has a consistent style, then you don’t have a problem keeping up with team rotation.
 If you have code in different styles then it isn’t working.
 
@@ -45,20 +45,20 @@ The old Perl motto that [There’s more than one way to do it](https://en.wikipe
 Like Perl, Scala simultaneously supports more than one coding idiom.
 This isn’t a code maintenance issue until you have more than one programmer on your team.
 
-<blockquote class="big solid-one">
-<p>Half of the Scala developers are just writing Java code.
+<blockquote class="big solid-one" style="max-width:36em">
+<p>Half of the Scala developers are just writing Java code without semi-colons.
 The other half are writing Haskell.</p>
 </blockquote>
 
 You can, of course, solve this by adopting a team coding style that suits your situation.
 However, these team coding styles are hard to preserve.
 Over time, team members will follow different interests and grow in different directions.
-With functional programming languages, in particular, it’s hard to preserve a consistent style when half (rather than all or none) of the team are also learning Haskell or a Lisp.
+With functional programming languages, in particular, it’s hard to preserve a consistent style when half (rather than all or none) of the team are also learning Haskell.
 
 ## Cross language styles require double the background
 
 Multi-paradigm languages such as Scala offer the best of two worlds - object-oriented programming and functional programming.
-To write maintainable code, you need to avoid the worst of both worlds.
+To write maintainable code, however, you need to avoid the worst of both worlds.
 
 Object-oriented programming is hard to do well.
 After all, most Java code is really just procedural code in classes.
@@ -72,15 +72,20 @@ Pick one.
 
 You need a team-specific coding style to achieve consistent maintainable code.
 A language like Go helps you do this by [dictating what that style is](https://golang.org/doc/effective_go.html#introduction), and offering relatively little language flexibility.
+This is fine, as long as you like it.
+
 Programmers learning Scala, on the other hand, frequently ask for guidance on what idiomatic Scala code looks like.
 Answers are of course available, but don’t all agree with each other.
 
 Python seems to occupy space in between: more language flexibility but with such a strong community tradition of what idiomatic Python code looks like that it has its own term - [Pythonic](https://blog.startifact.com/posts/older/what-is-pythonic.html).
+Perhaps this factor alone makes Python the best teaching language.
 
 ## Conclusion
 
 Languages that let you write the most concise code have the potential to be most maintainable, because brevity is a big advantage.
 However, this potential advantage is all for nothing if you fail to achieve a consistent coding style, or fall prey to [naming smells](naming-smells).
+
+Languages with constrained coding styles make it easier to write maintainable code, at the cost of more code to maintain.
 
 The practical difficulty of writing maintainable code in more expressive languages is no doubt the secret to Java and Go’s success.
 Personally, although I’d rather write Scala code than Java, I’d also rather maintain someone else’s Java code than someone else’s Scala.

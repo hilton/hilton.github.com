@@ -84,8 +84,10 @@ Perhaps this factor alone makes Python the best teaching language.
 
 Languages that let you write the most concise code have the potential to be most maintainable, because brevity is a big advantage.
 However, this potential advantage is all for nothing if you fail to achieve a consistent coding style, or fall prey to [naming smells](naming-smells).
+After all, in the long term an application code base (rather than a library) will become large whatever language you are using.
 
 Languages with constrained coding styles make it easier to write maintainable code, at the cost of more code to maintain.
+If this extra code is the cost of having _maintainable_ code, in your case, then that’s a worthwhile trade-off.
 
 The practical difficulty of writing maintainable code in more expressive languages is no doubt the secret to Java and Go’s success.
 Personally, although I’d rather write Scala code than Java, I’d also rather maintain someone else’s Java code than someone else’s Scala.

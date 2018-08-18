@@ -30,7 +30,7 @@
 <h2><a href="cycling.html">Cycle routes »</a> {{ page.title }}</h2>
 
 <div id="cyclemap"></div>
-<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
+<script src="//maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
 {% if page.kml %}
 <script type="text/javascript">
 	if (GBrowserIsCompatible()) {
@@ -51,17 +51,17 @@
 		map.setCenter(point, 11);
 		map.addControl(new GSmallMapControl());
 		map.addControl(new GMapTypeControl());
-		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-delft-e.kml"));
-		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-delft-s.kml"));
-		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-kinderdijk.kml"));
-		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-maassluis.kml"));
-		map.addOverlay(new GGeoXml("http://hilton.org.uk/cycling/rotterdam-rottemeren.kml"));
+		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-delft-e.kml"));
+		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-delft-s.kml"));
+		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-kinderdijk.kml"));
+		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-maassluis.kml"));
+		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-rottemeren.kml"));
 
 	}
 </script>
 {% endif %}
 
-<p>Map: <a href="http://maps.google.nl/maps?f=q&hl=en&geocode=&q={{ page.kml }}&ie=UTF8&ll=51.915262,4.367065&spn=0.126427,0.265732&z=12&om=1">Google Maps</a>, <a href="{{ page.kml }}">Google Earth</a> (KML).</p>
+<p>Map: <a href="//maps.google.nl/maps?f=q&hl=en&geocode=&q={{ page.kml }}&ie=UTF8&ll=51.915262,4.367065&spn=0.126427,0.265732&z=12&om=1">Google Maps</a>, <a href="{{ page.kml }}">Google Earth</a> (KML).</p>
 
 {{ content }}
 

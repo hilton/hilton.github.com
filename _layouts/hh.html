@@ -9,7 +9,7 @@
 	{% assign home = '/' %}
 {% endif %}
 <title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton’s blog{% endif %}</title>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="{{ home }}style/hh-2014.css">
 {% if page.url contains '/blog/' %}<link rel="stylesheet" type="text/css" href="{{ home }}style/pygments.css">{% endif %}
 
@@ -28,7 +28,7 @@
 {% if page.image %}
 <meta name="twitter:image" content="{{ page.image }}" />
 {% else %}
-<meta name="twitter:image" content="http://hilton.org.uk/picture/face/hilton-peter.jpg" />
+<meta name="twitter:image" content="https://hilton.org.uk/picture/face/hilton-peter.jpg" />
 {% endif %}
 </head>
 <body class="{{ page.categories }}">
@@ -82,11 +82,11 @@
 	</article>
 
 	{% if page.title and page.url contains '/blog/' %}
-	{% capture url %}http%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
+	{% capture url %}https%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
 	{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}
 	<article class="social">
 		<a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+by+%40PeterHilton" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="//www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a><a href="https://plus.google.com/share?url={{ url }}" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="../picture/social/minimal/googleplus.png" alt="Share on Google+"></a>
 	</article>
@@ -97,7 +97,7 @@
 			var disqus_shortname = 'peterhilton';
 			var disqus_identifier = '{{ page.id }}';
 		    var disqus_title = '{{ page.title }}';
-		    var disqus_url = 'http://hilton.org.uk{{ page.url | replace:'.html','' }}';
+		    var disqus_url = 'https://hilton.org.uk{{ page.url | replace:'.html','' }}';
 
 			(function() {
 				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -117,6 +117,6 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

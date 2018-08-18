@@ -12,17 +12,17 @@ I wanted to know what other people think about the idea stricter compile-time ch
 ## 1. Enforce whitespace
 
 There were a few Python developers around the table, so it’s no surprise that the topic of significant white space came up. I wrote before about 
-[enforcing coding style as part of the language](http://hilton.org.uk/blog/contstrained-coding-style)
+[enforcing coding style as part of the language](https://hilton.org.uk/blog/contstrained-coding-style)
 and figure that this is something that would be good for Scala. After all, the 
 [Scala Style Guide](http://docs.scala-lang.org/style/) doesn’t recommend any flexibility in how you use white space, so it would be better to simply make these compilation errors.
 
 ## 2. Support Unicode characters for operators
 
-I’ve also written about using [arithmetic symbols in source code](http://hilton.org.uk/blog/arithmetic-symbols): `−`, `×` and `÷` instead of the usual ASCII characters that are merely typewriter-era substitutes. In Scala, there’s already precedent for the compiler supporting Unicode characters instead of ASCII art, for `←` and `⇒`, so it’s only logical to support even more basic examples at the compiler level.
+I’ve also written about using [arithmetic symbols in source code](https://hilton.org.uk/blog/arithmetic-symbols): `−`, `×` and `÷` instead of the usual ASCII characters that are merely typewriter-era substitutes. In Scala, there’s already precedent for the compiler supporting Unicode characters instead of ASCII art, for `←` and `⇒`, so it’s only logical to support even more basic examples at the compiler level.
 
 ## 3. Spellcheck names
 
-[Using only English words in code](http://hilton.org.uk/blog/use-english-in-code) is something else that the compiler could enforce. This suggestion turns out to be most shocking to other developers, because everyone is so used to using abbreviations that they just made up, and expect new members of the team to learn. However, they calm down a little, if you explain that this feature would require the ability declare additional allowed words, or ‘import’ a set dictionary extensions into a package or compilation unit, so you can support domain-specific jargon.
+[Using only English words in code](https://hilton.org.uk/blog/use-english-in-code) is something else that the compiler could enforce. This suggestion turns out to be most shocking to other developers, because everyone is so used to using abbreviations that they just made up, and expect new members of the team to learn. However, they calm down a little, if you explain that this feature would require the ability declare additional allowed words, or ‘import’ a set dictionary extensions into a package or compilation unit, so you can support domain-specific jargon.
 
     package models
      

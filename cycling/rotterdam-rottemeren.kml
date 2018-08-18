@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-	Copyright ©2007 Peter Hilton - http://hilton.org.uk/
+	Copyright ©2007 Peter Hilton - https://hilton.org.uk/
 	This work is licenced under a Creative Commons license:	http://creativecommons.org/licenses/by-nc-sa/1.0/
-	Required attribution is a credit to 'Peter Hilton' and a link to http://hilton.org.uk/
+	Required attribution is a credit to 'Peter Hilton' and a link to https://hilton.org.uk/
 -->
 <kml xmlns="http://earth.google.com/kml/2.1">
 <Document>
 	<name>Rotterdam - Rottemeren cycle route</name>
-	<description><![CDATA[Cycle route with <a href="http://hilton.org.uk/cycling_rottemeren.phtml">directions and photos</a>]]></description>
+	<description><![CDATA[Cycle route with <a href="https://hilton.org.uk/cycling_rottemeren.phtml">directions and photos</a>]]></description>
 	<Style id="linestyle">
 		<LineStyle>
 			<color>800000c2</color>

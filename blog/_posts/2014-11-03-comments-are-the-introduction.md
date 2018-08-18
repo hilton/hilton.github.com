@@ -37,7 +37,7 @@ When you approach code, it is also necessary to understand its purpose, scope an
 
 ## The scope of code
 
-Similarly, questions of scope may justify a code comment. In the context of code, ‘scope’ is about its expected usage: who the code is for and how much you can expect from it. Good comments also include [pre-conditions, restrictions and limitations](http://hilton.org.uk/blog/3-kinds-of-good-comments).
+Similarly, questions of scope may justify a code comment. In the context of code, ‘scope’ is about its expected usage: who the code is for and how much you can expect from it. Good comments also include [pre-conditions, restrictions and limitations](https://hilton.org.uk/blog/3-kinds-of-good-comments).
 
 ## The summary of code
 
@@ -51,6 +51,6 @@ Note that there is a special case for domain model classes that model a real-wor
 
 > An [Incoterm](http://en.wikipedia.org/wiki/Incoterms) for a shipment.
 
-Handily, there are lots of [obscure things with Wikipedia pages](http://hilton.org.uk/blog/today-i-learned).
+Handily, there are lots of [obscure things with Wikipedia pages](https://hilton.org.uk/blog/today-i-learned).
 
 _Photo: [earlynovelsdatabase](https://www.flickr.com/photos/97741188@N04/14486379561/) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

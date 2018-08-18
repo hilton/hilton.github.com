@@ -3,7 +3,7 @@ title: Constructive laziness
 description: Creative productivity for programmers
 tags: programming documentation
 layout: hh
-image: http://hilton.org.uk/blog/laziness.jpg
+image: https://hilton.org.uk/blog/laziness.jpg
 ---
 
 ![Plain old laziness](laziness.jpg)

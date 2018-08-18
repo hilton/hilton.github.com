@@ -11,7 +11,7 @@ Naming smells are [code smells](http://martinfowler.com/bliki/CodeSmell.html) th
 A code smell indicates where you can improve your code, and often points to some deeper problem.
 A particular code smell often has a corresponding refactoring that removes that particular smell, improving the code.
 Naming smells appear in many forms, but all have the same refactoring: _Rename_.
-So [how hard could it be?](http://hilton.org.uk/blog/why-naming-things-is-hard)
+So [how hard could it be?](https://hilton.org.uk/blog/why-naming-things-is-hard)
 
 This article describes some common naming smells.
 Most come from names that don’t carry as much meaning as they might, or suffer from ambiguity.

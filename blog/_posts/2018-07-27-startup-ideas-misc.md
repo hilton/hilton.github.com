@@ -3,7 +3,7 @@ title: Start-up ideas are still cheap
 description: More free ideas from the archives, 2015-2017
 layout: hh
 tags: startups
-image: http://hilton.org.uk/blog/light-bulbs.jpg
+image: https://hilton.org.uk/blog/light-bulbs.jpg
 ---
 
 ![Light bulbs are cheap](light-bulbs.jpg)

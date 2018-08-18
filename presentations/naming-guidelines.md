@@ -3,7 +3,7 @@ title: Naming guidelines for professional programmers
 layout: paper
 ---
 
-Copyright ©2017 [Peter Hilton](http://hilton.org.uk) and [Felienne Hermans](http://www.felienne.com)
+Copyright ©2017 [Peter Hilton](https://hilton.org.uk) and [Felienne Hermans](http://www.felienne.com)
 
 ## Abstract
 
@@ -775,7 +775,7 @@ Needless to say, we hope that software engineering researchers address these que
 
 ## References
 
-1. Peter Hilton - [Naming smells](http://hilton.org.uk/blog/naming-smells) (2016)
+1. Peter Hilton - [Naming smells](https://hilton.org.uk/blog/naming-smells) (2016)
 2. Phillip Relf - *Achieving Software Quality through Source Code Readability* (2004)
 3. Venera Arnaoudova, Massimiliano Di Penta and Giuliano Antoniol - [Linguistic Antipatterns: What They Are and How Developers Perceive Them](http://www.veneraarnaoudova.com/wp-content/uploads/2014/10/2014-EMSE-Arnaodova-et-al-Perception-LAs.pdf) (2015)
 4. Steve McConnell - *Code Complete*, Microsoft Press (1993)

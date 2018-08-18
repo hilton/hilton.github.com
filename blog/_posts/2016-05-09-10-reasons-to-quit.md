@@ -3,7 +3,7 @@ title: 10 things programmers will switch jobs for
 description: When they’re ready to leave, here’s what they’re looking for
 tags: recruitment
 layout: hh
-image: http://hilton.org.uk/blog/switch.jpg
+image: https://hilton.org.uk/blog/switch.jpg
 ---
 
 ![A switch](switch.jpg)

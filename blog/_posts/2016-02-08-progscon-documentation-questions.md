@@ -3,12 +3,12 @@ title: Questions about documentation and avoiding writing it
 description: Q&A for my forthcoming keynote at ProgSCon London 2016
 tags: documentation
 layout: hh
-image: http://hilton.org.uk/blog/progscon-london.png
+image: https://hilton.org.uk/blog/progscon-london.png
 ---
 
 [ ![ProgSCon London](progscon-london.png) ](http://progscon.co.uk)
 
-On 22 April 2016, I’ll be presenting [Documentation avoidance for developers](http://hilton.org.uk/presentations/documentation) as the keynote for [ProgSCon London 2016](http://progscon.co.uk).
+On 22 April 2016, I’ll be presenting [Documentation avoidance for developers](https://hilton.org.uk/presentations/documentation) as the keynote for [ProgSCon London 2016](http://progscon.co.uk).
 In the run up to the conference, the organisers asked me a few questions about the topic.
 
 ## Professional experience

@@ -23,6 +23,6 @@ The missing constraint is to only allow primitive types to be used for _private_
 
 ## Hard coding constraints
 
-Of course, what would be really cool would be if the language enforced this constraint, rather than merely using a coding standard. That would be more hardcore than [constrained coding style](http://hilton.org.uk/blog/contstrained-coding-style).
+Of course, what would be really cool would be if the language enforced this constraint, rather than merely using a coding standard. That would be more hardcore than [constrained coding style](https://hilton.org.uk/blog/contstrained-coding-style).
 
 Meanwhile, you’ll have to settle for team coding standards that enforce this. To understand more about why and how, read Ken Scambler’s excellent article about [The abject failure of weak typing](http://techblog.realestate.com.au/the-abject-failure-of-weak-typing/).

@@ -133,7 +133,7 @@ Together, these papers paint an encouraging picture of the potential for better 
 At the same time, these papers point to numerous opportunities for better tool support for good naming, which is notably absent from mainstream software development environments.
 
 Ironically, these papers fail to agree on one thing: the best name for bad naming.
-They variously refer to naming bugs, identifier flaws, linguistic anti-patterns, and none of them use Peter’s ‘[naming smells](http://hilton.org.uk/blog/naming-smells)’ name.
+They variously refer to naming bugs, identifier flaws, linguistic anti-patterns, and none of them use Peter’s ‘[naming smells](https://hilton.org.uk/blog/naming-smells)’ name.
 It’s too bad that academic papers don’t have _Rename_ refactoring.
 
 ## Discussion

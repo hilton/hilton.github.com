@@ -11,7 +11,7 @@ This article proposes ten ways you can improve your naming skills, which help yo
 
 ## 1. Decide how hard it is for you
 
-First, think about [Why naming things is hard](http://hilton.org.uk/blog/why-naming-things-is-hard), and how hard you find it yourself.
+First, think about [Why naming things is hard](https://hilton.org.uk/blog/why-naming-things-is-hard), and how hard you find it yourself.
 
 <blockquote class="big" style="max-width:28em">
 <p>The reason naming is both hard and important is because it is an act of communication;
@@ -24,7 +24,7 @@ Either way, you have to decide for yourself what you need to improve.
 
 ## 2. Learn to recognise bad naming
 
-[Naming smells](http://hilton.org.uk/blog/naming-smells) indicate names that you can improve.
+[Naming smells](https://hilton.org.uk/blog/naming-smells) indicate names that you can improve.
 Use naming smells to recognise bad habits, as a the first step towards giving them up.
 As a bonus, naming smells themselves have names for you to use in code reviews, to improve your whole team’s communication and coding style.
 

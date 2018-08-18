@@ -5,7 +5,7 @@ tags: programming
 layout: hh
 ---
 
-I’ve just written about how [coding style](http://hilton.org.uk/blog/contstrained-coding-style) and [type](http://hilton.org.uk/blog/constrained-oop-types) constraints could result in better code if they were built into the programming language. 
+I’ve just written about how [coding style](https://hilton.org.uk/blog/contstrained-coding-style) and [type](https://hilton.org.uk/blog/constrained-oop-types) constraints could result in better code if they were built into the programming language. 
 
 They say that good design comes from embracing constraints. The thing is, with a language like Scala there aren’t nearly enough constraints, presumably in the name of flexibility, power and, of course, scalability. Sometimes, I’d like like to write code that was subject to more constraints.
 

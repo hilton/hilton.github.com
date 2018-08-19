@@ -228,7 +228,9 @@ blockquote.big p {
 	font-size: 2em; }
 
 blockquote.big a {
-	color: inherit; }
+	color: #D9EDFF; }
+blockquote.big.solid-three a {
+	color: #005199; }
 
 .solid-one {
 	background-color: #334D5C ! important; }

@@ -3,6 +3,7 @@ title: Three causes of unmaintainable code
 description: Why programmers are lazy and too clever for their own good
 layout: hh
 tags: code maintenance
+image: https://hilton.org.uk/blog/factory4.jpg
 ---
 
 [![A factory - where real maintenance happens](factory4.jpg)](https://unsplash.com/photos/PxIU9VT4R6I)

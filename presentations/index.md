@@ -12,11 +12,10 @@ Peter Hilton has presented at conferences, user groups and companies in several 
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
 
-## Not yet presented
+## Not yet scheduled
 
 * [Better source code through typography](agile-code-typography)
 * [Euro-English for software developers](euro-english)
-* [Flat HTTP API Documentation](flat-http-api-documentation)
 * HTTP API checklist
 * 7 joys of coding - things that bring joy to writing code
 * 4 kinds of software design for application developers
@@ -30,6 +29,20 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Venue</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2018-11-08</td>
+	<td><a href="flat-http-api-documentation">Flat HTTP API Documentation</a></td>
+	<td><a href="http://jfall.nl/">J-Fall 2018</a></td>
+	<td class="flag nl">Ede</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2018-11-08</td>
+	<td><a href="maintainable-code-workshop">How to write maintainable code</a> (workshop)</td>
+	<td><a href="http://jfall.nl/">J-Fall 2018</a></td>
+	<td class="flag nl">Ede</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2018-08-03</td>
@@ -142,6 +155,19 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td class="flag uk">Cambridge</td>
 	<td></td>
 </tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
+</tr>
 <tr>
 	<td>2017-08-02</td>
 	<td><a href="beautiful-code">Beautiful code: code with better type</a></td>
@@ -155,19 +181,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="http://www.daysofcode.nl/">Days of Code</a></td>
 	<td class="flag nl">Rotterdam</td>
 	<td></td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2017-05-16</td>

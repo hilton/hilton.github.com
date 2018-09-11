@@ -10,3 +10,7 @@ This presentation introduces Flat HTTP API Documentation (FHAD) - a better way t
 FHAD leverages HTTP’s own structure together with some layout and typography to document by example, in as much detail as you like.
 Attendees will learn to see API documentation in a new way, which they can use to write more effective documentation with less effort.
 You’ll also get a REST API design checklist that you can use to either document or avoid design mistakes.
+
+# Presentations
+
+* [J-Fall 2018](http://jfall.nl/) - 8 November 2018

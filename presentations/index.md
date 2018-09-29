@@ -33,14 +33,14 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 <tr>
 	<td>2018-11-08</td>
 	<td><a href="flat-http-api-documentation">Flat HTTP API Documentation</a></td>
-	<td><a href="http://jfall.nl/">J-Fall 2018</a></td>
+	<td><a href="https://jfall.nl/sessions/flat-http-api-documentation/">J-Fall 2018</a></td>
 	<td class="flag nl">Ede</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2018-11-08</td>
 	<td><a href="maintainable-code-workshop">How to write maintainable code</a> (workshop)</td>
-	<td><a href="http://jfall.nl/">J-Fall 2018</a></td>
+	<td><a href="https://jfall.nl/pre-conference/">J-Fall 2018</a> pre-conference</td>
 	<td class="flag nl">Ede</td>
 	<td></td>
 </tr>

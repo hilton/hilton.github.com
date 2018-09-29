@@ -13,4 +13,4 @@ You’ll also get a REST API design checklist that you can use to either documen
 
 # Presentations
 
-* [J-Fall 2018](http://jfall.nl/) - 8 November 2018
+* [J-Fall 2018](https://jfall.nl/sessions/flat-http-api-documentation/) - 8 November 2018

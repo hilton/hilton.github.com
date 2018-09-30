@@ -31,6 +31,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2018-11-29</td>
+	<td><a href="agile-code-typography">Better source code through typography</a></td>
+	<td><a href="http://www.xpdaysbenelux.nl/friday/#session_634">XP Days Benelux</a></td>
+	<td class="flag nl">Heeze</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2018-11-08</td>
 	<td><a href="flat-http-api-documentation">Flat HTTP API Documentation</a></td>
 	<td><a href="https://jfall.nl/sessions/flat-http-api-documentation/">J-Fall 2018</a></td>

@@ -10,3 +10,6 @@ The goals of this talk are to consider why source code’s visual design is so r
 
 Note: this presentation is an agile methods perspective on [Beautiful code: typography and visual programming](beautiful-code).
 
+# Presentations
+
+* [XP Days Benelux](http://www.xpdaysbenelux.nl/friday/#session_634) - 29 November 2018

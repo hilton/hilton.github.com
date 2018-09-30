@@ -14,7 +14,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Not yet scheduled
 
-* [Better source code through typography](agile-code-typography)
 * [Euro-English for software developers](euro-english)
 * HTTP API checklist
 * 7 joys of coding - things that bring joy to writing code

@@ -51,6 +51,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td></td>
 </tr>
 <tr>
+	<td>2018-10-11</td>
+	<td><a href="flat-http-api-documentation">Flat HTTP API Documentation</a></td>
+	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
+	<td class="flag de">Berlin</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2018-08-03</td>
 	<td>Two short talks about HTTP APIs</td>
 	<td>Lunatech</td>

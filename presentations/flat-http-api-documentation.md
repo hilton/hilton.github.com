@@ -11,6 +11,10 @@ FHAD leverages HTTP’s own structure together with some layout and typography t
 Attendees will learn to see API documentation in a new way, which they can use to write more effective documentation with less effort.
 You’ll also get a REST API design checklist that you can use to either document or avoid design mistakes.
 
+## Slides
+
+<script async class="speakerdeck-embed" data-id="57d176995c2b4aef83a765264a101387" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 # Presentations
 
 * [J-Fall 2018](https://jfall.nl/sessions/flat-http-api-documentation/) - 8 November 2018

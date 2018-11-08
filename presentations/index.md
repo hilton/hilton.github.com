@@ -14,9 +14,8 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Not yet scheduled
 
-* [Generating sheet music: from one DSL to another](lilypond-workshop)
 * [Euro-English for software developers](euro-english)
-* HTTP API design checklist
+* HTTP API checklist
 * 7 joys of coding - things that bring joy to writing code
 * 4 kinds of software design for application developers
 
@@ -39,7 +38,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2018-11-08</td>
-	<td><a href="flat-http-api-documentation">Flat HTTP API Documentation</a></td>
+	<td><a href="flat-http-api-documentation">Flat HTTP API Design</a></td>
 	<td><a href="https://jfall.nl/sessions/flat-http-api-documentation/">J-Fall 2018</a></td>
 	<td class="flag nl">Ede</td>
 	<td></td>

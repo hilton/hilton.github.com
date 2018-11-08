@@ -1,5 +1,5 @@
 ---
-title: Flat HTTP API Documentation
+title: Flat HTTP API Design (and documentation)
 description: Because flat design isn’t only for the user interface
 layout: speaking
 ---

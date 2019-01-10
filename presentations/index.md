@@ -30,6 +30,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2018-03-13</td>
+	<td><a href="lilypond-workshop">Generating sheet music: from one DSL to another</a></td>
+	<td><a href="https://2019.boosterconf.no/talks/1222">Booster</a></td>
+	<td class="flag no">Bergen</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2018-11-29</td>
 	<td><a href="agile-code-typography">Better source code through typography</a></td>
 	<td><a href="http://www.xpdaysbenelux.nl/friday/#session_634">XP Days Benelux</a></td>

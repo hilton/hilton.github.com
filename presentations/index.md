@@ -41,7 +41,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="flat-http-api-documentation">Flat HTTP API Design</a></td>
 	<td><a href="https://jfall.nl/sessions/flat-http-api-documentation/">J-Fall 2018</a></td>
 	<td class="flag nl">Ede</td>
-	<td></td>
+	<td><a href="flat-http-api-documentation">slides</a></td>
 </tr>
 <tr>
 	<td>2018-11-08</td>

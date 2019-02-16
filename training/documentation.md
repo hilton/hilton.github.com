@@ -7,7 +7,7 @@ layout: speaking
 Documentation’s lack of popularity among developers, especially on open-source projects, is at least partly due to time wasted on too much documentation, and producing docs the hard way. 
 However, neglecting software documentation and technical writing skills holds us and our projects back. The solution is to improve basic skills, integrate documentation with modern software development methods, and learn about modern tools. 
 
-This interactive practical workshop teaches what to document, what not to, and how to produce documentation without the pain of traditional approaches. 
+This training course teaches what to document, what not to, and how to produce documentation without the pain of traditional approaches. 
 
 ## Who should attend
 

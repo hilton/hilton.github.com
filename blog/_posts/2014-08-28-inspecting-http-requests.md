@@ -85,7 +85,7 @@ This is very convenient, and easy to use, but unfortunately _Mocky_ doesn’t gi
 
 ## RequestBin
 
-[requestb.in](https://requestbin.com/) is a web application that, like _Mocky_, generates an endpoint for you to use. There is no configuration: just click the _Create a RequestBin_ button on the home page. This creates a new ‘RequestBin’, which has a URL that you can send requests to, and a web page that initially shows sample code for sending a POST request. The first of these examples is a cURL command line:
+[RequestBin](https://requestbin.com/) is a web application that, like _Mocky_, generates an endpoint for you to use. There is no configuration: just click the _Create a RequestBin_ button on the home page. This creates a new ‘RequestBin’, which has a URL that you can send requests to, and a web page that initially shows sample code for sending a POST request. The first of these examples is a cURL command line:
 
 	curl -X POST -d "fizz=buzz" https://epw176o.x.pipedream.net/
 

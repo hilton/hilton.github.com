@@ -85,9 +85,9 @@ This is very convenient, and easy to use, but unfortunately _Mocky_ doesn’t gi
 
 ## RequestBin
 
-[requestb.in](http://requestb.in/) is a web application that, like _Mocky_, generates an endpoint for you to use. There is no configuration: just click the _Create a RequestBin_ button on the home page. This creates a new ‘RequestBin’, which has a URL that you can send requests to, and a web page that initially shows sample code for sending a POST request. The first of these examples is a cURL command line:
+[requestb.in](https://requestbin.com/) is a web application that, like _Mocky_, generates an endpoint for you to use. There is no configuration: just click the _Create a RequestBin_ button on the home page. This creates a new ‘RequestBin’, which has a URL that you can send requests to, and a web page that initially shows sample code for sending a POST request. The first of these examples is a cURL command line:
 
-	curl -X POST -d "fizz=buzz" http://requestb.in/sc70o5sc
+	curl -X POST -d "fizz=buzz" https://epw176o.x.pipedream.net/
 
 Run this command and reload the inspector page - the endpoint URL with `?inspect` appended - to see something like this: 
 
@@ -95,7 +95,7 @@ Run this command and reload the inspector page - the endpoint URL with `?inspect
 
 This shows _FORM/POST PARAMETERS_ separately: _RequestBin_ is intended for debugging HTML form requests. However, you can also use the JSON example:
 
-	curl -X POST -H "Content-Type: application/json" --data-binary @test.json http://requestb.in/sc70o5sc
+	curl -X POST -H "Content-Type: application/json" --data-binary @test.json https://epw176o.x.pipedream.net/
 
 This time the _RAW BODY_ shows the raw JSON request, with syntax highlighting:
 

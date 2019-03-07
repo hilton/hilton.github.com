@@ -15,9 +15,9 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 ## Not yet scheduled
 
 * [Euro-English for software developers](euro-english)
-* HTTP API checklist
-* 7 joys of coding - things that bring joy to writing code
-* 4 kinds of software design for application developers
+* _HTTP API checklist_ or _Dr Evil’s HTTP API_
+* _7 joys of coding_ - things that bring joy to writing code
+* _4 kinds of software design for application developers_
 
 ## Upcoming & recent
 
@@ -30,7 +30,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2018-03-13</td>
+	<td>2019-03-15</td>
 	<td><a href="lilypond-workshop">Generating sheet music: from one DSL to another</a></td>
 	<td><a href="https://2019.boosterconf.no/talks/1222">Booster</a></td>
 	<td class="flag no">Bergen</td>

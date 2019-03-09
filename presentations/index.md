@@ -14,6 +14,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Not yet scheduled
 
+* [Coding style matters](coding-style)
 * [Euro-English for software developers](euro-english)
 * _HTTP API checklist_ or _Dr Evil’s HTTP API_
 * _7 joys of coding_ - things that bring joy to writing code
@@ -120,6 +121,19 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td class="flag nl">Amsterdam</td>
 	<td></td>
 </tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
+</tr>
 <tr>
 	<td>2017-12-15</td>
 	<td><a href="naming">How to name things</a></td>
@@ -175,19 +189,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="http://agilecambridge.net/2017/sessions/index.php?session=18">Agile Cambridge 2017</a></td>
 	<td class="flag uk">Cambridge</td>
 	<td></td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2017-08-02</td>

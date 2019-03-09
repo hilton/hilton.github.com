@@ -14,7 +14,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Not yet scheduled
 
-* [Coding style matters](coding-style)
+* [Coding style matters](code-style)
 * [Euro-English for software developers](euro-english)
 * _HTTP API checklist_ or _Dr Evil’s HTTP API_
 * _7 joys of coding_ - things that bring joy to writing code

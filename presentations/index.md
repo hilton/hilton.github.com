@@ -14,7 +14,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Not yet scheduled
 
-* [Coding style matters](code-style)
 * [Euro-English for software developers](euro-english)
 * _HTTP API checklist_ or _Dr Evil’s HTTP API_
 * _7 joys of coding_ - things that bring joy to writing code
@@ -29,6 +28,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Venue</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2019-05-29</td>
+	<td><a href="code-style">Coding style matters</a></td>
+	<td><a href="https://jspring.nl/sessions/coding-style-matters-why-you-should-care-about-code-style-and-what-you-should-care-about/">J-Spring</a></td>
+	<td class="flag nl">Utrecht</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2019-03-15</td>

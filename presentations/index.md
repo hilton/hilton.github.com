@@ -30,6 +30,20 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2019-09-10</td>
+	<td><a href="challenge-your-po">How to challenge your PO</a></td>
+	<td>Utrecht JUG</td>
+	<td class="flag nl">Utrecht</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2019-09-10</td>
+	<td><a href="flat-http-api-documentation">Flat HTTP API Design</a></td>
+	<td>Utrecht JUG</td>
+	<td class="flag nl">Utrecht</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2019-05-29</td>
 	<td><a href="code-style">Coding style matters</a></td>
 	<td><a href="https://jspring.nl/sessions/coding-style-matters-why-you-should-care-about-code-style-and-what-you-should-care-about/">J-Spring</a></td>

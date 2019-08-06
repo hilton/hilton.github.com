@@ -10,4 +10,4 @@ This presentation describes what happens when you don’t have a proper product 
 
 ## Presentations
 
-* Utrecht JUG - 10 September 2019
+* <a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a> - 10 September 2019

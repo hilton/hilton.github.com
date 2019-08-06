@@ -32,14 +32,14 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 <tr>
 	<td>2019-09-10</td>
 	<td><a href="challenge-your-po">How to challenge your PO</a></td>
-	<td>Utrecht JUG</td>
+	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a></td>
 	<td class="flag nl">Utrecht</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2019-09-10</td>
 	<td><a href="flat-http-api-documentation">Flat HTTP API Design</a></td>
-	<td>Utrecht JUG</td>
+	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a></td>
 	<td class="flag nl">Utrecht</td>
 	<td></td>
 </tr>

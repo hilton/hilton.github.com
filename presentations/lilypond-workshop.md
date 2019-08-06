@@ -14,4 +14,4 @@ During this workshop you will learn the basic Lilypond syntax, starting with not
 
 ## Conferences
 
-* [Booster 2019](https://2019.boosterconf.no/talks/1222) short workshop - 15 March 2019
+* [Booster 2019](https://2019.boosterconf.no/talks/1222) short workshop - 15 March 2019 (rated 12 green, 0 yellow, 0 red, out of 15 attendees)

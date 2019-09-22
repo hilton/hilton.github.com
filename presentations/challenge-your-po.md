@@ -8,6 +8,10 @@ As an agile software developer, you want to understand your product owner’s ex
 
 This presentation describes what happens when you don’t have a proper product owner, and introduces some challenging questions that product owners work on answering. In practice, the product owner role is often an impossible job, especially when it isn’t full-time, so you shouldn’t expect your product owner to be able to answer all of the questions straight away. You might enjoy working together on the challenge, though.
 
+## Slides
+
+<script async class="speakerdeck-embed" data-id="f915a585774d4acda1aa05ae36f7c22e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Presentations
 
 * <a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a> - 10 September 2019

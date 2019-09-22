@@ -12,14 +12,7 @@ Peter Hilton has presented at conferences, user groups and companies in several 
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
 
-## Not yet scheduled
-
-* [Euro-English for software developers](euro-english)
-* _HTTP API checklist_ or _Dr Evil’s HTTP API_
-* _7 joys of coding_ - things that bring joy to writing code
-* _4 kinds of software design for application developers_
-
-## Upcoming & recent
+## Recent presentations
 
 <table class="table">
 <tr>
@@ -34,14 +27,14 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="challenge-your-po">How to challenge your PO</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a></td>
 	<td class="flag nl">Utrecht</td>
-	<td></td>
+	<td><a href="challenge-your-po">slides</a>
 </tr>
 <tr>
 	<td>2019-09-10</td>
 	<td><a href="flat-http-api-documentation">Flat HTTP API Design</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a></td>
 	<td class="flag nl">Utrecht</td>
-	<td></td>
+	<td><a href="flat-http-api-documentation">slides</a>
 </tr>
 <tr>
 	<td>2019-05-29</td>
@@ -79,19 +72,26 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td class="flag nl">Ede</td>
 	<td></td>
 </tr>
+</table>
+
+
+## Not yet scheduled
+
+* [Euro-English for software developers](euro-english)
+* _HTTP API checklist_ or _Dr Evil’s HTTP API_
+* _7 joys of coding_ - things that bring joy to writing code
+* _4 kinds of software design for application developers_
+
+
+## Selected previous presentations
+
+<table class="table">
 <tr>
-	<td>2018-10-11</td>
-	<td><a href="flat-http-api-documentation">Flat HTTP API Documentation</a></td>
-	<td><a href="http://www.signavio.com/">Signavio GmbH</a></td>
-	<td class="flag de">Berlin</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2018-08-03</td>
-	<td>Two short talks about HTTP APIs</td>
-	<td>Lunatech</td>
-	<td class="flag nl">Rotterdam</td>
-	<td></td>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
 </tr>
 <tr>
 	<td>2018-06-13</td>
@@ -99,20 +99,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="https://ndcoslo.com/talk/beautiful-code-typography-and-visual-programming/">NDC</a></td>
 	<td class="flag no">Oslo</td>
 	<td><a href="https://www.youtube.com/watch?v=7vPh-xy-kyc">video</a></td>
-</tr>
-<tr>
-	<td>2018-05-31</td>
-	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
-	<td><a href="http://jspring.nl/speakers/peter-hilton/">J-Spring</a></td>
-	<td class="flag nl">Utrecht</td>
-	<td></td>
-</tr>
-<tr>
-	<td>2018-05-09</td>
-	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
-	<td><a href="https://2018.geecon.org/speakers/info.html?id=333">GeeCON</a></td>
-	<td class="flag pl">Kraków</td>
-	<td></td>
 </tr>
 <tr>
 	<td>2018-03-15</td>
@@ -127,32 +113,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>company in-house</td>
 	<td class="flag nl">Amsterdam</td>
 	<td></td>
-</tr>
-<tr>
-	<td>2018-02-15</td>
-	<td><a href="../training/maintainable-code">How to write maintainable code (training)</a></td>
-	<td>company in-house</td>
-	<td class="flag nl">Amsterdam</td>
-</tr>
-<tr>
-	<td>2018-01-30</td>
-	<td><a href="../training/maintainable-code">How to write maintainable code (training)</a></td>
-	<td>company in-house</td>
-	<td class="flag nl">Amsterdam</td>
-	<td></td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2017-12-15</td>

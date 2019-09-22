@@ -89,27 +89,8 @@
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="//www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a><a href="https://plus.google.com/share?url={{ url }}" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="../picture/social/minimal/googleplus.png" alt="Share on Google+"></a>
-	</article>
-	
-	<article class="comments">
-		<div id="disqus_thread"></div>
-		<script type="text/javascript">
-			var disqus_shortname = 'peterhilton';
-			var disqus_identifier = '{{ page.id }}';
-		    var disqus_title = '{{ page.title }}';
-		    var disqus_url = 'https://hilton.org.uk{{ page.url | replace:'.html','' }}';
-
-			(function() {
-				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-			})();
-		</script>
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-	</article>
+	</article>	
 	{% endif %}
-    	
 
 	<footer class="text-muted">
 		<p>{% include footer.html %}</p>

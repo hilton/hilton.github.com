@@ -101,6 +101,20 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="https://www.youtube.com/watch?v=7vPh-xy-kyc">video</a></td>
 </tr>
 <tr>
+   <td>2018-05-31</td>
+   <td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
+   <td><a href="http://jspring.nl/speakers/peter-hilton/">J-Spring</a></td>
+   <td class="flag nl">Utrecht</td>
+   <td></td>
+</tr>
+<tr>
+   <td>2018-05-09</td>
+   <td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
+   <td><a href="https://2018.geecon.org/speakers/info.html?id=333">GeeCON</a></td>
+   <td class="flag pl">Kraków</td>
+   <td></td>
+</tr>
+<tr>
 	<td>2018-03-15</td>
 	<td><a href="beautiful-code">Beautiful code: typography and visual programming</a></td>
 	<td><a href="https://2018.boosterconf.no/talks/1070">Booster</a></td>

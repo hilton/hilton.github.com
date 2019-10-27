@@ -11,6 +11,30 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Performances</h2>
 
+<p><a href="http://cappellagabrieli.nl/concert-2019-11.html">Missa Puer natus est nobis &amp; Die Weihnachtsgeschichte</a>
+<br><em>Cappella Gabrieli</em>
+<br>23/24 November 2019, the Hague/Rotterdam</p>
+
+<p><a href="http://cappellagabrieli.nl/concert-2019-09.html">Early music from England, Belgium &amp; France</a>
+<br><em>Cappella Gabrieli</em>
+<br>21/28 september 2019, Ouderkerk aan den IJssel/Utrecht</p>
+
+<p><a href="http://cappellagabrieli.nl/concert-2019-03_en.html">Palestrina, Lobo &amp; Gesualdo</a>
+<br><em>Cappella Gabrieli</em>
+<br>9/10 maart 2019, the Hague/Rotterdam</p>
+
+<p><a href="http://cappellagabrieli.nl/concert-2018-04_en.html">L’Héritier & Arcadelt</a>
+<br><em>Cappella Gabrieli</em>
+<br>14 April 2018, Utrecht</p>
+
+<p><a href="http://cappellagabrieli.nl/concert-2017-11_en.html">L’Héritier & Arcadelt</a>
+<br><em>Cappella Gabrieli</em>
+<br>25/26 November 2017, Rotterdam/the Hague</p>
+
+<p><a href="http://cappellagabrieli.nl/concert-2017-09_en.html">Lamentations - Robert White</a>
+<br><em>Cappella Gabrieli</em>
+<br>23 September 2017, Ouderkerk aan den Ĳssel</p>
+
 <p><a href="http://cappellagabrieli.nl/concert-2017-05_en.html">Monteverdi Vespers</a>
 <br><em>Cappella Gabrieli</em>
 <br>19/20 May 2017, Rotterdam/’s-Hertogenbosch</p>
@@ -112,13 +136,25 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Workshops</h2>
 
+<p><a href="http://www.trioramusica.com">Triora Musica - Ludford &amp; Fayrfax</a>
+<br>directed by Deborah Roberts
+<br>1-7 September 2019, Triora, Italy</p>
+
+<p><strong>Förvandlingar (transformations)</strong>
+<br>directed by Deborah Roberts
+<br>30 May - 2 June 2019, Linköping, Sweden</p>
+
+<p><strong>Music in pre- and post-reformation 16<sup>th</sup>-century England</strong>
+<br>directed by Deborah Roberts
+<br>11-13 May 2018, Linköping, Sweden</p>
+
 <p><a href="http://www.trioramusica.com">Triora Musica - From Fayrfax to Taverner</a>
 <br>directed by Deborah Roberts
 <br>2-10 September 2017, Triora, Italy</p>
 
 <p><strong>The golden age of polyphony</strong>
 <br>directed by Deborah Roberts
-<br>5-7 May 2017, Linköping, SE</p>
+<br>5-7 May 2017, Linköping, Sweden</p>
 
 <p><a href="http://www.trioramusica.com">Triora Musica - Palestrina</a>
 <br>directed by Deborah Roberts
@@ -189,13 +225,13 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Ensembles</h2>
 
-<p><a href="http://retorisch.com">Het Retorisch Kwartet</a>
-<br>early music quartet
-<br>Rotterdam, since 2012</p>
-
 <p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
 <br>chamber choir
 <br>Rotterdam, since 2005</p>
+
+<p><a href="http://retorisch.com">Het Retorisch Kwartet</a>
+<br>early music quartet
+<br>Rotterdam, 2012-2017</p>
 
 <p><a href="http://www.renaissancesingers.com/">The Renaissance Singers</a>
 <br>chamber choir

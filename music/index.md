@@ -4,7 +4,7 @@ categories: music
 layout: music
 ---
 
-Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. During his recent sabbatical in London (July-December 2014), Peter sang with various ensembles and attending a number of workshops.
+Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. Since 2010, Peter has been singing with various ensembles and attending a number of workshops.
 
 <div class="row">
 <div class="col-md-4">

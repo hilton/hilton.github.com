@@ -15,7 +15,7 @@ This parallel between process modelling and conventional programming suggests a 
 
 First, embrace modelling for its own sake, because it’s so _satisfying_, while setting realistic expectations about whether it’s _work_ and who should pay for it. Commercial BPM goes wrong if you’re not thinking about what the customer needs, but that doesn't necessarily mean that more modelling is a bad idea.
 
-If you're like playing around with process models, have a go when your u get home from work, use [Meetup](http://www.meetup.com) to organise modelling sessions and look further afield that your colleagues for people do explore a shared interest.
+If you like playing around with process models, have a go when you get home from work, use [Meetup](http://www.meetup.com) to organise modelling sessions, and look further afield than your colleagues for people to explore a shared interest with.
 
 ## Escaping business-IT projects
 

@@ -54,7 +54,7 @@ Alternatively, start thinking about remote-first communication.
 
 [Robert Smallshire](http://smallshire.org.uk/) has brilliantly determined that [developers have a half-life of about 3.2 years](http://sixty-north.com/blog/predictive-models-of-development-teams-and-the-systems-they-build). 3.2 years from now, about half your current team will have left. This means that sooner or later, you’ll have a question and J will have left the company. 
 
-You could even ignore this. You can either try very hard to have everyone on the team regularly work all parts of your software, there’s always another programmer who worked with J on the original code. Pair programming even gets you quite a long way. Unfortunately it’s a losing battle: the half life of software is considerably longer the developers’, so they’ll never keep up.
+You could even ignore this. You can either try very hard to have everyone on the team regularly work on all parts of your software, so there’s always another programmer who worked with J on the original code. Pair programming even gets you quite a long way. Unfortunately it’s a losing battle: the half life of software is considerably longer the developers’, so they’ll never keep up.
 
 Alternatively, start thinking about writing things down. Or [mob programming](https://en.wikipedia.org/wiki/Mob_programming).
 

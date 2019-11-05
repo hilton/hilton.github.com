@@ -13,7 +13,7 @@ There’s an old programming joke that goes like this:
 > Q: What’s the _second-worst_ variable name?  
 > A: `data2`
 
-Actually, this might originate in [Andy Lester’s 2004 article](http://archive.oreilly.com/pub/post/the_worlds_two_worst_variable.html), and not be old at all. Either way, it’s a good one. The joke is funny because ‘data’ doesn’t add any _meaning_ - you already know that a variable is data - and because we’ve all seen this in production code. The same goes for the second-worst name.
+Actually, this might originate in [Andy Lester’s 2004 article](https://petdance.wordpress.com/2012/04/18/the-worlds-two-worst-variable-names/), and not be old at all. Either way, it’s a good one. The joke is funny because ‘data’ doesn’t add any _meaning_ - you already know that a variable is data - and because we’ve all seen this in production code. The same goes for the second-worst name.
 
 When it comes to code review, bad variable names are a great thing to look for. There are many kinds of bad, of course; meaningless names are just one kind of bad name, and deserve a closer look.
 

@@ -12,7 +12,7 @@ Peter Hilton has presented at conferences, user groups and companies in several 
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
 
-## Recent presentations
+## Upcoming & recent presentations
 
 <table class="table">
 <tr>
@@ -21,6 +21,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Venue</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2020-02-25</td>
+	<td><a href="technical-documentation">Technical documentation is a backup so make sure it works</a> (keynote)</td>
+	<td><a href="https://cppeurope.com/sessions/technical-documentation-is-a-backup-so-make-sure-it-works/">C++ Europe</a></td>
+	<td class="flag ro">Bucharest</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2019-09-10</td>
@@ -45,10 +52,31 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2019-03-15</td>
-	<td><a href="lilypond-workshop">Generating sheet music: from one DSL to another</a></td>
+	<td><a href="lilypond-workshop">Generating sheet music: from one DSL to another</a> (workshop)</td>
 	<td><a href="https://2019.boosterconf.no/talks/1222">Booster</a></td>
 	<td class="flag no">Bergen</td>
 	<td></td>
+</tr>
+</table>
+
+
+## Not scheduled
+
+* [Euro-English for software developers](euro-english)
+* _HTTP API checklist_ or _Dr Evil’s HTTP API_
+* _7 joys of coding_ - things that bring joy to writing code
+* _4 kinds of software design for application developers_
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
 </tr>
 <tr>
 	<td>2018-11-29</td>
@@ -71,27 +99,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="https://jfall.nl/pre-conference/">J-Fall 2018</a> pre-conference</td>
 	<td class="flag nl">Ede</td>
 	<td></td>
-</tr>
-</table>
-
-
-## Not yet scheduled
-
-* [Euro-English for software developers](euro-english)
-* _HTTP API checklist_ or _Dr Evil’s HTTP API_
-* _7 joys of coding_ - things that bring joy to writing code
-* _4 kinds of software design for application developers_
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2018-06-13</td>
@@ -331,8 +338,8 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2016-04-22</td>
-	<td><a href="documentation">Documentation avoidance for developers</a></td>
-	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a> (keynote)</td>
+	<td><a href="documentation">Documentation avoidance for developers</a> (keynote)</td>
+	<td><a href="http://progscon.co.uk/talks#tlk-peterhiltontalk">ProgSCon London</a></td>
 	<td class="flag uk">London</td>
 	<td><a href="https://www.infoq.com/presentations/minimal-code-documentation">video</a></td>
 </tr>

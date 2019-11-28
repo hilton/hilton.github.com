@@ -3,3 +3,5 @@ _site
 build
 Gemfile.lock
 .jekyll-metadata
+vendor
+.bundle

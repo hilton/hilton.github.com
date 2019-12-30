@@ -25,7 +25,7 @@ Writing comments is the same activity as writing code, and involves writing the 
 
 The key to avoiding the traps of [bad comments](7-ways-to-write-bad-comments) is to improve the code so that those kinds of comments are not necessary. Rename classes and methods so that it is clearer what they do, and rewrite implementations so that it is clearer how they do it. Remove comments that make the code worse rather than better.
 
-If you’re writing code and you get stuck and don’t know what to write next, this might be a good time to switch to writing comments, to consolidate what you have written so far. More importantly, the attempt to write a comment can help you realise that the code isn’t what it should.
+If you’re writing code and you get stuck and don’t know what to write next, this might be a good time to switch to writing comments, to consolidate what you have written so far. More importantly, the attempt to write a comment can help you realise that the code isn’t what it should be.
 
 
 ## Try to write a one-sentence comment

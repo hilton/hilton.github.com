@@ -1,6 +1,6 @@
 ---
 title: "Articulate the minimal product definition"
-description: Why you need to set the context for your product in one sentence
+description: How to set the context for your product in one sentence
 layout: hh
 tags: product
 image: https://hilton.org.uk/blog/soup.jpg

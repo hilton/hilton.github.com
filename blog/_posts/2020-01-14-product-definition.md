@@ -7,11 +7,11 @@ image: https://hilton.org.uk/blog/three-nesting-dolls.jpg
 ---
 
 <!-- 
-1. Articulate the product definition to set the context for talking about your product
-2. Include three things in your product definition: one sentence description, the audience, and what they can do.
-3. Say who you designed the product for
-4. Highlight what the product gives that audience
-5. The product definition is the set-up for the value proposition
+1. Articulate the product definition to set the context for talking about your product.
+2. Include three things: one-sentence description, the audience, and what they can do.
+3. Say who you designed the product for.
+4. Highlight what the product gives that audience.
+5. The product definition is the set-up for the value proposition.
 -->
 
 [![Three nesting dolls](three-nesting-dolls.jpg)](https://unsplash.com/photos/9hhOVsf1lpU)

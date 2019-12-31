@@ -77,10 +77,10 @@ As a rule, an existing _category_ has a Wikipedia page, such as
 As with CRM, the same term often applies to both a business software category and a management discipline.
 
 Use the product definition to get the unremarkable aspects of your product out of the way, before you get on to its unique qualities.
-If you build _CRM SaaS for investment banks_ then saying makes your story easier to follow, even though other products share those categories.
+If you build _CRM SaaS for retail_ then saying makes your story easier to follow, even though other products share those categories.
 
 Sometimes a product definition story has a twist: a unique part of the combination that you can highlight.
-Perhaps only your _CRM SaaS for investment banks_ offers _offline mobile support_ or installation as a 
+Perhaps only your _CRM SaaS for retail_ offers _offline mobile support_ or installation as a 
 [pre-installed appliance](https://en.wikipedia.org/wiki/Software_appliance).
 
 ## Use the product definition systematically

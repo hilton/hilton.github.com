@@ -6,13 +6,21 @@ tags: product
 image: https://hilton.org.uk/blog/soup.jpg
 ---
 
+<!-- 
+1. Lead with the benefits doesn’t mean being coy about what you’re actually selling.
+2. Say what the product is in one sentence
+3. Identify with product categories you’re in
+4. Claim the unremarkable
+5. Own being an old play with a new twist
+-->
+
 [![A bowl of soup](soup.jpg)](https://unsplash.com/photos/VVPC-DEBi2I)
 
 <a style="background-color:#ccc;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/photos/VVPC-DEBi2I" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Monika Grabkowska"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Monika Grabkowska</span></a>
 
 _Lead with the benefits_ doesn’t justify mysterious behaviour.
 This product marketing advice suggests talking about product benefits before you talk about price assumes that you’ve already established what the product _is_.
-Without a clear product definition, your story parallels a comedy sketch in a restaurant:
+But without a clear product definition, your story parallels a comedy sketch in a restaurant:
 
 <blockquote class="big" style="max-width:32em">
 <p>diner: what’s today’s special?</p>

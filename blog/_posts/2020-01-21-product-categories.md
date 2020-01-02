@@ -1,6 +1,6 @@
 ---
 title: Define your product using existing product categories
-description: Pros and cons of identifying with existing categories
+description: How categories clarify your product definition
 layout: hh
 tags: product
 image: https://hilton.org.uk/blog/drawers.jpg

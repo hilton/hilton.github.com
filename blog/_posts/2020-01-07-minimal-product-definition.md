@@ -1,5 +1,5 @@
 ---
-title: "Articulate the minimal product definition"
+title: Articulate the minimal product definition
 description: How to set the context for your product in one sentence
 layout: hh
 tags: product
@@ -36,7 +36,7 @@ The [Siebel Sales](https://www.oracle.com/applications/siebel/products/sales/) p
 
 > Designed to improve pipeline visibility, sales effectiveness, and bottom-line results, Siebel Sales enables your organization to share information across teams.
 
-[What is Salesforce?](https://www.salesforce.com/products/what-is-salesforce/) 
+[What is Salesforce?](https://www.salesforce.com/products/what-is-salesforce/)
 does better by starting with a product definition:
 
 > Salesforce is a customer relationship management solution that brings companies and customers together.

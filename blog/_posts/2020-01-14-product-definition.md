@@ -1,5 +1,5 @@
 ---
-title: "Write a three-part product definition"
+title: Write a three-part product definition
 description: How to set the context for your product story
 layout: hh
 tags: product

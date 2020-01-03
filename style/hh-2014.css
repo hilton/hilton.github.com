@@ -36,7 +36,8 @@
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif; }
+	font-family: 'Source Sans Pro', sans-serif; 
+  color: #222; }
 
 /* Navigation and page masthead. */
 
@@ -67,6 +68,8 @@ code {
 .content p, .content ol, .content ul, .content blockquote {
 	font-size: 120%;
 	max-width: 40em; }
+  .content blockquote ul {
+  	font-size: 100%; }
 .content blockquote p, .content blockquote li {
 	font-size: 95%;
 	max-width: 36em; }

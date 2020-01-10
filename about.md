@@ -7,7 +7,7 @@ layout: main
 <div class="row">
 <div class="col-md-8">
 
-<p>Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
+<p>Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
 
 <p>Peter’s software development interests include business process management, web application frameworks, software crafting, functional design, and agile software development.</p>
 

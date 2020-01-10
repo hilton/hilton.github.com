@@ -16,8 +16,8 @@ layout: main
 
 <h2>Now &amp; next</h2>
 
-<p>Peter consults for <a href="http://www.signavio.com">Signavio</a>,
-and is available approximately one day per week for consulting, training and speaking opportunities.</p>
+<p>Peter is currently a freelance product manager at <a href="http://www.signavio.com">Signavio</a>,
+and is available for product roles, consulting, training and speaking opportunities.</p>
 
 
 <h2>CV</h2>

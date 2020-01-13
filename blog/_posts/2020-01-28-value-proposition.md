@@ -40,15 +40,26 @@ This model highlights the hard thing about discovering your product’s value pr
 identifying your customers and understanding what they value.
 The challenge comes from the circularity of identifying the product’s value to a customer segment, at the same time as identifying a customer segment that will value your product.
 
-You don’t create the value proposition; you first discover, starting with customers and prospects.
+You don’t create the value proposition; you first discover it, starting with customers and prospects.
 With some luck, you will already have some customers, even if you haven’t yet identified the value proposition, so you can ask them.
 
 ## Learn from customers
 
 Existing customers may articulate your product’s value to them.
+In _The Product Manager’s Survival Guide_, Stephen Haines describes using customer visits for this _discovery_:
 
 > Use customer visits to learn ‘how your product is valued by different customer types’, and for ‘the discovery of possible problems where posed value propositions don’t align with customer expectations’.
-> - _The Product Manager’s Survival Guide_, Stephen Haines
+
+It takes a lot of skill to make best use of customer visits, but you can do worse than start with the following questions.
+
+1. What business problem do you intend to solve?
+2. What did you use before using our product? Why did you decide to switch?
+3. Why did you select our product?
+4. Does our product satisfy your expectations?
+5. What would make solving your problem with our product more successful?
+
+It probably won’t take many of these discussions for patterns to emerge.
+You will therefore need to take good notes that you can refer to later.
 
 ## Iterate with prospects
 

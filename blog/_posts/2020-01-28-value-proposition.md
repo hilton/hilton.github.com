@@ -50,16 +50,8 @@ In _The Product Manager’s Survival Guide_, Stephen Haines describes using cust
 
 > Use customer visits to learn ‘how your product is valued by different customer types’, and for ‘the discovery of possible problems where posed value propositions don’t align with customer expectations’.
 
-It takes a lot of skill to make best use of customer visits, but you can do worse than start with the following questions.
-
-1. What business problem do you intend to solve?
-2. What did you use before using our product? Why did you decide to switch?
-3. Why did you select our product?
-4. Does our product satisfy your expectations?
-5. What would make solving your problem with our product more successful?
-
+It takes a lot of skill to make best use of customer visits, but the main thing is to get the customer talking, and to listen and make good notes that you can refer to later.
 It probably won’t take many of these discussions for patterns to emerge.
-You will therefore need to take good notes that you can refer to later.
 
 ## Iterate with prospects
 
@@ -68,7 +60,7 @@ Write a single sentence that identifies a customer segment and the value they wi
 Don’t expect to find this easy or to get it right the first time.
 Instead, plan to iterate.
 
-To iterate your value proposition, or a selection of candidates, try it out with prospects.
+To iterate a value proposition, try it out with prospects.
 You will recognise a strong and unique value proposition when prospects recognise the value, and insist that you sell your product to them.
 In practice, you will get mixed feedback that encourages you to explore alternative wording, consider other customer segments, and look for unique value that competing products don’t already offer.
 These are your next steps.

@@ -2,7 +2,7 @@
 title: "Book review: Project Myopia"
 description: What’s wrong with software development projects, by @allankellynet
 layout: hh
-tags: startups
+tags: book
 image: https://hilton.org.uk/blog/project-myopia.jpg
 ---
 

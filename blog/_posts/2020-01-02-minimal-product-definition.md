@@ -90,4 +90,4 @@ If you get this right, you can introduce your product consistently in every stor
 Otherwise, correcting the resulting misunderstandings will cost more effort.
 
 The first sentence merely starts the story.
-Next, continue your product definition to say who you built the product for, and what they can do with it.
+Next, continue your [product definition](product-definition) to say who you built the product for, and what they can do with it.

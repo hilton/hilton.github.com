@@ -9,6 +9,7 @@ image: https://hilton.org.uk/blog/continuous-digital.jpg
 <a href="https://www.allankellyassociates.co.uk/books/"><img src="continuous-digital.jpg" alt="Continuous Digital" style="width:320px;float:right;margin-left:1em"></a>
 
 [Continuous Digital](https://www.allankellyassociates.co.uk/books/)
+([Amazon](https://amzn.to/2CUbMbW))
 is what everyone in the software business needs to read, to understand how ‘IT’ and ‘the business’ are not separate. 
 Even in small companies, you find a separate Engineering department, a separation that leads to all kinds of disfunction, which other books don’t address.
 

@@ -16,8 +16,6 @@ layout: main
 
 ![LinkedIn](picture/social/minimal/linkedin.png) [LinkedIn](http://www.linkedin.com/in/peterhilton)
 
-![Google+](picture/social/minimal/googleplus.png) [Google+](https://plus.google.com/107170847819841716154)
-
 ![Skype](picture/social/minimal/skype.png) Skype - peter.hilton
 
 ![Stack Overflow](picture/social/minimal/stackoverflow.png) [Stack Overflow](http://stackoverflow.com/users/2670/peter-hilton)

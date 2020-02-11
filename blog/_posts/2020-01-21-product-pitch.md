@@ -72,4 +72,4 @@ Delivering the product pitch, in all its ultimate forms, will help you iterate a
 Don’t forget to revisit your product pitch, and adjust it as you better understand customer needs over time.
 
 Meanwhile, writing the product pitch will create input for your next challenge: 
-identifying the product’s _value proposition_.
+[identifying the product’s value proposition](value-proposition).

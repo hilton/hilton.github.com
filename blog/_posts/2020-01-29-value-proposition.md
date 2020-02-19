@@ -64,7 +64,7 @@ Write a single sentence that identifies a customer segment and the value they wi
 Don’t expect to find this easy or to get it right the first time.
 Instead, plan to iterate.
 
-To iterate a value proposition, try it out with prospects.
+To iterate a value proposition, [try it out with prospects](customer-visit-questions).
 You will recognise a strong and unique value proposition when prospects recognise the value, and insist that you sell your product to them.
 In practice, you will get mixed feedback that encourages you to explore alternative wording, consider other customer segments, and look for unique value that competing products don’t already offer.
 These are your next steps.

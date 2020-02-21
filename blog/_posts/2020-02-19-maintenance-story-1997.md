@@ -53,7 +53,7 @@ After all, as newest member of the team, I didn’t want to ask my colleagues va
 
 I found and fixed the bug in the end.
 I eventually discovered an off-by-one error in the code that calculated whether the list of assets printed next to the map required a second page.
-In practice, this meant that you couldn’t print the map of a 500 × 1000 metre rectangular area of the East of England if it contained exactly 49 manholes (photo).
+In practice, this meant that you couldn’t print the map of a 500 × 1000 metre rectangular area of the East of England if it contained exactly 49 manholes.
 
 ## The catch
 

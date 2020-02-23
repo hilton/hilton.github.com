@@ -6,6 +6,17 @@ tags: maintenance
 image: https://hilton.org.uk/blog/shipping-containers.jpg
 ---
 
+<!-- 
+1. In 2006, at a small consultancy in Rotterdam, who acquired supply chain software.
+2. Supply chain visibility is interesting; not big data, but bad data.
+3. Complex domain, bad legacy code (i.e. someone else's).
+4. No documentation, so reverse-engineered understanding from the code.
+5. Started a six-month development project.
+6. Decided not to document.
+7. High-level technical documentation for the customer, and installation instructions.
+8. Don’t know if the system even went into production.
+-->
+
 [![Shipping containers](shipping-containers.jpg)](https://unsplash.com/photos/CtI_zen2NSk)
 
 <a style="background-color:#ccc;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/photos/CtI_zen2NSk" rel="noopener noreferrer" title="Photo by Sergio Souza"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Sergio Souza</span></a>

@@ -1,6 +1,6 @@
 ---
 title: The worst kind of legacy code
-description: A software maintenance project story from 2006
+description: A supply chain software maintenance project story from 2006
 layout: hh
 tags: maintenance
 image: https://hilton.org.uk/blog/shipping-containers.jpg
@@ -24,6 +24,8 @@ image: https://hilton.org.uk/blog/shipping-containers.jpg
 I used to work for a small software consultancy in Rotterdam, where we built custom systems for a variety of industries.
 Some of us had supply chain management domain expertise, built up over the course of a decade maintaining a warehouse management system.
 
+## Getting into a complex domain
+
 In 2006, my employer acquired a company for its IP and customers, to subsequently sell a development project to a government customer.
 The acquisition included shipment management software, which dealt with things like international shipments with shipping manifest data.
 I would call supply chain visibility an _interesting_ domain to work in, because it involves highly optimised business processes, run by lots of companies who don’t trust each other.
@@ -34,6 +36,8 @@ Supply chain visibility addresses problems like not knowing what each shipping c
 In theory, each container’s shipping manifest lists its contents.
 In practice, supply chain participants struggle to get access to accurate aggregated shipping manifest data.
 This system did not manage _big data_; it managed _bad data_.
+
+## The wrong kind of legacy
 
 Given the complex domain, we expected complex code.
 We got more than merely complex code: we got complex _legacy code_, which in this case meant code written by someone else.
@@ -46,6 +50,8 @@ We had no choice but to read the code, which didn’t even have comments.
 We reverse-engineered our understanding of the system by following the code from its entry points, via the user interface to the back-end.
 At this point, any documentation at all would have helped.
 On this project I learned the hard way that relying on the code stops seeming like such a good idea when you come across large sections of apparently unused code, and sections of code that clearly don’t work.
+
+## Writing off maintainability
 
 After achieving minimum viable understanding of the code, we committed to making modifications and delivering a production release to our customer six months later.
 By this point, we’d decided that we would only deliver this system once, and that it would cost so much to make the code maintainable that we shouldn’t attempt to start documenting it.

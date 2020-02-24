@@ -31,14 +31,20 @@ We even knew the first rule of big rewrites: _don’t_.
 ## The good kind of legacy code
 
 This time we had the good kind of legacy code: well-written code that incorporates a decade’s business rules and bug fixes, partly built using an in-house rules engine.
-Unfortunately, we had reached the limiting factor of sustainable software development: a bus number of two.
-Although several of us had Perl experience, our transition from Java to Scala was gaining momentum, and none of us wanted to code in Perl.
+You only have to think about the work that went into this kind of code, and the unavoidable misunderstandings and bugs that it no longer contains, to understand the risk involved in rewriting it.
+Even if we could have accurately estimated the development effort to rewrite this code, we couldn’t anticipate what we would get wrong the first time.
+
+We had reached the limiting factor of sustainable software development: 
+a [bus factor](https://en.wikipedia.org/wiki/Bus_factor) of two.
+Although we had Perl experience, we had largely switched from Java to Scala, and none of us wanted to code in Perl.
 
 ## New competition for the existing system
 
 We judged that the commercial opportunity to maintain the system for a further five years justified a major investment, and chose to start a rewrite project.
-We started a partial rewrite in Scala, initially focusing on the system’s EDIFACT message processing, to literally codify the remaining maintainers’ system knowledge.
-We were developing for maintainability, replacing one EDIFACT message type at a time, with a team of 3-5 developers.
+We started a partial rewrite in Scala, initially focusing on the system’s 
+[EDIFACT](https://en.wikipedia.org/wiki/EDIFACT) 
+message processing, to literally codify the remaining maintainers’ system knowledge.
+We developed for maintainability, replacing one EDIFACT message type at a time, with a team of 3-5 developers.
 
 As part of the project, we wrote new separate identity management and system configuration services.
 We also later replaced the main user interface, by offering both and ‘competing’ with the existing user interface by offering a user experience, and improving its capabilities until the users chose to switch.

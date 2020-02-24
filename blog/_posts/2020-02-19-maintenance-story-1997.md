@@ -42,7 +42,7 @@ The code included two product-specific programming languages that no-one has hea
 
 The system documentation impressed me the most.
 Bound A4 volumes of functional and technical specifications occupied about half a metre of the shelf above my desk.
-This documentation looked so perfect that no-one had updated it in the two years since initial delivery.
+This documentation looked so perfect that no-one updated it in the two years since initial delivery.
 As a result, we didn’t use the documentation much.
 We didn’t need to either, because careful project management preserved system knowledge within the team.
 
@@ -60,7 +60,7 @@ The system could print detailed large scale asset location maps, on a big plotte
 
 I hadn’t worked on the printing code before.
 Now that I think about it, I would have read the module specification, from the appropriate technical specification volume on the shelf above my desk.
-After all, as newest member of the team, I didn’t want to ask my colleagues vague question like _how does printing work?_
+After all, as newest member of the team, I didn’t want to ask my colleagues vague questions like _how does printing work?_
 
 I found and fixed the bug in the end.
 I eventually discovered an off-by-one error in the code that calculated whether the list of assets printed next to the map required a second page.
@@ -69,6 +69,6 @@ In practice, this meant that you couldn’t print the map of a 500 × 1000 metre
 ## The catch
 
 This project development and software maintenance success cost a spectacular amount of money, by today’s standards.
-I estimate that the original development cost around €20 million, and that the development team cost about €1.5 million per year (both adjusted for inflation).
+Adjusted for inflation, I estimate that the original development cost around €20 million, and that the development team cost about €1.5 million per year.
 
 That mades this the best case scenario for, and the last time I actually saw, ‘extensive technical documentation’ and a generous software maintenance budget.

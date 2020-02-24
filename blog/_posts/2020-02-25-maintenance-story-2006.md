@@ -26,8 +26,8 @@ Some of us had supply chain management domain expertise, built up over the cours
 
 ## Getting into a complex domain
 
-In 2006, my employer acquired a company for its IP and customers, to subsequently sell a development project to a government customer.
-The acquisition included shipment management software, which dealt with things like international shipments with shipping manifest data.
+In 2006, my employer acquired a company for its IP and contacts, to subsequently sell a development project to a government customer.
+The acquisition included shipment management software, which dealt with things like international shipments and shipping manifest data.
 I would call supply chain visibility an _interesting_ domain to work in, because it involves highly optimised business processes, run by lots of companies who don’t trust each other.
 
 The challenge that the photo (above) shows does not lie in the number of shipping containers: 
@@ -40,7 +40,7 @@ This system did not manage _big data_; it managed _bad data_.
 ## The wrong kind of legacy
 
 Given the complex domain, we expected complex code.
-We got more than merely complex code: we got complex _legacy code_, which in this case meant code written by someone else.
+We got more than merely complex code: we got complex _legacy code_, which in this case meant _code written by someone else_.
 While I had experience with the varying quality of other people’s code, this codebase consisted of the worst 100,000 lines of code I had ever seen.
 
 The system documentation posed a more serious issue: we didn’t get any.
@@ -56,6 +56,8 @@ On this project I learned the hard way that relying on the code stops seeming li
 After achieving minimum viable understanding of the code, we committed to making modifications and delivering a production release to our customer six months later.
 By this point, we’d decided that we would only deliver this system once, and that it would cost so much to make the code maintainable that we shouldn’t attempt to start documenting it.
 During the project, we only wrote some brief high-level technical architecture documentation to give to the customer, along with detailed installation instructions.
+
+![Your legacy system is undocumentable](undocumentable.jpg)
 
 As it happens, I don’t know what happened next.
 The customer planned to install the software on a secure government network that we shouldn’t have heard of - not the public Internet - and we would have needed a proper security clearance to find out whether our customer ever actually deployed to a production environment.

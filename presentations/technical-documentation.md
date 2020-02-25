@@ -14,6 +14,10 @@ Unfortunately, these backups probably haven’t been tested recently and don’t
 The solution is to write less documentation, not more, but also not none.
 By writing less documentation, you can focus on writing documentation that counts, actually maintaining what you write, and have more time left over for writing code.
 
+## Slides
+
+<script async class="speakerdeck-embed" data-id="86201c82bc6346e38a8109e817b63711" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Conference presentations
 
 * [C++ Europe Conference](https://cppeurope.com/sessions/technical-documentation-is-a-backup-so-make-sure-it-works/) - 25 February 2020

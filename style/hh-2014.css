@@ -166,6 +166,7 @@ section.music h2 a, section.music nav a {
 /* Page footer */
 
 footer {
+  clear: both;
 	margin-top: 4em;
 	padding: 2em 0;
 	border-top: 1px solid #ccc;

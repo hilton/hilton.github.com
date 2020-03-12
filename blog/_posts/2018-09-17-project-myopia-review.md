@@ -17,4 +17,5 @@ In particular, this book helped me understand how project-thinking hinders the u
 I liked its well-defined topics, the clarity of the writing, and its careful responses to common criticisms of the [#NoProjects](https://twitter.com/hashtag/noprojects) ideas that takes the explanation further than the initial idea.
 
 Most of the failed software projects I’ve worked on over the years would have turned out better if the managers involved had read this.
-**Recommended.**
+
+⭐️⭐️⭐️⭐️⭐️ **Recommended.**

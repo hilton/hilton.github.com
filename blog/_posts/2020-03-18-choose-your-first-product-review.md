@@ -2,7 +2,7 @@
 title: "Book review: Choose Your First Product"
 description: How to find and validate a product idea, by Leon Bambrick (@secretGeek)
 layout: hh
-tags: book
+tags: product book
 image: https://hilton.org.uk/blog/choose-your-first-product.jpg
 ---
 

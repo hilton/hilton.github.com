@@ -2,7 +2,7 @@
 title: "Book review: The Art of Agile Product Ownership"
 description: How to understand the best way to fulfil the PO role, by @allankellynet
 layout: hh
-tags: book
+tags: product book
 image: https://hilton.org.uk/blog/art-agile-product-ownership.png
 ---
 

@@ -17,7 +17,7 @@ On the [features board](https://help.productboard.com/en/articles/1543140-3-feat
 you create multiple filtered feature views, displayed as a _hierarchy_, _sorted list_, grouped by _release_ or _status_, or as a _matrix_.
 
 
-## What I like about productboard
+## What I like about product backlogs in productboard
 
 After using productboard daily for more than six months, I still find a lot to like about productboard.
 

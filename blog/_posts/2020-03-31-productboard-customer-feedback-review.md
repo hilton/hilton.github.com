@@ -3,7 +3,7 @@ title: "Software review: productboard (insights board)"
 description: Capturing customer feedback in @productboard
 layout: hh
 tags: product software
-image: productboard-features.jpg
+image: productboard-insights.png
 ---
 
 <img src="productboard-insights.png" alt="Insights board - productboard" style="width:320px;float:right;margin:0 0 1em 1em">

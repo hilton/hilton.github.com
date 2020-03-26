@@ -14,6 +14,10 @@ Unfortunately, these backups probably haven’t been tested recently and don’t
 The solution is to write less documentation, not more, but also not none.
 By writing less documentation, you can focus on writing documentation that counts, actually maintaining what you write, and have more time left over for writing code.
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1UKW34P9bo" frameborder="0" allowfullscreen></iframe>
+
 ## Slides
 
 <script async class="speakerdeck-embed" data-id="86201c82bc6346e38a8109e817b63711" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

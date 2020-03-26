@@ -6,11 +6,11 @@ tags: product software
 image: productboard-insights.png
 ---
 
-<img src="productboard-insights.png" alt="Insights board - productboard" style="width:320px;float:right;margin:0 0 1em 1em">
+<img src="productboard-insights.png" alt="Roadmaps - productboard" style="width:320px;float:right;margin:0 0 1em 1em">
 
 [productboard](https://www.productboard.com/) - product management SaaS - lets you manage:
 
-* [product backlogs](productboard-customer-feedback-review)
+* [product backlogs](productboard-product-backlog-review)
 * customer feedback _(this review)_
 * roadmaps
 * customer portals.

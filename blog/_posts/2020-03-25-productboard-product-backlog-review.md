@@ -19,7 +19,7 @@ you create multiple filtered feature views, displayed as a _hierarchy_, _sorted 
 
 ## What I like about product backlogs in productboard
 
-After using productboard daily for more than six months, I still find a lot to like about productboard.
+After using productboard daily for over six months, I still find a lot to like.
 
 **Onboarding people** went smoothly, thanks to Google GSuite single sign-on.
 Within the application settings, I find it easy enough to modify user roles and deactivate users.

@@ -8,7 +8,13 @@ image: productboard-features.jpg
 
 <img src="productboard-features.jpg" alt="Features board - productboard" style="width:320px;float:right;margin:0 0 1em 1em">
 
-[productboard](https://www.productboard.com/) - product management SaaS - lets you manage product backlogs, customer feedback, roadmaps and customer portals.
+[productboard](https://www.productboard.com/) - product management SaaS - lets you manage:
+
+* product backlogs _(this review)_
+* [customer feedback](productboard-customer-feedback-review)
+* roadmaps
+* customer portals.
+
 This review focuses on its product backlog functionality;
 the other parts of productboard (not covered in this review) use the same data.
 

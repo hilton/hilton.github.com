@@ -266,3 +266,36 @@ blockquote.big.solid-three a {
 .ro {	background-image: url(../picture/icon/ro.png) }
 .se {	background-image: url(../picture/icon/se.png) }
 .uk {	background-image: url(../picture/icon/uk.png) }
+
+/* Unsplash photo icon link */
+a.unsplash {
+  background-color:#ccc;
+  color:white;
+  text-decoration:none;
+  padding:4px 6px;
+  font-family:-apple-system, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px;
+}
+a.unsplash:hover {
+	background-color: #7FC4FF; }
+}
+a.unsplash span:first-child {
+  display: inherit;
+  padding: inherit;
+}
+a.unsplash span {
+  display:inline-block;
+  padding:2px 3px;
+}
+a.unsplash svg {
+  height:12px;
+  width:auto;
+  position:relative;
+  vertical-align:middle;
+  top:-1px;
+  fill:white;
+}

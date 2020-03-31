@@ -3,6 +3,7 @@ title: "Your product roadmap is a compromise"
 description: Finding a balance between flexibility and transparency
 layout: hh
 tags: product
+image: cuba-chart.jpg
 ---
 
 ![Cuba maritime chart](cuba-chart.jpg)]

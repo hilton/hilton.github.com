@@ -6,6 +6,17 @@ tags: product
 image: cuba-chart.jpg
 ---
 
+<!-- 
+1. I don’t draw on maps
+2. Maritime charts are an exception, where you plot a course in pencil
+3. Your product roadmap is a compromise between flexibility and transparency
+4. Enterprise sales plans ahead because large organisations decide slowly
+5. You can’t predict the future
+6. Marketing campaigns do big-bang launches
+7. There are other compromises
+-->
+
+
 ![Cuba maritime chart](cuba-chart.jpg)]
 
 I’ve always loved maps - real maps, maps on paper, in books, framed on the wall, mounted as a globe - all of them.

@@ -12,7 +12,7 @@ image: productboard-features.jpg
 
 * product backlogs _(this review)_
 * [customer feedback](productboard-customer-feedback-review)
-* roadmaps
+* [roadmaps](productboard-roadmaps-review)
 * customer portals.
 
 This review focuses on its product backlog functionality;

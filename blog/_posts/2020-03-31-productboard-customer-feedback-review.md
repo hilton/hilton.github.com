@@ -12,7 +12,7 @@ image: productboard-insights.png
 
 * [product backlogs](productboard-product-backlog-review)
 * customer feedback _(this review)_
-* roadmaps
+* [roadmaps](productboard-roadmaps-review)
 * customer portals.
 
 In productboard, the 
@@ -65,4 +65,4 @@ Multiple ways to add feedback help you get more feedback from more people, and t
 As hoped, productboard made it possible to _capture everything_, and using the product backlog to organise and count this feedback helped _create transparency within the organisation_.
 
 I’ve seen simpler and more usable product management tools, but in the future I will certainly compare their customer feedback capabilities to productboard’s.
-Meanwhile, you still need to consider how you want to manage and share roadmaps.
+Meanwhile, you still need to consider how you want to [manage and share roadmaps](productboard-roadmaps-review).

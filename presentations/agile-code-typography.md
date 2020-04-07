@@ -2,6 +2,7 @@
 title: "Better source code through typography"
 description: A retrospective on the one aspect of coding that we don’t change
 layout: speaking
+image: agile-code-typography.png
 ---
 
 Agile methods taught us to embrace change in nearly all aspects of software development, but one remains unchanged. The way we visually present code today would do little to surprise the first owner of the 1955 IBM typewriter that introduced the Courier typeface. The last sixty years brought little more than new fonts and syntax highlighting, while the desktop publishing revolution thirty years ago brought the classical disciplines of layout and typography to every other kind of text we read.

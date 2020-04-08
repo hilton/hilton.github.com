@@ -5,7 +5,8 @@ layout: hh
 tags: product
 image: kittens.jpg
 css: |
-  .content .roadmap { width:42em;border-spacing:1em; margin:2em;border-bottom:1px solid #DF5A49; }
+  .content .roadmap { width:38em;border-spacing:1em; margin:2em;border-bottom:1px solid #DF5A49; font-size:110%; }
+  .roadmap caption { caption-side:bottom; font-style:italic; padding:0.5em; }
   .roadmap th, .roadmap td { border:none; }
   .roadmap th { padding-bottom:0.5em; width:33%;text-align:left;}
   .roadmap td { padding:0.5em 0.5em 0 0.5em; }
@@ -20,24 +21,25 @@ css: |
 <a class="unsplash" href="https://unsplash.com/photos/YCPkW_r_6uA" rel="noopener noreferrer" title="Photo by Jari Hytönen"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Jari Hytönen</span></a>
 
 After a recent meeting, someone commented that the product roadmap should show ‘how new roadmap items contribute to the overall progress of strategic initiatives’.
-They’d just seen slides describing individual upcoming roadmap items - 
-customer problems that that upcoming work would address - 
+They’d seen slides describing individual roadmap items - 
+customer problems that upcoming work would address - 
 but couldn’t relate them to long-term strategic initiatives.
-If you don’t link the work to higher-level initiatives, then your roadmap looks like a random collection of work.
+Indeed, if you don’t link the work to higher-level initiatives, then your roadmap looks like a random collection of work.
 
 You can’t solve roadmap chaos by showing larger problems 
 (assuming that you have a [problem-based roadmap](https://melissaperri.com/blog/2014/05/19/rethinking-the-product-roadmap), 
 rather than a feature backlog).
-That just makes the roadmap more abstract, and you lose the concreteness in the chaos of lots of smaller problems to solve.
-Instead, the higher level maps the objectives you’ll reach by solving those problems.
+That makes the roadmap more abstract, and you lose the concreteness in the chaos of lots of smaller problems to solve.
+Instead, you need to overlay a higher level that maps the objectives you’ll reach by solving those problems.
 
 ## Use swim lanes for objectives
 
 Adding swim lanes for objectives explains roadmap initiatives by grouping them,
 and answering the question of _why?_
-Swim lanes work because you can pursue more than one objective in parallel.
+Swim lanes work because you pursue more than one objective in parallel, in practice.
 
 <table class="roadmap">
+<caption>Example roadmap, with swim lanes for two objectives</caption>
 <thead>
 <tr><th>Now</th><th>Next</th><th>Later</th></tr>
 </thead>
@@ -53,19 +55,20 @@ Swim lanes work because you can pursue more than one objective in parallel.
 </tbody>
 </table>
 
-This hypothetical roadmap uses a familiar column-based relative time format (_now_, _next_, _later_),
+This hypothetical roadmap uses a familiar column-based relative time format (_now_, _next_, _later_ - see 
+[The Birth of the Modern Roadmap](https://www.prodpad.com/blog/the-birth-of-the-modern-roadmap/)),
 with two product objectives that provide context for the problems the roadmap addresses.
 Horizontal time horizons and vertical objectives make the roadmap two-dimensional, with three levels of detail.
 
 ## Three levels of detail
 
-At a high-level, product development pursues two objectives at a time, and four customer problems.
-Objectives sit at the ‘top’ - the most abstract - of several levels of detail.
-You can structure your roadmap’s detail levels however you like, and it might end up like this.
+At a high-level, the example roadmap (above) pursues two objectives at a time, and four customer problems.
+Objectives sit at the ‘top’ - the most abstract - of the levels of detail.
+You can structure your roadmap’s detail levels how ever you like, and it might end up like this.
 
-1. _Long-term objectives_ - stable over time horizons - guide work on those initiatives.
-2. _Medium-term initiatives_ - which may span more than one time horizon - address _related problems_.
-3. _Short-term work_ - in progress _now_ and complete before what comes _next_
+1. _Long-term objectives_, stable over time horizons, guide the work.
+2. _Medium-term initiatives_, spanning one or more time horizons, address _related problems_.
+3. _Short-term work_ - in progress _now_ and complete before what comes _next_.
 
 In the example above, _Show cat cuteness_ spans two time horizons, and could include _short-term work_ such as:
 
@@ -75,7 +78,7 @@ In the example above, _Show cat cuteness_ spans two time horizons, and could inc
 * Use AI to auto-generate ridiculously cute fake kittens
 
 These represent development work to build concrete product capabilities, 
-which agile software development teams sometimes call _epics_
+which agile software development teams sometimes call _epics_.
 (_Epic_ means _long story_, referring to the storytelling metaphor behind _user stories_.)
 
 ## A system for explaining _why_
@@ -85,4 +88,4 @@ This kind of roadmap creates a more important kind of transparency about the pur
 
 The levels create a system for answering questions about _why we should build this_.
 You build product capabilities, to solve customer problems, in pursuit of product objectives.
-With luck, your product objectives contribute to a clearly-articulated company strategy.
+And with luck, your product objectives contribute to a clearly-articulated company strategy.

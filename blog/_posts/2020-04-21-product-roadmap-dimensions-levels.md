@@ -16,6 +16,18 @@ css: |
   .roadmap tr:last-child td { padding-bottom:1em; }
 ---
 
+<!--
+1. Work not linked to strategic initiatives looks random.
+2. Abstraction just makes the roadmap meaningless.
+3. Use swim lanes for objectives.
+4. Time and objectives make a roadmap two-dimensional.
+5. Objectives are the top of three levels of detail.
+6. Product development tasks form the third level.
+7. Short-term work addresses one problem
+8. Medium-term initiatives address related problems
+9. Long-term objectives guide strategic initiatives
+-->
+
 [![Cute kittens](kittens.jpg)](https://unsplash.com/photos/YCPkW_r_6uA)
 
 <a class="unsplash" href="https://unsplash.com/photos/YCPkW_r_6uA" rel="noopener noreferrer" title="Photo by Jari Hytönen"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Jari Hytönen</span></a>

@@ -2,6 +2,7 @@
 title: How to write maintainable code
 description: A workshop on how to survive the long term
 layout: speaking
+image: maintainable-code.png
 ---
 
 Modern languages’ biggest problem isn’t having enough cool features, it’s unmaintainable code. 

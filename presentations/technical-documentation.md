@@ -2,6 +2,7 @@
 title: Technical documentation is a backup
 description: (so make sure it works)
 layout: speaking
+image: technical-documentation.png
 ---
 
 Imagine working on a team of programmers who write perfect code, never forget anything, never leave the team, have perfect verbal communication skills, and love meetings.

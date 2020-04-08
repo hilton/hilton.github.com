@@ -2,6 +2,7 @@
 title: Meeting-avoidance for self-managing developers
 description: How and when to avoid meetings and have more time to write code
 layout: speaking
+image: meeting-avoidance.png
 ---
 
 Meetings are a problem for any organisations, because they dull the attention-span of otherwise intelligent people, and prevent otherwise productive people from getting any work done. Software developers suffer more than most, because they can’t even _pretend_ that they’re getting any work done when they’re sitting in meetings. After all, getting your laptop out and writing code during a meeting is (rightly) considered rude.

@@ -2,6 +2,7 @@
 title: How to write good comments
 description: Why ‘no comments’ is admitting defeat
 layout: speaking
+image: comments.png
 ---
 
 Bad comments are such a big problem, that most discussion on the subject never gets past how not to write bad comments. No wonder so many programmers admit defeat and adopt a policy of writing no comments at all.

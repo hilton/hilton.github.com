@@ -2,6 +2,7 @@
 title: "Generating sheet music: from one DSL to another"
 description: A workshop on how to typeset scores with Lilypond
 layout: speaking
+image: lilypond-workshop.png
 ---
 
 Sheet music is perhaps the ultimate domain-specific language, but isn’t really accessible to programmers. It hardly has any curly brackets, and they don't even match! This workshop for non-musicians demystifies musical notation by showing you how to generate it from a 	Scheme-based DSL, called Lilypond, which looks much more like a 'normal' programming language.

@@ -2,6 +2,7 @@
 title: E-Prime for technical writing
 description: Improving clarity through constrained writing
 layout: speaking
+image: e-prime.png
 ---
 
 Descriptions of good technical writing often mention the virtue of ‘clarity’ while, ironically, themselves lacking clarity about what it means or where you get it. This talk introduces E-Prime as a simple constraint that results in clearer, more direct writing.

@@ -2,6 +2,7 @@
 title: Coding style matters
 description: Why you should care about code style and what you should care about
 layout: speaking
+image: code-style.png
 ---
 
 Coding style matters, but not only in the way you think. Programmers famously waste time arguing indentation styles, while whole teams lack a consistent vision for their code style, and consistent code. This talk highlights what really matters, and what you need to learn to write code with vision and style.

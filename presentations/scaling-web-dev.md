@@ -2,6 +2,7 @@
 title: Scaling business application development
 description: Faster web development with Play and Scala
 layout: speaking
+image: scaling-web-dev.png
 ---
 
 Scaling web applications is usually about runtime performance for high-traffic consumer applications. This talk is about a different kind of scaling: architectures that increase development speed for business applications. Using Play and Scala for something that would be easy to build with PHP is like going for a drive in a Rolls Royce: it’s so smooth that you don’t realise how fast you’re going.

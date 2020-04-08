@@ -2,6 +2,7 @@
 title: Modern IT nomad
 description: How I claimed expenses and personal freedoms
 layout: speaking
+image: nomad.png
 ---
 
 This is the story of how I chose a job and work assignments that got me all sorts of things for free. My first business trips introduced me to eating out every day, living in a hotel, moving countries and exploring new cities.

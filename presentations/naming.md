@@ -2,6 +2,7 @@
 title: How to name things
 description: The hardest problem in programming
 layout: speaking
+image: naming.png
 ---
 
 Developers can get better at their craft by learning from the great writers who mastered theirs. Writing software isn’t the same as writing a novel, but there are parallels. Besides, advice from writers is better because writers have been struggling with their craft for many centuries, not just a few decades. It’s better-written as well. This talk shares great writers’ best advice for coders: Stephen King on refactoring, Anne Rice on development hardware, Hemingway on modelling with personas, and Neil Gaiman on everything.

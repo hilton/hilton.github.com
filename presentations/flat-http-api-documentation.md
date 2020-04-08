@@ -2,6 +2,7 @@
 title: Flat HTTP API Design
 description: Because flat design isn’t only for the user interface
 layout: speaking
+image: flat-http-api-documentation.png
 ---
 
 The way we design web APIs and write API docs is highly structured, natural to programmers, and wrong. HTTP API descriptions typically look nothing like the requests and responses they describe, and the underlying design often hides much ugliness. This creates extra work for the developer to understand the API, and figure out how to translate that to code. It also makes it harder to spot bad API design. Instead, you need more readable API documentation that doesn’t waste your time, and APIs that don’t get to hide their design flaws.

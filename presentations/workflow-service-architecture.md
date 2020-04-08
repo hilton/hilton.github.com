@@ -2,6 +2,7 @@
 title: Process-oriented reactive service architecture
 description: Using workflow tools to orchestrate microservices
 layout: speaking
+image: workflow-service-architecture.png
 ---
 
 Reactive application development gives us better ways to build scalable applications, but often together with a micro-services jigsaw puzzle.

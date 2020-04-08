@@ -2,6 +2,7 @@
 title: Documentation for software developers
 description: A workshop on better ways to document software
 layout: speaking
+image: documentation-workshop.png
 ---
 
 Documentation’s lack of popularity among programmers is at least partly due to time wasted on too much documentation, and producing docs the hard way.

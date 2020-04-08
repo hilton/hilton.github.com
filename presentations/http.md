@@ -2,6 +2,7 @@
 title: HTTP demystified for web developers
 description: Peeling back the top layer of the web application stack
 layout: speaking
+image: http.png
 ---
 
 HTTP is the distributed computing API that makes all of the others look bad.

@@ -2,6 +2,7 @@
 title: Documentation avoidance for developers
 description: How to get away with less documentation and spend more time writing code
 layout: speaking
+image: documentation.png
 ---
 
 However good your code, other people never seem to get it. Instead they ruin your day (and your productivity) by asking questions and expecting documentation. You need to know how to explain code without getting stuck in meetings or spending half your time on the only thing you hate more than meetings: writing documentation. Instead, you aim for constructive laziness: tactics that give you more time to write code.

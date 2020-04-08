@@ -2,6 +2,7 @@
 title: How to challenge your product owner
 description: 10 things your PO should know that you don’t
 layout: speaking
+image: challenge-your-po.png
 ---
 
 As an agile software developer, you want to understand your product owner’s expertise, so you can work well together with mutual respect. This is harder than it should be, because everyone tends to assume that they know everything (that’s worth knowing), and that everyone else’s job is just some typing and a few meetings.

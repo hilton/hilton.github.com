@@ -7,6 +7,12 @@ image: product-roadmap-triangle.png
 ---
 
 <!--
+1. When you produce a product roadmap, you make trade-offs.
+2. Detail, accuracy, stability: pick two.
+3. The product roadmap trilemma
+4. Detailed and accurate
+5. Accurate and stable
+6. Stable and detailed
 -->
 
 When you produce a product roadmap, you make trade-offs between quality goals.

@@ -59,7 +59,7 @@ Marketing campaigns work the way commercial software development used to:
 fixed dates and big-bang launches.
 They require a limited compromise:
 reduce roadmap flexibility in the short-term, for as long as it takes to prepare the campaign.
-Several things limit the compromise.
+Three things limit the compromise.
 
 1. You only need to fix the start of the roadmap - long enough to prepare the campaign.
 2. You don’t have to include everything on the roadmap in your campaign.

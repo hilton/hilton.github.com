@@ -3,11 +3,20 @@ title: "Naming products isn’t the problem"
 description: Why product backlog item naming matters
 layout: hh
 tags: product
+image: https://hilton.org.uk/blog/grey-cubes.jpg
 ---
+
+[![Grey concrete cubes](grey-cubes.jpg)](https://unsplash.com/photos/TAVKURx-xLw)
+
+<a class="unsplash" href="https://unsplash.com/photos/TAVKURx-xLw" rel="noopener noreferrer" title="Photo by Christian Fregnan"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Christian Fregnan</span></a>
 
 <!--
 1. Naming products is famously hard, but not a product person’s biggest naming problem.
-2. Marketing and UX content writers might name things customers see, but there’s a lot in between.
+2. Marketing and UX content writers might name things customers see, but product people choose first.
+3. Naming everything in between matters.
+4. Use the product backlog and roadmap to establish naming.
+5. Name either capabilities _or_ features
+6. Good naming needs to be descriptive, consistent, right-level, domain language.
 -->
 
 Companies find it famously hard to name their products.

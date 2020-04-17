@@ -3,7 +3,7 @@ title: Software maintenance’s terrible question
 description: The big question that teams don’t ask about software products
 layout: hh
 tags: code maintenance
-image: https://hilton.org.uk/blog/factory2.jpg
+image: factory2.jpg
 ---
 
 [![A factory - where real maintenance happens](factory2.jpg)](https://unsplash.com/photos/NGsBU5d-qxQ)

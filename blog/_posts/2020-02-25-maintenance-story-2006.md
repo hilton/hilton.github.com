@@ -3,7 +3,7 @@ title: The worst kind of legacy code
 description: A supply chain software maintenance project story from 2006
 layout: hh
 tags: maintenance
-image: https://hilton.org.uk/blog/shipping-containers.jpg
+image: shipping-containers.jpg
 ---
 
 <!-- 

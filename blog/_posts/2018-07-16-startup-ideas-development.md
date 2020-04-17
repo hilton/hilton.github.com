@@ -3,7 +3,7 @@ title: Start-up ideas for software development
 description: Things you wish your favourite IDE vendor would invent
 layout: hh
 tags: startups
-image: https://hilton.org.uk/blog/programmer.jpg
+image: programmer.jpg
 ---
 
 ![A software developer - a woman, because we need to see more of them](programmer.jpg)

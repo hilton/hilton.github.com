@@ -3,7 +3,7 @@ title: Deliver a 3-5 point product-pitch
 description: How to build initial product marketing from a product definition
 layout: hh
 tags: product
-image: https://hilton.org.uk/blog/two-people-meeting.jpg
+image: two-people-meeting.jpg
 ---
 
 <!-- 

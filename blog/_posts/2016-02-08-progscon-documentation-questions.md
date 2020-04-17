@@ -3,7 +3,7 @@ title: Questions about documentation and avoiding writing it
 description: Q&A for my forthcoming keynote at ProgSCon London 2016
 tags: documentation
 layout: hh
-image: https://hilton.org.uk/blog/progscon-london.png
+image: progscon-london.png
 ---
 
 [ ![ProgSCon London](progscon-london.png) ](http://progscon.co.uk)

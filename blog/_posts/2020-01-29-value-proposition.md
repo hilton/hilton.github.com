@@ -3,7 +3,7 @@ title: Identify your product value proposition
 description: Why people will buy your product
 layout: hh
 tags: product
-image: https://hilton.org.uk/blog/three-nesting-dolls.jpg
+image: three-nesting-dolls.jpg
 ---
 
 <!-- 

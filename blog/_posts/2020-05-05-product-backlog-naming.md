@@ -3,7 +3,7 @@ title: "Naming products isn’t the problem"
 description: Why product backlog item naming matters
 layout: hh
 tags: product
-image: https://hilton.org.uk/blog/grey-cubes.jpg
+image: grey-cubes.jpg
 ---
 
 [![Grey concrete cubes](grey-cubes.jpg)](https://unsplash.com/photos/TAVKURx-xLw)

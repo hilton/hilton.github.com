@@ -3,7 +3,7 @@ title: How to write unmaintainable code
 description: Tribute to the classic thesis by Roedy Green
 layout: hh
 tags: code maintenance
-image: https://hilton.org.uk/blog/factory5.jpg
+image: factory5.jpg
 ---
 
 [![A factory - where real maintenance happens](factory5.jpg)](https://unsplash.com/photos/zXPiqavR2FU)

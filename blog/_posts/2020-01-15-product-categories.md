@@ -3,7 +3,7 @@ title: Define your product using existing product categories
 description: How categories clarify your product definition
 layout: hh
 tags: product
-image: https://hilton.org.uk/blog/drawers.jpg
+image: drawers.jpg
 ---
 
 <!-- 

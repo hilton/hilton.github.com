@@ -3,7 +3,7 @@ title: Language expressiveness versus code maintainability
 description: How different programming languages lead to different software maintenance challenges
 layout: hh
 tags: code maintenance
-image: https://hilton.org.uk/blog/factory3.jpg
+image: factory3.jpg
 ---
 
 [![A factory - where real maintenance happens](factory3.jpg)](https://unsplash.com/photos/XUEdfpPIhXg)

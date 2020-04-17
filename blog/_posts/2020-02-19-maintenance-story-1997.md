@@ -3,7 +3,7 @@ title: Extensive technical documentation
 description: An asset management software maintenance project story from 1997
 layout: hh
 tags: maintenance documentation
-image: https://hilton.org.uk/blog/manhole.jpg
+image: manhole.jpg
 ---
 
 <!--

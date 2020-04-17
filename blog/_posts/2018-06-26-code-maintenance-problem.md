@@ -3,7 +3,7 @@ title: The code maintenance problem
 description: Why software maintenance is worth talking about
 layout: hh
 tags: code maintenance
-image: https://hilton.org.uk/blog/factory.jpg
+image: factory.jpg
 ---
 
 [![A factory - where real maintenance happens](factory.jpg)](https://unsplash.com/photos/mhUsz2ezlXQ)

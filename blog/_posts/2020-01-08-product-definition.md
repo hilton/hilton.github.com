@@ -3,7 +3,7 @@ title: Write a three-part product definition
 description: How to set the context for your product story
 layout: hh
 tags: product
-image: https://hilton.org.uk/blog/three-nesting-dolls.jpg
+image: three-nesting-dolls.jpg
 ---
 
 <!-- 

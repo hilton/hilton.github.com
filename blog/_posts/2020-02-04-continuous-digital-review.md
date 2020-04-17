@@ -3,7 +3,7 @@ title: "Book review: Continuous Digital"
 description: How to merge software business with software development, by @allankellynet
 layout: hh
 tags: book
-image: https://hilton.org.uk/blog/continuous-digital.jpg
+image: continuous-digital.jpg
 ---
 
 <a href="https://www.allankellyassociates.co.uk/books/"><img src="continuous-digital.jpg" alt="Continuous Digital" style="width:320px;float:right;margin-left:1em"></a>

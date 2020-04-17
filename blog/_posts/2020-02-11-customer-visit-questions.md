@@ -3,7 +3,7 @@ title: Visit your customers and ask them questions
 description: How to get them talking about your product’s value proposition
 layout: hh
 tags: product
-image: https://hilton.org.uk/blog/meeting-with-notes.jpg
+image: meeting-with-notes.jpg
 ---
 
 <!-- 

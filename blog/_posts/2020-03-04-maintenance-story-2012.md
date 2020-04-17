@@ -3,7 +3,7 @@ title: The good kind of legacy code
 description: A supply chain software maintenance project story from 2012
 layout: hh
 tags: maintenance
-image: https://hilton.org.uk/blog/shipping-containers.jpg
+image: shipping-containers.jpg
 ---
 
 <!-- 

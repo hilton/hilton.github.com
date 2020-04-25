@@ -2,7 +2,7 @@
 title: "Learning to ski - starting agility with Scrum"
 description: Why basic techniques have their place
 layout: hh
-tags: product
+tags: agile
 image: skiing-walking-uphill.jpg
 ---
 

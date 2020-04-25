@@ -33,3 +33,7 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 * [GeeCON](https://2018.geecon.org/speakers/info.html?id=333) - 9 May 2018 (average rating 4.63/5 from 30 votes - conference third place)
 * [J-Spring](http://jspring.nl/speakers/peter-hilton/) - 31 May 2018 (average rating 4.73/5 from 76 votes - conference second place)
 * [NDC Oslo](https://ndcoslo.com/speaker/peter-hilton/) - 13 June 2018
+
+## Blog posts
+
+* [Ligatures with Fira Code](/blog/fira-code)

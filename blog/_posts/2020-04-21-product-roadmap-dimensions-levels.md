@@ -98,6 +98,7 @@ which agile software development teams sometimes call _epics_.
 A multi-level roadmap like this achieves more than merely looking good in the next management meeting (although they _love_ this stuff).
 This kind of roadmap creates a more important kind of transparency about the purpose of product development work.
 
-The levels create a system for answering questions about _why we should build this_.
+The levels create a system for answering questions about _why we should build this_,
+and [making roadmap tradeoffs](product-roadmap-triangle).
 You build product capabilities, to solve customer problems, in pursuit of product objectives.
 And with luck, your product objectives contribute to a clearly-articulated company strategy.

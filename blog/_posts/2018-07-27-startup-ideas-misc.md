@@ -8,10 +8,10 @@ image: light-bulbs.jpg
 
 ![Light bulbs are cheap](light-bulbs.jpg)
 
-Following on my earlier explaination of why 
-[Start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more 
-[Start-up ideas for app developers](startup-ideas-apps) and
-[Start-up ideas for software development](startup-ideas-development).
+Following on my earlier explanation of why 
+[start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more 
+[start-up ideas for app developers](startup-ideas-apps) and
+[start-up ideas for software development](startup-ideas-development).
 If you haven’t found something you want to develop yet, then perhaps you’ll find a compelling idea among the following mixed bunch.
 
 ## Web services

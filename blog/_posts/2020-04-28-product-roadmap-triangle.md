@@ -103,3 +103,4 @@ While the stability of asking a product team to ‘commit to the next release an
 
 Each product has a different story, and their roadmaps serve different purposes and audiences.
 If you keep your roadmapping goals and constraints in mind, you can freely choose your edge of the product roadmap triangle.
+Then you can focus on [naming things](product-backlog-naming).

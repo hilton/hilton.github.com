@@ -74,3 +74,4 @@ Good names:
 
 Good names exhibit _consistency_ and _explanation_, and don’t come easily.
 But good names have great value: they form the basis for effective concise communication.
+And [naming tips](product-backlog-naming-tips) can help.

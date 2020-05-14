@@ -5,9 +5,6 @@
 <head>
 <meta charset="utf-8">
 <title>Peter Hilton</title>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="style/hh-2014.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Peter Hilton’s personal web site">
 <meta name="keywords" content="software development, writing, blog, presentations, speaking, training, consultancy, music">
@@ -18,143 +15,182 @@
 <meta name="twitter:title" content="Peter Hilton" />
 <meta name="twitter:description" content="Freelance software developer, writer, public speaker, and amateur musician" />
 <meta name="twitter:image" content="https://hilton.org.uk/picture/face/hilton-peter.jpg" />
+<style type="text/css">
+/* Layout */
+
+body { margin:0; display: flex; flex-direction: column; }
+section { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 1em 0; }
+div { display: inline-block; margin: 0 1.5em; }
+nav ul { padding: 0; display: flex; justify-content: space-evenly; }
+h1, h2, p { margin: 0 0 0.3em 0; }
+footer { margin: 4em auto; max-width: 100em; }
+
+.thumbnail { width: 128px; }
+.sites { width: 72px; display: flex; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; line-height: 27px; }
+.sites a { display: inline-block; }
+.description { max-width: 46em; }
+.notes { width: 12em; }
+
+@media all and (max-width: 1279px) {
+  section { justify-content: flex-start; }
+  nav ul { position: absolute; top: 0; right: 1em;}
+  nav li { margin-left: 1.5em; }
+  .description { max-width: 32em; }
+  footer { margin: 2em; }
+}
+@media all and (max-width: 1023px) {
+  section { display: block; }
+  div { margin-bottom: 0.5em; }
+}
+@media all and (max-width: 479px) {
+  .main { padding-top: 3em; }
+}
+
+/* Text */
+
+@font-face { font-family: "Source Sans Pro"; src: url(font/source-sans-pro/SourceSansPro-Light.ttf); font-weight: 300; font-style: normal; }
+@font-face { font-family: "Source Sans Pro"; src: url(font/source-sans-pro/SourceSansPro-Regular.ttf); font-weight: 400; font-style: normal; }
+
+body { font-family: 'Source Sans Pro', sans-serif; font-size: 0.8em; line-height: 1.4; }
+nav li { list-style: none; text-transform: uppercase; }
+nav a { text-decoration: none; }
+h1, h2 { font-weight: 300; line-height: 90%; }
+h1 { font-size: 2.2em; }
+h2 { font-size: 2em; }
+h2 a { text-decoration: none; }
+footer { font-size: 0.8em; line-height: 1.5em; }
+
+/* Colour */
+
+body { color:white; background:#555; }
+
+a { color: #7FC4FF; }
+h2 a, footer a { color: inherit; }
+
+section.main { background-color: #334D5C; }
+section.development { background-color: #45B29D; }
+section.development a { color: #C0E2FF; }
+section.writing { color: #334D5C; background-color: #EFC94C; }
+section.writing p a { color: #428bca; }
+section.speaking p a, section.music p a { color: #B2D9FE; }
+section.speaking { background-color: #E27A3F; }
+section.music { background-color: #DF5A49; }
+</style>
+
 </head>
-<body class="home">
+<body>
 
 <section class="main">
-	<div class="container">
-	
-		<div class="row">
-			<div class="col-md-2">
-				<a title="Peter Hilton on LinkedIn" href="http://www.linkedin.com/in/peterhilton"><img class="picture" src="picture/main/hilton-peter-128.jpg"></a>
-			</div>
-			<div class="col-md-1 sites">
-					<a title="Peter Hilton on LinkedIn" href="http://www.linkedin.com/in/peterhilton"><img src="picture/social/white/linkedin.png"></a>
-					<a title="Peter Hilton on Twitter" href="http://twitter.com/PeterHilton"><img src="picture/social/white/twitter.png"></a>
-			</div>
-			<div class="col-md-7">
-				<h1>Peter Hilton</h1>
-				<p>Freelance product manager, software developer, writer, public speaker, and amateur musician.
-				Peter consults for <a href="http://www.signavio.com">Signavio</a>, and is available for 
-				product roles (Rotterdam/remote), and also consulting, training and speaking.</p>
-			</div>
-			<div class="col-md-2">
-				<nav class="navbar" role="navigation">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="/about">about</a></li>
-						<li><a href="/contact">contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	
+	<div class="thumbnail">
+		<a title="Peter Hilton on LinkedIn" href="http://www.linkedin.com/in/peterhilton"><img class="picture" src="picture/main/hilton-peter-128.jpg"></a>
+	</div>
+	<div class="sites">
+			<a title="Peter Hilton on LinkedIn" href="http://www.linkedin.com/in/peterhilton"><img src="picture/social/white/linkedin.png"></a>
+			<a title="Peter Hilton on Twitter" href="http://twitter.com/PeterHilton"><img src="picture/social/white/twitter.png"></a>
+	</div>
+	<div class="description">
+		<h1>Peter Hilton</h1>
+		<p>Freelance product manager, software developer, writer, public speaker, and amateur musician.
+		Peter consults for <a href="http://www.signavio.com">Signavio</a>, and is available for 
+		product roles (Rotterdam/remote), and also consulting, training and speaking.</p>
+	</div>
+	<div class="notes">
+		<nav>
+			<ul>
+				<li><a href="/about">about</a></li>
+				<li><a href="/contact">contact</a></li>
+			</ul>
+		</nav>
 	</div>
 </section>
 
 <section class="development">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-				<a title="Peter Hilton on Github" href="https://github.com/hilton"><img class="picture" src="picture/main/development.png"></a>
-			</div>
-			<div class="col-md-1 sites">
-					<a title="Peter Hilton on Github" href="https://github.com/hilton"><img src="picture/social/white/github.png"></a>
-					<a title="Peter Hilton on Stackoverflow" href="http://stackoverflow.com/users/2670/peter-hilton"><img src="picture/social/white/stackoverflow.png"></a>
-			</div>
-			<div class="col-md-7">
-				<h2>Product management &amp; software development</h2>
-				<p>For <a href="http://www.signavio.com">Signavio</a>, Peter works on a workflow automation product.
-				Peter’s product development interests include business process management, web application frameworks, software crafting, functional design, and agile software development.</p>
-			</div>
-		</div>
+	<div class="thumbnail">
+		<a title="Peter Hilton on Github" href="https://github.com/hilton"><img class="picture" src="picture/main/development.png"></a>
+	</div>
+	<div class="sites">
+			<a title="Peter Hilton on Github" href="https://github.com/hilton"><img src="picture/social/white/github.png"></a>
+			<a title="Peter Hilton on Stackoverflow" href="http://stackoverflow.com/users/2670/peter-hilton"><img src="picture/social/white/stackoverflow.png"></a>
+	</div>
+	<div class="description">
+		<h2>Product management &amp; software development</h2>
+		<p>For <a href="http://www.signavio.com">Signavio</a>, Peter works on a workflow automation product.
+		Peter’s product development interests include business process management, web application frameworks, software crafting, functional design, and agile software development.</p>
+	</div>
+	<div class="notes">
 	</div>
 </section>
 
 <section class="writing">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-				<a href="http://bit.ly/playscala2p"><img class="picture" src="picture/main/play-for-scala-128.jpg"></a>
-			</div>
-			<div class="col-md-1 sites">
-			</div>
-			<div class="col-md-7">
-				<h2>Writing</h2>
-				<p>Peter enjoys writing effective technical documentation, for software products and projects, 
-				apps and APIs, and understands how to avoid both too much and too little documentation. 
-				Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013),
-				and contributed to <a href="http://shop.oreilly.com/product/0636920048824.do">97 Things Every Java Programmer Should Know</a> (O’Reilly Media, May 2020). 
-				From 2005 to 2014, Peter wrote extensively on the 
-				<a href="http://web.archive.org/web/20140625104339/http://blog.lunatech.com/">Lunatech Blog</a> (now offline).</p>
-			</div>
-			<div class="col-md-2">
-				<h2><a title="Peter Hilton’s blog" href="/blog/">Blog</a></h2>
-				<p><a title="Peter Hilton’s blog" href="/blog/">Peter’s blog</a>: 
-				product management, software development, cafes, and other curiosities</p>
-			</div>
-		</div>
+	<div class="thumbnail">
+		<a href="http://bit.ly/playscala2p"><img class="picture" src="picture/main/play-for-scala-128.jpg"></a>
+	</div>
+	<div class="sites">
+	</div>
+	<div class="description">
+		<h2>Writing</h2>
+		<p>Peter enjoys writing effective technical documentation, for software products and projects, 
+		apps and APIs, and understands how to avoid both too much and too little documentation. 
+		Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013),
+		and contributed to <a href="http://shop.oreilly.com/product/0636920048824.do">97 Things Every Java Programmer Should Know</a> (O’Reilly Media, May 2020). 
+		From 2005 to 2014, Peter wrote extensively on the 
+		<a href="http://web.archive.org/web/20140625104339/http://blog.lunatech.com/">Lunatech Blog</a> (now offline).</p>
+	</div>
+	<div class="notes">
+		<h2><a title="Peter Hilton’s blog" href="/blog/">Blog</a></h2>
+		<p><a title="Peter Hilton’s blog" href="/blog/">Peter’s blog</a>: 
+		product management, software development, cafes, and other curiosities</p>
 	</div>
 </section>
 
 <section class="speaking">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-				<img class="picture" src="picture/main/speaking.jpg">
-			</div>
-			<div class="col-md-1 sites">
-					<a title="presentations on Speakerdeck" href="https://speakerdeck.com/hilton"><img src="picture/social/white/speakerdeck.png"></a>
-			</div>
-			<div class="col-md-7">
-				<h2><a href="presentations/">Speaking</a></h2>
-				<p>Peter regularly speaks at companies, developer events and conferences on a variety of software development topics, including naming things, documentation, maintainable code and other aspects of programming.</p>
-				<p><a href="presentations/">Presentations - upcoming &amp; recent</a></p>
-			</div>
-			<div class="col-md-2">
-				<h2><a href="training/">Training</a></h2>
-				<p><a href="training/">Software development training courses</a> for public events or in-house.</p>
-			</div>
-		</div>
+	<div class="thumbnail">
+		<img class="picture" src="picture/main/speaking.jpg">
+	</div>
+	<div class="sites">
+			<a title="presentations on Speakerdeck" href="https://speakerdeck.com/hilton"><img src="picture/social/white/speakerdeck.png"></a>
+	</div>
+	<div class="description">
+		<h2><a href="presentations/">Speaking</a></h2>
+		<p>Peter regularly speaks at companies, developer events and conferences on a variety of software development topics, including naming things, documentation, maintainable code and other aspects of programming.</p>
+		<p><a href="presentations/">Presentations - upcoming &amp; recent</a></p>
+	</div>
+	<div class="notes">
+		<h2><a href="training/">Training</a></h2>
+		<p><a href="training/">Software development training courses</a> for public events or in-house.</p>
 	</div>
 </section>
 
 <section class="music">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-				<a title="Het Retorisch Kwartet on SoundCloud" href="https://soundcloud.com/retorisch/"><img class="picture" src="picture/main/music.jpg"></a>
-			</div>
-			<div class="col-md-1 sites">
-					<a title="Het Retorisch Kwartet on SoundCloud" href="https://soundcloud.com/retorisch/"><img src="picture/social/white/soundcloud.png"></a>
-					<a title="Cappella Gabrieli on SoundCloud" href="https://soundcloud.com/cappella-gabrieli"><img src="picture/social/white/soundcloud.png"></a>
-					<a title="Peter Hilton’s scores on CPDL" href="http://www.cpdl.org/wiki/index.php/Category:Peter_Hilton_editions"><img src="picture/social/white/cpdl.png"></a>
-					<a title="Peter Hilton on Facebook" href="http://www.facebook.com/profile.php?id=578484777"><img src="picture/social/white/facebook.png"></a>
-			</div>
-			<div class="col-md-7">
-				<h2>Early music</h2>
-				<p>Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. 
-				Peter sings with chamber choir 
-				<a href="http://cappellagabrieli.nl/">Cappella Gabrieli</a> in the Netherlands. 
-				He sang with Rotterdam quartet 
-				<a href="http://retorisch.com/">Het Retorisch Kwartet</a> until 2018, and with the 
-				<a href="https://www.facebook.com/renaissancesingers/">Renaissance Singers</a> in London in 2014.</p>
-			</div>
-			<div class="col-md-2">
-				<h2>Performances</h2>
-				<p><a href="music/">Previous performances, ensembles and workshops</a></p>
-			</div>
-		</div>
+	<div class="thumbnail">
+		<a title="Het Retorisch Kwartet on SoundCloud" href="https://soundcloud.com/retorisch/"><img class="picture" src="picture/main/music.jpg"></a>
+	</div>
+	<div class="sites">
+		<a title="Het Retorisch Kwartet on SoundCloud" href="https://soundcloud.com/retorisch/"><img src="picture/social/white/soundcloud.png"></a>
+		<a title="Cappella Gabrieli on SoundCloud" href="https://soundcloud.com/cappella-gabrieli"><img src="picture/social/white/soundcloud.png"></a>
+		<a title="Peter Hilton’s scores on CPDL" href="http://www.cpdl.org/wiki/index.php/Category:Peter_Hilton_editions"><img src="picture/social/white/cpdl.png"></a>
+		<a title="Peter Hilton on Facebook" href="http://www.facebook.com/profile.php?id=578484777"><img src="picture/social/white/facebook.png"></a>
+	</div>
+	<div class="description">
+		<h2>Early music</h2>
+		<p>Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. 
+		Peter sings with chamber choir 
+		<a href="http://cappellagabrieli.nl/">Cappella Gabrieli</a> in the Netherlands. 
+		He sang with Rotterdam quartet 
+		<a href="http://retorisch.com/">Het Retorisch Kwartet</a> until 2018, and with the 
+		<a href="https://www.facebook.com/renaissancesingers/">Renaissance Singers</a> in London in 2014.</p>
+	</div>
+	<div class="notes">
+		<h2>Performances</h2>
+		<p><a href="music/">Previous performances, ensembles and workshops</a></p>
 	</div>
 </section>
 
-<div class="container">
-	
-	<footer class="text-muted">
+<footer>
 	<p>Feedback by mail to hh5○cocktail.demon.nl • 
 		Content and page design ©1996-{{ site.time | date: '%Y' }} Peter Hilton • 
 		This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a> - required attribution is the credit ‘Peter Hilton - https://hilton.org.uk/’. <a href="https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons">Social media icons</a> by Lee Gargano.</p>
-	</footer>
-</div>
+</footer>
 
 </body>
 </html>

@@ -7,7 +7,7 @@ layout: music
 Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. Since 2010, Peter has been singing with various ensembles and attending a number of workshops.
 
 <div class="row">
-<div class="col-md-4">
+<div class="column">
 
 <h2>Performances</h2>
 
@@ -132,7 +132,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <a href="https://www.youtube.com/watch?v=uo2oWmxjILI">video clip</a></p>
 
 </div>
-<div class="col-md-4">
+<div class="column">
 
 <h2>Workshops</h2>
 
@@ -221,7 +221,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <br>6 March 2010, Utrecht, NL</p>
 
 </div>
-<div class="col-md-3">
+<div class="column">
 
 <h2>Ensembles</h2>
 

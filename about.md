@@ -5,14 +5,14 @@ layout: main
 ---
 
 <div class="row">
-<div class="col-md-8">
+<div class="column-2">
 
-<p>Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
+<p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
+Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
 
 <p>Peter’s software development interests include business process management, web application frameworks, software crafting, functional design, and agile software development.</p>
 
 <p>Peter has presented at several European developer conferences, including ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a certified trainer for <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a>.</p>
-
 
 <h2>Now &amp; next</h2>
 
@@ -25,7 +25,8 @@ and is available for product roles, consulting, training and speaking opportunit
 <p>Peter’s CV consists of his bio (above) and his profiles on 
 <a href="http://www.linkedin.com/in/peterhilton">LinkedIn</a>,
 <a href="https://github.com/hilton">Github</a> and
-<a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.</p>
+<a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.
+Peter’s product management CV is available on request.</p>
 
 
 <h2>Writing</h2>
@@ -39,11 +40,9 @@ and is available for product roles, consulting, training and speaking opportunit
 <p>Peter started writing about the Play framework in 2010, first on the Lunatech blog and later by making direct contributions to the framework’s official documentation as a committer. In the beginning of 2012, the Play 2.0 release brought more contributors to the open source project, notably from Typesafe, at which point Peter shifted his focus to working on his first book.</p>
 
 </div>
-<div class="col-md-4">
+<div class="column">
 
-<a title="hi-res version" href="picture/face/hilton-peter.jpg"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg"></a>
-
-<h2>History</h2>
+<h2 style="margin-top: 0">History</h2>
 
 <ul>
 <li>Six-month sabbatical in London (2014)</li>

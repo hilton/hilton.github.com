@@ -3,11 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} - Peter Hilton</title>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../style/hh-2014.css">
+<link rel="stylesheet" type="text/css" href="../style/hh.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
 </head>
 <body class="music">
@@ -16,45 +13,27 @@
 <section class="development"></section>
 <section class="writing"></section>
 <section class="speaking"></section>
-
 <section class="music">
-	<div class="container">
-		<nav class="navbar pull-right" role="navigation">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/">home</a></li>
-				<li><a href="../about">about</a></li>
-				<li><a href="../contact">contact</a></li>
-			</ul>
-		</nav>
-		<h2><a href="/music/">Peter Hilton - Early music</a></h2>
-	</div>
+	<nav role="navigation">
+		<ul>
+			<li><a href="/">home</a></li>
+			<li><a href="../about">about</a></li>
+			<li><a href="../contact">contact</a></li>
+		</ul>
+	</nav>
+	<h2>Peter Hilton - Early music</h2>
 </section>
 
-<div class="container" itemscope itemtype="http://schema.org/Article">
+<article itemscope itemtype="http://schema.org/Article">
+<header>
+	<h1 itemprop="name">{{ page.title }}</h1>
+</header>
+{{ content }}
+</article>
 
-	<header>
-		<h1 itemprop="name">{{ page.title }}</h1>
-		{% if page.description %}
-		<p class="lead">
-			<span itemprop="description">{{ page.description }}</span>
-			<small><span class="text-muted">
-			{% if page.date %}- {{ page.date | date_to_long_string }}{% endif %}
-			{% for tag in page.tags %}#{{ tag }} {% endfor %}
-			</span></small>
-		</p>
-		{% endif %}
-	<header>
+<footer>
+<p>{% include footer.html %}</p>
+</footer>
 
-	<article class="content">
-	{{ content }}
-	</article>
-
-	<footer class="text-muted">
-		<p>{% include footer.html %}</p>
-	</footer>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

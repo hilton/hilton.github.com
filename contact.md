@@ -10,7 +10,7 @@ layout: main
 
 ![Flickr](picture/social/minimal/flickr-2.png) [Flickr](https://www.flickr.com/photos/peterhilton/)
 
-![Foursquare](picture/social/minimal/foursquare.png) [Foursquare](https://foursquare.com/peterhilton)
+<!-- ![Foursquare](picture/social/minimal/foursquare.png) [Foursquare](https://foursquare.com/peterhilton) -->
 
 ![Github](picture/social/minimal/github.png) [Github](https://github.com/hilton)
 

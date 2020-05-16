@@ -62,14 +62,14 @@ h3 {
 .lead {
 	font-weight: 400; }
 
-code {
+code, tt {
 	font-size:86%; }
 
 .content p, .content ol, .content ul, .content blockquote {
 	font-size: 120%;
 	max-width: 40em; }
-  .content blockquote ul {
-  	font-size: 100%; }
+.content blockquote ul {
+	font-size: 100%; }
 .content blockquote p, .content blockquote li {
 	font-size: 95%;
 	max-width: 36em; }
@@ -106,8 +106,6 @@ code {
 section {
 	min-height: 10px;
 	color: white; }
-body.home section {
-	min-height: 168px; }
 
 section a {
 	text-decoration: underline; }
@@ -145,21 +143,6 @@ section.speaking h2 a, section.speaking nav a,
 section.music h2 a, section.music nav a {
 	color: white}
 
-/* Home page. */
-
-body.home {
-  color:white;
-  background:#555;
-}
-.picture {
-	margin: 20px 20px 0 0; }
-
-.sites {
-	padding-top: 17px;
-	line-height: 35px; }
-.sites a:hover {
-	background-color:  #428bca; }
-
 
 /* Main section */
 
@@ -175,9 +158,6 @@ footer {
 	padding: 2em 0;
 	border-top: 1px solid #ccc;
 	font-size: 85%; }
-.home footer {
-  color:inherit;
-	border-top: none; }
 footer a {
 	color: inherit;
 	text-decoration: underline; }
@@ -270,7 +250,7 @@ a.unsplash {
   border-radius:3px;
 }
 a.unsplash:hover {
-	background-color: #7FC4FF; }
+	background-color: #7FC4FF;
 }
 a.unsplash span:first-child {
   display: inherit;

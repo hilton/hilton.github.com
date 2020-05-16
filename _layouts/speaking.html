@@ -3,8 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} - Peter Hilton</title>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../style/hh-2014.css">
+<link rel="stylesheet" type="text/css" href="../style/hh.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
@@ -25,51 +24,41 @@
 <section class="main"></section>
 <section class="development"></section>
 <section class="writing"></section>
-
 <section class="speaking">
-	<div class="container">
-		<nav class="navbar pull-right" role="navigation">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/">home</a></li>
-				<li><a href="../about">about</a></li>
-				<li><a href="../contact">contact</a></li>
-			</ul>
-		</nav>
-		<h2><a href="/presentations/">Peter Hilton - Speaking &amp; training</a></h2>
-	</div>
+	<nav role="navigation">
+		<ul>
+			<li><a href="/">home</a></li>
+			<li><a href="../about">about</a></li>
+			<li><a href="../contact">contact</a></li>
+		</ul>
+	</nav>
+	<h2><a href="/presentations/">Peter Hilton - Speaking &amp; training</a></h2>
 </section>
-
 <section class="music"></section>
 
-<div class="container" itemscope itemtype="http://schema.org/Article">
+<article itemscope itemtype="http://schema.org/Article">
+{% if page.title %}
+<header>
+	<h1 itemprop="name">{{ page.title }}</h1>
+	<p><span itemprop="description">{{ page.description }}</span></p>
+</header>
+{% endif %}
+{{ content }}
+</article>
 
-	{% if page.title %}
-	<header>
-		<h1 itemprop="name">{{ page.title }}</h1>
-		<p class="lead"><span itemprop="description">{{ page.description }}</span></p>
-	</header>
-	{% endif %}
+{% if page.title %}
+{% capture url %}http%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
+{% if page.description %}{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}{% endif %}
+<section class="social">
+<p><a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,
+'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Presentations+by+Peter+Hilton" onclick="javascript:window.open(this.href,
+'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a></p>
+</section>
+{% endif %}
 
-	<article class="content">
-	{{ content }}
-	</article>
+<footer class="text-muted">
+<p>{% include footer.html %}</p>
+</footer>
 
-	{% if page.title %}
-	{% capture url %}http%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
-	{% if page.description %}{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}{% endif %}
-	<article class="social">
-		<a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Presentations+by+Peter+Hilton" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a>
-	</article>
-	{% endif %}
-
-	<footer class="text-muted">
-		<p>{% include footer.html %}</p>
-	</footer>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

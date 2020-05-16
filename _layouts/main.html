@@ -3,8 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} - Peter Hilton</title>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../style/hh-2014.css">
+<link rel="stylesheet" type="text/css" href="../style/hh.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Peter Hilton’s personal web site">
 <meta name="keywords" content="software development, writing, blog, presentations, speaking, training, consultancy, music">
@@ -13,37 +12,32 @@
 <body class="blog">
 
 <section class="main">
-	<div class="container">
-		<nav class="navbar pull-right" role="navigation">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/">home</a></li>
-				<li><a href="/about">about</a></li>
-				<li><a href="/contact">contact</a></li>
-			</ul>
-		</nav>
-		<h2><a href="/">Peter Hilton</a></h2>
-	</div>
+	<nav role="navigation">
+		<ul>
+			<li><a href="/">home</a></li>
+			<li><a href="/about">about</a></li>
+			<li><a href="/contact">contact</a></li>
+		</ul>
+	</nav>
+	<h2><a href="/">Peter Hilton</a></h2>
 </section>
-
 <section class="development"></section>
 <section class="writing"></section>
 <section class="speaking"></section>
 <section class="music"></section>
 
-<div class="container">
+<article itemscope itemtype="http://schema.org/Article">
+<header>
+<h1>{{ page.title }}</h1>
+<p>{{ page.description }}</p>
+</header>
+{{ content }}
+</article>
 
-	<h1>{{ page.title }}</h1>
-	<p class="lead">{{ page.description }}</p>
-	{{ content }}
-	
-	<footer class="text-muted">
-		<p>{% include footer.html %}
-		<a href="https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons">Social media icons</a> 
-		by Lee Gargano.</p>
-	</footer>
-</div>
+<footer>
+<p>{% include footer.html %}
+<a href="https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons">Social media icons</a> by Lee Gargano.</p>
+</footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

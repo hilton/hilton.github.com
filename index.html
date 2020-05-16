@@ -20,7 +20,7 @@
 
 body { margin:0; display: flex; flex-direction: column; }
 section { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 1em 0; }
-div { display: inline-block; margin: 0 1.5em; }
+div { display: inline-block; margin: 0 16px; }
 nav ul { padding: 0; display: flex; justify-content: space-between; width: 9em; margin-top: 0; }
 h1, h2, p { margin: 0.2em 0 0.3em 0; }
 footer { margin: 4em auto; }
@@ -28,7 +28,7 @@ footer { margin: 4em auto; }
 .thumbnail { width: 128px; }
 .sites { width: 72px; display: flex; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; line-height: 27px; }
 .sites a { display: inline-block; }
-.description { max-width: 47em; }
+.description { max-width: 42em; }
 .notes { width: 12em; }
 
 @media all and (max-width: 1279px) {
@@ -49,12 +49,12 @@ footer { margin: 4em auto; }
 @font-face { font-family: "Source Sans Pro"; src: url(style/font/source-sans-pro/SourceSansPro-Light.ttf); font-weight: 300; font-style: normal; }
 @font-face { font-family: "Source Sans Pro"; src: url(style/font/source-sans-pro/SourceSansPro-Regular.ttf); font-weight: 400; font-style: normal; }
 
-body { font-family: 'Source Sans Pro', sans-serif; font-size: 0.9em; line-height: 1.4; }
+body { font-family: 'Source Sans Pro', sans-serif; line-height: 1.4; }
 nav li { list-style: none; text-transform: uppercase; font-size: 0.9em; }
 nav a { text-decoration: none; }
 h1, h2 { font-weight: 300; line-height: 90%; }
-h1 { font-size: 2.2em; }
-h2 { font-size: 2em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.8em; }
 h2 a { text-decoration: none; }
 footer { font-size: 0.8em; line-height: 1.5em; }
 
@@ -63,6 +63,8 @@ footer { font-size: 0.8em; line-height: 1.5em; }
 body { color:white; background:#555; }
 
 a { color: #7FC4FF; }
+a:hover { background:#0003; }
+section.writing a:hover { background:#fff3; }
 h2 a, footer a { color: inherit; }
 
 section.main { background-color: #334D5C; }
@@ -126,13 +128,13 @@ section.music { background-color: #DF5A49; }
 	<div class="sites">
 	</div>
 	<div class="description">
-		<h2>Writing</h2>
-		<p>Peter enjoys writing effective technical documentation, for software products and projects, 
-		apps and APIs, and understands how to avoid both too much and too little documentation. 
-		Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013),
-		and contributed to <a href="http://shop.oreilly.com/product/0636920048824.do">97 Things Every Java Programmer Should Know</a> (O’Reilly Media, May 2020). 
+		<h2><a title="Peter Hilton’s blog" href="/blog/">Writing</a></h2>
+		<p>Peter enjoys writing effective technical documentation, for products and projects, 
+		apps and APIs, and knows how to avoid both too much and too little documentation. 
+		Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning, 2013),
+		and contributed to <a href="http://shop.oreilly.com/product/0636920048824.do">97 Things Every Java Programmer Should Know</a> (O’Reilly, May 2020). 
 		From 2005 to 2014, Peter wrote extensively on the 
-		<a href="http://web.archive.org/web/20140625104339/http://blog.lunatech.com/">Lunatech Blog</a> (now offline).</p>
+		<a href="http://web.archive.org/web/20140625104339/http://blog.lunatech.com/">Lunatech Blog</a>.</p>
 	</div>
 	<div class="notes">
 		<h2><a title="Peter Hilton’s blog" href="/blog/">Blog</a></h2>
@@ -170,7 +172,7 @@ section.music { background-color: #DF5A49; }
 		<a title="Peter Hilton on Facebook" href="http://www.facebook.com/profile.php?id=578484777"><img src="picture/social/white/facebook.png"></a>
 	</div>
 	<div class="description">
-		<h2>Early music</h2>
+		<h2><a href="music/">Early music</a></h2>
 		<p>Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. 
 		Peter sings with chamber choir 
 		<a href="http://cappellagabrieli.nl/">Cappella Gabrieli</a> in the Netherlands. 

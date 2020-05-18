@@ -3,7 +3,7 @@ title: "Source code layout"
 description: Why source code deserves layout as well as typography
 layout: hh
 tags: programming
-css: "a img { border: 1px solid #66A6CB; padding: 0.5em; }"
+css: "a img { border: 1px solid #66A6CB; padding: 0.5em; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 image: code-newspaper-style-2x.png
 ---
 

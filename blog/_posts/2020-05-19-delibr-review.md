@@ -8,7 +8,8 @@ css: "a img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #4
 ---
 
 [Delibr](https://www.delibr.com/) - a Swedish start-up - describes their feature refinement software as ‘Google Docs for product owners’.
-The product centres around a web-based outliner, for producing what John Cutler calls 
+The product centres around a web-based outliner, for producing what 
+[John Cutler](https://twitter.com/johncutlefish) calls 
 [great one-pagers](https://medium.com/@johnpcutler/great-one-pagers-592ebbaf80ec).
 
 ## Feature documents

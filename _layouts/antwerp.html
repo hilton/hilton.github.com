@@ -8,9 +8,7 @@
 <link rel="index" href="../titles.html"/>
 <link rel="author" href="../about"/>
 <link rel="stylesheet" href="cafe-belgium.css">
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 </head>
 
 <body>
@@ -23,7 +21,7 @@
 	</header>
 	
 	<div class="info">
-		<p class="photo"><img itemprop="photo" src="../facade/antwerp-{{ page.slug }}.jpg"></p>
+		<p class="photo"><img itemprop="photo" src="../facade/antwerp-{{ page.name | replace:'.md','.jpg' }}"></p>
 		<p class="address">
 			<span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
 					<span itemprop="street-address">{{ page.address }}</span>, 
@@ -31,9 +29,11 @@
 					<span itemprop="postal-code">2000</span>,
 					<span itemprop="country-name">Belgium</span>
 			</span>
-			{% if page.url %}
-			<span class="tel" itemprop="tel"></span>
-			<a href="{{ page.url }}" itemprop="url">{{ page.url }}</a>
+			{% if page.tel %}
+			<span class="tel" itemprop="tel">{{ page.tel }}</span>
+			{% endif %}
+			{% if page.website %}
+			<a href="{{ page.website }}" itemprop="website">{{ page.website }}</a>
 			{% endif %}
 			<span class="geo" itemprop="geo">
 					<span itemprop="latitude">{{ page.lat }}</span>, 
@@ -41,25 +41,18 @@
 			</span>
 		</p>
 		<div id="map"></div>
-		<script src="//maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
-		<script type="text/javascript">
-			if (GBrowserIsCompatible()) {
-				var map = new GMap2(document.getElementById("map"));
-				map.addControl(new GSmallMapControl());
-				var point = new GLatLng({{ page.lat }}, {{ page.lon }});
-				map.setCenter(point, 16);
-				map.addOverlay(new GMarker(point, {clickable: false, title: "{{ page.title }}"}));
-			}
-		</script>
 	</div>
 	
 	<p class="summary" itemprop="summary">{{ page.summary }}</p>
 	
     <div class="description" itemprop="description">
-		{{ page.description }}
+		{{ content }}
 	
 		<p class="rating">
-			<span class="rating"><meta itemprop="rating" content="{{ page.ratingnumber }}"> {{ page.ratingstars }}</span>
+			<span class="rating"><meta itemprop="rating" content="{{ page.ratingnumber }}">
+				{% assign remainder = 5 | minus: page.ratingnumber %}
+				<em>{{ "★★★★★" | truncate: page.ratingnumber, "" }}</em>{{ "☆☆☆☆☆" | truncate: remainder, "" }}
+			</span>
 			<span class="reviewer" itemprop="reviewer">Peter Hilton</span>
 			<time itemprop="dtreviewed" datetime="2010-10-03" pubdate>3 October 2010</time>
 		</p>
@@ -76,6 +69,21 @@
 <a href="/antwerp/">Eating &amp; drinking in Antwerp</a></h1>
 </nav>
 
-<p class="footer">{% include footer.html %}</p>
+<footer>
+<p>{% include footer.html %}</p>
+</footer>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+<script type="text/javascript">
+	var mymap = L.map('map').setView([{{ page.lat }}, {{ page.lon }}], 17);
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+	  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+	  maxZoom: 18,
+	  id: 'mapbox/streets-v11',
+	  tileSize: 512,
+	  zoomOffset: -1,
+	  accessToken: 'pk.eyJ1IjoicGV0ZXJoaWx0b24iLCJhIjoiY2thbGV2ZzgzMDlraTJ5cW1yNnVkb21wMyJ9.frm47xK1G5tVcjJfq5UAgg'
+	}).addTo(mymap);
+	var marker = L.marker([{{ page.lat }}, {{ page.lon }}]).addTo(mymap);
+</script>
 </body>
 </html>

@@ -19,7 +19,8 @@ Dark changes that.
 ## Canvas
 
 Dark gives you a canvas that looks a little like [Miro](https://miro.com), but for code.
-Instead of files on your laptop, you see code blocks on a draggable infinite canvas.
+With a dark theme, obviously.
+Instead of files on your laptop, you see code blocks on a draggable canvas.
 
 <a href="dark-canvas-2x.png"><img src="dark-canvas.png" srcset="dark-canvas-2x.png 2x" alt="The Dark canvas - an web-based integrated development environment"></a>
 
@@ -28,9 +29,9 @@ This canvas includes six _components_ that make up my service:
 * 3 × _HTTP_ handlers - output JSON HTTP responses
 * 1 × _DB_ component - defines a key-value _datastore_
 * 1 × _WORKER_ component - populates the datastore
-* 1 × _REPL_ - lets you run code.
+* 1 × _REPL_ - runs code directly.
 
-Functions occupy a separate space, and show their callers and dependencies:
+Functions occupy a separate visual space, and show their callers and dependencies:
 
 <a href="dark-function-2x.png"><img src="dark-function.png" srcset="dark-function-2x.png 2x" alt="A Dark function definition"></a>
 
@@ -61,16 +62,16 @@ That impressed me _a lot_ because I did this in a new programming language.
 
 I like Dark’s language, which appeals to current fashion (full-on functional).
 The keyboard control and refactorings need more work, but the inline function help and clear messages helped with learning the language.
-The structured editor’s placeholders help, and you can’t just type anywhere, which keeps the code sensible, once you get used to it.
+The structured editor’s placeholders help too: you can’t just type anywhere, which keeps the code well-formed.
 
 ## Looking ahead
 
 The Dark beta impressed me.
-Although Dark presumably targets web application back-ends, I already prefer this experience to developing a small web service in Java or Scala.
+Although Dark presumably targets web application back-ends, I already prefer this experience to developing a small web service on a conventional stack.
 
 Looking ahead, enterprise application integration will need more than this.
-I look forward to seeing how the Dark team address collaboration, version control, automated testing, and API documentation.
-Meanwhile, language (and language documentation) improvements will no doubt enrich the coding experience.
+I look forward to seeing how the Dark team will address collaboration, version control, automated testing, and API documentation.
+Meanwhile, language (and documentation) improvements will no doubt enrich the coding experience.
 
-I’ve (half) joked in the past about the future bring some kind of _Enterprise Scratch_.
+I’ve (half) joked in the past about the future bringing some kind of _Enterprise Scratch_.
 Meanwhile, for enterprise application integration, technology like Dark changes everything.

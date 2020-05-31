@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} - HH Rotterdam Cycle Routes</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 <link rel="stylesheet" type="text/css" media="screen" href="cycling/cycling-screen.css">
 <link rel="contents"	href="/contents.html">
 <link rel="top"	href="/">
@@ -12,10 +13,7 @@
 <style type="text/css" media="screen">
 {% if page.css %}
 {{ page.css}}
-{% else %}
-#cyclemap { width:480px; height:550px; float:left; margin:0 20px 1em 0; }
 {% endif %}
-#content p {max-width:978px;}
 </style>
 </head>
 <body>
@@ -30,38 +28,11 @@
 <h2><a href="cycling.html">Cycle routes »</a> {{ page.title }}</h2>
 
 <div id="cyclemap"></div>
-<script src="//maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAhxP5Vx_OzYfszJoDyOFRXBRALipblfK6m84Q9JFIkC5k8UFcHBQCxAKLJ8O-IpZFGqqmW194vpQx-Q" type="text/javascript"></script>
 {% if page.kml %}
-<script type="text/javascript">
-	if (GBrowserIsCompatible()) {
-		var map = new GMap2(document.getElementById("cyclemap"));
-		var point = new GLatLng(51.968808,4.413071);
-		map.setCenter(point, 12);
-		map.addControl(new GSmallMapControl());
-		map.addControl(new GMapTypeControl());
-		var overlay = new GGeoXml("{{ page.kml }}");
-		map.addOverlay(overlay);
-	}
-</script>
 {% else %}
-<script type="text/javascript">
-	if (GBrowserIsCompatible()) {
-		var map = new GMap2(document.getElementById("cyclemap"));
-		var point = new GLatLng(51.960000,4.434000);
-		map.setCenter(point, 11);
-		map.addControl(new GSmallMapControl());
-		map.addControl(new GMapTypeControl());
-		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-delft-e.kml"));
-		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-delft-s.kml"));
-		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-kinderdijk.kml"));
-		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-maassluis.kml"));
-		map.addOverlay(new GGeoXml("https://hilton.org.uk/cycling/rotterdam-rottemeren.kml"));
-
-	}
-</script>
 {% endif %}
 
-<p>Map: <a href="//maps.google.nl/maps?f=q&hl=en&geocode=&q={{ page.kml }}&ie=UTF8&ll=51.915262,4.367065&spn=0.126427,0.265732&z=12&om=1">Google Maps</a>, <a href="{{ page.kml }}">Google Earth</a> (KML).</p>
+<p>Map: <a href="{{ page.kml }}">Google Earth</a> (KML).</p>
 
 {{ content }}
 
@@ -79,5 +50,39 @@
 
 <p class="footer">{% include footer.html %}</p>
 
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+{% if page.geoJson %}
+<script src="{{ page.geoJson }}"></script>
+{% endif %}
+<script type="text/javascript">
+	var geoJson = false;
+{% if page.geoJson %}
+	function bindPopup(feature, layer) {
+		if (feature.properties && feature.properties.name) {
+			var content = '<p><strong>' + feature.properties.name + '</strong></p><p>' + feature.properties.desc + '</p>';
+			layer.bindPopup(content);
+		}
+	}
+	
+	geoJson = L.geoJSON(geoJsonData, { onEachFeature: bindPopup, style: { color:'#c00'} })	
+{% endif %}
+	var mapCenter = geoJson ? geoJson.getBounds().getCenter() : [51.918228, 4.481267];
+	var geoJsonWidth = geoJson.getBounds().getEast() - geoJson.getBounds().getWest();
+	// var mapZoom = geoJsonWidth < 0.3 ? 13 : (geoJsonWidth > 0.2 ? 13 : 14);
+	var mapZoom = geoJsonWidth < 0.3 ? 13 : 12;
+	console.log(mapZoom);
+	var map = L.map('cyclemap').setView(mapCenter, mapZoom);
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+	  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+	  maxZoom: 18,
+	  id: 'mapbox/streets-v11',
+	  tileSize: 512,
+	  zoomOffset: -1,
+	  accessToken: 'pk.eyJ1IjoicGV0ZXJoaWx0b24iLCJhIjoiY2thbGV2ZzgzMDlraTJ5cW1yNnVkb21wMyJ9.frm47xK1G5tVcjJfq5UAgg'
+	}).addTo(map);
+{% if page.geoJson %}
+	geoJson.addTo(map);
+{% endif %}
+</script>
 </body>
 </html>

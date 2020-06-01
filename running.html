@@ -8,7 +8,7 @@
 <style type="text/css">
 @font-face { font-family: "Source Sans Pro"; src: url(style/font/source-sans-pro/SourceSansPro-SemiBold.ttf); font-weight: 400; font-style: normal; }
 body { margin:0; }
-h1 { position: absolute; top:0; margin:0; width:100%; z-index: 500; font-size:7vw; text-align: center; font-family: "Source Sans Pro", sans-serif; color:#00000018; }
+h1 { position: absolute; top:0; margin:0; width:100%; z-index: 500; font-size:6vw; text-align: center; font-family: "Source Sans Pro", sans-serif; color:#00000018; }
 .map { width:100vw; height:100vh; }
 </style>
 </head>
@@ -43,7 +43,7 @@ h1 { position: absolute; top:0; margin:0; width:100%; z-index: 500; font-size:7v
 	  accessToken: 'pk.eyJ1IjoicGV0ZXJoaWx0b24iLCJhIjoiY2thbGV2ZzgzMDlraTJ5cW1yNnVkb21wMyJ9.frm47xK1G5tVcjJfq5UAgg'
 	}).addTo(routeMap);
   route.addTo(routeMap);
-  routeMap.setView(route.getBounds().getCenter(), 15);
+  routeMap.setView(route.getBounds().getCenter(), 14);
   var marker = L.marker(schieCoolhaven5[36]).addTo(routeMap);
   marker.bindPopup("Schie - Coolhaven (" + pathLength(routeMap, schieCoolhaven5) + " km)");
 

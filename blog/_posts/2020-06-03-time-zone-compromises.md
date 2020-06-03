@@ -48,6 +48,6 @@ In [James Gleick’s New York Times opinion piece](https://www.nytimes.com/2016/
 > and we can see it changing yet again in our globally networked era.
 > We should synchronize our watches for real.
 
-However, I can’t help that as a science historian, Gleick intended to propose a thought experiment, rather than _actually abolishing time zones._ 
+However, I can’t help thinking that, as a science historian, Gleick intended to propose a thought experiment, rather than _actually abolishing time zones._ 
 And if you do start liking the idea, you should probably also read this:
 [So You Want To Abolish Time Zones](https://qntm.org/abolish).

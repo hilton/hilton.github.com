@@ -16,7 +16,7 @@ a product that’s too complex for all but specialists.
 
 Apple’s macOS [Calendar](https://en.wikipedia.org/wiki/Calendar_(Apple)) 
 application supports and acknowledges time zone support as an _advanced_ capability that should be turned off by default.
-This demonstrates the technical using the word ‘advanced’ to scare off all but the most foolhardy users.
+This demonstrates the technique of using the word ‘advanced’ to scare off all but the most foolhardy users.
 
 <img src="calendar-advanced-options.png" srcset="calendar-advanced-options-2x.png 2x" alt="macOS Calendar advanced preferences">
 

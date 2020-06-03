@@ -38,7 +38,7 @@ I achieved this by starting from an outline.
 
 ## Using an outline to plan
 
-[Get Better at Naming Things](97-things-naming), 
+_Get Better at Naming Things_, 
 the first of three articles that I wrote to a 550 word limit,
 consists of a series of statements and advice for programmers (which
 [product backlog naming tips](product-backlog-naming-tips) adapts for product people):

@@ -9,8 +9,8 @@ image: calendar-advanced-options-2x.png
 Time zones live in a deep rabbit hole that none of us want to (or should) go all the way down.
 Product designers who do discover so much complexity that no software ever completely _solves_ them.
 Instead, we choose which compromises to make.
-Indeed, total support for time zones would be one kind of compromise:
-a product that’s too complex for all but specialists.
+Indeed, total support for time zones would represent one kind of compromise:
+a product whose complexity means that only specialists can use it.
 
 ## Design decisions and feature toggles
 
@@ -20,21 +20,22 @@ This demonstrates the technique of using the word ‘advanced’ to scare off al
 
 <img src="calendar-advanced-options.png" srcset="calendar-advanced-options-2x.png 2x" alt="macOS Calendar advanced preferences">
 
-Historically, a difference between Apple and Microsoft software has been the number of application _preferences_ (Apple) a.k.a. _options_ or _settings_ (Microsoft).
+Historically, Apple and Microsoft software has differed in the number of application _preferences_ (Apple) a.k.a. _options_ or _settings_ (Microsoft).
 Microsoft Word famously introduced so many tabs on the options dialogue that they had to add more rows of tabs.
 
 ![Microsoft Word options dialogue box](microsoft-word-options.png)
 
 Meanwhile, Apple software tends towards the view that every application preference represents a failure to make a design decision, and instead leave it up to the user.
-While the preference for whether to ‘open events in separate windows’ only affects one detail of the user experience, whether to use time zones concerns a high-level product capability.
+The preference for whether to ‘open events in separate windows’ only affects one detail of the user experience, but whether to use time zones, unusually, concerns a high-level product capability.
+_Turn on time zone support_ looks less like a missing design decision, and more like a deferred decision about which product to build.
 
 ## Shipping industry convention
 
-The global shipping industry tends to make a different compromise, which can be made to work: all times are local times, so when UPS says a package was delivered at 9 am in San Francisco, they mean 09:00 PST.
+The global shipping industry tends to make a different compromise, which can work: only use local times, so when UPS says a package was delivered at 9 am in San Francisco, they mean 09:00 PST.
 International commercial shipping started thousands of years ago, while international time zones came into use in the late nineteenth century, so perhaps shipping stuck with the legacy system.
 
 Using local time has the advantage that you can ignore time zones most of the time, but does mean that all times must be specified with a location.
-You need to specify locations anyway to ship things there, so you might not expect that to be a problem.
+You need to specify locations anyway to ship things there, so you might not expect that to cause a problem.
 However, it starts to get complex when you try to precisely define _location_.
 
 ## Abolishing time zones

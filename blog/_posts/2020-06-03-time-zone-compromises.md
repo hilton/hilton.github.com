@@ -1,6 +1,6 @@
 ---
 title: "Time zone compromises"
-description: Winning against time zones by not actually fighting
+description: Winning against time zones in software by not actually fighting
 layout: hh
 tags: product
 image: calendar-advanced-options-2x.png

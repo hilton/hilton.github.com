@@ -30,10 +30,10 @@ Those articles took _hours_.
 
 More recently, aiming for 500 words gave me a new problem: editing to length.
 The first time I tried this, my first draft arrived at around 800 words, as usual.
-Editing to remove a third of it no doubt improved the end result, but it felt painful to delete so many whole sentences and paragraphs.
+Editing to remove a third of it no doubt improved the end result, but deleting so many whole sentences and paragraphs hurt.
 I needed to plan better.
 
-By the third article, I already had a reasonable idea about how much space I would have, and the first draft got me much closer to the target.
+By the third [97 Things](https://medium.com/97-things) article, I already had a reasonable idea about how much space I would have, and the first draft got me much closer to the target.
 I achieved this by starting from an outline.
 
 ## Using an outline to plan

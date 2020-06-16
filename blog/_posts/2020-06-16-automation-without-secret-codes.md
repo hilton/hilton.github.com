@@ -2,7 +2,7 @@
 title: Automation without the secret codes
 description: How no-code automation modernises programming
 layout: hh
-tags: no-code
+tags: NoCode
 image: hieroglyphics.jpg
 ---
 

@@ -8,7 +8,9 @@ layout: main
 <div class="column-2">
 
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
-Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and project management. He currently works as a developer and technical writer for a process management product company, and also delivers the occasional lecture and training course.</p>
+Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
+Peter’s professional interests are business process management, web application development, functional design, agile software development and project management.
+He currently consults as a product manager for a process management B2B SaaS product company, and also delivers the occasional lecture and training course.</p>
 
 <p>Peter’s software development interests include business process management, web application frameworks, software crafting, functional design, and agile software development.</p>
 
@@ -41,12 +43,18 @@ Peter’s product management CV is available on request.</p>
 
 <p>Peter started writing about the Play framework in 2010, first on the Lunatech blog and later by making direct contributions to the framework’s official documentation as a committer. In the beginning of 2012, the Play 2.0 release brought more contributors to the open source project, notably from Typesafe, at which point Peter shifted his focus to working on his first book.</p>
 
+<p><a href="http://bit.ly/playscala2p">Play for Scala</a> by Peter Hilton, Erik Bakker and Francisco Canedo was published by Manning Publications in September 2013. The book teaches web developers how to use the <a href="http://www.playframework.com">Play Framework</a> to build web applications using the <a href="http://www.scala-lang.org">Scala</a> programming language.</p>
+
+<p><a href="http://shop.oreilly.com/product/0636920048824.do">97 Things Every Java Programmer Should Know</a>
+edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, published by O’Reilly Media in May 2020.</p>
+
 </div>
 <div class="column">
 
 <h2 style="margin-top: 0">History</h2>
 
 <ul>
+<li>Consulting for <a href="https://www.signavio.com/">Signavio</a> as a product manager, consultant, trainer, pre-sales consultant, technical writer and developer (2015-2020)</li>
 <li>Six-month sabbatical in London (2014)</li>
 <li>Working (as software developer) for <a href="http://www.lunatech.com">Lunatech Research</a> in Rotterdam, the Netherlands (2004-2014).</li>
 <li>Working for Logica NL, which later became LogicaCMG, in Rotterdam (2000-2004).</li>

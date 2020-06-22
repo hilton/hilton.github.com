@@ -16,6 +16,8 @@ Peter Hilton is a product manager, software developer, writer, speaker, trainer,
 
 <h2>Now &amp; next</h2>
 
+<p><strong>Available 1 September 2020 for product roles, remote or Rotterdam.</strong></p>
+
 <p>Peter is currently a freelance product manager at <a href="http://www.signavio.com">Signavio</a>,
 and is available for product roles, consulting, training and speaking opportunities.</p>
 

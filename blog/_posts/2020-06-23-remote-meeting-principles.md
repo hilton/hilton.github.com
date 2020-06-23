@@ -27,7 +27,7 @@ Good meeting practices, such as an explicit meeting _purpose_, _agenda_ (scope) 
 However, remote meetings suffer more from sloppy preparation and structure than in-person meetings.
 When everyone meets in the same room, you don’t need those practices _less_, but you might appear to get away with skipping them.
 
-Good practices have used for _decades_, which makes them easy to discover and learn about.
+Good practices already exist for _decades_, which makes them easy to discover and learn about.
 Search the web for good/effective/productive meetings instead of sticking to a short list of guidelines that someone else needed.
 Everyone has a different context, and some guidelines will have more relevance for your meetings than others.
 

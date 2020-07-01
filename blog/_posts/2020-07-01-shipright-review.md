@@ -3,6 +3,7 @@ title: "Software review: Shipright"
 description: A single source of truth for your customers’ product feedback
 layout: hh
 tags: product software
+image: shipright-request-2x.png
 ---
 
 In my [productboard review](productboard-customer-feedback-review),

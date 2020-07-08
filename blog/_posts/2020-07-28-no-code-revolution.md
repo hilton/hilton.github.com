@@ -31,7 +31,7 @@ In practice, people involved in traditional automation - not only the programmer
 
 ## Then they laugh at you
 
-Occasionally, people write about why they think that no-code automation ‘will never work’.
+Occasionally, people write about why they think that no-code automation ‘will never work’, which looks at least a little like ridicule.
 
 * [The camunda Hypothesis](https://blog.camunda.com/post/2013/04/the-camunda-hypothesis/) (2013) - ‘zero code might work, just not around here’ (paraphrasing)
 * [The 'No Code' Delusion](https://www.alexhudson.com/2020/01/13/the-no-code-delusion/) (2020) - ‘What did no-code ever do for us?’ (paraphrasing again)

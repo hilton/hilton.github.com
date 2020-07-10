@@ -20,7 +20,7 @@ To let people submit requests, for example, you can start with Google Forms for 
 Coding problem erosion also happens when a product like Google Forms first appears, popularising a software category dedicated to making a specific problem easier to solve.
 What happens next follows a predictable pattern.
 
-## First they ignore you
+<h2 id="ignore">First they ignore you</h2>
 
 People who write code on enterprise IT projects don’t generally talk about no-code automation, which usually doesn’t target what they implement.
 Google Forms doesn’t (at the time of writing) help automatically handle requests, it just collects the data without processing it.
@@ -29,7 +29,7 @@ But how many developers pay attention to the latest products that do more than t
 In practice, people involved in traditional automation - not only the programmers - have no reason to pay attention to alternative approaches, just as a carpenter who makes wooden chairs might ignore developments in [3D-printed furniture](https://ultimaker.com/learn/3d-printing-in-furniture-design).
 
 
-## Then they laugh at you
+<h2 id="laugh">Then they laugh at you</h2>
 
 Occasionally, people write about why they think that no-code automation ‘will never work’, which looks at least a little like ridicule.
 
@@ -39,7 +39,7 @@ Occasionally, people write about why they think that no-code automation ‘will 
 
 They probably wouldn’t bother if their business model didn’t depend on their customers not adopting no-code automation.
 
-## Then they fight you
+<h2 id="fight">Then they fight you</h2>
 
 We haven’t seen any serious attacks on no-code automation yet.
 In the near future, large numbers of failed Robotic Process Automation (RPA) implementations may provide easy targets.
@@ -50,7 +50,7 @@ Instead, people will continue to discover where and how to get more value from n
 
 Ironically, in an attempt to defend itself from heretical alternatives, traditional programming communities may _close ranks_, and thereby exacerbate the gatekeeping that no-code automation (partly) exists to solve, by creating something accessible to a wider audience.
 
-## Then you win
+<h2 id="win">Then you win</h2>
 
 No-code automation will find its place, the market will consolidate around one or more new product categories, and product prices will fall.
 [Microsoft Power Automate](https://flow.microsoft.com/)’s existence guarantees it.

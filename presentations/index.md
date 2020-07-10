@@ -23,6 +23,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2020-09-01</td>
+	<td><a href="product-roadmaps">Product roadmaps</a></td>
+	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Den Bosch Java User Group</a></td>
+	<td>🇳🇱 Den Bosch</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2020-02-25</td>
 	<td><a href="technical-documentation">Technical documentation is a backup so make sure it works</a> (keynote)</td>
 	<td><a href="https://cppeurope.com/sessions/technical-documentation-is-a-backup-so-make-sure-it-works/">C++ Europe</a></td>

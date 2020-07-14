@@ -24,6 +24,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2020-09-01</td>
+	<td><a href="documentation-comments">Write one-sentence documentation comments</a></td>
+	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Den Bosch Java User Group</a></td>
+	<td>🇳🇱 Den Bosch</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2020-09-01</td>
 	<td><a href="product-roadmaps">Product roadmaps</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Den Bosch Java User Group</a></td>
 	<td>🇳🇱 Den Bosch</td>

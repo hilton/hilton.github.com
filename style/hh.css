@@ -10,6 +10,7 @@ nav li a { padding: 0 1em; }
 
 article, section p, article > header { width: 60em;}
 article > * { width: 40em; }
+article > .banner { width: 960px; }
 
 h1, h2, h3 { margin: 0.66em 0 0.3em;}
 p, li { margin: 0 0 0.66em; }

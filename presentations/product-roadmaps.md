@@ -11,3 +11,7 @@ The right kind of product roadmap offers a useful tool for establishing directio
 This helps when agile software development methods make business stakeholders worry that instead of weaving together long-term narratives, you’re planning sprints like episodes of 
 [Lost](https://en.wikipedia.org/wiki/Lost_(TV_series)).
 In the absence of evidence to the contrary, your sponsors will worry that you have no idea where you’re going and whether you’re ever going to follow-up on that polar bear, and other abandoned stories.
+
+## Presentations
+
+* [Den Bosch Java User Group](https://www.meetup.com/Utrecht-Java-User-Group/) - 1 September 2020

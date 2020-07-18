@@ -1,6 +1,6 @@
 ---
 title: What has ‘no code’ ever done for us?
-description: Why source code deserves layout as well as typography
+description: Why you shouldn’t dismiss imperfect solutions
 layout: hh
 tags: NoCode
 image: pfj.jpg
@@ -55,6 +55,6 @@ address the question of ‘What have the Romans ever done for us?’
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Y7tvauOJMHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you haven’t already seen this, you should.
-Either way, watch it again now, because you can probably use 80 seconds of joy in your life right now.
+Either way, watch it again, because you can probably use 80 seconds of joy in your life right now.
 And instead of dismissing change because it doesn’t _always_ work for _everyone_ and _everywhere_, pause to consider that you just 
 [ignored, derided or fought](no-code-revolution) actual large-scale change.

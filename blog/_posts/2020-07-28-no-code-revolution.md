@@ -2,7 +2,7 @@
 title: No-code automation’s non-violent revolution
 description: The enterprise IT transformation that you might not notice
 layout: hh
-tags: startups
+tags: NoCode
 image: holding-hands.jpg
 ---
 

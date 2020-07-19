@@ -39,7 +39,8 @@ Anyone learning a conventional programming language faces the same problem as so
 [text adventure](https://en.wikipedia.org/wiki/Interactive_fiction)) for the first time:
 finding out what you can type.
 
-<img src="/picture/illustration/black_cave.gif" style="width:400px;height:300px;" alt="A command-line interface that looks like a text adventure">
+<img src="/picture/illustration/black_cave.gif" style="width:400px; height:300px;
+image-rendering: optimizeSpeed; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-rendering: pixelated; image-rendering: optimize-contrast; -ms-interpolation-mode: nearest-neighbor;" alt="A command-line interface that looks like a text adventure">
 
 Meanwhile, most professional programmers find 
 [code completion](https://en.wikipedia.org/wiki/Autocomplete) indispensable,

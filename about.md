@@ -9,22 +9,14 @@ layout: main
 
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
 Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
-Peter’s professional interests are B2B SaaS product, no-code application development, agile software development methods, and software documentation.
-He currently consults as a product manager for a process management B2B SaaS product company, and also delivers the occasional lecture and training course.</p>
+Peter’s professional interests are B2B SaaS products, no-code automation, agile software development methods, and software documentation.
+He currently works as a product manager, and also delivers the occasional lecture and training course.</p>
 
 <p>Peter has presented at several European developer conferences, including ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON. Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a>, Manning Publications and is a certified trainer for <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a>.</p>
 
 <h2>Product management</h2>
 
 <p>Peter focuses on product management, where the combination of his technical background and business experience give him more leverage in creating and maintaining excellent software products than working as a developer or development manager.</p>
-
-<h2>Now &amp; next</h2>
-
-<p><strong>Available 1 September 2020 for product roles, remote or Rotterdam.</strong></p>
-
-<p>Peter is currently a freelance product manager at <a href="http://www.signavio.com">Signavio</a>,
-and is available for product roles, consulting, training and speaking opportunities.</p>
-
 
 <h2>CV</h2>
 
@@ -33,7 +25,6 @@ Peter’s product management CV is available on request.
 Peter’s developer CV additionally consists of his profiles on 
 <a href="https://github.com/hilton">Github</a> and
 <a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.</p>
-
 
 <h2>Writing</h2>
 

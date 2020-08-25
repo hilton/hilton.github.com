@@ -20,7 +20,7 @@ image: jars-on-shelf.jpg
 7. The art of special-purpose software is providing flexibility as well.
 -->
 
-I remember a conversation about release planning, and deciding when and how to release each roadmap item.
+I remember a release planning conversation about when and how to release each roadmap item.
 The tricky question concerned _where_ we might track these decisions:
 in our dedicated product roadmap or release planning tool, perhaps, or in yet another spreadsheet.
 

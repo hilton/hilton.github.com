@@ -74,14 +74,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </table>
 
 
-## Not scheduled
-
-* [Euro-English for software developers](euro-english)
-* _HTTP API checklist_ or _Dr Evil’s HTTP API_
-* _7 joys of coding_ - things that bring joy to writing code
-* _4 kinds of software design for application developers_
-
-
 ## Selected previous presentations
 
 <table class="table">
@@ -571,3 +563,10 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="http://blog.lunatech.com/2007/12/14/seam-action-javapolis-presentation">slides</a></td>
 </tr>
 </table>
+
+## Not scheduled
+
+* [Euro-English for software developers](euro-english)
+* _HTTP API checklist_ or _Dr Evil’s HTTP API_
+* _7 joys of coding_ - things that bring joy to writing code
+* _4 kinds of software design for application developers_

@@ -1,9 +1,9 @@
 ---
-title: 3 fears of public speaking
+title: Three fears of public speaking
 description: How to opt out of things that stop you proposing talks
 layout: hh
 tags: speaking
-image: lecture-hall-audience.jpg
+image: public-speaking-fears-1-3.png
 ---
 
 ![Giving a lecture](lecture-hall-audience.jpg)
@@ -18,9 +18,9 @@ After all, if presenting becomes a habit, you can address your fears later, one 
 
 | Fear of public speaking | How to opt out of the situation | Mitigation
 | --- | --- | ---
-| 1. Bad presentation | Low-stakes casual meet-up | Trial run
-| 2. No potential topic | Choose your favourite topic | Ask your friends
-| 3. Boring topic | Let the event organiser choose | Brainstorm ideas
+| 1. Bad presentation | Low-stakes casual meet-up | Do a trial run to get trusted feedback
+| 2. No potential topic | Choose your favourite topic | Ask your friends what you know about
+| 3. Boring topic | Let the event organiser choose | Brainstorm ideas with the organisers
 
 ## Fear 1: giving a bad presentation
 

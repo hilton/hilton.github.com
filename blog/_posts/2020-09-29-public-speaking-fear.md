@@ -3,12 +3,12 @@ title: Facing fear of public speaking
 description: How to get used to the idea of your first presentation
 layout: hh
 tags: speaking
-image: lecture-hall-speakers.jpg
+image: meetup-presentation.jpg
 ---
 
-![Giving a lecture](lecture-hall-speakers.jpg)
+![Presenting at a meet-up](meetup-presentation.jpg)
 
-<a class="unsplash" href="https://unsplash.com/photos/ID1yWa1Wpx0" rel="noopener noreferrer" title="Photo by Wan San Yip"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Wan San Yip</span></a>
+<a class="unsplash" href="https://unsplash.com/photos/wn7dOzUh3Rs" rel="noopener noreferrer" title="Photo by Charles Deluvio"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Charles Deluvio</span></a>
 
 Fear of public speaking affects everyone, and serves a purpose, but not if it prevents you from doing something that you would otherwise like to do.
 This results in the [catch 22](https://en.wikipedia.org/wiki/Catch-22_(logic)) of public speaking:
@@ -16,6 +16,10 @@ only public speaking will remove whatever blocks you from speaking in public.
 
 You first need to decide whether you value better presentation skills enough to make it worth working to overcome the fear.
 Fortunately, even though the fear never goes away for many speakers, you can take enough control of the situation to reduce it.
+
+_See also: 
+[Speaker Tips – Bootstrapping Conference Speaking](https://trishagee.com/2020/09/19/bootstrapping-conference-speaking/),
+by Trisha Gee_
 
 ## Lower the stakes
 

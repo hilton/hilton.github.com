@@ -3,13 +3,12 @@ title: Three fears of public speaking
 description: How to opt out of things that stop you proposing talks
 layout: hh
 tags: speaking
-image: public-speaking-fears-1-3.png
+image: public-speaking-fears.png
 ---
 
-![Giving a lecture](lecture-hall-audience.jpg)
+![Presenting at a meet-up](meetup-presentation2.jpg)
 
-<a class="unsplash" href="https://unsplash.com/photos/cX2vElQ5aHk" rel="noopener noreferrer" title="Photo by chuttersnap"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>chuttersnap</span></a>
-
+<a class="unsplash" href="https://unsplash.com/photos/0bTdk1u42KY" rel="noopener noreferrer" title="Photo by Charles Deluvio"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Charles Deluvio</span></a>
 
 To overcome your [fear of public speaking](public-speaking-fear] by presenting, you need to figure out how to stop it blocking you.
 First, identify individual blockers, so you can opt out of the situations that create them.
@@ -22,14 +21,14 @@ After all, if presenting becomes a habit, you can address your fears later, one 
 | 2. No potential topic | Choose your favourite topic | Ask your friends what you know about
 | 3. Boring topic | Let the event organiser choose | Brainstorm ideas with the organisers
 
-## Fear 1: giving a bad presentation
+<h2 id="fear1">Fear 1: giving a bad presentation</h2>
 
 If you’ve never presented before, you might worry about giving a bad presentation.
 To avoid the _right-first-time_ trap, pick a venue where a bad presentation wouldn’t really matter:
 a small meet-up, instead of a big conference or an important meeting at work.
 Meanwhile, you can make a bad presentation less likely by doing a trial run for someone whose feedback you trust.
 
-## Fear 2: no potential topic
+<h2 id="fear2">Fear 2: no potential topic</h2>
 
 I once talked to a junior developer at a conference in Poland, who assumed that juniors don’t have anything to present.
 It only took me a minute to discover that she’d switched from astrophysics a year earlier.
@@ -40,7 +39,7 @@ Novice presenters fear that they don’t have anything to say, but fail to recog
 You probably know which topic you would love to talk about if someone asked you to, so make that your first presentation.
 And if you don’t trust your instinct, your friends will happily tell you what you love to go on about.
 
-## Fear 3: boring topic
+<h2 id="fear3">Fear 3: boring topic</h2>
 
 Maybe your friends only tell you to stop going on about your favourite topic because they’ve heard about it enough times, not because they didn’t find it interesting the first time.
 Fortunately, you don’t need to know whether people will find your topic interesting, because someone else already has that particular responsibility.

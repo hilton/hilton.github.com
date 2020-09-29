@@ -3,6 +3,7 @@ title: Numbers that aren’t numbers
 description: ‘Numbers’ that you can’t represent numerically
 layout: hh
 tags: software design
+image: mailbox-13a.jpg
 ---
 
 ![House number 13a](mailbox-13a.jpg)

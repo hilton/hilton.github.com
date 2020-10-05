@@ -16,3 +16,4 @@ This presentation introduces various approaches that software developers can use
 ## Presentations
 
 * [Sytac IT Consulting](http://www.sytac.nl/) - 2 April 2015
+* [Devoxx](http://www.devoxx.com/display/JV08/Meeting-avoidance+for+self-managing+developers) - 10 December 2008

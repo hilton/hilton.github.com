@@ -5,7 +5,13 @@ layout: hh
 tags: programming
 image: 97-things-java.jpg
 css: ".blog .content a img { width:150px; float:right; margin:0 0 1em 1em; }"
+image: gender-type-error.jpg
 ---
+
+![TypeError: no implicit conversion of Gender into Boolean](gender-type-error.jpg)
+
+<a class="unsplash" href="https://twitter.com/QuietMisdreavus/status/1274053719856906240" rel="noopener noreferrer" title="Photo by QuietMisdreavus"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>QuietMisdreavus</span></a>
+of an [original design by telegraham](https://www.redbubble.com/shop/ap/47685989)
 
 <a href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
 <img src="97-things-java.jpg" alt="book cover" style="width:150px"></a>
@@ -22,7 +28,7 @@ When a type has two possible values, that’s a coincidence, and can change - by
 
 Beware: Using `null` to mean something is the worst possible way to implement a third value. You’ll end up needing a code comment like ‘true when the product is available, false when out of stock, null when discontinued’. Please don’t do that.
 
-The most obvious model for products you no longer sell is a `boolean` `discontinued` field, in addition to the `available` field. This works, but is harder to maintain because there’s no hint that these fields are related._ _Fortunately, Java has a way to group named constants.
+The most obvious model for products you no longer sell is a `boolean` `discontinued` field, in addition to the `available` field. This works, but is harder to maintain because there’s no hint that these fields are related. Fortunately, Java has a way to group named constants.
 
 Refactor related Boolean fields like these to a Java _enum type_:
 

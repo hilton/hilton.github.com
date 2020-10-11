@@ -51,7 +51,7 @@ Agile software development’s focus on _working software over comprehensive doc
 This book explains one kind of documentation that can be both of those things, in some contexts.
 For that, I value this book’s modern take on a technique whose roots lie in pre-agile documentation - _functional requirements specifications_ and _product requirements documents_.
 
-The only thing I would wish for this book to improve, or perhaps develop in a follow-up, would be to show and explain more concrete examples. 
+The only thing I would wish for this book to improve, or perhaps showcase in a follow-up, would be to annotate a number of concrete examples. 
 The last chapter introduces an example document only grudgingly.
 Apart from that, I only hope that enough people read the book to persuade the author to release a print edition for me to keep at hand on my bookshelf.
 

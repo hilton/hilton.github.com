@@ -2,7 +2,7 @@
 title: "Book review: Epic Alignment"
 description: How to write structured feature documents
 layout: hh
-tags: product
+tags: product book
 image: epic-alignment.png
 css: ".blog .content a img { width:320px; float:right; margin:0 0 1em 1em; }"
 ---

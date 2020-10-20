@@ -10,13 +10,13 @@ image: cacti.jpg
 
 <a class="unsplash" href="https://unsplash.com/photos/GQD3Av_9A88" rel="noopener noreferrer" title="Photo by Scott Webb"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Scott Webb</span></a>
 
-If you work in software development, you will see certain bugs in every year if your career.
+If you work in software development, you will see certain bugs in every year of your career.
 I recently wrote about [numbers that aren’t numbers](non-numeric-numbers),
 and this article describes another one: unsorted lists.
 
 ## Nobody expects an unsorted list
 
-Imagine than you’re looking at a list of names - documents, people, or whatever - and you can’t work out how the list sorts its entries.
+Imagine looking at a list of names - documents, people, or whatever - and you can’t work out how the list sorts its entries.
 Either you regularly examine detailed software functionality (because you test it), or you can’t find the list item you want, and have started wondering why not.
 
 Sometimes, you can’t find the item you want in a list because the software did not sort the list items, leaving the list unsorted.

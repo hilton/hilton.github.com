@@ -3,7 +3,7 @@ title: Product owner unavailable
 description: Making Scrum work despite patchy product owner availability
 layout: hh
 tags: agile
-image: whiteboards.jpg
+image: desk-abandoned.jpg
 ---
 
 ![Abandoned desk](desk-abandoned.jpg)

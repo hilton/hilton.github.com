@@ -1,8 +1,8 @@
 ---
-title: The API documentation usability challenge
-description: Why HTTP API documentation results in a poor developer experience
+title: The API documentation usability problem
+description: Why API documentation tends towards a poor developer experience
 layout: hh
-tags: API documentation
+tags: product API documentation
 ---
 
 <!--
@@ -12,40 +12,61 @@ tags: API documentation
 4. Developers write the docs
 -->
 
-When someone asks if your app has an API these days, you can assume that they mean an HTTP API that transports data in JSON format.
-HTTP, like the web more broadly, owes its success to its simplicity and openness, and the fact that you can use it anywhere, with any technology.
-HTTP’s strength, however, leads to your HTTP API’s biggest weakness.
+When someone asks if your product has an [API](https://en.wikipedia.org/wiki/API), they probably mean an [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) API that transports data in a standardised text format.
+HTTP, like the web, owes its success to its simplicity and openness, and the fact that you can use it anywhere.
+HTTP’s strength, however, leads to your product’s API’s biggest weakness: its documentation’s usability.
 
-## The HTTP API usability problem
+## Ubiquity comes at the cost of usability
 
-Everyone who uses your API might call it in a different way, making it harder for you to optimise their experience.
-Your API consumers’ experience - their developer experience - matters for the same reason that an application’s user experience matters.
-We should treat developers like people too.
+You can typically use HTTP anywhere, with any technology.
+But every API user might call an HTTP API in a different way, making it harder for you to optimise their experience.
+And even if you provide code examples for more than one programming language, you might still have to choose between popular HTTP client libraries.
 
-To deliver a great developer experience, your API needs to address several related developer needs.
+Some APIs do this well, and maintain a large set of code examples.
+This requires complexity and effort that creates a trade-off with whatever else you might spend that on, such as a better API.
+Meanwhile, you still need API documentation.
 
-1. They need to find out what your API does.
-2. They need to learn how to use your API for the first time.
-3. They need to look up details of your API that they cannot reasonably remember.
-4. They need to troubleshoot failed API requests.
+## Usable APIs have usable documentation
 
-However good your API’s design, people who use it need API documentation.
-From a product perspective, this documentation makes up part of the product, and part of what determines the developer experience.
-And the developer experience contributes to your (API) product’s success, or failure.
+For API users, the developer experience will only be as good as how easily they can:
 
-## The documentation doesn’t match the API client
+1. find out what your API does
+2. learn how to use your API for the first time
+3. look up details of your API that they cannot reasonably remember
+4. troubleshoot failed API requests.
 
-When you don’t know what programming language and HTTP client people will use to access your API, you can’t tailor the documentation to the code they’ll write.
-Instead, a developer will have to write code using information that will appear in the API documentation in the wrong order and in more than one place.
+No matter how good the API design, you also need good API documentation to make it usable.
+The tension between these four documentation purposes and the value of simplicity leads to another trade-off:
+simple vs usable documentation.
 
-This won’t cause a big problem, if your documentation has a logical and consistent structure, but it does mean that the developer has to learn your documentation structure before they can start using and learning your API.
-Unfortunately, this need for consistency and structure can lead documentation authors to structure the documentation the same way they would structure code.
+## HTTP-oriented documentation doesn’t fit the API client
 
-## The API developers write the documentation
+When you don’t know what HTTP client people will use to access your API, you can’t tailor the documentation to the code they’ll write.
+The usual documentation approach deconstructs HTTP requests and responses into separate items:
 
-While customer-facing staff may write most of your product documentation, HTTP API documentation may require more technical knowledge than they have.
-To produce good API documentation you need a technical writer.
-Meanwhile, software development organisations that publish APIs don’t always employ technical writers, so their developers write the API documentation instead.
+* host (server)
+* HTTP method
+* URL
+* request parameters
+* request headers, e.g. authentication, content types
+* request body
+* response status, e.g. error statuses
+* response headers, e.g. content type, rate limits
+* response body
 
-Unfortunately, people who write code don’t usually have technical writing skills as well.
-As a result, the way that programmers tend to write API documentation makes the developer experience worse for developers who need to use that documentation to successfully use the API, for various reasons.
+API users then write code using this information, which the documentation inevitably lists in the wrong order and in separate places.
+
+This won’t cause a critical problem, provided that your documentation has a logical structure, but does mean that API users have to learn your documentation structure before they can start using and learning your API.
+This need for consistency and structure can lead documentation authors to structure the documentation the same way that programmers structure code, at the cost of its usability, not least because programmers write the documentation.
+
+## Developers write the wrong documentation
+
+While customer-facing staff may write your other product documentation, API documentation may require more technical knowledge than they have.
+Programmers have that knowledge, but to produce good API documentation you need a technical writer, which software development organisations don’t always employ.
+Instead, developers write the API documentation.
+
+People who write code don’t necessarily have technical writing skills as well.
+As a result, the way that programmers tend to write API documentation makes the developer experience worse for API users - the developers who need that documentation to use the API.
+
+The intersection of APIs, HTTP and programmers creates a tough documentation problem.
+We don’t have the best solution yet.

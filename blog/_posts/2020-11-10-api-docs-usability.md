@@ -33,7 +33,7 @@ Meanwhile, you still need API documentation.
 
 ## Usable APIs have usable documentation
 
-For API users, the developer experience will only be as good as how easily they can:
+API users’ developer experience will depend on how easily they can:
 
 1. find out what your API does
 2. learn how to use your API for the first time

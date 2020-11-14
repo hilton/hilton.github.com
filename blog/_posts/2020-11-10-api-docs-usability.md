@@ -64,7 +64,7 @@ API users then write code using this information, which the documentation inevit
 This won’t cause a critical problem, provided that your documentation has a logical structure, but does mean that API users have to learn your documentation structure before they can start using and learning your API.
 This need for consistency and structure can lead documentation authors to structure the documentation the same way that programmers structure code, at the cost of its usability, not least because programmers write the documentation.
 
-## Developers write the wrong documentation
+<h2 id="developers">Developers write the wrong documentation</h2>
 
 While customer-facing staff may write your other product documentation, API documentation may require more technical knowledge than they have.
 Programmers have that knowledge, but to produce good API documentation you need a technical writer, which software development organisations don’t always employ.

@@ -51,11 +51,11 @@ perhaps we’ll get used to them in our file names, spreadsheets and databases a
 
 File names and databases suffer from a related historical inertia: fear of spaces.
 Using underscores instead of spaces may allow you to conveniently skip quote characters, in some contexts,
-that doesn’t make it okay to force rob everyone of spaces.
+but that kind of laziness doesn’t justify robbing everyone of spaces.
 Meanwhile, you don’t need to quote text in boxes - fields on a form or cells in a spreadsheet.
 
 Underscores deserve suspicion when they replace the forbidden space characters that normal people (not programmers) might naturally try first.
-Everything that don’t just work makes software hard to use, and arbitrary rules about ‘special characters’ contribute to the horror of typical software ‘usability’.
+Everything that doesn’t just work makes software hard to use, and arbitrary rules about ‘special characters’ contribute to the horror of typical software ‘usability’.
 
 Progress remains slow, even though modern software’s underlying technologies typically haven’t had those limitations for a decade or two.
 Meanwhile, much software development remains fixated on 1970s era Unix tooling, 

@@ -32,7 +32,8 @@ It gets worse than the CMS problem, though, with subtler documentation-avoidance
 
 [The OpenAPI Specification](https://www.openapis.org)
 describes detailed machine-readable HTTP API descriptions.
-Developers can potentially use OpenAPI to produce API documentation, but only if they write the ‘words and spaces’ (in `description` fields) instead of _only_ writing code to generate OpenAPI documents from API implementation code.
+Developers can potentially use OpenAPI to produce API documentation, but only if they write the ‘words and spaces’ (in `description` fields) instead of _only_ writing code to 
+[generate OpenAPI documents from API implementation code](https://nrkbeta.no/2019/08/26/on-architecture-fifth-post-how-i-got-programming-to-an-interface-wrong/).
 
 To resist the temptation to write code, many developers focus on the writing by reducing tooling to the minimum, 
 and writing documentation in [Markdown](https://en.wikipedia.org/wiki/Markdown) files.

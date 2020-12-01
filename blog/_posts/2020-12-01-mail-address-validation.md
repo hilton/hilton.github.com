@@ -13,7 +13,7 @@ image: message-bottle.jpg
 Every time you add an email address field to a product, you wonder _how can we tell if the user entered the right email address?_
 This calls for more than basic address format validation, and even trying to do that turns out worse than you expected.
 
-You haven’t validated a mail address unless you’ve sent mail to it, and confirmed that the right person got it.
+You haven’t validated a mail address unless you’ve sent mail to it, and confirmed that the right person received it.
 This validation has four levels.
 
 ## 1. Check against the SMTP standard
@@ -60,5 +60,5 @@ To check that an address exists, in practice, you have to send mail there and co
 ## 4. Check if the address belongs to the right person
 
 Just because someone receives your verification mail, doesn’t mean the _right_ person did.
-Implement a final check that blocks people from using your product until you have confirmed that _they_ received the mail you sent them.
+Add a final check that blocks people from using your product until you have confirmed that _they_ received the mail you sent them.
 Otherwise, they will use your service without correcting the mistake, like the Peter Hilton in another country whose telephone bill I receive every month.

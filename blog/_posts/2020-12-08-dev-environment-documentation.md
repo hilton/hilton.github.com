@@ -18,9 +18,9 @@ A good team keeps it short.
 Whatever software development method you use, a product development team needs a written guide to setting up a development environment for a new team member.
 A new team member needs step-by-step instructions for getting the source code, running tests, building the application, and running the application on a new workstation. 
 
-Without documentation you can explain these things verbally, but in practice no-one memorises every detail: 
+You can explain anything verbally, without documentation, but in practice no-one memorises every detail: 
 URLs, file paths, customisable settings and the like.
-Writing these things down makes life easier.
+Writing these details down makes life easier.
 
 Ideally, you minimise the required set-up by automating the development environment, and the build in particular.
 However, even if you do this, you still need to know how to get the source code and run that build, as well as perform other tasks.
@@ -41,7 +41,7 @@ To some degree, you can address this with documentation.
 
 ## Save time and spread team rotation cost
 
-You get two benefits from writing documentation for new team members to use during their first few weeks on the team:
+You get two benefits from writing documentation for new team members to use during their first weeks on the team:
 
 1. save time - it takes less time to write development environment documentation than to figure it out 
 2. spread the cost of team member changes - reduce the impact on existing team members. 

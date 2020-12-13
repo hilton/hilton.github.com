@@ -61,7 +61,7 @@
 		<p class="lead">
 			<span itemprop="description">{{ page.description }}</span>
 			<small><span class="text-muted">
-			{% if page.date %}- {{ page.date | date_to_long_string }}{% endif %}
+			{% if page.date %}- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}{% endif %}
 			{% for tag in page.tags %}#{{ tag }} {% endfor %}
 			</span></small>
 		</p>

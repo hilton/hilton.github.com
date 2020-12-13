@@ -21,7 +21,7 @@ layout: hh
 {% for page in site.categories.blog %}
 <h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
 <p>{{ page.description }}
-<span class="text-muted">- {{ page.date | date_to_long_string }}
+<span class="text-muted">- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}
 {% for tag in page.tags %}#{{ tag }} {% endfor %}</span></p>
 {% endfor %}
 

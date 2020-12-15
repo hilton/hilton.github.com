@@ -46,7 +46,7 @@ Don’t speak at events whose organisers won’t protect you from bad actors.
 ## Face your insecurities
 
 You will still find other things to worry about: enough slides, interesting slides, your expertise, etc.
-Unfortunately, many mediocre presenters are confident enough to give (bad) presentations, while others wrongly question their qualifications and what they have to say.
+Unfortunately, many mediocre presenters have enough confidence to give (bad) presentations, while others wrongly question their qualifications and what they have to say.
 Perhaps the following helps.
 
 * Everyone has something unique and interesting to say

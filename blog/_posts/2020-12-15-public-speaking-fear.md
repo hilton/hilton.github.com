@@ -36,7 +36,7 @@ In general, the audience wants you to succeed; they want validation that they ch
 
 Although the audience will support you, it only takes one asshole to create a bad experience.
 You don’t have to own this particular problem.
-Event organisers care more than you do about its success, and therefore _your_ success, so you can expect them to deal problems that you shouldn’t have to.
+Event organisers care more than you do about its success, and therefore _your_ success, so you can expect them to deal with problems that you shouldn’t have to.
 
 Be explicit to organisers about what you want to avoid, in case they happen to like hostile Q&A, say.
 You can always tell the organisers that instead of taking questions, you will happily talk to people during the break afterwards.

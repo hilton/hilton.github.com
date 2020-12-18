@@ -28,7 +28,7 @@ It turns out that while Scrum masters, world-wide, were struggling with the firs
 
 ## Post-it notes that _don’t_ fall off
 
-In case you missed it, [Viktor Grgic](https://twitter.com/vgrgic/status/501659858396278784) pointed out that you can also get [Super Sticky Post-it notes](http://solutions.3m.co.uk/wps/portal/3M/en_GB/PostIt-EU-Global/PostIt/Products/ProductCatalog/~/Post-it-Super-Sticky-Notes-Canary-Yellow-?N=3293817732+4327+3294529196&rt=rud). They look like normal Post-it notes in the product photo, but the web page copy suggests that they are nothing less than a life-transforming innovation:
+In case you missed it, [Viktor Grgic](https://twitter.com/vgrgic/status/501659858396278784) pointed out that you can also get [Super Sticky Post-it notes](https://www.3m.co.uk/3M/en_GB/company-uk/3m-products/~/Post-it-Super-Sticky-Notes-Canary-Yellow-12-Pads-76-mm-x-76-mm/). They look like normal Post-it notes in the product photo, but the web page copy suggests that they are nothing less than a life-transforming innovation:
 
 > Post it® Super Sticky Notes Canary Yellow™
 > 

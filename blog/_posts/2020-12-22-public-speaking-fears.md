@@ -4,6 +4,7 @@ description: How to opt out of things that stop you proposing talks
 layout: hh
 tags: speaking
 image: public-speaking-fears.png
+twitter_card: summary_large_image
 ---
 
 ![Presenting at a meet-up](meetup-presentation2.jpg)

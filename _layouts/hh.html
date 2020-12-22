@@ -30,7 +30,7 @@
 <meta property="og:image:alt" content="{% if page.image %}blog illustration{% else %}Peter Hilton{% endif %}" />
 <meta property="og:locale" content="en_GB" />
 {% feed_meta %}
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="{% if page.twitter_card %}{{ page.twitter_card }}{% else %}summary{% endif %}" />
 <meta name="twitter:site" content="@PeterHilton" />
 <meta name="twitter:creator" content="@PeterHilton" />
 </head>

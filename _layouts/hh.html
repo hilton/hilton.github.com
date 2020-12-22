@@ -9,6 +9,8 @@
 	{% assign home = '/' %}
 {% endif %}
 <title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton’s blog{% endif %}</title>
+<link rel="icon" href="/favicon.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="{{ home }}style/hh-2014.css">
 {% if page.url contains '/blog/' %}<link rel="stylesheet" type="text/css" href="{{ home }}style/pygments.css">{% endif %}

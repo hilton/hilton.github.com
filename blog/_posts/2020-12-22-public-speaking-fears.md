@@ -48,7 +48,7 @@ And if you don’t trust your instinct, your friends will happily tell you what 
 Maybe your friends only tell you to stop going on about your favourite topic because they’ve heard about it enough times, not because they didn’t find it interesting the first time.
 Fortunately, you don’t need to know whether people will find your topic interesting, because someone else already has that particular responsibility.
 
-Don’t decide other people will find interesting: let the event organisers decide.
+Don’t decide what other people will find interesting: let the event organisers decide.
 If they accept your presentation topic, they share responsibility for its success with their audience, who they probably know better than you do.
 Besides, maybe struggle with repetitive events and want something off-topic.
 Either way, if they brainstorm ideas with you, you all get to know both you and the audience better.

@@ -4,7 +4,7 @@ description: The conventional way to write hard-to-use API documentation
 layout: hh
 tags: product API documentation
 image: typewriter-deconstructed.jpg
-css: ".hierarchy { margin-left:3em; line-height:1.2em; } 
+css: ".hierarchy { margin-left:3em; line-height:1.1em; } 
   .hierarchy span { color: #DF5A49; white-space: pre; font-size: 1.2em; font-family: serif; }"
 ---
 
@@ -75,12 +75,14 @@ HTTP API documentation tends to structure the API in a deeply-nested hierarchy:
 <br><span>┃┃┃┣</span> Parameters
 <br><span>┃┃┃┣</span> Headers
 <br><span>┃┃┃┗</span> Body
-<br><span>┃┃┗</span> Response
-<br><span>┃┃    ┣</span> Status
-<br><span>┃┃    ┣</span> Headers
-<br><span>┃┃    ┗</span> Body
-<br><span>┃┣</span> URL path…
-<br><span>┣</span> …  
+<br><span>┃┃┣</span> Response
+<br><span>┃┃┃┣</span> Status
+<br><span>┃┃┃┣</span> Headers
+<br><span>┃┃┃┗</span> Body
+<br><span>┃┃┗</span> Errors
+<br><span>┃┃    ┗</span> …
+<br><span>┃┣</span> …
+<br><span>┣</span> …
 </p>
 
 Splitting each HTTP request across this hierarchy scatters the parts of a URL like `https://api.example.com/search?query=new` to several different places in the documentation.

@@ -11,7 +11,7 @@ image: laziness.jpg
 Productivity patterns give catchy names to productivity hacks and other habits, good and bad: like [design patterns](https://en.wikipedia.org/wiki/Design_pattern) but for productivity. For programmers, constructive laziness trumps all other productivity patterns by turning productivity problems into coding problems.
 
 
-# Understanding constructive laziness
+## Understanding constructive laziness
 
 To begin to understand constructive laziness, you need an explanation that fits in a Tweet. My friend Denis wrote my favourite example:
 
@@ -35,7 +35,7 @@ However, the earliest reference I’ve read didn’t use the name ‘constructiv
 In fact, ‘work avoidance’ sums it up pretty well. Of course, all three writers also code so we should change that to ‘work avoidance by coding’. We also need to figure out what that means in practice.
 
 
-# Applying constructive laziness
+## Applying constructive laziness
 
 To apply constructive laziness to your work, you find opportunities to replace non-coding problems with coding problems, in order to increase the proportion of your time you spend writing code.
 Ideally, you also save time by doing so, although this will not _necessarily_ happen.
@@ -60,7 +60,7 @@ Apparently, you can even apply constructive laziness to language design:
 > [LazinessImpatienceHubris](http://c2.com/cgi/wiki?LazinessImpatienceHubris), c2 wiki
 
 
-# Not writing code
+## Not writing code
 
 If you consider it more important to do less work than to replace work with programming, the constructive laziness may lead you to avoid writing code and instead use someone else’s. In polite conversation, we call this _software re-use_. Other times, we call it _dependency hell_ and go off on rants about package managers.
 
@@ -69,7 +69,7 @@ At the time of writing, the [left-pad controversy](http://blog.christoffer.me/no
 This dilemma teaches us that the right way to apply constructive laziness depends on the economics of the situation you’re in.
 
 
-# Not explaining code
+## Not explaining code
 
 Using constructive laziness to replace work with programming can lead to a situation where you have more code to write than you have time for. In some cases, this leads to programmers working together in teams, which in turn leads to a new problem.
 

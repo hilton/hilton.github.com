@@ -5,72 +5,80 @@ layout: hh
 tags: software product
 ---
 
-One point in the twenty year-old 
-[Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
-stands out:
+![A lizard](lizard.jpg)
 
-> 5. Do you fix bugs before writing new code?
+<a class="unsplash" href="https://unsplash.com/photos/GCNngfLRCKU" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Katie Blackmore</span></a>
 
-Spolsky refers to a tragically common problem:
-software development teams fix some bugs, but not others, and end up tracking hundreds of open bugs.
+Product development teams typically don’t use their own software enough to understand their customers’ experience,
+and underestimate how much their customers hate bugs.
+Meanwhile, many software development teams fix some bugs, but not others, and end up tracking hundreds of open bugs.
 This wastes time, and does not deliver value.
 
-I recommend reading the whole article, or at least the explanation of question 5.
+The [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+addressed this twenty years ago with this question:
+
+> {:start="5"}
+> 5. Do you fix bugs before writing new code?
+
 Spolsky explains that a team with a large number of open bugs has a worse problem than the time wasted managing that list:
 an unknown amount of liability for future work.
-Software development schedules have no meaning with open bugs.
-Fixing bugs first creates predictability.
+Software development schedules have no meaning with open bugs, while fixing bugs first creates predictability.
 
 Alternatively, save yourself some time by skipping both Spolsky’s article and this one, and immediately implement 
 [Yassal Sundman](https://twitter.com/yassalsundman)’s bug management system:
-[Fix It Now or Delete It!](https://www.fixitnowordeleteit.com).
+[Fix It Now or Delete It!](https://www.fixitnowordeleteit.com)
 
+{:#adopt}
 ## Adopt a zero-bug policy
 
-Each time someone reports a bug, either put it at the top of the backlog and fix it before any new feature development, or stop current work and fix it immediately, in case of a critical issue.
-Otherwise, close the bug report and don’t fix the bug.
-Anything less, and you encourage incomplete work and double-handling.
+Fixing bugs before you write new code means adopting a zero-bug policy:
 
-If this feels like a radical reprioritisation, then you may need to spend more time using your own software and talking to customers, to understand how they feel.
-Product development teams typically underestimate the impact of known bugs, and the negative sentiment caused by giving everything else you do higher priority.
+1. When you discover a bug, fix it before other product development work, by default.
+2. If fixing the bug delivers little value, discard the bug report instead.
+3. Don’t keep low-priority bugs unfixed for ‘later’.
 
-A zero-bug policy also has an unexpected consequence for how you start following it:
-you have to close or delete all reports of bugs that you don’t want to fix right now, before continuing with other work.
-If this shocks you, consider that this won’t result in fixing fewer bugs.
+Anything else encourages releasing unfinished work and success theatre.
+Keeping bugs for ‘later’ also leads to double-handling, such as reprioritising to _even lower_, rescheduling to _even later_, and reproducing buggy behaviour.
 
-## Decide which bugs to fix
+A zero-bug policy has an unexpected consequence at the start:
+you have to discard all bug reports that you won’t resolve before resuming other work.
+If this sounds extreme, consider that it won’t result in fixing fewer bugs.
 
-Introducing a zero-bug does not mean working on every bug report:
-product managers have to decide what to reject.
-Otherwise, you’ll spend time fixing issues that don’t affect customers, instead of doing something more important.
-[Yassal Sundman](https://twitter.com/yassalsundman) 
-goes into more detail about deleting new and old bug reports in
-[Stop Managing Bugs, Start Focusing on Quality!](https://blog.crisp.se/2018/02/05/yassalsundman/stop-managing-bugs-start-focusing-on-quality).
-Yassal has also published ‘The Definitive Bug Management System’ at https://www.fixitnowordeleteit.com
+{:#decide}
+## Decide what to fix
 
-Some bug reports really describe potential improvements to existing functionality, or even new features.
+Introducing a zero-bug policy does not mean fixing every bug:
+product managers have to decide what to ignore.
+Otherwise, you’ll incur the opportunity cost of fixing issues that don’t affect customers.
+[Yassal Sundman](https://twitter.com/yassalsundman) advocates deleting bug reports in
+[Stop Managing Bugs, Start Focusing on Quality!](https://blog.crisp.se/2018/02/05/yassalsundman/stop-managing-bugs-start-focusing-on-quality), 
+and in [The Definitive Bug Management System](https://www.fixitnowordeleteit.com).
+
+Some bug reports describe improvements to existing functionality, or missing features.
 [Sam Hatoum](https://twitter.com/sam_hatoum) 
-explains when the product manager must reclassify bugs as _improvements_ or _new features_ in
+discusses reclassifying bugs as _improvements_ or _new features_ in
 [Zero-Bug Software Development](https://medium.com/qualityfaster/the-zero-bug-policy-b0bd987be684).
 
-Deciding which customer feedback to classify as bugs shouldn’t require any discussion.
-If product managers and software developers don’t agree on what to call a bug, that may indicate other problems that you need to address.
+Choosing what to classify as a bug shouldn’t require discussion.
+If product managers and developers don’t agree on what to call a bug, you probably need to address other problems.
 
+{:#bugs}
 ## Continue discovering bugs
 
-You would have to thoroughly fail to understand software development to think a zero bug policy means that the software will never have bugs.
-Instead of getting upset by the _zero-bug_ name, or confusing it with 
-[zero defects](https://en.wikipedia.org/wiki/Zero_Defects) in industrial production,
+If you expect a zero bug policy to mean software that never has bugs, you clearly don’t understand software development.
+Don’t get upset by the _zero-bug_ name, or confuse it with 
+[zero defects](https://en.wikipedia.org/wiki/Zero_Defects) in industrial production;
 consider _zero bugs_ as an achievable objective.
-Call it the _zero bugs objective_ if it makes you feel better.
+Call it the _zero bugs objective_ if you like.
 
-Although you will always discover bugs and receive bug reports, you will have zero _known bugs_ for some or even most of the time.
-If a zero bugs policy does not continually reduce the number of open bugs, then it has served another purpose by uncovering other issues, such as ineffective testing or unmaintainable software whose bugs take a long time to fix.
+You will continue to discover bugs, but you can have zero known bugs most of the time.
+If not, you have other problems, such as ineffective testing or unmaintainable code that slows down bug fixing.
 
+{:#speed}
 ## Increase development speed
 
-It turns out that a zero-bug policy doesn’t only improve software quality.
-If you don’t waste time managing bugs and having meetings about unpredictable development schedules, you end up with more time for product development.
+Zero-bug policies don’t only improve software quality.
+Instead of managing bugs and having meetings about unpredictable development schedules, you have time for product development.
 [Jan Peratt](https://twitter.com/JanPeratt) 
 explains how ‘fixing bugs continuously increases long-term velocity’ in
 [How a zero-bug policy doubled our development velocity](https://www.linkedin.com/pulse/how-zero-bug-policy-doubled-our-development-velocity-jan-peratt).

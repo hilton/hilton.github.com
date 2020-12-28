@@ -3,7 +3,6 @@ title: Implement a zero-bug policy
 description: How to manage bugs during software product development
 layout: hh
 tags: software product
-image: toy-flow-chart-2x.png
 ---
 
 One point in the twenty year-old 

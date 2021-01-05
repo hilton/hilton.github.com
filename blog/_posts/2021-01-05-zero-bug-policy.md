@@ -3,6 +3,7 @@ title: Implement a zero-bug policy
 description: How to manage bugs during software product development
 layout: hh
 tags: software product
+image: lizard.jpg
 ---
 
 ![A lizard](lizard.jpg)

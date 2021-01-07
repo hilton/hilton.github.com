@@ -20,6 +20,9 @@ css: ".hierarchy { margin-left:3em; line-height:1.1em; }
 5. The resulting documentation prioritises the writer and editor over the readers.
 -->
 
+*[API]: application programming interface - allows software to communicate with other software, via HTTP in this context
+*[HTTP]: Hypertext Transfer Protocol - the worldwide web’s standard for transferring data, commonly also used for APIs
+
 [Developers write bad API documentation](developers-bad-documentation)
 because they apply good coding habits to technical writing, where they don’t belong.
 In particular, software development encourages aggressive hierarchical decomposition - putting things in boxes.

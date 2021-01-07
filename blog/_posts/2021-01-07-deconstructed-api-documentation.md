@@ -22,6 +22,7 @@ css: ".hierarchy { margin-left:3em; line-height:1.1em; }
 
 *[API]: application programming interface - allows software to communicate with other software, via HTTP in this context
 *[HTTP]: Hypertext Transfer Protocol - the worldwide web’s standard for transferring data, commonly also used for APIs
+*[URL]: uniform resource locator - uniquely identifies data than an API accesses, in this context
 
 [Developers write bad API documentation](developers-bad-documentation)
 because they apply good coding habits to technical writing, where they don’t belong.

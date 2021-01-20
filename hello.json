@@ -1,0 +1,6 @@
+{
+  "message": {
+    "type": "Greeting",
+    "content": "Hello, world!"
+  }
+}

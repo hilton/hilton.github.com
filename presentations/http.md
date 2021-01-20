@@ -10,7 +10,7 @@ HTTP’s popularity is largely due to the simplicity of its text-based format an
 Despite this, many web application development frameworks attempt to provide an abstraction layer over HTTP, and only add complexity in the attempt to hide the details.
 
 This short presentation introduces HTTP basics for beginners, and shows what it looks like under the covers.
-Novice web developers benefit from this introduction by learning to understand where a platform-specific ends and where HTTP and the platform we call ‘the web’ starts.
+Novice web developers benefit from this introduction by learning to understand where a platform-specific technology ends and where HTTP and the platform we call ‘the web’ starts.
 
 
 ## Slides

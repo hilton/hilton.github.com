@@ -18,6 +18,8 @@ image: hello-beautiful.jpg
 5. Save time
 -->
 
+*[I18N]: internationalisation, which has eighteen letters between the first and last
+
 The shift to web-based software introduced us all to email notifications.
 Meanwhile, as we shift personal communication from email to other messaging platforms, hand-typed email becomes rarer.
 We’ve ended up with email inboxes full of email from software.

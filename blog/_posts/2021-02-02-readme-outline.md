@@ -3,7 +3,8 @@ title: What to put in a README
 description: How to minimally document software
 layout: hh
 tags: software documentation
-image: notepad-writing.jpg
+image: readme.png
+twitter_card: summary_large_image
 css: "ol{font-weight:bold;padding:1em 3em;border:1px solid #ccc;width:640px} table{font-size:120%;width:38em} pre{width:640px}"
 ---
 
@@ -26,7 +27,7 @@ A standard outline solves this.
 ## Standard README outline
 
 I recommend the following standard README outline ([template below](#template)),
-which is enough to have better documentation than nearly every GitHub repository.
+which includes enough to have better documentation than nearly every GitHub repository.
 Ten sections seems like a reasonable compromise between documentation length and breadth, 
 as several sections only require one or two sentences.
 

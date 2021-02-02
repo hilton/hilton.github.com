@@ -14,7 +14,7 @@ Credit card numbers typically appear on the card in groups of four digits, separ
 This makes the number easier to read and transcribe.
 Other [non-numeric numbers](non-numeric-numbers), such as account numbers,
 also typically have a common display format, often using spaces or punctuation for grouping.
-This difference, between the data and its presentation, lays a trap for unwary product designers.
+This difference, between the data and its presentation, traps unwary product designers.
 
 ## Credit card numbers
 

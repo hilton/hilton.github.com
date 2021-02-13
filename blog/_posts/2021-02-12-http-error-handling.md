@@ -11,7 +11,7 @@ image: ice-cream-dropped.jpg
 <a class="unsplash" href="https://unsplash.com/photos/52jRtc2S_VE" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Sarah Kilian</span></a>
 
 Your API’s developer experience (DX) matters as much as your web site’s user experience:
-making people more successful, ultimate makes more people successful.
+making people more successful ultimately makes more people successful.
 For HTTP APIs, a good DX doesn’t only come from HTTP’s simplicity, but also from its depth.
 
 ## Use HTTP’s rich vocabulary
@@ -76,7 +76,7 @@ discusses error responses more broadly, for different kinds of HTTP API.
 
 ## Check which status code to use
 
-Instead, of trying to memorise them, use HTTP
+Instead of trying to memorise them, use HTTP
 [status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) 
 as a checklist for how to improve your API’s DX.
 Status codes support the simplest possible error handling, but HTTP doesn’t stop there, and neither should your developer experience.

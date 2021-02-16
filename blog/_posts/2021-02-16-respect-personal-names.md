@@ -24,7 +24,7 @@ Software designers and developers have their own tropes, and misname people in t
 
 Software has all kinds of bugs and bad design, but people’s names deserve special consideration.
 Your name deserves special consideration.
-You take it personally when software, idiots and bullies get it wrong.
+You take it personally when software, idiots and bullies get your name wrong.
 
 ## Bad letters and bad words
 
@@ -34,7 +34,11 @@ If your software misnames people or rejects their names due to characters you do
 
 [Why Web Filters Don't Work: Penistone and the Scunthorpe Problem](https://www.youtube.com/watch?v=CcZdwX4noCE) (video)
 explains why trying to prevent _bad words_ doesn’t work without human assessment or science-fiction artificial intelligence.
-Again, if you think your software can judge names’ acceptability, you need to talk to your CTO.
+Or as [@0xabad1dea put it](https://twitter.com/0xabad1dea/status/1358461414852222978):
+
+> you cannot algorithmically distinguish “real” names from “fake” ones and any attempt you make is automatically racist
+
+Again, if you think your software can judge names’ acceptability and without automatic racism, you need to talk to your CTO.
 
 ## The complexity of names
 
@@ -52,8 +56,8 @@ offers advice that may help here:
 > Either you make sure your management has the cognitive capability to manage a complex and complicated environment or you pretend what is being managed is simple.
 
 Perhaps modelling peoples’ names as _first name_ followed by _last name_ represent the same naïve simplification as management consulting’s beloved 2×2 matrices.
-A discussion on management consulting’s value lies outside this article’s scope, but I can say that splitting personal names into _first_ and _last_ doesn’t work
-Don’t take too much comfort in _most_ of your competitors also getting this wrong.
+A discussion on management consulting’s value lies outside this article’s scope, but I can say that splitting personal names into _first_ and _last_ doesn’t work.
+And don’t take too much comfort in _most_ of your competitors also getting this wrong.
 
 ## Disrespectful name mangling
 
@@ -64,7 +68,9 @@ Kees de Kooter maintains a
 for web sites that force the _last name’s_ first letter to upper case.
 His surname starts with a lower-case ‘d’.
 
-Meanwhile, Patrick McKenzie, listed the falsehoods linked above in response to an article by John Graham-Cumming, whose surname contains punctuation that web sites cannot handle.
+Meanwhile, Patrick McKenzie listed those 
+[falsehoods about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+in response to an article by John Graham-Cumming, whose surname contains punctuation that web sites cannot handle.
 Both writers have last names that contain two upper-case letters.
 
 ## Respect people’s full names

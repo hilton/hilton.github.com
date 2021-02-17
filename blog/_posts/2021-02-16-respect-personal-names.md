@@ -12,6 +12,7 @@ image: certificate.jpg
 
 *[CTO]: Chief Technology Officer - company executive responsible for technology
 
+{:#tropes}
 In television drama, we recognise idiots by their
 [accidental misnaming](https://tvtropes.org/pmwiki/pmwiki.php/Main/AccidentalMisnaming)
 and bullies by their
@@ -26,6 +27,7 @@ Software has all kinds of bugs and bad design, but people’s names deserve spec
 Your name deserves special consideration.
 You take it personally when software, idiots and bullies get your name wrong.
 
+{:#filters}
 ## Bad letters and bad words
 
 [Allow all printable characters](allow-all-printable-characters) (earlier in this series)
@@ -36,10 +38,12 @@ If your software misnames people or rejects their names due to characters you do
 explains why trying to prevent _bad words_ doesn’t work without human assessment or science-fiction artificial intelligence.
 Or as [@0xabad1dea put it](https://twitter.com/0xabad1dea/status/1358461414852222978):
 
+{:.big style="max-width:31em"}
 > you cannot algorithmically distinguish “real” names from “fake” ones and any attempt you make is automatically racist
 
 Again, if you think your software can judge names’ acceptability and without automatic racism, you need to talk to your CTO.
 
+{:#complexity}
 ## The complexity of names
 
 Intellectually, software developers and designers understand real-world complexity, and know about
@@ -59,6 +63,7 @@ Perhaps modelling peoples’ names as _first name_ followed by _last name_ repre
 A discussion on management consulting’s value lies outside this article’s scope, but I can say that splitting personal names into _first_ and _last_ doesn’t work.
 And don’t take too much comfort in _most_ of your competitors also getting this wrong.
 
+{:#mangling}
 ## Disrespectful name mangling
 
 Some software deliberately breaks people’s names, in a misguided attempt to make them conform to a simplistic model.
@@ -73,6 +78,7 @@ Meanwhile, Patrick McKenzie listed those
 in response to an article by John Graham-Cumming, whose surname contains punctuation that web sites cannot handle.
 Both writers have last names that contain two upper-case letters.
 
+{:#respect}
 ## Respect people’s full names
 
 Don’t call people’s names invalid, or otherwise blame them for your software’s inadequacies.

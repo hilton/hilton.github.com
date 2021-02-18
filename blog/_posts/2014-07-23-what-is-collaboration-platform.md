@@ -1,7 +1,7 @@
 ---
 title: What is a collaboration platform?
 description: Collaboration is a tag - not a category
-tags: collaboration
+tags: collaboration product
 layout: hh
 image: collaboration.jpg
 ---

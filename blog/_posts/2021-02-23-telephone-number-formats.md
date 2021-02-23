@@ -64,7 +64,7 @@ As a result, you won’t find an international way to format a telephone number 
 While telephone numbers in many countries all have ten digits, for example,
 [telephone numbers in Italy](https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy) vary, with 6-11 digit landline numbers.
 
-## Formatting approaches
+## Telephone number formatting approaches
 
 Given this international variation, you get to choose between the following approaches.
 

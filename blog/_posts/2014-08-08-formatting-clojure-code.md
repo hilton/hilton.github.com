@@ -7,6 +7,8 @@ layout: hh
 
 ![A typewriter](typewriter.jpg)
 
+<a class="unsplash" href="https://www.flickr.com/photos/kruemi/3391634807" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Marco Tedaldi</span></a>
+
 The problem with Clojure source code is that there are too many parentheses. Clojure code is inherently hierarchical, which is what the parentheses show, so it’s a problem if it isn’t easy to see the structure. This is why Clojure programmers tend to apply what David Bryant Copeland calls [Source Code Typography](http://www.naildrivin5.com/blog/2013/05/17/source-code-typography.html) - indentation and syntax highlighting.
 
 I’m not a Clojure programmer, so I don’t really know anything about this, but I’m pretty sure there’s something wrong here. There are two reasons why this could be better. First, though, let’s see what Clojure code normally looks like.
@@ -164,5 +166,3 @@ The examples above are based on screenshots of the following MathML, rendered in
 ## Clojure implementation
 
 Writing a Clojure program that presents Clojure source as editable MathML is left as an exercise for the reader :)
-
-_Photo: [Marco Tedaldi](https://www.flickr.com/photos/kruemi/3391634807)_

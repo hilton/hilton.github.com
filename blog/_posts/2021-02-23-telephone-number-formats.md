@@ -1,6 +1,6 @@
 ---
-title: Why telephone numbers don’t add up
-description: No such thing as an international telephone number format
+title: Allow varied national telephone number formats
+description: Why telephone numbers don’t add up
 layout: hh
 tags: software design
 image: telephone.jpg

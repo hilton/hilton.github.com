@@ -11,15 +11,15 @@ tags: writing
 
 People sometimes ask me about starting a public tech blog, to give developers an opportunity to write in public, and promote their work.
 The recently-resurrected Lunatech Blog shows how I did this, from 2005 to 2014.
-I mostly did this by example, writing about half of the (roughly) twice-monthly posts myself.
+I started regular blog posts in my first year at Lunatech, which had no other online content marketing at the time.
 
-I wrote about a variety of topics, mostly technical articles for developers, agile software development, reviews, and company events.
+I produced Lunatech’s blog by example, writing about half of the (roughly) twice-monthly posts myself.
+I wrote about a variety of topics: technical articles for developers, agile software development, reviews, and company events.
 At the time I didn’t worry much about which topics to choose, although analytics data gradually revealed that niche technical topics had the most long-term traffic.
 
 ## 2005
 
-I started regular blog posts in my first year at Lunatech, mostly as a response to the otherwise total absence of online publicity.
-Today, I like the one about 
+Looking back to 2005, I like the one about 
 [information radiators](https://blog.lunatech.com/posts/2005-10-07-information-radiators-dashboard-wall)
 the most, because I found it so _satisfying_ to update the chart every day.
 Of course, the 

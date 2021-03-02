@@ -1,6 +1,6 @@
 ---
 title: Technical writing - my first ten years
-description: Posts on the @Lunatech tech blog, 2005-2014
+description: Posts on the @LunatechLabs tech blog, 2005-2014
 layout: hh
 tags: writing
 image: typewriter.jpg

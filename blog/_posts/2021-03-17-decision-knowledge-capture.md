@@ -3,7 +3,7 @@ title: Capturing what’s in your head
 description: The decision-making tacit knowledge problem
 layout: hh
 tags: NoCode
-image: birthday-cake.png
+image: birthday-cake.jpg
 ---
 
 ![Birthday cake](birthday-cake.jpg)

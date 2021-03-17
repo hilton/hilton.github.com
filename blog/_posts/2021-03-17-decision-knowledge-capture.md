@@ -44,6 +44,6 @@ when it comes to complex decision-making, most experts train for the ability to 
 As a non-programmer, you still might benefit from capturing your expert knowledge in a decision tree, to automate routine work, train colleagues, or discuss and improve this decision-making.
 However, few kinds of experts do this, for various reasons that have as much to do with history as feasibility.
 
-Intriguingly, most experts have ever seen a decision management tool, let alone actually used one.
+Intriguingly, most experts have never seen a decision management tool, let alone actually used one.
 Most professions resist the idea that technology might make it possible to systematically describe some of their members’ decisions.
 But this leads to precisely the opportunity for no-code decision management tools that give subject matter experts a way to capture some of the expertise in their head.

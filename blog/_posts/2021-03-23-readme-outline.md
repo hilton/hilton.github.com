@@ -20,16 +20,16 @@ by promoting [README](https://en.wikipedia.org/wiki/README) files:
 
 ![GitHub prompt to add a README](github-readme.png){:srcset='github-readme-2x.png 2x'}
 
-Despite the popularity of using a Markdown README file to provide minimal documentation, software developers typically either don’t know what to include, or leave out important information.
+Despite Markdown README files’ popularity, software developers typically either don’t know what to include, or leave out important information.
 A standard outline solves this.
 
 {:#outline}
 ## Standard README outline
 
-I recommend the following standard README outline ([template below](#template)),
+I recommend the following README outline ([template below](#template)),
 which includes enough to have better documentation than nearly every GitHub repository.
 Ten sections seems like a reasonable compromise between documentation length and breadth, 
-as several sections only require one or two sentences.
+as several only require one or two sentences.
 
 1. What it is
 2. Purpose
@@ -42,7 +42,7 @@ as several sections only require one or two sentences.
 9. Authors/maintainers
 10. License
 
-Some of these sections only apply to open source software, or software libraries that you share with third-parties.
+Some sections only apply to open source software, or software libraries that you share with third-parties.
 For different contexts, such as enterprise line of business software or commercial product development, adjust the standard outline to cover relevant topics.
 
 {:#questions}

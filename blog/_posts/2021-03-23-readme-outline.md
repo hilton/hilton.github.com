@@ -51,7 +51,7 @@ For different contexts, such as enterprise line of business software or commerci
 Before you can adjust the standard outline to your own context, you need to understand which questions an effective README answers.
 Grouping the standard sections illustrates this:
 
-| 1. Should I use this? | 2. How can use it successfully? | 3. How can I participate? |
+| 1. Should I use this? | 2. How can I use it successfully? | 3. How can I participate? |
 | --- | --- | --- |
 | What it is<br>Purpose<br>Features<br>License | Usage/examples<br>Installation<br>Asking questions | Building from source<br>Contributing<br>Authors/maintainers |
 

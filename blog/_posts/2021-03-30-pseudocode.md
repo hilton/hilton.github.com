@@ -12,7 +12,7 @@ image: flow-chart.jpg
 
 Traditional programmers sometimes use 
 [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) to collaborate.
-Pseudocode looks like code but works like a sketch that illustrates a rough idea without worrying about details, or using precise or standard syntax.
+Pseudocode looks like code but illustrates a rough idea without worrying about details, or using precise or standard syntax, like a sketch.
 Crucially, pseudocode communicates something to other people, but remains meaningless to computers.
 
 ‘Normal’ code differs in that computers _can_ interpret it, as well as people. 

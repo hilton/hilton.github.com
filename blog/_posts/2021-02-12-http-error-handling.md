@@ -14,6 +14,9 @@ Your API’s developer experience (DX) matters as much as your web site’s user
 making people more successful ultimately makes more people successful.
 For HTTP APIs, a good DX doesn’t only come from HTTP’s simplicity, but also from its depth.
 
+This article explains why you should use HTTP error handling, instead of inventing your own.
+You can also skip straight to the [HTTP client error status code checklist](http-client-error-checklist).
+
 ## Use HTTP’s rich vocabulary
 
 HTTP contains features that you can use to make APIs more usable for developers.
@@ -76,7 +79,8 @@ discusses error responses more broadly, for different kinds of HTTP API.
 
 ## Check which status code to use
 
+Status codes support the simplest possible error handling, but HTTP doesn’t stop there, and neither should your developer experience.
 Instead of trying to memorise them, use HTTP
 [status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) 
-as a checklist for how to improve your API’s DX.
-Status codes support the simplest possible error handling, but HTTP doesn’t stop there, and neither should your developer experience.
+as a checklist for how to improve your API’s DX:
+[HTTP client error status code checklist](http-client-error-checklist).

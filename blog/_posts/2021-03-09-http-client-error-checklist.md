@@ -1,5 +1,5 @@
 ---
-title: Client error status code checklist
+title: HTTP client error status code checklist
 description: Because HTTP API clients don’t just send bad requests
 layout: hh
 tags: API design

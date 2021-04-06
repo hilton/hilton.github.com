@@ -25,7 +25,7 @@ Every specialism has _technical skills_ - the concepts, techniques and practices
 ## Read the classics
 
 Classic books still offer valuable lessons decades after their first publication, because every field has important lessons that don’t change.
-Even if you consider old books obsolete, you’ll get a richer understanding of a specialist field by reading its most important book from each decade.
+Even if you consider old books obsolete, you’ll get enrich your understanding of a specialist field by reading its most important book from each decade.
 
 Note that you can’t find the classics for a new field that emerged from related fields.
 Classic product management books, for example, might cover product design, marketing or some other kind of management.

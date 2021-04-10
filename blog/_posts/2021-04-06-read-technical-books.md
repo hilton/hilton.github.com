@@ -2,7 +2,7 @@
 title: Read technical books
 description: Learning how to become a better software/product developer/manager
 layout: hh
-tags: books
+tags: books learning
 image: library-reference.jpg
 ---
 

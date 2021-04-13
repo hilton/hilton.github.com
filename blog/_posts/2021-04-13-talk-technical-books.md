@@ -46,7 +46,7 @@ I also find that it helps to take notes, even if only in the form of my favourit
 If you read enough books, for long enough, you get to build your own library, either physical or electronic.
 Collecting books on a topic gives you the opportunity to understand how they relate to each other.
 Even if you don’t find your perfect book, books in a collection may compensate for each others’ weaknesses.
-That’s why you feel less pressure recommending three books on a topic, instead of just one.
+That explains why you feel less pressure recommending three books on a topic, instead of just one.
 
 If you have space, and some shelves, physical books also improve your online meetings’
 [bookcase credibility](https://twitter.com/BCredibility).

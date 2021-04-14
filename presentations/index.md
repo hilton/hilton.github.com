@@ -23,6 +23,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2021-04-08</td>
+	<td><a href="dr-evil-api">Dr Evil’s World Domination API</a></td>
+	<td>company in-house</td>
+	<td>👨🏻‍💻 remote</td>
+	<td><a href="https://speakerdeck.com/hilton/dr-evils-world-domination-api">slides</a></td>
+</tr>
+<tr>
 	<td>2020-09-01</td>
 	<td><a href="documentation-comments">Write one-sentence documentation comments</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Den Bosch Java User Group</a></td>

@@ -13,7 +13,7 @@ image: parrots.jpg
 _This article summarises part of a presentation I gave in 2017, to share ideas on learning, after twenty years as a professional software developer._
 
 Like all [knowledge workers](https://en.wikipedia.org/wiki/Knowledge_worker),
-how effectively you can learn new things, and for how long, will influence your success as a coder.
+how effectively you can continue learning, and for how long, will influence your success as a coder.
 An important lesson for me, which I had to _unlearn_ from formal education, lay in the value of learning from many sources.
 Not everyone has access to every learning venue, so the more available options, the better.
 

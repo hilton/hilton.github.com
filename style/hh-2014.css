@@ -37,7 +37,7 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif; 
-  color: #222; }
+  color: black; }
 
 /* Navigation and page masthead. */
 
@@ -55,7 +55,7 @@ h1, h2 {
 h3 {
 	font-size: 150%;
 	clear:left; }
-.content h2, .content h3, .lead {
+.content h2, .content h3, .lead, details {
 	color: #DF5A49;
 }
 
@@ -65,9 +65,15 @@ h3 {
 code, tt {
 	font-size:86%; }
 
-.content p, .content ol, .content ul, .content blockquote {
+.content p, .content ol, .content ul, .content blockquote, .content details {
 	font-size: 120%;
-	max-width: 40em; }
+	max-width: 40em;
+  margin-bottom:0.6em; }
+.content details {
+  line-height: 1.2;
+  margin-left:1em; }
+.content summary {
+  margin:0 0 0.6em -1em; }
 .content blockquote ul {
 	font-size: 100%; }
 .content blockquote p, .content blockquote li {

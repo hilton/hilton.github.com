@@ -47,6 +47,7 @@ edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, publish
 <h2 style="margin-top: 0">History</h2>
 
 <ul>
+<li>Working for <a href="https://bryter.com/"></a> as a product manager (since 2020).</li>
 <li>Consulting for <a href="https://www.signavio.com/">Signavio</a> as a product manager, consultant, trainer, pre-sales consultant, technical writer and developer (2015-2020)</li>
 <li>Six-month sabbatical in London (2014)</li>
 <li>Working (as software developer) for <a href="http://www.lunatech.com">Lunatech Research</a> in Rotterdam, the Netherlands (2004-2014).</li>

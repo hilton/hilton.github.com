@@ -82,9 +82,10 @@
 </div>
 
 <div id="content" class="content">
-{% if page.url != '/madrid/index.html' %}
+<!-- {{ page.url }} -->
+{% if page.url != '/madrid/index.html' and page.url != '/madrid/' %}
 <h2>{{ page.title }}, {{ page.address }}</h2>
-<p class="facade"><img src="../facade/madrid-{{ page.url | replace: 'madrid/', '' | replace: '.html', '' }}.jpg" alt="{{ page.title }}"></p>
+<p class="facade"><img src="../facade/madrid-{{ page.url | replace: '/madrid/', '' | replace: '.html', '' }}.jpg" alt="{{ page.title }}"></p>
 {% endif %}
 {{ content }}
 

@@ -1,6 +1,6 @@
 ---
 title: Use skin tone emoji that match your skin
-description: The short answer to the question of which one to use
+description: The missing help page for white @SlackHQ users
 layout: hh
 tags: learning
 image: skin-tones.png
@@ -12,8 +12,12 @@ css: ".types {list-style:none;line-height:1.8;padding-left:0;} .types li::before
 The emoji problem often makes me uncertain which emoji to use, for example because
 [different platforms use different graphics](https://www.sciencefriday.com/segments/that-emoji-youre-sending-is-open-to-interpretation/)
 or when I message someone whose in-crowd has their own ‘slang’, as with other kinds of colloquial language.
-[Emoji skin tones](https://en.wikipedia.org/wiki/Emoji#Skin_color) introduced more variation I didn’t know how to deal with.
-Having looked into it, this article gives you the short answer to the question of which skin tone emoji to use.
+[Emoji skin tones](https://en.wikipedia.org/wiki/Emoji#Skin_color) introduced more variation I didn’t know how to deal with at first.
+
+![Slack let’s you choose a default reaction emoji skin tone](slack-default-skin-tone.png)
+
+If you don’t use Slack, you might never even think about this particular choice.
+This article addresses people who do want the short answer to the question of which skin tone emoji to use.
 
 ## Use the light skin tone if you’re white
 
@@ -24,7 +28,7 @@ Fortunately, searching the web and talking to some people of colour revealed the
 **Use the light skin tone**.
 Ideally, don’t stop there: explore the question, and read and listen to diverse voices.
 Remember that a skin colour you didn’t choose deserves neither your pride nor your shame.
-And acknowledging things you can’t change doesn’t constitute making any kind of statement. 👍🏻
+And not hiding personal characteristics you can’t change doesn’t constitute making a statement. 👍🏻
 
 ## Use the skin tone closest to your skin colour
 
@@ -71,7 +75,7 @@ Read more about inclusion and emoji:
 * [The problem with emoji skin tones that no one talks about](https://www.dailydot.com/irl/skin-tone-emoji/), by [Zara Rahman](https://twitter.com/zararah)
 * [Apple did not invent emoji](https://eev.ee/blog/2016/04/12/apple-did-not-invent-emoji/), by [@eevee](https://twitter.com/eevee)
 
-More importantly, I’ve learned from this topic that inclusion takes more than reaction emoji in a Slack channel.
+More importantly, I’ve learned that inclusion takes more than emoji in a Slack channel.
 Listening to people of colour, hiring more of them and paying them more will actually help.
 
 _Thanks to Samir Talwar for feedback on a draft of this article._

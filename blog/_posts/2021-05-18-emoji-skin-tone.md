@@ -23,8 +23,8 @@ Fortunately, searching the web and talking to some people of colour revealed the
 
 **Use the light skin tone**.
 Ideally, don’t stop there: explore the question, and read and listen to diverse voices.
-Meanwhile, remember that a skin colour you didn’t choose deserves neither your pride nor your shame.
-Acknowledging things you can’t change doesn’t constitute making any kind of statement. 👍🏻
+Remember that a skin colour you didn’t choose deserves neither your pride nor your shame.
+And acknowledging things you can’t change doesn’t constitute making any kind of statement. 👍🏻
 
 ## Use the skin tone closest to your skin colour
 

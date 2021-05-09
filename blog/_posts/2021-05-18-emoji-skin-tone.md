@@ -23,7 +23,8 @@ Fortunately, searching the web and talking to some people of colour revealed the
 
 **Use the light skin tone**.
 Ideally, don’t stop there: explore the question, and read and listen to diverse voices.
-Own your whiteness. 👍🏻
+Meanwhile, remember that a skin colour you didn’t choose deserves neither your pride nor your shame.
+Acknowledging things you can’t change doesn’t constitute making any kind of statement. 👍🏻
 
 ## Use the skin tone closest to your skin colour
 
@@ -51,7 +52,6 @@ In the show, only white characters have yellow skin.
 Non-white characters, such as Indian-American
 [Apu Nahasapeemapetilon](https://en.wikipedia.org/wiki/Apu_Nahasapeemapetilon),
 have (cartoon versions of) darker skin colours.
-For more on this, watch the documentary, [The Problem With Apu](https://www.youtube.com/watch?v=zGzvEqBvkP8) (trailer), which explores the character’s racial representation.
 
 ## Don’t use a darker tone than your actual skin colour
 
@@ -73,3 +73,5 @@ Read more about inclusion and emoji:
 
 More importantly, I’ve learned from this topic that inclusion takes more than reaction emoji in a Slack channel.
 Listening to people of colour, hiring more of them and paying them more will actually help.
+
+_Thanks to Samir Talwar for feedback on a draft of this article._

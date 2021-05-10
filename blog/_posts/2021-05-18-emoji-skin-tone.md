@@ -78,4 +78,4 @@ Read more about inclusion and emoji:
 More importantly, I’ve learned that inclusion takes more than emoji in a Slack channel.
 Listening to people of colour, hiring more of them and paying them more will actually help.
 
-_Thanks to Samir Talwar for feedback on a draft of this article._
+_Thanks to Samir Talwar and others for feedback on a draft of this article._

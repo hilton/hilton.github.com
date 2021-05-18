@@ -15,7 +15,7 @@ This article examines what that means.
 
 [Martraire’s principles of documentation](martraire-documentation-principles)
 start by establishing documentation as a knowledge-sharing process.
-Chapter 1 then continues with principles  of living documentation, followed by the canonical example of living documentation in chapter 2.
+Chapter 1 then continues with principles of living documentation, followed by the canonical example of living documentation in chapter 2.
 
 ## Living documentation
 
@@ -55,8 +55,8 @@ However, we may have to add a fifth principle: that we need _feasible_ documenta
 
 ## Documentation costs money
 
-Of the four principles, I worry most living documentation requiring merely _low effort_,
-since documentation always costs money, as does a good developer experience, in general.
+Of the four principles, _low effort_ most risks causing a misunderstanding,
+since documentation always costs money, as does a good developer experience.
 The following note (p63) doesn’t help:
 
 > If the tool you need in your context is missing, you should create it on top of or as a derivation of existing tools. 
@@ -64,7 +64,10 @@ The following note (p63) doesn’t help:
 > Custom tools or extensions of tools can be created as fun projects, on hackathon days, or during slack time; they needn’t be made by vendors or other people.
 
 This veers dangerously close to the management fantasy that some necessary software development work might happen _for free_, in hours that you somehow don’t have to account for.
-More likely, this means that the popularity of living documentation depends on emerging complementary triples of:
+Martraire really means that living documentation’s value must justify the effort it requires.
+In particular, developers should take care to avoid using living documentation as an excuse to embark on an endless documentation system development project.
+
+The cost of custom software development likely means that the popularity of living documentation depends on emerging complementary triples of:
 
 1. **a software development technique** whose value justifies the overall effort, like BDD
 2. **a documentation type** that proves collaborative and insightful, like [Gherkin](https://cucumber.io/docs/gherkin/) test scenarios

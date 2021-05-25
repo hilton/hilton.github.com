@@ -14,8 +14,8 @@ explores the concept of _living documentation_.
 This article examines what that means.
 
 [Martraire’s principles of documentation](martraire-documentation-principles)
-start by establishing documentation as a knowledge-sharing process.
-Chapter 1 then continues with principles of living documentation, followed by the canonical example of living documentation in chapter 2.
+establish documentation as a knowledge-sharing process.
+Chapter 1 continues with principles of living documentation, followed by the canonical example of living documentation in chapter 2.
 
 ## Living documentation
 

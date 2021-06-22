@@ -11,7 +11,7 @@ image: living-documentation.jpg
 The book [Living Documentation](https://www.pearson.com/us/higher-education/program/Martraire-Living-Documentation-Continuous-Knowledge-Sharing-by-Design/PGM1724668.html),
 by [Cyrille Martraire](http://cyrille.martraire.com/about/)
 explores the concept of _living documentation_.
-Chapter five introduces the idea that, like a museum’s collection, system knowledge needs active 
+Chapter five introduces the idea that, like a museum collection, system knowledge needs active 
 [curation](https://en.wikipedia.org/wiki/Curator).
 
 ## Active curation

@@ -65,10 +65,12 @@ h3 {
 code, tt {
 	font-size:86%; }
 
-.content p, .content ol, .content ul, .content blockquote, .content details {
+.content p, .content ol > li, .content ul > li, .content blockquote, .content details {
 	font-size: 120%;
 	max-width: 40em;
   margin-bottom:0.6em; }
+.content li > p, .content li li { font-size: inherit; }
+
 .content details {
   line-height: 1.2;
   margin-left:1em; }

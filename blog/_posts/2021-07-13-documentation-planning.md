@@ -69,12 +69,13 @@ _Now focus on whose needs you would address._
 
 1. How many people in which roles will read it?
 1. How will they use it? When, and how often?
+1. Are your teams co-located or distributed? Office-bound or remote?
 
 ## Scope
 
 _Next, think about how to narrow the problem scope._
 
-{:start="10"}
+{:start="11"}
 1. What do you intend to document, to start with?
 
    * Software design and implementation
@@ -90,7 +91,7 @@ _Next, think about how to narrow the problem scope._
 
 _Now consider the how the software to document affects the context._
 
-{:start="13"}
+{:start="14"}
 1. How many years did the system go into production?
 1. How many more years will its planned lifetime last?
 1. How big is it?
@@ -101,7 +102,7 @@ _Now consider the how the software to document affects the context._
 
 _Finally, evaluate how much documentation you can have, and what quality level you can expect._
 
-{:start="18"}
+{:start="19"}
 1. How many people, in which roles, can spend up to half an hour per week contributing to documentation?
 1. How many of them have experience producing technical documentation?
 1. How many of them want to write documentation?

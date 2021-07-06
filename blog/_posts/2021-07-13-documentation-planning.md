@@ -14,7 +14,7 @@ People occasionally ask whether I can help their software development team impro
 As with all consulting questions, I initially respond that _it depends, and we should talk._
 
 The rest of this article provides a checklist of questions for an initial discussion about software documentation.
-These questions are intended to generate useful discussions that will identify challenges and uncertainties.
+These questions should generate useful discussions that will identify challenges and uncertainties.
 Questions that you cannot answer correspond to uncertainty risk.
 
 [Contact me](/contact) if you’d like to have an obligation-free documentation discussion.

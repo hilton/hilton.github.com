@@ -3,7 +3,7 @@ title: Documentation planning
 description: A checklist of questions to de-risk software documentation efforts
 layout: hh
 tags: documentation
-image: readme.png
+image: notepad-writing.jpg
 ---
 
 ![Writing at the top of blank page](notepad-writing.jpg)

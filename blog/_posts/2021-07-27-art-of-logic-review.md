@@ -10,7 +10,8 @@ css: "#cover { float:right; margin:0 0 1em 1em; } .content p.figure {text-align:
 <a href="https://profilebooks.com/work/the-art-of-logic/"><img id="cover" src="art-of-logic.jpg" alt="The Art of Logic"></a>
 
 In [The Art of Logic](https://profilebooks.com/work/the-art-of-logic/),
-Professor Eugenia Cheng presents an accessible introduction to mathematical logic, 
+[Professor Eugenia Cheng](http://eugeniacheng.com)
+presents an accessible introduction to mathematical logic, 
 not for its own sake, but in pursuit of a more human kind of _truth_.
 
 Professor Cheng ultimately explains _intelligent rationality_ and how to have _good arguments_ without needless antagonism.

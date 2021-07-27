@@ -77,5 +77,5 @@ Then update the team coding standard, refactor, and repeat.
 ## Discover the difficulty
 
 These three techniques represent obvious advice that you can easily apply, in the same way that you might find running or cooking _easy_.
-The challenge lies not in starting but in continuous improvement, and in dealing with challenging situations such as more legacy code than you can ever read, let alone refactor.
+The challenge lies less in starting than in continuous improvement, and in dealing with situations such as more legacy code than you can ever read, let alone refactor.
 Learning to become a better coder by writing better code ultimately means embracing the idea that you can always get better, and having the discipline to keep on learning how.

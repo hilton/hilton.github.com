@@ -2,7 +2,7 @@
 title: Write better code
 description: Learning how to become a better coder
 layout: hh
-tags: learning
+tags: programming
 image: remove-code.png
 ---
 

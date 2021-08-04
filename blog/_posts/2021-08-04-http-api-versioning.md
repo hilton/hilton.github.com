@@ -61,7 +61,7 @@ The plot thickens (again) in the _#versioning_ channel, whose topic reads:
 {:.big .solid-three style="max-width:34em"}
 > Rule of thumb, don't do versioning :)
 
-When I dug deeper, I din’t find a _no versioning_ movement (or even a hashtag), like
+When I dug deeper, I didn’t find a _no versioning_ movement (or even a hashtag), like
 [NoEstimates](https://ronjeffries.com/xprog/articles/the-noestimates-movement/) or
 [#noprojects](https://noprojects.org).
 Instead, I learned that versioning a whole API makes about as much sense as versioning a whole web site.

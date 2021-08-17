@@ -3,7 +3,7 @@ title: City walking tour team event
 description: A flexible in-person activity for a distributed team
 layout: hh
 tags: remote
-image: solo.jpg
+image: rotterdam-walking.jpg
 ---
 
 ![Pedestrians outside Rotterdam central station](rotterdam-walking.jpg)

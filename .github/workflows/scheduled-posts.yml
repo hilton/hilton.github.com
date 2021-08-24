@@ -1,4 +1,4 @@
-name: Publish at 09:00 on Tuesdays
+name: Publish on Tuesday mornings
 
 on:
   schedule:

@@ -39,7 +39,7 @@ In a middleware system, this might be the service that reads from a message queu
 **Once you’ve created a correlation ID, use it _everywhere_.**
 To use a correlation ID in all log messages in all services, in a microservices architecture, you need to transport it between services.
 
-**Use an `X-Correlation-Id` header to include correlation IDs in HTTP requests.**
+**Use a `Correlation-Id` header to include correlation IDs in HTTP requests.**
 Ideally, you’ll be able to implement your HTTP interface to add these headers transparently, so you don’t have to rely on developers remembering to add the header each time, e.g. by keeping it in a Java `ThreadLocal` or Go `Context`.
 
 If you’re not using HTTP you probably have an equivalent way to add message metadata, usually as some kind of _message envelope_ properties.
@@ -68,7 +68,7 @@ Depending on which UUID version, and on the specific implementation:
 
 * IDs take up a lot of space, especially when serialised as strings
 * someone could trace a UUID to the computer that generated it
-* a system might not reliably generated more than one unique UUID every 7 seconds
+* a system might not reliably generate more than one unique UUID every 7 seconds
 * pseudo-random generation may fail to prevent duplicate IDs
 * the implementation might generate IDs that don’t comply with the standard.
 

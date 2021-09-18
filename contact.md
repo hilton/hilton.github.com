@@ -4,7 +4,7 @@ description: Peter Hilton elsewhere
 layout: main
 ---
 
-![e-mail](picture/social/minimal/email.png) e-mail - hh5○cocktail.demon.nl
+![e-mail](picture/social/minimal/email.png) e-mail - peter.hilton○gmail.com
 
 ![Facebook](picture/social/minimal/facebook.png) [Facebook](http://www.facebook.com/profile.php?id=578484777)
 

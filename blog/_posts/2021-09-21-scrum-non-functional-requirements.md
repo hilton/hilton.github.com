@@ -3,6 +3,7 @@ title: Scrum and non-functional requirements
 description: The qualities you must not ignore
 tags: agile
 layout: hh
+image: coffee-tasting.jpg
 ---
 
 ![Testing/tasting coffee](coffee-tasting.jpg)

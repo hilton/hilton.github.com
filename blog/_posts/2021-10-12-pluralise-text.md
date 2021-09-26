@@ -1,5 +1,5 @@
 ---
-title: Pluralise text
+title: Pluralise text correctly
 description: User-interface content design details matter too
 layout: hh
 tags: software design
@@ -7,7 +7,7 @@ tags: software design
 
 Your software user interfaces include lots of text that refers to data sets, like _You have 7 new messages_.
 If you don’t try very hard, you end up with text like _You have 5 new message(s)_
-and if you don’t try at all, you get _You have 1 new messages_
+and if you don’t try at all, _You have 1 new messages_.
 Pluralising text correctly matters for readability, even if you treat it as a small detail.
 
 ## Straightforward to implement

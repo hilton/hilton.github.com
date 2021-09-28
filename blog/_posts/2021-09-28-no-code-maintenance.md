@@ -3,7 +3,7 @@ title: No code but not no maintenance
 description: Software maintenance with no-code tools
 layout: hh
 tags: NoCode
-image: coffee-tasting.jpg
+image: maintenance.jpg
 ---
 
 ![Maintenance work](maintenance.jpg)

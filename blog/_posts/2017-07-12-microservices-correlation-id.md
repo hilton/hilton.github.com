@@ -120,7 +120,7 @@ Base-62 encoding uses upper- and lower-case letters, and digits, which results i
 `ch72gsb320000udocl363eofy`
 
 The [CUID web site](http://usecuid.org/) introduces ‘collision-resistant ids optimized for horizontal scaling and binary search lookup performance’.
-The CUID design addresses scenarios that can result in duplciate UUID values.
+The CUID design addresses scenarios that can result in duplicate UUID values.
 
 > Application developers report v4 UUID collisions causing problems in their applications when the ID generation is distributed between lots of machines such that lots of IDs are generated in the same millisecond.
 
@@ -129,7 +129,7 @@ The CUID specification results in unguessable monotonically increasing IDs that 
 ## Diagnostic context pattern
 
 If correlation IDs haven’t already given you enough to think about, then you can read more about a related pattern: diagnostic contexts.
-[Causality – Relating Distributed Diagnostic Contexts](https://accu.org/index.php/journals/1870?cn=cmVwbHk%3D) introduces the concept, which extends the idea of a correlation ID to include more debugging data than just an ID that identifies a particlar context.
+[Causality – Relating Distributed Diagnostic Contexts](https://accu.org/index.php/journals/1870?cn=cmVwbHk%3D) introduces the concept, which extends the idea of a correlation ID to include more debugging data than just an ID that identifies a particular context.
 
 In Java logging, [Mapped Diagnostic Contexts](https://logback.qos.ch/manual/mdc.html) implement this pattern, as explained in [Java Logging with Nested Diagnostic Context (NDC)](http://www.baeldung.com/java-logging-ndc-log4j).
 
@@ -138,3 +138,4 @@ In Java logging, [Mapped Diagnostic Contexts](https://logback.qos.ch/manual/mdc.
 * [The Value of Correlation IDs](https://blog.logentries.com/2016/12/the-value-of-correlation-ids/)
 * [Implementing correlation ids in Spring Boot](https://taidevcouk.wordpress.com/2014/05/26/implementing-correlation-ids-in-spring-boot/)
 * [Best Practices for Building a Microservice Architecture](http://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#correlation-ids)
+* [Trace Context - W3C Recommendation](https://www.w3.org/TR/trace-context/)

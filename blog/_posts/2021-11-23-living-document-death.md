@@ -3,7 +3,7 @@ title: The death of the living document
 description: Relics of the typewriter age
 layout: hh
 tags: documentation
-image: imac-dv.jpg
+image: certificate.jpg
 ---
 
 <!-- 

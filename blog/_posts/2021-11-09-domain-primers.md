@@ -8,7 +8,7 @@ image: book-group.jpg
 
 ![People talking about a book](book-group.jpg)
 
-<a class="unsplash" href="https://unsplash.com/photos/omeaHbEFlN4" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Alexis Brown</span></a>
+[Alexis Brown](https://unsplash.com/photos/omeaHbEFlN4){:.photocredit}
 
 When you work on either general purpose software or custom software development, you end up needing to understand your customer’s business.
 If you’ve never visited a warehouse or talked to someone who works in one, attempting to build 
@@ -41,6 +41,10 @@ Novels work better, especially if they’re funny.
 _Refusal Shoes_, for example, offers entertaining but unflattering insights into how immigration (border control) works at a large airport.
 Presumably not coincidentally, [Tony Saint](https://en.wikipedia.org/wiki/Tony_Saint)
 wrote _Refusal Shoes_ after ten years working for the UK Immigration Service.
+And [Time Will Tell](https://www.amazon.co.uk/Time-Will-Tell-Donald-Greig/dp/0857283448), 
+by Donald Greig, follows an early music vocal ensemble on an adventure.
+
+
 Non-fiction examples from industry insiders that forego a novel’s plot structure but retain plenty of wit include Gideon Karting’s book,
 [Never Work With Your Idols: 35 Commandments for a Successful Career in the Music Industry](https://gideonkarting.nl/werk-nooit-met-je-idolen/) (in Dutch), and 
 [This is Going to Hurt: Secret Diaries of a Junior Doctor](https://en.wikipedia.org/wiki/This_Is_Going_to_Hurt),

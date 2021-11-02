@@ -3,7 +3,7 @@ title: Collect writing ideas
 description: How to find ideas to write about instead of planning them
 layout: hh
 tags: writing
-image: seedlings.jpg
+image: bee.jpg
 ---
 
 ![A bee on a sunflower](bee.jpg)

@@ -14,7 +14,7 @@ image: flags.jpg
 I’ve previously argued that you can [get better at naming things](how-to-get-better-at-naming)
 by increasing your English vocabulary, so you can choose names with richer and more precise meanings.
 However, maximising the English vocabulary you use favours native speakers who read books, who already have a larger vocabulary, and using a larger vocabulary costs non-native speakers more effort.
-Vocabulary you don’t normally use looks just like any other jargon you haven’t learned yet.
+Vocabulary you don’t normally use looks like any other jargon you haven’t learned yet.
 
 Most kinds of names should 
 [use two to four words](/presentations/naming-guidelines#limit-name-word-count),

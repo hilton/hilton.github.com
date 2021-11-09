@@ -13,13 +13,13 @@ image: imac-dv.jpg
 Twenty years ago, before [blogging](https://en.wikipedia.org/wiki/Blog#History)
 became mainstream, posts typically had a different style to today’s various kinds of articles.
 Personal blogs with a diary style, documented their author’s online activity, linking to interesting news and newly-discovered content.
-As homage to early bloggers, and a throwback to an earlier age, this blog post collects a selection of links that I’ve been sharing with people.
+As homage to early bloggers, and a throwback to an earlier age, this blog post collects a selection of links that I’ve recently shared with people.
 
 ## Tech
 
 [Stargate Physics 101](https://archiveofourown.org/works/3673335)
 fictionalises the software testing mindset in science fiction fanfic.
-I wish there were more of this - both specifically this, and fanfic as a vehicle for other kinds of nerdery.
+I wish people would write more of this - both specifically this, and fanfic as a vehicle for other kinds of nerdery.
 
 [How to Remote with BRYTER](https://www.youtube.com/watch?v=SDj_i3r3YRQ&t=730s)
 features my employer’s pre-pandemic guide to remote working, and illustrates the things that make it the best place I’ve ever worked.
@@ -30,7 +30,7 @@ I typically have to re-share this several times per year, each time I report one
 
 ## Cinema
 
-I’ve been taking advantage of how Netflix makes oriental cinema more accessible,
+I’ve recently taken advantage of how Netflix makes oriental cinema more accessible,
 and enjoyed the following films (among many others).
 
 * [The wandering earth](https://www.imdb.com/title/tt7605074/) (sci-fi)
@@ -45,7 +45,7 @@ and enjoyed the following films (among many others).
 
 ## Rotterdam tourism
 
-My top suggestions, given that I don’t go to museums, are 
+My top suggestions, given that I don’t go to museums: 
 [De Markthal](https://en.rotterdam.info/locations/de-markthal/) (covered market),
 and the [container port boat trip](https://en.rotterdam.info/locations/spido-3/).
 
@@ -56,7 +56,7 @@ If you do want some culture, try the
 [Delfshaven](https://en.rotterdam.info/agenda/delfshaven-5-2/) - 
 a historic old harbour, which also has an old microbrewery.
 
-There are many cafes and bars, and most bars have a decent beer selection. A couple have a huge beer selection. There’s
+Rotterdam offers many cafes and bars, and most bars have a decent beer selection. A couple have a huge beer selection. Start with
 [Locus Publicus](http://www.locus-publicus.com), Oostzeedijk 364 - 
 old school with all of the beers, and
 [Proeflokaal Reijngoud](http://www.proeflokaalreijngoud.nl/), Schiedamse Vest 148 - 

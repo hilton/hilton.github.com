@@ -48,7 +48,7 @@ Wikipedia explains the response from Charles Kay Ogden, creator of Basic English
 > along with a 50-word list from a more specialised subset of that general field
 
 The result would combine Basic English with a controlled domain vocabulary, per bounded context.
-Unfortunately, I can’t predict how well this work work out for naming things.
+Unfortunately, I can’t predict how well this will work out for naming things.
 
 ## Limited verbs
 

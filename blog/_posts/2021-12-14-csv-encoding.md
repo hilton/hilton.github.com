@@ -11,7 +11,7 @@ image: metal-concert.jpg
 [Filip Andrejevic](https://unsplash.com/photos/QmX5lw8StoQ){:.photocredit}
 
 As well as [confusing delimiters](csv-delimiters),
-CSV files have other problems that make them a pain to work with.
+comma-separated values (CSV) files have other problems that make them a pain to work with.
 They keep using the wrong [character encoding](https://en.wikipedia.org/wiki/Character_encoding), for one.
 
 ## Accidental metal to nerd conversion

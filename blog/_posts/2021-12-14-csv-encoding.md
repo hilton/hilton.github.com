@@ -67,7 +67,8 @@ But the twenty years since Unicode’s introduction don’t appear to have given
 
 CSV encoding issues illustrate a specific example of a broader problem, explained by Dyan Beattie in his conference presentation,
 [There’s no such thing as plain text](https://dylanbeattie.net/speaking/#no-such-thing-as-plain-text)
-([video](https://www.youtube.com/watch?v=oYd2KkuZLbE)).
+([slides](https://www.slideshare.net/fwdays/theres-no-such-thing-as-plain-text-dylan-beattie),
+[video](https://www.youtube.com/watch?v=oYd2KkuZLbE)).
 The notion of a _plain text file_ relies on assumptions about people’s locations, languages, and cultures.
 
 Instead of making assumptions, we might prefer to make our choices _explicit_.

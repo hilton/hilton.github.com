@@ -2,6 +2,7 @@
 title: Product roadmaps
 description: Why you might want a roadmap, and what a good one looks like
 layout: speaking
+image: product-roadmaps.png
 ---
 
 Just because most product roadmaps suck, doesn’t mean they have to be bad or that you don’t need one.

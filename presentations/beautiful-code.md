@@ -2,6 +2,7 @@
 title: "Beautiful code: typography and visual programming"
 description: Reimagining how we read code - code with better type
 layout: speaking
+image: beautiful-code.png
 ---
 
 The way we visually present code today would do little to surprise the first owner of the 1955 IBM typewriter that introduced the Courier typeface.

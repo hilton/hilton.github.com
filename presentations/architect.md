@@ -2,6 +2,7 @@
 title: "Architect: the missing Scrum role"
 description: Exploring the gaps between user stories
 layout: speaking
+image: architect.png
 ---
 
 Scrum doesn’t tell you to do software architecture.

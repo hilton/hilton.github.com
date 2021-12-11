@@ -2,6 +2,7 @@
 title: Designing good URLs
 description: The most important part of a web application’s public HTTP interface
 layout: speaking
+image: url-design.png
 ---
 
 URL design is the often neglected part of web application and web service design.

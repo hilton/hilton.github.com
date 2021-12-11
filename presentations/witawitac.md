@@ -2,6 +2,7 @@
 title: What I talk about when I talk about code
 description: Unravelling woolly thinking about how we really explain code to each other
 layout: speaking
+image: witawitac.png
 ---
 
 However good your code, other people never seem to get it.

@@ -2,6 +2,7 @@
 title: Scriptable microservice orchestration
 description: A new software category for serverless and microservice architectures
 layout: speaking
+image: scriptable-microservice-orchestration.png
 ---
 
 Microservices adoption is accelerating and making our architectures more complex. This trend towards smaller services and serverless computing means we need a new kind of software to stitch services together and coordinate their execution. This talk introduces _microservice orchestration platforms_ and compares the main products in this new category: AWS Step Functions, Netflix Conductor, Microsoft Logic Apps and Apache OpenWhisk. Attendees will learn about these products and their differences.

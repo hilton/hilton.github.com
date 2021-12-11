@@ -1,7 +1,8 @@
 ---
 title: Euro-English for software developers
-description: Language-related bugs for European teams
+description: Language-related bugs for international teams
 layout: speaking
+image: euro-english.png
 ---
 
 Software developers in Europe inevitably work on international teams and adopt a Euro-English dialect.

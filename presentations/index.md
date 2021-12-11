@@ -15,9 +15,10 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 * [Architect: the missing Scrum role](architect) -
   exploring the gaps between user stories
-* [Euro-English for software developers](euro-english) -
+* [Euro English for software developers](euro-english) -
   language-related bugs for European teams
-
+* [Software design for tech leads](software-design) -
+  escaping the dead zone between functional and technical design
 
 ## Upcoming & recent presentations
 

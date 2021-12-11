@@ -4,13 +4,20 @@ categories: speaking
 layout: speaking
 ---
 
-Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics. See also:
-
-* [Software development training courses](../training)
+Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
+See also: [software development training courses](../training).
 
 <div class="banner"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"><img src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessaloniki 2016"></div>
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
+
+## Proposals
+
+* [Architect: the missing Scrum role](architect) -
+  exploring the gaps between user stories
+* [Euro-English for software developers](euro-english) -
+  language-related bugs for European teams
+
 
 ## Upcoming & recent presentations
 
@@ -23,6 +30,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2022-01-18</td>
+	<td>TBD</td>
+	<td>company in-house</td>
+	<td>🇳🇱 Deventer</td>
+	<td></td>
+</tr>
+<tr>
 	<td>2021-04-08</td>
 	<td><a href="dr-evil-api">Dr Evil’s World Domination API</a></td>
 	<td>company in-house</td>
@@ -33,14 +47,14 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>2020-09-01</td>
 	<td><a href="documentation-comments">Write one-sentence documentation comments</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Den Bosch Java User Group</a></td>
-	<td>🇳🇱 Den Bosch</td>
+	<td>👨🏻‍💻 remote</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2020-09-01</td>
 	<td><a href="product-roadmaps">Product roadmaps</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Den Bosch Java User Group</a></td>
-	<td>🇳🇱 Den Bosch</td>
+	<td>👨🏻‍💻 remote</td>
 	<td></td>
 </tr>
 <tr>
@@ -573,7 +587,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Not scheduled
 
-* [Euro-English for software developers](euro-english)
 * _HTTP API checklist_ or _Dr Evil’s HTTP API_
 * _7 joys of coding_ - things that bring joy to writing code
 * _4 kinds of software design for application developers_

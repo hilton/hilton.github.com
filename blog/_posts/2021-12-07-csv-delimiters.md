@@ -89,4 +89,5 @@ You might as well use a comma and quote values when you need to.
     egg and spam,1
     "spam, bacon, sausage, and spam",2
 
-But even if CSV delimiters don’t give you separator anxiety, CSV has other traps.
+But even if CSV delimiters don’t give you separator anxiety, 
+[CSV has other traps](csv-encoding).

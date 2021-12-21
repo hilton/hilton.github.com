@@ -1,8 +1,8 @@
-name: Publish on Tuesday mornings
+name: Publish on Tuesday and Thursday mornings
 
 on:
   schedule:
-   - cron: '0 6 * * 2'
+   - cron: '0 6 * * 2,4'
 jobs:
   curl:
     runs-on: ubuntu-latest

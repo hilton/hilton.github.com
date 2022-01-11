@@ -4,7 +4,6 @@ description: Don’t set the web page language based on location
 layout: hh
 tags: software design
 image: letters.jpg
-published: false
 ---
 
 ![Colourful plastic letters](letters.jpg)

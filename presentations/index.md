@@ -13,8 +13,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
-* [Architect: the missing Scrum role](architect) -
-  exploring the gaps between user stories
 * [Euro English for software developers](euro-english) -
   language-related bugs for European teams
 * [Software design for tech leads](software-design) -
@@ -32,7 +30,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2022-01-18</td>
-	<td>TBD</td>
+	<td>[Architect: the missing Scrum role](architect)</td>
 	<td>company in-house</td>
 	<td>🇳🇱 Deventer</td>
 	<td></td>

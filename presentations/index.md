@@ -30,7 +30,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2022-01-18</td>
-	<td>[Architect: the missing Scrum role](architect)</td>
+	<td><a href="architect">Architect: the missing Scrum role</a></td>
 	<td>company in-house</td>
 	<td>🇳🇱 Deventer</td>
 	<td></td>

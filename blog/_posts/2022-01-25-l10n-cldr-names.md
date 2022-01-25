@@ -4,7 +4,6 @@ description: Using the Unicode Common Locale Data Repository’s standard transl
 layout: hh
 tags: software data design
 image: currency.jpg
-published: false
 ---
 
 ![Banknotes](currency.jpg)

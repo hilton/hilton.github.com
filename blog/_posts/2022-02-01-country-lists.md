@@ -4,7 +4,6 @@ description: How to source a list of countries to use in software
 layout: hh
 tags: software data design
 image: bouvet-island.jpg
-published: false
 ---
 
 ![Bouvet Island ISS017-E-16161, Public Domain](bouvet-island.jpg)

@@ -192,6 +192,9 @@ footer a {
 .blog h3.title, .tag h3.title {
 	margin-bottom: 0; }
 
+.tags {
+  line-height: 1.65em; }
+
 .related {
 	font-weight: 600;
 	margin-top: 3em; }

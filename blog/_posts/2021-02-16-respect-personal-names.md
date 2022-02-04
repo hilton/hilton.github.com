@@ -2,7 +2,7 @@
 title: Respect people’s full names
 description: Don’t call someone’s name ‘invalid’
 layout: hh
-tags: software design
+tags: software data design
 image: certificate.jpg
 ---
 

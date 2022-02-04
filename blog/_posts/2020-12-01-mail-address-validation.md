@@ -2,7 +2,7 @@
 title: Validate email addresses to level 4
 description: First person to say ‘regex’ loses
 layout: hh
-tags: software design
+tags: software data design
 image: message-bottle.jpg
 ---
 

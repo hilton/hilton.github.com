@@ -4,7 +4,6 @@ description: How you pay for publishing your back-end’s API
 layout: hh
 tags: API design
 image: ship-sinking.jpg
-published: false
 ---
 
 ![Ship sinking](ship-sinking.jpg)

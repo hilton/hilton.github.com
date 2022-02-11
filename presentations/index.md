@@ -13,6 +13,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
+* [Modelling universal values](universal-values) - why domain modelling doesn’t stop at the attribute level
 * [Euro English for software developers](euro-english) -
   language-related bugs for European teams
 * [Software design for tech leads](software-design) -

@@ -1,6 +1,6 @@
 ---
 title: Continuously reduce scope
-description: Why software development requires reducing scope at every step
+description: Why product development requires repeated scope reduction
 layout: hh
 tags: agile product
 image: split-mug.jpg

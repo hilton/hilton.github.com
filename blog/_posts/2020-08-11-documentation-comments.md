@@ -39,4 +39,4 @@ Comments are amazingly useful, if they’re good, mainly because we spend more t
 
 _This article by Peter Hilton first appeared in 
 [97 Things Every Java Programmer Should Know](http://shop.oreilly.com/product/0636920048824.do)
-under a [Creative Commons license](https://creativecommons.org/licenses/by/4.0/)._
+under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)._

@@ -41,4 +41,4 @@ When office workers have general-purpose software for process management, they w
 
 This is why a tool like Effektif is important for enterprise software developers: it joins the dots between what people actually do it their job - the real business process - and a software-based model. Without this concrete process description, business analysts and software developers are just left with what people _say_ they do, which is a poor substitute indeed.
 
-Photo: [atlken77](https://www.flickr.com/photos/floridaken77/5964733034) / CC [BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)
+Photo: [atlken77](https://www.flickr.com/photos/floridaken77/5964733034) / [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)

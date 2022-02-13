@@ -65,4 +65,4 @@ The thing about preferring face-to-face communication is that you might make the
 
 If you’re the programmer - J in this story - you should consider your options. There are good ways to deal with all of these issues. The question is whether you, your team and your employer, are willing to use them.
 
-_Photo: [anna gutermuth](https://www.flickr.com/photos/anniferrr/4379600329) / CC [BY 2.0](https://creativecommons.org/licenses/by/2.0/)_
+_Photo: [anna gutermuth](https://www.flickr.com/photos/anniferrr/4379600329) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

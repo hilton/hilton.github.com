@@ -78,4 +78,4 @@ When you work with other programmers, they never seem to understand your code. I
 When time spent explaining your code starts to get in the way of having enough time to write code, you are going to have to take constructive laziness to the next level. Instead of only writing code, you are going to have to write _documentation_ as well.
 
 
-Photo: [Warren R.M. Stuart](https://www.flickr.com/photos/wza/15999720424) / CC [BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+Photo: [Warren R.M. Stuart](https://www.flickr.com/photos/wza/15999720424) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)

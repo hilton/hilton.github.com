@@ -77,4 +77,4 @@ Last but not least, culture eats everything else for breakfast, and people want 
 Company culture can be hard to describe, but the management approach largely determines culture and everyone is looking for a way to [reinvent management](http://www.reinventing-business.com/2010/06/objective.html).
 Programmers might not all be looking for a company that uses [Holacracy](http://www.holacracy.org), but they probably at least want to work for someone who understands software development.
 
-Photo: [Phil Campbell](https://www.flickr.com/photos/clanlife/3074758879) / CC [BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+Photo: [Phil Campbell](https://www.flickr.com/photos/clanlife/3074758879) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)

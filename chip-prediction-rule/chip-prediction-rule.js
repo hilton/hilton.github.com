@@ -1,7 +1,8 @@
 /*
 * CHIP Prediction Rule calculator ©Copyright 2007 Peter Hilton.
-* This work is licensed under a Creative Commons License: http://creativecommons.org/licenses/by-nc-sa/1.0/
-* Any derivative work must link to http://www.marionsmits.net/chip-prediction-rule/
+* This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License:
+* http://creativecommons.org/licenses/by-nc-sa/4.0/
+* Attribution: any derivative work must link to http://www.marionsmits.net/chip-prediction-rule/
 */
 
 var form;

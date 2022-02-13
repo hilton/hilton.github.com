@@ -3,12 +3,11 @@ title: Writing with a word count limit
 description: The enabling constraint of a strict 450-550 word limit
 layout: hh
 tags: writing
-image: 97-things-java.jpg
-css: ".blog .content a img { width:150px; float:right; margin:0 0 1em 1em; }"
+image: 97-things-java.webp
 ---
 
-<a href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
-<img src="97-things-java.jpg" alt="book cover" style="width:150px"></a>
+<a class="cover" style="width:auto" href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
+<img src="97-things-java.webp" alt="book cover" style="width:150px"></a>
 
 The submission guidelines for 
 [97 Things Every Java Programmer Should Know](http://shop.oreilly.com/product/0636920048824.do)

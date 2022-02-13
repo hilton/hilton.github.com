@@ -3,12 +3,11 @@ title: Get better at naming things
 description: "From ‘97 Things Every Java Programmer Should Know’"
 layout: hh
 tags: programming
-image: 97-things-java.jpg
-css: ".blog .content a img { width:150px; float:right; margin:0 0 1em 1em; }"
+image: 97-things-java.webp
 ---
 
-<a href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
-<img src="97-things-java.jpg" alt="book cover" style="width:150px"></a>
+<a class="cover" style="width:auto" href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
+<img src="97-things-java.webp" alt="book cover" style="width:150px"></a>
 
 > ‘What is above all needed is to let the meaning choose the word, and not the other way around… the worst thing one can do with words is surrender to them.’<br>- George Orwell
 

@@ -17,7 +17,7 @@ image: manhole.jpg
 8. This success cost a spectacular amount of money: €20 million + €1.5 million/year.
 -->
 
-![A manhole cover](manhole.jpg)]
+![A manhole cover](manhole.jpg)
 
 In 1997, while working for a large IT consultancy in England, I moved to 
 [Cambridge](https://en.wikipedia.org/wiki/Cambridge) for a new client-site assignment.

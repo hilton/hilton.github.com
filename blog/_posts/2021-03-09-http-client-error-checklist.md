@@ -4,7 +4,6 @@ description: Because HTTP API clients don’t just send bad requests
 layout: hh
 tags: API design
 image: seven-sisters.jpg
-css: "table{font-size:120%;width:43em}"
 ---
 
 ![Seven Sisters cliffs, Eastbourne, United Kingdom](seven-sisters.jpg)

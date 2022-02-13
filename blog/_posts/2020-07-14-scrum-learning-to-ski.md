@@ -8,7 +8,7 @@ image: skiing-walking-uphill.jpg
 
 [![Skiing](skiing-walking-uphill.jpg)](https://unsplash.com/photos/3k6yPhaU5e8)
 
-<a class="unsplash" href="https://unsplash.com/photos/3k6yPhaU5e8" rel="noopener noreferrer" title="Photo by Mohammad Saifullah"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Mohammad Saifullah</span></a>
+[Mohammad Saifullah](https://unsplash.com/photos/3k6yPhaU5e8){:.photocredit}
 
 A surprising number of software development organisations only pay lip service to agile software development, and may even actively resist the introduction of Scrum.
 Working on software projects in these organisations feels like walking in deep snow:
@@ -40,7 +40,8 @@ Like I said, that gets old fast.
 
 ![Snowplough](skiing-snowplough.jpg)
 
-<a class="unsplash" href="https://www.flickr.com/photos/thomasrdororg/1217019265" rel="noopener noreferrer" title="Photo by Tom Reynolds"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Tom Reynolds • CC BY 2.0</span></a>
+[Tom Reynolds](https://www.flickr.com/photos/thomasrdororg/1217019265){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
 
 After lunch, Cristian, a Scandinavian student in the group, took pity on those of us who didn’t have a clue about how to ski and taught us the snowplough.
 This took perhaps half an hour, after which we were on our own again, still unable to ski but now equipped with the ability to slow down and stop.

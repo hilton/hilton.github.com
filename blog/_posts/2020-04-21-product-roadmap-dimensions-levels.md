@@ -56,12 +56,12 @@ Swim lanes work because you pursue more than one objective in parallel, in pract
 <tr><th>Now</th><th>Next</th><th>Later</th></tr>
 </thead>
 <tbody>
-<tr><td colspan="3">get users hooked (objective)</td></tr>
+<tr><td colspan="3">Get users hooked (objective)</td></tr>
 <tr><td>Show cat cuteness</td><td>Show cat cuteness</td><td>Puppies</td></tr>
 <tr><td>Enable social sharing</td><td>Famous cats</td><td>Rabbits</td></tr>
 </tbody>
 <tbody>
-<tr><td colspan="3">world domination (objective)</td></tr>
+<tr><td colspan="3">World domination (objective)</td></tr>
 <tr><td>Legal protection</td><td>Cat politicians</td><td>Demote humans to <em>staff</em></td></tr>
 <tr><td>Citizenship</td><td>Rewrite laws</td><td>World domination!</td></tr>
 </tbody>

@@ -30,7 +30,7 @@ Maybe the naming helped: while _cloud-hosting_ compares to the previous kind of 
 
 _No-code_ has the same problem as _#NoEstimates_ - naming based on the space it _doesn’t_ occupy.
 However, as [Willem-Jan Ageling](https://twitter.com/WJAgeling) points out
-[#NoEstimates: the name doesn’t make sense, but why is this an issue?] -
+‘[#NoEstimates: the name doesn’t make sense, but why is this an issue?](https://twitter.com/WJAgeling/status/995982896082104320)’ -
 noting that #NoEstimates discussion promotes forecasting instead of estimation.
 Something about _forecasting_ would make a better name.
 

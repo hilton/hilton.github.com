@@ -26,7 +26,8 @@ In case you need more than one good reason not to repeat other people’s mistak
 I discovered the last issue in a London cafe, after speaking in Dutch to member of staff who had a Hungarian flag on their name badge.
 The flags of Hungary, Luxembourg and the Netherlands differ by one similar colour:
 
-<p style="text-align:center">🇱🇺 🇳🇱 🇭🇺</p>
+{: style="width:20em;text-align:center;font-size:2em"}
+🇱🇺 🇳🇱 🇭🇺
 
 Putting the flags next to each other makes the difference visible, but you might misidentify one of them in isolation.
 

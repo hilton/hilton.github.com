@@ -38,7 +38,7 @@ If your software misnames people or rejects their names due to characters you do
 explains why trying to prevent _bad words_ doesn’t work without human assessment or science-fiction artificial intelligence.
 Or as [@0xabad1dea put it](https://twitter.com/0xabad1dea/status/1358461414852222978):
 
-{:.big style="max-width:31em"}
+{:.big style="max-width:35em"}
 > you cannot algorithmically distinguish “real” names from “fake” ones and any attempt you make is automatically racist
 
 Again, if you think your software can judge names’ acceptability and without automatic racism, you need to talk to your CTO.

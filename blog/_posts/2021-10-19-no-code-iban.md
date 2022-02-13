@@ -30,7 +30,7 @@ While an IBAN consists of letters and digits, conceptually, we usually read them
 The IBAN standard also includes an 
 [algorithm for verifying the check digits](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Validating_the_IBAN).
 
-{:.big style="max-width:28em;font-size:165%" title="An example IBAN"}
+{:.big style="font-size:145%" title="An example IBAN"}
 > GB98 MIDL 0700 9312 3456 78
 
 Writing code to handle input, validation and formatting for specific data types requires significant software development effort.

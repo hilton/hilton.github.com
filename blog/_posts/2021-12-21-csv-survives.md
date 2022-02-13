@@ -54,7 +54,7 @@ JSON deserves most of its popularity to how it _just works_ in JavaScript.
 JSON doesn’t work with Excel, though.
 And while CSV arguably doesn’t work particular well in Excel either, it works well enough.
 
-{:.big .solid-two style="max-width:35em"}
+{:.big .solid-two style="max-width:32em"}
 > If Excel can’t import your data format, does it even exist?
 
 Don’t expect CSV to go away any time soon.

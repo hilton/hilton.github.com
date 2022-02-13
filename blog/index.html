@@ -17,7 +17,7 @@ layout: hh
 <a href="../tag/nocode">#NoCode</a>
 <a href="../tag/agile">#agile</a>
 <a href="../tag/documentation">#documentation</a>
-<a href="../tag/documentation">#book</a>
+<a href="../tag/book">#book</a>
 <a href="../tag/maintenance">#maintenance</a>
 <a href="../tag/naming">#naming</a>
 <a href="../tag/programming">#programming</a>
@@ -26,7 +26,7 @@ layout: hh
 
 {% for page in site.categories.blog %}
 <h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
-<p>{{ page.description }}<span class="text-muted">- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}
+<p>{{ page.description }} <span class="text-muted">- {{ page.date | date: "%-d %B %Y" }}
 {% for tag in page.tags %}#{{ tag }} {% endfor %}</span></p>{% endfor %}
 
 <h2>Older articles (2005-2014)</h2>
@@ -53,7 +53,12 @@ edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, publish
 <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a> training course,
 before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
 
-<h2>Cafe reviews</h2>
+<h2 id="others">Other people’s writing</h2>
+<p><a href="/obc/">Theatrical Adventures - Musings and memories of a thespian</a>, by O.B. Clarence</p>
+<p><a href="../poetry.html">Poetry by C R Hilton</a></p>
+<p><a href="../tristan_and_iseult.html"><I>Tristan And Iseult: A Jungian Interpretation</I></a></p>
+
+<h2>Cafe reviews (2000-2012)</h2>
 
 <p>Independent cafe and restaurant reviews, from before TripAdvisor was invented:</p>
 
@@ -82,11 +87,6 @@ before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
 <p>🇮🇪 <a href="../galway.html" title="Galway Cafes">Galway</a></p>
 <p>🇱🇺 <a href="../luxembourg.html" title="Luxembourg Cafes">Luxembourg</a></p>
 <p>🇦🇹 <a href="../out_in_vienna.html" title="Out in Vienna">Vienna</a></p>
-
-<h2 id="others">Other people’s writing</h2>
-<p><a href="/obc/">Theatrical Adventures - Musings and memories of a thespian</a>, by O.B. Clarence</p>
-<p><a href="../poetry.html">Poetry by C R Hilton</a></p>
-<p><a href="../tristan_and_iseult.html"><I>Tristan And Iseult: A Jungian Interpretation</I></a></p>
 
 <h2>Older articles (1996-2004)</h2>
 

@@ -4,10 +4,9 @@ description: How to write structured feature documents
 layout: hh
 tags: product book
 image: epic-alignment.png
-css: ".blog .content a img { width:320px; float:right; margin:0 0 1em 1em; }"
 ---
 
-<a href="https://www.delibr.com/ebook"><img src="epic-alignment.png" alt="Epic Alignment"></a>
+<a class="cover" href="https://www.delibr.com/ebook"><img src="epic-alignment.png" alt="Epic Alignment"></a>
 
 [Epic Alignment](https://www.delibr.com/ebook), shows product managers how to write feature documents, or ‘epics’.
 Nils Janse’s detailed treatment of a specific topic delivers a medium-length e-book, and a smooth and accessible read.

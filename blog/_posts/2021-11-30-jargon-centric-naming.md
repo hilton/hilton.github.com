@@ -56,7 +56,7 @@ Unfortunately, I can’t predict how well this will work out for naming things.
 probably makes it unsuitable for naming things, in practice.
 Basic English includes the following words, plus their conjugations:
 
-{:.big style="max-width:41em;font-size:117%" title="Basic English verb list"}
+{:.big style="max-width:38em" title="Basic English verb list"}
 > come, get, give, go, keep, let, make, put, seem, take; be, do, have; say, see, send; may, will
 
 After all, this list reminds me of conventional bad naming, which appears to use _get_ and _Manager_ for as many verbs and nouns, respectively, as possible.

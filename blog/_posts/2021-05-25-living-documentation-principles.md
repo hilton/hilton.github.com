@@ -42,10 +42,10 @@ This reconciliation (fixing failing tests) ensures that the documentation (the t
 Martraire introduces principles of living documentation (p20) and later matches them to BDD (p65).
 We learn that BDD satisfies all four principles by providing:
 
-1. **collaborative** documentation that takes input from people in business, development and testing roles
-2. **insightful** documentation whose precise structure exposes uncertainty and complexity
-3. **reliable** documentation, thanks to automated checks and manual reconciliation with its implementation
-4. **low-effort** documentation based on test scenarios, assuming that you already put in the effort to identify and discuss concrete examples.
+1. _collaborative_ documentation that takes input from people in business, development and testing roles
+2. _insightful_ documentation whose precise structure exposes uncertainty and complexity
+3. _reliable_ documentation, thanks to automated checks and manual reconciliation with its implementation
+4. _low-effort_ documentation based on test scenarios, assuming that you already put in the effort to identify and discuss concrete examples.
 
 BDD appears to satisfy these principles _by construction_;
 perhaps BDD specifies living documentation _by example_.
@@ -66,8 +66,8 @@ In particular, developers should take care to avoid using living documentation a
 
 This development cost may mean that living documentation’s ultimate popularity depends on emerging combinations of:
 
-1. **a software development technique** whose value justifies the overall effort, like BDD
-2. **a documentation type** that proves collaborative and insightful, like [Gherkin](https://cucumber.io/docs/gherkin/) test scenarios
-3. **a reconciliation tool** that makes the documentation reliable at reasonable effort, like [Cucumber](https://cucumber.io) and [SpecFlow](https://specflow.org).
+1. _a software development technique_ whose value justifies the overall effort, like BDD
+2. _a documentation type_ that proves collaborative and insightful, like [Gherkin](https://cucumber.io/docs/gherkin/) test scenarios
+3. _a reconciliation tool_ that makes the documentation reliable at reasonable effort, like [Cucumber](https://cucumber.io) and [SpecFlow](https://specflow.org).
 
 After all, you might need more software documentation than test scenarios.

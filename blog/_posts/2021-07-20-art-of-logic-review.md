@@ -4,10 +4,10 @@ description: A case study in the importance of good examples, by @DrEugeniaCheng
 layout: hh
 tags: book
 image: art-of-logic.jpg
-css: "#cover { float:right; margin:0 0 1em 1em; } .content p.figure {text-align:center; margin:1em;} .content img {width:245px}"
+css: ".figure {text-align:center; margin:1em;}"
 ---
 
-<a href="https://profilebooks.com/work/the-art-of-logic/"><img id="cover" src="art-of-logic.jpg" alt="The Art of Logic"></a>
+<a class="cover" href="https://profilebooks.com/work/the-art-of-logic/"><img id="cover" src="art-of-logic.jpg" alt="The Art of Logic"></a>
 
 In [The Art of Logic](https://profilebooks.com/work/the-art-of-logic/),
 [Professor Eugenia Cheng](http://eugeniacheng.com)
@@ -84,4 +84,4 @@ Ironically, that particular programmer community would have especially benefitte
 Your intellectual health deserves the tonic this book administers.
 Read it!
 
-⭐️⭐️⭐️⭐️⭐️ **Recommended.**
+⭐️⭐️⭐️⭐️⭐️ _Recommended._

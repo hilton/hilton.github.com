@@ -5,7 +5,7 @@ layout: hh
 tags: software documentation
 image: readme.png
 twitter_card: summary_large_image
-css: "ol{font-weight:bold;padding:1em 3em;border:1px solid #ccc;width:640px} table{font-size:120%;width:38em} pre{width:640px}"
+css: "ol{padding:1em 3em 0.5em;border:1px solid #ccc;width:33em;} article table{font-size:100%;width:38em} pre{width:640px}"
 ---
 
 ![Writing at the top of blank page](notepad-writing.jpg)

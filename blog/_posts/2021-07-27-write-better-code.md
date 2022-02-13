@@ -40,7 +40,7 @@ Start with these three reverse caption competitions: choose your meme!
 {:.big.solid-two style="max-width:38em"}
 > Go and delete it… [you ain’t gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)!
 
-{:.big.solid-three style="max-width:29em"}
+{:.big.solid-three style="max-width:27em"}
 > Domain knowledge is an asset; code is a liability!
 
 

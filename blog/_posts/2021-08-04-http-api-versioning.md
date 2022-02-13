@@ -20,7 +20,7 @@ image: amsterdam-canal-houses.jpg
 API versioning sounds straightforward, and I’d assumed that `/api/v1` in the URL path solves the problem by giving your API a version number.
 Then I saw this from [Fielding himself](https://en.wikipedia.org/wiki/Roy_Fielding):
 
-{:.big style="max-width:34em"}
+{:.big style="max-width:33em"}
 > The reason to make a real REST API is to get evolvability … 
 > a "v1" is a middle finger to your API customers, indicating RPC/HTTP (not REST)
 > [@fielding](https://twitter.com/fielding/status/376835835670167552)

@@ -5,7 +5,7 @@ tags: programming book
 layout: hh
 ---
 
-<a class="pull-right" href="https://www.manning.com/books/functional-reactive-programming?a_aid=playscala" style="margin-left:1em"><img src="functional-reactive-programming.jpg" alt="Functional Reactive Programming"> </a>
+<a class="cover" href="https://www.manning.com/books/functional-reactive-programming?a_aid=playscala"><img src="functional-reactive-programming.jpg" alt="Functional Reactive Programming"> </a>
 
 For this review of [_Functional Reactive Programming_](https://www.manning.com/books/functional-reactive-programming?a_aid=playscala) (FRP), I read MEAP (pre-publication early access) version 8, which includes 12 out of 15 planned chapters. It was a good read and the more-important first half of the book seems to be complete.
 

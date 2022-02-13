@@ -7,6 +7,8 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="mask-icon" href="/h.svg" color="#DF5A49">
 <link rel="stylesheet" type="text/css" href="../style/hh.css">
+<link rel="stylesheet" type="text/css" href="../style/pygments.css">
+{% if page.css %}<style type="text/css">{{ page.css }}</style>{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
@@ -39,16 +41,17 @@
 <section class="speaking"></section>
 <section class="music"></section>
 
+<article itemscope itemtype="http://schema.org/Article">
+
 {% if page.title %}
 <header>
 	<h1 itemprop="name">{{ page.title }}</h1>
 	<p><span itemprop="description">{{ page.description }}</span>
 	<small><span class="text-muted">{% if page.date %}- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}{% endif %}
 	{% for tag in page.tags %}#{{ tag }} {% endfor %}</span></small></p>
-<header>
+</header>
 {% endif %}
 
-<article itemscope itemtype="http://schema.org/Article">
 {{ content }}
 </article>
 

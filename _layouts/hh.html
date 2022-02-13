@@ -1,107 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en">
 <head>
 <meta charset="utf-8">
-{% if page.categories %}
-	{% assign home = '../' %}
-{% endif %}
-{% if page.title == 'Page not found' %}
-	{% assign home = '/' %}
-{% endif %}
-<title>{% if page.title %}{{ page.title }} - Peter Hilton{% else %}Peter Hilton’s blog{% endif %}</title>
+<title>{{ page.title }} - Peter Hilton</title>
 <link rel="icon" href="/favicon.png" sizes="16x16" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="mask-icon" href="/h.svg" color="#DF5A49">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="{{ home }}style/hh-2014.css">
-{% if page.url contains '/blog/' %}<link rel="stylesheet" type="text/css" href="{{ home }}style/pygments.css">{% endif %}
-
-{% if page.css %}
-<style type="text/css">{{ page.css }}</style>
-{% endif %}
+<link rel="stylesheet" type="text/css" href="../style/hh.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Peter Hilton’s blog{% endif %}" />
-<meta property="og:type" content="{% if page.url contains '/blog/' %}article{% else %}website{% endif %}" />
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Peter Hilton’s personal web site{% endif %}" />
-<meta property="og:url" content="https://hilton.org.uk{{ page.url | replace:'.html','' }}" />
-<meta property="og:image" content="https://hilton.org.uk/{% if page.image %}blog/{{ page.image }}{% else %}picture/face/hilton-peter.jpg{% endif %}" />
-<meta property="og:image:alt" content="{% if page.image %}blog illustration{% else %}Peter Hilton{% endif %}" />
 <meta property="og:locale" content="en_GB" />
-{% feed_meta %}
-<meta name="twitter:card" content="{% if page.twitter_card %}{{ page.twitter_card }}{% else %}summary{% endif %}" />{% if page.twitter_card %}
-<meta name="twitter:image" content="https://hilton.org.uk/blog/{{ page.image }}" />{% endif %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }} #presentation{% else %}Recent &amp; upcoming presentations{% endif %}" />
+<meta property="og:url" content="https://hilton.org.uk{{ page.url | replace:'.html','' }}" />
+<meta property="og:image" content="https://hilton.org.uk/{% if page.image %}presentations/{{ page.image }}{% else %}picture/face/hilton-peter.jpg{% endif %}" />
+<meta property="og:image:alt" content="{% if page.image %}Presentation title slide{% else %}Peter Hilton{% endif %}" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@PeterHilton" />
 <meta name="twitter:creator" content="@PeterHilton" />
 </head>
-<body class="{{ page.categories }}">
+<body class="writing">
 
 <section class="main"></section>
 <section class="development"></section>
-
 <section class="writing">
-	<div class="container">
-		<nav class="navbar pull-right" role="navigation">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/">home</a></li>
-				<li><a href="{{ home }}about">about</a></li>
-				<li><a href="{{ home }}contact">contact</a></li>
-			</ul>
-		</nav>
-		<h2><a href="/blog/">Writing by Peter Hilton</a></h2>
-	</div>
+	<nav role="navigation">
+		<ul>
+			<li><a href="/">home</a></li>
+			<li><a href="../about">about</a></li>
+			<li><a href="../contact">contact</a></li>
+		</ul>
+	</nav>
+	<h2><a href="/blog/">Writing by Peter Hilton</a></h2>
 </section>
-
 <section class="speaking"></section>
 <section class="music"></section>
 
-<div class="container" itemscope itemtype="http://schema.org/Article">
+{% if page.title %}
+<header>
+	<h1 itemprop="name">{{ page.title }}</h1>
+	<p><span itemprop="description">{{ page.description }}</span>
+	<small><span class="text-muted">{% if page.date %}- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}{% endif %}
+	{% for tag in page.tags %}#{{ tag }} {% endfor %}</span></small></p>
+<header>
+{% endif %}
 
-	{% if page.title %}
-	<header>
-		<h1 itemprop="name">{{ page.title }}</h1>
-		<p class="lead">
-			<span itemprop="description">{{ page.description }}</span>
-			<small><span class="text-muted">
-			{% if page.date %}- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}{% endif %}
-			{% for tag in page.tags %}#{{ tag }} {% endfor %}
-			</span></small>
-		</p>
-	<header>
-	{% endif %}
+<article itemscope itemtype="http://schema.org/Article">
+{{ content }}
+</article>
 
-	<article class="content">
-	{{ content }}
-	</article>
+<article class="related">
+{% if page.previous and page.previous.url contains '/blog/' %}
+	Previous article: <a href="{{ page.previous.url | replace:'.html','' }}">{{ page.previous.title }}</a>
+	<br>
+{% endif %}
+{% if page.next %}
+	Next article: <a href="{{ page.next.url | replace:'.html','' }}">{{ page.next.title }}</a>
+{% endif %}
+</article>
 
-	<article class="related">
-	{% if page.previous and page.previous.url contains '/blog/' %}
-		Previous article: <a href="{{ page.previous.url | replace:'.html','' }}">{{ page.previous.title }}</a>
-		<br>
-	{% endif %}
-	{% if page.next %}
-		Next article: <a href="{{ page.next.url | replace:'.html','' }}">{{ page.next.title }}</a>
-	{% endif %}
-	</article>
+{% if page.title %}
+{% capture url %}http%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
+{% if page.description %}{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}{% endif %}
+<section class="social">
+<p><a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,
+'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Presentations+by+Peter+Hilton" onclick="javascript:window.open(this.href,
+'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a></p>
+</section>
+{% endif %}
 
-	{% if page.title and page.url contains '/blog/' %}
-	{% capture url %}https%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
-	{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}
-	<article class="social">
-		<a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+by+%40PeterHilton" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=600');return false;"><img src="../picture/social/minimal/twitter.png" alt="Share on Twitter"></a><a href="//www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}&amp;title={{ page.title | cgi_escape }}&amp;summary={{ description }}&amp;source=Peter+Hilton%E2%80%99s+blog" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=430,width=600');return false;"><img src="../picture/social/minimal/linkedin.png" alt="Share on LinkedIn"></a>
-	</article>	
-	{% endif %}
+<footer class="text-muted">
+<p>{% include footer.html %}</p>
+</footer>
 
-	<footer class="text-muted">
-		<p>{% include footer.html %}</p>
-	</footer>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

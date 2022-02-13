@@ -3,32 +3,31 @@ categories: blog
 layout: hh
 ---
 
-<div class="row">
-<div class="col-md-8">
 <h1>Blog</h1>
 
+<div class="row">
+<div class="column-2">
+
 <p class="tags">
-<a class="label label-default" href="../tag/software">#software</a>
-<a class="label label-default" href="../tag/product">#product</a>
-<a class="label label-default" href="../tag/api">#API</a>
-<a class="label label-default" href="../tag/data">#data</a>
-<a class="label label-default" href="../tag/design">#design</a>
-<a class="label label-default" href="../tag/nocode">#NoCode</a>
-<a class="label label-default" href="../tag/agile">#agile</a>
-<a class="label label-default" href="../tag/documentation">#documentation</a>
-<a class="label label-default" href="../tag/documentation">#book</a>
-<a class="label label-default" href="../tag/maintenance">#maintenance</a>
-<a class="label label-default" href="../tag/naming">#naming</a>
-<a class="label label-default" href="../tag/programming">#programming</a>
-<a class="label label-default" href="../tag/comments">#comments</a>
+<a href="../tag/software">#software</a>
+<a href="../tag/product">#product</a>
+<a href="../tag/api">#API</a>
+<a href="../tag/data">#data</a>
+<a href="../tag/design">#design</a>
+<a href="../tag/nocode">#NoCode</a>
+<a href="../tag/agile">#agile</a>
+<a href="../tag/documentation">#documentation</a>
+<a href="../tag/documentation">#book</a>
+<a href="../tag/maintenance">#maintenance</a>
+<a href="../tag/naming">#naming</a>
+<a href="../tag/programming">#programming</a>
+<a href="../tag/comments">#comments</a>
 </p>
 
 {% for page in site.categories.blog %}
 <h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
-<p>{{ page.description }}
-<span class="text-muted">- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}
-{% for tag in page.tags %}#{{ tag }} {% endfor %}</span></p>
-{% endfor %}
+<p>{{ page.description }}<span class="text-muted">- {{ page.date | date: "%-d&nbsp;%B&nbsp;%Y" }}
+{% for tag in page.tags %}#{{ tag }} {% endfor %}</span></p>{% endfor %}
 
 <h2>Older articles (2005-2014)</h2>
 
@@ -36,7 +35,8 @@ layout: hh
 
 </div>
 
-<div class="col-md-4">
+<div class="column-3">
+
 <h2>97 Things Every Java Programmer Should Know</h2>
 <p><a href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
 <img src="97-things-java.jpg" alt="book cover" style="width:150px"></a></p>
@@ -52,7 +52,6 @@ edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, publish
 <p>Peter Hilton presented widely on the topic and was a certified trainer for Typesafe’s
 <a href="http://typesafe.com/how/training/fasttracktoplaywithscala">Fast Track to Play with Scala</a> training course,
 before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
-
 
 <h2>Cafe reviews</h2>
 
@@ -89,17 +88,7 @@ before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
 <p><a href="../poetry.html">Poetry by C R Hilton</a></p>
 <p><a href="../tristan_and_iseult.html"><I>Tristan And Iseult: A Jungian Interpretation</I></a></p>
 
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-8">
 <h2>Older articles (1996-2004)</h2>
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-4">
 
 <h3 id="places">Travel writing</h3>
 <p><a href="../cambridge_cafes.html">Cambridge Coffee &amp; Cake Guide</a>
@@ -128,9 +117,6 @@ before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
 <br><a href="../mmmm.html">My magnificent midnight munchies</a>
 <br><a href="../rrrr.html">Rough &amp; ready rapid rapid recipes</a></p>
 
-</div>
-<div class="col-md-4">
-
 <h3 id="opinion">Opinion</h3>
 <p><a href="../books.html">Book reviews</a> - short reviews of computer books
 <br><a href="../car_ownership.html">Car ownership</a>
@@ -143,8 +129,7 @@ before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
 <br><a href="../ideas.html">Spare ideas</a>
 <br><a href="../why_sofas.html">Why every cafe needs a sofa</a>
 <br><a href="../why_obscure_languages.html">Why obscure languages are more fun to learn</a>
-<br><a href="../what_numbers_are_not.html">What 'What Numbers Could Not Be', by Paul Benacerraf, Is</a>
-</p>
+<br><a href="../what_numbers_are_not.html">What 'What Numbers Could Not Be', by Paul Benacerraf, Is</a></p>
 
 <h3 id="photos">Photographs</h3>
 <p><a href="../photos_algonquin.html">Algonquin Provincial Park, Canada</a>
@@ -158,10 +143,8 @@ before they rebranded as <a href="https://www.lightbend.com/">Lightbend</a>.</p>
 <br><a href="../photos_transport.html">public transport</a>
 <br><a href="../photos_vienna.html">Vienna</a></p>
 
-</div>
-
-</div>
-
 <h2>Index</h2>
 <p><a title="Index of page titles" href="../titles.html">Page index</a></p>
 <p><a title="Index of page titles" href="../photo_index.html">Photo index</a></p>
+
+</div>

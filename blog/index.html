@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: hh
-css: "article .text-muted::before {content:'• '; color:#999}"
+css: "em {color:#595959; font-style:normal; } em::before {content:'• '; color:#999} h3 {margin-bottom:0}"
 ---
 
 <h1>Blog</h1>
@@ -26,8 +26,8 @@ css: "article .text-muted::before {content:'• '; color:#999}"
 </p>
 
 {% for page in site.categories.blog %}
-<h3 class="title"><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
-<p>{{ page.description }} <span class="text-muted">{{ page.date | date: "%Y-%m-%d" }}{% for tag in page.tags %} #{{ tag }}{% endfor %}</span></p>{% endfor %}
+<h3><a href="{{ page.url | replace:'.html','' }}">{{ page.title }}</a></h3>
+<p>{{ page.description }} <em>{{ page.date | date: "%Y-%m-%d" }}{% for tag in page.tags %} #{{ tag }}{% endfor %}</em></p>{% endfor %}
 
 <h2>Older articles (2005-2014)</h2>
 

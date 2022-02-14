@@ -11,7 +11,7 @@ Entrepreneurs occasionally succumb to the illusion that their startup idea is wo
 
 It’s fairly obvious that an idea by itself isn’t worth much, especially to every entrepreneur that ever tried to sell one. What is perhaps less obvious is that new ideas are easy to come by. After all, most start-ups - even successful ones - are based on fairly straightforward ideas, often a variation on something that already works. Only rare exceptions are something nobody else could have come up with.
 
-# The fundamental theorem of app design
+## The fundamental theorem of app design
 
 In case you didn’t already know, there is a fundamental theorem off app design: given a few pints, every conversation in a pub will result in an idea for a mobile app. How often have you heard someone say ‘there should be an app for that!’?
 

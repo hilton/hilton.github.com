@@ -8,7 +8,7 @@ layout: hh
 The mark of great writing is its occasional ability to express an idea so well that the prose stands alone, out of any context. As a tweet, even. Here is a short collection of my favourite software development quotations.
 
 
-<blockquote class="big solid-one"><p>‘Anyone who says “and using this tool I can remove the programmers” just became the programmer’</p>
+<blockquote class="big solid-one" style="max-width:30em"><p>‘Anyone who says “and using this tool I can remove the programmers” just became the programmer’</p>
 <p>- Allan Kelly</p></blockquote>
 
 Allan Kelly a.k.a. [@allankellynet](https://twitter.com/allankellynet)
@@ -17,7 +17,7 @@ on the reality of the snake-oil that is irresistible to so many business manager
 Intriguingly, some technologies, such as business rules management systems, can take advantage of this by bringing programming to business analysts (or other people who could have been programmers if they wanted to), while being very careful to avoid calling it ‘programming’.
 
 
-<blockquote class="big solid-two"><p>‘HTML is not just one output format among many; it is the format of our age’</p>
+<blockquote class="big solid-two" style="max-width:33em"><p>‘HTML is not just one output format among many; it is the format of our age’</p>
 <p>- Mark Pilgrim</p></blockquote>
 
 [Mark Pilgrim](http://en.wikipedia.org/wiki/Mark_Pilgrim) on how HTML is not just another technology, hinting at why template frameworks that attempt to replace HTML with some kind of DSL are so misguided.
@@ -32,7 +32,7 @@ Intriguingly, some technologies, such as business rules management systems, can 
 on the misconception that programmers are uncommunicative. Ironically, these are the three most awkwardly-phrased sentences in an otherwise well-written book about how you can see software development as a co-operative game.
 
 
-<blockquote class="big solid-four"><p>‘Life in a big or small company is an information game where you are judged by the amount, accuracy, and timeliness of your information.’</p>
+<blockquote class="big solid-four" style="max-width:39em"><p>‘Life in a big or small company is an information game where you are judged by the amount, accuracy, and timeliness of your information.’</p>
 <p>- Michael Lopp</p></blockquote>
 
 [Michael Lopp](http://en.wikipedia.org/wiki/Rands) a.k.a. 
@@ -71,4 +71,3 @@ on the difference between project-based software development and product develop
 
 [William Gibson](http://en.wikipedia.org/wiki/William_Gibson) a.k.a.
 [@GreatDismal](https://twitter.com/GreatDismal), in this quotation that risks being more well-known than any of his novels, is not really talking about software, of course. However, it is chilling to imagine than he is really talking about enterprise software development.
-

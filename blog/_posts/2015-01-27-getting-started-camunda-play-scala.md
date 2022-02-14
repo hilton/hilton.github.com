@@ -3,6 +3,7 @@ title: camunda BPM with Play and Scala
 description: integrating Business Process Management with a web application
 tags: BPM playframework Scala
 layout: hh
+css: "img {border: 1px solid #ccc; padding:1em; }"
 ---
 
 This article shows how to integrate [camunda BPM](http://camunda.org) with a [Play Framework](http://playframework.com/) web application. My [introduction to camunda BPM](camunda-developer-friendly-bpm) takes a high-level view of the framework, from a developer’s perspective, but doesn’t show what it’s actually like. This tutorial is about the code:
@@ -46,16 +47,19 @@ On the [camunda download page](http://camunda.org/download/), download the [camu
 
 Using your own Apache Tomcat installation location, deploy the WAR file - ‘exploded’ so we can edit the database configuration.
 
+{: style="width:63em"}
 	unzip camunda-webapp-tomcat-standalone-7.2.0.war -d /Applications/apache-tomcat-7.0.57/webapps/camunda/
 
 Add the PostgreSQL JDBC driver to the camunda web application. If you don’t already have it, you can download the JAR from the corresponding [http://mvnrepository.com artifact page](http://mvnrepository.com/artifact/org.postgresql/postgresql/9.3-1102-jdbc41) or proceed with the next section until the Play application has downloaded the dependency to the local Ivy cache.
 
+{: style="width:63em"}
 	cp ~/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.3-1102-jdbc41.jar /Applications/apache-tomcat-7.0.57/webapps/camunda/WEB-INF/lib/
 
 ### Configure the camunda BPM web application
 
 Edit the deployed web application’s configuration, to change the `dataSource` bean to use the new PostgreSQL database by editing the four configuration property values:
 
+{: style="width:44em"}
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy">
 	  <property name="targetDataSource">
 	    <bean class="org.apache.commons.dbcp.BasicDataSource">
@@ -92,12 +96,12 @@ Next create a new Play/Scala application, which we will use to deploy the busine
 
 In the new application, edit `build.sbt` and replace the library dependencies section with the following, to add the database driver and camunda API:
 
-{% highlight Scala %}
+```scala
 libraryDependencies ++= Seq(
   "org.postgresql" % "postgresql" % "9.3-1102-jdbc41",
   "org.camunda.bpm" % "camunda-bom" % "7.2.0",
   "org.camunda.bpm" % "camunda-engine" % "7.2.0")
-{% endhighlight %}
+```
 
 ### Add the business process definition file
 
@@ -113,7 +117,8 @@ Next we need some code that will use the camunda BPM API to deploy `loan-approva
 
 Add the following code in the new file `app/Global.scala`, to start the process engine and deploy the BPMN file when the Play application starts-up.
 
-{% highlight Scala %}
+{: style="width:44em"}
+```scala
 import org.camunda.bpm.engine.{ProcessEngineConfiguration, ProcessEngines}
 import play.api.{Application, GlobalSettings, Logger}
 
@@ -145,11 +150,11 @@ object Global extends GlobalSettings {
     ProcessEngines.getDefaultProcessEngine.close()
   }
 }
-{% endhighlight %}
+```
 
 This code uses the camunda BPM API to configure the process engine programmatically. In a real application, you would externalise this to a configuration like the following in `conf/application.conf` and use the Play configuration API instead of hard-coding the values.
 
-{% highlight javascript %}
+```javascript
 camunda {
   jdbcDriver = "org.postgresql.Driver"
   jdbcUrl = "jdbc:postgresql://localhost/process-engine"
@@ -157,7 +162,7 @@ camunda {
   jdbcPassword = "camunda"
   processDefinitions = ["loan-approval.bpmn", "new-account.bpmn"]
 }
-{% endhighlight %}
+```
 
 Anyway, for now, we have everything we need to run the Play application and deploy the business process.
 
@@ -185,6 +190,7 @@ Now, in the Play application directory, start the Play application to deploy the
 
 The first time, this includes fetching the dependencies from Maven repositories. The application has not started yet, because this is lazy is dev mode. To compile and start the application, open [http://localhost:9000](http://localhost:9000), which makes the console show:
 
+{: style="width:48em"}
 	[info] Compiling 6 Scala sources and 1 Java source to /camunda/get-started-play2/target/scala-2.11/classes...
 	[info] application - Starting process engine...
 	[info] application - Deploying process definition...
@@ -233,7 +239,8 @@ First add a new HTTP route to the `conf/routes` file:
 
 This route defines an integer URL path parameter that we will pass to the process engine as a process variable. To do this, add the following action method to the `app/controllers/Application.scala` controller:
 
-{% highlight Scala %}
+{: style="width:44em"}
+```scala
 def startLoanApprovalProcess(loanAmount: Int) = Action {
   import org.camunda.bpm.engine.ProcessEngines
   import org.camunda.bpm.engine.variable.Variables._
@@ -242,7 +249,7 @@ def startLoanApprovalProcess(loanAmount: Int) = Action {
   val processInstance = runtime.startProcessInstanceByKey("approve-loan", processVariables)
   Created("started process instance " + processInstance.getId)
 }
-{% endhighlight %}
+```
 
 Now you can start the process instance with an HTTP request to the new endpoint:
 
@@ -262,7 +269,7 @@ You can see this in the Tasklist. Select the new _Approve Loan_ process instance
 
 The next step is [adding a service task](http://docs.camunda.org/latest/guides/getting-started-guides/developing-process-applications/#tutorial-add-a-service-task) from the original tutorial. The corresponding Scala code for the proces delegate is as follows:
 
-{% highlight Scala %}
+```scala
 package org.camunda.bpm.getstarted.loanapproval
 
 import org.camunda.bpm.engine.delegate.{DelegateExecution, JavaDelegate}
@@ -274,6 +281,6 @@ class ProcessRequestDelegate extends JavaDelegate {
     Logger.info(s"Processing loan approval for amount $amount...")
   }
 }
-{% endhighlight %}
+```
 
 However, it is not possible to run this from the camunda Tasklist, as in the original tutorial, because our architecture is different. Our application is using a separate process engine to Tasklist, which therefore does not have access to the `ProcessRequestDelegate`. Instead, it is necessary to control the process from within our own application, using the camunda Java API. This is, of course, left as an exercise for the reader.

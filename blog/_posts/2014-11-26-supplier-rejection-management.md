@@ -35,28 +35,30 @@ Advanced features, such as a voice-response maze for persistent time wasters and
 
 After you have identified the caller as a blacklisted supplier (or just about any recruiter) then you use SRM gamification features to have more fun. One approach (pioneered by Sietse) is to see how long the caller will wait on hold before giving up. Using Twilio, SRM automates this:
 
-{% highlight xml %}
+```xml
 <Response>
     <Say>Hi, this is the procurement department. Your call is important to us. Please hold.</Say>
     <Play>http://srm.example.com/cheesy-music-compilation.mp3</Play>
 </Response>
-{% endhighlight %}
+```
 
 Alternatively, SRM can play a surprise audio clip. (Sadly, video is not yet supported.)
 
-{% highlight xml %}
+```xml
 <Response>
     <Play>http://srm.example.com/rickroll.mp3</Play>
 </Response>
-{% endhighlight %}
+```
 
 Twilio will use this web service response to announce a greeting (in a slightly creepy computer voice - presumably intended for prototyping) and play an audio clip. SRM then keeps score of the longest time on hold per caller.
 
 As well as blacklisting known spammers, and whitelisting known contacts, SRM can also greylist callers who have not yet been identified. Suspected spammers and people who hide caller ID can be directed to a pre-screening voice-response menu.
 
-{% highlight xml %}
+```xml
 <Response>
-    <Say>Welcome to SRM 1.0. Your call is important to us. Please select one of the following options so we can handle this call effectively. This call may be recorded for training purposes.</Say>
+    <Say>Welcome to SRM 1.0. Your call is important to us. Please select 
+    one of the following options so we can handle this call effectively.
+    This call may be recorded for training purposes.</Say>
     <Gather numDigits="1" action="/srm/navigate-1" method="POST">
         <Say>
         	If you are a recruiter, press 1.
@@ -66,7 +68,7 @@ As well as blacklisting known spammers, and whitelisting known contacts, SRM can
         </Say>
     </Gather>
 </Response>
-{% endhighlight %}
+```
 
 As you can see in this example, Twilio captures key-presses using a similar model to HTML form processing, and requests a new web service resource whose TwiML (XML) response handles the next step in the menu. Twilio sends a POST request to the given `/srm/navigate-1` with a `Digits` request parameter that captures the key the caller pressed.
 
@@ -77,7 +79,7 @@ If you feel that merely rejecting calls and rickrolling recruiters isn’t suffi
 
 The game takes the form of a classic adventure game, implemented in Twilio using a voice response menu.
 
-{% highlight xml %}
+```xml
 <Response>
     <Say>You are in a dark forest. It is raining. There are exists to the North and East.</Say>
     <Play>http://srm.example.com/thunder.mp3</Play>
@@ -85,18 +87,19 @@ The game takes the form of a classic adventure game, implemented in Twilio using
         <Say>To go North, Press 2. To go East, press 6.</Say>
     </Gather>
 </Response>
-{% endhighlight %}
+```
 
 As in the earlier example, this uses speech, audio clips and capturing keypresses.
 
-{% highlight xml %}
+```xml
 <Response>
-    <Say>As you blunder through the trees, you fall and slip down a muddy bank into a deep pit. There are 4 recruiters here.</Say>
+    <Say>As you blunder through the trees, you fall and slip down a muddy bank 
+    into a deep pit. There are 4 recruiters here.</Say>
     <!-- Transfer call to death-by-recruiter teleconference. -->
     <Dial>+13105551212</Dial>
     <Say>Thank you for playing SRM 1.0. Goodbye.</Say>
 </Response>
-{% endhighlight %}
+```
 
 The game ends when the caller finds the centre of the maze, or when they fall into a trap, which is a conference call with previously-captured recruiters.
 
@@ -105,30 +108,30 @@ The game ends when the caller finds the centre of the maze, or when they fall in
 
 The SRM Counterscript module provides an implementation of the [Counterscript]( http://egbg.home.xs4all.nl/counterscript.html) that was written to provide countermeasures to the call-centre scripts that cold-callers use. This script turns the tables on the caller, and puts SRM in control of the conversation.
 
-{% highlight xml %}
+```xml
 <Response>
     <Say>To whom am I speaking?</Say>
     <Record maxLength="10" action="/srm/counterscript-2" />
 </Response>
-{% endhighlight %}
+```
 
 This example records audio spoken by the caller. Twilio makes the previous recording’s URL available via the `RecordingUrl` request parameter.
 
-{% highlight xml %}
+```xml
 <Response>
     <Say>I’m sorry, I didn’t get that. Could you spell your name for me?</Say>
     <Record maxLength="30" action="/srm/counterscript-3" />
 </Response>
-{% endhighlight %}
+```
 
 Note that this script simply discards the recording in most cases, and repeats the question in order to waste the caller’s time.
 
-{% highlight xml %}
+```xml
 <Response>
     <Say>Could you tell me how you found this phone number?</Say>
     <Record maxLength="30" action="/srm/counterscript-4" />
 </Response>
-{% endhighlight %}
+```
 
 
 ## Conclusion

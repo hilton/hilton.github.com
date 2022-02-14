@@ -13,7 +13,7 @@ Sooner or later, a software development team has to settle on a standard for the
 
 **80 characters per line** is the traditional length because, you know… [punched cards](http://en.wikipedia.org/wiki/Punched_card#IBM_80-column_punched_card_formats_and_character_codes). Even though the IBM card format dates from 1928 - so not yet _antique_ - this remains enduringly popular, becoming further set in stone in the 1978 [VT 100](http://en.wikipedia.org/wiki/VT100) DEC video terminal that became its own _de facto_ standard. 80 characters per line is still going strong today, perhaps through little more than its own inertia, and perhaps programmers’ ironic conservatism. Fortunately, if you’re using [vim](http://en.wikipedia.org/wiki/Vim_(text_editor)), you can always set your window to 80 columns and write short lines of code:
 
-{% highlight scala %}
+```scala
   // https://github.com/derekwyatt/vim-scala/blob/master/indent/testfile.scala#L36
   def someFunc = {
     if (b) 1
@@ -22,11 +22,12 @@ Sooner or later, a software development team has to settle on a standard for the
       else
         3
     }
-{% endhighlight %}
+```
 
 **132 characters per line** is another traditional format - the other VT100 display mode, and related 132 column [dot-matrix printers](http://en.wikipedia.org/wiki/Dot_matrix_printing). 132 characters also seems to be the maximum line length in [Fortran](http://en.wikipedia.org/wiki/Fortran). In fact, this is probably about the longest line length in common use among programmers, although the Scala source code occasionally includes even longer lines.
 
-{% highlight scala %}
+{: style="width:60em"}
+```scala
   // https://github.com/scala/scala/blob/2.11.x/src/library/scala/collection/immutable/Map.scala#L79
   class WithDefault[A, +B](underlying: Map[A, B], d: A => B) extends scala.collection.Map.WithDefault[A, B](underlying, d) with Map[A, B] {
     override def empty = new WithDefault(underlying.empty, d)
@@ -36,13 +37,13 @@ Sooner or later, a software development team has to settle on a standard for the
     override def withDefault[B1 >: B](d: A => B1): immutable.Map[A, B1] = new WithDefault[A, B1](underlying, d)
     override def withDefaultValue[B1 >: B](d: B1): immutable.Map[A, B1] = new WithDefault[A, B1](underlying, x => d)
   }
-{% endhighlight %}
+```
 
 **120 characters per line** sometimes emerges as a compromise, when longer lines seems like an outlandish decadence or, like 100 characters per line, a round number compromise.
 
 **72 characters per line** is the longest line length that Manning allows in their books’ code listings. This is uncomfortably short, and wrapping lines to fit this was the least fun part of writing [Play for Scala](http://bit.ly/playscala2p).
 
-{% highlight scala %}
+```scala
 // Play for Scala listing 2.33 - a Play Framework controller action
 def save = Action { implicit request =>
   val newProductForm = this.productForm.bindFromRequest()
@@ -61,7 +62,7 @@ def save = Action { implicit request =>
     }
   )
 }
-{% endhighlight %}
+```
 
 72 characters is also the _default_ fixed line length in Fortran, which is just an uncomfortable language.
 

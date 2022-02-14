@@ -39,7 +39,7 @@ Attendee badges and lanyards are a common target for creative ideas, most of whi
 **Collect badges and lanyards at the end of the conference and re-use them** because no-one ever does anything else with them, other than decorate their office or throw them away. This of course only be feasible for an organisation that organises regular conferences.
 
 
-# Facilities
+## Facilities
 
 A frequent issue for conference talks are technical problems that delay the start of the presentation. Apart from having a technician in every room, there are a couple of things that can help.
 
@@ -50,7 +50,7 @@ A frequent issue for conference talks are technical problems that delay the star
 **Provide seating in the main social area** so that people can still be sociable if they’ve had enough of standing around, or of their bags of swag are too heavy to carry.
 
 
-# Swag
+## Swag
 
 Swag is a minefield of difficult choices, perhaps best left to the sponsors and exhibitors, because you can’t please everyone. However, conferences sometimes have their own good ideas for things to put in the bag.
 

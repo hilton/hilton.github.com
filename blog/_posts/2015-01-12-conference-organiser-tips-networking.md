@@ -40,7 +40,7 @@ From a networking perspective, the whole point is that lots of people from all o
 **Make attendees queue for some limited resource** because the queue for the fancy coffee made by the hipster barista can be a good place meeting people randomly.
 
 
-# Twitter
+## Twitter
 
 Twitter is a great tool for integrating online communication with meeting in real life, because of how it supports low-barrier connections with a large group of people for a short period.
 

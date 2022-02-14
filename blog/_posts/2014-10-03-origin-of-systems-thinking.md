@@ -13,6 +13,6 @@ Traditional management approaches are held back by the pervasive assumption that
 
 In the following video, John Seddon illuminates systems thinking for managing organisations by telling a series of stories of how he developed his own approach - the Vanguard Method - a real alternative.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/uN2CQe7V61E" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uN2CQe7V61E" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to learn more, then read Seddon’s excellent book - [Freedom from Command and Control: A Better Way to Make the Work Work](http://www.amazon.co.uk/Freedom-Command-Control-Better-Make/dp/0954618300) - whose insights and case studies changed the way I thought about what management is for.

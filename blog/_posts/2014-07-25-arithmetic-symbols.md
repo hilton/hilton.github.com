@@ -17,7 +17,7 @@ For some reason, modern programming languages remain steadfastly faithful to ASC
 
 Scala is interesting, among programming languages, because of the way you can define operators and use them as if they were part of the language. You can add `×` to numeric types, as an alternative multiplication operator, although perhaps with operator precedence issues (which parentheses deal with well enough). Here’s a simplified example, on the Scala console:
 
-{% highlight scala %}
+```scala
 scala> implicit class RichInt(val n: Int) extends AnyVal {
      |   def ×(m: Int) = m * n
      | }
@@ -25,7 +25,7 @@ defined class RichInt
 
 scala> 3 × 4
 res0: Int = 12
-{% endhighlight %}
+```
 
 The only strange thing is that this isn’t built-in, for all of the ASCII operators that are really just approximations of the exact symbol, such as `≠` instead of `!=`.
 

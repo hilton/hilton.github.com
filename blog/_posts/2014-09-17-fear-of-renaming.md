@@ -1,11 +1,11 @@
 ---
 title: Fear of renaming
 description: Why renaming is harder than naming
-tags: programming
+tags: programming naming
 layout: hh
 ---
 
-<blockquote class="big solid-one" style="max-width: 57em; font-size: 0.85em">
+<blockquote class="big solid-one" style="width:43em; max-width:43em; padding-right:2em; font-size: 0.85em">
 <p><em>I must not fear.</em>
 <br>Fear is the mind-killer.
 <br>Fear is the little-death that brings total obliteration.

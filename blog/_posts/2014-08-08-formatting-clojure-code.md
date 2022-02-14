@@ -19,21 +19,21 @@ I’m not a Clojure programmer, so I don’t really know anything about this, bu
 For example, [Learn Clojure with Project Euler](https://ochronus.com/learn-clojure-with-project-euler/)
 contains some tidy Clojure snippets. The problem 1 solution, which finds the sum of all the multiples of 3 or 5 below 1000, is given as:
 
-{% highlight clojure %}
+```clojure
 (reduce + (set (concat (range 0 1000 3) (range 0 1000 5))))
-{% endhighlight %}
+```
 
 This is a simple example, so it’s fairly easy to read; the syntax highlighting helps too. There are still four levels of hierarchy, however, shown by the four closing parentheses at the end of the line. I suspect that the limit of what’s readable is five levels, which suggests ‘no more than five consecutive parentheses’ as a Clojure coding standard.
 
 The problem 2 solution, which sums even-valued Fibonacci sequence terms up to four million, is not much more complex, although it also has four-levels of nesting:
 
-{% highlight clojure %}
+```clojure
 (def fibo (lazy-cat [0 1]
                     (map + fibo (rest fibo))))
 
 (reduce + (take-while (partial >= 4000000)
                       (filter even? fibo)))
-{% endhighlight %}
+```
 
 In addition to syntax highlighting, manual indentation also helps readability. It could be better though.
 
@@ -53,9 +53,9 @@ The second problem with (or opportunity for) the Clojure source code is that the
 
 Without thinking too hard about it, a mathematical notation point of view makes it natural to transform the first example, from:
 
-{% highlight clojure %}
+```clojure
 (reduce + (set (concat (range 0 1000 3) (range 0 1000 5))))
-{% endhighlight %}
+```
 
 to, say:
 
@@ -65,13 +65,13 @@ In this simple example you can already see how the parentheses’ variable font 
 
 Similarly, we can transform the second example, from:
 
-{% highlight clojure %}
+```clojure
 (def fibo (lazy-cat [0 1]
                     (map + fibo (rest fibo))))
 
 (reduce + (take-while (partial >= 4000000)
                       (filter even? fibo)))
-{% endhighlight %}
+```
 
 to:
 
@@ -88,7 +88,7 @@ The examples above are based on screenshots of the following MathML, rendered in
 
 ### Problem 1
 
-{% highlight xml %}
+```xml
 <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'
   style='width:640px; font-size:1.2em; padding:0.5em 0'mathbackground='#f5f5f5'>
   <mfenced separators='&nbsp;'>
@@ -110,11 +110,11 @@ The examples above are based on screenshots of the following MathML, rendered in
     </mfenced>
   </mfenced>
 </math>
-{% endhighlight %}
+```
 
 ### Problem 2
 
-{% highlight xml %}
+```xml
 <math xmlns='http://www.w3.org/1998/Math/MathML' display='block' 
   style='width:640px; font-size:1.2em; padding:0.5em 0'mathbackground='#f5f5f5'>
   <mfenced separators='&nbsp;'>
@@ -160,7 +160,7 @@ The examples above are based on screenshots of the following MathML, rendered in
     </mfenced>
   </mfenced>
 </math>
-{% endhighlight %}
+```
 
 
 ## Clojure implementation

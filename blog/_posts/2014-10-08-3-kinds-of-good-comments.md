@@ -26,9 +26,9 @@ This article addresses these questions and introduces three kinds of good code c
 
 Good comments are answers to questions that maintainers will have about your code. For example, suppose you are maintaining some code and come across the following value object class: does it require an explanatory comment?
 
-{% highlight scala %}
+```scala
 case class Kitten(photo: URL, cutenessScore: Int, age: Duration)
-{% endhighlight %}
+```
 
 Perhaps not, if you’re building a pet shop catalogue, but you’ll definitely want an explanation if you come across this while maintaining a trading system for a merchant bank. As usual, obviousness depends on context.
 
@@ -40,11 +40,11 @@ If you can write a clear answer to these questions in a single sentence, then th
 
 A block of code cannot explain why it exists, however clean and beautiful it is. Instead, write a comment that explains why the code is there:
 
-{% highlight scala %}
+```scala
 // Photo of a kitten to console a trader after a loss, with
 // cuteness proportional to the magnitude of the loss.
 case class Kitten(photo: URL, cutenessScore: Int)
-{% endhighlight %}
+```
 
 When not to write this kind of comment: when the code is obviously an essential part of the code around it, in a larger scope. Whether this is obvious depends on the code around it, and how easily you can see this larger scope.
 
@@ -53,10 +53,10 @@ When not to write this kind of comment: when the code is obviously an essential 
 
 When you write clean code, it is clear how the implementation works. For example, the following code divides an amount of money by two, and even has a comment that explains why the code exists.
 
-{% highlight scala %}
+```scala
 // Splits an amount, e.g. so we can split the bill.
 def half(amount: Money) = amount.dividedBy(2, RoundingMode.UP)
-{% endhighlight %}
+```
 
 But why are we using [Joda Money](http://www.joda.org/joda-money/) instead of just dividing a numeric amount? The code cannot explain why you didn’t choose a different implementation - an alternative approach or a different algorithm.
 
@@ -79,9 +79,9 @@ When not to write this kind of comment: if the implementation is the first one y
 
 Code may have requirements for or limitations on its use. For example, you might imagine that the following function can always estimate a kitten’s cuteness:
 
-{% highlight scala %}
+```scala
 def estimateCuteness(kitten: Kitten): Int = { … }
-{% endhighlight %}
+```
 
 However, perhaps the function fails when the kitten is dead or if it is more than a year old (and therefore not a kitten). We therefore have to consider another question:
 
@@ -89,20 +89,20 @@ However, perhaps the function fails when the kitten is dead or if it is more tha
 
 These are reasonable restrictions to document in a comment:
 
-{% highlight scala %}
+```scala
 // Returns a cuteness estimate for a non-dead kitten less than one year old.
 def estimateCuteness(kitten: Kitten): Int = { … }
-{% endhighlight %}
+```
 
 The need for this kind of comment is arguable, because the code or its tests might be able to make it clear what these pre-conditions are. This introduces the trade-off between adding comments so that you can understand a function from its interface - the function signature and any explanation in the comment - versus having to read the implementation to find important details.
 
 Sometimes, a restriction is an implicit TODO task, to remove the restriction:
 
-{% highlight scala %}
+```scala
 // TODO Modify the algorithm to return zero for dead kittens, which are not cute.
 // TODO Throw an IllegalArgumentException for cats that are too old to be kittens.
 def estimateCuteness(kitten: Kitten): Int = { … }
-{% endhighlight %}
+```
 
 When not to write this kind of comment: if you can find a way to make it clear in the code what the restrictions are or, even better, enforce them in the types you use. For example, the `Kitten` type could already enforce an age less than one year. In fact, if you find yourself writing detailed comments about function parameters and return values, then perhaps you should move to a more strongly-typed programming language.
 

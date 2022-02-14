@@ -13,16 +13,17 @@ To inspect HTTP client requests, you need a server that will let you inspect the
 
 As a simple example, suppose you are debugging a web service that requires clients to send the following JSON object via HTTP POST.
 
-{% highlight json %}
+```json
 {
  "quantity": 11,
  "mood": "elated",
  "animal": "elephants"
 }
-{% endhighlight %}
+```
 
 To try this out, save this JSON in a `test.json` file and send it to a server URL using [cURL](http://curl.haxx.se) on the command line:
 
+{: style="width:44em"}
 	curl -X POST -H "Content-Type: application/json" --data-binary @test.json http://localhost:9000/
 
 When you run this, you’ll get a connection error because there is no server:
@@ -66,6 +67,7 @@ _netcat_ isn’t an HTTP server, so it doesn’t send an HTTP response to the cl
 
 The screenshot shows a _Mocky_ endpoint that returns a `400 Bad Request` response. To see this, use cURL with the `--include` option to include HTTP response headers in the output:
 
+{: style="width:56em"}
 	curl --include -X POST -H "Content-Type: application/json" --data-binary @test.json http://www.mocky.io/v2/53feea0d7f38c9ce00b8bd9f
 
 The response is now:
@@ -87,6 +89,7 @@ This is very convenient, and easy to use, but unfortunately _Mocky_ doesn’t gi
 
 [RequestBin](https://requestbin.com/) is a web application that, like _Mocky_, generates an endpoint for you to use. There is no configuration: just click the _Create a RequestBin_ button on the home page. This creates a new ‘RequestBin’, which has a URL that you can send requests to, and a web page that initially shows sample code for sending a POST request. The first of these examples is a cURL command line:
 
+{: style="width:56em"}
 	curl -X POST -d "fizz=buzz" https://epw176o.x.pipedream.net/
 
 Run this command and reload the inspector page - the endpoint URL with `?inspect` appended - to see something like this: 
@@ -95,6 +98,7 @@ Run this command and reload the inspector page - the endpoint URL with `?inspect
 
 This shows _FORM/POST PARAMETERS_ separately: _RequestBin_ is intended for debugging HTML form requests. However, you can also use the JSON example:
 
+{: style="width:56em"}
 	curl -X POST -H "Content-Type: application/json" --data-binary @test.json https://epw176o.x.pipedream.net/
 
 This time the _RAW BODY_ shows the raw JSON request, with syntax highlighting:
@@ -110,11 +114,12 @@ In both cases, _RequestBin_ returns an `HTTP 200 OK` response. If you want more 
 
 To debug the JSON POST example, use the `http://httpbin.org/post` endpoint, which returns data from the HTTP POST request in the response:
 
+{: style="width:56em"}
 	curl -X POST -H "Content-Type: application/json" --data-binary @test.json http://httpbin.org/post
 
 The HTTP response contains JSON data that echoes the information in the request:
 
-{% highlight json %}
+```json
 {
   "args": {}, 
   "data": "{\n \"quantity\": 11,\n \"mood\": \"elated\",\n \"animal\": \"elephants\"\n}", 
@@ -137,25 +142,27 @@ The HTTP response contains JSON data that echoes the information in the request:
   "origin": "80.42.72.171", 
   "url": "http://httpbin.org/post"
 }
-{% endhighlight %}
+```
 
 The `data` field shows the raw request data, but formatted as a JSON string, so this might be less useful for debugging the exact request body. However, the `json` field formats the request data as JSON, which could be very useful.
 
 _httpbin_ gives you more control over what the response is, by providing a number of other end points. For example, you can instruct it to return a `400 Bad request` response:
 
+{: style="width:56em"}
 	curl --include -X POST -H "Content-Type: application/json" --data-binary @test.json http://httpbin.org/status/400
 
 This gives the expected response:
 
-	HTTP/1.1 400 BAD REQUEST
-	Access-Control-Allow-Credentials: true
-	Access-Control-Allow-Origin: *
-	Content-Type: text/html; charset=utf-8
-	Date: Thu, 28 Aug 2014 09:53:00 GMT
-	Server: gunicorn/18.0
-	Content-Length: 0
-	Connection: keep-alive
-
+```http
+HTTP/1.1 400 BAD REQUEST
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Thu, 28 Aug 2014 09:53:00 GMT
+Server: gunicorn/18.0
+Content-Length: 0
+Connection: keep-alive
+```
 
 ## Customising request inspection
 
@@ -167,7 +174,8 @@ For example, with the [Play Framework](https://playframework.com/) and Scala, yo
 
 Next add the controller, in `app/controllers/HttpLogger.scala`, with the code:
 
-{% highlight scala %}
+{: style="width:44em"}
+```scala
 package controllers
 
 import play.api.mvc._
@@ -180,6 +188,6 @@ object HttpLogger extends Controller {
     Ok
   }
 }
-{% endhighlight %}
+```
 
 Now you can run the application and send POST requests to `http://localhost:9000/`. This is as basic as it gets, but you can customise it to do anything you might want.

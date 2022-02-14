@@ -1,7 +1,7 @@
 ---
 title: Meaningless variable names
 description: Naming things without actually choosing a name
-tags: programming
+tags: programming naming
 layout: hh
 ---
 

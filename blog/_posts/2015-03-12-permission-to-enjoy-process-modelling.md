@@ -7,6 +7,9 @@ layout: hh
 
 ![Permission](permission.jpg)
 
+[Gerry Dincher](https://www.flickr.com/photos/gerrydincher/6602323811){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 [The process modelling trap](process-modelling-trap) explains why BPM practitioners risk becoming obsessed with process diagrams: they may discover the joy of coding in process models. This is no surprise, if you realise that [process modelling is a form of disguised programming](zero-code-delusion).
 
 This parallel between process modelling and conventional programming suggests a few ideas for the BPM community. As a process engineer, amateur or otherwise, you’d do well to give yourself permission to enjoy modelling.
@@ -30,5 +33,3 @@ Finally, build communities and do it with other people. Process modelling is suf
 Entirely despite themselves, open-source software developers have created excellent collaboration tools for online open source communities. The tools built for sharing open-source licensed code written in conventional programming languages are eminently suitable for sharing process models in BPMN format. 
 
 The only reason that we don’t have repositories of open-source process models is that the BPM community hasn't published them in large numbers yet. What’s more, we’re almost at the point where process engineers have widespread tools for web-based process diagrams to use.
-
-_Photo: [Gerry Dincher](https://www.flickr.com/photos/gerrydincher/6602323811) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

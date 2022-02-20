@@ -7,6 +7,9 @@ layout: hh
 
 ![Playing with models](lego-play.jpg)
 
+[PICNIC Network](https://www.flickr.com/photos/crossmediaweek/7307215176){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 If you’ve had any involvement in Business Process Management (BPM), you should have heard (and heeded) warnings not to get hung up on process modelling. Many a BPM expert explains that ‘getting insight into your processes’ is a non-goal. Processes are meant to be performed, and the only value comes from the end results of these processes: results they deliver for an (internal or external) customer.
 
 <blockquote class="big solid-one" style="max-width:28em"><p>‘I don’t want better processes. I want better process results.’</p>
@@ -41,5 +44,3 @@ People who have caught the process modelling bug have in fact discovered the _jo
 For programmers, there’s an easier distinction between programming for a customer and programming for its own sake. The latter gives rise to coding dojos, hackathons and, frankly, most open-source software. (TDD is perhaps a grey area, but that’s another story.)
 
 A whole new world awaits BPM practitioners who give themselves permission to enjoy modelling, and escape the process modelling trap. Especially if they do it together.
-
-_Photo: [PICNIC Network](https://www.flickr.com/photos/crossmediaweek/7307215176) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

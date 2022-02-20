@@ -7,13 +7,17 @@ layout: hh
 
 ![A spreadsheet](spreadsheet.jpg)
 
+[atlken77](https://www.flickr.com/photos/floridaken77/5964733034){:.photocredit}
+[CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/){:.license}
+
 [Effektif](effektif-hosted-bpm) changes things for software developers, because it provides a process-centric alternative to spreadsheet-driven development. Instead of trying to do everything with spreadsheets (and e-mail), a process management tool like Effektif allows people to discover a different perspective.
 
 ## Spreadsheet-fixation
 
 Spreadsheets are so pervasive in business, that there’s an old user-interface design joke:
 
-<blockquote class="big" style="max-width:23em"><p>There are only two user interfaces in the world: Word and Excel.</p></blockquote>
+{:.big style="max-width:28em"}
+> There are only two user interfaces in the world: Word and Excel.
 
 The joke works because of the recognisable frustration of trying to explain the design of a shiny new business automation solution that neither looks like a word-processor, nor a spreadsheet. This may even explain why so much development work seems to be on either some kind of (crypto-Word) CMS or a (crypto-Excel) CRUD-based data management application.
 
@@ -40,5 +44,3 @@ As with spreadsheets, reaching and going beyond the limits of the tool is a good
 When office workers have general-purpose software for process management, they will be able to experiment in a way that they cannot on a conventional process-based software development project. If and when custom development then starts, there will be much less guesswork, and more concrete details about how the processes actually work, including an actual executable (and executed) process diagram.
 
 This is why a tool like Effektif is important for enterprise software developers: it joins the dots between what people actually do it their job - the real business process - and a software-based model. Without this concrete process description, business analysts and software developers are just left with what people _say_ they do, which is a poor substitute indeed.
-
-Photo: [atlken77](https://www.flickr.com/photos/floridaken77/5964733034) / [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)

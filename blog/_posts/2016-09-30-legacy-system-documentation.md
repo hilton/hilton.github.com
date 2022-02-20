@@ -22,7 +22,7 @@ By _system overview_ I mean something short that introduces the different perspe
 * **External interfaces** - similar to the component list, but for other people’s systems you connect to
 * **Architecture overview** - typically a single diagram - that shows how these components and interfaces connect
 * **Functional overview** - very short description of what the system does and why - which business problem it solves.
-* **Non-functional requirements** - which five, say, of the long list on https://en.wikipedia.org/wiki/Non-functional_requirement are most important for this system
+* **Non-functional requirements** - which five, say, of the long list on [Wikipedia](https://en.wikipedia.org/wiki/Non-functional_requirement) are most important for this system
 
 The trick with each of these is to provide a starting point for a developer to delve deeper by asking other people or reading the source code.
 You typically won’t need a lot of detail in every area.

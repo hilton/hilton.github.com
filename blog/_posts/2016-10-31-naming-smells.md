@@ -81,20 +81,20 @@ Refactor to a complete word, using the refactoring for either _meaningless names
 Traditionally, at least in certain programming languages, coders use names like `i`, `j` and `k` for loop variables and would prefer to ignore these problems and carry on using single-letter names.
 (If they’re particularly hardcore, they use `ii`, `jj` and `kk`, which are easier to search for in a text editor with no programming language support.)
 
-{% highlight c %}
+```c
 for (int i = 1; i < 42; ++i)
-{% endhighlight %}
+```
 
 If you’re wondering whether it’s okay to make a _for-loop_ index exception, you should probably switch to a more modern programming language that iterates over collection types without using a loop index.
 And before you whine that single-letter names are okay _because Haskell_, one letter is too short in functional programming as well.
 
-{% highlight Scala %}
+```scala
 /** Modify the value viewed through the lens, returning a `C` on the side. */
 def modp[C](f: B1 => (B2, C), a: A1): (A2, C) = {
   val (b, c) = f(get(a))
   (set(a, b), c)
 }
-{% endhighlight %}
+```
 
 This method from the [`Lens`](https://github.com/scalaz/scalaz/blob/series/7.2.x/core/src/main/scala/scalaz/Lens.scala
 ) class in [Scalaz](https://github.com/scalaz/scalaz) defies comprehension.

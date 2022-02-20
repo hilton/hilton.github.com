@@ -7,6 +7,9 @@ layout: hh
 
 ![Construction toy](lego-brick.jpg)
 
+[Magic Madzik](https://www.flickr.com/photos/cefeida/2167070556){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 The only things that business managers want more than estimates for software development with unknown scope, are ways to develop software without programmers or coding. Unfortunately, these things don’t become reasonable expectations just because you _really really_ want them and not even if you declare that you absolutely _need_ them.
 
 Like it or not, custom software development requires skills we call ‘programming’, and artefacts we call ‘code’. Zero-code is a delusion, and all that glitters is usually marketing snake-oil. There are subtleties, though, depending on what you choose to include in those notions of _custom software development' programming_ and _code_. There’s even an ironic benefit to the delusion.
@@ -55,5 +58,3 @@ The evidence for non-programmers engaging with disguised programming is simple a
 It’s ironic that although zero-code is a marketing delusion, the search for zero-code leads to opportunities for non-programmers to do software development. Whether the idea will actually catch on is another story, but that wouldn’t be a bad thing.
 
 \* My mother always told me that I should have trained to be something useful, such as a plumber.
-
-_Photo: [Magic Madzik](https://www.flickr.com/photos/cefeida/2167070556) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

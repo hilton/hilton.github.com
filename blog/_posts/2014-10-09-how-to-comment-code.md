@@ -7,6 +7,9 @@ layout: hh
 
 ![revisions](revisions.jpg)
 
+[quinnanya](https://www.flickr.com/photos/quinnanya/2021672445){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 Once you’ve worked out the difference between [bad comments](7-ways-to-write-bad-comments) and [good comments](3-kinds-of-good-comments), you still have to write them. How you do this is less obvious than it ought to be, so here’s an approach that might work for you.
 
 Writing comments has a lot in common with both writing code and writing prose. After all, it _is_ prose and it’s _about_ code, so don’t expect writing comments to be any easier. The key to actually writing good comments is to keep the following in mind.
@@ -67,5 +70,3 @@ Code, like prose, needs to be read by other people and improved. Programmers can
 Code review is needed because comments talk about code at a different level than the code itself, and it can be hard for the person who wrote the code to take that step back. Pair programming helps a lot here, because while one person codes, the other can be thinking about the higher level - _Why are we doing this? - and how to express this in a good comment.
 
 Finally, don’t forget the [rules of good writing](george-orwell-rules-scala), and to think about how to apply them to comments: avoid clichés, be concise, remove unnecessary words, and break the rules when you have to.
-
-_Photo: [quinnanya](https://www.flickr.com/photos/quinnanya/2021672445) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

@@ -7,6 +7,9 @@ layout: hh
 
 ![photo - songbirds](birds-pylon.jpg)
 
+[Michael Coghlan](https://www.flickr.com/photos/mikecogh/14410924093){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 The first rule of Twitter is _Don’t talk about Fight Club_, because tweets about Twitter are just as tedious as television programmes about television. In fact, I’ve successfully restrained myself for six and a half years now, since I explained [how to explain Twitter](http://blog.lunatech.com/2008/08/14/how-explain-twitter) Nevertheless, it turns out that for a lot of people, it’s not obvious how you might use Twitter, or even what you’d write about.
 
 There was a time when journalists, having just heard of ‘this new Twitter thing’, would write articles for other Luddites that boiled down the question, ‘who wants to know that you’re sitting on the toilet?’ Meanwhile, millions of people have come up with far more interesting things to write about.
@@ -50,5 +53,3 @@ Your followers are generally following you because of a shared interest in a sma
 **Post off-topic about what you care about**, though, because a little randomness keeps life interesting and makes you less one-dimensional as a writer. That’s why and old-school encyclopaedia (in an actual book) is interesting because you often end up reading the article next to the one you were looking up, and alphabetical order is random with respect to topics.
 
 **Don’t switch languages** - because however much those of us who are trilingual like to brag about it, tweets in a different language are like those off-topic tweets that only mean anything to a small subset of your usual followers. Twitter shouldn’t be monolingual, though, so let’s hope Twitter clients start integrating automatic translation sometime soon.
-
-_Photo: [Michael Coghlan](https://www.flickr.com/photos/mikecogh/14410924093) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

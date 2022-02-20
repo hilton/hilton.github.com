@@ -7,6 +7,9 @@ layout: hh
 
 ![shh](shh.jpg)
 
+[anna gutermuth](https://www.flickr.com/photos/anniferrr/4379600329){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 Programmers like to talk about _bandwidth_. They want lots of information, as fast as they can process it. This means that all things being equal, programmers prefer talking face-to-face because that’s the highest-bandwidth communication method. (Actually, face-to-face plus whiteboard is better, but that’s another story.)
 
 The thing is, all things are decidedly not equal, and insisting on face-to-face communication is often a bad compromise, especially when you make a habit of it. Working face-to-face isn’t a problem, but an assumption that this is the way programmers should work together is.
@@ -64,5 +67,3 @@ Alternatively, start thinking about writing things down. Or [mob programming](ht
 The thing about preferring face-to-face communication is that you might make the mistake of thinking that because it’s better, _other things being equal,_ that you should do it all the time. When you make a habit of talking to programmers, like this, then it’s hard to see the compromises you’re making. It’s ever harder to change.
 
 If you’re the programmer - J in this story - you should consider your options. There are good ways to deal with all of these issues. The question is whether you, your team and your employer, are willing to use them.
-
-_Photo: [anna gutermuth](https://www.flickr.com/photos/anniferrr/4379600329) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

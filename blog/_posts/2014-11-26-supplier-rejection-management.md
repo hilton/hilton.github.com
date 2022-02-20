@@ -7,6 +7,9 @@ layout: hh
 
 ![Evil call-centre employee](call-centre.jpg)
 
+[alanclarkdesign](https://www.flickr.com/photos/alanclarkdesign/2486109368/){:.photocredit}
+[CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0//){:.license}
+
 An annoying thing about working for a company that’s too small to have a full-time receptionist is that spam phone calls constantly interrupt your work. All businesses get hassled by people selling printer supplies, and if you employ programmers then you’ll have to deal with recruiters as well.
 
 Part of the problem is that the potential suppliers who resort to cold-calling have software support that helps minimise the effort, and scripts that are designed to make it difficult to screen calls. Even worse is the brute force approach: armies of telemarketers in call centres whose job it is to waste your time.
@@ -35,6 +38,7 @@ Advanced features, such as a voice-response maze for persistent time wasters and
 
 After you have identified the caller as a blacklisted supplier (or just about any recruiter) then you use SRM gamification features to have more fun. One approach (pioneered by Sietse) is to see how long the caller will wait on hold before giving up. Using Twilio, SRM automates this:
 
+{: style="width:44em"}
 ```xml
 <Response>
     <Say>Hi, this is the procurement department. Your call is important to us. Please hold.</Say>
@@ -79,6 +83,7 @@ If you feel that merely rejecting calls and rickrolling recruiters isn’t suffi
 
 The game takes the form of a classic adventure game, implemented in Twilio using a voice response menu.
 
+{: style="width:44em"}
 ```xml
 <Response>
     <Say>You are in a dark forest. It is raining. There are exists to the North and East.</Say>
@@ -137,5 +142,3 @@ Note that this script simply discards the recording in most cases, and repeats t
 ## Conclusion
 
 Although Supplier Rejection Management is not yet available for use, because it’s vapourware, Twilio does offer a useful service that makes all sorts of interesting applications possible.
-
-_Photo: [alanclarkdesign](https://www.flickr.com/photos/alanclarkdesign/2486109368/) / [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0//)_

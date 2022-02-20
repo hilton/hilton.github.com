@@ -7,6 +7,9 @@ layout: hh
 
 ![Introduction…](introduction.jpg)
 
+[earlynovelsdatabase](https://www.flickr.com/photos/97741188@N04/14486379561/){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 I’ve learned something from writing about [good comments](3-kinds-of-good-comments), [bad comments](7-ways-to-write-bad-comments), and [how to write them](how-to-comment-code). Not only are code comments hard to write, so is writing about writing comments. Here’s yet another way about thinking about comments in code.
 
 The most substantial comments in object-oriented application code are the classes’ and methods’ block comments. You can think of these as the introduction to the class and method bodies - the main content of the code.
@@ -52,5 +55,3 @@ Note that there is a special case for domain model classes that model a real-wor
 > An [Incoterm](http://en.wikipedia.org/wiki/Incoterms) for a shipment.
 
 Handily, there are lots of [obscure things with Wikipedia pages](https://hilton.org.uk/blog/today-i-learned).
-
-_Photo: [earlynovelsdatabase](https://www.flickr.com/photos/97741188@N04/14486379561/) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

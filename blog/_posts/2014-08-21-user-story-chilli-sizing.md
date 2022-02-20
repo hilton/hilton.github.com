@@ -7,6 +7,9 @@ layout: hh
 
 ![Chillies on a String](chillies.jpg)
 
+[David McLeish](https://www.flickr.com/photos/shishberg/409485537){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 Scrum teams sometimes use t-shirt sizes to avoid over-specific estimates. Choosing between small, medium and large allows a rough initial product backlog prioritisation. T-shirt sizes sound simple, but they are as much of a recipe for misunderstanding as hours estimates.
 
 [Mike Cohn explains](http://www.mountaingoatsoftware.com/blog/estimating-with-tee-shirt-sizes) that there are two problems with t-shirt size estimates, one of which is that ‘your view of an XL may not match mine’. The problem is that a word like ‘large’ can lead to misplaced arguments like ‘that isn’t _large_’ when the sizes were only supposed to be relative to each other.
@@ -27,4 +30,4 @@ What’s clearer with chilli ratings is that one restaurant’s scale is unrelat
 
 Perhaps your Scrum project doesn’t need chilli ratings, but if you find yourself using sizes that have too much baggage, changing to a new unit might be a useful way to reset expectations about how precise these estimates are. After all, with estimation, you sometimes need a way to express that are not precise more than you need to make your estimates precise.
 
-_Photo: [David McLeish](https://www.flickr.com/photos/shishberg/409485537) - Chilli icon: [Freepik](http://www.flaticon.com/packs/food-icons)_
+_Chilli icon: [Freepik](http://www.flaticon.com/packs/food-icons)_

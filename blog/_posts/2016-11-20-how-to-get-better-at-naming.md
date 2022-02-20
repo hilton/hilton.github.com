@@ -13,11 +13,11 @@ This article proposes ten ways you can improve your naming skills, which help yo
 
 First, think about [Why naming things is hard](https://hilton.org.uk/blog/why-naming-things-is-hard), and how hard you find it yourself.
 
-<blockquote class="big" style="max-width:28em">
-<p>The reason naming is both hard and important is because it is an act of communication;
-without good names your code might as well be written in, well, code</p>
-<p>- Kevlin Henney</p>
-</blockquote>
+{:.big style="max-width:37em"}
+> The reason naming is both hard and important is because it is an act of communication;
+> without good names your code might as well be written in, well, code
+>
+> Kevlin Henney
 
 A veteran programmer recently told me that he never had a problem with naming, which you don’t often hear.
 Either way, you have to decide for yourself what you need to improve.

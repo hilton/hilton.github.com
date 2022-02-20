@@ -7,6 +7,9 @@ layout: hh
 
 ![Light bulbs are cheap](light-bulbs.jpg)
 
+[Paolo Martini](https://www.flickr.com/photos/locomosquito/7450708614){:.photocredit}
+[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/){:.license}
+
 Entrepreneurs occasionally succumb to the illusion that their startup idea is worth something. An idea for a business or a product, however inspired, won’t get you anywhere without a team that can pull off the hard work of executing the idea. You’ll probably need some money too.
 
 It’s fairly obvious that an idea by itself isn’t worth much, especially to every entrepreneur that ever tried to sell one. What is perhaps less obvious is that new ideas are easy to come by. After all, most start-ups - even successful ones - are based on fairly straightforward ideas, often a variation on something that already works. Only rare exceptions are something nobody else could have come up with.
@@ -58,5 +61,3 @@ To illustrate, here is a selection of start-up ideas that occurred to me recentl
 **Codebox** packaged/branded Raspberry Pi (or similar) that boots into a Scala/Clojure/Haskell REPL and serves docs from a web server.
 
 **Talking Points** is a conference presentation app that calculates the minimum font size (in points - geddit?) for text on presentation slides from the room and projected screen size. For bonus points, crowd source venue dimensions by analysing photos of slides taken from the back row.
-
-_Photo: [Paolo Martini](https://www.flickr.com/photos/locomosquito/7450708614) / [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)_

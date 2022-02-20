@@ -5,9 +5,10 @@ tags: agile
 layout: hh
 ---
 
-<blockquote><p style="color:#334D5C;font-size:2em;max-width:13em">‘Life in a big or small company is an information game where you are judged by the amount, accuracy, and timeliness of your information.’</p>
-<p><a href="https://twitter.com/rands">@rands</a> a.k.a. Michael Lopp, <a href="http://beinggeek.com">Being Geek</a></p>
-</blockquote>
+{:.big style="max-width:38em"}
+> ‘Life in a big or small company is an information game where you are judged by the amount, accuracy, and timeliness of your information.’
+> 
+> [@rands](https://twitter.com/rands) a.k.a. Michael Lopp, [Being Geek](http://beinggeek.com)
 
 Perhaps the hardest thing that you are asked to do, as a professional software developer, is to estimate how long it will take to do something you’ve never done before. Estimation is hard, and unavoidable, so you cannot afford to make avoidable mistakes. 
 

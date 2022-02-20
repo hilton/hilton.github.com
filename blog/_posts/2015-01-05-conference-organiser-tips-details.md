@@ -61,6 +61,3 @@ Swag is a minefield of difficult choices, perhaps best left to the sponsors and 
 **Have women’s t-shirts** as well as men’s. Apart from the obvious reasons, there are already enough men’s t-shirts from conferences that languish never-worn at the bottom of drawers, and plenty of women (nerdy and otherwise) who don’t have enough conference t-shirts.
 
 **Produce mugs** because you can never have enough mugs at the office, and you could do worse than encourage companies to try to collect every year’s new mug.
-
-
-_Photo: Peter Hilton_

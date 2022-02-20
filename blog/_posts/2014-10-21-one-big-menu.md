@@ -7,6 +7,9 @@ layout: hh
 
 ![Dutch pea soup](erwtensoep.jpg)
 
+[maxh42](https://www.flickr.com/photos/maxh42/14659258634){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 All restaurants have a web presence: locations on [Google Maps](https://www.google.com/maps), reviews on [TripAdvisor](http://www.tripadvisor.com/) and check-ins on [Foursquare](https://foursquare.com/). Some restaurants even have their own web site, for what it’s worth.
 
 [Restaurant web sites are awful](http://www.juliansanchez.com/2010/12/27/why-are-restaurant-web-sites-so-bad/), perhaps because there’s rarely budget for more than a glamorous brochure. You’ll be lucky if the [mostly-useless content](http://neversaidaboutrestaurantwebsites.tumblr.com/) includes more than an address, phone number, a few photos and a menu. Most of this content isn’t a problem because it doesn’t change, though; the problem is the menu.
@@ -47,6 +50,3 @@ The successful One Big Menu platform also makes additional services possible.
 * Promotional opportunities from gamification - become your town’s resident cheesecake expert.
 
 As for business model, the first step is to build a user base and develop a revenue model later. What could possibly go wrong?
-
-
-_Photo: [maxh42](https://www.flickr.com/photos/maxh42/14659258634) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

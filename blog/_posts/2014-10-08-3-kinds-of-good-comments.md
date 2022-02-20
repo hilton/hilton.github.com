@@ -7,6 +7,9 @@ layout: hh
 
 ![Nous sommes les acteurs de nos existences](existence.jpg)
 
+[jmenj](https://www.flickr.com/photos/jmenj/9597334273){:.photocredit}
+[CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/){:.license}
+
 I’m sure you’re not going to write [bad comments](7-ways-to-write-bad-comments) in code, so there’s no need to discuss that, but I’m not sure that you’re going to write good comments either. In fact, I’m not sure that you’re going to write comments at all.
 
 Too many discussions about code commenting seem to conclude that there are so many kinds of bad comments that you’d probably be better off with no comments at all. Perhaps your code really is so bad that you could improve the average comment quality by deleting all of the comments.
@@ -105,5 +108,3 @@ def estimateCuteness(kitten: Kitten): Int = { … }
 ```
 
 When not to write this kind of comment: if you can find a way to make it clear in the code what the restrictions are or, even better, enforce them in the types you use. For example, the `Kitten` type could already enforce an age less than one year. In fact, if you find yourself writing detailed comments about function parameters and return values, then perhaps you should move to a more strongly-typed programming language.
-
-_Photo: [jmenj](https://www.flickr.com/photos/jmenj/9597334273) / [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)_

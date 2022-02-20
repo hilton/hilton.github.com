@@ -7,6 +7,9 @@ layout: hh
 
 ![garden tools](tools.jpg)
 
+[Jennifer C.](https://www.flickr.com/photos/29638108@N06/7718086616){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 A recent question over on the BPM.com forum asks:
 
 > [Should BPM Be the Preferred Tool for General Application Development?](http://bpm.com/bpm-today/in-the-forum/should-bpm-be-the-preferred-tool-for-general-application-development)
@@ -26,5 +29,3 @@ In fact, the hardest part of this is that the acronym that ends with IMS (… In
 The really great thing about data-centric application design is that it’s entirely unnecessary to figure out what business process the resulting Information Management System might be useful for, or how people are going to use the application, or what end result it might help them achieve. Even better: it’s entirely possible to complete a whole custom software development project to build some software without actually being sure that anyone will use it at all. After all, the ideal situation is when there are no users at all, which really keeps software maintenance costs down.
 
 BPM, on the other hand, is a problematic approach to application development, because it raises all sorts of difficult questions about the application you’re developing, such as ‘Why?’ Indeed, the worst thing about BPM as an approach is that you can’t really model a business process without understanding the process in terms of what result the process is supposed to achieve for an actual customer (internal or external). And if you go down that route, you might end up actually having to talk to real customers as part of the application development project. That would be ridiculous!
-
-_Photo: [Jennifer C.](https://www.flickr.com/photos/29638108@N06/7718086616) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

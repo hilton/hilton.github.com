@@ -3,7 +3,7 @@ title: camunda BPM with Play and Scala
 description: integrating Business Process Management with a web application
 tags: BPM playframework Scala
 layout: hh
-css: "img {border: 1px solid #ccc; padding:1em; }"
+css: "article img {border: 1px solid #ccc; padding:1em; }"
 ---
 
 This article shows how to integrate [camunda BPM](http://camunda.org) with a [Play Framework](http://playframework.com/) web application. My [introduction to camunda BPM](camunda-developer-friendly-bpm) takes a high-level view of the framework, from a developer’s perspective, but doesn’t show what it’s actually like. This tutorial is about the code:

@@ -7,10 +7,10 @@ tags: naming programming
 
 Naming has a reputation for difficulty, which probably comes from Phil Karlton’s famous quip.
 
-<blockquote class="big solid-one">
-<p>‘There are only two hard things in Computer Science: cache invalidation and naming things.’</p>
-<p>- Phil Karlton</p>
-</blockquote>
+{:.big style="max-width:38em"}
+> ‘There are only two hard things in Computer Science: cache invalidation and naming things.’
+>
+> Phil Karlton
 
 This is funny because it’s unexpected.
 Cache invalidation sounds like a hard thing, while naming sounds more straightforward.
@@ -38,9 +38,10 @@ Fortunately, programmers are creative people.
 
 There’s a chance that despite his substantial contribution to programming humour, among other accomplishments, Phil Karlton actually did us a disservice by encouraging us to be intimidated by having to name things.
 
-<blockquote class="big solid-two" style="max-width:28em">
-<p>‘There are two problems in computer science: there’s only one joke, and it isn’t funny.’</p>
-</blockquote>
+{:.big.solid-two style="max-width:27em"}
+> ‘There are two hard problems in computer science: we only have one joke and it’s not funny’
+>
+> [Phillip Bowden](https://twitter.com/pbowden/status/468855097879830528)
 
 Perhaps the joke’s on us, and naming isn’t actually that hard, after all.
 Naming is just one part of the micro-design activity that we call programming.
@@ -53,10 +54,10 @@ Naming matters for both idealogical and practical reasons.
 First of all, we want names to exhibit truth and beauty: to be the right names, and to make our code clean and beautiful.
 At least, this is what we want to think about our code, but naming’s importance is far more practical.
 
-<blockquote class="big solid-three" style="max-width:30em">
-<p>‘Programs are meant to be read by humans and only incidentally for computers to execute.’</p>
-<p>- Donald Knuth</p>
-</blockquote>
+{:.big.solid-three style="max-width:38em"}
+> ‘Programs are meant to be read by humans and only incidentally for computers to execute.’
+>
+> Donald Knuth
 
 Naming is communication.
 Bad names prevent code from clearly communicating its intent, which is why code with obfuscated names is spectacularly hard to understand.

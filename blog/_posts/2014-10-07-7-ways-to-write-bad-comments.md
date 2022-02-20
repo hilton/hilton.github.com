@@ -7,6 +7,9 @@ layout: hh
 
 ![I comment my code - but I still don’t know what I did or why](comments-bad.jpg)
 
+[quinnanya](https://www.flickr.com/photos/quinnanya/4869433260){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 Although I’d rather write about [how to write good comments](3-kinds-of-good-comments), I have to first write about bad comments. Discussion about how ‘bad comments are bad’ gets in the way, so I have to get it off the table first. Think of the following as a kind of sanity check, making sure that we’re all in the same codebase, so to speak.
 
 Bad comments cause as many problems as bad code, so don't write comments that:
@@ -60,5 +63,3 @@ Rewriting code to reduce the need for comments is also understandably popular wi
 
 Reducing the need for comments only gets you so far, though. The next step is to understand which comments improve the code, and to start writing good comments. Even if we agree that you’re not going to write bad comments, you’re not done yet.
 You also need to know about [good comments](3-kinds-of-good-comments).
-
-_Photo: [quinnanya](https://www.flickr.com/photos/quinnanya/4869433260) / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_

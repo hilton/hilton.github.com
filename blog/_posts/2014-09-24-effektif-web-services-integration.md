@@ -39,7 +39,7 @@ For this example, we’ll need a test server to represent an external system tha
 
 The next step is to write some JavaScript code that sends data to this URL, which Effektif will run on the server. Effektif provides the [Request](https://github.com/mikeal/request/blob/master/README.md) HTTP client, which we can use as follows.
 
-{% highlight javascript %}
+```javascript
 var url = 'http://requestb.in/1cu152h1';
 var formData = { "start":startDate, "end":endDate, "employee":employee };
 request.post(url, { "form": formData }, function(error, response, body) {
@@ -49,7 +49,7 @@ request.post(url, { "form": formData }, function(error, response, body) {
         throw 'HTTP error';
     }
 });
-{% endhighlight %}
+```
 
 After adding the JavaScript task to the process, you can add the code to the code editor, which indicates syntax errors and provides code completion.
 
@@ -81,7 +81,7 @@ This shows the values of the form-encoded data sent in the request.
 
 The final ingredient is some basic error handling, which is provided by the JavaScript callback function that the Request library calls when the request is complete.
 
-{% highlight javascript %}
+```javascript
 function(error, response, body) {
     if (response.statusCode != 200) {
         console.log('HTTP response status %d', response.statusCode);
@@ -89,11 +89,10 @@ function(error, response, body) {
         throw 'HTTP error';
     }
 }
-{% endhighlight %}
+```
 
 When the HTTP response is not a success (status 200), the callback writes to the console and throws an exception. For example, suppose that an evil HR system starts rejecting requests with an _All vacation is cancelled!_ error, then executing the process will result in the following output in the Effektif case stream.
 
 ![Case stream JavaScript error](effektif/vacation-request-error.png)
 
 The exception results in the red icon (top-right), and the console logging is also shown.
-

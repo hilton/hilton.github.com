@@ -7,6 +7,9 @@ layout: hh
 
 ![Photo - conference audience](crowd.jpg)
 
+[Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 Tech conference organisers put a lot of effort into selecting great talks, which results in a lot of really good conferences. However, one persistent problem frequently gets in the way of otherwise great talks: slides that are illegible for half of the people in the room.
 
 This is the first article in a series of tips for conference organisers, with ideas for better:
@@ -32,6 +35,3 @@ Presentation slides are the speaker’s responsibility, of course, but conferenc
 **Require speakers to be early for their talks** so there is time to identify and solve the ultimate legibility issue: when the laptop won’t connect to the projector. 
 
 **Provide a lecturn or standing table** because lots of presenters like to stand up and walk around while they present, but also be able to see the presenter notes on their laptop.
-
-
-_Photo: [Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_

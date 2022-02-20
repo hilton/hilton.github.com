@@ -45,10 +45,9 @@ The old Perl motto that [There’s more than one way to do it](https://en.wikipe
 Like Perl, Scala simultaneously supports more than one coding idiom.
 This isn’t a code maintenance issue until you have more than one programmer on your team.
 
-<blockquote class="big solid-one" style="max-width:36em">
-<p>Half of the Scala developers are just writing Java code without semi-colons.
-The other half are writing Haskell.</p>
-</blockquote>
+{:.big style="max-width:33em"}
+> Half of the Scala developers are just writing Java code without semi-colons.
+> The other half are writing Haskell.
 
 You can, of course, solve this by adopting a team coding style that suits your situation.
 However, these team coding styles are hard to preserve.

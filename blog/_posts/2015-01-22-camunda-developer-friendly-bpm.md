@@ -7,7 +7,9 @@ layout: hh
 
 Following my earlier look at [Effektif](effektif-hosted-bpm), here is a first look at another process management platform - [camunda BPM](http://camunda.org):
 
-<blockquote class="big" style="max-width:29em"><p>camunda BPM is a Business Process Management platform dedicated to Java developers and their typical software development infrastructure.</p></blockquote>
+{:.big style="max-width:33em"}
+> camunda BPM is a Business Process Management platform dedicated to Java 
+> developers and their typical software development infrastructure.
 
 This article explains how camunda BPM is different and how it appeals to developers.
 
@@ -23,7 +25,8 @@ camunda BPM, like its ancestors [jBPM](http://en.wikipedia.org/wiki/JBPM) and [A
 
 Initially, the most striking thing about camunda BPM is how describes itself as ‘developer-friendly’. This is related to [The camunda Hypothesis](http://blog.camunda.org/2013/04/the-camunda-hypothesis.html), which is that:
 
-<blockquote class="big solid-two" style="max-width:29em"><p>‘While there are reasonable use cases for zero code BPM Suites, they are not the right approach for automating business processes that execute an IT based business model.’</p></blockquote>
+{:.big.solid-two style="max-width:37em"}
+> ‘While there are reasonable use cases for zero code BPM Suites, they are not the right approach for automating business processes that execute an IT based business model.’
 
 In this scenario, software developers and successful software development are business-critical, and the success of software tools partly depends on whether these tools feature a good [developer experience](http://uxmag.com/articles/effective-developer-experience) and hence whether developers like them. Simply by recognising this, camunda BPM is already more appealing than the average enterprise middleware platform.
 
@@ -50,7 +53,6 @@ Ultimately, things like visions, integrations and plugins aren’t the most impo
 The camunda BPM [documentation](http://docs.camunda.org/latest/) includes an extensive well-written user manual. The getting started guides are easy to follow, and give a quick initial hands-on experience. There’s a lot to read, including application server-specific instructions.
 
 A first look at the [examples](http://camunda.org/examples/) ([GitHub repository](https://github.com/camunda/camunda-bpm-examples)) and the [consulting team demos/examples/snippets](https://github.com/camunda/camunda-consulting) reveals a lot of code to learn from. Reading other people’s code is perhaps the only real way to close the gap between high-level middleware concepts and actual solutions.
-
 
 ## Criticism
 

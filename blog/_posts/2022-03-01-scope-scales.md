@@ -45,9 +45,9 @@ Each of these activities affords a different kind of scope reduction.
 
 ## Split short-term tasks
 
-Imagine the scene: while discussing an upcoming feature to display 10-20 items in a list, someone asks what will happen if the list contains hundreds or thousands of entries.
-You realise that this would cause low performance and poor usability, because the back-end and user-interface design don’t expect that many entries, so you decide to descope the work by splitting it up.
-Initially, you’ll support up to 100 items, and put separate work on your backlog for _supporting hundreds or thousands of entries_, so development can proceed while you figure out if and when you need support for long lists.
+Imagine discussing an upcoming feature to display 10-20 items in a list, when someone asks, _what if the list contains thousands of entries?_
+This would cause low performance and poor usability, because the back-end and user-interface design don’t expect it, so you decide to descope.
+Initially, you’ll support up to 100 items, and plan separate work for _supporting hundreds or thousands of entries_, so development can proceed while you figure out if and when you need to support long lists.
 
 When you work on a single user story, you can always find ways to split the work.
 Even if you still expect to need the whole story, the two parts don’t generally have equal value and equal urgency (equal cost of delay).
@@ -67,5 +67,6 @@ John Cutler describes this in his
 
 ## Choose opportunities to ignore
 
-Finally, don’t only slice off part of a large opportunity to focus on it until you get to the rest.
+Finally, use slicing for more than just incremental development.
+When you slice off part of a large opportunity it helps you focus on a manageable first step, but also gives you an opportunity to decide what your product _won’t_ do.
 Choosing what to ignore also gives focus to your entire product vision.

@@ -57,7 +57,7 @@ This kind of splitting reduces the scope in the short term - even if only for a 
 
 When you plan long-term initiatives, you don’t have to split them in the same way.
 When you start with a long-term goal on a three-year roadmap,
-you can which part of it to slice off in the first year, without planning the remaining slices for years two and three.
+you can choose which part of it to slice off in the first year, without planning the remaining slices for years two and three.
 
 Instead of splitting something in two, and dealing with both parts, as in a game of
 [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)),

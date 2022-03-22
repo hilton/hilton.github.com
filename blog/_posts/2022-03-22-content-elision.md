@@ -31,7 +31,7 @@ He then goes on to blame a failure to reduce complexity for having too many menu
 before concluding that designers mistake obfuscation for simplification.
 By hiding the menu items that make the total _too many_, overflow menus address the symptom of too many options.
 
-The challenge here lies in the the interplay between two different problems: which menu items you have, and where to put them.
+The challenge here lies in the interplay between two different problems: which menu items you have, and where to put them.
 Fortunately, the designer has the list of menu items in advance, a luxury you don’t get with user-generated content.
 
 ## Text elision
@@ -54,7 +54,7 @@ You cannot predict user content the same way as you can a menu structure, becaus
 
 The worst design for a complex television remote control features a grid of many identical small buttons.
 These days, remote control design improves usability by embracing a more organic style, with varying sizes, shapes and colours, rather than trying to make it so _clean_.
-Software designs could benefit from a similar approach instead of gratuitouly eliding content.
+Software designs could benefit from a similar approach instead of gratuitously eliding content.
 
 Meanwhile, I wonder how user-interface designers would approach newspaper design.
 No doubt the front pages would consist of a grid of equal-sized blocks, with _continued_ at the bottom of every one.

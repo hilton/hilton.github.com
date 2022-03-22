@@ -1,6 +1,6 @@
 ---
 title: Show content without elision
-description: When percieved cleanliness trumps user experience
+description: When perceived cleanliness trumps user experience
 layout: hh
 tags: design
 image: newspaper.webp

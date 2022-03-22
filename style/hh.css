@@ -52,7 +52,7 @@ footer { width: 80em; margin-top:4em; padding: 1.5em 0; border-top: 1px solid; }
 body.writing  .tags a { border-radius:0.25em; padding: .2em .6em .3em; }
 body.writing h3 { clear:right; }
 body.writing h3.title { margin-bottom: 0; }
-body.writing blockquote { width:38em; border-left: 5px solid; padding:0.8em 1.3em 0.1em 1.3em; margin:0 0 0.6em; }
+body.writing blockquote { width:80%; max-width:38em; border-left: 5px solid; padding:0.8em 1.3em 0.1em 1.3em; margin:0 0 0.6em; }
 body.writing article img { max-width: 100%; height: auto; vertical-align: middle; margin: 0; }
 body.writing article img.framed { float:right; margin:0 0 2em 1em}
 body.writing blockquote.big { max-width: 26em; margin:1.5em 0; border-left:0; }
@@ -68,7 +68,7 @@ body.writing a.photocredit, body.writing a.license { padding:4px 6px; display:in
 body.writing code { padding: 0.1em 0.2em 0 0.2em; }
 
 @media all and (max-width: 799px) {
-  body.writing blockquote { width:31em }
+  body.writing blockquote { width:80%; max-width:31em }
 }
 
 /* TEXT */

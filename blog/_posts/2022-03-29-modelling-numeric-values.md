@@ -10,16 +10,19 @@ image: numbers.webp
 
 [Kai Gradert](https://unsplash.com/photos/kspmyZjGwBU){:.photocredit}
 
-{:.big}
-> Act your age, not your shoe size!
-
-I can’t remember if my older sister ever said that to me when I was a kid, but she might have, especially if I’d just read something like this from one of my joke books:
+As a child, growing up before the web, I loved joke books and telling jokes.
+I undoubtedly annoyed family members, with my endless supply of jokes like this:
 
 > Q: What’s brown and sticky?
 >
 > A: A stick.
 
-The admonishment uses the same kind of hook a the children’s joke:
+As a result, my older sister may well have responded with the following:
+
+{:.big}
+> Act your age, not your shoe size!
+
+The admonishment uses the same kind of hook as the children’s joke:
 an incongruity, based on the category difference between ages and
 [UK shoe sizes](https://en.wikipedia.org/wiki/Shoe_size#United_Kingdom).
 However, what makes jokes work tends to break software, where mixing value categories leads to bugs.
@@ -34,18 +37,19 @@ Computers like to classify numbers by their size and precision, because together
 Some programming languages, in turn, also classify numbers by their precision (integer or floating point) or size (number of bytes required to store the largest value).
 
 These implementation details don’t usually help much with domain modelling, beyond the need to choose a data type that supports large enough numbers, or enough decimal places.
-From a modelling perspective, however, it turns out that you have more interesting classification options.
+From a modelling perspective, you have more interesting classification options.
 
 ## Kinds of number
 
+{:.big style="max-width:24em"}
 > Unfortunately, you have dialled an imaginary number.
 > Please rotate your telephone 90 degrees and try again.
 
 If you haven’t studied mathematics, you might not have come across the following three technical terms for straightforward distinctions that we don’t normally think about.
 
-1. [cardinal numbers](https://en.wikipedia.org/wiki/Cardinal_numeral) count things, representing quantities such as the number of items in a collection
+1. [cardinal numbers](https://en.wikipedia.org/wiki/Cardinal_numeral) count things and represent quantities
 2. [ordinal numbers](https://en.wikipedia.org/wiki/Ordinal_numeral) identify a position in a sequence - _first, second, third_, etc
-3. [nominal numbers](https://en.wikipedia.org/wiki/Nominal_number) uniquely identity items, typically in sumeric ome collection, e.g. house numbers
+3. [nominal numbers](https://en.wikipedia.org/wiki/Nominal_number) uniquely identity items, typically in some collection, e.g. house numbers
 
 Of the three (cardinal) terms in this list, term three (nominal), appears third (ordinal).
 Each of these numbers answers _three_ to a different question.

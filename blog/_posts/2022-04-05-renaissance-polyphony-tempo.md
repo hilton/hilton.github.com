@@ -3,7 +3,7 @@ title: The right tempo for renaissance polyphony
 description: How fast to sing sixteenth century church music
 layout: hh
 tags: music
-image: sistine-chapel.webp
+image: sistine-chapel.jpg
 css: iframe { margin-top:1em; }
 ---
 

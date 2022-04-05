@@ -13,15 +13,16 @@
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Peter Hilton">
-<meta property="og:locale" content="en_GB" />
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Peter Hilton - blog{% endif %}" />
-<meta property="og:type" content="{% if page.url contains '/blog/' %}article{% else %}website{% endif %}" />
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Peter Hilton’s personal web site{% endif %}" />
-<meta property="og:url" content="https://hilton.org.uk{{ page.url | replace:'.html','' }}" />
-<meta name="image" property="og:image" content="https://hilton.org.uk/{% if page.image %}blog/{{ page.image }}{% else %}picture/face/hilton-peter.jpg{% endif %}" />
-<meta property="og:image:alt" content="{% if page.image %}blog illustration{% else %}Peter Hilton{% endif %}" /><meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@PeterHilton" />
-<meta name="twitter:creator" content="@PeterHilton" />
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Peter Hilton - blog{% endif %}">
+<meta property="og:type" content="{% if page.url contains '/blog/' %}article{% else %}website{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Peter Hilton’s personal web site{% endif %}">
+<meta property="og:url" content="https://hilton.org.uk{{ page.url | replace:'.html','' }}">
+<meta name="image" property="og:image" content="https://hilton.org.uk/{% if page.image %}blog/{{ page.image }}{% else %}picture/face/hilton-peter.jpg{% endif %}">
+<meta property="og:image:alt" content="{% if page.image %}blog illustration{% else %}Peter Hilton{% endif %}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@PeterHilton">
+<meta name="twitter:creator" content="@PeterHilton">
 </head>
 <body class="writing">
 

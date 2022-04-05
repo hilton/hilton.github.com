@@ -7,7 +7,7 @@ image: sistine-chapel.jpg
 css: iframe { margin-top:1em; }
 ---
 
-![Interior of the Sistine Chapel](sistine-chapel.webp)
+![Interior of the Sistine Chapel](sistine-chapel.jpg)
 
 [Dennis Jarvis](https://www.flickr.com/photos/archer10/5388358235){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

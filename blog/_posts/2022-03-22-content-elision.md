@@ -3,10 +3,10 @@ title: Show content without elision
 description: When perceived cleanliness trumps user experience
 layout: hh
 tags: design
-image: newspaper.webp
+image: newspaper.jpg
 ---
 
-![A broadsheet newspaper](newspaper.webp)
+![A broadsheet newspaper](newspaper.jpg)
 
 [Roman Kraft](https://unsplash.com/photos/_Zua2hyvTBk){:.photocredit}
 

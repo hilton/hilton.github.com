@@ -3,11 +3,11 @@ title: Guide user input
 description: How to fix, hint, and validate before complaining
 layout: hh
 tags: design
-image: keyboard.webp
+image: keyboard.jpg
 css: "label {font-weight:bold; margin-left:0.5em} form { padding:1em; margin:1em 0; background-color: #f0f0f0; } form.good {background-color:#DAF2EE} form.bad {background-color:#FFF3CC} small { padding:0 0.5em; }"
 ---
 
-![Computer keyboard](keyboard.webp)
+![Computer keyboard](keyboard.jpg)
 
 [Luis VIllafranca](https://unsplash.com/photos/A6BZj3PY7L4){:.photocredit}
 

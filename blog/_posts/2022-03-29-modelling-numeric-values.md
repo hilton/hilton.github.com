@@ -3,10 +3,10 @@ title: Modelling numeric values
 description: More than just size and precision
 layout: hh
 tags: design
-image: numbers.webp
+image: numbers.jpg
 ---
 
-![Numbers on a train](numbers.webp)
+![Numbers on a train](numbers.jpg)
 
 [Kai Gradert](https://unsplash.com/photos/kspmyZjGwBU){:.photocredit}
 

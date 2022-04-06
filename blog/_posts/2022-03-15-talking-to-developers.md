@@ -3,10 +3,10 @@ title: How to talk to developers
 description: Boring meetings and balanced conversations
 layout: hh
 tags: product
-image: whiteboard-conversation.webp
+image: whiteboard-conversation.jpg
 ---
 
-![A whiteboard conversation](whiteboard-conversation.webp)
+![A whiteboard conversation](whiteboard-conversation.jpg)
 
 [ThisisEngineering RAEng](https://unsplash.com/photos/hOCYuLmTTnY){:.photocredit}
 

@@ -78,7 +78,7 @@ Ensemble Biblische Lieder_
 Sixteenth century polyphony stylises the then-traditional performance of Gregorian chant.
 Chant essentially takes its tempo from how fast you speak the text, slowing at the end of each phrase.
 This performance lasts just 1m16s.
-We might not know what Palestrina intended, but he do know that he grew up with chant in churches, and composed his polyphony in this context.
+We might not know what Palestrina intended, but we do know that he grew up with chant in churches, and composed his polyphony in this context.
 
 ## The American choir
 

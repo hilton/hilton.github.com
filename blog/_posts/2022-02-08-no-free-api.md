@@ -35,7 +35,7 @@ the first of several [HTTP API documentation mistakes](api-documentation-mistake
 
 ## Publishing the API freezes it
 
-Sooner or later, a user-interface change will change the API will, and annoyed customers will want to know why their expensive custom reports broke.
+Sooner or later, a user-interface change will change the API, and annoyed customers will want to know why their expensive custom reports broke.
 You can’t break your API once _published_, so you’ll have to stop changing it.
 
 ## The actual API grows beyond what you published

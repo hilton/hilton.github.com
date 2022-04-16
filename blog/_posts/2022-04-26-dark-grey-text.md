@@ -1,6 +1,6 @@
 ---
-title: The dark side of grey text
-description: Why advice to use dark grey text isn’t black and white
+title: Use high-contrast text
+description: The dark side of grey text
 layout: hh
 tags: design
 image: owl.jpg

@@ -82,4 +82,4 @@ target a certain range of vision loss:
 
 > People with more than this degree of vision loss usually use assistive technologies to access their content (and the assistive technologies usually have contrast enhancing, as well as magnification capability built into them).
 
-Perhaps monitor contrast controls help more than web designers’ colour palettes.
+Perhaps monitor contrast controls have more effect than web designers’ colour palettes.

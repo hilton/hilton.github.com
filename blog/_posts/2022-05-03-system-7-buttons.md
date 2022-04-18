@@ -17,6 +17,7 @@ Mac OS System 7 included standard user-interface controls,
 HTML 2.0 added form controls in 1995, whose buttons remain nearly as good as System 7’s.
 But not quite.
 
+{:#button}
 ## Button
 
 Buttons offer perhaps the simplest graphical user interface interaction, for performing or cancelling actions.
@@ -42,6 +43,7 @@ Unfortunately, having to completely restyle the button leads to every design sys
 Perhaps this also explains the modern trend to restyle every web-based form control,
 as part of an application-specific design system, instead leaving users with their familiar operating system style.
 
+{:#radio}
 ## Radio button
 
 Radio buttons offer a single selection from several options,
@@ -65,6 +67,7 @@ possibly as more modern button types have taken their place.
 Or maybe because designers prefer a menu’s more predictable layout.
 This ignores radio buttons’ benefits of making the options more visible, and enabling single-click selection.
 
+{:#checkbox}
 ## Checkbox
 
 Checkboxes allow multiple selection, like boxes on a paper form that you check off 

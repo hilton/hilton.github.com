@@ -32,7 +32,7 @@ After completing this course you will be able to:
 
 ## Topics covered
 
-This is a two-day course that will cover these subjects:
+This is a one- or two-day course that will cover a selection of these subjects:
 
 * Documentation difficulties
 * Documentation requirements
@@ -41,6 +41,8 @@ This is a two-day course that will cover these subjects:
 * Technical writing basics
 * Documenting functionality
 * Documenting architecture
+* Documenting HTTP APIs
+* Documenting product roadmaps
 * Other documentation types
 * Production pipelines
 * Agile software development documentation

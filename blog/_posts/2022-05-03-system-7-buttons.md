@@ -47,7 +47,7 @@ as part of an application-specific design system, instead leaving users with the
 ## Radio button
 
 Radio buttons offer a single selection from several options,
-[named after old car radios](https://en.wikipedia.org/wiki/Radio_button#Etymology),
+[named after old car radios](https://www.jitbit.com/alexblog/242-the-history-of-a-radio-button/),
 which had mutually-exclusive pop-out buttons.
 
 {:.example}

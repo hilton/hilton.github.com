@@ -92,7 +92,7 @@ _Next, think about how to narrow the problem scope._
 _Now consider the how the software to document affects the context._
 
 {:start="14"}
-1. How many years did the system go into production?
+1. How many years ago did the system go into production?
 1. How many more years will its planned lifetime last?
 1. How big is it?
 1. Which aspects of the system exhibit above average complexity or complication?

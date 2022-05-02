@@ -6,6 +6,8 @@ tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em} .primary {color:white;background-color:#428bca;min-width:6em} input[type=number] {width:5.5em}"
 ---
 
+*[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
+
 Apple’s
 [Macintosh Human Interface Guidelines](https://dl.acm.org/doi/book/10.5555/573097) 
 (HIG, 1992) describe the Mac OS’ 1991

@@ -6,6 +6,8 @@ tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em}"
 ---
 
+*[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
+
 This article continues a short series on Mac OS’ 1991 
 [System 7](https://en.wikipedia.org/wiki/System_7)
 user interface, as described in Apple’s 1992 edition of the

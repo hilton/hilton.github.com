@@ -1,6 +1,6 @@
 ---
 title: Mac OS System 7 inputs vs HTML
-description: How native web browser user-interface controls compare to Mac OS 31 years ago
+description: Browser-native user-interface controls compared to Mac OS 31 years ago
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em} #volume{margin-top:0.5em}"
@@ -125,5 +125,8 @@ They appeared recently, though, so who can say whether developers will eventuall
 
 ## System 7 vs HTML
 
-HTML scores 2½ out of three for the first three controls, losing half a point for missing slider labels browser support.
+HTML scores 2½ out of three for the first three controls, losing half a point for slider labels’ poor browser support.
 1½ bonus points for colour (less useful) and date/time inputs increase that to 4 out of 3.
+
+_Screenshots from
+[GUIdebook: Graphical User Interface gallery](https://guidebookgallery.org/screenshots/macos70)._

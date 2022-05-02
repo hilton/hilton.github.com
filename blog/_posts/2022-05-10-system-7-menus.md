@@ -1,6 +1,6 @@
 ---
 title: Mac OS System 7 menus vs HTML
-description: How native web browser user-interface controls compare to Mac OS 31 years ago
+description: Browser-native user-interface controls compared to Mac OS 31 years ago
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em}"
@@ -123,3 +123,6 @@ HTML only recently increased its score from two to three out of three points, fo
 Sadly, HTML-native type-in pop-up menu adoption does not look promising,
 as web application developers now routinely implement their own versions.
 Each with slightly different behaviour.
+
+_Screenshots from
+[GUIdebook: Graphical User Interface gallery](https://guidebookgallery.org/screenshots/macos70)._

@@ -127,6 +127,7 @@ section h2 a, section nav a { color: inherit; }
 
 body { color: #222; background: white; }
 a { color: #428bca; }
+abbr { border-bottom: 2px dotted #DF5A49; }
 
 section, section a { color: white; }
   

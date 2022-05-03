@@ -6,6 +6,10 @@ tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em} #volume{margin-top:0.5em}"
 ---
 
+![Assorted electric cables](cables.jpg)
+
+[John Barkiple](https://unsplash.com/photos/l090uFWoPaI){:.photocredit}
+
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
 
 This article continues a short series on Mac OS’ 1991 

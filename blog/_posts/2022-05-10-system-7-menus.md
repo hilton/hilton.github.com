@@ -4,9 +4,14 @@ description: Browser-native user-interface controls compared to Mac OS 31 years 
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em}"
+image: beer-board.jpg
 ---
 
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
+
+![](beer-board.jpg)
+
+[Peter Hilton](){:.photocredit}
 
 This article continues a short series on Mac OS’ 1991 
 [System 7](https://en.wikipedia.org/wiki/System_7)

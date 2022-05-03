@@ -4,8 +4,12 @@ description: Browser-native user-interface controls compared to Mac OS 31 years 
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em} .primary {color:white;background-color:#428bca;min-width:6em} input[type=number] {width:5.5em}"
-image: system-7/alert-box-note.png
+image: buttons.jpg
 ---
+
+![](buttons.jpg)
+
+[Waldemar Brandt](https://unsplash.com/photos/rz6cOvHDxAA){:.photocredit}
 
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
 

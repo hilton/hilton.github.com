@@ -7,9 +7,9 @@ image: owl.jpg
 css: "body.writing blockquote.big{padding:0; background:#fff; text-align:center; max-width:38em;} blockquote.black{color:#000} blockquote.gitlab{color:#303030} blockquote.slack{color:#1D1C1D} blockquote.notion{color:#373530}"
 ---
 
-![An owl](owl.jpg)
+![](owl.jpg)
 
-[Sharon Co Images](https://unsplash.com/photos/fH1ysCzWjo4){:.big.photocredit}
+[Sharon Co Images](https://unsplash.com/photos/fH1ysCzWjo4){:.photocredit}
 
 Fashion drives user-interface design as much any aspect of software development, 
 but that doesn’t excuse cargo cult practices.

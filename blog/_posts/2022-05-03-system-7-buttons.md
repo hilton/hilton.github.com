@@ -4,6 +4,7 @@ description: Browser-native user-interface controls compared to Mac OS 31 years 
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em} .primary {color:white;background-color:#428bca;min-width:6em} input[type=number] {width:5.5em}"
+image: system-7/alert-box-note.png
 ---
 
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
@@ -25,7 +26,7 @@ But not quite.
 Buttons offer perhaps the simplest graphical user interface interaction, for performing or cancelling actions.
 
 {:.example}
-![Alert box](system-7/alert-box-note.webp)
+![Alert box](system-7/alert-box-note.png)
 
 System 7 featured both a plain button and an emphasised _default button_ -
 _Continue_ and _Quit_, respectively in this example.

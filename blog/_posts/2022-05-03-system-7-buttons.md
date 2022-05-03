@@ -20,7 +20,7 @@ Apple’s
 In the same year, Tim Berners-Lee first published 
 [HTML Tags](http://info.cern.ch/hypertext/WWW/MarkUp/Tags.html),
 the first public description of HTML.
-Mac OS System 7 included standard user-interface controls,
+Mac OS System 7 included standard user-interface controls and
 HTML 2.0 added form controls in 1995, whose buttons remain nearly as good as System 7’s.
 But not quite.
 

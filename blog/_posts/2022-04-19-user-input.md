@@ -16,7 +16,7 @@ Building a software product doesn’t involve anything harder than
 until the general public arrive.
 Whatever your product user interface asks for, people will insist on typing things in _wrong_ and blaming you for the consequences.
 
-You could try rejecting bad data, but then you might as well avoid foods you don’t like by starving yourself.
+You could try preventing users from giving you bad data in the first place, but then you might as well avoid foods you don’t like by refusing to eat.
 Instead, guide user input in stages.
 
 ## Fix

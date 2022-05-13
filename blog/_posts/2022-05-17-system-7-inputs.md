@@ -4,6 +4,7 @@ description: Browser-native user-interface controls compared to Mac OS 31 years 
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:32em} #volume{margin-top:0.5em}"
+image: cables.jpg
 ---
 
 ![Assorted electric cables](cables.jpg)

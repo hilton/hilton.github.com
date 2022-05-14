@@ -1,6 +1,6 @@
 ---
 title: Mac OS System 7 outlines vs HTML
-description: Browser-native user-interface controls compared to Mac OS 31 years ago
+description: Web-based user-interface controls compared to Mac OS 31 years ago
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} 
@@ -11,8 +11,6 @@ css: ".example {text-align:center; margin:1em 0}
 .triangle-down::before {content:'▿'} .nested {display:none} .open {display:block}"
 image: tree.jpg
 ---
-
-550+160=710
 
 ![](tree.jpg)
 
@@ -88,8 +86,8 @@ for (i = 0; i < toggler.length; i++) {
 }
 </script>
 
-This kind of implementation, with a small amount of code or a third-party component, may look okay.
-However, a basic implementation has several problems.
+This kind of basic implementation, with a small amount of code or a third-party component, may look okay.
+However, it has problems.
 
 ## Usability and accessibility
 

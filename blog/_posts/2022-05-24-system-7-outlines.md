@@ -104,6 +104,9 @@ Keyboard control also lets you select an item by typing its initial letters (not
 This kind of user-interface control has more behaviour than developers can easily identify; custom implementations therefore tend to suffer from bugs and limitations.
 They don’t come cheap either, especially if you build your own instead of finding a reusable component and accepting its limitations.
 
-
+In the end, this kind of outline selector might cost too much to make them worthwhile,
+especially given the difficulty of making hierarchical selection usable.
+After all, despite the ubiquity of tree controls in Microsoft Windows, Apple has never used them much.
+In the end, HTML doesn’t need this user-interface control, and doesn’t lose any points.
 
 _Screenshot from [PCE.js MacPlus emulator](https://jamesfriend.com.au/pce-js/)_

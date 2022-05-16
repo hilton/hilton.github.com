@@ -1,6 +1,6 @@
 ---
 title: Mac OS System 7 outlines vs HTML
-description: Web-based user-interface controls compared to Mac OS 31 years ago
+description: Tree views on the web
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} 

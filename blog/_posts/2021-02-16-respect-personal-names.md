@@ -2,11 +2,11 @@
 title: Respect people’s full names
 description: Don’t call someone’s name ‘invalid’
 layout: hh
-tags: software data design
+tags: software data design DDD
 image: certificate.jpg
 ---
 
-![A document granting permission to drive a train](certificate.jpg)
+![](certificate.jpg)
 
 [Марьян Блан](https://unsplash.com/photos/yAGv0G6q7ec){:.photocredit}
 
@@ -48,10 +48,10 @@ Again, if you think your software can judge names’ acceptability and without a
 
 Intellectually, software developers and designers understand real-world complexity, and know about
 [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
-([additional information](https://www.w3.org/International/wiki/Personal_names)).
 However, software still gets this wrong, despite these examples and advice on questions such as 
 [Personal names around the world: To split or not to split?](https://www.w3.org/International/questions/qa-personal-names#singlefield)
-(tl;dr _don’t_).
+([additional information](https://www.w3.org/International/wiki/Personal_names)).
+tl;dr _don’t_.
 
 Writing on a different topic,
 [Simon Wardley](https://twitter.com/swardley/status/1357635553093693440)

@@ -2,11 +2,11 @@
 title: Use a money data type
 description: Why your software should handle money amounts separately from other numbers
 layout: hh
-tags: software data design
+tags: software data design DDD
 image: currency.jpg
 ---
 
-![Banknotes](currency.jpg)
+![](currency.jpg)
 
 [Jason Leung](https://unsplash.com/photos/SAYzxuS1O3M){:.photocredit}
 

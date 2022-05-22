@@ -2,12 +2,12 @@
 title: Use a currency-specific number of decimals
 description: Why a money amount isn’t just a number
 layout: hh
-tags: software data design
+tags: software data design DDD
 image: yen-prices.jpg
 css: "body.writing blockquote.big p {font-size:4em; margin-bottom:0.2em; text-align:center}"
 ---
 
-![Prices in Japanese Yen](yen-prices.jpg)
+![](yen-prices.jpg)
 
 [François Brémont](https://unsplash.com/photos/ByaAsohfE3M){:.photocredit}
 

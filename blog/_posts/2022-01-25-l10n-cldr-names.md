@@ -2,11 +2,11 @@
 title: Localise names with the CLDR
 description: Using the Unicode Common Locale Data Repository’s standard translations
 layout: hh
-tags: software data design
+tags: software data design DDD
 image: currency.jpg
 ---
 
-![Banknotes](currency.jpg)
+![](currency.jpg)
 
 [Jason Leung](https://unsplash.com/photos/SAYzxuS1O3M){:.photocredit}
 

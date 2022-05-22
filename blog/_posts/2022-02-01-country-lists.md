@@ -2,7 +2,7 @@
 title: Populate country lists carefully
 description: How to source a list of countries to use in software
 layout: hh
-tags: software data design
+tags: software data design DDD
 image: bouvet-island.jpg
 ---
 
@@ -60,7 +60,7 @@ Wikipedia’s divides its
 [list of states with limited recognition](https://en.wikipedia.org/wiki/List_of_states_with_limited_recognition) into:
 
 * 6 UN member states not recognised by at least one UN member state
-* 7 non-UN member states recognised by at least one UN member state
+* 9 non-UN member states recognised by at least one UN member state
 * 2 non-UN member states recognised only by other non-UN member states
 * 1 non-UN member state not recognised by any other state
 

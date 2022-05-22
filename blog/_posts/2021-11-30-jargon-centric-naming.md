@@ -2,11 +2,11 @@
 title: Jargon-centric naming 
 description: Restricting names to controlled vocabularies
 layout: hh
-tags: naming
+tags: naming DDD
 image: flags.jpg
 ---
 
-![Dictionaries on a shelf](flags.jpg)
+![](flags.jpg)
 
 [freestocks](https://unsplash.com/photos/jUSu0686zDM){:.photocredit}
 

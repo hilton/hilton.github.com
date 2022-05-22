@@ -2,7 +2,7 @@
 title: Get better at naming things
 description: "From ‘97 Things Every Java Programmer Should Know’"
 layout: hh
-tags: programming
+tags: programming DDD
 image: 97-things-java.webp
 ---
 

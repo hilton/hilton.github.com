@@ -27,7 +27,8 @@ But not quite.
 This article starts a short series:
 
 1. **Mac OS System 7 buttons** (this article)
-2. [Mac OS System 7 menus](system-7-menus)
+2. [System 7 menus](system-7-menus)
+3. [System 7 inputs ](system-7-inputs)
 
 {:#button}
 ## Button

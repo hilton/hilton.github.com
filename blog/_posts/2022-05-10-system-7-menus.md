@@ -20,6 +20,7 @@ user interface, as described in Apple’s 1992 edition of the
 
 1. [Mac OS System 7 buttons](system-7-buttons)
 2. **Mac OS System 7 menus** (this article)
+3. [System 7 inputs ](system-7-inputs)
 
 This instalment looks at menus - controls for selecting things from lists.
 Let’s compare HTML menus to what System 7 offered 31 years ago.

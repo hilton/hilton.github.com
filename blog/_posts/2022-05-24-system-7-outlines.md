@@ -4,11 +4,12 @@ description: Tree views on the web
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} 
-#outline {background:#eee;padding:1em;margin:1em 2em; width:20em}
+#outline, article > details {color:black; background:#eee; padding:1em;margin:1em 2em; width:20em}
 #outline, #outline ul {list-style-type:none} #outline ul { margin:0; padding:0 0 0 26px } 
 #outline li {margin-bottom:0}  .triangle {cursor:pointer }
 .triangle::before { content:'▹'; display:inline-block; width:14px }
-.triangle-down::before {content:'▿'} .nested {display:none} .open {display:block}"
+.triangle-down::before {content:'▿'} .nested {display:none} .open {display:block}
+details {margin:0 0 0 1.2em; color:black} summary {margin:0}"
 image: tree.jpg
 ---
 
@@ -51,7 +52,7 @@ HTML forms have never had any kind of interactive outline, hierarchical browser,
 HTML does, however, let you represent a hierarchy with nested lists.
 You can use this to render the list with outline triangles, and use JavaScript to add their behaviour.
 
-This basic example features clickable list items, and the corresponding outine triangles.
+This basic example features clickable nested list items, and the corresponding outline triangles.
 
 <ul id="outline" class="open">
   <li><span class="triangle triangle-down">Apps</span>
@@ -85,6 +86,39 @@ for (i = 0; i < toggler.length; i++) {
   });
 }
 </script>
+
+Here’s another version, using nested details/summary elements (no JavaScript):
+
+<details>
+  <summary>Apps</summary>
+  <details>
+    <summary>BBEdit Lite 3.5.1</summary>
+  </details>
+  <details>
+    <summary>MacDraw 1.9</summary>
+    <details>
+      <summary>Guided Tour Examples</summary>
+    </details>
+    <details>
+      <summary>MacDraw</summary>
+    </details>
+    <details>
+      <summary>Manual Example</summary>
+    </details>
+  </details>
+  <details>
+    <summary>Mac Paint 2.0</summary>
+  </details>
+  <details>
+    <summary>Microsoft Excel 2.2a</summary>
+  </details>
+  <details>
+    <summary>Microsoft Word 4.0a</summary>
+  </details>
+  <details>
+    <summary>Microsoft Works 3.0</summary>
+  </details>
+</details>
 
 This kind of basic implementation, with a small amount of code or a third-party component, may look okay.
 However, it has problems.

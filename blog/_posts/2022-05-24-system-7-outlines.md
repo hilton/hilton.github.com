@@ -4,7 +4,7 @@ description: Tree views on the web
 layout: hh
 tags: design
 css: ".example {text-align:center; margin:1em 0} 
-#outline {background:#eee;padding:1em;margin:1em 2em; width:32em}
+#outline {background:#eee;padding:1em;margin:1em 2em; width:20em}
 #outline, #outline ul {list-style-type:none} #outline ul { margin:0; padding:0 0 0 26px } 
 #outline li {margin-bottom:0}  .triangle {cursor:pointer }
 .triangle::before { content:'▹'; display:inline-block; width:14px }

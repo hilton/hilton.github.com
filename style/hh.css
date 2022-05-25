@@ -37,6 +37,7 @@ footer { width: 80em; margin-top:4em; padding: 1.5em 0; border-top: 1px solid; }
   section h2 { width: 64%; }
   nav { width: 32%; }
   article, section p, article > header, article > *, footer { width: 96%;}
+  article > ol { width: 89%;}
   article > * { max-width: 40em; }
 }
 @media all and (max-width: 799px) {
@@ -45,7 +46,7 @@ footer { width: 80em; margin-top:4em; padding: 1.5em 0; border-top: 1px solid; }
   section h2 { padding: 0 0 0.5em; }
   nav ul { margin-bottom: 0; }
   nav li a { padding: 0 2em 0 0; }
-  .row, .column, .column-2 { display: block; width: auto; }
+  .row, .column, .column-2 { display: block; width: auto; margin-right: 0; }
 }
 
 /* Layout - blog */

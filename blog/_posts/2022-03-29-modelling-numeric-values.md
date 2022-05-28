@@ -31,6 +31,7 @@ When a web shop mixes up product code, price and sales ranking values, things ge
 In software design, modelling data can make these categories explicit, which enables the software to prevent mixing them up.
 Performing arithmetic with shoe sizes, or comparing them to ages, probably indicates an error that will manifest as bugs.
 
+{:#precision}
 ## Precision
 
 Computers like to classify numbers by their size and precision, because together they determine the required storage space.
@@ -39,6 +40,7 @@ Some programming languages, in turn, also classify numbers by their precision (i
 These implementation details don’t usually help much with domain modelling, beyond the need to choose a data type that supports large enough numbers, or enough decimal places.
 From a modelling perspective, you have more interesting classification options.
 
+{:#kinds}
 ## Kinds of number
 
 {:.big style="max-width:24em"}
@@ -54,6 +56,7 @@ If you haven’t studied mathematics, you might not have come across the followi
 Of the three (cardinal) terms in this list, term three (nominal), appears third (ordinal).
 Each of these numbers answers _three_ to a different question.
 
+{:#types}
 ## Separating data types
 
 With a bank account number (nominal), arithmetic doesn’t work:
@@ -68,6 +71,7 @@ Similarly, you can also sub-categorise cardinal numbers by their
 [units of measure](https://en.wikipedia.org/wiki/Units_of_measure),
 which helps you avoid comparing ages (years) with shoe sizes (length).
 
+{:#ux}
 ## User experience
 
 Having read about numeric value categories, you shouldn’t have to actually think about this kind of thing when you use software.

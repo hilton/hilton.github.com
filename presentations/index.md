@@ -13,7 +13,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
-* [Modelling universal values](universal-values) - why domain modelling doesn’t stop at the attribute level
 * [Euro English for software developers](euro-english) -
   language-related bugs for European teams
 * [Software design for tech leads](software-design) -
@@ -28,6 +27,20 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Venue</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2022-06-22</td>
+	<td><a href="universal-values">Modelling universal values</a></td>
+	<td>DDD Europe</td>
+	<td>🇳🇱 Amsterdam</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2022-06-08</td>
+	<td><a href="universal-values">Modelling universal values</a></td>
+	<td><a href="http://jspring.nl/timetable-2022/">J-Spring</a></td>
+	<td>🇳🇱 Utrecht</td>
+	<td></td>
 </tr>
 <tr>
 	<td>2022-01-18</td>
@@ -65,6 +78,26 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td></td>
 </tr>
 <tr>
+	<td>2019-03-15</td>
+	<td><a href="lilypond-workshop">Generating sheet music: from one DSL to another</a> (workshop)</td>
+	<td><a href="https://2019.boosterconf.no/talks/1222">Booster</a></td>
+	<td>🇳🇴 Bergen</td>
+	<td></td>
+</tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
+</tr>
+<tr>
 	<td>2019-09-10</td>
 	<td><a href="challenge-your-po">How to challenge your PO</a></td>
 	<td><a href="https://www.meetup.com/Utrecht-Java-User-Group/">Utrecht Java User Group</a></td>
@@ -84,26 +117,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="https://jspring.nl/sessions/coding-style-matters-why-you-should-care-about-code-style-and-what-you-should-care-about/">J-Spring</a></td>
 	<td>🇳🇱 Utrecht</td>
 	<td></td>
-</tr>
-<tr>
-	<td>2019-03-15</td>
-	<td><a href="lilypond-workshop">Generating sheet music: from one DSL to another</a> (workshop)</td>
-	<td><a href="https://2019.boosterconf.no/talks/1222">Booster</a></td>
-	<td>🇳🇴 Bergen</td>
-	<td></td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2018-11-29</td>
@@ -473,7 +486,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2012-11-02</td>
-	<td>Transparent development and the project management renaissance</td>
+	<td>Transparent development and project management</td>
 	<td><a href="http://topconf.com/Conference/Abstracts/Transparentdevelopmentandtheprojectmanagement/tabid/141/language/en-US/Default.aspx">Topconf</a></td>
 	<td>🇪🇪 Tallinn</td>
 	<td></td>

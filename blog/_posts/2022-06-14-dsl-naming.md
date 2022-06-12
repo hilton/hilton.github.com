@@ -65,4 +65,4 @@ If you create domain-specific languages for business users, you might instead ca
 At the same time, business people these days don’t much like the term _software_, with its traumatic _software development project_ associations.
 Software doesn’t eat business, these days; business goes _digital_.
 We should therefore promote _digital languages_ to business people.
-Unless, of course, the problem in comes from the word _language_.
+Unless, of course, the problem comes from the word _language_.

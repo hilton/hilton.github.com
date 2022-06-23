@@ -33,14 +33,14 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="universal-values">Modelling universal values</a></td>
 	<td>DDD Europe</td>
 	<td>🇳🇱 Amsterdam</td>
-	<td></td>
+  <td><a href="universal-values">slides</a></td>
 </tr>
 <tr>
 	<td>2022-06-08</td>
 	<td><a href="universal-values">Modelling universal values</a></td>
 	<td><a href="http://jspring.nl/timetable-2022/">J-Spring</a></td>
 	<td>🇳🇱 Utrecht</td>
-	<td></td>
+  <td><a href="universal-values">slides</a></td>
 </tr>
 <tr>
 	<td>2022-01-18</td>

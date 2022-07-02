@@ -3,8 +3,14 @@ title: Conference expectations
 description: What speakers can expect from conference organisers
 layout: hh
 tags: conferences
+image: crowd.jpg
 css: "ul{padding-left:0} li{list-style:none} .diversity::before{content:'👥 '} .conduct::before{content:'📜 '} .travel::before{content:'✈️ '} .hotel::before{content:'🏨 '} .fee::before{content:'💶 '} .coach::before{content:'🧑‍🎓 '} .childcare::before{content:'👶 '} .hearing::before{content:'🧏 '} .not::before{content:'⛔️ '}"
 ---
+
+![](crowd.jpg)
+
+[Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
 
 Conferences have my attention again, for the first time in a couple of years, having recently
 [presented at two conferences](/presentations/universal-values)

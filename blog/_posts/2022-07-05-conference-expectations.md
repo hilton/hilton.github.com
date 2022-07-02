@@ -67,4 +67,6 @@ Speakers probably have more leverage at this end too:
 refusing a conference presentation acceptance or invitation sends a stronger signal than deciding not to respond to a call for papers.
 
 Thanks to Richard Bradshaw for inspiration from his
-[speaker rider](https://thefriendlytester.co.uk/speaker-rider/).
+[speaker rider](https://thefriendlytester.co.uk/speaker-rider/),
+and to [Els](https://twitter.com/geekingthething)
+for their contributions.

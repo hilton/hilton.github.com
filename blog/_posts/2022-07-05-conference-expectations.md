@@ -56,7 +56,7 @@ Even if you cover expenses, not everyone can afford to spend time on unpaid work
 ## No longer acceptable
 
 I can happy report some good news, compared to when I first presented at a conference, fifteen years ago.
-Conference organisers today probably all now understand that they can expect to be called out for any of the following.
+Conference organisers today probably all now understand that they can expect social media to call them out for any of the following.
 
 * {:.not}Only white male speakers
 * {:.not}Travel expenses not covered (pay to speak)

@@ -3,14 +3,13 @@ title: Conference expectations
 description: What speakers can expect from conference organisers
 layout: hh
 tags: conferences
-image: crowd.jpg
-css: "ul{padding-left:0} li{list-style:none} .diversity::before{content:'👥 '} .conduct::before{content:'📜 '} .travel::before{content:'✈️ '} .hotel::before{content:'🏨 '} .fee::before{content:'💶 '} .coach::before{content:'🧑‍🎓 '} .childcare::before{content:'👶 '} .hearing::before{content:'🧏 '} .not::before{content:'⛔️ '}"
+image: auditorium.jpg
+css: "ul{padding-left:0} li{list-style:none} li::before{margin-right:0.5em} .access::before{content:'♿️'} .diversity::before{content:'👥'} .conduct::before{content:'📜'} .travel::before{content:'✈️'} .hotel::before{content:'🏨'} .fee::before{content:'💶'} .coach::before{content:'🧑‍🎓'} .childcare::before{content:'👶'} .hearing::before{content:'🧏'} .not::before{content:'⛔️'}"
 ---
 
-![](crowd.jpg)
+![](auditorium.jpg)
 
-[Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582){:.photocredit}
-[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+[Nacho Capelo](https://unsplash.com/photos/hMXuZrfmCWM){:.photocredit}
 
 Conferences have my attention again, for the first time in a couple of years, having recently
 [presented at two conferences](/presentations/universal-values)
@@ -21,8 +20,9 @@ This makes me wonder what I expect from conferences, based on speaker and organi
 
 These days, we can expect the following from all conferences:
 
+* {:.access}Accessible venue, e.g. for wheelchairs and walkers, with seating between talks
 * {:.diversity}Minimum speaker line up diversity: not all male, not all white
-* {:.conduct}Code of Conduct
+* {:.conduct}Code of Conduct (that the organisers actually enforce)
 * {:.travel}Travel expenses paid
 * {:.hotel}Accommodation provided
 * {:.fee}Speaker fees for keynotes and workshops

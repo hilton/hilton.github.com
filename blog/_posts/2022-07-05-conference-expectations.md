@@ -68,5 +68,6 @@ refusing a conference presentation acceptance or invitation sends a stronger sig
 
 Thanks to Richard Bradshaw for inspiration from his
 [speaker rider](https://thefriendlytester.co.uk/speaker-rider/),
-and to [Els](https://twitter.com/geekingthething)
+and to [Marit van Dijk](https://twitter.com/MaritvanDijk77) and
+[Els](https://twitter.com/geekingthething)
 for their contributions.

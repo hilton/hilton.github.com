@@ -48,7 +48,7 @@ What else might we expect from conferences?
 Conferences enter a grey area when they make exceptions, doing for one or two speakers what they do not do for all speakers.
 While conferences may intend to increase inclusion, by assisting those who need it, they risk the opposite.
 The phrase, ‘we do not normally cover travel expenses’ hurts your conference’s diversity (and reputation) more than it helps your budget.
-Conversely, abandoning a _pay to speak_ policy improves diversity and inclusion for less effort than the alternatives.
+Conversely, abandoning a [pay to speak](https://paytospeak.org) policy improves diversity and inclusion for less effort than the alternatives.
 
 Only paying speaker fees to some speakers makes the same kind of exception, and ultimately has the same issues.
 Even if you cover expenses, not everyone can afford to spend time on unpaid work to prepare a presentation and attend a conference.

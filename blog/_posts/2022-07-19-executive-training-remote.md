@@ -60,7 +60,8 @@ Course outline:
 1. GIF pronunciation
 2. 97 GIFs every manager should know
 3. Differences between memes and GIFs
-4. Creating your own GIFs
+4. Benign violation theory of humour
+5. Creating your own GIFs
 
 Advanced module: short-form video, from GIF to TikTok.
 

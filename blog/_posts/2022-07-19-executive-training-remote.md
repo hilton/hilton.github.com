@@ -10,7 +10,7 @@ image: dj.jpg
 
 [Timur M](https://unsplash.com/photos/ZV5MCvL3sOY){:.photocredit}
 
-The changing nature of work in remote-first workplaces finds companies’ most senior employees struggling to adapt to new working practices.
+The changing nature of work in remote workplaces finds companies’ most senior employees struggling to adapt to new working practices.
 These employees face tough challenges as their interactions shift dramatically from in-person face-to-face verbal exchanges to written online conversations.
 Every day, power moves from corner offices to chat rooms and channels.
 
@@ -32,7 +32,7 @@ Course outline:
 4. Correct emoji use in Slack
 5. Blob cats and other emoji dialects
 
-Advanced module: custom emoji production and enterprise rollout using standard software tools.
+Advanced module: custom emoji production, rollout and adoption.
 
 
 ## Memes for culture-building
@@ -47,7 +47,7 @@ Course outline:
 3. Meme trackers, custom keyboards, and other tools
 4. Writing custom meme text
 
-Advanced module: design patterns for producing custom memes for different subcultures.
+Advanced module: design patterns for custom memes by subculture.
 
 
 ## Animated GIF humour in the workplace
@@ -62,7 +62,7 @@ Course outline:
 3. Differences between memes and GIFs
 4. Creating your own GIFs
 
-Advanced module: the evolution of short-form video from GIF to TikTok.
+Advanced module: short-form video, from GIF to TikTok.
 
 
 ## DJ skills for online meetings
@@ -77,13 +77,13 @@ Course outline:
 3. Building ambiance and mood
 4. Timing issues
 
-Advanced module: custom jingle production using a home studio set up.
+Advanced module: custom jingle production using a home office studio.
 
 
 ## Pricing and conditions
 
-* Course price €2000 per participant per day, excluding VAT, with a minimum class size of 5 participants.
-* Classes taught online, unless on-site by mutual agreement (additional expenses apply).
+* Course price €2000 per participant per day, excluding VAT, minimum class size 5 participants.
+* Classes taught online, unless on-site by mutual agreement (expenses apply).
 * Course dates and maximum class size by mutual agreement.
 * Courses run within central European time (CET) time zone office hours (09:00-18:00).
 * Payment terms 14 days.

@@ -2,7 +2,7 @@
 title: Executive training for remote work
 description: Announcing a series of hands-on courses for the modern workplace
 layout: hh
-tags: travel
+tags: remote
 image: dj.jpg
 ---
 

@@ -23,8 +23,9 @@ and certified to train <a href="http://www.lightbend.com/services/training">Fast
 <h2>CV</h2>
 
 <p>In addition to his <a href="http://www.linkedin.com/in/peterhilton">LinkedIn</a> profile,
-Peter’s product management CV is available on request.
-Peter’s developer CV additionally consists of his profiles on 
+Peter’s product management CV is available on request.</p>
+
+<p>In the past, Peter’s developer CV included his profiles on 
 <a href="https://github.com/hilton">Github</a> and
 <a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.</p>
 

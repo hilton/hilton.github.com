@@ -18,17 +18,16 @@ Data modelling unfairly restricts us to modelling some values as text (strings).
 > They’re the lingua franca of arbitrary data that all systems can read and write, 
 > and that means we use them in many distinct ways that can be confused with each other.
 
-Wayne listed four categories - _writing_, _symbols_, _data_ and _languages_,
-and later commented that ‘those were just the four I could think of on the spot’.
-Four kinds gives us enough to get started.
-Ideally, you wouldn’t have to care about different kinds of text, but when you build software it turns out that each kind has its own potential for bad user experience and bugs.
+Wayne lists four kinds of text: _writing_, _symbols_, _data_ and _languages_.
+Ideally, you wouldn’t have to care about different kinds of text, but each kind turns out to have its own potential for bad software user experience and bugs.
 
 
 ## Writing
 
-English prose, as an example of _writing_, contains complexity that most software ignores.
-By treating text as an opaque value, we reduce it to an unstructured sequence of characters, which software handles relatively easily.
-However, text in [natural languages](https://en.wikipedia.org/wiki/Natural_language), or _actual languages_ if you like to separate them from _programming_ languages, still causes problems.
+English prose doesn’t have the kind of structure that makes it easy for computers to understand it, so we call anything that can parse this _AI_.
+Treating written text as an opaque value reduces it to an unstructured sequence of characters, which software handles relatively easily.
+However, text in [natural languages](https://en.wikipedia.org/wiki/Natural_language),
+or _actual languages_ if you like to separate them from _programming_ languages, still causes problems.
 
 One problem with writing arises from not knowing its potential length.
 While this [blog’s article word limit](article-word-limit) makes lengths predictable, both novels and

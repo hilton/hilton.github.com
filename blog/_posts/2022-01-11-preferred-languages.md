@@ -6,7 +6,7 @@ tags: software design
 image: letters.jpg
 ---
 
-![Colourful plastic letters](letters.jpg)
+![](letters.jpg)
 
 [Towfiqu barbhuiya](https://unsplash.com/photos/5u6bz2tYhX8){:.photocredit}
 

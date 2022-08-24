@@ -6,7 +6,7 @@ tags: links
 image: imac-dv.jpg
 ---
 
-![Notebook, headphones, keyboard and mouse](imac-dv.jpg)
+![](imac-dv.jpg)
 
 [raneko](https://www.flickr.com/photos/raneko/5265434665){:.photocredit}
 

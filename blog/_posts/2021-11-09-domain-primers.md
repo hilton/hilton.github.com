@@ -6,7 +6,7 @@ tags: DDD
 image: book-group.jpg
 ---
 
-![People talking about a book](book-group.jpg)
+![](book-group.jpg)
 
 [Alexis Brown](https://unsplash.com/photos/omeaHbEFlN4){:.photocredit}
 

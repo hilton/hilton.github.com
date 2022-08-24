@@ -7,7 +7,7 @@ image: keyboard.jpg
 css: "label {font-weight:bold; margin-left:0.5em} form { padding:1em; margin:1em 0; background-color: #f0f0f0; } form.good {background-color:#DAF2EE} form.bad {background-color:#FFF3CC} small { padding:0 0.5em; }"
 ---
 
-![Computer keyboard](keyboard.jpg)
+![](keyboard.jpg)
 
 [Luis VIllafranca](https://unsplash.com/photos/A6BZj3PY7L4){:.photocredit}
 

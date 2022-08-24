@@ -15,7 +15,7 @@ image: certificate.jpg
 6. Document lifecycle processes
  -->
 
-![A document granting permission to drive a train](certificate.jpg)
+![](certificate.jpg)
 
 [Марьян Блан](https://unsplash.com/photos/yAGv0G6q7ec){:.photocredit}
 

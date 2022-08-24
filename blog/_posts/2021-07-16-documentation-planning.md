@@ -6,7 +6,7 @@ tags: documentation
 image: notepad-writing.jpg
 ---
 
-![Writing at the top of blank page](notepad-writing.jpg)
+![](notepad-writing.jpg)
 
 [J. Kelly Brito](https://unsplash.com/photos/PeUJyoylfe4){:.photocredit}
 

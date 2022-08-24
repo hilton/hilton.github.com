@@ -6,7 +6,7 @@ tags: NoCode
 image: cables.jpg
 ---
 
-![Assorted electric cables](cables.jpg)
+![](cables.jpg)
 
 [John Barkiple](https://unsplash.com/photos/l090uFWoPaI){:.photocredit}
 

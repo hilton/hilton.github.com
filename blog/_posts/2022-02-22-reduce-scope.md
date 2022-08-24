@@ -6,7 +6,7 @@ tags: agile product
 image: split-mug.jpg
 ---
 
-![A mug split vertically](split-mug.jpg)
+![](split-mug.jpg)
 
 [Tania Melnyczuk](https://unsplash.com/photos/eIY9QaolhLg){:.photocredit}
 

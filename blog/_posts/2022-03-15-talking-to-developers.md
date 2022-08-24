@@ -6,7 +6,7 @@ tags: product
 image: whiteboard-conversation.jpg
 ---
 
-![A whiteboard conversation](whiteboard-conversation.jpg)
+![](whiteboard-conversation.jpg)
 
 [ThisisEngineering RAEng](https://unsplash.com/photos/hOCYuLmTTnY){:.photocredit}
 

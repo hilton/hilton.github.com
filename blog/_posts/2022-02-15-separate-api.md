@@ -6,7 +6,7 @@ tags: API design
 image: public-park.jpg
 ---
 
-![A pubic park](public-park.jpg)
+![](public-park.jpg)
 
 [Luiza Giannelli](https://unsplash.com/photos/1RIlmivtNhw){:.photocredit}
 

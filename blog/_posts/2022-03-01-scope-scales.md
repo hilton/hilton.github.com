@@ -6,7 +6,7 @@ tags: agile product
 image: nesting-dolls.jpg
 ---
 
-![Nesting dolls](nesting-dolls.jpg)
+![](nesting-dolls.jpg)
 
 [Simon Hurry](https://unsplash.com/photos/QtiZpH_N2sA){:.photocredit}
 

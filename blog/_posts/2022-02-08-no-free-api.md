@@ -6,7 +6,7 @@ tags: API design
 image: ship-sinking.jpg
 ---
 
-![Ship sinking](ship-sinking.jpg)
+![](ship-sinking.jpg)
 
 [Jason Blackeye](https://unsplash.com/photos/0MEMXMOy--Y){:.photocredit}
 

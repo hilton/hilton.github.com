@@ -10,13 +10,13 @@ layout: hh
 [Nimbuzz](https://www.flickr.com/photos/nimbuzz/4563691156){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
 
+{:.series}
+1. [Better presentations](conference-organiser-tips-slides)
+2. [Small details](conference-organiser-tips-details)
+3. Networking
+4. [Expectations](conference-expectations)
+
 Organising a successful conference is a question of priorities, from [excellent presentations](conference-organiser-tips-slides) to [getting the details right](conference-organiser-tips-details). Conferences aren’t only about the talks, though.
-
-This article is the third in a series of tips for conference organisers, with ideas for better:
-
-1. [presentations](conference-organiser-tips-slides)
-2. [small details](conference-organiser-tips-details)
-3. networking (this article).
 
 For a lot of attendees, networking is more important than attending talks, especially if the videos are going to be online. For people on remote teams, or in remote locations, conferences are giant meet-ups. This article provides tips to help conference organisers improve networking at their event.
 

@@ -7,9 +7,17 @@ css: "pre.highlight {width:50em} img.screenshot {width:640px}"
 image: columns.jpg
 ---
 
-![Columns](columns.jpg)
+![](columns.jpg)
 
 [Adrian Trinkaus](https://unsplash.com/photos/cr58nIXHWF0){:.photocredit}
+
+{:.series}
+1. CSV delimiters
+2. [CSV character encoding](csv-encoding)
+3. [Why CSV survives](csv-survives)
+4. [RFC-4180 compliant CSV](csv-rfc-4180)
+5. [CSV on the Web (CSVW)](csvw)
+6. [Excel’s broken CSV](csv-excel)
 
 Comma-separated values (CSV) files appear in many kinds of software.
 So do problems with CSV files.

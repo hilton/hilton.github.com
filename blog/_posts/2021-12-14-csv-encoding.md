@@ -6,9 +6,17 @@ tags: data
 image: metal-concert.jpg
 ---
 
-![Heavy metal concert](metal-concert.jpg)
+![](metal-concert.jpg)
 
 [Filip Andrejevic](https://unsplash.com/photos/QmX5lw8StoQ){:.photocredit}
+
+{:.series}
+1. [CSV delimiters](csv-delimiters)
+2. CSV character encoding
+3. [Why CSV survives](csv-survives)
+4. [RFC-4180 compliant CSV](csv-rfc-4180)
+5. [CSV on the Web (CSVW)](csvw)
+6. [Excel’s broken CSV](csv-excel)
 
 As well as [confusing delimiters](csv-delimiters),
 comma-separated values (CSV) files have other problems that make them a pain to work with.

@@ -7,20 +7,22 @@ css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1
 image: cables.jpg
 ---
 
-![Assorted electric cables](cables.jpg)
+![](cables.jpg)
 
 [John Barkiple](https://unsplash.com/photos/l090uFWoPaI){:.photocredit}
 
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
 
+{:.series}
+1. [System 7 buttons](system-7-buttons)
+2. [System 7 menus](system-7-menus)
+3. System 7 inputs
+4. [System 7 outlines](system-7-outlines)
+
 This article continues a short series on Mac OS’ 1991 
 [System 7](https://en.wikipedia.org/wiki/System_7)
 user interface, as described in Apple’s 1992 edition of the
 [Macintosh Human Interface Guidelines](https://dl.acm.org/doi/book/10.5555/573097) (HIG).
-
-1. [Mac OS System 7 buttons](system-7-buttons)
-2. [Mac OS System 7 menus](system-7-menus)
-3. **Mac OS System 7 inputs** (this article)
 
 This instalment looks at inputs - controls for entering g data.
 Let’s compare HTML inputs to what System 7 offered 31 years ago.

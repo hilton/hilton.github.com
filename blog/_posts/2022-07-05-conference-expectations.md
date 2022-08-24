@@ -4,12 +4,18 @@ description: What speakers can expect from conference organisers
 layout: hh
 tags: conferences
 image: auditorium.jpg
-css: "ul{padding-left:0} li{list-style:none} li::before{margin-right:0.5em} .access::before{content:'♿️'} .diversity::before{content:'👥'} .conduct::before{content:'📜'} .travel::before{content:'✈️'} .hotel::before{content:'🏨'} .fee::before{content:'💶'} .coach::before{content:'🧑‍🎓'} .childcare::before{content:'👶'} .hearing::before{content:'🧏'} .not::before{content:'⛔️'}"
+css: "ul{padding-left:0} ul li{list-style:none} ul li::before{margin-right:0.5em} .access::before{content:'♿️'} .diversity::before{content:'👥'} .conduct::before{content:'📜'} .travel::before{content:'✈️'} .hotel::before{content:'🏨'} .fee::before{content:'💶'} .coach::before{content:'🧑‍🎓'} .childcare::before{content:'👶'} .hearing::before{content:'🧏'} .not::before{content:'⛔️'}"
 ---
 
 ![](auditorium.jpg)
 
 [Nacho Capelo](https://unsplash.com/photos/hMXuZrfmCWM){:.photocredit}
+
+{:.series}
+1. [Better presentations](conference-organiser-tips-slides)
+2. [Small details](conference-organiser-tips-details)
+3. [Networking](conference-organiser-tips-networking)
+4. Expectations
 
 Conferences have my attention again, for the first time in a couple of years, having recently
 [presented at two conferences](/presentations/universal-values)

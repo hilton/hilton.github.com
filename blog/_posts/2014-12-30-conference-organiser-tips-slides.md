@@ -10,13 +10,13 @@ layout: hh
 [Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
 
+{:.series}
+1. Better presentations
+2. [Small details](conference-organiser-tips-details)
+3. [Networking](conference-organiser-tips-networking)
+4. [Expectations](conference-expectations)
+
 Tech conference organisers put a lot of effort into selecting great talks, which results in a lot of really good conferences. However, one persistent problem frequently gets in the way of otherwise great talks: slides that are illegible for half of the people in the room.
-
-This is the first article in a series of tips for conference organisers, with ideas for better:
-
-1. presentations (this article)
-2. [small details](conference-organiser-tips-details)
-3. [networking](conference-organiser-tips-networking).
 
 Presentation slides are the speaker’s responsibility, of course, but conference organisers are in a good position make it easier for speakers to get their stories across. Here are a few tips.
 

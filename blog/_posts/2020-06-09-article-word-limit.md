@@ -6,6 +6,13 @@ tags: writing
 image: 97-things-java.webp
 ---
 
+{:.series}
+1. [Get yourself a notebook](get-notebook)
+2. [Collect writing ideas](collect-writing-ideas)
+3. [Test ideas in conversation](test-writing-ideas)
+4. [Reserve weekly time for writing](reserve-writing-time)
+5. Write to a shorter word limit
+
 <a class="cover" style="width:auto" href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
 <img src="97-things-java.webp" alt="book cover" style="width:150px"></a>
 

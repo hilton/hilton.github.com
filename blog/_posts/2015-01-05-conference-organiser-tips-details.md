@@ -7,6 +7,12 @@ layout: hh
 
 ![Skillsmatter conference badge](conference-badge-skillsmatter.jpg)
 
+{:.series}
+1. [Better presentations](conference-organiser-tips-slides)
+2. Small details
+3. [Networking](conference-organiser-tips-networking)
+4. [Expectations](conference-expectations)
+
 What was the coolest extra at the last conference you went to? Was it the promo video, the backpack, a clever attendee badge, decent coffee or even a speakers dinner in a fancy restaurant (for the lucky few)?
 
 If you’ve been to half a dozen different tech conferences, you will have noticed that they vary in size but are otherwise more or less the same. You may also have noticed that a lot of the small details are different, and that it’s sometimes an accumulation of small details that makes one conference stand out.
@@ -14,13 +20,6 @@ If you’ve been to half a dozen different tech conferences, you will have notic
 Variation is perhaps inevitable, because all of the little extras cost time and money and organisers have to prioritise. It is surprising, though, that the coolest ideas don’t catch on more widely.
 
 Note that the following is only about the small stuff, and way less important than what really matters: great speakers, great talks, and wifi that works. Most importantly there are also [presentation tips for conference organisers](conference-organiser-tips-slides) with ideas for how to help speakers deliver legible slides. Everything else is optional.
-
-This is the second article in a series of tips for conference organisers, with ideas for better:
-
-1. [presentations](conference-organiser-tips-slides)
-2. small details (this article)
-3. [networking](conference-organiser-tips-networking).
-
 
 ## Attendee badge
 

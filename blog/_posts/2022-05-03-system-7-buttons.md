@@ -13,6 +13,12 @@ image: buttons.jpg
 
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
 
+{:.series}
+1. System 7 buttons
+2. [System 7 menus](system-7-menus)
+3. [System 7 inputs](system-7-inputs)
+4. [System 7 outlines](system-7-outlines)
+
 Apple’s
 [Macintosh Human Interface Guidelines](https://dl.acm.org/doi/book/10.5555/573097) 
 (HIG, 1992) describe the Mac OS’ 1991
@@ -23,12 +29,6 @@ the first public description of HTML.
 Mac OS System 7 included standard user-interface controls and
 HTML 2.0 added form controls in 1995, whose buttons remain nearly as good as System 7’s.
 But not quite.
-
-This article starts a short series:
-
-1. **Mac OS System 7 buttons** (this article)
-2. [System 7 menus](system-7-menus)
-3. [System 7 inputs ](system-7-inputs)
 
 {:#button}
 ## Button

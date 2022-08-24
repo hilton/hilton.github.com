@@ -10,16 +10,15 @@ image: conversation.jpg
 
 [Lala Azizli](https://unsplash.com/photos/RFq4r3VoUgY){:.photocredit}
 
-Practicing informal conversations about a topic helps you write about it.
-By exploring the topic while talking to people, you can quickly test arguments and get feedback on what works, before spending more time on a written version.
-
-This article forms part of a practical series about how to blog regularly:
-
+{:.series}
 1. [Get yourself a notebook](get-notebook)
 2. [Collect writing ideas](collect-writing-ideas)
-3. **Test ideas in conversation** (this article)
+3. Test ideas in conversation
 4. [Reserve weekly time for writing](reserve-writing-time)
 5. [Write to a shorter word limit](article-word-limit)
+
+Practicing informal conversations about a topic helps you write about it.
+By exploring the topic while talking to people, you can quickly test arguments and get feedback on what works, before spending more time on a written version.
 
 If you want to blog regularly, you’ll have to continuously develop rough ideas into writing.
 Refine your content pipeline by talking to people and testing ideas before you write them down.

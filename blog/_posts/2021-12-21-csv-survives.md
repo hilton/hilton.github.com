@@ -6,9 +6,17 @@ tags: data
 image: columns-old-car.jpg
 ---
 
-![Classic car, old building with columns](columns-old-car.jpg)
+![](columns-old-car.jpg)
 
 [Serge Kutuzov](https://unsplash.com/photos/tGt_jpHl_TU){:.photocredit}
+
+{:.series}
+1. [CSV delimiters](csv-delimiters)
+2. [CSV character encoding](csv-encoding)
+3. Why CSV survives
+4. [RFC-4180 compliant CSV](csv-rfc-4180)
+5. [CSV on the Web (CSVW)](csvw)
+6. [Excel’s broken CSV](csv-excel)
 
 Although comma-separated values (CSV) files often don’t work, because they have the
 [wrong delimiters](csv-delimiters) or the

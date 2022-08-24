@@ -8,6 +8,14 @@ image: living-documentation.jpg
 
 ![Living Documentation - book cover](living-documentation.jpg)
 
+{:.series}
+1. [Principles of documentation](martraire-documentation-principles)
+2. [Principles of living documentation](living-documentation-principles)
+3. [Knowledge exploitation](knowledge-exploitation)
+4. Knowledge augmentation
+5. [Curation and storytelling](curation-storytelling)
+6. [Glossaries and data dictionaries](living-glossary)
+
 The book [Living Documentation](https://www.pearson.com/us/higher-education/program/Martraire-Living-Documentation-Continuous-Knowledge-Sharing-by-Design/PGM1724668.html),
 by [Cyrille Martraire](http://cyrille.martraire.com/about/)
 explores the concept of _living documentation_.

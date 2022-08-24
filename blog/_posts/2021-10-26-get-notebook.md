@@ -6,9 +6,16 @@ tags: writing
 image: seedlings.jpg
 ---
 
-![Seedlings](seedlings.jpg)
+![](seedlings.jpg)
 
 [Tom Jur](https://unsplash.com/photos/l2NT0RQokbQ){:.photocredit}
+
+{:.series}
+1. Get yourself a notebook
+2. [Collect writing ideas](collect-writing-ideas)
+3. [Test ideas in conversation](test-writing-ideas)
+4. [Reserve weekly time for writing](reserve-writing-time)
+5. [Write to a shorter word limit](article-word-limit)
 
 If you’ve ever thought about (or tried) blogging, you probably wondered how you’d know what to write about.
 You would have had great ideas for the first few posts, and then you’d run out.

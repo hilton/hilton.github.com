@@ -6,9 +6,16 @@ tags: writing
 image: bee.jpg
 ---
 
-![A bee on a sunflower](bee.jpg)
+![](bee.jpg)
 
 [Anastasiya Romanova](https://unsplash.com/photos/dkJtQxwhcTg){:.photocredit}
+
+{:.series}
+1. [Get yourself a notebook](get-notebook)
+2. Collect writing ideas
+3. [Test ideas in conversation](test-writing-ideas)
+4. [Reserve weekly time for writing](reserve-writing-time)
+5. [Write to a shorter word limit](article-word-limit)
 
 To avoid blank page panic, build a portfolio of unfinished ideas in various stages of development.
 Nurturing these ideas, by feeding them, replanting them, and growing them, leads to a collection that you can regularly harvest blog posts from.

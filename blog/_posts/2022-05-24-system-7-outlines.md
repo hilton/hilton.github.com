@@ -15,15 +15,16 @@ image: tree.jpg
 
 *[HIG]: ‘Macintosh Human Interface Guidelines’ (Apple Computer, 1992)
 
+{:.series}
+1. [System 7 buttons](system-7-buttons)
+2. [System 7 menus](system-7-menus)
+3. [System 7 inputs](system-7-inputs)
+4. System 7 outlines
+
 This article continues a series on Mac OS’ 1991 
 [System 7](https://en.wikipedia.org/wiki/System_7)
 user interface, as described in Apple’s 1992 edition of the
 [Macintosh Human Interface Guidelines](https://dl.acm.org/doi/book/10.5555/573097) (HIG).
-
-1. [System 7 buttons](system-7-buttons)
-2. [System 7 menus](system-7-menus)
-3. [System 7 inputs ](system-7-inputs)
-4. **System 7 outlines** (this article)
 
 The last System 7 user-interface control in this series did not generally appear in Mac OS applications, but had an essential function for browsing files in Finder.
 

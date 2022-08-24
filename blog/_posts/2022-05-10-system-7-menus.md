@@ -13,14 +13,16 @@ image: beer-board.jpg
 
 [Peter Hilton](){:.photocredit}
 
+{:.series}
+1. [System 7 buttons](system-7-buttons)
+2. System 7 menus
+3. [System 7 inputs](system-7-inputs)
+4. [System 7 outlines](system-7-outlines)
+
 This article continues a short series on Mac OS’ 1991 
 [System 7](https://en.wikipedia.org/wiki/System_7)
 user interface, as described in Apple’s 1992 edition of the
 [Macintosh Human Interface Guidelines](https://dl.acm.org/doi/book/10.5555/573097) (HIG).
-
-1. [Mac OS System 7 buttons](system-7-buttons)
-2. **Mac OS System 7 menus** (this article)
-3. [System 7 inputs ](system-7-inputs)
 
 This instalment looks at menus - controls for selecting things from lists.
 Let’s compare HTML menus to what System 7 offered 31 years ago.

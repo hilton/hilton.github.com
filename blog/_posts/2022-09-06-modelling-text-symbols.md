@@ -10,6 +10,11 @@ image: letters.jpg
 
 [Towfiqu barbhuiya](https://unsplash.com/photos/5u6bz2tYhX8){:.photocredit}
 
+{:.series}
+1. [Modelling text as writing](modelling-text-writing)
+2. Modelling text as symbols
+3. Modelling text as data and code
+
 [Modelling text as writing](modelling-text-writing) explores the modelling one of the
 [four kinds of text Hillel Wayne tweeted about](https://twitter.com/hillelogram/status/1515772367213150209):
 writing, symbols, data, and code.

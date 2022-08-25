@@ -11,6 +11,11 @@ css: "body.writing article p.right {width:225px;float:right;margin:0 0 1em 1em}"
 
 [Wulan Sari](https://unsplash.com/photos/mHjvJqvj1XE){:.photocredit}
 
+{:.series}
+1. Modelling text as writing
+2. Modelling text as symbols
+3. Modelling text as data and code
+
 Data modelling unfairly restricts us to modelling some values as text (strings).
 [Hillel Wayne explains](https://twitter.com/hillelogram/status/1515772367213150209):
 
@@ -21,7 +26,7 @@ Data modelling unfairly restricts us to modelling some values as text (strings).
 Wayne lists four kinds of text: _writing_, _symbols_, _data_ and _languages_.
 Ideally, you wouldn’t have to care about different kinds of text, but each kind turns out to have its own potential for bad software user experience and bugs.
 
-
+{:#writing}
 ## Writing
 
 English prose doesn’t have the kind of structure that makes it easy for computers to understand it, so we call anything that can parse this _AI_.
@@ -38,6 +43,7 @@ When you fail to model text lengths properly in advance, your software will prob
 That assumes, of course, that you _can_ change your data model to remove length limits, and that you actually find out, rather than silently losing customers whose content your software rejects.
 In practice, you can mitigate these risks during data modelling, unlike the next problem, which you may try ignore at first.
 
+{:#language}
 ## Languages
 
 {:.right}
@@ -64,6 +70,7 @@ If you don’t, and fail to notice that you now have content in multiple languag
 lots of _unknown language_ text.
 At least you can use an ISO 639-2 code for that: `und` (undetermined).
 
+{:#other}
 ## Other (technical) problems
 
 Text length and language issues already make text hard enough for software to get right.

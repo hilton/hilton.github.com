@@ -13,10 +13,12 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
+* [My ten favourite programming jokes](jokes) -
+  classic programming jokes, and their cultural value
 * [Euro English for software developers](euro-english) -
   language-related bugs for European teams
 * [Software design for tech leads](software-design) -
-  escaping the dead zone between functional and technical design
+  escaping the gap between functional and technical design
 
 ## Upcoming & recent presentations
 
@@ -27,6 +29,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Venue</th>
 	<th>Location</th>
 	<th>Media</th>
+</tr>
+<tr>
+	<td>2022-09-21</td>
+	<td>TBD</td>
+	<td>Rotterdam JUG</td>
+	<td>🇳🇱 Rotterdam</td>
+  <td></td>
 </tr>
 <tr>
 	<td>2022-06-22</td>
@@ -48,6 +57,19 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>company in-house</td>
 	<td>🇳🇱 Deventer</td>
 	<td></td>
+</tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+	<th>Media</th>
 </tr>
 <tr>
 	<td>2021-04-08</td>
@@ -83,19 +105,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="https://2019.boosterconf.no/talks/1222">Booster</a></td>
 	<td>🇳🇴 Bergen</td>
 	<td></td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
-	<th>Media</th>
 </tr>
 <tr>
 	<td>2019-09-10</td>

@@ -13,8 +13,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
-* [My ten favourite programming jokes](jokes) -
-  classic programming jokes, and their cultural value
 * [Euro English for software developers](euro-english) -
   language-related bugs for European teams
 * [Software design for tech leads](software-design) -
@@ -32,8 +30,8 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
 	<td>2022-09-21</td>
-	<td>TBD</td>
-	<td>Rotterdam JUG</td>
+	<td><a href="jokes">My ten favourite programming jokes</a></td>
+	<td><a href="https://www.meetup.com/rotterdamjug/events/288279498/">Rotterdam JUG</a></td>
 	<td>🇳🇱 Rotterdam</td>
   <td></td>
 </tr>

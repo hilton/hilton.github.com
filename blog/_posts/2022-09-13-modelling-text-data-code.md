@@ -14,6 +14,7 @@ image: infographics.jpg
 1. [Modelling text as writing](modelling-text-writing)
 2. [Modelling text as symbols](modelling-text-symbols)
 3. Modelling text as data and code
+4. Mixing kinds of text
 
 Recently on Twitter, Hillel Wayne 
 [complained about mixing up four kinds of text](https://twitter.com/hillelogram/status/1515772367213150209):

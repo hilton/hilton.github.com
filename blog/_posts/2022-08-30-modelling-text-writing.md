@@ -14,7 +14,7 @@ css: "body.writing article p.right {width:225px;float:right;margin:0 0 1em 1em}"
 {:.series}
 1. Modelling text as writing
 2. [Modelling text as symbols](modelling-text-symbols)
-3. Modelling text as data and code
+3. [Modelling text as data and code](modelling-text-data-code)
 4. Mixing kinds of text
 
 Data modelling unfairly restricts us to modelling some values as text (strings).

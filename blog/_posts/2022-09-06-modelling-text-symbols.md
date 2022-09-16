@@ -13,7 +13,7 @@ image: letters.jpg
 {:.series}
 1. [Modelling text as writing](modelling-text-writing)
 2. Modelling text as symbols
-3. Modelling text as data and code
+3. [Modelling text as data and code](modelling-text-data-code)
 4. Mixing kinds of text
 
 [Modelling text as writing](modelling-text-writing) explores the modelling one of the

@@ -6,7 +6,7 @@ tags: meetups
 image: meetup-presentation.jpg
 ---
 
-![Presenting at a meet-up](meetup-presentation.jpg)
+![](meetup-presentation.jpg)
 
 [Charles Deluvio](https://unsplash.com/photos/wn7dOzUh3Rs){:.photocredit}
 

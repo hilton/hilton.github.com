@@ -2,6 +2,7 @@
 title: My ten favourite programming jokes
 description: Classic programming jokes, and their cultural value
 layout: speaking
+image: jokes.png
 ---
 
 In this talk, Peter will share his favourite programming jokes.

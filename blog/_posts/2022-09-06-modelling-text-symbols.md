@@ -14,7 +14,7 @@ image: letters.jpg
 1. [Modelling text as writing](modelling-text-writing)
 2. Modelling text as symbols
 3. [Modelling text as data and code](modelling-text-data-code)
-4. [Mixing kinds of text](mixing-tech)
+4. [Mixing kinds of text](mixing-text)
 
 [Modelling text as writing](modelling-text-writing) explores the modelling one of the
 [four kinds of text Hillel Wayne tweeted about](https://twitter.com/hillelogram/status/1515772367213150209):

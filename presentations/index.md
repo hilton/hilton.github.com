@@ -29,10 +29,17 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
-	<td>2022-09-21</td>
-	<td><a href="jokes">My ten favourite programming jokes</a></td>
-	<td><a href="https://www.meetup.com/rotterdamjug/events/288279498/">Rotterdam JUG</a></td>
-	<td>🇳🇱 Rotterdam</td>
+   <td>2022-11-10</td>
+   <td><a href="bugs">Universal bugs and how to fix them</a></td>
+   <td><a href="https://010php.nl">010PHP</a></td>
+   <td>🇳🇱 Rotterdam</td>
+  <td></td>
+</tr>
+<tr>
+   <td>2022-09-21</td>
+   <td><a href="jokes">My ten favourite programming jokes</a></td>
+   <td><a href="https://www.meetup.com/rotterdamjug/events/288279498/">Rotterdam JUG</a></td>
+   <td>🇳🇱 Rotterdam</td>
   <td></td>
 </tr>
 <tr>

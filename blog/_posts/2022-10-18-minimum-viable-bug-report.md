@@ -18,7 +18,7 @@ Good bug reports cover five topics, in the following order of priority:
 4. Reproduction steps
 5. Consequences and workaround
 
-Use this as a checklist for support request templates, and a checklist for what to establish when you start work on an issue.
+Use this as a checklist for support request templates: what to include in a bug report.
 This article describes the first part:
 the observed behaviour that a good bug report describes.
 

@@ -4,12 +4,24 @@ categories: music
 layout: music
 ---
 
-Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. Since 2010, Peter has been singing with various ensembles and attending a number of workshops.
+Peter is an experienced amateur early music singer - baritone/bass - focused on renaissance polyphony. Since 2010, Peter has been singing with various ensembles and attending numerous workshops.
 
 <div class="row">
 <div class="column">
 
 <h2>Performances</h2>
+
+<p><a href="http://cappellagabrieli.nl/">Pierre de Manchicourt, Lassus &amp; Palestrina</a>
+<br><em>Cappella Gabrieli</em>
+<br>20 November 2022, Rotterdam</p>
+
+<p><a href="http://cappellagabrieli.nl/concert-2022-04.html">‘Missa pro defunctis’ by Jean Richafort</a>
+<br><em>Cappella Gabrieli</em>
+<br>24 April 2022, Rotterdam</p>
+
+<p><a href="https://cappellagabrieli.nl/programma/2021-11.pdf">Clemens non Papa</a>
+<br><em>Cappella Gabrieli</em>
+<br>20 November 2021, Rotterdam</p>
 
 <p><a href="http://cappellagabrieli.nl/concert-2019-11.html">Missa Puer natus est nobis &amp; Die Weihnachtsgeschichte</a>
 <br><em>Cappella Gabrieli</em>
@@ -224,6 +236,10 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 <div class="column">
 
 <h2>Ensembles</h2>
+
+<p><strong>Koornmarkt Kwintet</strong>
+<br>vocal quintet
+<br>Delft, since 2022</p>
 
 <p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
 <br>chamber choir

@@ -10,12 +10,17 @@ image: bug-ladybird.jpg
 
 [Samuel Myles](https://unsplash.com/photos/CdX0FV_hIVA){:.photocredit}
 
+{:.series}
+1. Observed behaviour
+2. Expected behaviour
+3. Reproduction steps
+
 Good bug reports cover five topics, in the following order of priority:
 
 1. Observed behaviour
 2. Expected behaviour
-3. Context and environment
-4. Reproduction steps
+3. Reproduction steps
+4. Context and environment
 5. Consequences and workaround
 
 Use this as a checklist for support request templates: what to include in a bug report.

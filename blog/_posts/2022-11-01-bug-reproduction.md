@@ -10,6 +10,11 @@ image: bug-green-caterpillar.jpg
 
 [Bankim Desai](https://unsplash.com/photos/FEnD-sxHcWk){:.photocredit}
 
+{:.series}
+1. [Observed behaviour](bug-observed)
+2. [Expected behaviour](bug-expected)
+3. Reproduction steps
+
 This article explains what you have to do to make a bug you report _reproducible_.
 
 ## Confirmation

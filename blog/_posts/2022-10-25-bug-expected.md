@@ -27,7 +27,7 @@ If you want to report the wrong sort order, describe both the observed and expec
 >
 > Expected: customers sorted by city, then by name
 
-A [minimal bug report](minimum-viable-bug-report) only includes the first part.
+A [minimal bug report](bug-observed) only includes the first part.
 However, in many cases, resolving the issue will require the second part as well.
 
 ## Design decisions

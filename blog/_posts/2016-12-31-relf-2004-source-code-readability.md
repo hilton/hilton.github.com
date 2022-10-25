@@ -5,7 +5,9 @@ layout: hh
 tags: naming, readability, paper
 ---
 
-This blog post reviews  _Achieving Software Quality through Source Code Readability_, which Phillip Relf presented at [Qualcon 2004](http://2014.qualcon.com.au), an Australian software quality conference.
+This blog post reviews 
+[Achieving Software Quality through Source Code Readability](https://www.researchgate.net/publication/238443707_Achieving_Software_Quality_through_Source_Code_Readability), 
+which Phillip Relf presented at [Qualcon 2004](http://2014.qualcon.com.au), an Australian software quality conference.
 I found my way to this paper via a reference in one of the papers Felienne Hermans and I reviewed for [What science says about naming](science-on-naming).
 
 ## Goals

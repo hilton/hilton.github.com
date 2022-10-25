@@ -36,6 +36,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
   <td></td>
 </tr>
 <tr>
+   <td>2022-10-25</td>
+   <td><a href="naming">How to name things</a></td>
+   <td><a href="https://topicus.nl">Topicus</a> (company presentation)</td>
+   <td>🇳🇱 Deventer</td>
+  <td></td>
+</tr>
+<tr>
    <td>2022-09-21</td>
    <td><a href="jokes">My ten favourite programming jokes</a></td>
    <td><a href="https://www.meetup.com/rotterdamjug/events/288279498/">Rotterdam JUG</a></td>

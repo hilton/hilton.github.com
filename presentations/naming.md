@@ -38,6 +38,7 @@ Read more: [blog posts about naming](../tag/naming), [Naming guidelines for prof
 * [J-Fall](http://jfall.nl/) - 2 November 2017
 * [Topconf Tallin](https://www.topconf.com/conference//topconf-tallinn-2017/talk/how-to-name-things-the-hardest-problem-in-programming/) - 16 November 2016
 * [Scala eXchange 2017](https://skillsmatter.com/conferences/8784-scala-exchange-2017) - 15 December 2017
+* [Topicus](https://topicus.nl/) (company presentation) - 25 October 2022
 
 
 ## Podcast interview

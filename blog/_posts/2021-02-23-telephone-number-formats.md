@@ -54,7 +54,7 @@ explains digit-grouping, for example:
 
 > 2.9 Grouping the digits of a telephone number is advisable for reasons of memorizing, oral presentation, and printing.
 
-> 9.1 Grouping of digits in a telephone number should be accomplished by means or spaces unless an agreed upon explicit symbol (e.g. hyphen) is necessary for procedural purposes. Only spaces should be used in an international number.
+> 9.1 Grouping of digits in a telephone number should be accomplished by means or (sic) spaces unless an agreed upon explicit symbol (e.g. hyphen) is necessary for procedural purposes. Only spaces should be used in an international number.
 
 These standards only go so far: each country still has its own
 [numbering plan](https://en.wikipedia.org/wiki/Telephone_numbering_plan).

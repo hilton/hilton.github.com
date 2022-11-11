@@ -30,7 +30,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 </tr>
 <tr>
    <td>2022-11-10</td>
-   <td><a href="bugs">Universal bugs and how to fix them</a></td>
+   <td><a href="bugs">10 universal bugs</a></td>
    <td><a href="https://010php.nl">010PHP</a></td>
    <td>🇳🇱 Rotterdam</td>
   <td></td>

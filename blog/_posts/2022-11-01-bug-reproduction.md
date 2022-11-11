@@ -14,6 +14,7 @@ image: bug-green-caterpillar.jpg
 1. [Observed behaviour](bug-observed)
 2. [Expected behaviour](bug-expected)
 3. Reproduction steps
+4. [Context & environment](bug-environment)
 
 This article explains what you have to do to make a bug you report _reproducible_.
 If you can’t reproduce a bug, you leave it to the support team to do so.

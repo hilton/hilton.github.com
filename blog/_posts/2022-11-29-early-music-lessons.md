@@ -58,7 +58,7 @@ To avoid feeling overcome, singing taught me to focus on quarterly objectives an
 
 ## 5. Other people’s money
 
-Choral music doesn’t make money, except for elite professional groups, internationally.
+Choral music doesn’t make money, except for elite professional groups.
 Amateur early music relies on patronage, subsidies, and performers whose career in tech pays for their hobby.
 
 In tech, the most profitable service delivery work doesn’t offer the most interesting work.

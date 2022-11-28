@@ -30,8 +30,8 @@ Early music singers don’t focus rigidly on the exact written music.
 Old manuscripts, such as the [Eton Choirbook](https://en.wikipedia.org/wiki/Eton_Choirbook)
 lack context, so you learn to use your understanding of the genre and your own creativity to fill in the gaps.
 
-This awareness of [musicology](https://en.wikipedia.org/wiki/Musicology) helps me approach customer requirements less literally.
-This helped when working with product owners who had less availability than a long-dead renaissance composer.
+An awareness of [musicology](https://en.wikipedia.org/wiki/Musicology) has helped me approach customer requirements less literally.
+For example, when working with product owners who had less availability than a long-dead renaissance composer.
 Instead of expecting them to explain quarterly objectives and user stories, early music has inspired me to make things up, in the name of artistic interpretation.
 
 ## 3. Confident performance
@@ -41,8 +41,7 @@ Concert performance teaches the value of effective rehearsal and a smart suit.
 
 Working in tech also requires confident performance, especially when engaging in success theatre.
 By applying what I’ve learned from literally _putting on a show_ to business presentations, I make even the most obscure content sound reasonable.
-
-Business strategy especially resembles early music, in that the audience has no idea what it should sound like.
+Business strategy especially resembles early music, for example, in that the audience has no idea what it should sound like.
 Instead, they ask _do you think it went well?_
 In both cases, confident performance (and excellent timing) guarantees success.
 
@@ -55,7 +54,7 @@ As a singer, I’ve learned to avoid feeling overcome by emotion during a perfor
 
 Similarly, workers in tech also experience strong emotions, such as anger, despair, and fear.
 To avoid feeling overcome, singing taught me to focus on quarterly objectives and concentrate on what the product manager says.
-(Manager should focus on themselves, as usual.)
+(Managers should focus on themselves, as usual.)
 
 ## 5. Other people’s money
 

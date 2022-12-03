@@ -53,7 +53,7 @@ School curricula train us not to question or justify the relevance of the proble
 Academia's excuse, meanwhile, remains a mystery.
 
 Most content in technical documentation appears backwards: definitions and high-level concepts first, and concrete examples last.
-Readers more easily learn concepts from examples, so they should appear first.
+Readers learn concepts more easily from examples, so they should appear first.
 
 [Writing docs like writing code](developers-bad-documentation#writing-docs-like-writing-code) explains that good technical writing minimises forward references, explaining concepts as they arise.
 Programmers in particular get this wrong, perhaps because of programming languages that force definitions-first ordering.

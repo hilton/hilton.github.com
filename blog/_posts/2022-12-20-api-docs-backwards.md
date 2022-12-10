@@ -3,7 +3,7 @@ title: Backwards API docs
 description: Why API docs resist good explanations
 layout: hh
 tags: API documentation
-css: "article img {width:640px; border: 2px solid #08f}"
+css: "a img {width:640px; border: 2px solid #08f}"
 image: wrong-way.jpg
 ---
 

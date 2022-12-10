@@ -4,6 +4,7 @@ description: How to annotate examples for readability
 layout: hh
 tags: API documentation
 css: "article img {width:640px}"
+image: detour-sign.jpg
 ---
 
 ![](detour-sign.jpg)

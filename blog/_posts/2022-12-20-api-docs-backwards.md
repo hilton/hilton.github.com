@@ -20,6 +20,7 @@ A better [explanation order](explanation-order)
 starts with concrete examples that illustrate typical API interactions.
 API users need the details later, after they’ve understood the broad strokes and are ready to implement an API client.
 
+{:#deconstructed}
 ## Deconstructed HTTP
 
 Developers like to model things by breaking them down into their components, putting each in its own named box.
@@ -34,6 +35,7 @@ The left-to-right visual hierarchy gives precedence to path parameters over the 
 Perhaps this somehow looks more impressive than raw, brutalist HTTP requests and responses.
 You even get to interact with it: the possible responses are so deconstructed that you have to expand their sections on the left, to discover their headers and response schemas, and select their tabs on the right to find the hidden example response bodies.
 
+{:#examples}
 ## Missing examples
 
 At least the OpenAPI specification document Redoc renders allows documentation to include examples, even if it doesn’t particularly encourage them.
@@ -45,6 +47,7 @@ The OpenAPI specification enables this, and renderers like Redoc further encoura
 In this case I blame Redoc, but not OpenAPI, which is a _specification_ language, not a documentation or explanation language.
 In practice, don’t expect to be able to generate an explanation from a specification.
 
+{:#backwards}
 ## Why API docs go the wrong way
 
 Programmers tend to write documentation they way they write code, in the definitions-first order that makes sense to a computer (the language parser) instead of the examples-first order that works best for people.

@@ -3,6 +3,7 @@ title: User modelling with TV character personas
 description: Better-looking software requirements analysis
 tags: product
 layout: hh
+image: birgitte-nyborg.jpg
 ---
 
 ![Birgitte Nyborg - the main character in television series Borgen](birgitte-nyborg.jpg)

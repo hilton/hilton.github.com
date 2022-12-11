@@ -3,9 +3,10 @@ title: The zero-code delusion and its silver lining
 description: The hidden value of disguised programming
 tags: BPM
 layout: hh
+image: lego-brick.jpg
 ---
 
-![Construction toy](lego-brick.jpg)
+![](lego-brick.jpg)
 
 [Magic Madzik](https://www.flickr.com/photos/cefeida/2167070556){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

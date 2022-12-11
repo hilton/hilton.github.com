@@ -3,9 +3,10 @@ title: Permission to enjoy process modelling
 description: How to indulge in making process models
 tags: BPM
 layout: hh
+image: permission.jpg
 ---
 
-![Permission](permission.jpg)
+![](permission.jpg)
 
 [Gerry Dincher](https://www.flickr.com/photos/gerrydincher/6602323811){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

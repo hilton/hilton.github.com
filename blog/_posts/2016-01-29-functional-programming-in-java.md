@@ -3,6 +3,7 @@ title: "Book review: Functional Programming in Java"
 description: by Pierre-Yves Saumont - FP unencumbered by libraries, standard or otherwise
 tags: programming book
 layout: hh
+image: functional-programming-in-java.jpg
 ---
 
 <a class="cover" href="https://www.manning.com/books/functional-programming-in-java?a_aid=playscala"><img src="functional-programming-in-java.jpg" alt="Functional Programming in Java"></a>

@@ -3,9 +3,10 @@ title: The process modelling trap
 description: Why you can’t help obsessing over diagrams
 tags: BPM
 layout: hh
+image: lego-play.jpg
 ---
 
-![Playing with models](lego-play.jpg)
+![](lego-play.jpg)
 
 [PICNIC Network](https://www.flickr.com/photos/crossmediaweek/7307215176){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

@@ -3,6 +3,7 @@ title: "Book review: Functional Reactive Programming"
 description: by Stephen Blackheath and Anthony Jones - Intelligent, clear and witty
 tags: programming book
 layout: hh
+image: functional-reactive-programming.jpg
 ---
 
 <a class="cover" style="width:auto" href="https://www.manning.com/books/functional-reactive-programming?a_aid=playscala"><img src="functional-reactive-programming.jpg" alt="Functional Reactive Programming"> </a>

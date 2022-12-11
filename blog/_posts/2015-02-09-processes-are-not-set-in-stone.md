@@ -3,9 +3,10 @@ title: Processes are not set in stone
 description: process management means embracing change
 tags: BPM
 layout: hh
+image: stone-sign.jpg
 ---
 
-![text set in stone](stone-sign.jpg)
+![](stone-sign.jpg)
 
 [gnomonic](https://www.flickr.com/photos/28120556@N08/9100601923){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

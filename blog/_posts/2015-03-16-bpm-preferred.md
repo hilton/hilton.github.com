@@ -3,9 +3,10 @@ title: BPM as a preferred approach to business application development
 description: The fundamental problem with a process-centric approach
 tags: BPM
 layout: hh
+image: tools.jpg
 ---
 
-![garden tools](tools.jpg)
+![](tools.jpg)
 
 [Jennifer C.](https://www.flickr.com/photos/29638108@N06/7718086616){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

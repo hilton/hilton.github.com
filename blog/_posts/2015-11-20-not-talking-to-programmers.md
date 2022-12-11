@@ -3,9 +3,10 @@ title: Not talking to programmers
 description: Why face-to-face communication isn’t as good as they say
 tags: programming documentation
 layout: hh
+image: shh.jpg
 ---
 
-![shh](shh.jpg)
+![](shh.jpg)
 
 [anna gutermuth](https://www.flickr.com/photos/anniferrr/4379600329){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

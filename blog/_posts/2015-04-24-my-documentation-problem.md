@@ -3,6 +3,7 @@ title: My documentation problem
 description: ACCU 2015 lightning talk script
 tags: documentation
 layout: hh
+image: accu2015-lightning.jpg
 ---
 
 ![ACCU 2015 lightning talk audience](accu2015-lightning.jpg)

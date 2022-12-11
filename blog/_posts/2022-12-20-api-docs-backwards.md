@@ -3,7 +3,7 @@ title: Backwards API docs
 description: Why API docs resist good explanations
 layout: hh
 tags: API documentation
-css: "a img {width:640px; border: 2px solid #08f}"
+css: "article a img {width:640px; border: 2px solid #08f}"
 image: wrong-way.jpg
 ---
 
@@ -18,7 +18,7 @@ And even then, the documentation often leaves you guessing about what these requ
 
 A better [explanation order](explanation-order)
 starts with concrete examples that illustrate typical API interactions.
-API users need the details later, after they’ve understood the broad strokes and are ready to implement an API client.
+API users need the details later, after they’ve understood the broad strokes and start implementing an API client.
 
 {:#deconstructed}
 ## Deconstructed HTTP
@@ -27,13 +27,14 @@ Developers like to model things by breaking them down into their components, put
 This neatly captures every detail, but risks hiding the forest among the trees.
 When API specifications precede examples, you deconstruct the API’s HTTP requests and responses into a different but (hopefully) equivalent non-standard representation.
 
-The following [Redoc](https://github.com/Redocly/redoc#readme) example illustrates reversed order.
+The following [Redoc](https://github.com/Redocly/redoc#readme) example
+([OpenAPI source](api/pirates.json), [HTML](api/pirates-redoc.html)) illustrates reversed order.
 The left-to-right visual hierarchy gives precedence to path parameters over the resource URL, and to the (missing) request body schema over the request body.
 
 [ ![Redoc documentation example](api/pirates-redoc.webp) ](api/pirates-redoc.webp)
 
 Perhaps this somehow looks more impressive than raw, brutalist HTTP requests and responses.
-You even get to interact with it: the possible responses are so deconstructed that you have to expand their sections on the left, to discover their headers and response schemas, and select their tabs on the right to find the hidden example response bodies.
+You even get to interact with it: it deconstructs the possible responses so much that you have to expand their sections on the left, to discover their headers and response schemas, and select their tabs on the right to find the hidden example response bodies.
 
 {:#examples}
 ## Missing examples
@@ -44,8 +45,8 @@ Without examples the reader has to implement an HTTP client in their head to fig
 Backwards API documentation treats examples as the optional content, while prioritising detailed information, such as required authorisation headers.
 The OpenAPI specification enables this, and renderers like Redoc further encourage it by producing reasonable-looking output when you omit the examples, but not the other way around.
 
-In this case I blame Redoc, but not OpenAPI, which is a _specification_ language, not a documentation or explanation language.
-In practice, don’t expect to be able to generate an explanation from a specification.
+In this case I blame Redoc, but not OpenAPI - a _specification_ language, not a documentation or explanation language.
+In practice, don’t expect to generate a good explanation from a specification.
 
 {:#backwards}
 ## Why API docs go the wrong way
@@ -54,4 +55,4 @@ Programmers tend to write documentation they way they write code, in the definit
 Moreover, developers expect to find API documentation as hard to read as code, and want to avoid change more than they want documentation usability.
 
 Tooling such as Redoc further caters to programmer priorities, with tools for people who want to _avoid_ writing documentation.
-These are not tools for people who want to _actually write_ good documentation.
+These tools do not cater for people who want to _actually write_ good documentation.

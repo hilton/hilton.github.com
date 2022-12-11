@@ -1,6 +1,6 @@
 ---
-title: Technical documentation annotations
-description: How to annotate examples for readability
+title: Documentation annotation styles
+description: How to annotate technical writing examples for readability
 layout: hh
 tags: API documentation
 css: "article img {width:640px}"
@@ -10,6 +10,10 @@ image: detour-sign.jpg
 ![](detour-sign.jpg)
 
 [Ussama Azam](https://unsplash.com/photos/kMb4qE_zj3Q){:.photocredit}
+
+{:.series}
+1. [Backwards API docs](api-docs-backwards)
+2. Annotation styles
 
 Technical documentation includes different kinds of content, such as definitions, explanations and examples.
 Readers often find examples easiest to follow, while writers struggle to include them, and end up with

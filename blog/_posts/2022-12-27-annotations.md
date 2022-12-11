@@ -28,6 +28,7 @@ Technical documentation uses a variety of annotation styles.
 
 _Note: in the following examples, you may ignore the [Pirate Ipsum](https://pirateipsum.me) placeholder text._
 
+{:#footnote}
 ## Footnote style
 
 Print publishing traditionally uses [footnotes](https://en.wikipedia.org/wiki/Note_(typography))
@@ -38,6 +39,7 @@ for annotations, typically with a superscript digit or other symbol that the ann
 Numbered annotations simplify layout, especially with the _endnote_ style that collects annotations at the end of a section.
 However, the **1** in this example has no intrinsic meaning, often rendering the footnote or endnote meaningless without the context it annotates.
 
+{:#definition}
 ## Definition style
 
 A definition style that highlights and repeats the annotated text improves on footnotes by making the annotation easier to read in isolation.
@@ -47,6 +49,7 @@ A definition style that highlights and repeats the annotated text improves on fo
 This style relies on visual design to indicate the annotation, perhaps by varying highlight colours, or using layout that aligns the annotation with its source.
 But this alignment makes automatic layout more difficult when one location has two annotations, which cannot occupy the same margin position.
 
+{:#table}
 ## Table style
 
 Generated documentation layouts typically replace positional annotations with a table of terms and their annotations, as in a table of definitions.
@@ -62,7 +65,8 @@ Or worse: a glossary at the end of a book that you don’t discover until after 
 Making the reader hunt for definitions violates a technical writing heuristic: _don’t make the reader fast-forward and rewind_.
 This alludes to cinema, where you don’t expect the audience to have to fast-forward and rewind the film to understand the plot.
 
-## Annotation style
+{:#direct}
+## Direct annotation style
 
 While tables compromise automatic layouts, more advanced textbook layouts make annotations more visually explicit.
 Lines or arrows that connect text to annotations mimic the way we naturally use pen and paper, and physical whiteboards.

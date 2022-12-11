@@ -1,8 +1,11 @@
 .docs-toc { display:none; }
 
-.docs-main { background-color:rgb(252, 250, 241); width:990px; padding:0 20px 10px 20px; }
+.docs-main { color:black; background-color:rgb(252, 250, 241); width:990px; padding:0 20px 10px 20px; }
 .docs-main h2 { padding:0; margin-bottom:0; }
 .docs-main .docs-primary { padding-right:20px; }
+.docs-main .docs-primary p, .docs-main .docs-primary li { margin-bottom:10px; }
+.docs-main .docs-primary p, .docs-main .docs-primary ul { line-height:1.3em; }
+.docs-main .docs-primary ul { padding-left:20px; }
 .docs-main .docs-primary code { padding:0; color:#DF5A49; background-color:inherit; }
 
 .docs-code { background:inherit; color:inherit; }

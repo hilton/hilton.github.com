@@ -3,9 +3,10 @@ title: Presentation tips for conference organisers
 description: How to help speakers deliver legible slides
 tags: conferences
 layout: hh
+image: crowd.jpg
 ---
 
-![Photo - conference audience](crowd.jpg)
+![](crowd.jpg)
 
 [Cydcor Offices](https://www.flickr.com/photos/cydcor/9323706582){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

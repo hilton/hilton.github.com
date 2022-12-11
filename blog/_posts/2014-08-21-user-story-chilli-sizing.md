@@ -3,9 +3,10 @@ title: Scrum user story chilli ratings
 description: Hotter than t-shirt sizes, looser than dress sizes
 tags: agile
 layout: hh
+image: chillies.jpg
 ---
 
-![Chillies on a String](chillies.jpg)
+![](chillies.jpg)
 
 [David McLeish](https://www.flickr.com/photos/shishberg/409485537){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

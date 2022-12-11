@@ -3,9 +3,10 @@ title: What’s missing from the Scala Style Guide
 description: Input for team-specific code conventions
 tags: Scala
 layout: hh
+image: scala-style-guide.jpg
 ---
 
-![Scala Style Guide](scala-style-guide.jpg)
+![](scala-style-guide.jpg)
 
 The [Scala Style Guide](http://docs.scala-lang.org/style/) is a useful set of
 [coding conventions](http://en.wikipedia.org/wiki/Coding_conventions), like Sun’s old

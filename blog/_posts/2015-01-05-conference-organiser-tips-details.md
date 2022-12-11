@@ -3,9 +3,10 @@ title: Small details for conference organisers
 description: Inspiration for incremental improvements
 tags: conferences
 layout: hh
+image: conference-badge-skillsmatter.jpg
 ---
 
-![Skillsmatter conference badge](conference-badge-skillsmatter.jpg)
+![](conference-badge-skillsmatter.jpg)
 
 {:.series}
 1. [Better presentations](conference-organiser-tips-slides)

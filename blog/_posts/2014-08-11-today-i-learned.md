@@ -3,6 +3,7 @@ title: Today I learned useful and weird stuff
 description: Working out loud and social learning
 tags: collaboration
 layout: hh
+image: voynich.jpg
 ---
 
 [ ![Voynich manuscript (detail)](voynich.jpg) ](http://en.wikipedia.org/wiki/Voynich_manuscript)

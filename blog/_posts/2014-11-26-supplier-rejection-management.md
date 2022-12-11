@@ -3,9 +3,10 @@ title: Supplier Rejection Management
 description: Building interruption marketing countermeasures with @Twilio
 tags: vapourware
 layout: hh
+image: call-centre.jpg
 ---
 
-![Evil call-centre employee](call-centre.jpg)
+![](call-centre.jpg)
 
 [alanclarkdesign](https://www.flickr.com/photos/alanclarkdesign/2486109368/){:.photocredit}
 [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0//){:.license}

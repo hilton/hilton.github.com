@@ -3,9 +3,10 @@ title: Neil Gaiman’s rules for coding
 description: "@neilhimself writes about programming"
 tags: programming
 layout: hh
+image: neil-gaiman.jpg
 ---
 
-![Neil Gaiman](neil-gaiman.jpg)
+![](neil-gaiman.jpg)
 
 The problem with getting programming advice from programmers is none of them are really famous, and hardly any of them can write. It’s easier to get good programming advice from someone a famous novellist.
 

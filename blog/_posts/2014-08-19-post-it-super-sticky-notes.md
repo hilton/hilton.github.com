@@ -3,9 +3,10 @@ title: Post-it Super Sticky - notes that don’t fall off
 description: Scrum hardware innovation (via @vgrgic) and Correct Post-it Technique
 tags: agile
 layout: hh
+image: post-it-notes.jpg
 ---
 
-![Post-it notes](post-it-notes.jpg)
+![](post-it-notes.jpg)
 
 Scrum projects are tiring, because it’s hard work to maintain continuous improvement, sprint after sprint. That’s why it helps to talk to other people about how they do it: each new idea, insight and technique is a new opportunity to improve.
 

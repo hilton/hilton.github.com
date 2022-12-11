@@ -3,9 +3,10 @@ title: Custom development with Effektif
 description: What a process-centric spreadsheet alternative means for developers
 tags: BPM
 layout: hh
+image: spreadsheet.jpg
 ---
 
-![A spreadsheet](spreadsheet.jpg)
+![](spreadsheet.jpg)
 
 [atlken77](https://www.flickr.com/photos/floridaken77/5964733034){:.photocredit}
 [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/){:.license}

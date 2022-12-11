@@ -3,9 +3,10 @@ title: Architect - the missing Scrum role
 description: Agile architecture for non-functional requirements
 tags: agile
 layout: hh
+image: architect.jpg
 ---
 
-[ ![Software design](architect.jpg) ](https://www.flickr.com/photos/juhansonin/12140602074)
+[ ![](architect.jpg) ](https://www.flickr.com/photos/juhansonin/12140602074)
 
 On a Scrum project, there are a few common questions that turn out to be related.
 

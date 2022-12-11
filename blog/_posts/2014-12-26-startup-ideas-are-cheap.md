@@ -3,9 +3,10 @@ title: Start-up company ideas are cheap
 description: A good team that executes well matters most
 tags: startups
 layout: hh
+image: light-bulbs.jpg
 ---
 
-![Light bulbs are cheap](light-bulbs.jpg)
+![](light-bulbs.jpg)
 
 [Paolo Martini](https://www.flickr.com/photos/locomosquito/7450708614){:.photocredit}
 [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/){:.license}

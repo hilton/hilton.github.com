@@ -3,9 +3,10 @@ title: Scaling down Play and Scala web applications
 description: Cruising with Play, Scala and in style
 tags: Scala
 layout: hh
+image: rolls-royce.jpg
 ---
 
-[ ![Rolls Royce](rolls-royce.jpg) ](https://www.flickr.com/photos/alexprevot/8696067685)
+[ ![](rolls-royce.jpg) ](https://www.flickr.com/photos/alexprevot/8696067685)
 
 What’s the best kind of car for getting around town, popping out to the shops and cruising along the seafront on a warm summer evening? The most basic small car will do, perhaps, but it won’t do it in style. If you can afford it, it’s far more classy to cruise along in a massively overpowered Rolls Royce, with nothing more than a soft purr from its V12 engine.
 

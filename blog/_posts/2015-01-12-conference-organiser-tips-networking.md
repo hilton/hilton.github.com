@@ -3,9 +3,10 @@ title: Networking tips for conference organisers
 description: how to help attendees connect with each other
 tags: conferences
 layout: hh
+image: networking.jpg
 ---
 
-![Photo - conference networking](networking.jpg)
+![](networking.jpg)
 
 [Nimbuzz](https://www.flickr.com/photos/nimbuzz/4563691156){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

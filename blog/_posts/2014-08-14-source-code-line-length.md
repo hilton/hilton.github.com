@@ -3,9 +3,10 @@ title: Source code maximum line length
 description: GitHub sets the standard for code reviews
 tags: Scala
 layout: hh
+image: tape-measure.jpg
 ---
 
-![A tape measure](tape-measure.jpg)
+![](tape-measure.jpg)
 
 Sooner or later, a software development team has to settle on a standard for the maximum line length for source code. They might even add it to a written [coding standard](missing-from-scala-style-guide). The thing is, that different people and teams don’t often agree on how long a line of code can be. It turns out that _it depends_.
 

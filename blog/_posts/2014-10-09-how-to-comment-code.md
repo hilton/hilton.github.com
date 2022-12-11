@@ -3,9 +3,10 @@ title: How to comment code
 description: What you have to actually do to get good comments
 tags: programming comments
 layout: hh
+image: revisions.jpg
 ---
 
-![revisions](revisions.jpg)
+![](revisions.jpg)
 
 [quinnanya](https://www.flickr.com/photos/quinnanya/2021672445){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

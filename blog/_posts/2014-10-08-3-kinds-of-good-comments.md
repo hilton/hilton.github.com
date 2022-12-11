@@ -3,9 +3,10 @@ title: 3 kinds of good comments
 description: Code tells you what and how - you need comments to say why
 tags: programming comments
 layout: hh
+image: existence.jpg
 ---
 
-![Nous sommes les acteurs de nos existences](existence.jpg)
+![](existence.jpg)
 
 [jmenj](https://www.flickr.com/photos/jmenj/9597334273){:.photocredit}
 [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/){:.license}

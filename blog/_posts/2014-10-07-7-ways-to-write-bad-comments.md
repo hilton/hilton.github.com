@@ -3,9 +3,10 @@ title: 7 ways to write bad comments
 description: Things you don’t want to do to your code
 tags: programming comments
 layout: hh
+image: comments-bad.jpg
 ---
 
-![I comment my code - but I still don’t know what I did or why](comments-bad.jpg)
+![](comments-bad.jpg)
 
 [quinnanya](https://www.flickr.com/photos/quinnanya/4869433260){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

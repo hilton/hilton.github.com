@@ -3,9 +3,10 @@ title: What to write on Twitter
 description: the most important part of how to use Twitter
 tags: Twitter
 layout: hh
+image: birds-pylon.jpg
 ---
 
-![photo - songbirds](birds-pylon.jpg)
+![](birds-pylon.jpg)
 
 [Michael Coghlan](https://www.flickr.com/photos/mikecogh/14410924093){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

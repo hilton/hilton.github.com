@@ -3,9 +3,10 @@ title: George Orwell’s six rules for Scala programmers
 description: A concise style guide
 tags: Scala
 layout: hh
+image: george-orwell.jpg
 ---
 
-![George Orwell’s grave](george-orwell.jpg)
+![](george-orwell.jpg)
 
 In his 1946 essay, [Politics and the English Language](http://www.orwell.ru/library/essays/politics/english/e_polit), [George Orwell](http://en.wikipedia.org/wiki/George_Orwell) (1903-1950) considers ‘the decadence of our language’. At the end of the essay he writes:
 

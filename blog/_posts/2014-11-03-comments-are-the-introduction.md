@@ -3,9 +3,10 @@ title: Comments are the introduction
 description: three ways to introduce code
 tags: programming comments
 layout: hh
+image: introduction.jpg
 ---
 
-![Introduction…](introduction.jpg)
+![](introduction.jpg)
 
 [earlynovelsdatabase](https://www.flickr.com/photos/97741188@N04/14486379561/){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}

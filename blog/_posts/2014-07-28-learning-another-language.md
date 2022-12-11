@@ -3,9 +3,10 @@ title: Learning another programming language
 description: The second language is hardest
 tags: programming
 layout: hh
+image: foreign-language.jpg
 ---
 
-![Foreign language](foreign-language.jpg)
+![](foreign-language.jpg)
 
 There’s no point being upset because ‘your’ programming language is threatened with obsolescence. Just learn another language: it will probably be tough, but it’s worth persevering and doing it again because it gets easier after the second one.
 

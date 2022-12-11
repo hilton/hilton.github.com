@@ -3,9 +3,10 @@ title: One Big Menu
 description: Unbundling restaurant menus on the web
 tags: vapourware
 layout: hh
+image: erwtensoep.jpg
 ---
 
-![Dutch pea soup](erwtensoep.jpg)
+![](erwtensoep.jpg)
 
 [maxh42](https://www.flickr.com/photos/maxh42/14659258634){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}

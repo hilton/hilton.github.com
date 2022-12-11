@@ -3,9 +3,10 @@ title: Development cost is relative to value
 description: Putting effort estimates in perspective
 tags: agile
 layout: hh
+image: cost-value.jpg
 ---
 
-![Cost vs Value](cost-value.jpg)
+![](cost-value.jpg)
 
 As I have [written before](http://blog.lunatech.com/2007/01/31/business-class-or-economy),
 developers can be too cost-conscious, and put too much focus on development cost, i.e. effort. This is a problem when it distracts from understanding business value: good estimates for developing unnecessary software are waste. The trick is to balance the two.

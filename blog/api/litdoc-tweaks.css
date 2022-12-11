@@ -1,0 +1,13 @@
+.docs-toc { display:none; }
+
+.docs-main { background-color:rgb(252, 250, 241); width:990px; padding:0 20px 10px 20px; }
+.docs-main h2 { padding:0; margin-bottom:0; }
+.docs-main .docs-primary { padding-right:20px; }
+.docs-main .docs-primary code { padding:0; color:#DF5A49; background-color:inherit; }
+
+.docs-code { background:inherit; color:inherit; }
+.docs-code pre code { line-height:inherit; }
+.docs-code .hljs-keyword, .hljs-selector-tag, .hljs-literal { color: #E27A3F; }
+.docs-code .hljs-string, .hljs-bullet { color: #91e7d6; }
+.docs-code .hljs-type, .hljs-title, .hljs-section, .hljs-attribute, .hljs-quote, .hljs-built_in, .hljs-builtin-name { color: #EFC94C; }
+.docs-code .hljs-number, .hljs-symbol, .hljs-bullet { color: #DF5A49; }

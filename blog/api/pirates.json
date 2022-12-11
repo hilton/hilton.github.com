@@ -1,0 +1,164 @@
+{
+   "openapi": "3.0.2",
+   "info": {
+      "title": "Pirates API"
+   },
+   "components": {
+      "securitySchemes": {
+         "Bearer": {
+            "type": "http",
+            "scheme": "bearer",
+            "bearerFormat": "KiMwscRpnoSOQwTm",
+            "description": "Developer-specific API key that grants access to update a single ship, until its expiry date"
+         }
+      }
+   },
+   "paths": {
+      "/ship/{id}/crew": {
+         "post": {
+            "summary": "Add a pirate to a ship’s crew",
+            "description": "Assigns a pirate to a ship, creating a new pirate resource with basic metadata.",
+            "parameters": [
+               {
+                  "name": "id ",
+                  "in": "path",
+                  "description": "Ship ID",
+                  "required": true,
+                  "schema": {
+                     "type": "string",
+                     "example": "ShpOWZxvR3mxMndyC2aJ3A"
+                  }
+               }
+            ],
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ],
+            "requestBody": {
+               "description": "Pirate metadata - crew member details",
+               "content": {
+                  "application/json": {
+                     "schema": {},
+                     "example": {
+                        "$ref": "pirate-metadata.json"
+                     }
+                  }
+               }
+            },
+            "responses": {
+               "201": {
+                  "description": "Success response after adding a crew member",
+                  "headers": {
+                     "Location": {
+                        "description": "The new crew member’s URL",
+                        "schema": {
+                           "type": "string",
+                           "example": "/pirate/P3jJuhcUJoWLFsYdjLZ3Ww"
+                        }   
+                     }
+                  }
+               },
+               "401": {
+                  "description": "Authorization errors",
+                  "content": {
+                     "application/problem+json": {
+                        "schema": {
+                           "type": "object"
+                        },
+                        "examples": {
+                           "authorization-required": {
+                               "title": "Authorization header required",
+                               "detail": "Add a Bearer token Authorization request header"
+                           },
+                           "token-expired": {
+                               "title": "Authorization header expired",
+                               "detail": "Use a new Bearer token in the Authorization request header",
+                               "token": "OldWscRpnoSOQwTm"
+                           }
+                        }
+                     }
+                  }
+               },
+               "403": {
+                  "description": "Forbidden",
+                  "content": {
+                     "application/problem+json": {
+                        "schema": {
+                           "type": "object"
+                        },
+                        "example": {
+                            "title": "Authorization token invalid",
+                            "detail": "Use a valid Bearer token for this ship",
+                            "token": "BogusCRpnoSOQwTm",
+                            "ship_id": "ShpOWZxvR3mxMndyC2aJ3A"
+                        }
+                     }
+                  }
+               },
+               "404": {
+                  "description": "Not Found",
+                  "content": {
+                     "application/problem+json": {
+                        "schema": {
+                           "type": "object"
+                        },
+                        "example": {
+                          "title": "Ship not found",
+                          "detail": "No ship with ID ‘ShpOWZxvR3mxMndyC2aJ3A’ sails",
+                          "ship_id": "ShpOWZxvR3mxMndyC2aJ3A"
+                        }
+                     }
+                  }
+               },
+               "406": {
+                  "description": "Not Acceptable",
+                  "content": {
+                     "text/plain": {
+                        "schema": {
+                           "type": "string"
+                        },
+                        "example": {
+                           "summary": "Error response when the request specifies that the client doesn’t accept JSON responses",
+                           "value": "This API only serves JSON. Use an 'Accept: application/json' request header."
+                        }
+                     }
+                  }
+               },
+               "409": {
+                  "description": "Conflict",
+                  "content": {
+                     "application/problem+json": {
+                        "schema": {
+                           "type": "object"
+                        },
+                        "example": {
+                            "title": "The ‘Long John Silver’ pirate already belongs to this ship’s crew",
+                            "detail": "Update the existing pirate or use a new nickname.",
+                            "pirate_name": "‘Long John Silver",
+                            "ship_id": "ShpOWZxvR3mxMndyC2aJ3A",
+                            "pirate_url": "https://api.example.com/pirate/P3jJuhcUJoWLFsYdjLZ3Ww"
+                        }
+                     }
+                  }
+               },
+               "415": {
+                  "description": "Unsupported Media Type",
+                  "content": {
+                     "application/problem+json": {
+                        "schema": {
+                           "type": "object"
+                        },
+                        "example": {
+                            "title": "Pirate metadata as ‘text/xml’ is not supported",
+                            "detail": "Send pirate metadata as application/json.",
+                            "mime_type": "text/xml"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

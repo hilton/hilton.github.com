@@ -1,0 +1,12 @@
+{
+  "name": "Long John Silver",
+  "rank": "Pirate captain",
+  "born": {
+    "town": "Bristol",
+    "year": 1883
+  },
+  "familiar": {
+    "type": "parrot",
+    "name": "Captain Flint"
+  }
+} 

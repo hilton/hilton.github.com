@@ -24,7 +24,7 @@ Before you even finish this part, the reader has either clicked _Back_ or fallen
 
 If you really hate your readers, you’ll have started with a history of product management.
 Conference presentations suffer from the Historical Context Trap even more than writing, where it has a worse impact, because the audience can’t click a button to escape.
-The might have comfortable seats to sleep in, though.
+They might have comfortable seats to sleep in, though.
 
 ## Specific solution
 

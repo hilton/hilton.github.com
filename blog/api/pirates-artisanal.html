@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pirate API</title>
+<style>
+/* h3, pre, aside {border:dashed 1px #99000066;} */
+/* Layout */
+html { padding:2em; }
+article { padding:1em; max-width:53em; }
+section div {
+  margin-bottom:1em; display:grid; grid-template-columns: 0.618fr 1em 0.382fr;  
+}
+h3 { grid-column-start:span 3; }
+pre { margin:0; grid-column-start:1; grid-column-end:1; }
+aside { grid-column-start:3; grid-column-end:3;  }
+code, dfn { margin-bottom:1em; }
+dfn { display:block; padding:0.5em; }
+
+/* Text */
+body { font-family: 'Open Sans', Helvetica, sans-serif; }
+dfn { font-style:normal; }
+h1 { display:none; }
+h2 { font-size:1.6em; font-weight:normal; }
+h3 { font-size:1em; }
+code { font-size:120%; }
+
+/* Colour */
+body { background-color:white; color:black; }
+h2, h3 { color:#333; }
+article { background-color:#FCF9F1; }
+code a, dfn { background-color:#FFEBA9; }
+code a { color:inherit; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<article class="http-resource" id="ship-crew">
+<header>
+<h1>A ship’s crew</h1>
+</header>
+
+<section class="method" id="ship-crew-get">
+<h2>Add a pirate to a ship’s crew</h2>
+
+<div class="request">
+<h3>Request - crew member details</h3>
+<pre><code class="lang-http">POST /ship/<a href="#ship-id">ShpOWZxvR3mxMndyC2aJ3A</a>/crew HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer <a href="api-key">KiMwscRpnoSOQwTm</a>
+
+{
+  "name": "Long John Silver",
+  "rank": "Pirate captain",
+  "born": {
+    "town": "Bristol",
+    "year": 1883
+  },
+  "familiar": {
+    "type": "parrot",
+    "name": "Captain Flint"
+  }
+}
+</code></pre>
+
+<aside>
+<dfn id="ship-id">Ship ID</dfn>
+<dfn id="api-key">Developer-specific API key that grants access to update a single ship, until its expiry date</dfn>
+</aside>  
+</div>
+
+<div class="response">
+<h3>Success response - crew member added</h3>
+<pre><code class="lang-http">HTTP/1.1 201 Created
+Location: /pirate/<a href="pirate-id">P3jJuhcUJoWLFsYdjLZ3Ww</a>
+</code></pre>
+
+<aside>
+<dfn id="pirate-id">Pirate ID</dfn>
+</aside>
+</div>
+
+<div class="response">
+<h3>Error response - ship not found</h3>
+<pre><code class="lang-http">HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Content-Language: en
+
+{
+  "title": "Ship not found",
+  "detail": "No ship with ID ‘ShpOWZxvR3mxMndyC2aJ3A’",
+  "ship_id": "ShpOWZxvR3mxMndyC2aJ3A"
+}</code></pre>
+</div>
+
+</section>
+
+</article>
+
+</body>
+</html>

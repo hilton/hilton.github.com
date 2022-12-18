@@ -4,9 +4,6 @@
 <meta charset="utf-8">
 <title>Pirate API</title>
 <style>
-/* h3, pre, aside {border:dashed 1px #99000066;} */
-/* code a { background-color:#FFEBA988 !important; }
-.line { border-color:red !important; } */
 /* Layout */
 html { padding:2em; }
 article { padding:1em; max-width:53em; }
@@ -16,11 +13,10 @@ section div {
   position:relative; z-index:3;
 }
 h3 { grid-column-start:span 3; }
-pre { margin:0; grid-column-start:1; grid-column-end:1; }
+pre { margin:0; grid-column-start:1; grid-column-end:1; padding-top:0.4em; }
 aside { grid-column-start:3; grid-column-end:3;  }
 code, dfn { margin-bottom:1em; }
-dfn { display:block; position:relative; padding:0.5em; }
-.line { z-index:2; position:absolute; border-top:0.3em solid; }
+dfn { display:block; position:relative; padding:0.3em 0.5em; }
 
 /* Text */
 body { font-family: 'Open Sans', Helvetica, sans-serif; }
@@ -35,8 +31,8 @@ body { background-color:white; color:black; }
 h2, h3 { color:#333; }
 article { background-color:#FCF9F1; }
 code a, dfn { background-color:#FFEBA9; }
-code a { color:inherit; text-decoration:none; }
-.line { border-color:#FFEBA9; }
+code a, code a:visited { color:inherit; text-decoration:none; }
+a, a:visited { color:#428bca; }
 </style>
 </head>
 <body>
@@ -51,10 +47,10 @@ code a { color:inherit; text-decoration:none; }
 
 <div class="request">
 <h3>Request - crew member details</h3>
-<pre><code class="lang-http">POST /ship/<a href="#ship-id">ShpOWZxvR3mxMndyC2aJ3A</a>/crew HTTP/1.1
+<pre><code class="lang-http">POST /ship/<a class="definition-anchor" href="#ship-id">ShpOWZxvR3mxMndyC2aJ3A</a>/crew HTTP/1.1
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer <a href="api-key">KiMwscRpnoSOQwTm</a>
+Authorization: Bearer <a class="definition-anchor" href="#api-key">KiMwscRpnoSOQwTm</a>
 
 {
   "name": "Long John Silver",
@@ -71,23 +67,23 @@ Authorization: Bearer <a href="api-key">KiMwscRpnoSOQwTm</a>
 </code></pre>
 
 <aside>
-<dfn id="ship-id">Ship ID</dfn>
+<dfn id="ship-id">Ship ID - a <a href="https://www.rfc-editor.org/rfc/rfc4648#section-5">base46url</a>-encoded <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> that uniquely identifies the ship</dfn>
 <dfn id="api-key">Developer-specific API key that grants access to update a single ship, until its expiry date</dfn>
 </aside>  
 </div>
 
-<div class="response">
+<div id="ship-crew-get-response" class="response">
 <h3>Success response - crew member added</h3>
 <pre><code class="lang-http">HTTP/1.1 201 Created
-Location: /pirate/<a href="pirate-id">P3jJuhcUJoWLFsYdjLZ3Ww</a>
+Location: /pirate/<a class="definition-anchor" href="#pirate-id">P3jJuhcUJoWLFsYdjLZ3Ww</a>
 </code></pre>
 
 <aside>
-<dfn id="pirate-id" style="top:0.6em">Pirate ID</dfn>
+<dfn id="pirate-id" style="top:1.1em">Pirate ID</dfn>
 </aside>
 </div>
 
-<div class="response">
+<div id="ship-crew-get-response-error" class="response">
 <h3>Error response - ship not found</h3>
 <pre><code class="lang-http">HTTP/1.1 404 Not Found
 Content-Type: application/problem+json
@@ -100,9 +96,6 @@ Content-Language: en
 }</code></pre>
 </div>
 
-<div class="line" id="line-ship-id" style="top:7.2em; left:6.4em; width:27em"></div>
-<div class="line" id="line-api-key" style="top:10.5em; left:12.8em; width:21em"></div>
-<div class="line" id="line-pirate-id" style="top:31.3em; left:10.5em; width:23em"></div>
 </section>
 
 </article>

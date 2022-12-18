@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pirate API</title>
+<style>
+/* Layout */
+html { padding:2em; }
+article { padding:1em; max-width:53em; }
+section { position:relative; z-index:1; }
+section div {
+  margin-bottom:1em; display:grid; grid-template-columns: 0.618fr 1em 0.382fr;
+  position:relative; z-index:3;
+}
+canvas { position:absolute; z-index:2; margin:0; }
+h3 { grid-column-start:span 3; }
+pre { margin:0; grid-column-start:1; grid-column-end:1; padding-top:0.4em; }
+aside { grid-column-start:3; grid-column-end:3;  }
+code, dfn { margin-bottom:1em; }
+dfn { display:block; position:relative; padding:0.3em 0.5em; }
+.line { z-index:2; position:absolute; border-top:0.3em solid; }
+
+/* Text */
+body { font-family: 'Open Sans', Helvetica, sans-serif; }
+dfn { font-style:normal; }
+h1 { display:none; }
+h2 { font-size:1.6em; font-weight:normal; }
+h3 { font-size:1em; }
+code { font-size:120%; }
+
+/* Colour */
+body { background-color:white; color:black; }
+h2, h3 { color:#333; }
+article { background-color:#FCF9F1; }
+code a, dfn { background-color:#FFEBA9; }
+code a, code a:visited { color:inherit; text-decoration:none; }
+.line { border-color:#FFEBA9; }
+a, a:visited { color:#428bca; }
+</style>
+</head>
+<body onload="drawCanvases()">
+
+<article class="http-resource" id="ship-crew">
+<header>
+<h1>A ship’s crew</h1>
+</header>
+
+<section class="method" id="ship-crew-get">
+<h2>Add a pirate to a ship’s crew</h2>
+
+<canvas id="canvas-request"></canvas>
+<div class="request" id="ship-crew-get-request">
+<h3>Request - crew member details</h3>
+<pre><code class="lang-http">POST /ship/<a id="anchor-ship-id" class="definition-anchor" href="#ship-id">ShpOWZxvR3mxMndyC2aJ3A</a>/crew HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer <a id="anchor-api-key" class="definition-anchor" href="api-key">KiMwscRpnoSOQwTm</a>
+
+{
+  "name": "Long John Silver",
+  "rank": "Pirate captain",
+  "born": {
+    "town": "Bristol",
+    "year": 1883
+  },
+  "familiar": {
+    "type": "parrot",
+    "name": "Captain Flint"
+  }
+}
+</code></pre>
+
+<aside>
+<dfn id="ship-id">Ship ID - a <a href="https://www.rfc-editor.org/rfc/rfc4648#section-5">base46url</a>-encoded <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> that uniquely identifies the ship</dfn>
+<dfn id="api-key">Developer-specific API key that grants access to update a single ship, until its expiry date</dfn>
+</aside>  
+</div>
+
+<canvas id="canvas-response"></canvas>
+<div id="ship-crew-get-response" class="response">
+<h3>Success response - crew member added</h3>
+<pre><code class="lang-http">HTTP/1.1 201 Created
+Location: /pirate/<a id="anchor-pirate-id" class="definition-anchor" href="pirate-id">P3jJuhcUJoWLFsYdjLZ3Ww</a>
+</code></pre>
+
+<aside>
+<dfn id="pirate-id" style="top:1.1em">Pirate ID</dfn>
+</aside>
+</div>
+
+<div id="ship-crew-get-response-error" class="response">
+<h3>Error response - ship not found</h3>
+<pre><code class="lang-http">HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Content-Language: en
+
+{
+  "title": "Ship not found",
+  "detail": "No ship with ID ‘ShpOWZxvR3mxMndyC2aJ3A’",
+  "ship_id": "ShpOWZxvR3mxMndyC2aJ3A"
+}</code></pre>
+</div>
+
+</section>
+
+</article>
+
+</body>
+
+<script type="text/javascript">
+// Draws all arrows, from definition anchors to definitions.
+function drawCanvases() {
+  // Hard-code element IDs instead of looking up elements by class name, to simplify code.
+  const arrows = {
+    shipId: { canvas: "canvas-request", div: "ship-crew-get-request", start: "anchor-ship-id", end: "ship-id"},
+    apiKey: { canvas: "canvas-request", div: "ship-crew-get-request", start: "anchor-api-key", end: "api-key"},
+    pirateId: { canvas: "canvas-response", div: "ship-crew-get-response", start: "anchor-pirate-id", end: "pirate-id"},
+  }
+  drawArrow(arrows.shipId)
+  drawArrow(arrows.apiKey)
+  drawArrow(arrows.pirateId)
+}
+
+// Draws one arrow on its canvas
+function drawArrow(arrow) {
+  const canvas = document.getElementById(arrow.canvas)
+  const div = document.getElementById(arrow.div)
+  // Only set the canvas size to the div size once, which clears the canvas.
+  if (canvas.width !== div.offsetWidth) {
+    canvas.width = div.offsetWidth
+    canvas.height = div.offsetHeight
+  }
+  const context = canvas.getContext("2d")
+  const start = document.getElementById(arrow.start)
+  const end = document.getElementById(arrow.end)
+  drawArrowByCoordinates(context, elementCenter(start), elementCenter(end))
+}
+
+// Returns the coordinates of a DOM element’s centre point.
+function elementCenter(element) {
+  const width = element.offsetWidth
+  const height = element.offsetHeight
+  const x = element.offsetLeft + (width / 2)
+  const y = element.offsetTop + (height / 2)
+  return {x: x, y: y}
+}
+
+// Draws an arrow between two points on the given canvas context.
+function drawArrowByCoordinates(context, start, end) {
+  context.lineWidth = 3
+  context.strokeStyle = '#FFEBA9'
+  const path = new Path2D()
+  path.moveTo(start.x, start.y)
+  path.lineTo(end.x, end.y)
+  context.stroke(path)
+}
+</script>
+</html>

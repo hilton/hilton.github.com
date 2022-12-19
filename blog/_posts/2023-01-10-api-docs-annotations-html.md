@@ -3,7 +3,12 @@ title: API documentation annotations in HTML
 description: Rendering annotations in HTML, CSS and canvas
 layout: hh
 tags: API documentation
+image: canvas.jpg
 ---
+
+![](canvas.jpg)
+
+[Steve Johnson](https://unsplash.com/photos/QlBdxJK2-nU){:.photocredit}
 
 {:.series}
 1. [Backwards API docs](api-docs-backwards)

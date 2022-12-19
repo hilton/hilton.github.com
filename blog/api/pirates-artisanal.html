@@ -6,12 +6,13 @@
 <style>
 /* Layout */
 html { padding:2em; }
-article { padding:1em; max-width:53em; }
+article { padding:0.5em 1em; max-width:53em; }
 section { position:relative; z-index:1; }
 section div {
   margin-bottom:1em; display:grid; grid-template-columns: 0.618fr 1em 0.382fr;
   position:relative; z-index:3;
 }
+h2 { margin-bottom: 0.5em }
 h3 { grid-column-start:span 3; }
 pre { margin:0; grid-column-start:1; grid-column-end:1; padding-top:0.4em; }
 aside { grid-column-start:3; grid-column-end:3;  }
@@ -48,7 +49,7 @@ a, a:visited { color:#428bca; }
 <div class="request">
 <h3>Request - crew member details</h3>
 <pre><code class="lang-http">POST /ship/<a class="definition-anchor" href="#ship-id">ShpOWZxvR3mxMndyC2aJ3A</a>/crew HTTP/1.1
-Accept: application/json
+<a class="definition-anchor" href="#content-negotiation">Accept:</a> application/json
 Content-Type: application/json
 Authorization: Bearer <a class="definition-anchor" href="#api-key">KiMwscRpnoSOQwTm</a>
 
@@ -68,6 +69,7 @@ Authorization: Bearer <a class="definition-anchor" href="#api-key">KiMwscRpnoSOQ
 
 <aside>
 <dfn id="ship-id">Ship ID - a <a href="https://www.rfc-editor.org/rfc/rfc4648#section-5">base46url</a>-encoded <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> that uniquely identifies the ship</dfn>
+<dfn id="content-negotiation">This API uses resource representation formats other than JSON, and uses <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">content negotiation</a> to provide more specific errors for developers who get content types mixed up</dfn>
 <dfn id="api-key">Developer-specific API key that grants access to update a single ship, until its expiry date</dfn>
 </aside>  
 </div>

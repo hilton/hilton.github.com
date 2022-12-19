@@ -68,7 +68,7 @@ body.writing a.unsplash svg { height:12px; width:auto; position:relative; vertic
 body.writing a.photocredit, body.writing a.license { padding:4px 6px; display:inline-block; border-radius:3px; }
 body.writing code { padding: 0.1em 0.2em 0 0.2em; }
 
-body.writing .series { float:right; margin:0 1em 1em 1em; width:16em; padding:1em; border-radius:0.5em; }
+body.writing .series { float:right; margin:0 0 1em 1em; width:16em; padding:1em; border-radius:0.5em; }
 body.writing .series li { margin-left:1.4em; }
 body.writing .series:before { content:'This article appears in a series:'; display:block; margin-bottom:0.5em; }
 

@@ -22,7 +22,7 @@ A restaurant’s menu might change from week to week, but restaurant web sites a
 
 Web sites for ordering online, such as [JUST EAT](http://www.just-eat.co.uk/), are an important exception. This kind of service has a platform for up-to-date menus, but only for takeaway food. Also, you still have to start by choosing a restaurant, before you can browse the dishes on offer.
 
-Online music retail shows that the CD album was largely a distribution channel convenience, and that people buy single tracks if they can, to get the sings they want and to avoid buying tracks that aren’t as good. This is especially relevant for classical music, with many recordings of one piece of music, each with its own interpretation. Restaurant food is like classical music.
+Online music retail shows that the CD album was largely a distribution channel convenience, and that people buy single tracks if they can, to get the songs they want and to avoid buying tracks that aren’t as good. This is especially relevant for classical music, with many recordings of one piece of music, each with its own interpretation. Restaurant food is like classical music.
 
 ## Introducing One Big Menu
 

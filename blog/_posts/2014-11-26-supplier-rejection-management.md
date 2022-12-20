@@ -23,9 +23,9 @@ One of the telemarketers’ tools is [Customer Relationship Management](http://e
 Supplier Rejection Management (SRM) is the answer to interruption marketing: software tool support that provides a variety of countermeasures. This includes a number of techniques, including:
 
 * basic call-screening, e.g. selecting a department
-* blacklists for known spammers, with automatic call rejection
-* whitelisting, integrated with your corporate telephone directory
-* greylisting for screening unknown or withheld numbers
+* block lists for known spammers, with automatic call rejection
+* allow lists, integrated with your corporate telephone directory
+* [greylisting](https://en.wikipedia.org/wiki/Greylisting_(email)) for screening unknown or withheld numbers
 * gamification features.
 
 Advanced features, such as a voice-response maze for persistent time wasters and a counter-script, are available as add-on modules.

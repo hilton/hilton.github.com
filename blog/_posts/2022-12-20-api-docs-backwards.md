@@ -40,7 +40,8 @@ The left-to-right visual hierarchy gives precedence to path parameters over the 
 
 [ ![Redoc documentation example](api/pirates-redoc.webp) ](api/pirates-redoc.webp)
 
-Perhaps this somehow looks more impressive than raw, brutalist HTTP requests and responses.
+Perhaps this somehow looks more impressive than raw, 
+[brutalist](https://twitter.com/bjartnes/status/1597964917432520704) HTTP requests and responses.
 You even get to interact with it: it deconstructs the possible responses so much that you have to expand their sections on the left, to discover their headers and response schemas, and select their tabs on the right to find the hidden example response bodies.
 
 {:#examples}

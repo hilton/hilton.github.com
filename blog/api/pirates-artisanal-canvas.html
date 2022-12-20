@@ -52,9 +52,9 @@ a, a:visited { color:#428bca; }
 <div class="request" id="ship-crew-get-request">
 <h3>Request - crew member details</h3>
 <pre><code class="lang-http">POST /ship/<a id="anchor-ship-id" class="definition-anchor" href="#ship-id">ShpOWZxvR3mxMndyC2aJ3A</a>/crew HTTP/1.1
-Accept: application/json
-Content-Type: application/json
 Authorization: Bearer <a id="anchor-api-key" class="definition-anchor" href="#api-key">KiMwscRpnoSOQwTm</a>
+Content-Type: application/json
+<a id="anchor-content-negotiation" class="definition-anchor" href="#content-negotiation">Accept: application/json</a>
 
 {
   "name": "Long John Silver",
@@ -73,6 +73,7 @@ Authorization: Bearer <a id="anchor-api-key" class="definition-anchor" href="#ap
 <aside>
 <dfn id="ship-id">Ship ID - a <a href="https://www.rfc-editor.org/rfc/rfc4648#section-5">base46url</a>-encoded <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> that uniquely identifies the ship</dfn>
 <dfn id="api-key">Developer-specific API key that grants access to update a single ship, until its expiry date</dfn>
+<dfn id="content-negotiation">This API uses resource representation formats other than JSON, and uses <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">content negotiation</a> to provide more specific errors for developers who get content types mixed up</dfn>
 </aside>  
 </div>
 
@@ -113,10 +114,12 @@ function drawCanvases() {
   // Hard-code element IDs instead of looking up elements by class name, to simplify code.
   const arrows = {
     shipId: { canvas: "canvas-request", div: "ship-crew-get-request", start: "anchor-ship-id", end: "ship-id"},
+    contentNegotiation: { canvas: "canvas-request", div: "ship-crew-get-request", start: "anchor-content-negotiation", end: "content-negotiation"},
     apiKey: { canvas: "canvas-request", div: "ship-crew-get-request", start: "anchor-api-key", end: "api-key"},
     pirateId: { canvas: "canvas-response", div: "ship-crew-get-response", start: "anchor-pirate-id", end: "pirate-id"},
   }
   drawArrow(arrows.shipId)
+  drawArrow(arrows.contentNegotiation)
   drawArrow(arrows.apiKey)
   drawArrow(arrows.pirateId)
 }

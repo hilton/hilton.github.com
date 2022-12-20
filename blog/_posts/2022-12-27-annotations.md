@@ -12,8 +12,11 @@ image: detour-sign.jpg
 [Ussama Azam](https://unsplash.com/photos/kMb4qE_zj3Q){:.photocredit}
 
 {:.series}
-1. [Backwards API docs](api-docs-backwards)
-2. Annotation styles
+1. [Explanation order](explanation-order)
+2. [Backwards API docs](api-docs-backwards)
+3. Annotation styles
+4. API docs annotations
+5. Annotations in HTML
 
 Technical documentation includes different kinds of content, such as definitions, explanations and examples.
 Readers often find examples easiest to follow, while writers struggle to include them, and end up with

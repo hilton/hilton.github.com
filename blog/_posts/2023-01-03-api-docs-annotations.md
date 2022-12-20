@@ -12,9 +12,11 @@ image: graffiti-sign.jpg
 [S O C I A L . C U T](https://unsplash.com/photos/nFH8eY7vCG4){:.photocredit}
 
 {:.series}
-1. [Backwards API docs](api-docs-backwards)
-2. [Annotation styles](annotations)
-3. API docs annotations
+1. [Explanation order](explanation-order)
+2. [Backwards API docs](api-docs-backwards)
+3. [Annotation styles](annotations)
+4. API docs annotations
+5. Annotations in HTML
 
 [Documentation annotation styles](annotations), the previous article in this series, claims that a 
 [direct annotations style](annotations#direct) would improve API documentation.

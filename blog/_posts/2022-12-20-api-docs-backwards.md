@@ -11,6 +11,13 @@ image: wrong-way.jpg
 
 [NeONBRAND](https://unsplash.com/photos/-Cmz06-0btw){:.photocredit}
 
+{:.series}
+1. [Explanation order](explanation-order)
+2. Backwards API docs
+3. Annotation styles
+4. API docs annotations
+5. Annotations in HTML
+
 API documentation typically presents information in the wrong order.
 First, come HTTP methods, authorisation information, and other cross-cutting concerns, followed by a breakdown of parameters.
 The resource identifiers (URLs), request and response bodies, and their explanations often appear last, as an afterthought.

@@ -11,10 +11,11 @@ image: canvas.jpg
 [Steve Johnson](https://unsplash.com/photos/QlBdxJK2-nU){:.photocredit}
 
 {:.series}
-1. [Backwards API docs](api-docs-backwards)
-2. [Annotation styles](annotations)
-3. [API docs annotations](api-docs-annotations)
-4. Annotations in HTML
+1. [Explanation order](explanation-order)
+2. [Backwards API docs](api-docs-backwards)
+3. [Annotation styles](annotations)
+4. [API docs annotations](api-docs-annotations)
+5. Annotations in HTML
 
 Previously in this series, [Technical documentation annotations](annotations)
 argued for directly annotating examples, to make explanations disconnected,
@@ -29,7 +30,10 @@ To use this layout in practice, though, readers would want this documentation on
 ## HTML
 
 HTML and CSS make most of the layout straightforward.
-The following HTML example uses the same colours, with a 
+The following HTML example
+([HTML](api/pirates-artisanal.html),
+[source](https://github.com/hilton/hilton.github.com/blob/master/blog/api/pirates-artisanal.html))
+uses the same colours, with a 
 [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) layout.
 
 ![Annotations without arrows](api/pirates-artisanal.webp)
@@ -51,7 +55,8 @@ In CSS, you can draw a line by adding a top border to an otherwise invisible abs
 ![Annotations with horizontal arrows](api/pirates-artisanal-div.webp)
 
 This example
-([HTML/CSS source](https://github.com/hilton/hilton.github.com/blob/master/blog/api/pirates-artisanal-div.html))
+([HTML](api/pirates-artisanal-div.html),
+[source](https://github.com/hilton/hilton.github.com/blob/master/blog/api/pirates-artisanal-div.html))
 adds a top border to three otherwise invisible absolutely-positioned `div` elements:
 
 ```css
@@ -74,7 +79,7 @@ Instead, let’s try a solution that doesn’t require trigonometry.
 The [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 promises an easier way to draw arrows on an HTML page than, say, 
 [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG).
-Drawing a straight yellow line between `start` and `end` points requires the following JavaScript.
+Drawing a straight yellow line between `start` and `end` points requires the following JavaScript to draw on an HTML `canvas` element.
 
 ```javascript
 const canvas = document.getElementById("canvas")
@@ -88,21 +93,26 @@ path.lineTo(end.x, end.y)
 context.stroke(path)
 ```
 
-To use this, you need coordinates of each highlighted element’s centre point:
+To use this, you need the coordinates of each highlighted element’s centre point:
 
 ```javascript
-const start = document.getElementById("ship-id")
-const width = element.offsetWidth
-const height = element.offsetHeight
-const x = element.offsetLeft + (width / 2)
-const y = element.offsetTop + (height / 2)
-
-const x = element.offsetLeft + (element.offsetWidth / 2)
-const y = element.offsetTop + (element.offsetHeight / 2)
+const start = document.getElementById("anchor-ship-id")
+const x = start.offsetLeft + (start.offsetWidth / 2)
+const y = start.offsetTop + (start.offsetHeight / 2)
 ```
 
-The resulting arrows nicely connect the highlighted example text (left) with its explanation (right):
+In this final example
+([HTML](api/pirates-artisanal-canvas.html),
+[source](https://github.com/hilton/hilton.github.com/blob/master/blog/api/pirates-artisanal-canvas.html)),
+the resulting arrows nicely connect the highlighted example text (left) with its explanation (right):
 
 ![Annotations with diagonal arrows](api/pirates-artisanal-canvas.webp)
 
-Note that this required using the famously-tricky CSS `z-index` property to draw the arrow behind the example text, to avoid obscuring it, and in front of the background colour.
+Note that this required using the famously-tricky CSS `z-index` property to place the canvas behind the example text and explanation text, to avoid obscuring them, and in front of the background colour.
+
+## Documentation systems
+
+This experiment shows that documentation systems could learn from print publishing system layouts, and provide a visually simpler and more readable layout.
+HTTP API documentation, in particular, could use simpler layouts than the overly complex deconstructed layouts that OpenAPI specifications encourage, such as
+[Redoc’s](api-docs-backwards#deconstructed).
+Now we just need a better API documentation tool that renders annotations properly 😀

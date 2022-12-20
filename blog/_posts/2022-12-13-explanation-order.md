@@ -10,6 +10,13 @@ image: books-non-fiction.jpg
 
 [Karim Ghantous](https://unsplash.com/photos/JHTlgIpNyQA){:.photocredit}
 
+{:.series}
+1. Explanation order
+2. [Backwards API docs](api-docs-backwards)
+3. Annotation styles
+4. API docs annotations
+5. Annotations in HTML
+
 Technical writing, like other specialist skills, uses some straightforward and learnable techniques that only become obvious after you’ve heard (or read) about them.
 This article explains one such technique, that you can use in writing as well as other forms of explanation, such as giving presentations.
 

@@ -15,7 +15,7 @@ image: graffiti-sign.jpg
 1. [Explanation order](explanation-order)
 2. [Backwards API docs](api-docs-backwards)
 3. [Annotation styles](annotations)
-4. API docs annotations
+4. API docs annotations ←
 5. Annotations in HTML
 
 [Documentation annotation styles](annotations), the previous article in this series, claims that a 

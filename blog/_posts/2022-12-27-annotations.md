@@ -14,7 +14,7 @@ image: detour-sign.jpg
 {:.series}
 1. [Explanation order](explanation-order)
 2. [Backwards API docs](api-docs-backwards)
-3. Annotation styles
+3. Annotation styles ←
 4. API docs annotations
 5. Annotations in HTML
 

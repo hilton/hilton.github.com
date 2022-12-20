@@ -15,7 +15,7 @@ image: canvas.jpg
 2. [Backwards API docs](api-docs-backwards)
 3. [Annotation styles](annotations)
 4. [API docs annotations](api-docs-annotations)
-5. Annotations in HTML
+5. Annotations in HTML ←
 
 Previously in this series, [Technical documentation annotations](annotations)
 argued for directly annotating examples, to make explanations disconnected,

@@ -11,7 +11,7 @@ image: books-non-fiction.jpg
 [Karim Ghantous](https://unsplash.com/photos/JHTlgIpNyQA){:.photocredit}
 
 {:.series}
-1. Explanation order
+1. Explanation order ←
 2. [Backwards API docs](api-docs-backwards)
 3. Annotation styles
 4. API docs annotations

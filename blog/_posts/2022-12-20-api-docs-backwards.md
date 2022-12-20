@@ -13,7 +13,7 @@ image: wrong-way.jpg
 
 {:.series}
 1. [Explanation order](explanation-order)
-2. Backwards API docs
+2. Backwards API docs ←
 3. Annotation styles
 4. API docs annotations
 5. Annotations in HTML

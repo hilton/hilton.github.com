@@ -2,7 +2,7 @@
 title: Software maintenance’s terrible question
 description: The big question that teams don’t ask about software products
 layout: hh
-tags: code maintenance
+tags: product maintenance
 image: factory2.jpg
 ---
 

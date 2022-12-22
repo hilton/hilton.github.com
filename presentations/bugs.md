@@ -5,7 +5,7 @@ layout: speaking
 ---
 
 You can blame programmers for bugs caused by typos in the code, and you can blame your product manager or product owner for features that your customer doesn't need, but who do you blame for the universal bugs that all software has sooner or later?
-We tread carefully around time zones, but names and numbers catch us out as well.
+We navigate time zones carefully, but names and numbers still catch us out.
 Our initial naive solutions don’t take account of real-world complexity, even for solved problems.
 
 Developers need to know what telephone numbers, house numbers and aircraft tail numbers have in common,

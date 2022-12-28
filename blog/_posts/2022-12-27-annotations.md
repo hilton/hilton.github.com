@@ -21,7 +21,7 @@ image: detour-sign.jpg
 Technical documentation includes different kinds of content, such as definitions, explanations and examples.
 Readers often find examples easiest to follow, while writers struggle to include them, and end up with
 [backwards documentation](api-docs-backwards).
-Examples can also provide explanations, via annotations the reader to drill down into.
+Examples can also provide explanations, via annotations, for the reader to drill down into.
 
 In technical writing, including additional detail that you could inline, in parentheses for example,
 interrupts the main content and reduces readability.

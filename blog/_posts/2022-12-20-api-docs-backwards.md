@@ -15,7 +15,7 @@ image: wrong-way.jpg
 1. [Explanation order](explanation-order)
 2. Backwards API docs ←
 3. [Annotation styles](annotations)
-4. API docs annotations
+4. [API docs annotations](api-docs-annotations)
 5. Annotations in HTML
 
 API documentation typically presents information in the wrong order.

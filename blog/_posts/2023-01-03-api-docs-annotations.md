@@ -36,7 +36,7 @@ Applying this to example-first annotated documentation combines several related 
 
 The following example makes plain text primary in a documentation style that 
 [Bjørn Einar Bjartnes has called](https://twitter.com/bjartnes/status/1597964917432520704) _brutalism_
-(but with [Pirate Ipsum](https://pirateipsum.me) text to emphasis layout instead of content).
+(but with [Pirate Ipsum](https://pirateipsum.me) text to emphasise layout instead of content).
 
 ![Annotations](api/api.webp)
 

@@ -15,10 +15,6 @@ css: "body.writing pre {border:none; background-color:#FCF9F1;} pre abbr { borde
 5. [Annotations in HTML](api-docs-annotations-html)
 6. JSON API responses in HTML ←
 
-<!-- 
-
- -->
-
 [API documentation annotations in HTML](api-docs-annotations-html)
 showed how to document an HTTP API by example, to create more usable documentation.
 An API’s implementation could take this idea further by integrating these annotations into the API itself.

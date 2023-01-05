@@ -15,7 +15,7 @@ image: bug-bee.jpg
 2. [Expected behaviour](bug-expected)
 3. [Reproduction steps](bug-reproduction)
 4. [Context & environment](bug-environment)
-5. Workaround
+5. Workaround ←
 
 A great bug report describes [observed](bug-observed) and [expected](bug-expected)
 behaviour, [reproduction](bug-reproduction) steps, and additional [context](bug-environment).

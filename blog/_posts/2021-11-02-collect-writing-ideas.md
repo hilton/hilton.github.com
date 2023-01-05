@@ -12,7 +12,7 @@ image: bee.jpg
 
 {:.series}
 1. [Get yourself a notebook](get-notebook)
-2. Collect writing ideas
+2. Collect writing ideas ←
 3. [Test ideas in conversation](test-writing-ideas)
 4. [Reserve weekly time for writing](reserve-writing-time)
 5. [Write to a shorter word limit](article-word-limit)

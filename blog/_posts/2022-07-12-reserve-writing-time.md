@@ -14,7 +14,7 @@ image: laptop-dog.jpg
 1. [Get yourself a notebook](get-notebook)
 2. [Collect writing ideas](collect-writing-ideas)
 3. [Test ideas in conversation](test-writing-ideas)
-4. Reserve weekly time for writing
+4. Reserve weekly time for writing ←
 5. [Write to a shorter word limit](article-word-limit)
 
 If you want to write and publish articles _regularly_, then you have to spend time on it regularly too.

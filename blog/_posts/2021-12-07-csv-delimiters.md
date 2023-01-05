@@ -12,7 +12,7 @@ image: columns.jpg
 [Adrian Trinkaus](https://unsplash.com/photos/cr58nIXHWF0){:.photocredit}
 
 {:.series}
-1. CSV delimiters
+1. CSV delimiters ←
 2. [CSV character encoding](csv-encoding)
 3. [Why CSV survives](csv-survives)
 4. [RFC-4180 compliant CSV](csv-rfc-4180)

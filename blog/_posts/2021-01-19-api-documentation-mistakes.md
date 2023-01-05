@@ -10,6 +10,12 @@ image: wrong-way.jpg
 
 [NeONBRAND](https://unsplash.com/photos/-Cmz06-0btw){:.photocredit}
 
+{:.series}
+1. [Documentation usability](api-docs-usability)
+2. [Bad API documentation](developers-bad-documentation)
+3. [Deconstructed HTTP API docs](deconstructed-api-documentation)
+4. API documentation mistakes ←
+
 *[API]: application programming interface - allows software to communicate with other software, via HTTP in this context
 *[HTTP]: Hypertext Transfer Protocol - the worldwide web’s standard for transferring data, commonly also used for APIs
 

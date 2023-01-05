@@ -17,6 +17,8 @@ image: books-non-fiction.jpg
 4. [API docs annotations](api-docs-annotations)
 5. Annotations in HTML
 
+_This series of articles follows an earlier series on [API documentation mistakes](api-documentation-mistakes)._
+
 Technical writing, like other specialist skills, uses some straightforward and learnable techniques that only become obvious after you’ve heard (or read) about them.
 This article explains one such technique, that you can use in writing as well as other forms of explanation, such as giving presentations.
 

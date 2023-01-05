@@ -14,7 +14,8 @@ image: bug-caterpillar.jpg
 1. [Observed behaviour](bug-observed)
 2. [Expected behaviour](bug-expected)
 3. [Reproduction steps](bug-reproduction)
-4. Context & environment
+4. Context & environment ←
+5. [Workaround](bug-workaround)
 
 *[SaaS]: software-as-a-service - web-based software that you don’t have to install and upgrade
 

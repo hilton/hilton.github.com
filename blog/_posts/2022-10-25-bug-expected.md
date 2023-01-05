@@ -12,9 +12,10 @@ image: bug-black-bee.jpg
 
 {:.series}
 1. [Observed behaviour](bug-observed)
-2. Expected behaviour
+2. Expected behaviour ←
 3. [Reproduction steps](bug-reproduction)
 4. [Context & environment](bug-environment)
+5. [Workaround](bug-workaround)
 
 Some bug reports include an error message that effectively says that, _a bug made something go wrong_.
 But some bug reports don’t necessarily describe a bug, in which case the support team has to identify the difference between the software’s behaviour and its _expected behaviour_.

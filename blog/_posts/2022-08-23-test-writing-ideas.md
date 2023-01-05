@@ -13,7 +13,7 @@ image: conversation.jpg
 {:.series}
 1. [Get yourself a notebook](get-notebook)
 2. [Collect writing ideas](collect-writing-ideas)
-3. Test ideas in conversation
+3. Test ideas in conversation ←
 4. [Reserve weekly time for writing](reserve-writing-time)
 5. [Write to a shorter word limit](article-word-limit)
 
@@ -74,4 +74,3 @@ When you’ve discussed a topic in many separate conversations, you might find y
 
 Ideally, you’ll be able to do this, publish the blog post, and move on, before your friends and family get annoyed with the topic.
 Or before you get bored with it.
-

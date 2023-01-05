@@ -12,7 +12,7 @@ image: metal-concert.jpg
 
 {:.series}
 1. [CSV delimiters](csv-delimiters)
-2. CSV character encoding
+2. CSV character encoding ←
 3. [Why CSV survives](csv-survives)
 4. [RFC-4180 compliant CSV](csv-rfc-4180)
 5. [CSV on the Web (CSVW)](csvw)

@@ -11,7 +11,7 @@ image: seedlings.jpg
 [Tom Jur](https://unsplash.com/photos/l2NT0RQokbQ){:.photocredit}
 
 {:.series}
-1. Get yourself a notebook
+1. Get yourself a notebook ←
 2. [Collect writing ideas](collect-writing-ideas)
 3. [Test ideas in conversation](test-writing-ideas)
 4. [Reserve weekly time for writing](reserve-writing-time)

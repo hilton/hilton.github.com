@@ -11,10 +11,11 @@ image: bug-ladybird.jpg
 [Samuel Myles](https://unsplash.com/photos/CdX0FV_hIVA){:.photocredit}
 
 {:.series}
-1. Observed behaviour
+1. Observed behaviour ←
 2. [Expected behaviour](bug-expected)
 3. [Reproduction steps](bug-reproduction)
 4. [Context & environment](bug-environment)
+5. [Workaround](bug-workaround)
 
 Good bug reports cover five topics, in the following order of priority:
 

@@ -39,7 +39,7 @@ uses the same colours, with a
 
 ![Annotations without arrows](api/pirates-artisanal.webp)
 
-This already looks useful, but also makes illustrates where the annotations stop working.
+This already looks useful, but also illustrates where the annotations stop working.
 The first three annotation highlights appear too close together in the example on the left, and the second explanation on the right occupies too much vertical space, so they no longer line up horizontally.
 The example’s `Authorization` header’s bearer token does not obviously relate to its definition as a _Developer-specific API key_.
 The same effects occurs in Google Docs and Notion, when a heavily-commented document’s side

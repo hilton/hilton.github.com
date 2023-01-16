@@ -3,9 +3,13 @@ title: Browsing a JSON API in HTML
 description: Rendering JSON responses as HTML with links and annotations
 layout: hh
 tags: API documentation
-css: "body.writing pre {border:none; background-color:#FCF9F1;} pre abbr { border-bottom:none; background-color:#FFEBA9; color:black; }"
+image: signpost-footpath.jpg
+css: "pre abbr { border-bottom:none; background-color:#FFEBA9; color:black; }"
 ---
 
+![](signpost-footpath.jpg)
+
+[Marco Kaufmann](https://unsplash.com/photos/0kbNh7XrJ7Q){:.photocredit}
 
 {:.series}
 1. [Explanation order](explanation-order)

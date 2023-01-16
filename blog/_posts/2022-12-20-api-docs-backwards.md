@@ -16,7 +16,7 @@ image: wrong-way.jpg
 2. Backwards API docs ←
 3. [Annotation styles](annotations)
 4. [API docs annotations](api-docs-annotations)
-5. Annotations in HTML
+5. [Annotations in HTML](api-docs-annotations-html)
 6. JSON API responses in HTML
 
 API documentation typically presents information in the wrong order.

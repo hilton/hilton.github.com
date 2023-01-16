@@ -16,7 +16,7 @@ image: graffiti-sign.jpg
 2. [Backwards API docs](api-docs-backwards)
 3. [Annotation styles](annotations)
 4. API docs annotations ←
-5. Annotations in HTML
+5. [Annotations in HTML](api-docs-annotations-html)
 6. JSON API responses in HTML
 
 [Documentation annotation styles](annotations), the previous article in this series, claims that a 

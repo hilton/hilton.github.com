@@ -15,7 +15,7 @@ image: books-non-fiction.jpg
 2. [Backwards API docs](api-docs-backwards)
 3. [Annotation styles](annotations)
 4. [API docs annotations](api-docs-annotations)
-5. Annotations in HTML
+5. [Annotations in HTML](api-docs-annotations-html)
 6. JSON API responses in HTML
 
 _This series of articles follows an earlier series on [API documentation mistakes](api-documentation-mistakes)._

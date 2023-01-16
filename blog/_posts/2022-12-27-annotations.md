@@ -16,7 +16,7 @@ image: detour-sign.jpg
 2. [Backwards API docs](api-docs-backwards)
 3. Annotation styles ←
 4. [API docs annotations](api-docs-annotations)
-5. Annotations in HTML
+5. [Annotations in HTML](api-docs-annotations-html)
 6. JSON API responses in HTML
 
 Technical documentation includes different kinds of content, such as definitions, explanations and examples.

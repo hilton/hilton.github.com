@@ -167,7 +167,7 @@ strong { font-weight:normal; color: #DF5A49; }
 body.writing .tags a { color:#fff; background-color:#777; }
 body.writing .text-muted { color: #595959; }
 body.writing blockquote { border-color:#eee; }
-body.writing pre { background-color: #f5f5f5; border-color:#ccc; }
+body.writing pre { border:none; background-color:#FCF9F1; }
 
 body.writing header em {color:#595959}
 body.writing header em::before {color:#999}

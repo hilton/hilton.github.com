@@ -3,8 +3,13 @@ title: Arithmetic for product managers
 description: Why weighted prioritisation scores don’t add up
 layout: hh
 tags: product prioritisation
-css: "body.writing blockquote { border-left:none; background-color:#FCF9F1;} body.writing blockquote.big { max-width:30em; background-color: #334D5C;}"
+css: "body.writing blockquote { border-left:none; background-color:#FCF9F1;} body.writing blockquote.big { max-width:30em; background-color: #334D5C;} article td, article th { text-align:center; width:1em; }"
+image: bubbles.jpg
 ---
+
+![](calculator.jpg)
+
+[Towfiqu Barbhuiya](https://unsplash.com/photos/xkArbdUcUeE){:.photocredit}
 
 Product managers don’t typically spend much time doing sums, and leave formulas to the finance team.
 But prioritisation frameworks sometimes tempt product managers to wield calculations, in search of numbers and other answers.
@@ -48,7 +53,7 @@ We make assumptions and estimate (guess) numbers all the time in business.
 Scientists, on the other hand, call that _fabricating data_ and don’t approve.
 Scientists also pay attention to technical details, such as numeric precision.
 
-By multiplying factors, RICE multiplies uncertainty, so even if you could reasonably call prioritisation a science, the result would only have the same precision as the least precise factor.
+By multiplying factors, RICE multiplies uncertainty, so even if you could reasonably call prioritisation a science, a RICE score still only has the same precision as the least precise factor.
 No-one ever said, ‘I have estimated _reach_ to three significant figures’.
 In software product development, you might as well limit precision to t-shirt sizes.
 

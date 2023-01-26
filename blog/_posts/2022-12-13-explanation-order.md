@@ -16,7 +16,8 @@ image: books-non-fiction.jpg
 3. [Annotation styles](annotations)
 4. [API docs annotations](api-docs-annotations)
 5. [Annotations in HTML](api-docs-annotations-html)
-6. JSON API responses in HTML
+6. [JSON API responses in HTML](api-response-html)
+7. [Generated API examples](generate-api-examples)
 
 _This series of articles follows an earlier series on [API documentation mistakes](api-documentation-mistakes)._
 

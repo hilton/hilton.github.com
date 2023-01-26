@@ -16,7 +16,8 @@ image: canvas.jpg
 3. [Annotation styles](annotations)
 4. [API docs annotations](api-docs-annotations)
 5. Annotations in HTML ←
-6. JSON API responses in HTML
+6. [JSON API responses in HTML](api-response-html)
+7. [Generated API examples](generate-api-examples)
 
 Previously in this series, [Technical documentation annotations](annotations)
 argued for directly annotating examples, to make explanations disconnected,

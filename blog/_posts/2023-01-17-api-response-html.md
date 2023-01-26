@@ -18,6 +18,7 @@ css: "pre abbr { border-bottom:none; background-color:#FFEBA9; color:black; }"
 4. [API docs annotations](api-docs-annotations)
 5. [Annotations in HTML](api-docs-annotations-html)
 6. JSON API responses in HTML ←
+7. [Generated API examples](generate-api-examples)
 
 [API documentation annotations in HTML](api-docs-annotations-html)
 showed how to document an HTTP API by example, to create more usable documentation.

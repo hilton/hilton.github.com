@@ -17,7 +17,8 @@ image: wrong-way.jpg
 3. [Annotation styles](annotations)
 4. [API docs annotations](api-docs-annotations)
 5. [Annotations in HTML](api-docs-annotations-html)
-6. JSON API responses in HTML
+6. [JSON API responses in HTML](api-response-html)
+7. [Generated API examples](generate-api-examples)
 
 API documentation typically presents information in the wrong order.
 First, come HTTP methods, authorisation information, and other cross-cutting concerns, followed by a breakdown of parameters.

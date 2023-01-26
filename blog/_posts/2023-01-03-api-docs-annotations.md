@@ -17,7 +17,8 @@ image: graffiti-sign.jpg
 3. [Annotation styles](annotations)
 4. API docs annotations ←
 5. [Annotations in HTML](api-docs-annotations-html)
-6. JSON API responses in HTML
+6. [JSON API responses in HTML](api-response-html)
+7. [Generated API examples](generate-api-examples)
 
 [Documentation annotation styles](annotations), the previous article in this series, claims that a 
 [direct annotations style](annotations#direct) would improve API documentation.

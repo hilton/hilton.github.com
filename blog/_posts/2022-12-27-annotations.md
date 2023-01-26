@@ -17,7 +17,8 @@ image: detour-sign.jpg
 3. Annotation styles ←
 4. [API docs annotations](api-docs-annotations)
 5. [Annotations in HTML](api-docs-annotations-html)
-6. JSON API responses in HTML
+6. [JSON API responses in HTML](api-response-html)
+7. [Generated API examples](generate-api-examples)
 
 Technical documentation includes different kinds of content, such as definitions, explanations and examples.
 Readers often find examples easiest to follow, while writers struggle to include them, and end up with

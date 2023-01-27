@@ -3,9 +3,14 @@ title: Software development takes forever
 description: The first fundamental software development problem
 layout: hh
 tags: product development
+image: wet-paint.jpg
 ---
 
-There are three basic software product development problems:
+![](wet-paint.jpg)
+
+[Isabella and Zsa Fischer](https://unsplash.com/photos/vCaCaNYl5v0){:.photocredit}
+
+Software product development has three basic problems:
 
 1. it takes forever,
 2. will cost all of your money,

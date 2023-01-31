@@ -1,10 +1,10 @@
 ---
-title: Arithmetic for product managers
+title: Product management arithmetic
 description: Why weighted prioritisation scores don’t add up
 layout: hh
 tags: product prioritisation
 css: "body.writing blockquote { border-left:none; background-color:#FCF9F1;} body.writing blockquote.big { max-width:30em; background-color: #334D5C;} article td, article th { text-align:center; width:1em; }"
-image: bubbles.jpg
+image: calculator.jpg
 ---
 
 ![](calculator.jpg)

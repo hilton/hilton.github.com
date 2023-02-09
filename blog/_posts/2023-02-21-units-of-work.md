@@ -23,7 +23,7 @@ From smallest to largest, one unit of work could consist of one:
 2. **pull/merge request** - a batch of proposed code changes
 3. **development task** - a change to the software
 4. **user story** - a new or updated software product capability
-5. **epic** - a set of related user stories
+5. **epic** - a large user story that requires splitting
 6. **key result** - a success criterion for an objective
 7. **objective** - a high-level product development goal
 8. **initiative/theme** - related work at one of the above levels.

@@ -6,11 +6,9 @@ tags: product
 image: wet-paint.jpg
 ---
 
-![](wet-paint.jpg)
+![](nesting-dolls.jpg)
 
-[Isabella and Zsa Fischer](https://unsplash.com/photos/vCaCaNYl5v0){:.photocredit}
-
-<!-- 578 words -->
+[Simon Hurry](https://unsplash.com/photos/QtiZpH_N2sA){:.photocredit}
 
 Product development organisations waste time organising,
 especially when company growth leads to constant _reorganising_.

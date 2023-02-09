@@ -56,7 +56,7 @@ Like a high-level _definition of done_, these outcomes don’t structure the wor
 
 ## Epics
 
-While objectives and key results belong to OKR planning, the term _epic_ comes from working with 
+Unlike objectives and key results, the term _epic_ comes from working with 
 [user stories](https://en.wikipedia.org/wiki/User_story).
 An _epic_ refers to a large user story rather than a set of user stories, in the sense that it describes a product feature too big to deliver in a single release (_product increment_ in Scrum).
 
@@ -68,7 +68,7 @@ This forces you to keep lists of feature ideas out of your planning process, and
 
 ## Two levels
 
-Applying these simplifications reduces the number of levels:
+Applying these simplifications reduces the number of levels to two:
 
 1. **initiative** → **theme**
 2. **theme** → **theme**
@@ -76,4 +76,4 @@ Applying these simplifications reduces the number of levels:
 4. **key result** → **objective**
 5. **epic** → **objective**
 
-Simplify your product work organisation to objectives and themes.
+Simplify your product work organisation to **objectives** and **themes**.

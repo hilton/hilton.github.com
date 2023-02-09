@@ -3,7 +3,7 @@ title: Units of work
 description: Overthinking product development team task lists
 layout: hh
 tags: product
-image: wet-paint.jpg
+image: three-nesting-dolls.jpg
 ---
 
 ![](three-nesting-dolls.jpg)

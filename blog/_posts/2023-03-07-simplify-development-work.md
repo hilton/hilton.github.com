@@ -50,10 +50,13 @@ When every user story has several related tasks, the tasks pollute work tracking
 
 ## Pull requests
 
-A _pull request_ (in GitHub), a.k.a. _merge request_ (in GitLab), proposes a set of code changes from one developer, typically as part of work on a user story.
+A [pull request](https://martinfowler.com/bliki/PullRequest.html)
+(in GitHub, a.k.a. _merge request_ in GitLab), 
+proposes a set of code changes from one developer, typically as part of work on a user story.
 Structurally, this overlaps with development tasks so much that you probably don’t need both.
 
-While pull requests exist as an artefact of tooling, they also correspond to a development process milestone that teams typically use for code review.
+Developers use pull requests to coordinate
+[pre-integration code review](https://martinfowler.com/articles/branching-patterns.html#reviewed-commits).
 Code reviews deserve a separate process step in some situations, but they don’t have to correspond to a level in the unit of work hierarchy.
 Consider eliminating pull requests in favour of
 [trunk-based development](https://martinfowler.com/articles/branching-patterns.html#continuous-integration)
@@ -65,14 +68,14 @@ Don’t mess with commits.
 
 Source code [version control tools](https://en.wikipedia.org/wiki/Version_control)
 have remained a stable part of the software development process for fifty years.
-Variations in how developers use version control don’t change how publishing code changes - a _commit_ - forms the fundamental unit of work in software development.
+Despite tool variations, from decade to decade, a _code commit_ remains the fundamental unit of software development work.
 
-Some development teams emphasise commits, as units of work, by giving them documentation in _commit messages_ that describe each code change.
-However, perhaps that only happens in environments where the commits are the primary unit of work, and the team doesn’t use user stories, or any higher-level unit of work.
+Some developers emphasise commits, as units of work, by documenting them in _commit messages_ that describe code changes.
+This probably only happens when commits record the primary unit of work, and the team doesn’t use user stories.
 
 ## Two levels
 
-Applying these simplifications reduces the number of levels to two:
+These simplifications reduce the number of levels to two:
 
 1. **user story** → **user story**
 2. **development task** → **user story**

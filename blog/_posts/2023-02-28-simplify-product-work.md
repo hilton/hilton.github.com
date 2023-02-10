@@ -10,6 +10,11 @@ image: two-nesting-dolls.jpg
 
 [Blake Weyland](https://unsplash.com/photos/9hhOVsf1lpU){:.photocredit}
 
+{:.series}
+1. [Units of work](units-of-work)
+2. Simplify product work ←
+3. Simplify development work
+
 Product development teams typically organise their work into different levels of granularity with different
 [units of work](units-of-work).
 On timescales from years to weeks, these include:

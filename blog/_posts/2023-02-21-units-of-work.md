@@ -10,6 +10,11 @@ image: three-nesting-dolls.jpg
 
 [Blake Weyland](https://unsplash.com/photos/9hhOVsf1lpU){:.photocredit}
 
+{:.series}
+1. Units of work ←
+2. Simplify product work
+3. Simplify development work
+
 Product development organisations waste time organising,
 especially when company growth leads to constant _reorganising_.
 They principally organise two things: the people, and the work.
@@ -20,7 +25,7 @@ Product development teams typically structure their work into ‘units’ at var
 From smallest to largest, one unit of work could consist of one:
 
 1. **code commit** - a source code version control history entry
-2. **pull/merge request** - a batch of proposed code changes
+2. **pull request** - a batch of proposed code changes
 3. **development task** - a change to the software
 4. **user story** - a new or updated software product capability
 5. **epic** - a large user story that requires splitting

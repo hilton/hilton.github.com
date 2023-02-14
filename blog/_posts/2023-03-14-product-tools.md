@@ -41,7 +41,7 @@ started life as a bug tracker to manage software _issues_ and defeat
 Early on, version control integration listed commits related to each issue, allowing developers to navigate between bug reports and bug fix code changes.
 In general, product development productivity tools benefit from integration with the more detailed units of work at the level below, and ideally integration in both directions.
 
-However, these integrations between units of work at different levels often have a poor user experience.
+However, these integrations between units of work at different levels often have a poor user experience (UX).
 Relying on this integration approach also increase costs, when managing each new level means paying for another tool.
 
 ## Expanded scope

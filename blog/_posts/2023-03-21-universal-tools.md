@@ -17,8 +17,6 @@ image: swiss-army-knives.jpg
 4. [Product development tools](product-tools)
 5. Universal product tools ←
 
-<!-- -> 602 words -->
-
 [Product development productivity tools](product-tools), such as 
 [GitHub](https://en.wikipedia.org/wiki/GitHub) and
 [Jira](https://en.wikipedia.org/wiki/Jira_(software))

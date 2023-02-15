@@ -11,11 +11,17 @@ image: tools.jpg
 [Jennifer C.](https://www.flickr.com/photos/29638108@N06/7718086616){:.photocredit}
 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
 
+{:.series}
+1. [Units of work](units-of-work)
+2. [Simplify product work](simplify-product-work)
+3. [Simplify development work](simplify-development-work)
+4. Product development tools ←
+
 Software product development work includes [units of work](units-of-work)
 at different scales, from long-term objectives, to individual code changes.
 For example:
 
-{:.big style="max-width:37.5em"}
+{:.big style="max-width:38em; padding:0.8em 1em 0.1em 1em"}
 > theme → objective → user story → task → commit
 
 A product team that collaborates on this work hierarchy typically represents these units of work in their productivity tools.
@@ -75,7 +81,7 @@ More recent product management support higher-level units of work.
 manage product development objectives, and related work to produce product roadmaps and process customer feedback.
 They span a broad hierarchy that roughly corresponds to:
 
-{:.big.solid-two style="max-width:37.5em"}
+{:.big.solid-two style="max-width:38em; padding:0.8em 1em 0.1em 1em"}
 > product → roadmap → theme → epic → user story
 
 These tools integrate with developers’ tools by synchronising user stories - the overlap between

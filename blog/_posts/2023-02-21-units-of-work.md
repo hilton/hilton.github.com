@@ -14,6 +14,7 @@ image: three-nesting-dolls.jpg
 1. Units of work ←
 2. Simplify product work
 3. Simplify development work
+4. Product development tools
 
 Product development organisations waste time organising,
 especially when company growth leads to constant _reorganising_.

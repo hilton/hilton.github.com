@@ -14,6 +14,7 @@ image: one-nesting-doll.jpg
 1. [Units of work](units-of-work)
 2. [Simplify product work](simplify-product-work)
 3. Simplify development work ←
+4. Product development tools
 
 Product development teams typically organise their work into different levels of granularity with different
 [units of work](units-of-work).
@@ -51,7 +52,8 @@ When every user story has several related tasks, the tasks pollute work tracking
 ## Pull requests
 
 A [pull request](https://martinfowler.com/bliki/PullRequest.html)
-(in GitHub, a.k.a. _merge request_ in GitLab), 
+(in [GitHub](https://en.wikipedia.org/wiki/GitHub), 
+a.k.a. _merge request_ in GitLab), 
 proposes a set of code changes from one developer, typically as part of work on a user story.
 Structurally, this overlaps with development tasks so much that you probably don’t need both.
 

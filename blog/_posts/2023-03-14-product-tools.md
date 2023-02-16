@@ -28,26 +28,27 @@ A product team that collaborates on this work hierarchy typically represents the
 
 ## Level-specific tools
 
-Basic tools manage work at one level, such as, source code version control systems like
-[Git](https://en.wikipedia.org/wiki/Git) that only manage code commits.
+The simplest tools manage work at one level, such as
+[Git](https://en.wikipedia.org/wiki/Git) for version control,
+or [Userdoc](https://userdoc.fyi) for user stories.
 Similarly, bug trackers manage _bugs_ (a.k.a. _issues_), but not strategic objectives.
 
 These tools focus on one level in the above hierarchy, capturing data on a specific unit of work, such as a bug’s _reporter_.
 Some tools add workflows to support a related process, such as support request resolution.
 
-However, these data and process features either reduce flexibility to use different processes and data, or increase complexity if you can customise them.
+However, data and process features either reduce flexibility to use different processes and data, or increase complexity if you can customise them.
 And even if you can customise them, they remain unsuitable for high-level objectives.
 Ultimately, the team requires multiple tools.
 
 ## Tool integrations
 
 [Jira](https://en.wikipedia.org/wiki/Jira_(software))
-started life as a bug tracker to manage software _issues_ and defeat
+started as a bug tracker to manage software _issues_, and defeat
 [BugZilla](https://en.wikipedia.org/wiki/Bugzilla).
-Early on, version control integration listed commits related to each issue, allowing developers to navigate between bug reports and bug fix code changes.
-In general, product development productivity tools benefit from integration with the more detailed units of work at the level below, and ideally integration in both directions.
+Version control integration lists related to each issue, so developers can navigate between bug reports and bug fix code changes.
+In general, product development tools benefit from integration with the units of work at the level below, and links to the level above.
 
-However, these integrations between units of work at different levels often have a poor user experience (UX).
+Integrations between units of work at different levels often have a poor user experience (UX).
 Relying on this integration approach also increase costs, when managing each new level means paying for another tool.
 
 ## Expanded scope
@@ -59,7 +60,7 @@ Many Jira enhancements expanded its scope, including:
 * subtasks that add another level below existing tasks
 * agile _boards_ for managing epics and user stories.
 
-However, despite their value, these enhancements made Jira complex and harder to use, diluting its core value as a better issue tracker.
+Despite their value, these enhancements made Jira complex and harder to use, diluting its core value as a better issue tracker.
 
 ## Hiding Git
 

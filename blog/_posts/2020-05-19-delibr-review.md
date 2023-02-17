@@ -16,7 +16,7 @@ The product centres around a web-based outliner, for producing what
 
 The main view shows a hierarchical outline of a feature document, based on a built-in template with sections and placeholder questions to prompt you for content.
 
-<a href="delibr-outline-2x.png"><img src="delibr-outline.png" srcset="delibr-outline-2x.png 2x" alt="Outline view"></a>
+[ ![Outline view](delibr-2020/outline.webp) ](delibr-2020/outline.webp)
 
 I love the immediacy and simplicity of how the outline focuses on the content.
 In general, I’d like to see more writing tools that stop us fiddling with presentation and instead provide content guidance.
@@ -31,7 +31,7 @@ I prefer writing-by-default, and love _structured_ writing.
 Delibr takes structure further than the hierarchical outline, with seventeen bullet types.
 Each type looks different, making good use of built-in styling that you don’t have to fiddle with.
 
-<img src="delibr-bullet-types.png" srcset="delibr-bullet-types-2x.png 2x" alt="Selecting bullet types via the quick menu">
+![Selecting bullet types via the quick menu](delibr-2020/bullet-types.webp){: style="width:365px"}
 
 Typing a forward slash opens this bullet types menu.
 This and the keyboard shortcuts let you stick to the keyboard.
@@ -41,7 +41,7 @@ This and the keyboard shortcuts let you stick to the keyboard.
 The styled view supports reading documents.
 As with the outline mode, numbered toolbar buttons let you choose how many outline levels to show.
 
-<a href="delibr-styled-2x.png"><img src="delibr-styled.png" srcset="delibr-styled-2x.png 2x" alt="Styled view"></a>
+[ ![Styled view](delibr-2020/styled.webp) ](delibr-2020/styled.webp)
 
 I found this view less compelling: while I appreciate it having fixed styling, its layout and typography lack sophistication.
 I would like to improve my reading experience by choosing a different document typeface and heading colour, and the ability to fill the viewport with more columns.
@@ -52,7 +52,7 @@ Digging deeper, I found more depth than the initial simplicity led me to expect.
 Document templates let you guide creation of more than one kind of document, e.g. roadmaps that link to feature documents, including your own structure and placeholder prompts.
 Unfortunately, I couldn’t organise the document list by template/type, which I would expect to need by the time I had 100 documents.
 
-<a href="delibr-presentation-2x.png"><img src="delibr-presentation.png" srcset="delibr-presentation-2x.png 2x" alt="Presentation view"></a>
+[ ![Presentation view](delibr-2020/presentation.webp) ](delibr-2020/presentation.webp)
 
 Presentation mode gives you this simplified styled view, in a separate window whose contents you control from the main outline view.
 I might not find this useful, not least because of the tiny unreadable text.

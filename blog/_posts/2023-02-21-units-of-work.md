@@ -15,6 +15,7 @@ image: three-nesting-dolls.jpg
 2. Simplify product work
 3. Simplify development work
 4. Product development tools
+5. Universal product tools
 
 Product development organisations waste time organising,
 especially when company growth leads to constant _reorganising_.

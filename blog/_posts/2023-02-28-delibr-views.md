@@ -86,4 +86,5 @@ A roadmap item only appears as a title on a board view, while work in progress m
 Delibr’s ability to define views of different document types makes it useful for collaboration across levels, at various levels of detail.
 Instead of using Delibr’s Jira integration, I’d rather explore using its simpler approach _instead of_ Jira.
 This initial look suggests that Delibr has potential as a
-[universal product development productivity tool](universal-tools).
+universal product development productivity tool.
+<!-- [universal product development productivity tool](universal-tools). -->

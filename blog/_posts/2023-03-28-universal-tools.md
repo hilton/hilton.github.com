@@ -71,7 +71,7 @@ Today, five years after the
 [Notion 2.0 release on ProductHunt](https://www.producthunt.com/products/notion#notion-2-0),
 newer companies are discovering new directions for product teams’ productivity tools.
 
-* [Delibr](https://www.delibr.com/) enhances a Notion-style combination of documents, metadata and views with functionality for product management, such as decision-tracking and opportunity solution trees
+* [Delibr](delibr-views) enhances a Notion-style combination of documents, metadata and views with functionality for product management, such as decision-tracking and opportunity solution trees
 * [Collato](https://collato.com/) enhances a Miro/Mural-style canvas with cards that represent documents from existing tools, such as Google Docs
 
 Meanwhile, perhaps someone somewhere plans to launch a general-purpose tool that spans all types of units of work _including_ source code, and offers better user experiences and collaboration than

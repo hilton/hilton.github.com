@@ -31,6 +31,13 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Media</th>
 </tr>
 <tr>
+	<td>2023-05-10</td>
+   <td><a href="bugs">Universal bugs</a></td>
+	<td><a href="https://www.devoxx.co.uk">Devoxx UK</a></td>
+	<td>🇬🇧 London</td>
+	<td></td>
+</tr>
+<tr>
    <td>2022-11-10</td>
    <td><a href="bugs">10 universal bugs</a></td>
    <td><a href="https://010php.nl">010PHP</a></td>

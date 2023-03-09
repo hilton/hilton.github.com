@@ -1,5 +1,5 @@
 ---
-title: "Software review: productboard (features board)"
+title: "B2B SaaS review: productboard (features board)"
 description: Managing a product backlog in @productboard
 layout: hh
 tags: product software

@@ -1,5 +1,5 @@
 ---
-title: "Software review: Delibr"
+title: "B2B SaaS review: Delibr"
 description: Structured writing for feature documents
 layout: hh
 tags: product software

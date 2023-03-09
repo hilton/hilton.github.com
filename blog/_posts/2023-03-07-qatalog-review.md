@@ -1,5 +1,5 @@
 ---
-title: "Software review: Qatalog"
+title: "B2B SaaS review: Qatalog"
 description: A first look at a new way to organise everything
 layout: hh
 tags: product software

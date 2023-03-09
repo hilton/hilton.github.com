@@ -1,5 +1,5 @@
 ---
-title: "Software review: productboard (roadmaps)"
+title: "B2B SaaS review: productboard (roadmaps)"
 description: Sharing product roadmaps in @productboard
 layout: hh
 tags: product software

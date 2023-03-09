@@ -1,5 +1,5 @@
 ---
-title: "Software review: Delibr"
+title: "B2B SaaS review: Delibr"
 description: From a single unit of work to end-to-end product development
 layout: hh
 tags: product software

@@ -15,6 +15,7 @@ has evolved into a tool that spans levels of units of work.
 Intriguingly, Delibr hasn’t done this by adding complexity, to do for other levels what it does for epics,
 but by enabling collaboration across levels.
 
+{:#document}
 ## Product documents
 
 Delibr retains its core outline-based document editor, focused on product feature documents:
@@ -30,6 +31,7 @@ When I first tried Delibr, I focused on writing details, such as the outliner’
 [bullet types](delibr-review#bullet-types).
 However, now I have a new favourite feature, for a different kind of tree view.
 
+{:#ost}
 ## Opportunity solution trees
 
 The dedicated
@@ -50,6 +52,7 @@ For a new opportunity document, Delibr offers a clever alternative to a blank pa
 This banner prompts to _consider adding_ one or more relevant sections.
 Selecting _Opportunity example situations_, for example, adds an _Example situations_ heading with a description and some prompts.
 
+{:#view}
 ## Document views
 
 Like many collaboration tools, Delibr lets you group documents in a hierarchy.
@@ -64,6 +67,7 @@ You can also choose which properties to view, using a table view.
 
 These data-driven views allow you to work with logical collections of documents, for a specific unit of work, such as upcoming development tasks or candidate future product development objectives (i.e. a roadmap).
 
+{:#board}
 ## Document boards
 
 When it comes to actually _doing_ work, you need to track activities.
@@ -78,6 +82,7 @@ Cards on the board can expand to show more metadata, and open to show the whole 
 
 This reminds me of working with Notion’s _databases_, but where every document has database properties.
 
+{:#collaboration}
 ## Flexible collaboration
 
 Different units of work, such as objectives and development tasks, change in detail level over time.

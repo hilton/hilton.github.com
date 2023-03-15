@@ -12,7 +12,7 @@ Peter Hilton is a product manager, software developer, writer, speaker, trainer,
 Peter’s professional interests are B2B SaaS products, no-code automation, agile software development methods, and software documentation.
 He currently works as a product manager, and also delivers the occasional lecture and training course.</p>
 
-<p>Peter has presented at several European developer conferences, including ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON.
+<p>Peter has presented at several European developer conferences, including DDD Europe, NDC Oslo, Booster, ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON.
 Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013)
 and certified to train <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a> around the same time.</p>
 
@@ -42,7 +42,8 @@ Peter’s product management CV is available on request.</p>
 <p><a href="http://bit.ly/playscala2p">Play for Scala</a> by Peter Hilton, Erik Bakker and Francisco Canedo was published by Manning Publications in September 2013. The book teaches web developers how to use the <a href="http://www.playframework.com">Play Framework</a> to build web applications using the <a href="http://www.scala-lang.org">Scala</a> programming language.</p>
 
 <p><a href="http://shop.oreilly.com/product/0636920048824.do">97 Things Every Java Programmer Should Know</a>
-edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, published by O’Reilly Media in May 2020.</p>
+edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, published by O’Reilly Media in May 2020.
+Since 2020, Peter has published weekly on his <a href="/blog/">blog</a>.</p>
 
 </div>
 <div class="column">
@@ -50,7 +51,7 @@ edited by Kevlin Henney, Trisha Gee, with contributions by Peter Hilton, publish
 <h2 style="margin-top: 0">History</h2>
 
 <ul>
-<li>Working for <a href="https://bryter.com/"></a> as a product manager (since 2020).</li>
+<li>Working for <a href="https://bryter.com/">BRYTER</a> as a product manager (2020-2023).</li>
 <li>Consulting for <a href="https://www.signavio.com/">Signavio</a> as a product manager, consultant, trainer, pre-sales consultant, technical writer and developer (2015-2020)</li>
 <li>Six-month sabbatical in London (2014)</li>
 <li>Working (as software developer) for <a href="http://www.lunatech.com">Lunatech Research</a> in Rotterdam, the Netherlands (2004-2014).</li>

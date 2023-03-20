@@ -10,22 +10,24 @@ layout: main
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left; margin-right:1em"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
 Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
 Peter’s professional interests are B2B SaaS products, no-code automation, agile software development methods, and software documentation.
-He currently works as a product manager, and also delivers the occasional lecture and training course.</p>
+He has spent the last four years working as a product manager, and also delivers the occasional lecture and training course.
+Peter is currently on sabbatical.</p>
 
 <p>Peter has presented at several European developer conferences, including DDD Europe, NDC Oslo, Booster, ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON.
 Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013)
 and certified to train <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a> around the same time.</p>
 
-<h2>Product management</h2>
+<h2>Product management - available for a new role</h2>
 
 <p>Peter focuses on product management, where the combination of his technical background and business experience give him more leverage in creating and maintaining excellent software products than working as a developer or development manager.</p>
 
+<p style="padding:1em; background:#BEE0E0">💡 Peter will be looking for a new product management role in summer 2023</p>
 <h2>CV</h2>
 
 <p>In addition to his <a href="http://www.linkedin.com/in/peterhilton">LinkedIn</a> profile,
 Peter’s product management CV is available on request.</p>
 
-<p>In the past, Peter’s developer CV included his profiles on 
+<p>In the past, Peter’s developer CV included his profiles on
 <a href="https://github.com/hilton">Github</a> and
 <a href="http://stackoverflow.com/users/2670/peter-hilton">Stack Overflow</a>.</p>
 

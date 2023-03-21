@@ -17,10 +17,10 @@ Too many discussions about code commenting seem to conclude that there are so ma
 
 The truth about code comments is that if you don’t write any, because they would make your code worse, then there’s a powerful language feature that you don’t know how to use, and questions that your code doesn’t answer:
 
-> Why is this code here?  
-> What is it _for?_  
-> Why is the functionality implemented _this_ way?  
-> Why is that the functionality?  
+> Why is this code here?
+> What is it _for?_
+> Why is the functionality implemented _this_ way?
+> Why is that the functionality?
 > When shouldn’t you use this code?
 
 This article addresses these questions and introduces three kinds of good code comments.
@@ -53,7 +53,7 @@ case class Kitten(photo: URL, cutenessScore: Int)
 When not to write this kind of comment: when the code is obviously an essential part of the code around it, in a larger scope. Whether this is obvious depends on the code around it, and how easily you can see this larger scope.
 
 
-# Explain implementation choices
+## Explain implementation choices
 
 When you write clean code, it is clear how the implementation works. For example, the following code divides an amount of money by two, and even has a comment that explains why the code exists.
 

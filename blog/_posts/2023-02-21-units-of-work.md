@@ -13,7 +13,7 @@ image: three-nesting-dolls.jpg
 {:.series}
 1. Units of work ←
 2. [Simplify product work](simplify-product-work)
-3. Simplify development work
+3. [Simplify development work](simplify-development-work)
 4. Product development tools
 5. Universal product tools
 

@@ -46,12 +46,13 @@ Remember the two fundamental rules of cooking:
 _that’s enough rice_ and _that’s not enough garlic_.
 
 * ½ teaspoon salt
-* 40g (1 stalk) spring onion
+* 30g (1 stalk) spring onion
 * 40g carrot
-* 20g ginger (half the size of your thumb)
+* 20g ginger (the size of your thumb)
 * 1 chicken thigh
-* 10g garlic (3 large cloves)
+* 10g garlic (2 large cloves)
 * 40g (1 small) shallot
+* 5-10ml cooking oil (optional)
 * 100g/120ml jasmine rice
 * chilli sauce
 
@@ -76,13 +77,13 @@ Next make the stock. Simmer the following for 15-30 minutes, in the stock pan, w
 
 1. **200ml water**
 2. **½ tsp salt**
-3. **40g spring onion**, **40g carrot**, **20g ginger** - all sliced
+3. **30g spring onion**, **40g carrot**, **20g ginger** - all sliced
 4. **1 chicken thigh**
 
 While the stock simmers, prepare the rice.
 
-1. Finely chop **10g garlic** and **40g shallot**.
-2. Fry in the chicken fat for a few minutes until translucent.
+1. Peel and finely chop **10g garlic** and **40g shallot**.
+2. Fry in the chicken fat for a few minutes until translucent (add some cooking oil if needed).
 3. Stir in **100g/120ml jasmine rice**.
 4. Turn off the heat, and wait for the stock.
 

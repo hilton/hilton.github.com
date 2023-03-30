@@ -3,7 +3,11 @@ title: Simple chicken rice
 description: Cutting corners to make quick single-portion Hainanese chicken rice
 layout: hh
 tags: cooking
+css: "body.writing article p.ingredients img {max-width:320px; float:left} body.writing article p {clear:left}"
+image: rice/bowl.jpg
 ---
+
+![A bowl of chicken rice, topped with chicken and chilli sauce](rice/bowl.jpg)
 
 [Hainanese chicken rice](https://en.wikipedia.org/wiki/Hainanese_chicken_rice),
 like many classic dishes, maximises output from limited ingredients.
@@ -42,14 +46,18 @@ As with risotto, even if doesn’t compare to the original, you can still get a 
 
 ## Ingredients
 
-Remember the two fundamental rules of cooking:
+{:.ingredients}
+![Stock ingredients](rice/ingredients-stock.webp)
+![Rice ingredients](rice/ingredients-rice.webp)
+
+Remember the fundamental rules of cooking:
 _that’s enough rice_ and _that’s not enough garlic_.
 
 * ½ teaspoon salt
 * 30g (1 stalk) spring onion
 * 40g carrot
 * 20g ginger (the size of your thumb)
-* 1 chicken thigh
+* 120g (1 small) chicken thigh
 * 10g garlic (2 large cloves)
 * 40g (1 small) shallot
 * 5-10ml cooking oil (optional)
@@ -67,6 +75,10 @@ Other times may vary.
 Preparing the ingredients one step at a time while cooking takes less elapsed time than preparing all of the ingredients before you start (_mise en place_), but it doesn’t matter if you take longer, as long as you don’t overcook the rice.
 
 ## Method
+
+{:.ingredients}
+![Stock ingredients](rice/ingredients-stock-chopped.webp)
+![Rice ingredients](rice/ingredients-rice-chopped.webp)
 
 First, render the chicken fat in the rice pan:
 

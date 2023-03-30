@@ -1,6 +1,6 @@
 ---
 title: Simple chicken rice
-description: Cutting corners to make a quick single portion Hainanese chicken rice
+description: Cutting corners to make quick single-portion Hainanese chicken rice
 layout: hh
 tags: cooking
 ---

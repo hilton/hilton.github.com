@@ -14,7 +14,7 @@ image: one-nesting-doll.jpg
 1. [Units of work](units-of-work)
 2. [Simplify product work](simplify-product-work)
 3. Simplify development work ←
-4. Product development tools
+4. [Product development tools](product-tools)
 5. Universal product tools
 
 Product development teams typically organise their work into different levels of granularity with different

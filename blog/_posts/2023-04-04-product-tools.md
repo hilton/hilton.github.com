@@ -27,6 +27,7 @@ For example:
 
 A product team that collaborates on this work hierarchy typically represents these units of work in their productivity tools.
 
+{:#tools}
 ## Level-specific tools
 
 The simplest tools manage work at one level, such as
@@ -41,6 +42,7 @@ However, data and process features either reduce flexibility to use different pr
 And even if you can customise them, they remain unsuitable for high-level objectives.
 Ultimately, the team requires multiple tools.
 
+{:#integration}
 ## Tool integrations
 
 [Jira](https://en.wikipedia.org/wiki/Jira_(software))
@@ -52,6 +54,7 @@ In general, product development tools benefit from integration with the units of
 Integrations between units of work at different levels often have a poor user experience (UX).
 Relying on this integration approach also increase costs, when managing each new level means paying for another tool.
 
+{:#scope}
 ## Expanded scope
 
 Tools for one unit of work may later expand to cover others, reducing the need for integrations and additional tools.
@@ -63,6 +66,7 @@ Many Jira enhancements expanded its scope, including:
 
 Despite their value, these enhancements made Jira complex and harder to use, diluting its core value as a better issue tracker.
 
+{:#git}
 ## Hiding Git
 
 [GitHub](https://en.wikipedia.org/wiki/GitHub) took a different approach,
@@ -76,6 +80,7 @@ integrated with the core functionality for managing code changes.
 While that avoided Jira’s complexity, GitHub remains a tool for developers,
 unsuitable for organisation-wide use by stakeholders outside product development teams.
 
+{:#product}
 ## Product management tools
 
 More recent product management support higher-level units of work.
@@ -89,6 +94,7 @@ They span a broad hierarchy that roughly corresponds to:
 These tools integrate with developers’ tools by synchronising user stories - the overlap between
 [product management](simplify-product-work) and [development](simplify-development-work).
 
+{:#divide}
 ## Divided work
 
 Separate tools for product management and development, with per-user pricing, can end up with half the company having access to each tool, and only product managers using both.

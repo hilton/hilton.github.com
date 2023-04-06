@@ -3,6 +3,7 @@ title: "B2B SaaS review: Cycle"
 description: A first look at a tool for integrated product discovery
 layout: hh
 tags: product software
+image: cycle/feedback.png
 css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 

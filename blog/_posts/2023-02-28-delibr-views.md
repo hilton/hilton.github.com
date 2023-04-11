@@ -7,6 +7,12 @@ image: delibr-2023/ost.png
 css: "a img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 
+{:.series}
+1. Delibr ←
+2. [Qatalog](qatalog-review)
+3. [Collato](collato-review)
+3. [Cycle](cycle-review)
+
 When I [reviewed Delibr](delibr-review) nearly two years ago, it focused on giving product managers an ideal tool for writing feature documents.
 This positioned Delibr as the ideal tool for epics/features, in the hierarchy of [units of work](units-of-work).
 

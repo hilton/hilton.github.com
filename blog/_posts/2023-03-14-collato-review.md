@@ -7,6 +7,12 @@ image: collato/canvas.png
 css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 
+{:.series}
+1. [Delibr](delibr-views)
+2. [Qatalog](qatalog-review)
+3. Collato ←
+3. [Cycle](cycle-review)
+
 Collato is like the macOS Finder desktop, but for your Google Docs.
 And your Confluence Pages, Jira issues, Figma designs, and Miro boards.
 Its new take on document and collaboration workspaces combines familiar elements from other tools, to make something new and interesting, combining a canvas/board view with documents and links.

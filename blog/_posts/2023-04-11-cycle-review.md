@@ -7,7 +7,11 @@ image: cycle/feedback.png
 css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 
-<!-- max 637 words -->
+{:.series}
+1. [Delibr](delibr-views)
+2. [Qatalog](qatalog-review)
+3. [Collato](collato-review)
+3. Cycle ←
 
 [Cycle](https://www.cycle.app)
 provides a product discovery tool, for the product development

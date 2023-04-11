@@ -7,6 +7,12 @@ image: qatalog/fields.png
 css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 
+{:.series}
+1. [Delibr](delibr-views)
+2. Qatalog ←
+3. [Collato](collato-review)
+3. [Cycle](cycle-review)
+
 [Qatalog](https://qatalog.com) offers an out-of-the box business intranet for everyone who finds Notion too unstructured.
 Qatalog combines data and documents with features such as task management, discussion threads and integrations.
 Two capabilities stand out: federated search and built-in workflow.

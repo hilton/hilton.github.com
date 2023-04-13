@@ -16,8 +16,7 @@ image: cuba-chart.jpg
 7. There are other compromises
 -->
 
-
-![Cuba maritime chart](cuba-chart.jpg)]
+![Cuba maritime chart](cuba-chart.jpg)
 
 I’ve always loved maps - real maps, maps on paper, in books, framed on the wall, mounted as a globe - all of them.
 I love their aesthetics and information representation, their practicality and their art.
@@ -27,7 +26,7 @@ I have to restrain myself to not shout _DON’T DRAW ON THE MAP_ at the hotel re
 Even though I never deface my own maps, I can understand how someone else might mark their destination, to help visualise their route during the journey.
 You only need to draw the whole planned path on the map in special cases, such as plotting a course at sea (for ships that still use paper maps).
 
-![Course plot - diagonal line](cuba-chart-detail.jpg)]
+![Course plot - diagonal line](cuba-chart-detail.jpg)
 
 The top-left corner of this maritime chart of Cuba, which hangs on the wall in my kitchen, shows a diagonal line drawn on the map to plot a course through the Straights of Florida, past Key West, on bearing 115 degrees.
 Of the many details shown in the picture, one brings us back to product roadmaps:

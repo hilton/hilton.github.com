@@ -16,7 +16,7 @@ image: tools.jpg
 2. [Simplify product work](simplify-product-work)
 3. [Simplify development work](simplify-development-work)
 4. Product development tools ←
-5. Universal product tools
+5. [Universal product tools](universal-tools)
 
 Software product development work includes [units of work](units-of-work)
 at different scales, from long-term objectives, to individual code changes.

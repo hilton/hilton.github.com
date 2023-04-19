@@ -20,6 +20,6 @@ Allan Kelly builds on things you may already know about, to explain consequences
 Best of all, it’s a constructive and positive story that avoids the trap of merely complaining about what doesn’t work.
 Instead, Continuous Digital covers a surprisingly large number of topics, from team composition and prioritisation to governance and budgeting.
 The result is a large book that impressively delivers insights in each of its 26 chapters.
-It’s a more substantial and rewarding read than [Project Myopia](project-myopia), but also a book I wish more of my colleagues had read in the past.
+It’s a more substantial and rewarding read than [Project Myopia](project-myopia-review), but also a book I wish more of my colleagues had read in the past.
 
 ⭐️⭐️⭐️⭐️⭐️ **Recommended.**

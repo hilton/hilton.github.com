@@ -43,7 +43,7 @@ Workflow automation tools typically use some kind of graphical process modelling
 which visualises events, tasks and decisions.
 For example, the following diagram, drawn with the [bpmn.io](https://bpmn.io) diagram editor, uses
 [text annotations](https://docs.camunda.io/docs/components/modeler/bpmn/bpmn-coverage/#artifacts)
-in green to add explanations to a single task (left), a marked group of tasks (right), and the whole process (bottom).
+(in green) to add explanations to a single task (left), a marked group of tasks (right), and the whole process (bottom).
 
 [![A BPMN diagram with text annotations](update-spreadsheet.bpmn.svg)](update-spreadsheet.bpmn.svg)
 

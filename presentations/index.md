@@ -63,7 +63,8 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="universal-values">Modelling universal values</a></td>
 	<td>DDD Europe</td>
 	<td>🇳🇱 Amsterdam</td>
-  <td><a href="universal-values">slides</a></td>
+	<td><a href="universal-values">slides</a>
+	<a href="https://www.youtube.com/watch?v=7hoMwLdoqKc">video</a></td>
 </tr>
 <tr>
 	<td>2022-06-08</td>

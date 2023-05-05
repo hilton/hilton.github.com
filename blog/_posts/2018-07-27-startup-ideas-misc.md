@@ -6,7 +6,20 @@ tags: startups
 image: light-bulbs.jpg
 ---
 
-![Light bulbs are cheap](light-bulbs.jpg)
+![](light-bulbs.jpg)
+
+[Paolo Martini](https://www.flickr.com/photos/locomosquito/7450708614){:.photocredit}
+[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/){:.license}
+
+{:.series}
+1. [2014 ideas](startup-ideas-are-cheap)
+2. 2015-2017 ideas ←
+3. [2018 app ideas](startup-ideas-apps)
+4. [2018 development ideas](startup-ideas-development)
+5. [2018-2019 ideas](startup-ideas-2018-2019)
+6. [2020 ideas](startup-ideas-2020)
+7. [2021 ideas](startup-ideas-2021)
+8. [2022 ideas](startup-ideas-2022)
 
 Following on my earlier explanation of why 
 [start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more 

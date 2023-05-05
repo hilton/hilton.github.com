@@ -11,6 +11,16 @@ image: light-bulbs.jpg
 [Paolo Martini](https://www.flickr.com/photos/locomosquito/7450708614){:.photocredit}
 [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/){:.license}
 
+{:.series}
+1. 2014 ideas ←
+2. [2015-2017 ideas](startup-ideas-misc)
+3. [2018 app ideas](startup-ideas-apps)
+4. [2018 development ideas](startup-ideas-development)
+5. [2018-2019 ideas](startup-ideas-2018-2019)
+6. [2020 ideas](startup-ideas-2020)
+7. [2021 ideas](startup-ideas-2021)
+8. [2022 ideas](startup-ideas-2022)
+
 Entrepreneurs occasionally succumb to the illusion that their startup idea is worth something. An idea for a business or a product, however inspired, won’t get you anywhere without a team that can pull off the hard work of executing the idea. You’ll probably need some money too.
 
 It’s fairly obvious that an idea by itself isn’t worth much, especially to every entrepreneur that ever tried to sell one. What is perhaps less obvious is that new ideas are easy to come by. After all, most start-ups - even successful ones - are based on fairly straightforward ideas, often a variation on something that already works. Only rare exceptions are something nobody else could have come up with.

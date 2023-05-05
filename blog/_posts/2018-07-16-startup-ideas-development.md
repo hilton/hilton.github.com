@@ -6,9 +6,19 @@ tags: startups
 image: programmer.jpg
 ---
 
-![A software developer - a woman, because we need to see more of them](programmer.jpg)
+![](programmer.jpg)
 
-<a class="unsplash" href="https://unsplash.com/photos/7bJ1265Y92Y" rel="noopener noreferrer" title="We need more female software developers - photo by Clarisa Guerra"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Clarisa Guerra</span></a>
+[Clarisa Guerra](https://unsplash.com/photos/7bJ1265Y92Y){:.photocredit}
+
+{:.series}
+1. [2014 ideas](startup-ideas-are-cheap)
+2. [2015-2017 ideas](startup-ideas-misc)
+3. [2018 app ideas](startup-ideas-apps)
+4. 2018 development ideas ←
+5. [2018-2019 ideas](startup-ideas-2018-2019)
+6. [2020 ideas](startup-ideas-2020)
+7. [2021 ideas](startup-ideas-2021)
+8. [2022 ideas](startup-ideas-2022)
 
 Following on my earlier explanation of why [start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more [start-up ideas for app developers](startup-ideas-apps).
 If you’re more interested in software for programmers, rather than software for normal people, here are some ideas for improving the developer experience (DX).

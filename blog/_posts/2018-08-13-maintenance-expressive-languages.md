@@ -6,9 +6,9 @@ tags: code maintenance
 image: factory3.jpg
 ---
 
-[![A factory - where real maintenance happens](factory3.jpg)](https://unsplash.com/photos/XUEdfpPIhXg)
+![](factory3.jpg)
 
-<a class="unsplash" href="https://unsplash.com/photos/XUEdfpPIhXg" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Crystal Kwok"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span>Crystal Kwok</span></a>
+[Crystal Kwok](https://unsplash.com/photos/XUEdfpPIhXg){:.photocredit}
 
 Some programming languages, such as Scala and Perl, aim to be as expressive as possible, giving you maximum flexibility in how you write your code.
 Other languages, such as Java and Go, prefer or even force a single coding style, giving you more consistency.

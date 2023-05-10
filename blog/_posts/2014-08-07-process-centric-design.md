@@ -1,14 +1,17 @@
 ---
 title: Process-centric application design
 description: The fourth way to think about the problem
-tags: BPM
+tags: BPM design
 layout: hh
 image: address.jpg
 ---
 
-![An address](address.jpg)
+![](address.jpg)
 
-In [Play for Scala](http://bit.ly/playscala2p), I wrote about three difference approaches to web application design, according to whether you start with database, URL or user-interface design.
+[Henry M Karshis](https://www.flickr.com/photos/hmk/3972213129){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
+In [Play for Scala](http://bit.ly/playscala2p), I wrote about three different approaches to web application design, according to whether you start with database, URL or user-interface design.
 
 > One good way to design an application is to start with a logical data model, as well as an actual physical database. This is an alternative to a UI-centric design that’s based on how users will interact with the application’s user interface, or a URL-centric design that focuses on the application’s HTTP API.
 
@@ -50,4 +53,3 @@ The flaw in the address book example is that I called it an ‘address book’, 
 
 Adding support for these processes as well might result in a different kind of software - some kind of [customer relationship management](http://en.wikipedia.org/wiki/Customer_relationship_management) software. Process-first design results in an application whose nature reflects the process and interactions, not the underlying data.
 
-_Photo: [Henry M Karshis](https://www.flickr.com/photos/hmk/3972213129)_

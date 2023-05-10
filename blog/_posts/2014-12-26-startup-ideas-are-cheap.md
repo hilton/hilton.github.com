@@ -27,7 +27,8 @@ It’s fairly obvious that an idea by itself isn’t worth much, especially to e
 
 ## The fundamental theorem of app design
 
-In case you didn’t already know, there is a fundamental theorem off app design: given a few pints, every conversation in a pub will result in an idea for a mobile app. How often have you heard someone say ‘there should be an app for that!’?
+In case you didn’t already know, there is a fundamental theorem of app design:
+given a few pints, every conversation in a pub will result in an idea for a mobile app. How often have you heard someone say ‘there should be an app for that!’?
 
 To illustrate, here is a selection of start-up ideas that occurred to me recently. They are all flawed, one way or another, and some of them aren’t even funny. However, the point is that many equally stupid and boring that have been successful in practice, and there are more ideas where these came from.
 
@@ -61,7 +62,8 @@ To illustrate, here is a selection of start-up ideas that occurred to me recentl
 
 **NoLuggage** is a frequent traveller service - pack ‘your’ suitcase online with new gear, and have it delivered to your hotel room to use for the duration of your trip. Personalise the service with custom packing lists for ‘beach holiday’, ‘New York business trip’ and ‘dirty weekend in Paris’.
 
-**Sun Spot** is an app for finding sunny cafe terraces for your r location and its weather forecast, with a sunlight hours schedule and planner that you can use to get a table just before the sun comes out. [123terrasse](http://www.123terrasse.fr/) partly does this in France.
+**Sun Spot** is an app for finding sunny cafe terraces for your location and its weather forecast,
+with a sunlight hours schedule and planner that you can use to get a table just before the sun comes out. [123terrasse](http://www.123terrasse.fr/) partly does this in France.
 
 **20Q** is an app that identifies anything whose name you’ve forgotten, by asking you 20 questions.
 

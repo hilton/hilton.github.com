@@ -1,7 +1,7 @@
 ---
 title: The zero-code delusion and its silver lining
 description: The hidden value of disguised programming
-tags: BPM
+tags: BPM NoCode
 layout: hh
 image: lego-brick.jpg
 ---
@@ -44,11 +44,9 @@ Declaring that using point-and-click or drag-and-drop environments is also progr
 
 > You have not eliminated coding, you just disguised it.
 
-In practice, it turns out that disguising programming has an advantage. The important difference between disguised programming and normal programming is not the typing but who gives it a try. Non-programmers - often business analysts - are often quite willing to have a go at the disguised version…
+In practice, it turns out that disguising programming has an advantage. The important difference between disguised programming and normal programming is not the typing but who gives it a try. Non-programmers - often business analysts - are often quite willing to have a go at the disguised version… _as long as you don’t call it ‘programming’_.
 
-**As long as you don’t call it ‘programming’.**
-
-It turns out that there are plenty of non-programmers who are highly intelligent, analytical and who pay attention to detail. These people _could have been programmers if they wanted to be_. They just didn’t. Instead they have consultancy roles, such as business analyst, or they are the subject matter experts - scientists, doctors and accountants, for example.
+It turns out that there are plenty of non-programmers who are highly intelligent, analytical and who pay attention to detail. These people _could have been programmers if they wanted to be_. They just didn’t. Instead they have consultancy roles, such as business analyst, or they are the subject matter experts - scientists, doctors, lawyers and accountants, for example.
 
 ## Socially-acceptable programming
 
@@ -58,4 +56,4 @@ The evidence for non-programmers engaging with disguised programming is simple a
 
 It’s ironic that although zero-code is a marketing delusion, the search for zero-code leads to opportunities for non-programmers to do software development. Whether the idea will actually catch on is another story, but that wouldn’t be a bad thing.
 
-\* My mother always told me that I should have trained to be something useful, such as a plumber.
+\* My mother always tells me that I should have trained to be something useful, such as a plumber.

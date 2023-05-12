@@ -3,6 +3,7 @@ title: CSS date rules
 description: The next innovation for dynamic CSS style sheets
 layout: hh
 tags: design
+image: css-date-rule.png
 ---
 
 Successive major releases of [Cascading Style Sheets (CSS)](https://en.wikipedia.org/wiki/CSS)
@@ -56,7 +57,7 @@ which separates dates using a forward slash:
 You can specify that dates repeat on regular intervals, so you don’t have to update your style sheets on the first of January every year, when you update the copyright statement’s year number:
 
     @date 2024-02-14 repeat every year {
-      // Valentines day background hearts…
+      // 💘 Valentine’s day theme
     
     }
 

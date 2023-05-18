@@ -13,6 +13,10 @@ apart from predating computers.
 Attendees will discover different kinds of numbers, learn about validating email addresses and bank account numbers, and realise how unoriginal some bugs are.
 And more important than straightforward bugs, we’ll also discover bugs we have to fix to make our software inclusive.
 
+## Video
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ibP9YQSHznU" frameborder="0" allowfullscreen></iframe>
+
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="65232968f72f4f2e90b0007142ca46b1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

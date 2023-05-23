@@ -11,6 +11,7 @@
 <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://hilton.org.uk{{ page.url | replace:'.html','' }}">
 <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://hilton.org.uk/{% if page.image %}blog/{{ page.image }}{% else %}picture/face/hilton-peter.jpg{% endif %}">
 <meta prefix="og: http://ogp.me/ns#" property="og:image:alt" content="{% if page.image %}blog illustration{% else %}Peter Hilton{% endif %}">
+{% if page.date %}<meta prefix="og: http://ogp.me/ns#" property="article:published_time" content="{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@PeterHilton">
 <meta name="twitter:creator" content="@PeterHilton">

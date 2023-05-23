@@ -4,6 +4,7 @@ description: Using Notion to maintain a glossary with correct entry length
 layout: hh
 tags: documentation
 css: "article img { box-shadow: 0 0 6px 2px #ccc; padding:15px; } article p:has(img) { margin:20px 0; }"
+image: 10ww/included.png
 ---
 
 <!--

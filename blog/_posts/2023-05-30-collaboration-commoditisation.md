@@ -7,8 +7,6 @@ css: "article img { border: 1px solid #ddd; } article a:hover img { box-shadow: 
 image: next-matter/builder-note.png
 ---
 
-<!-- <= 639 words -->
-
 [No-code workflow commoditisation](workflow-commoditisation)
 has seen various business software provide basic built-in no-code workflow capabilities,
 potentially reducing the need for a dedicated workflow platform.
@@ -62,6 +60,11 @@ Despite the lack of a now/next/later roadmap view in Next Matter, you can plan p
 The dashboard’s _Roadmap_ section then uses these dates to count and list processes with upcoming release dates.
 
 [![Dashboard screenshot, showing a roadmap summary](next-matter/dashboard.webp)](next-matter/dashboard.webp)
+
+The full roadmap view shows more detail about planned process deployments, with dates, statuses, and outstanding builder notes.
+By focusing on information specific to building process automation in Next Matter, this avoids both the complexity of general purpose issue trackers, and the need to customise fields.
+
+[![Roadmap screenshot](next-matter/roadmap.webp)](next-matter/roadmap.webp)
 
 The option to create and [tag processes](https://help.nextmatter.com/docs/use-tags-for-better-filtering)
 before actually building them, presumably allows teams to collaborate on explicit process planning, without necessarily using a separate planning tool.

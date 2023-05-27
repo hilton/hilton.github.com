@@ -10,7 +10,7 @@ image: laughing.jpg
 
 [Aleksandra Sapozhnikova](https://unsplash.com/photos/r_-zzXrnzxI){:.photocredit}
 
-A terrible truth holds many kinds of software development hostage:
+The bad news about software development makes it an unhappy experience for many people:
 
 {:.big style="max-width:30em"}
 > Software development takes forever and costs all of your money

@@ -54,12 +54,11 @@ However, not every team achieves this by themselves.
 
 As software development organisations scale, they typically struggle to improve the developer experience for their increasing number of developers.
 They can resolve this by forming an enabling team that improves other development teams’ developer experience - a _developer experience team_.
+But many still struggle.
 
-Despite the promise of substantial developer productivity improvement, organisations still struggle to form an effective developer experience team.
-The number of improvement opportunities overwhelms new developer experience teams that lack the experience to prioritise effectively, and they struggle to focus.
-
-This lack of alignment, and the lead time to learn and implement new techniques, threatens to delay visible improvement and lead to disillusionment.
-Without early successes, the high cost of senior developers not directly working on product development will encourage management to disband the team.
+Abundant improvement opportunities overwhelm new developer experience teams that lack the experience to prioritise effectively, and they struggle to focus.
+This lack of alignment, and the lead time to adopt new techniques, threatens to delay visible improvement and lead to disillusionment.
+Meanwhile, the high cost of reassigning senior developers not directly working on product development will encourage management to disband the team.
 
 ## Fractional developer experience teams
 

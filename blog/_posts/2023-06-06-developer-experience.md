@@ -3,7 +3,12 @@ title: Improve developer experience
 description: How to work on software development productivity
 layout: hh
 tags: development
+image: laughing.jpg
 ---
+
+![](laughing.jpg)
+
+[Aleksandra Sapozhnikova](https://unsplash.com/photos/r_-zzXrnzxI){:.photocredit}
 
 A terrible truth holds many kinds of software development hostage:
 

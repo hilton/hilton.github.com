@@ -52,20 +52,20 @@ However, not every team achieves this by themselves.
 
 ## Developer experience teams
 
-As software development organisations scale, they typically struggle to improve the developer experience for an increasing number of developers.
-Large software development organisations ultimately resolve this by forming an enabling team that delivers developer experience improvements to other development teams - a _developer experience team_.
+As software development organisations scale, they typically struggle to improve the developer experience for their increasing number of developers.
+They can resolve this by forming an enabling team that improves other development teams’ developer experience - a _developer experience team_.
 
-Despite the promise of substantial developer productivity improvement, scaling organisations still struggle to form an effective developer experience team.
-Too often, the overwhelming number of improvement opportunities overwhelm new developer experience teams, and lacking the experience to effectively prioritise their work, they struggle to focus.
+Despite the promise of substantial developer productivity improvement, organisations still struggle to form an effective developer experience team.
+The number of improvement opportunities overwhelms new developer experience teams that lack the experience to prioritise effectively, and they struggle to focus.
 
-This lack of alignment, and the lead time to learn and implement new techniques, threatens to delay improvement in KPIs, such as DORA or SPACE metrics, which may lead to disillusionment.
-Without early successes, despite the high cost of senior developers not directly working on product development, management will disband the team.
+This lack of alignment, and the lead time to learn and implement new techniques, threatens to delay visible improvement and lead to disillusionment.
+Without early successes, the high cost of senior developers not directly working on product development will encourage management to disband the team.
 
 ## Fractional developer experience teams
 
-Companies that take the long view, and avoid beginner mistakes, will eventually benefit from focusing on developer experience.
-The rest can benefit from using external experts to get things started more quickly, and heading in the right direction with a plan that sets them up for success.
-Having experienced all of the above more than once, I’m happy to see some of the experts I’ve worked with offer this. 
+Some companies will take the long view, and be lucky enough to avoid beginner mistakes.
+The rest can benefit from using external experts to get started, and head in the right direction with a plan that sets them up for success.
+Having experienced all of the above more than once, I’m happy that some of the experts I’ve worked with offer exactly this.
 
-Recommendation: if you are growing, or have already grown, a software development organisation without successfully forming a developer experience team, talk to the
+Recommendation: if your software development organisation lacks a successful developer experience team, talk to the
 [unblocked.engineering Fractional DevEx Team](https://unblocked.engineering/fractional-developer-experience-team/).

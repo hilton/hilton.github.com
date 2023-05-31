@@ -24,4 +24,4 @@ And more important than straightforward bugs, we’ll also discover bugs we have
 ## Presentations
 
 * [010PHP](https://010php.nl) - 10 November 2022
-* [Devoxx UK](https://www.devoxx.co.uk) - 10 May 2023
+* [Devoxx UK](https://www.devoxx.co.uk) - 10 May 2023 (average rating 4.3/5.0, 23 ratings)

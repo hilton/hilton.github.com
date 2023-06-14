@@ -69,8 +69,8 @@ This feature escalation product strategy eventually creates opportunities for ni
 Instead of capturing the huge customer bases that belong to word processors and their replacements - Microsoft Word, Confluence and Notion - a simpler tool can focus on a single document type for a smaller audience.
 For example:
 
-* [???]() - distraction-free writing for initial text
-* [???]() - film scripts
+* [iA Writer](https://ia.net/writer) - distraction-free writing for initial text
+* [Final Draft](https://www.finaldraft.com) - film scripts
 * [Delibr](delibr-views) - product development epics
 
 While the market for these tools may seem limited, a big part of a small market can still become wildly profitable.

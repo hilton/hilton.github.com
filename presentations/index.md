@@ -2,25 +2,20 @@
 title: Presentations & other appearances
 categories: speaking
 layout: speaking
+css: ".banner img {width:320px}"
 ---
 
 Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
 See also: [software development training courses](../training).
 
-<div class="banner"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"><img src="2016-voxxed-days-thessaloniki.jpg" alt="Peter Hilton at Voxxed Days Thessaloniki 2016"></div>
+<div class="banner"><img src="2023-devoxx-uk.webp" alt="Peter Hilton at Devoxx UK 2023"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"></div>
+
+[Devoxx UK (left)](https://www.flickr.com/photos/125714253@N02/){:.photocredit}
+[Skills Matter (centre, right)](https://skillsmatter.com/){:.photocredit}
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
 
-## Proposals
-
-* [Overthinking numbers and strings](numbers-strings)
-* [Musical ensemble safety](ensemble-safety)
-* [Euro English for software developers](euro-english) -
-  language-related bugs for European teams
-* [Software design for tech leads](software-design) -
-  escaping the gap between functional and technical design
-
-## Upcoming & recent presentations
+## Recent presentations
 
 <table class="table">
 <tr>
@@ -539,6 +534,15 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>🇧🇪 Antwerp</td>
 </tr>
 </table>
+
+## Proposals
+
+* [Overthinking numbers and strings](numbers-strings)
+* [Musical ensemble safety](ensemble-safety)
+* [Euro English for software developers](euro-english) -
+  language-related bugs for European teams
+* [Software design for tech leads](software-design) -
+  escaping the gap between functional and technical design
 
 ## Not scheduled
 

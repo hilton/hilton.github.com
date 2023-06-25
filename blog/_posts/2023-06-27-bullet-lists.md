@@ -9,7 +9,7 @@ image: notepad-plan.jpg
 
 ![](notepad-plan.jpg)
 
-[Marco Tedaldi](https://www.flickr.com/photos/kruemi/3391634807){:.photocredit}
+[Volodymyr Hryshchenko](https://unsplash.com/photos/x_OKGbxB3fA){:.photocredit}
 
 Technical writers love bullet lists, and using them consistently and correctly.
 However, presentation slides too often bring shame to bullet lists.

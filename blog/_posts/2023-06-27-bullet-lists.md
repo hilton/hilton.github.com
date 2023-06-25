@@ -4,7 +4,12 @@ description: Technical writers love bullet lists and so can you
 layout: hh
 tags: writing
 css: "body.writing blockquote { border-left:none; background-color:#FCF9F1; color:black; padding:1.3em; position:relative; } body.writing blockquote ul {margin-bottom:0} body.writing blockquote:before {content:'EXAMPLE'; color:#DF5A49; position:absolute; left:34em; } body.writing blockquote h3 {margin:0 0 0.6em}"
+image: notepad-plan.jpg
 ---
+
+![](notepad-plan.jpg)
+
+[Marco Tedaldi](https://www.flickr.com/photos/kruemi/3391634807){:.photocredit}
 
 Technical writers love bullet lists, and using them consistently and correctly.
 However, presentation slides too often bring shame to bullet lists.

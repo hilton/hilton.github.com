@@ -3,7 +3,12 @@ title: Legacy software in seven years
 description: Why no-code automation keeps getting better
 layout: hh
 tags: NoCode product
+image: 2023.jpg
 ---
+
+![](2023.jpg)
+
+[Aakash Dhage](https://unsplash.com/photos/FHOF7qB8cyk){:.photocredit}
 
 No-code automation comes back for another try every decade, but not because it didn’t work before.
 Like each new iPhone or new competitor, new business software regularly makes new attempts to solve old problems.

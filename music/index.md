@@ -11,6 +11,10 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <h2>Performances</h2>
 
+<p><a href="http://cappellagabrieli.nl/">Sanft und stille</a> (final concert)
+<br><em>Cappella Gabrieli</em>
+<br>19 March 2023, Rotterdam</p>
+
 <p><a href="http://cappellagabrieli.nl/">Pierre de Manchicourt, Lassus &amp; Palestrina</a>
 <br><em>Cappella Gabrieli</em>
 <br>20 November 2022, Rotterdam</p>
@@ -243,7 +247,7 @@ Peter is an experienced amateur early music singer - baritone/bass - focused on 
 
 <p><a href="http://cappellagabrieli.nl">Cappella Gabrieli</a>
 <br>chamber choir
-<br>Rotterdam, since 2005</p>
+<br>Rotterdam, 2005-2023</p>
 
 <p><a href="http://retorisch.com">Het Retorisch Kwartet</a>
 <br>early music quartet

@@ -17,7 +17,7 @@ image: product-roadmap-triangle.png
 
 {:.series}
 1. [Roadmap compromise](product-roadmap-compromise)
-2. [Roadmap detail levels](roadmap-dimensions-levels)
+2. [Roadmap detail levels](product-roadmap-dimensions-levels)
 3. Product roadmap triangle ←
 
 When you produce a product roadmap, you make trade-offs between quality goals.

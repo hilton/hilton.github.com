@@ -20,7 +20,7 @@ image: cuba-chart.jpg
 
 {:.series}
 1. Roadmap compromise ←
-2. [Roadmap detail levels](roadmap-dimensions-levels)
+2. [Roadmap detail levels](product-roadmap-dimensions-levels)
 3. [Product roadmap triangle](product-roadmap-triangle)
 
 I’ve always loved maps - real maps, maps on paper, in books, framed on the wall, mounted as a globe - all of them.

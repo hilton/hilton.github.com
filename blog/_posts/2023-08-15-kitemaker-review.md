@@ -25,7 +25,8 @@ It also means simplification: a less complex tool than legacy project management
 
 ## Work items
 
-Kitemaker structures content around _work items_, each of which gets its own Notion-style page, comments, activity feed, and version history.
+Kitemaker structures content around _work items_, each of which gets its own 
+[Notion](intranet-ten-word-wiki)-style page, comments, activity feed, and version history.
 Task lists with checkboxes allow one work item to contain multiple implementation tasks.
 
 [![A work item page, showing project objective headings, and the work item’s activity feed](kitemaker/work-item.webp)](kitemaker/work-item.webp)
@@ -49,7 +50,7 @@ Work items can belong to themes on a roadmap view - another board view:
 [![Roadmap objectives on a Kanban-style board](kitemaker/roadmap.webp)](kitemaker/roadmap.webp)
 
 You can use this for planning higher-level [units of work](units-of-work) than user stories and epics.
-For example, this _Get books to read_ roadmap objective links to short-term work, listed bottom-left:
+For example, this _Get books to read_ roadmap objective links to short-term _work items_, listed bottom-left:
 
 [![A development theme work item’s page, showing a list of linked work items](kitemaker/theme.webp)](kitemaker/theme.webp)
 
@@ -84,7 +85,7 @@ And dark mode, obviously.
 
 ## Integrated product management
 
-Kitemaker promises integrated product management instead of better project management, and delivers through simplicity and flexibility.
+Kitemaker promises integrated product management instead of better project management, and delivers through simplicity and flexibility, and a great user experience.
 Despite insufficient breadth to replace a general-purpose intranet collaboration tool,
-like Notion or [Qatalog](qatalog-review), a product development team might do nearly all their work in Kitemaker.
+like Notion or [Qatalog](qatalog-review), a product development team might do nearly all their work in Kitemaker,
 using it as a [universal product development tool](universal-tools).

@@ -15,6 +15,11 @@ image: product-roadmap-triangle.png
 6. Stable and detailed
 -->
 
+{:.series}
+1. [Roadmap compromise](product-roadmap-compromise)
+2. [Roadmap detail levels](roadmap-dimensions-levels)
+3. Product roadmap triangle ←
+
 When you produce a product roadmap, you make trade-offs between quality goals.
 [The roadmap makes compromises](product-roadmap-compromise) between the its audiences’ and goals’  interests.
 As well as understanding your roadmap’s purpose and consumers, consider your constraints.

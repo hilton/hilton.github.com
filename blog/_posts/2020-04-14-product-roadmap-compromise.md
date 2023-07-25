@@ -18,6 +18,11 @@ image: cuba-chart.jpg
 
 ![Cuba maritime chart](cuba-chart.jpg)
 
+{:.series}
+1. Roadmap compromise ←
+2. [Roadmap detail levels](roadmap-dimensions-levels)
+3. [Product roadmap triangle](product-roadmap-triangle)
+
 I’ve always loved maps - real maps, maps on paper, in books, framed on the wall, mounted as a globe - all of them.
 I love their aesthetics and information representation, their practicality and their art.
 And I really _hate_ it when people draw on maps in pen, even cheap disposable maps.

@@ -10,8 +10,8 @@ css: "body.writing article img {width:16em; float: right; margin:0 0 0.5em 1em}"
 {:.series}
 1. [2004 sabbatical](sabbatical-2004)
 2. [2014 sabbatical](sabbatical-2014)
-3. 2023 sabbatical ←
-4. Sabbatical consultant interview
+3. [2023 sabbatical](sabbatical-2023)
+4. Sabbatical consultant interview ←
 
 [ ![Lyndall Farley](lyndall-farley.jpg) ](https://www.beyondabreak.com/)
 

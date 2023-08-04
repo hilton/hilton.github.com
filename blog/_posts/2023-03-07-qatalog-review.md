@@ -12,6 +12,8 @@ css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428
 2. Qatalog ←
 3. [Collato](collato-review)
 3. [Cycle](cycle-review)
+4. Kitemaker
+5. Orbit
 
 [Qatalog](https://qatalog.com) offers an out-of-the box business intranet for everyone who finds Notion too unstructured.
 Qatalog combines data and documents with features such as task management, discussion threads and integrations.

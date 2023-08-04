@@ -2,7 +2,7 @@
 title: "B2B SaaS review: productboard (features board)"
 description: Managing a product backlog in @productboard
 layout: hh
-tags: product software
+tags: product review
 image: productboard-features.jpg
 ---
 

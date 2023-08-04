@@ -2,7 +2,7 @@
 title: "B2B SaaS review: Qatalog"
 description: A first look at a new way to organise everything
 layout: hh
-tags: product software
+tags: productivity review
 image: qatalog/fields.png
 css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---

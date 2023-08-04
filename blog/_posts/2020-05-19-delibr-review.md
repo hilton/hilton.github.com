@@ -2,7 +2,7 @@
 title: "B2B SaaS review: Delibr"
 description: Structured writing for feature documents
 layout: hh
-tags: product software
+tags: product review
 image: delibr-outline-2x.png
 css: "a img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---

@@ -2,7 +2,7 @@
 title: "B2B SaaS review: productboard (insights board)"
 description: Capturing customer feedback in @productboard
 layout: hh
-tags: product software
+tags: product review
 image: productboard-insights.png
 ---
 

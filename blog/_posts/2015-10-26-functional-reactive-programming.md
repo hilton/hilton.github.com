@@ -1,7 +1,7 @@
 ---
 title: "Book review: Functional Reactive Programming"
 description: by Stephen Blackheath and Anthony Jones - Intelligent, clear and witty
-tags: programming book
+tags: programming book review
 layout: hh
 image: functional-reactive-programming.jpg
 ---

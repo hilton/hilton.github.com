@@ -2,7 +2,7 @@
 title: "Book review: Succeeding with OKRs in Agile"
 description: A practical guide for agile software development practitioners, by @allankellynet
 layout: hh
-tags: product book
+tags: product book review
 image: agile-okrs.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: "B2B SaaS review: Shipright"
 description: A single source of truth for your customers’ product feedback
 layout: hh
-tags: product software
+tags: product review
 image: shipright-request-2x.png
 ---
 

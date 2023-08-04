@@ -1,7 +1,7 @@
 ---
 title: "Book review: Functional Programming in Java"
 description: by Pierre-Yves Saumont - FP unencumbered by libraries, standard or otherwise
-tags: programming book
+tags: programming book review
 layout: hh
 image: functional-programming-in-java.jpg
 ---

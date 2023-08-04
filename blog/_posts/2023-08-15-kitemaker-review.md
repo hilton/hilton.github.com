@@ -2,7 +2,7 @@
 title: "B2B SaaS review: Kitemaker"
 description: Integrated product management instead of better project management
 layout: hh
-tags: product software
+tags: product review
 image: kitemaker/board.webp
 css: "article p:has(img) { margin:15px 0; } article img { border: 1px solid #ddd; } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---

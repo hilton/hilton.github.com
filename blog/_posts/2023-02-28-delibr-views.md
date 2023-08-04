@@ -2,7 +2,7 @@
 title: "B2B SaaS review: Delibr"
 description: From a single unit of work to end-to-end product development
 layout: hh
-tags: product software
+tags: product review
 image: delibr-2023/ost.png
 css: "a img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---

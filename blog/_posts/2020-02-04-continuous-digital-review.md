@@ -2,7 +2,7 @@
 title: "Book review: Continuous Digital"
 description: How to merge software business with software development, by @allankellynet
 layout: hh
-tags: book
+tags: management book review
 image: continuous-digital.jpg
 ---
 

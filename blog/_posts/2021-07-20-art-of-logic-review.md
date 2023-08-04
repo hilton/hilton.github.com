@@ -2,7 +2,7 @@
 title: "Book review: The Art of Logic"
 description: A case study in the importance of good examples, by @DrEugeniaCheng
 layout: hh
-tags: book
+tags: mathematics book review
 image: art-of-logic.jpg
 css: ".figure {text-align:center; margin:1em;}"
 ---

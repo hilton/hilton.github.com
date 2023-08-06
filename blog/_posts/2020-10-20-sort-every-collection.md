@@ -2,7 +2,7 @@
 title: Sort every collection you display
 description: Unsorted is never the right order
 layout: hh
-tags: software design
+tags: UX
 image: cacti.jpg
 ---
 

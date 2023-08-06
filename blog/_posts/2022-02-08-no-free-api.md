@@ -2,7 +2,7 @@
 title: The cost of a free API
 description: How you pay for publishing your back-end’s API
 layout: hh
-tags: API design
+tags: API
 image: ship-sinking.jpg
 ---
 

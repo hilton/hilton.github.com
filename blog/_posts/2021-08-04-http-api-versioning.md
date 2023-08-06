@@ -2,7 +2,7 @@
 title: HTTP API versioning approaches
 description: Why the experts say you shouldn’t
 layout: hh
-tags: API design
+tags: API
 image: amsterdam-canal-houses.jpg
 ---
 

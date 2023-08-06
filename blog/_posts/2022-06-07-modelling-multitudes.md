@@ -2,7 +2,7 @@
 title: Modelling multitudes
 description: Measuring, counting and naming different kinds of quantities
 layout: hh
-tags: data design DDD
+tags: data DDD
 image: roller-coaster.jpg
 ---
 

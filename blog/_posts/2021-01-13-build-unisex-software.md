@@ -2,7 +2,7 @@
 title: Build unisex software
 description: Don’t ask people to tell you their gender
 layout: hh
-tags: software design DDD
+tags: DDD UX
 image: toy-flow-chart-2x.png
 css: ".img{text-align:center}"
 ---

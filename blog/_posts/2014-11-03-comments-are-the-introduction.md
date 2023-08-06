@@ -1,7 +1,7 @@
 ---
 title: Comments are the introduction
 description: three ways to introduce code
-tags: programming comments
+tags: programming comments maintenance
 layout: hh
 image: introduction.jpg
 ---

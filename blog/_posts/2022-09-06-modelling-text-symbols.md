@@ -2,7 +2,7 @@
 title: Modelling text as symbols
 description: Obscure problems when displaying symbols
 layout: hh
-tags: data design DDD
+tags: data DDD
 image: letters.jpg
 ---
 

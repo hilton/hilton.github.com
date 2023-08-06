@@ -2,7 +2,7 @@
 title: Localise names with the CLDR
 description: Using the Unicode Common Locale Data Repository’s standard translations
 layout: hh
-tags: software data design DDD
+tags: data DDD
 image: currency.jpg
 ---
 

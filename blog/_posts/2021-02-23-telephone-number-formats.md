@@ -2,7 +2,7 @@
 title: Allow varied national telephone number formats
 description: Why telephone numbers don’t add up
 layout: hh
-tags: software data design DDD
+tags: data DDD
 image: telephone.jpg
 ---
 

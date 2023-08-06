@@ -2,7 +2,7 @@
 title: Mac OS System 7 outlines vs HTML
 description: Tree views on the web
 layout: hh
-tags: design
+tags: UX
 css: ".example {text-align:center; margin:1em 0} 
 article > details {color:black; background:#eee; padding:1em;margin:1em 2em; width:20em}
 details {margin:0 0 0 1.2em; color:black} summary {margin:0}"

@@ -2,7 +2,7 @@
 title: Forgive user input in the wrong format
 description: Don’t make people normalise data manually
 layout: hh
-tags: software design
+tags: UX
 image: credit-card.jpg
 ---
 

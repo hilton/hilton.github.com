@@ -2,7 +2,7 @@
 title: Describe expected behaviour in bug reports
 description: Comparing notes on software behaviour expectations
 layout: hh
-tags: software
+tags: product maintenance
 image: bug-black-bee.jpg
 ---
 

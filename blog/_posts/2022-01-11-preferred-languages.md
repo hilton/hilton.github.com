@@ -2,7 +2,7 @@
 title: Default to the browser’s preferred language
 description: Don’t set the web page language based on location
 layout: hh
-tags: software design
+tags: DDD UX
 image: letters.jpg
 ---
 

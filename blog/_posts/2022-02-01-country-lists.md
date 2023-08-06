@@ -2,7 +2,7 @@
 title: Populate country lists carefully
 description: How to source a list of countries to use in software
 layout: hh
-tags: software data design DDD
+tags: data DDD
 image: bouvet-island.jpg
 ---
 

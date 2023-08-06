@@ -2,7 +2,7 @@
 title: Implement a zero-bug policy
 description: How to manage bugs during software product development
 layout: hh
-tags: software product
+tags: product maintenance
 image: lizard.jpg
 ---
 

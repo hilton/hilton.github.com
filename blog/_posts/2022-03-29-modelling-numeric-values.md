@@ -2,7 +2,7 @@
 title: Modelling numeric values
 description: More than just size and precision
 layout: hh
-tags: design DDD
+tags: DDD
 image: numbers.jpg
 ---
 

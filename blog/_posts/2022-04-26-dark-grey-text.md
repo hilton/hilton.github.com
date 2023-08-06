@@ -2,7 +2,7 @@
 title: Use high-contrast text
 description: The dark side of grey text
 layout: hh
-tags: design
+tags: UX
 image: owl.jpg
 css: "body.writing blockquote.big{padding:0; background:#fff; text-align:center; max-width:38em;} blockquote.black{color:#000} blockquote.gitlab{color:#303030} blockquote.slack{color:#1D1C1D} blockquote.notion{color:#373530}"
 ---

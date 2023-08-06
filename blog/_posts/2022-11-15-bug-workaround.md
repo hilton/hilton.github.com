@@ -2,7 +2,7 @@
 title: Identify workarounds in bug reports
 description: Bug reports for knowledge-centred over achievers
 layout: hh
-tags: software
+tags: product maintenance
 image: bug-bee.jpg
 ---
 

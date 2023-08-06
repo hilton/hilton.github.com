@@ -2,7 +2,7 @@
 title: HTTP client error status code checklist
 description: Because HTTP API clients don’t just send bad requests
 layout: hh
-tags: API design
+tags: API
 image: seven-sisters.jpg
 ---
 

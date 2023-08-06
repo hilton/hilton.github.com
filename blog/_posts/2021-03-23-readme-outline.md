@@ -2,7 +2,7 @@
 title: What to put in a README
 description: How to minimally document software
 layout: hh
-tags: software documentation
+tags: documentation
 image: readme.png
 twitter_card: summary_large_image
 css: "ol{padding:1em 3em 0.5em;border:1px solid #ccc;width:33em;} article table{font-size:100%;width:38em} pre{width:640px}"

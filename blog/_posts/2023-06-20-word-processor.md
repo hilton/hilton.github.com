@@ -2,7 +2,7 @@
 title: The word-processor problem
 description: Software focus in niche markets versus mass-market complication
 layout: hh
-tags: software
+tags: product
 image: typewriter.jpg
 ---
 

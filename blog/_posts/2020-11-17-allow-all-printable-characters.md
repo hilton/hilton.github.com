@@ -2,7 +2,7 @@
 title: Allow all printable characters
 description: First person to say ‘special characters’ loses
 layout: hh
-tags: software data design
+tags: data DDD UX
 image: japanese-sign.jpg
 ---
 

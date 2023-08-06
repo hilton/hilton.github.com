@@ -2,7 +2,7 @@
 title: Truncate content according to context
 description: When omitting the end of text that doesn’t fit doesn’t work
 layout: hh
-tags: design
+tags: UX
 image: carrots.jpg
 ---
 

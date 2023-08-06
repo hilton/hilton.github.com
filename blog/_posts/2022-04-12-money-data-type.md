@@ -2,7 +2,7 @@
 title: Use a money data type
 description: Why your software should handle money amounts separately from other numbers
 layout: hh
-tags: software data design DDD
+tags: data DDD
 image: currency.jpg
 ---
 

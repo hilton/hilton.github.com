@@ -2,7 +2,7 @@
 title: Minimum viable bug report
 description: The most important bug report information… to start with
 layout: hh
-tags: software
+tags: product maintenance
 image: bug-ladybird.jpg
 ---
 

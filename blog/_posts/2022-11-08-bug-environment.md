@@ -2,7 +2,7 @@
 title: Identify context and environment in bug reports
 description: Why bug reports get rejected because ‘it works on my machine’
 layout: hh
-tags: software
+tags: product maintenance
 image: bug-caterpillar.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: Mixing kinds of text
 description: Where embedding one kind of text in another goes bad
 layout: hh
-tags: data design DDD
+tags: data DDD
 image: detour-sign.jpg
 ---
 

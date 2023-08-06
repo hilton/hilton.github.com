@@ -2,7 +2,7 @@
 title: Omit salutations in automated notifications
 description: Don’t waste time on fake greetings
 layout: hh
-tags: software design
+tags: UX
 image: hello-beautiful.jpg
 ---
 

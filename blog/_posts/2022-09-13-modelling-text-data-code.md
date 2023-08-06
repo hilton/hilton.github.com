@@ -2,7 +2,7 @@
 title: Modelling text as data and code
 description: Getting your formats mixed up
 layout: hh
-tags: data design DDD
+tags: data DDD
 image: infographics.jpg
 ---
 

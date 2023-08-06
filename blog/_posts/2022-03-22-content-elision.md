@@ -2,7 +2,7 @@
 title: Show content without elision
 description: When perceived cleanliness trumps user experience
 layout: hh
-tags: design
+tags: UX
 image: newspaper.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: Pluralise text correctly
 description: User-interface content design details matter too
 layout: hh
-tags: software design
+tags: DDD UX
 image: women.jpg
 ---
 

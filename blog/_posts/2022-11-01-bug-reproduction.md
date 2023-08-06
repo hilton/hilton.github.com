@@ -2,7 +2,7 @@
 title: List reproduction steps in bug reports
 description: How to make bugs reproducible so they get fixed
 layout: hh
-tags: software
+tags: product maintenance
 image: bug-green-caterpillar.jpg
 ---
 

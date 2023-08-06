@@ -2,7 +2,7 @@
 title: Respect people’s full names
 description: Don’t call someone’s name ‘invalid’
 layout: hh
-tags: software data design DDD
+tags: data DDD UX
 image: certificate.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: Build a separate API for public consumption
 description: Because APIs have user personas too
 layout: hh
-tags: API design
+tags: API
 image: public-park.jpg
 ---
 

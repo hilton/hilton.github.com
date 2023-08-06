@@ -2,7 +2,7 @@
 title: Modelling text as writing
 description: Software design problems with the simplest of four kinds of text
 layout: hh
-tags: data design DDD
+tags: data DDD
 image: writing.jpg
 css: "body.writing article p.right {width:225px;float:right;margin:0 0 1em 1em}"
 ---

@@ -2,7 +2,7 @@
 title: We need more cute software
 description: Innovation opportunity for B2B SaaS
 layout: hh
-tags: design remote
+tags: UX remote
 css: ".screenshot {width:640px; image-rendering:pixelated}"
 image: bobblun.jpg
 ---

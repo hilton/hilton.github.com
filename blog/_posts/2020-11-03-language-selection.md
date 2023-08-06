@@ -2,7 +2,7 @@
 title: Use localised language names for language selection
 description: Don’t use flags for languages
 layout: hh
-tags: software design
+tags: UX
 image: flags.jpg
 ---
 

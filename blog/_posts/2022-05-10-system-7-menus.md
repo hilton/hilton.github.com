@@ -2,7 +2,7 @@
 title: Mac OS System 7 menus vs HTML
 description: Browser-native user-interface controls compared to Mac OS 31 years ago
 layout: hh
-tags: design
+tags: UX
 css: ".example {text-align:center; margin:1em 0} form {background:#eee;padding:1em;margin:1em 2em; width:20em}"
 image: beer-board.jpg
 ---

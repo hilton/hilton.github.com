@@ -1,7 +1,7 @@
 ---
 title: Process-centric application design
 description: The fourth way to think about the problem
-tags: BPM design
+tags: BPM
 layout: hh
 image: address.jpg
 ---

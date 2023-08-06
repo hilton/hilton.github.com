@@ -2,7 +2,7 @@
 title: Numbers that aren’t numbers
 description: ‘Numbers’ that you can’t represent numerically
 layout: hh
-tags: software data design DDD
+tags: data DDD
 image: mailbox-13a.jpg
 ---
 

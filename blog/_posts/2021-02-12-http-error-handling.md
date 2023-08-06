@@ -2,7 +2,7 @@
 title: Use HTTP error handling in APIs
 description: Improving developer experience with a richer HTTP vocabulary
 layout: hh
-tags: API design
+tags: API
 image: ice-cream-dropped.jpg
 ---
 

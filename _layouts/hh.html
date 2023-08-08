@@ -66,7 +66,7 @@
 </article>
 
 {% if page.title %}
-{% capture url %}http%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
+{% capture url %}https%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
 {% if page.description %}{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}{% endif %}
 <section class="social">
 <p><a href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+New+article+by+%40PeterHilton" onclick="javascript:window.open(this.href,

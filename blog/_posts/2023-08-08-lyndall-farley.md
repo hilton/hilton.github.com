@@ -3,7 +3,7 @@ title: "Interview: Lyndall Farley"
 description: What a sabbatical consultant does and why you need one
 layout: hh
 tags: career
-image: lyndall-farley.jpg
+image: lyndall-farley-crop.jpg
 css: "body.writing article img {width:16em; float: right; margin:0 0 0.5em 1em}"
 ---
 

@@ -61,7 +61,7 @@ You add existing opportunities to this board view, and can drag them between col
 You can’t add solutions to a roadmap, so you’ll need to use another tool for release planning and feature rollout.
 I like how this positions Orbit for product management, without getting mixed up in how developers work, although I’d love to see Orbit become a [universal tool](universal-tools).
 I also like how roadmap columns default to a 
-[now/next/later roadmap](https://userlist.com/podcast/now-next-later-roadmapping-with-janna-bastow/), 
+[now/next/later roadmap](https://www.prodpad.com/blog/invented-now-next-later-roadmap/), 
 although you can add and rename them if you must.
 
 

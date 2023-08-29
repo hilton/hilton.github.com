@@ -12,7 +12,7 @@ image: rotterdam-maas.jpg
 
 After university, the first two places I lived in for more than a few weeks were Paris and Cambridge.
 I got used to their tourist hordes.
-And when I first moved to Rotterdam, in January 2020, the lack of tourists struck me most.
+And when I first moved to Rotterdam, in January 2000, the lack of tourists struck me most.
 There weren’t any in the summer either.
 We now see more tourists than we used to
 

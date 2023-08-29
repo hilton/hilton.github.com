@@ -3,7 +3,12 @@ title: Call a team a team
 description: Rejecting bro culture and gratuitous culture hacking
 layout: hh
 tags: culture
+image: lego-space-men.jpg
 ---
+
+![](lego-space-men.jpg)
+
+[Leggodt_pic](https://unsplash.com/photos/GXGepX-HiqE){:.photocredit}
 
 When I talk about work, I often talk about the team, and how we work together.
 In some companies, especially during rapid growth, you spend a lot of time talking about teams in general:

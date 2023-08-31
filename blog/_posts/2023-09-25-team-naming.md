@@ -17,7 +17,7 @@ Some companies complicate this topic by having _more than just teams_.
 
 ## Matrix organisation
 
-Some companies introduce a more complex structure than a simple hierarchy.
+Companies often introduce a more complex structure than a simple hierarchy.
 In addition to their place in the hierarchy, people belong to other groups, such as specialism-based
 [communities of practice](https://en.wikipedia.org/wiki/Community_of_practice).
 
@@ -43,12 +43,12 @@ which describes organising teams into an overlapping matrix of:
 * guilds
 * tribes.
 
-Despite the authors’ warning that their article described a ‘current way of working - a journey in progress’, the so-called _Spotify model_ meme became endemic in agile software development circles.
-Today, we see the meme’s success in the number of companies that have copied the team naming (but not necessarily the agility).
+Despite the authors’ warning that their article described a ‘current way of working - a journey in progress’, the _Spotify model_ meme became endemic in agile software development circles.
+Today, we see the meme’s success in the number of companies that have copied its team naming (but not necessarily the agility).
 
 ## Sport and military team types
 
-The least tasteful part of abandoning the word _team_ comes from choices that typically feature military jargon:
+The least tasteful examples of abandoning the word _team_ feature military jargon:
 
 * squads
 * units
@@ -57,9 +57,10 @@ The least tasteful part of abandoning the word _team_ comes from choices that ty
 
 This jargon reflects deeply entrenched (!) warfare metaphors in business, along with _targets_, _campaigns_ and market
 _[penetration](https://en.wikipedia.org/wiki/Penetration_(warfare))_.
+Sometimes, CEOs even tell staff to prepare for ‘wartime’.
 
-Military metaphors also inspires the sporting jargon that companies also like to adopt. 
-For example, IT consultancies’ typically refer to staff as _on the bench_ between assignments.
+Military metaphors further inspire the sport jargon that companies also like to adopt. 
+For example, IT consultancies typically refer to staff as _on the bench_ between assignments.
 Software development teams often like to adopt
 [sports team names](https://www.sportsfeelgoodstories.com/sports-team-names/),
 typically based on wild animals (not the cute kind).

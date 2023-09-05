@@ -3,7 +3,10 @@ title: Books that introduce product management
 description: What to read if you only read one book (first)
 layout: hh
 tags: book review
+image: product-management-books.jpg
 ---
+
+![The five recommended books on a table](product-management-books.jpg)
 
 Reading a book can help you get up to speed on product management, either to get started in a product management role, or to work more effectively with product managers as part of a product development organisation.
 Unfortunately, some of the books that aim to introduce product management will send you to sleep with their dry descriptions of roles and responsibilities.

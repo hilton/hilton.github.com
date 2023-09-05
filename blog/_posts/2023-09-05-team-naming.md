@@ -79,6 +79,6 @@ focusing on the trap of identifying software development with another profession
 
 Fowler warns against the danger of trying to follow metaphors and analogies too closely.
 Similarly, many alternative team type names hinder the sense of belonging that a good team creates.
-When you reflect and how you and your colleagues organise yourselves and your work, 
+When you reflect on how you and your colleagues organise yourselves and your work, 
 start from what the word _team_ means, not from some military, sport or feudal medieval analogy.
 In particular, question the suggestion that you and the people who you work with every day shouldn’t proudly call yourselves a _team_.

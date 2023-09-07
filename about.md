@@ -9,9 +9,8 @@ layout: main
 
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left; margin-right:1em"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
 Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
-Peter’s professional interests are B2B SaaS products, no-code automation, agile software development methods, and software documentation.
-He has spent the last four years working as a product manager, and also delivers the occasional lecture and training course.
-Peter is currently on sabbatical.</p>
+Peter’s professional interests are B2B SaaS products, no-code automation, software development methods, and software documentation.
+He has spent the last five years working as a product manager, and also delivers the occasional lecture and training course.</p>
 
 <p>Peter has presented at several European developer conferences, including DDD Europe, NDC Oslo, Booster, ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON.
 Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013)
@@ -53,9 +52,11 @@ Since 2020, Peter has published weekly on his <a href="/blog/">blog</a>.</p>
 <h2 style="margin-top: 0">History</h2>
 
 <ul>
+<li>Consulting for <a href="">Varias</a> as a product operations specialist (2024).</li>
+<li>Three-month sabbatical in Rotterdam (2023).</li>
 <li>Working for <a href="https://bryter.com/">BRYTER</a> as a product manager (2020-2023).</li>
 <li>Consulting for <a href="https://www.signavio.com/">Signavio</a> as a product manager, consultant, trainer, pre-sales consultant, technical writer and developer (2015-2020)</li>
-<li>Six-month sabbatical in London (2014)</li>
+<li>Six-month sabbatical in London (2014).</li>
 <li>Working (as software developer) for <a href="http://www.lunatech.com">Lunatech Research</a> in Rotterdam, the Netherlands (2004-2014).</li>
 <li>Working for Logica NL, which later became LogicaCMG, in Rotterdam (2000-2004).</li>
 <li>Working for Logica UK (1996-2000). Assignments included

@@ -2,7 +2,7 @@
 title: Books that introduce product management
 description: What to read if you only read one book (first)
 layout: hh
-tags: book review
+tags: product book review
 image: product-management-books.jpg
 ---
 

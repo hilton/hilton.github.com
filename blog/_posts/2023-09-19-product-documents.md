@@ -3,7 +3,12 @@ title: Product document naming
 description: Overthinking what we call the artefacts we write
 layout: hh
 tags: product
+image: notepad-writing.jpg
 ---
+
+![](notepad-writing.jpg)
+
+[J. Kelly Brito](https://unsplash.com/photos/PeUJyoylfe4){:.photocredit}
 
 I recently found myself looking for an alternative to the term _PRD_
 ([product requirements document](https://en.wikipedia.org/wiki/Product_requirements_document)),

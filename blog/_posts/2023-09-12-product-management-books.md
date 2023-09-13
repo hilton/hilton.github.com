@@ -36,7 +36,7 @@ Start here if you’ve used user stories before.
 
 ## Lean Analytics, Alistair Croll & Ben Yoskovitz
 
-[Lean Analytics](https://www.jpattonassociates.com/jeff-pattons-book-released-user-story-mapping/)
+[Lean Analytics](https://leananalyticsbook.com)
 explains data-informed product management in enough depth to explain most of product management.
 
 😀 **Pros:** explains product management in terms suitable for an analytical mindset, and focuses on a fashionable topic.

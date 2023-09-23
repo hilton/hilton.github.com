@@ -2,7 +2,7 @@
 title: The importance of programming jokes
 description: Domain-specific jokes’ purpose
 layout: hh
-tags: programming DDD
+tags: programming DDD humour
 image: laughing.jpg
 ---
 

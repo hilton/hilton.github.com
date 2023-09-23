@@ -151,9 +151,9 @@ blockquote.big { background-color: #334D5C; color: white; }
 blockquote.big a { color: #D9EDFF; }
 blockquote.big.solid-three a { color: #005199; }
 .solid-one { background-color: #334D5C ! important; }
-.solid-two { background-color: #45B29D ! important; }
+.solid-two { background-color: #3FA28E ! important; }
 .solid-three { color: #334D5C ! important; background-color: #EFC94C ! important; }
-.solid-four { background-color: #E27A3F ! important; }
+.solid-four { background-color: #E17637 ! important; }
 .solid-five { background-color: #DF5A49 ! important; }
 
 a.unsplash { background-color:#ccc; color:white; }

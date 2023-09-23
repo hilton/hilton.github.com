@@ -12,8 +12,8 @@ css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428
 2. [Qatalog](qatalog-review)
 3. Collato ←
 3. [Cycle](cycle-review)
-4. Kitemaker
-5. Orbit
+4. [Kitemaker](kitemaker-review)
+5. [Orbit](orbit-review)
 
 Collato is like the macOS Finder desktop, but for your Google Docs.
 And your Confluence Pages, Jira issues, Figma designs, and Miro boards.

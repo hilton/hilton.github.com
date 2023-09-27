@@ -8,6 +8,8 @@ image: agile-okrs.jpg
 
 <a class="cover" href="https://www.allankellyassociates.co.uk/books/"><img src="agile-okrs.jpg" alt="Succeeding with OKRs in Agile"></a>
 
+_2023 update: [second edition now available](https://buff.ly/3RaR2kR)_
+
 In [Succeeding with OKRs in Agile](https://www.allankellyassociates.co.uk/books/)
 ([Amazon](https://www.amazon.co.uk/gp/product/B08S3DHJJW/ref=as_li_tl?ie=UTF8&camp=1634),
 [LeanPub](https://leanpub.com/agileokrs)),

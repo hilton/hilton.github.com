@@ -3,7 +3,12 @@ title: The backlog abstraction layer
 description: A developer perspective on taming infinite backlogs
 layout: hh
 tags: product
+image: leaves.jpg
 ---
+
+![](leaves.jpg)
+
+[Hasan Almasi](https://unsplash.com/photos/SpCrTUG2nu8){:.photocredit}
 
 {:.series}
 1. [Infinite backlog problem](infinite-backlog)

@@ -20,6 +20,7 @@ or provides valuable framing that you will benefit from daily for a long time to
 My personal interest in [naming things](/tag/naming) dates back [nine years](/presentations/naming),
 so it shouldn’t surprise you to find me overthinking this particular question.
 
+{:#prd}
 ## The PRD mistake
 
 Software product management generally deals with _making choices_, not _defining requirements_.
@@ -32,6 +33,7 @@ In product management especially, you communicate with people in many groups,
 who have different daily jargon and potentially conflicting abbreviations.
 In writing, even for internal stakeholders, avoid abbreviations.
 
+{:#onepager}
 ## One-pagers
 
 John Cutler calls these documents
@@ -49,6 +51,7 @@ Similarly, developers and support teams often refer to _tickets_ that describe e
 [incident ticket system](https://en.wikipedia.org/wiki/Issue_tracking_system).
 Personally, though, I prefer not to name documents according to their length or database.
 
+{:#opportunity}
 ## Opportunities
 
 When product managers talk about product discovery, we talk about the _problem space_.
@@ -69,6 +72,7 @@ we got used to from people asking each other to _create issues_
 (in [Jira](https://support.atlassian.com/jira-software-cloud/docs/what-is-an-issue/)).
 I can live with that, and like _opportunity_, but would prefer a shorter word.
 
+{:#bet}
 ## Bets
 
 Annie Duke popularised talking about **bets** in her book,

@@ -38,3 +38,5 @@ Finally, we’ll look forwards and focus on one typographic innovation that we w
 ## Blog posts
 
 * [Ligatures with Fira Code](/blog/fira-code)
+* [Ugly code and typography](/blog/ugly-code)
+* [Source code layout](/blog/beautiful-code)

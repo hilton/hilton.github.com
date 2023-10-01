@@ -67,8 +67,8 @@ This has changed what it means to have enough backlog items _for the next releas
 
 ## Product manager absence duration
 
-A product manager wizard wouldn’t need to maintain a backlog at all:
-each time a developer completed some work in progress, a wave of the magic wand would create the next in-progress task.
+A [two-minute product manager](two-minute-rule) hardly needs to maintain a backlog at all:
+each time a developer completed some work in progress, they can immediately pair with product manager to create the next in-progress item.
 From this perspective, the backlog only exists as a buffer to ensure that designers and developers always have a next task to work on.
 
 The necessary backlog size probably depends on things like preparation effort, team throughput, and how long people go on holiday or disappear into back-to-back meetings for.

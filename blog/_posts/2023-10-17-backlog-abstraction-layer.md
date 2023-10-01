@@ -17,20 +17,15 @@ image: leaves.jpg
 
 [The infinite backlog problem](infinite-backlog)
 describes how ‘stakeholders’ pollute software development teams’ backlogs with feature requests, and the waste that causes.
-Development teams need small backlogs.
+Development teams need to [shrink their backlogs](backlog-shrinkage).
 
 ## Just enough backlog
 
-Developers only need items on the backlog _just in time_:
-in theory, they only need one item to start next, which the product manager then immediately replaces with the next thing to work on after that.
-In an ideal world, with a [two-minute product manager](two-minute-rule),
-developers wouldn’t need a backlog at all.
-In practice, teams need to queue up some work in advance.
+Developers only need items on the backlog _just in time_.
+In an ideal world, developers wouldn’t need a backlog at all.
+In practice, it takes time to decide what to work on next, and split the work into development-sized chunks, so teams need to queue up some work in advance.
 
-Scrum teams who use two-week sprints end up with at least the next sprint on their backlog.
-If they switch to more frequent releases, they could reduce the backlog to a week’s work.
-
-Teams that also avoid large development teams can reduce the backlog even further.
+A small team that plans a week ahead only needs a small backlog.
 A week’s work for 4-6 developers leaves so few backlog items that you can use really simple tools, and have much shorter meetings.
 
 The small backlog solution requires two things:
@@ -69,9 +64,12 @@ And then you add another layer of abstraction.
 
 After grouping various features into _data export features in general_,
 you can recite the standard product management inquiry: _what problem do you want to solve?_
-This reframes the abstract feature as an [opportunity](product-documents#opportunity):
-_sharing data with other people_ or _using multiple software tools_, for example,
+This reframes the abstract feature as an [opportunity](product-documents#opportunity).
+
+For example, _data export_ becomes _sharing data with other people_ or _using multiple software tools_, 
 or however else your customers talk about their corresponding problems, frustrations and needs.
+As with the feature hierarchy, you can also organise these opportunities into a hierarchy of opportunties at difference levels of abstraction,
+i.e. an [opportunity solution tree](https://www.producttalk.org/opportunity-solution-tree/).
 
 Ironically, programmers love both tree structures and 
 [extra levels of abstraction](https://en.wikipedia.org/wiki/Fundamental_theorem_of_software_engineering),

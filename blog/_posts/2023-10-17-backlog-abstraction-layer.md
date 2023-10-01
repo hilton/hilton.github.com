@@ -12,7 +12,8 @@ image: leaves.jpg
 
 {:.series}
 1. [Infinite backlog problem](infinite-backlog)
-2. Backlog abstraction layer ←
+2. [Incredible shrinking backlog](backlog-shrinkage)
+3. Backlog abstraction layer ←
 
 [The infinite backlog problem](infinite-backlog)
 describes how ‘stakeholders’ pollute software development teams’ backlogs with feature requests, and the waste that causes.

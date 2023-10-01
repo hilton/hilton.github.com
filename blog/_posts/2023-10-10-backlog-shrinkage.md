@@ -1,9 +1,14 @@
 ---
 title: The incredible shrinking backlog
-description: Why you no longer need such a long backlog
+description: Why you don’t need such a big backlog
 layout: hh
 tags: product delivery
+image: minature-people.jpg
 ---
+
+![](minature-people.jpg)
+
+[Etactics Inc](https://unsplash.com/photos/MC8TXw4UWPI){:.photocredit}
 
 {:.series}
 1. [Infinite backlog problem](infinite-backlog)

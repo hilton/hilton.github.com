@@ -14,6 +14,7 @@ css: "article p:has(img) { margin:15px 0; } article img { border: 1px solid #ddd
 3. [Cycle](cycle-review)
 4. Kitemaker ←
 5. [Orbit](orbit-review)
+6. Airfocus
 
 [Kitemaker](https://kitemaker.co/) describes itself in its
 [product documentation](https://guide.kitemaker.co/about) as:

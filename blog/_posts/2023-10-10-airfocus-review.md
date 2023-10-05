@@ -7,6 +7,15 @@ css: "article p:has(img) { margin:15px 0; } article img { border: 1px solid #ddd
 image: oppportunity-table.png
 ---
 
+{:.series}
+1. [Delibr](delibr-views)
+2. [Qatalog](qatalog-review)
+3. [Collato](collato-review)
+3. [Cycle](cycle-review)
+4. [Kitemaker](kitemaker-review)
+5. [Orbit](orbit-review)
+6. Airfocus ←
+
 [Airfocus](https://airfocus.com) offers a platform for end-to-end product management work.
 Unlike [Orbit](orbit-review)’s simple and focused experience,
 Airfocus chooses flexibility, and offers product teams the same kind of data model configuration as

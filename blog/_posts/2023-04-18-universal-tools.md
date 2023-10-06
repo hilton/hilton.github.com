@@ -39,7 +39,7 @@ Significantly, a _card_ on a Trello board didn’t care whether it represented a
 This meant that you could use a Trello board to manage different units of work equally well, and use multiple boards for different timescales:
 one for a twelve-month roadmap and another for week-long product increment.
 
-By releasing its boards from any particular process, Trello allowed teams to decide for themselves what coloured card labels _mean_, for example, and how to use each board.
+By freeing its boards from any particular process, Trello allowed teams to decide for themselves what coloured card labels _mean_, for example, and how to use each board.
 This resembles the flexibility that comes from making every field on a form optional, avoiding the bad data that comes from forcing people to enter _unknown_ or other garbage data.
 
 Simplification and a higher standard of user experience than usual in business software resulted in more joy and better collaboration.
@@ -52,9 +52,9 @@ the best new thing in product development since Jira.
 While Trello offered a simpler alternative to Jira and other project management tools, it didn’t displace
 Atlassian’s
 [Confluence](https://en.wikipedia.org/wiki/Confluence_(software)), or other wikis.
-More recently, a different tool did for documents what Trello did for tasks, adding structured data, custom fields and various views including Kanban boards:
-[Notion](https://en.wikipedia.org/wiki/Notion_(productivity_software)), released in 2016.
-Notion introduced native functionality for the structured data that Confluence only made possible via awkward plugins and macros.
+More recently, [Notion](https://en.wikipedia.org/wiki/Notion_(productivity_software))
+did for documents what Trello did for tasks, adding structured data, custom fields and various views including Kanban boards.
+Notion, released in 2016, introduced native functionality for the structured data that Confluence only made possible via awkward plugins and macros.
 
 Like Trello, Notion gave business users generic functionality with excellent user experience, resulting in a powerful popular collaboration tool.
 This makes Notion a _good enough_ generic alternative to the dedicated product management tools, for most of the units of work hierarchy:
@@ -63,7 +63,7 @@ This makes Notion a _good enough_ generic alternative to the dedicated product m
 > product → roadmap → theme → epic → user story
 
 With this style of general-purpose tool that mixes structured and unstructured data and documents, you can more easily give all stakeholders access to product development artefacts all levels.
-Wel, all levels except code: you still need dedicated source code version control, but only programmers need to see this level.
+Well, all levels except code: you still need dedicated source code version control, but only programmers need to see this level.
 
 ## New directions
 
@@ -73,6 +73,7 @@ newer companies are discovering new directions for product teams’ productivity
 
 * [Delibr](delibr-views) enhances a Notion-style combination of documents, metadata and views with functionality for product management, such as decision-tracking and opportunity solution trees
 * [Collato](https://collato.com/) enhances a Miro/Mural-style canvas with cards that represent documents from existing tools, such as Google Docs
+* [Kitemaker](kitemaker-review) comes closest to this idea of a universal tool, with an end-to-end collaboration tool that integrates with GitHub and GitLab.
 
-Meanwhile, perhaps someone somewhere plans to launch a general-purpose tool that spans all types of units of work _including_ source code, and offers better user experiences and collaboration than
+Meanwhile, perhaps someone somewhere plans to launch a tool that spans all types of units of work _including_ source code, and offers better user experiences and collaboration than
 [Git](https://en.wikipedia.org/wiki/Git).

@@ -54,7 +54,7 @@ When every user story has several related tasks, the tasks pollute work tracking
 
 A [pull request](https://martinfowler.com/bliki/PullRequest.html)
 (in [GitHub](https://en.wikipedia.org/wiki/GitHub), 
-a.k.a. _merge request_ in GitLab), 
+a.k.a. _merge request_ in [GitLab](https://about.gitlab.com/)), 
 proposes a set of code changes from one developer, typically as part of work on a user story.
 Structurally, this overlaps with development tasks so much that you probably don’t need both.
 

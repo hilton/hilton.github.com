@@ -3,9 +3,12 @@ title: Feature lifecycle management
 description: Why existing product development tools neglect features
 layout: hh
 tags: product
+image: eggs.jpg
 ---
 
-<!-- -> 592 words -->
+![](eggs.jpg)
+
+[Shubham Dhage](https://unsplash.com/photos/qgo7Tt_NWD0){:.photocredit}
 
 As product management tools mature, they sometimes expand into designers’ or developers’ work.
 Covering additional [types of unit of work](units-of-work),

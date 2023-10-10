@@ -4,7 +4,7 @@ description: A first look at a tool for integrated product discovery
 layout: hh
 tags: product review
 image: cycle/feedback.png
-css: "article img { border: 1px solid #ddd; } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
+css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 
 {:.series}

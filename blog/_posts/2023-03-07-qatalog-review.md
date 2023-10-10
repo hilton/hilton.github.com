@@ -4,7 +4,7 @@ description: A first look at a new way to organise everything
 layout: hh
 tags: productivity review
 image: qatalog/fields.png
-css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
+css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 ---
 
 {:.series}

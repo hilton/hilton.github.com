@@ -14,7 +14,7 @@ image: orbit/feedback.png
 3. [Cycle](cycle-review)
 4. [Kitemaker](kitemaker-review)
 5. Orbit ←
-6. Airfocus
+6. [Airfocus](airfocus-review)
 
 [Orbit](https://www.useorbit.io) manages _research_, _strategy_ and _planning_ data, 
 which you use to track the product lifecycle from customer feedback to roadmaps.

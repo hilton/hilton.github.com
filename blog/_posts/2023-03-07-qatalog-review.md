@@ -14,7 +14,7 @@ css: "img { border: 1px solid #ddd; } a:hover img { box-shadow: 0 0 6px 2px #428
 3. [Cycle](cycle-review)
 4. [Kitemaker](kitemaker-review)
 5. [Orbit](orbit-review)
-6. Airfocus
+6. [Airfocus](airfocus-review)
 
 [Qatalog](https://qatalog.com) offers an out-of-the box business intranet for everyone who finds Notion too unstructured.
 Qatalog combines data and documents with features such as task management, discussion threads and integrations.

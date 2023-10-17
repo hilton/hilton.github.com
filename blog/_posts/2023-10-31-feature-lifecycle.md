@@ -14,8 +14,9 @@ As product management tools mature, they sometimes expand into designers’ or d
 Covering additional [types of unit of work](units-of-work),
 makes these tools more useful and [more universal](universal-tools),
 albeit at the cost of increased complexity.
-Product management tools can also expand in another dimension.
+Product management tools can also expand in a different dimension.
 
+{:#avoidance}
 ## Feature-avoidance
 
 Product managers often avoid talking about _features_, in favour of objectives-based planning, and outcome-based now/next/later roadmaps.
@@ -28,6 +29,7 @@ Designers craft interactions and developers decompose user stories, as they work
 While the software they design and build certainly has _functionality_, the development team doesn’t necessarily identify specific features.
 Despite this, features exist, and touch many product processes.
 
+{:#lifecycle}
 ## Feature lifecycle
 
 Each product feature, sometimes more generically called a _capability_, has its own lifecycle, from conception to decommissioning:
@@ -54,13 +56,14 @@ A feature lifecycle describes a kind of enduring identity for features - what de
 In practice, features have a weak kind of identity, with inconsistent naming and no explicit identification across lifecycle phases.
 Similarly, features manifest weakly in product development tooling.
 
+{:#tooling}
 ## Feature management tooling
 
 Managing the whole feature lifecycle requires a long list of tools, even after excluding designers’ and developers’ primary tools.
 Features appear in:
 
 1. release planning timelines, e.g. [Airfocus](airfocus-review)
-2. feature flags, e.g. [Unleash](https://www.getunleash.io)
+2. feature toggles, e.g. [Unleash](https://www.getunleash.io)
 3. feature documentation, e.g. [Read the Docs](https://about.readthedocs.com)
 4. release notes (change log), e.g. [LaunchNotes](https://www.launchnotes.com)
 5. customer research/feedback, e.g. [Orbit](orbit-review), [Jimo](https://www.linkedin.com/company/usejimo/)

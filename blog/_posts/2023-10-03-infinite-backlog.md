@@ -12,7 +12,7 @@ image: traffic-jam.jpg
 
 {:.series}
 1. Infinite backlog problem ←
-2. Incredible shrinking backlog
+2. [Incredible shrinking backlog](backlog-shrinkage)
 3. Backlog abstraction layer
 
 Software development teams typically use a backlog to manage upcoming work.

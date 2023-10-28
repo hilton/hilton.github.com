@@ -3,6 +3,7 @@ title: Feature rollout
 description: Feature lifecycle steps that follow release
 layout: hh
 tags: product
+image: duck.jpg
 ---
 
 ![](duck.jpg)

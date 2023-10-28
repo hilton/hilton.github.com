@@ -3,7 +3,7 @@ title: Feature release
 description: Feature lifecycle steps that precede release
 layout: hh
 tags: product
-image: ship.jpg
+image: ducklings.jpg
 ---
 
 ![](ducklings.jpg)

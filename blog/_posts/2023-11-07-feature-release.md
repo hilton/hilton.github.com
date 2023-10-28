@@ -6,9 +6,10 @@ tags: product
 image: ship.jpg
 ---
 
-![](ship.jpg)
-
-[Venti Views](https://unsplash.com/photos/1cqIcrWFQBI){:.photocredit}
+{:.series}
+1. [Feature lifecycle](feature-lifecycle)
+2. Feature release ←
+3. Feature rollout
 
 Product managers [don’t talk about much features](feature-lifecycle#avoidance), 
 but a _feature_ remains a useful abstraction for product work outputs.
@@ -62,7 +63,7 @@ A product manager will often have already identified these benefits during disco
 
 ## Marketing
 
-Most marketing activities happen after a feature’s release, assuming that you don’t market
+Most marketing activities happen _after_ a feature’s release, assuming that you don’t market
 [vapourware](startup-ideas-are-cheap).
 However, marketing campaigns require substantial preparation before release day, to create content and plan publication and events.
 
@@ -75,5 +76,5 @@ Fortunately, any release significant enough to justify a marketing launch also j
 Similarly, some support activities precede a feature’s release.
 The support team needs to understand the new feature, and ideally learn how to use it before the first customer support request.
 
-Support teams impose a different kind of deadline: unlike marketing, delaying a release doesn’t affect them much, but releasing a feature earlier than expected may catch them out.
+Support teams impose a different kind of deadline: unlike marketing, delaying a release doesn’t affect them much, but releasing a feature _earlier_ than expected may catch them out.
 Feature flags help, of course, but don’t substitute for coordinating with customer support to help them prepare.

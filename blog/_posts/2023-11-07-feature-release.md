@@ -6,6 +6,10 @@ tags: product
 image: ship.jpg
 ---
 
+![](ducklings.jpg)
+
+[Charles Jackson](https://unsplash.com/photos/PxSGxglfCbA){:.photocredit}
+
 {:.series}
 1. [Feature lifecycle](feature-lifecycle)
 2. Feature release ←

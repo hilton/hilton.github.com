@@ -5,9 +5,9 @@ layout: hh
 tags: product
 ---
 
-![](ship.jpg)
+![](duck.jpg)
 
-[Venti Views](https://unsplash.com/photos/1cqIcrWFQBI){:.photocredit}
+[Laszlo Glatz](https://unsplash.com/photos/hdnjx9kwgrs){:.photocredit}
 
 *[B2B]: business-to-business - refers to software for companies, as opposed to B2C (business-to-customer) consumer software
 

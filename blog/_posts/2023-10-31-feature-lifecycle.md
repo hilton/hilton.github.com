@@ -69,7 +69,7 @@ Features appear in:
 2. feature toggles, e.g. [Unleash](https://www.getunleash.io)
 3. feature documentation, e.g. [Read the Docs](https://about.readthedocs.com)
 4. release notes (change log), e.g. [LaunchNotes](https://www.launchnotes.com)
-5. customer research/feedback, e.g. [Orbit](orbit-review), [Jimo](https://www.linkedin.com/company/usejimo/)
+5. customer research/feedback, e.g. [ProdPad](https://www.prodpad.com/), [Orbit](orbit-review), [Jimo](https://www.linkedin.com/company/usejimo/)
 6. usage analytics, e.g. [Heap](https://www.heap.io/), [Amplitude](https://amplitude.com)
 7. issue trackers, e.g. [Linear](https://linear.app/)
 

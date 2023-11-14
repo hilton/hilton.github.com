@@ -13,7 +13,7 @@ image: eggs.jpg
 {:.series}
 1. Feature lifecycle ←
 2. [Feature release](feature-release)
-3. Feature rollout
+3. [Feature rollout](feature-rollout)
 
 As product management tools mature, they sometimes expand into designers’ or developers’ work.
 Covering additional [types of unit of work](units-of-work),

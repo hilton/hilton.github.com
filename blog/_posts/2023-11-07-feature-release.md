@@ -13,7 +13,7 @@ image: ducklings.jpg
 {:.series}
 1. [Feature lifecycle](feature-lifecycle)
 2. Feature release ←
-3. Feature rollout
+3. [Feature rollout](feature-rollout)
 
 Product managers [don’t talk about much features](feature-lifecycle#avoidance), 
 but a _feature_ remains a useful abstraction for product work outputs.

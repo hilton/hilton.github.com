@@ -13,7 +13,7 @@ image: minature-people.jpg
 {:.series}
 1. [Infinite backlog problem](infinite-backlog)
 2. Incredible shrinking backlog ←
-3. Backlog abstraction layer
+3. [Backlog abstraction layer](backlog-abstraction-layer)
 
 In the past, software development teams had shockingly long backlogs, and planned tasks for months or years ahead.
 Today, development teams still have longer backlogs than they need.

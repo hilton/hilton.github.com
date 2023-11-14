@@ -13,7 +13,7 @@ image: traffic-jam.jpg
 {:.series}
 1. Infinite backlog problem ←
 2. [Incredible shrinking backlog](backlog-shrinkage)
-3. Backlog abstraction layer
+3. [Backlog abstraction layer](backlog-abstraction-layer)
 
 Software development teams typically use a backlog to manage upcoming work.
 The backlog typically breaks this [work into units](units-of-work), such as user stories.

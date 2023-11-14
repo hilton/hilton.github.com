@@ -71,7 +71,7 @@ Feature retirement, also called _sunsetting_, may require as much planning and m
 In B2B, it may even require longer timescales, so that customers plan to change how they work.
 
 Retirement revisits all of the previous steps, to manage the change in product capability.
-It essentially via a new _negative feature_ that removes an existing feature.
+It essentially introduces a new _negative feature_ that removes an existing feature.
 
 ## End-to-end feature management
 

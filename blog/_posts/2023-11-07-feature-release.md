@@ -33,14 +33,14 @@ This article explores the feature lifecycle steps that precede the _release_ mil
 ## Design
 
 Designers, collaborating in a product trio, design solutions and create new features.
-While designers may be happy designing anonymous features on a canvas, product managers need to connect them to their upstream and downstream work, and talk about them.
+While designers may like designing anonymous features on a canvas, product managers need to connect them to their upstream and downstream work, and talk about them.
 Product managers care about many aspects of these potential solutions to customer needs,
 starting with the features’ _names_.
 
 ## Implementation
 
 Developers also talk about features during design, and their potential implementation work.
-Developers might only loosely relate features to user stories, but they need to be more precise to use feature toggles.
+Developers might only loosely relate features to user stories, but they need more precision to use feature toggles.
 
 [Feature toggles](https://en.wikipedia.org/wiki/Feature_toggle)
 enable controlled customer rollout, independently of releases, using a unique identifier for each feature that the team can enable or disable.

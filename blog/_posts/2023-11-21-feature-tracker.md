@@ -10,6 +10,12 @@ image: library-reference.jpg
 
 [Monjur Hasan](https://unsplash.com/photos/IZyAtxoPX98){:.photocredit}
 
+{:.series}
+1. [Feature lifecycle](feature-lifecycle)
+2. [Feature release](feature-release)
+3. [Feature rollout](feature-rollout)
+4. Feature trackers ←
+
 A sufficiently well-organised product manager might like to manage the full
 [feature lifecycle](feature-lifecycle), so they could answer feature-level questions.
 

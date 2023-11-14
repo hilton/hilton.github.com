@@ -16,6 +16,7 @@ image: duck.jpg
 1. [Feature lifecycle](feature-lifecycle)
 2. [Feature release](feature-release)
 3. Feature rollout ←
+4. Feature trackers
 
 Despite product managers’ [feature avoidance](feature-lifecycle#avoidance), 
 _feature_ remains a useful abstraction for product outputs.

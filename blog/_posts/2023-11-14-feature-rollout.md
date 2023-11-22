@@ -16,7 +16,7 @@ image: duck.jpg
 1. [Feature lifecycle](feature-lifecycle)
 2. [Feature release](feature-release)
 3. Feature rollout ←
-4. Feature trackers
+4. [Feature trackers](feature-tracker)
 5. Feature analytics
 
 Despite product managers’ [feature avoidance](feature-lifecycle#avoidance), 

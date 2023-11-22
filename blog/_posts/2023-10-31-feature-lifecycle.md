@@ -14,7 +14,7 @@ image: eggs.jpg
 1. Feature lifecycle ←
 2. [Feature release](feature-release)
 3. [Feature rollout](feature-rollout)
-4. Feature trackers
+4. [Feature trackers](feature-tracker)
 5. Feature analytics
 
 As product management tools mature, they sometimes expand into designers’ or developers’ work.

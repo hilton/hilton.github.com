@@ -3,7 +3,12 @@ title: Feature roadmap transformation
 description: How to migrate to a now/next/later product roadmap, one step at a time
 layout: hh
 tags: product roadmaps
+image: butterfly.jpg
 ---
+
+![](butterfly.jpg)
+
+[Kyle Glenn](https://unsplash.com/photos/hwl01nLxtA8){:.photocredit}
 
 [Feature lifecycle management](feature-lifecycle) helps internal stakeholders prepare for
 [feature rollout](feature-rollout).
@@ -12,7 +17,7 @@ It also creates the opportunity to transform your roadmap.
 [Ditch the Timeline Roadmap](https://www.prodpad.com/resources/guides/ditch-the-timeline-roadmap/)
 explains the benefits of a lean roadmap, and how to get people on board with the idea, but not how to get there.
 
-> Request book by ISBN, Share bookshelfie photo, Update status in The StoryGraph
+![Roadmap features: Request book by ISBN, Share bookshelfie photo, Update status in The StoryGraph](roadmap/features.webp)
 
 You could do worse than throwing your existing feature-based timeline roadmap away, and starting from scratch, but you might prefer to start from your existing feature roadmap.
 Use the following steps to rephrase your plan instead of discarding it.
@@ -24,7 +29,7 @@ Start by making the dates less important, by replacing each feature with the und
 This step assumes you know why you put those features on the roadmap; if you didn’t, figure that out first.
 It works because these opportunities typically have a broader scope, and longer lifetime, than any particular roadmap item.
 
-> Discover books, Connect with other readers
+![Roadmap opportunities: Discover books, Connect with other readers](roadmap/opportunities.webp)
 
 Replacing features with opportunities improves the roadmap in two ways:
 
@@ -39,7 +44,7 @@ This means that instead of planning a feature (with a specific scope), your road
 After you have replaced the features, it makes less sense to plan to work on a problem until a particular date (no longer a release date).
 Now you can reduce the time scale precision to whole calendar months.
 
-> Discover books, Connect with other readers
+![Roadmap opportunities by month: Discover books, Connect with other readers](roadmap/months.webp)
 
 Instead of showing how many days you plan to work on a feature for, the roadmap now shows in which months you’ll work on which opportunity.
 This works works because a product strategy roadmap doesn’t need to show how much effort you’ll spend on each problem.
@@ -58,7 +63,7 @@ You could stop here, with a greatly-improved roadmap, but you’ll get even more
 In practice, these three buckets may correspond to the opportunities you expect to work on this quarter, next quarter and 6-12 months from now.
 But not necessarily: the _later_ column could look further ahead, as well as including multiple options.
 
-> Discover books, Connect with other readers, Acquire books, Trade books
+![Now/next/later roadmap: Discover books, Connect with other readers, Acquire books, Trade books](roadmap/now-next-later.webp)
 
 On a date-based roadmap, you can’t add options for 6-12 months in the future without them looking like definite plans.
 Switching from an absolute timescale to this relative prioritisation makes it easier to add options in the _later_ column, and for stakeholders to understand that they don’t represent commitments.

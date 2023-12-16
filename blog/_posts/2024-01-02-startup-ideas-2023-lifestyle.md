@@ -7,8 +7,6 @@ image: light-bulbs-yellow-orange-green.jpg
 css: "body.writing h3 {clear:none}"
 ---
 
-<!-- <= 639 words -->
-
 ![](light-bulbs-yellow-orange-green.jpg)
 
 [Daniele Franchi](https://unsplash.com/photos/GbAEJUJKJ88){:.photocredit}

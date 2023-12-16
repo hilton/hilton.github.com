@@ -1,5 +1,5 @@
 ---
-title: 2023 business startup company ideas
+title: 2023 startup ideas for business software
 description: Another year, more free ideas for the world of work
 layout: hh
 tags: startups
@@ -19,7 +19,8 @@ image: light-bulbs-office.jpg
 6. [2020 ideas](startup-ideas-2020)
 7. [2021 ideas](startup-ideas-2021)
 8. [2022 ideas](startup-ideas-2022)
-9. 2023 ideas ←
+9. 2023 ideas (business) ←
+10. 2023 ideas (lifestyle)
 
 Startup ideas have [no intrinsic business value](startup-ideas-are-cheap), but we can still enjoy them.
 And from a product management perspective, they offer a regular reminder to separate the solution idea from the problem it solves.
@@ -85,3 +86,5 @@ Solve the problem of not knowing in advance which potentially respectable compan
 For example, run a service like [Glassdoor](https://en.wikipedia.org/wiki/Glassdoor)
 but for insider reports on how bad companies are at software and data privacy.
 Share how this affects customers whenever the primary product or service fails, such as when buying airline tickets.
+
+_For more occasional start-up ideas, follow [@PeterHilton](https://x.com/peterhilton) on X._

@@ -1,6 +1,6 @@
 ---
 title: 2023 startup ideas for business software
-description: Another year, more free ideas for the world of work
+description: Another year, more free ideas for the world of work from the Twitter archive
 layout: hh
 tags: startups
 image: light-bulbs-office.jpg

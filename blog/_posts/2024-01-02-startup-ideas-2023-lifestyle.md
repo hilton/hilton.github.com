@@ -1,6 +1,6 @@
 ---
 title: 2023 startup ideas for lifestyle products
-description: Another year, more free ideas
+description: Another year, more free ideas from the Twitter archive
 layout: hh
 tags: startups
 image: light-bulbs-yellow-orange-green.jpg

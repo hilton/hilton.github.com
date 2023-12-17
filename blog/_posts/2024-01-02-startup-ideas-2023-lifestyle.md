@@ -23,55 +23,57 @@ css: "body.writing h3 {clear:none}"
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. 2023 lifestyle ideas ←
 
-[You wouldn’t pay anyone for just a startup idea](startup-ideas-are-cheap), especially a stupid one,
-but you might have the product management habit of thinking about the impact of solving a problem,
-and trying to think of a feasible solution.
+[You wouldn’t pay anyone for a startup idea](startup-ideas-are-cheap), especially a stupid one,
+but you might have the product management habit of thinking about the impact of solving a problem.
 
 ## First-world problems
 
 ### Watch List
 
-People have terrible memories, and struggle to remember even one thing, such _don’t forget to take the shopping list_.
-However, a shopping list on a smartphone doesn’t leave hands free for holding a basket and picking up shopping.
-Instead, make it easy to refer to notes on the move, when you can’t use a phone.
-For example, an Apple Watch app so you can _Send list to watch_ and show shopping list items one at a time in the supermarket.
+People have terrible memories, so we write lists, 
+but a shopping list on a smartphone doesn’t leave hands free for holding a basket and picking up shopping.
+Make it easy to refer to notes on the move, when you can’t use a phone.
+For example, build a watch app so you can _Send list to watch_ and read shopping list items on your wrist.
 
 ### Supermarket Treasure Hunt
 
-Supermarkets in foreign countries make it hard to find things, by challenging your assumptions about what shape packaging they come in, or simply not stocking them.
-Produce a supermarket guide app for foreigners that (compared to where you live) tells you what you won’t find, what they disguised in different packaging, what they put in the ‘wrong’ section, and what you didn’t expect to find.
+Supermarkets in foreign countries make it hard to find products, by disguising their packaging, or not stocking them.
+Produce a supermarket guide for foreigners that (compared to where they live) covers what they won’t find, what ythey’ll find in the ‘wrong’ packaging, or the ‘wrong’ section, and what they didn’t expect to find.
 
 ### Keyboard Kotatsu
 
-When you work from home during the winter, you might get cold hands when you sit still at your desk for long periods.
-Keep hands warm for typing with targeted heating, such as heated keyboards or above-keyboard heat lamps.
-Touch typists might like a giant keyboard mitten enclosing keyboard, trackpad, and both hands -
-like a desktop version of a Japanese [kotatsu](https://en.wikipedia.org/wiki/Kotatsu).
+People work from home in cold places either spend a lot on heating, or get cold hands sitting at their desks.
+Computers users need targeted heating, such as heated keyboards or heat lamps.
+Touch typists get a giant mitten that encloses keyboard, trackpad, and both hands -
+a desktop version of a Japanese [kotatsu](https://en.wikipedia.org/wiki/Kotatsu).
 
 ### Parking Poseur
 
-Some car drivers face disappointment every time their passengers fail to complement their excellent parking skills.
-Give them recognition with car parking cameras that use AI to grade their parking skill (parking space alignment etc) and loudly announce the score to the car’s passengers.
+Car drivers risk disappointment every time their passengers fail to complement their parking skills.
+Give them recognition with parking cameras that use AI to grade their parking skill and announce their score to the passengers.
 
+### Merlin Language ID
+
+Everyone evesdrops.
+Satisfy your curiosity about overheard foreign languages, with an app like
+[Merlin Bird ID](https://merlin.allaboutbirds.org) for foreign languages.
+The pro version does regional accents.
+
+### Mute Strangers
+
+Everyone else talks too loud.
+Develop AI noise-cancelling headphones that block speech from people not in your Favourites list.
 
 ## Entertainment
 
-Entertainment ideas all address the same problems:
-everyone wants entertainment, and loves originally, but can’t find any new ideas.
+Entertainment has two problems: everyone loves original ideas, but no-one has any.
 
-### Grand IT Designs
+### Cocktail Stories
 
-While corporate and government IT departments struggle with huge projects and bigger overruns,
-civilians don’t get to enjoy the drama, or even know what goes on.
-Fill the gap with a television series like [Grand Designs](https://en.wikipedia.org/wiki/Grand_Designs), 
-but for enterprise IT software rewrite projects.
-
-### Incredible Shrinking Discs
-
-Older people with large CD collections don’t want to pay for music streaming services,
-when they already paid for so much music that it takes years to listen to every album they own _once_.
-Meanwhile, a large music collection might take up too much storage to fit on a smartphone at audiophile quality.
-Instead, develop audio compression that reduces audio quality according to the listener’s age, removing frequencies they can no longer hear, so it all fits on a smartphone.
+Retell forgotten stories, instead of making up new ones.
+For example, produce a television series where each episode dramatises a classic cocktail’s origin story,
+such as Tiki bar classic the [Zombie](https://en.wikipedia.org/wiki/Zombie_(cocktail)),
+possibly invented in response to a hung-over customer who walked into a bar and said, ‘I feel like a zombie’.
 
 ### Pod Farce
 
@@ -80,11 +82,27 @@ Solve the originality problem by copying
 while raising the stakes.
 Use the concept - bothering people - but this time you play a orca, or the whole pod in co-operative mode, that harasses yacht harbours.
 
-### Cocktail Stories
+### Grand IT Designs
 
-Retell forgotten stories, instead of making up new ones.
-For example, produce a television series where each episode dramatises a classic cocktail’s origin story,
-such as Tiki bar classic the [Zombie](https://en.wikipedia.org/wiki/Zombie_(cocktail)),
-possibly invented in response to a hung-over customer who walked into a bar and said, ‘I feel like a zombie’.
+While corporate IT departments struggle with project overruns,
+civilians miss out on the drama.
+Create a television series like [Grand Designs](https://en.wikipedia.org/wiki/Grand_Designs), 
+but for enterprise IT software rewrite projects.
+
+### Shrinking Discs
+
+People with large CD collections don’t pay for music streaming,
+because they already paid for more music than they can listen to in a year.
+Develop audio compression that reduces audio quality according to the listener’s age, removing frequencies they can no longer hear, so it all fits on a smartphone.
+
+## Social networks
+
+Fix diversity with a social network where everyone identifies the primary topic they post about, 
+and can only follow one person on each topic, so you can *only* follow a diverse group.
+
+Reintroduce an enabling constraint to social media, like Twitter’s original 140-character limit,
+with a social network where posts must have exactly ten words
+(like the original [Ten Word Wiki](https://www.neatorama.com/2010/01/29/ten-word-wiki/)).
+
 
 _For more occasional start-up ideas, follow [@PeterHilton](https://x.com/peterhilton) on X._

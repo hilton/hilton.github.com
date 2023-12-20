@@ -10,6 +10,13 @@ image: construction.jpg
 
 [Di](https://unsplash.com/photos/F1MlxlEpaOk){:.photocredit}
 
+{:.series}
+1. [Feature lifecycle](feature-lifecycle)
+2. [Feature release](feature-release)
+3. [Feature rollout](feature-rollout)
+4. [Feature trackers](feature-tracker)
+5. [Feature analytics](feature-analytics)
+6. Feature as construct ←
 
 Features don’t exist.
 Product managers focus on the business _outcomes_,

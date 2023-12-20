@@ -15,7 +15,8 @@ image: eggs.jpg
 2. [Feature release](feature-release)
 3. [Feature rollout](feature-rollout)
 4. [Feature trackers](feature-tracker)
-5. Feature analytics
+5. [Feature analytics](feature-analytics)
+6. Feature as construct
 
 As product management tools mature, they sometimes expand into designers’ or developers’ work.
 Covering additional [types of unit of work](units-of-work),

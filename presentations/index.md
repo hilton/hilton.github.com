@@ -537,6 +537,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
+* [‘Feature’ is a construct](feature-construct)
 * [Overthinking numbers and strings](numbers-strings)
 * [Musical ensemble safety](ensemble-safety)
 * [Euro English for software developers](euro-english) -

@@ -3,7 +3,13 @@ title: ‘Feature’ is a construct
 description: Why features would make product development easier, but don’t exist
 layout: hh
 tags: product
+image: construction.jpg
 ---
+
+![](construction.jpg)
+
+[Di](https://unsplash.com/photos/F1MlxlEpaOk){:.photocredit}
+
 
 Features don’t exist.
 Product managers focus on the business _outcomes_,

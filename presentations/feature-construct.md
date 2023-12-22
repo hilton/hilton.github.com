@@ -11,16 +11,16 @@ But although everyone talks about features from time to time,
 we never really make them concrete.
 Instead, we construct features on the fly,
 for the length of a conversation.
-They don’t really exist.
 
-When we build software, we juggle roadmaps,
-tests, deployments, analytics and support requests.
-Software features tie all of these together,
-but not explicitly.
-Instead, we don’t have a clear idea about which features are released,
+This talk explains how we make software development difficult by failing to pin down features.
+We juggle roadmaps, tests, deployments, analytics and support requests,
+without clearly-defined software features to tie them together.
+We don’t have a clear idea about which features are released,
 enabled, documented, popular, broken, unreliable or abandoned.
-Because features don’t exist.
 
+We can have better conversations,
+and find common ground with more people,
+by paying attention to feature lifecycles.
 Attendees will broaden their perspective on software development,
 and learn about how their work connects to other people’s.
 They will discover a new way to have a positive impact in their team and on their career.

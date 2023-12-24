@@ -12,9 +12,10 @@ we never really make them concrete.
 Instead, we construct features on the fly,
 for the length of a conversation.
 
-This talk explains how we make software development difficult by failing to pin down features.
+This talk explains how we make our lives difficult by failing to pin down features,
+throughout software development.
 We juggle roadmaps, tests, deployments, analytics and support requests,
-without clearly-defined software features to tie them together.
+without following features from one conversation to another.
 We don’t have a clear idea about which features are released,
 enabled, documented, popular, broken, unreliable or abandoned.
 

@@ -3,9 +3,12 @@ title: Extreme product development
 description: New approaches, yet to become mainstream
 layout: hh
 tags: product
+image: snowboard.jpg
 ---
 
-<!-- <= 635 words -->
+![](snowboard.jpg)
+
+[Andrew Hughes](https://unsplash.com/photos/xrdI3SzgOAo){:.photocredit}
 
 <!-- 
 1. Remote-first
@@ -26,7 +29,7 @@ user stories, solution spikes, pair programming, unit tests, and frequent releas
 Since then, new extreme practices have emerged.
 
 {:.big style="max-width:31em"}
-> sometimes I've believed as many as six impossible things before breakfast
+> Sometimes I've believed as many as six impossible things before breakfast
 >
 > \- Alice,
 > [Through the Looking-Glass](https://en.wikiquote.org/wiki/Through_the_Looking-Glass#Chapter_5:_Wool_and_Water)

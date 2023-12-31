@@ -103,7 +103,7 @@ and an environment that won’t punish anyone who does become blocked.
 {:#bugs}
 ## Zero bug target
 
-[Zero-bug targets](zero-bug-policy) reduce waste (like [short backlogs](#backlog)).
+[Zero-bug targets](zero-bug-policy) reduce waste (like [short backlogs](#backlog) do).
 More importantly, they reduce quality surprises that make delivery less predictable
 and bugs that invalidate negative product outcomes.
 For this, teams require the autonomy to define their objectives,

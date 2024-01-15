@@ -2,7 +2,7 @@
 title: Product documentation-capability alignment
 description: Fun with product capabilities and Venn diagrams
 layout: hh
-tags: product
+tags: product documentation
 image: blurred-lights.jpg
 ---
 

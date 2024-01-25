@@ -70,7 +70,7 @@ In practice, product managers drown in feature toggle chaos that obfuscates feat
 
 ## Broken features
 
-Customers occasionally that _something doesn’t work_.
+Customers occasionally report that _something doesn’t work_.
 Precisely identifying which ‘something’ broke would help resolve the issue,
 but you can’t just select from a list of all features.
 Because features don’t exist.

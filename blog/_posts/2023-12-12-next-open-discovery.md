@@ -9,7 +9,7 @@ css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1
 
 ![](birds-beach.jpg)
 
-[Drank McKenna](https://unsplash.com/photos/OD9EOzfSOh0){:.photocredit}
+[Frank McKenna](https://unsplash.com/photos/OD9EOzfSOh0){:.photocredit}
 
 Current applications of AI typically produce the same results as existing solutions with less effort, often trading convenience for quality.
 But product innovation gets more interesting  when, instead of refining solutions, it redefines problems.

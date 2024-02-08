@@ -11,6 +11,10 @@ image: bridge.jpg
 
 [Lance Asper](https://unsplash.com/photos/tx3YTxZn6RA){:.photocredit}
 
+{:.series}
+1. [Tana](tana-daily-pages)
+2. Linear ←
+
 [Jira](https://www.atlassian.com/software/jira)
 has become the definitive software project management tool over the last twenty years.
 It organises and visualises development teams’ projects and tasks,

@@ -11,8 +11,8 @@ image: sunrise.jpg
 [Philipp Reiner](https://unsplash.com/photos/qPJ6eRAMmCM){:.photocredit}
 
 {:.series}
-1. Tana ←
-2. Linear
+1. Tana daily pages ←
+2. Linear projects ←
 
 Knowledge workers organise information badly.
 We obsess over tools like Apple Notes and 

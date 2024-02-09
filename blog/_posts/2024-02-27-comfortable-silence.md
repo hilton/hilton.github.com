@@ -9,39 +9,39 @@ We rarely feel calm and relaxed in meetings at work.
 Even regular team meetings can feel forced,
 and nothing like an easy conversation among friends.
 
-The presumption of non-stop _talking_ takes over our meetings.	
-You probably couldn’t stop talking for even five seconds without someone jumping to fill the gap.
+A presumption of non-stop _talking_ has taken over our meetings.	
+You probably can’t stop talking for even five seconds without someone speaking up to fill the gap.
 
 ## Awkward silence
 
 In a group setting, silence makes some people feel uncomfortable,
 while speech provides continuous structure.
-Attendees do need to understand how to follow the meeting and participate,
+This helps attendees, who do need to understand how to follow the meeting and participate,
 but that doesn’t have to only mean talking and listening.
 
 Silence during a meeting feels awkward when you feel lost in it, and don’t know what it means.
-[Awkward silence](https://en.wikipedia.org/wiki/Awkward_silence)
-doesn’t feel _safe_.
+[Awkward silence](https://en.wikipedia.org/wiki/Awkward_silence) doesn’t feel _safe_.
 
 ## Dead air
 
 Only exceptional scenarios _require_ continuous talking.
-For example, radio broadcasters refer to unintentionally broadcast silence as
-[dead air](https://en.wikipedia.org/wiki/Dead_air):   
+Radio broadcasters, for example, refer to unintentionally broadcast silence as
+[dead air](https://en.wikipedia.org/wiki/Dead_air):
 
+{:.big style="max-width:29em"}
 > Among professional broadcasters, dead air is considered one of the worst things that can occur.
 
-As a result, radio DJs master the art of continuous coherence, 
-possibly at the cost of not actually saying much.
-Fortunately, the teams I know don’t livestream their regular meetings,
-and don’t have to worry about this.
+As a result, radio DJs master the art of continuous coherence, even if they don’t actually say much.
+Fortunately, the teams I know don’t livestream their meetings, and don’t have to worry about this.
 Sometimes, we need a break from talking.
 
 ## Time to think
 
-We overuse the term _meeting_, for a wide range of group activities,
-from news updates to practical workshops.
-Sometimes, we use meetings to work on problems together, and need time to:
+We overuse the term _meeting_ for a wide range of group activities,
+from private chats to practical group workshops.
+These different activities have different needs.
+
+When we use meetings to work on problems together, we need time to:
 
 1. ask questions
 2. share ideas
@@ -59,22 +59,34 @@ they can replace awkward silence with _comfortable silence_.
 When team members can share a space without needing someone to talk,
 whether in person or online, they have more options for how to work together.
 
+Once you allow occasional silence into your meetings,
+you also realise how much unnecessary interjections disrupt the meeting’s purpose.
+Too often, the people who _just have to_ comment on everything, have the least to contribute.
+When people can take time to focus on what they’ve just heard,
+they can even stick to a meeting agenda.
+
 Comfortable silence especially helps distributed teams, 
 who otherwise have to explicitly enter or leave an online meeting, start or stop a discussion.
 In this sense, comfortable silence typifies several people working quietly in the same ‘room’.
-Online, it allows distributed team members to keep a meeting open while they work quietly,
+Online, it allows distributed team members to keep a video call open while they work quietly,
 sharing a reassuring presence.
 
 ## Psychological safety
 
-Comfortable silence, like so many signs of a healthy team, depends on psychological safety.
-Without it, people tend to treat a meeting as a performance, where their colleagues will not accept _dead air_.
+Comfortable silence, like many signs of a healthy team, requires psychological safety.
+Without it, people treat a meeting as a performance, for colleagues who won’t accept _dead air_.
 
-Meeting facilitation can help teams who do don’t yet have this.
-When a team doesn’t have comfortable silence,
-a meeting facilitator can temporarily establish it by setting explicit boundaries:
+Without psychological safety, nervousness will make itself heard:
+nervous laughs and awkward jokes escalate a meeting’s awkwardness factor.	
+Without safety no one achieves productivity, let alone their best work.
+
+In the absence of better management, meeting facilitation can help teams get there.
+When they don’t have comfortable silence,
+a meeting facilitator can temporarily establish it by setting boundaries:
 
 > I’ve set a timer for five minutes so let’s use that time to write down your ideas in silence.
 
-The next step comes when a team member suggests the same thing, without needing a facilitator, or even expresses their own need for some time, confident that they can ask for it.
-   
+The next step comes when a team member suggests this without the facilitator, 
+or even confidently expresses their own need for time to think, instead of overthinking the silence.
+
+My former colleague, Maya Nedeljkovich, put it best: ‘psychological safety is the difference between an awkward silence and a comfortable one’.

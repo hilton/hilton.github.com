@@ -1,44 +1,43 @@
 ---
 title: Normalise comfortable silence in team meetings
-description: How psychological safety enables work in teams
+description: How psychological safety enables    teams
 layout: hh
 tags: productivity
 ---
 
 We rarely feel calm and relaxed in meetings at work.
-Even regular team meetings can feel forced,
-and nothing like an easy conversation among friends.
+Even regular team meetings feel forced -
+nothing like an easy conversation with friends.
 
 A presumption of non-stop _talking_ has taken over our meetings.	
-You probably can’t stop talking for even five seconds without someone speaking up to fill the gap.
+You couldn’t stop talking for five seconds without someone jumping in.
 
 ## Awkward silence
 
-In a group setting, silence makes some people feel uncomfortable,
-while speech provides continuous structure.
-This helps attendees, who do need to understand how to follow the meeting and participate,
-but that doesn’t have to only mean talking and listening.
+In a group, silence feels uncomfortable, while speech provides structure.
+This helps attendees follow the meeting and participate,
+but that structure doesn’t have to only come from talking and listening.
 
-Silence during a meeting feels awkward when you feel lost in it, and don’t know what it means.
+Silence during a meeting feels awkward when you feel lost in it, and don’t understand it.
 [Awkward silence](https://en.wikipedia.org/wiki/Awkward_silence) doesn’t feel _safe_.
 
 ## Dead air
 
-Only exceptional scenarios _require_ continuous talking.
-Radio broadcasters, for example, refer to unintentionally broadcast silence as
-[dead air](https://en.wikipedia.org/wiki/Dead_air):
+Exceptional scenarios _require_ continuous talking.
+For example, radio broadcasters avoid the unintentionally broadcast silence
+they call ‘[dead air](https://en.wikipedia.org/wiki/Dead_air)’:
 
 {:.big style="max-width:29em"}
 > Among professional broadcasters, dead air is considered one of the worst things that can occur.
 
-As a result, radio DJs master the art of continuous coherence, even if they don’t actually say much.
-Fortunately, the teams I know don’t livestream their meetings, and don’t have to worry about this.
-Sometimes, we need a break from talking.
+Fortunately, the teams I know don’t livestream their meetings,
+and don’t need DJs’ continuous coherent talking skills.
+Instead, we sometimes need a break from talking.
 
 ## Time to think
 
-We overuse the term _meeting_ for a wide range of group activities,
-from private chats to practical group workshops.
+We overuse the term _meeting_ for a range of activities,
+from private chats to group workshops.
 These different activities have different needs.
 
 When we use meetings to work on problems together, we need time to:
@@ -56,20 +55,21 @@ In silence.
 
 Once a team gets used to working together,
 they can replace awkward silence with _comfortable silence_.
-When team members can share a space without needing someone to talk,
-whether in person or online, they have more options for how to work together.
+Team members who can share a space without needing someone to talk continously
+have more options for how to work together, both in person and online.
 
-Once you allow occasional silence into your meetings,
-you also realise how much unnecessary interjections disrupt the meeting’s purpose.
-Too often, the people who _just have to_ comment on everything, have the least to contribute.
-When people can take time to focus on what they’ve just heard,
-they can even stick to a meeting agenda.
+When you become comfortable with occasional silence,
+you realise how nervous interruptions disrupt meetings.
+Too often, the people who _just have to_ comment on everything contribute the least.
+Meanwhile, people who take time to reflect what they’ve just heard find it easier to stay on topic,
+and stick to a meeting agenda.
 
 Comfortable silence especially helps distributed teams, 
-who otherwise have to explicitly enter or leave an online meeting, start or stop a discussion.
-In this sense, comfortable silence typifies several people working quietly in the same ‘room’.
+who otherwise have to explicitly enter or leave an online meeting,
+to start or stop a discussion.
+Comfortable silence feels like several people working together quietly in the same ‘room’.
 Online, it allows distributed team members to keep a video call open while they work quietly,
-sharing a reassuring presence.
+sharing a _reassuring presence_.
 
 ## Psychological safety
 

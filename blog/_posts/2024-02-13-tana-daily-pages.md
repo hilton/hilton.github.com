@@ -12,7 +12,7 @@ image: sunrise.jpg
 
 {:.series}
 1. Tana daily pages ←
-2. Linear projects ←
+2. Linear projects
 
 Knowledge workers organise information badly.
 We obsess over tools like Apple Notes and 

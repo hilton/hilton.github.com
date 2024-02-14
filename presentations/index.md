@@ -15,7 +15,7 @@ See also: [software development training courses](../training).
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
 
-## Recent presentations
+## Upcoming & recent presentations
 
 <table class="table">
 <tr>
@@ -23,6 +23,12 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Title</th>
 	<th>Venue</th>
 	<th>Location</th>
+</tr>
+<tr>
+	<td>2024-05-08</td>
+	<td><a href="extreme-product">Extreme product development</a></td>
+	<td><a href="https://www.devoxx.co.uk/talk/?id=13240">Devoxx UK</a></td>
+	<td>🇬🇧 London</td>
 </tr>
 <tr>
 	<td>2023-05-10</td>
@@ -537,7 +543,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
-* [Extreme product development](extreme-product)
+
 * [‘Feature’ is a construct](feature-construct)
 * [Overthinking numbers and strings](numbers-strings)
 * [Musical ensemble safety](ensemble-safety)

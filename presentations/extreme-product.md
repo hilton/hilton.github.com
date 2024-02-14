@@ -28,3 +28,7 @@ such as team programming,
 but also support the other extreme practices.
 Attendees will broaden their perspective on software development,
 and discover new ways to progress in their team and in their career.
+
+# Conferences
+
+* [Devoxx UK](https://www.devoxx.co.uk/talk/?id=13240) - 8 May 2024

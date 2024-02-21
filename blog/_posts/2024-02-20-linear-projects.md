@@ -37,7 +37,7 @@ However, when you actually use Linear, you discover a new quality focus:
 
 * **simplicity** - no need to employ full-time ‘administrators’ for configuration
 * **performance** - snappy user interface and fast navigation transitions
-* * **usability** - e.g. extensive keyboard control for expert users.
+* **usability** - e.g. extensive keyboard control for expert users.
 
 It turns out that Linear also supports flexible product development better than legacy project management tools.
 

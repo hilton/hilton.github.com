@@ -3,7 +3,12 @@ title: Normalise comfortable silence in team meetings
 description: How psychological safety enables    teams
 layout: hh
 tags: productivity
+image: book-group.jpg
 ---
+
+![](book-group.jpg)
+
+[Alexis Brown](https://unsplash.com/photos/omeaHbEFlN4){:.photocredit}
 
 We rarely feel calm and relaxed in meetings at work.
 Even regular team meetings feel forced -

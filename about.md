@@ -16,11 +16,10 @@ He has spent the last five years working as a product manager, and also delivers
 Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013)
 and certified to train <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a> around the same time.</p>
 
-<h2>Product management - available for a new role</h2>
+<h2>Product management</h2>
 
 <p>Peter focuses on product management, where the combination of his technical background and business experience give him more leverage in creating and maintaining excellent software products than working as a developer or development manager.</p>
 
-<p style="padding:1em; background:#BEE0E0">💡 Peter will be looking for a new product management role in summer 2023</p>
 <h2>CV</h2>
 
 <p>In addition to his <a href="http://www.linkedin.com/in/peterhilton">LinkedIn</a> profile,
@@ -52,7 +51,8 @@ Since 2020, Peter has published weekly on his <a href="/blog/">blog</a>.</p>
 <h2 style="margin-top: 0">History</h2>
 
 <ul>
-<li>Consulting for <a href="">Varias</a> as a product operations specialist (2024).</li>
+<li>Product manager at <a href="https://pafyll.com/en-NO">På(fyll)</a> (since 2024)</li>
+<li>Consulting for <a href="">Varias</a> as a product operations specialist (2023).</li>
 <li>Three-month sabbatical in Rotterdam (2023).</li>
 <li>Working for <a href="https://bryter.com/">BRYTER</a> as a product manager (2020-2023).</li>
 <li>Consulting for <a href="https://www.signavio.com/">Signavio</a> as a product manager, consultant, trainer, pre-sales consultant, technical writer and developer (2015-2020)</li>

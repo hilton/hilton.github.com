@@ -3,7 +3,7 @@ title: Use high contrast colours for text
 description: The fashionable grey text design horror
 layout: hh
 tags: design
-css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) }"
+css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) } article ol { width:calc(40em - 40px)}"
 image: wrong-way.jpg
 ---
 

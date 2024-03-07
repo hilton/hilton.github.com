@@ -67,7 +67,7 @@ You can use the _Feedback_ section to track customer-specific product feedback.
 [![A list of product feedback items, with customers’ company logos, and showing the selected item’s text](kitemaker/feedback.webp)](kitemaker/feedback.webp)
 
 You can link a feedback item to a customer, assign _owners_ to process it, labels to categorise it, and then link it to work items that address it.
-As in other tools, you can select text content to link to a word item, for when a customer meeting write-up or an email covers more than topic.
+As in other tools, you can select text content to link to a work item, for when a customer meeting write-up or an email covers more than topic.
 
 ## Version control integration
 

@@ -40,16 +40,16 @@ Adopting this approach requires less work on defining the usual kind of complex 
         <path d="M 21 40 L 109 40 C 117.83656 40 125 47.163444 125 56 L 125 74 C 125 82.83656 117.83656 90 109 90 L 21 90 C 12.163444 90 5 82.83656 5 74 L 5 56 C 5 47.163444 12.163444 40 21 40 Z" fill="white"/>
         <path d="M 21 40 L 109 40 C 117.83656 40 125 47.163444 125 56 L 125 74 C 125 82.83656 117.83656 90 109 90 L 21 90 C 12.163444 90 5 82.83656 5 74 L 5 56 C 5 47.163444 12.163444 40 21 40 Z" stroke="#df5a49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         <text transform="translate(10 57)" fill="black">
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="9.765625" y="12">Bug reported</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="9.765625" y="12">Bug reported</tspan>
         </text>
       </g>
       <g id="Graphic_11">
         <path d="M 235 5 L 295 65 L 235 125 L 175 65 Z" fill="white"/>
         <path d="M 235 5 L 295 65 L 235 125 L 175 65 Z" stroke="#df5a49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         <text transform="translate(191.2 39.8)" fill="black">
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="20.671875" y="12">Should</tspan>
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="18.226562" y="28">we fix it</tspan>
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="26.601562" y="44">now?</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="20.671875" y="12">Should</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="18.226562" y="28">we fix it</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="26.601562" y="44">now?</tspan>
         </text>
       </g>
       <g id="Line_12">
@@ -59,14 +59,14 @@ Adopting this approach requires less work on defining the usual kind of complex 
         <rect x="345" y="40" width="120" height="50" fill="white"/>
         <rect x="345" y="40" width="120" height="50" stroke="#df5a49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         <text transform="translate(350 57)" fill="black">
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="30.246094" y="12">Fix bug</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="30.246094" y="12">Fix bug</tspan>
         </text>
       </g>
       <g id="Graphic_14">
         <path d="M 531 40 L 619 40 C 627.83656 40 635 47.163444 635 56 L 635 74 C 635 82.83656 627.83656 90 619 90 L 531 90 C 522.16344 90 515 82.83656 515 74 L 515 56 C 515 47.163444 522.16344 40 531 40 Z" fill="white"/>
         <path d="M 531 40 L 619 40 C 627.83656 40 635 47.163444 635 56 L 635 74 C 635 82.83656 627.83656 90 619 90 L 531 90 C 522.16344 90 515 82.83656 515 74 L 515 56 C 515 47.163444 522.16344 40 531 40 Z" stroke="#df5a49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         <text transform="translate(520 57)" fill="black">
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="23.023438" y="12">Bug fixed</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="23.023438" y="12">Bug fixed</tspan>
         </text>
       </g>
       <g id="Line_15">
@@ -77,7 +77,7 @@ Adopting this approach requires less work on defining the usual kind of complex 
       </g>
       <g id="Graphic_19">
         <text transform="translate(300 69)" fill="black">
-          <tspan font-family="Source Sans Pro" font-weight="bold" font-size="16" fill="black" x="0" y="12">Yes</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="0" y="12">Yes</tspan>
         </text>
       </g>
     </g>

@@ -1,5 +1,5 @@
 ---
-title: Use high contrast colours for text
+title: Use high-contrast colours for text
 description: The fashionable grey text design horror
 layout: hh
 tags: design

@@ -100,4 +100,4 @@ Some conductors and singers prefer renaissance polyphony scores without bar line
 Without bars, you navigate with _rehearsal marks_, such as the letter **A**.
 They reduce the possible starting locations to two or three per page,
 making them easy for singers to find when the conductor asks the choir to start from, say, ‘**the tenor entry at A**’.
-As in all documentation, simple but explicit wins.
+As in all good instructions, simple but explicit wins.

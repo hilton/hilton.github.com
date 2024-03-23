@@ -11,116 +11,93 @@ css: "article p:has(img) {position:relative; counter-reset: css-counter 0;} arti
 
 [Marco Kaufmann](https://unsplash.com/photos/0kbNh7XrJ7Q){:.photocredit}
 
-Choir rehearsals feature many musical stops and starts.
-While singers enjoy singing pieces from start to finish, conductors have to stop and fix what’s wrong, by asking for something better.
-Again and again.
-Efficient rehearsal relies on quickly an accurately telling a group of singers where to restart from, without discussion.
+Choir rehearsals feature many stops and starts, as conductors stop the singers to ask for something better.
+Efficient rehearsal relies on quick and accurate directions that avoid confusion.
 
 ## Homophony
 
-In some music, such as hymns, everyone sings more or less the same thing at (more or less) the same time.
-When multiple voice parts sing different notes, we call this
-[homophony](https://en.wikipedia.org/wiki/Homophony).
-
+In hymns, everyone sings more or less the same thing at the same time
+([homophony](https://en.wikipedia.org/wiki/Homophony)).
 For example, in the sixteenth century [chorale](https://en.wikipedia.org/wiki/Chorale), 
 _Aus tiefer Not schrei' ich zu Dir_
 ([CPDL #79638](https://www.cpdl.org/wiki/index.php/Aus_tiefer_Not_schrei%27_ich_zu_Dir_%28Sixt_Dietrich%29)),
-four voice parts sing each word and syllable together:
+four voice parts sing each word together:
 
-![Excerpt from a chorale score](aus-tiefer-not.webp) <em style="left:400px">‘Was Sünd und Unrecht’</em>
+![Excerpt from a chorale score](score/aus-tiefer-not.webp) <em style="left:400px">‘Was Sünd und Unrecht’</em>
 
-With this style of music, the conductor can stop the choir and ask them to
-‘start again from (the phrase in the text) _Was Sünd und Unrecht_’ (red line, above).
-If the conductor can read the tiny bar number above the first bar in this system,
-they could also count along from bar 22, and ask for the second half of bar 29.
-
-Note: singers don’t all sing from electronic displays that display a dynamic conductor-controlled red marker.
-Not yet, anyway.
+With this music, the conductor can ask the choir to ‘start again from **Was Sünd und Unrecht**’,
+ignoring the tiny bar number ‘22’ (top-left).
 
 ## Polyphony
 
 [Renaissance polyphony](https://en.wikipedia.org/wiki/Polyphony) 
 makes it harder to find a convenient place to start,
-especially when you have six voice parts that all start a phrase at different times.
-In polyphony, different voice parts may sing more or less the same phrases, but typically not at the same time,
-as in this excerpt from the end of
-[Manuel Cardoso’s](https://en.wikipedia.org/wiki/Manuel_Cardoso_(composer)) _Missa Pro Defunctis_
+because different parts may sing the same text, but not at the same time.
+For example, this excerpt from the end of a _Missa Pro Defunctis_
 ([CPDL #36844](https://www.cpdl.org/wiki/index.php/Missa_Pro_Defunctis_%28Manuel_Cardoso%29)):
 
-![Excerpt from a renaissance polyphony score, with numbered bars](missa-pro-defunctis.webp)
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
 
-If you want to go back to this part of the score, there are several options for where to start.
-Each part starts each phrase in a different place, so you probably want to start where _one_ of the six voice parts starts the text _cum sanctis tuis_.
-This goes wrong because it’s not obvious which part goes first.
+The conductor probably wants to start from where _one_ of the six voice parts starts the text _cum sanctis tuis_.
+However, the singers don’t know which one.
 
 ## Underlay
 
-Chaos ensues when the conductor ignores the bar numbers and tells 24 singers, ‘let’s start again from _cum sanctis_’.
+Chaos ensues when the conductor tells 24 singers, ‘let’s start again from _cum sanctis_’.
 
-![Excerpt from a renaissance polyphony score, with numbered bars](missa-pro-defunctis.webp)
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
 <em class="part" style="left:134px; top:79px;"></em>
 <em class="part" style="left:55px; top:39px;"></em>
 <em class="part" style="left:241px; top:39px;"></em>
 <em class="part" style="left:10px; top:15px;"></em>
 <em class="part" style="left:119px; top:211px;"></em>
 
-1. Half the choir only looks at the top three lines, and assumes that the second soprano part (S2) starts first, in bar 22.
-2. Several people heard someone say ‘bar 22’, but they mistake the page number (top-left) for the bar number, and think bar 22 is the first bar of the page, not the second.
-3. The first sopranos (S1) think it’s all about them, so they’re looking at bar 23.
-4. Several people are still on the previous page, where _cum sanctis tuis_ first appears.
-5. The tenors only correctly think the conductor wants to start at their entry (T) at end of bar 22 by accident, because they only have the phrase _cum sanctis tuis_ once on this page.
-6. The basses, meanwhile, are still talking amongst themselves.
+1. Half the choir looks at the top three lines, and expects the second soprano part (S2) to start first, in bar 22.
+2. Several people heard someone say ‘bar 22’, but mistake the page number (top-left) for the bar number.
+3. The first sopranos (S1) focus on themselves, and expect everyone to start in bar 23.
+4. Someone still expects to start on the previous page, where _cum sanctis tuis_ first appears.
+5. The tenors think the conductor wants to start at their entry (T) in bar 22, and only got it right because they only sing _cum sanctis tuis_ once on this page.
 
-Using the underlay (text) to navigate fails hard in this musical style, 
-because text phrases typically repeat, spread over many musical phrases.
+Polyphony requires more helpful navigation.
 
 ## Bar number and beat
 
-Bar numbers solve the navigation problem, in theory.
+Bar numbers solve the navigation problem: the conduct asks the choir to start at **bar 21, second beat**:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](missa-pro-defunctis.webp) <em style="left:118px">bar 21, second beat</em>
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp) <em style="left:104px">bar 21, second beat</em>
 
-A conductor might describe this location as:
-
-* **bar 21, third beat**, if they count four in a bar, as in modern music
-* **bar 21, second beat** (halfway), counting two in a bar, more appropriately for this style
-* **bar 22** (meaning the upbeat before the start of the bar)
-
-Ideally, your conductor would be consistent, and the singers would get used to one interpretation.
-Alternatively, the conductor remove the ambiguity.
+The singers probably expect the conductor to count two beats in the bar in this style, not four.
+However, the conductor might still confuse them by asking for **bar 22**, meaning the upbeat before the start of the bar.
+The conductor should express their intent better.
 
 ## Bar number and voice part
 
-Specifying this same location as **the tenor entry at bar 21** adds some redundant information to remove the ambiguity:
+Referring to **the tenor entry in bar 21** adds just enough redundant information:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](missa-pro-defunctis.webp) <em style="left:118px">the tenor entry at bar 21</em>
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp) <em style="left:118px">tenor entry in bar 21</em>
 
-Singers will understand that the tenor part (T) should be starting a phrase, and will find the intended location in the bar specified.
+Singers will easily see where the tenor part (T) starts a new phrase in bar 21.
 
 ## Start of the system
 
-A less conventional (chaotic good) conductor might opt out of this whole problem by only ever picking up from 
-**the start of the system** - bar 21 in this example - where most scores show a bar number
-(as in the _Aus tiefer Not schrei' ich zu Dir_ excerpt, top):
+A less conventional conductor might avoid the navigation problem by only ever picking up from 
+**the start of the system** - bar 21 in this example:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](missa-pro-defunctis.webp) <em style="left:55px">start of the system</em>
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp) <em style="left:55px">start of the system</em>
 
-In this approach, at least one part has a straightforward starting note, such as the F for the bass part (B).
-The conductor assumes that the tenor part will start the phrase _cum sanctis tuis_ at the end of the first bar,
-and the other parts will join in as soon as they can, no later than their next _cum sanctis tuis_.
-This unmusical entry in the middle of a phrase makes life more difficult for the singers,
-but they can get used to it, and it saves a lot of time and confusion.
+Four parts begin at the start of the bar, and the others join in with the phrase _cum sanctis tuis_,
+starting with the tenor part at the end of the first bar.
+Singers may find this unmusical entry in the middle of a phrase more difficult,
+but they can get used to it, and it saves a lot of confusion.
 
 ## Rehearsal mark
 
-Messing about with bar numbers over-complicates things.
-This sixteenth musical style pre-dates bar lines and bar numbers anyway,
-and some conductors and singers prefer to sing renaissance polyphony from scores without bar lines:
+This sixteenth musical style pre-dates bar lines and bar numbers, which don’t seem to help all that much.
+Some conductors and singers prefer renaissance polyphony scores without bar lines:
 
-![Excerpt from a renaissance polyphony score, with a rehearsal mark, and without bar lines](missa-pro-defunctis-rehearsal-mark.webp) <em style="left:112px">tenor entry at A</em>
+![Excerpt from a renaissance polyphony score, with a rehearsal mark, and without bar lines](score/missa-pro-defunctis-rehearsal-mark.webp) <em style="left:112px">tenor entry at A</em>
 
-Without bars to number, you need explicit _rehearsal marks_ for navigation, such as the **A**, above.
-Preparing scores for rehearsal like this narrows the number of possible starting locations to two or three per page,
-and means that everyone will be on the same page when the conductor asks the choir to start from
-‘**the tenor entry at A**’.
-If only everyone were that well-prepared.
+Without bars, you need explicit _rehearsal marks_ for navigation, such as the **A** (top-left).
+This approach reduces the possible starting locations to two or three per page,
+which makes it easy to follow when the conductor asks the choir to start from ‘**the tenor entry at A**’.
+

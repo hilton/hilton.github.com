@@ -32,13 +32,13 @@ ignoring the tiny bar number ‘22’ (top-left).
 
 [Renaissance polyphony](https://en.wikipedia.org/wiki/Polyphony) 
 makes it harder to find a convenient place to start,
-because different parts may sing the same text, but not at the same time.
-For example, this excerpt from the end of a _Missa Pro Defunctis_
+because different parts may sing the same text, but not together.
+For example, this excerpt from a _Missa Pro Defunctis_
 ([CPDL #36844](https://www.cpdl.org/wiki/index.php/Missa_Pro_Defunctis_%28Manuel_Cardoso%29)):
 
 ![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
 
-The conductor probably wants to start from where _one_ of the six voice parts starts the text _cum sanctis tuis_.
+The conductor probably wants to start from where _one_ of the six parts starts the text _cum sanctis tuis_.
 However, the singers don’t know which one.
 
 ## Underlay
@@ -97,7 +97,7 @@ Some conductors and singers prefer renaissance polyphony scores without bar line
 
 ![Excerpt from a renaissance polyphony score, with a rehearsal mark, and without bar lines](score/missa-pro-defunctis-rehearsal-mark.webp) <em style="left:112px">tenor entry at A</em>
 
-Without bars, you need explicit _rehearsal marks_ for navigation, such as the **A** (top-left).
-This approach reduces the possible starting locations to two or three per page,
-which makes it easy to follow when the conductor asks the choir to start from ‘**the tenor entry at A**’.
-
+Without bars, you navigate with _rehearsal marks_, such as the letter **A**.
+They reduce the possible starting locations to two or three per page,
+making them easy for singers to find when the conductor asks the choir to start from, say, ‘**the tenor entry at A**’.
+As in all documentation, simple but explicit wins.

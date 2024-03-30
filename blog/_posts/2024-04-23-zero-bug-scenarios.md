@@ -10,18 +10,18 @@ image: pesticide.jpg
 
 [MUS LIHAT](https://unsplash.com/photos/ZOKLwSOyeUQ){:.photocredit}
 
-[Don’t discuss every possible edge case](process-exceptions),
-when you start talking to developers about implementing a [zero-bug policy](zero-bug-policy).
-Developers score points by imagining increasingly unlikely scenarios, which you sometimes need, 
+When you discuss introducing a [zero-bug policy](zero-bug-policy),
+[don’t dwell on the edge cases](process-exceptions).
+Developers score points with increasingly unlikely scenarios, which you sometimes need, 
 but not for this conversation.
-Instead, discuss bug reports case-by-case until you learn which scenarios actually occur frequently.
-Meanwhile, it may help to share a vision for operating a successful zero-bug policy.
+Instead, discuss bug reports case-by-case until you reach a new normal.
+Meanwhile, it helps to share a vision for a successful zero-bug policy.
 
 ## No open bugs
 
-Start by describing the policy’s desired outcome: prioritisation-free bug handling.
-When you have zero open bugs, you automatically prioritise a new bug report as the next task for the team,
-because this scenario makes any newly-reported the most important (and only) open bug.
+Start by describing the policy’s desired outcome: fixing bugs over prioritisation.
+With zero open bugs, a new bug report becomes the next task for the team;
+the only known bug becomes the most important one.
 
 The more often you have no open bugs when you receive a new bug report,
 the more successful the policy.
@@ -30,11 +30,8 @@ and the team fixes reported bugs quickly.
 
 ## The team didn’t fix the bug quickly
 
-In the next most common scenario, the team didn’t fix the bug _quickly_, as judged by the team.
-Depending on the team, the organisation, and the software system,
-_quickly_ might mean _within an hour_ or _within a day_.
-Some teams might even call fixing a bug in a week _quick_.
-
+Sometimes the team cannot fix a bug quickly,
+according to their idea of _quick_.
 As product manager, you can tell the team that whenever you notice that a bug fix has already taken _a while_ (which you don’t define),
 you’ll have a conversation with the developer to review what they’ve learned so far.
 

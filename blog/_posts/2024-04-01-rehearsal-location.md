@@ -11,8 +11,6 @@ css: "article p:has(img) {position:relative; counter-reset: css-counter 0;} arti
 
 [Marco Kaufmann](https://unsplash.com/photos/0kbNh7XrJ7Q){:.photocredit}
 
-_⚠️ The red bars appear in the wrong location on mobile devices, and possibly other platforms 🤦🏻‍♂️_
-
 Choir rehearsals feature many stops and starts, as conductors stop the singers to ask for something better.
 Efficient rehearsal relies on quick and accurate directions that avoid confusion.
 
@@ -25,7 +23,7 @@ _Aus tiefer Not schrei' ich zu Dir_
 ([CPDL #79638](https://www.cpdl.org/wiki/index.php/Aus_tiefer_Not_schrei%27_ich_zu_Dir_%28Sixt_Dietrich%29)),
 four voice parts sing each word together:
 
-![Excerpt from a chorale score](score/aus-tiefer-not.webp) <em style="left:400px">‘Was Sünd und Unrecht’</em>
+![Excerpt from a chorale score](score/aus-tiefer-not.webp)
 
 With this music, the conductor can ask the choir to ‘start again from **Was Sünd und Unrecht**’,
 ignoring the tiny bar number ‘22’ (top-left).
@@ -48,11 +46,6 @@ However, the singers don’t know which one.
 Chaos ensues when the conductor tells 24 singers, ‘let’s start again from _cum sanctis_’.
 
 ![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
-<em class="part" style="left:134px; top:79px;"></em>
-<em class="part" style="left:55px; top:39px;"></em>
-<em class="part" style="left:241px; top:39px;"></em>
-<em class="part" style="left:10px; top:15px;"></em>
-<em class="part" style="left:119px; top:211px;"></em>
 
 1. Half the choir looks at the top three lines, and expects the second soprano part (S2) to start first, in bar 22.
 2. Several people heard someone say ‘bar 22’, but mistake the page number (top-left) for the bar number.
@@ -66,7 +59,7 @@ Polyphony requires more helpful navigation.
 
 Bar numbers solve the navigation problem: the conduct asks the choir to start at **bar 21, second beat**:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp) <em style="left:104px">bar 21, second beat</em>
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
 
 The singers probably expect the conductor to count two beats in the bar in this style, not four.
 However, the conductor might still confuse them by asking for **bar 22**, meaning the upbeat before the start of the bar.
@@ -76,7 +69,7 @@ The conductor should express their intent better.
 
 Referring to **the tenor entry in bar 21** adds just enough redundant information:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp) <em style="left:118px">tenor entry in bar 21</em>
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp
 
 Singers will easily see where the tenor part (T) starts a new phrase in bar 21.
 
@@ -85,7 +78,7 @@ Singers will easily see where the tenor part (T) starts a new phrase in bar 21.
 A less conventional conductor might avoid the navigation problem by only ever picking up from 
 **the start of the system** - bar 21 in this example:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp) <em style="left:55px">start of the system</em>
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
 
 Four parts begin at the start of the bar, and the others join in with the phrase _cum sanctis tuis_,
 starting with the tenor part at the end of the first bar.
@@ -97,7 +90,7 @@ but they can get used to it, and it saves a lot of confusion.
 This sixteenth musical style pre-dates bar lines and bar numbers, which don’t seem to help all that much.
 Some conductors and singers prefer renaissance polyphony scores without bar lines:
 
-![Excerpt from a renaissance polyphony score, with a rehearsal mark, and without bar lines](score/missa-pro-defunctis-rehearsal-mark.webp) <em style="left:112px">tenor entry at A</em>
+![Excerpt from a renaissance polyphony score, with a rehearsal mark, and without bar lines](score/missa-pro-defunctis-rehearsal-mark.webp)
 
 Without bars, you navigate with _rehearsal marks_, such as the letter **A**.
 They reduce the possible starting locations to two or three per page,

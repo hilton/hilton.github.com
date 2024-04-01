@@ -11,6 +11,8 @@ css: "article p:has(img) {position:relative; counter-reset: css-counter 0;} arti
 
 [Marco Kaufmann](https://unsplash.com/photos/0kbNh7XrJ7Q){:.photocredit}
 
+_⚠️ The red bars appear in the wrong location on mobile devices, and possibly other platforms 🤦🏻‍♂️_
+
 Choir rehearsals feature many stops and starts, as conductors stop the singers to ask for something better.
 Efficient rehearsal relies on quick and accurate directions that avoid confusion.
 

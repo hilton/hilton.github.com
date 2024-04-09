@@ -3,7 +3,7 @@ title: "Book review: Radical Focus"
 description: Objectives and key results as both fiction and framework, by Christina Wodtke
 layout: hh
 tags: product book review
-image: agile-okrs.jpg
+image: radical-focus.jpg
 ---
 
 <a class="cover" href="https://cwodtke.com/writing-2/#optimizer_front_text-32"><img src="radical-focus.jpg" alt="Radical Focus"></a>

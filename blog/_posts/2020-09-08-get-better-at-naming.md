@@ -6,6 +6,12 @@ tags: programming DDD
 image: 97-things-java.webp
 ---
 
+{:.series}
+1. [Boolean values](refactor-boolean-enumeration)
+2. Naming things ←
+3. [Documentation comments](documentation-comments)
+4. Write code with meaning
+
 <a class="cover" style="width:auto" href="http://shop.oreilly.com/product/0636920048824.do" title="97 Things Every Java Programmer Should Know">
 <img src="97-things-java.webp" alt="book cover" style="width:150px"></a>
 

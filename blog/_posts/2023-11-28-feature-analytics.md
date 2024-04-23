@@ -16,7 +16,7 @@ image: cockpit.jpg
 3. [Feature rollout](feature-rollout)
 4. [Feature trackers](feature-tracker)
 5. Feature analytics ←
-6. Feature as construct
+6. [Feature as construct](feature-construct)
 
 A [feature tracker](feature-tracker)
 would help well-organised product managers keep track of their product’s features.

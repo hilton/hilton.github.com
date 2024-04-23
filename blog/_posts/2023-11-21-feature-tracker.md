@@ -16,7 +16,7 @@ image: library-reference.jpg
 3. [Feature rollout](feature-rollout)
 4. Feature trackers ←
 5. [Feature analytics](feature-analytics)
-6. Feature as construct
+6. [Feature as construct](feature-construct)
 
 A sufficiently well-organised product manager might like to manage the full
 [feature lifecycle](feature-lifecycle), so they could answer feature-level questions.

@@ -16,7 +16,7 @@ image: ducklings.jpg
 3. [Feature rollout](feature-rollout)
 4. [Feature trackers](feature-tracker)
 5. [Feature analytics](feature-analytics)
-6. Feature as construct
+6. [Feature as construct](feature-construct)
 
 Product managers [don’t talk about much features](feature-lifecycle#avoidance), 
 but a _feature_ remains a useful abstraction for product work outputs.

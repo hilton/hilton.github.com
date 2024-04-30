@@ -3,6 +3,7 @@ title: Write code with meaning
 description: What connects 3 of the 97 Things Every Java Programmer Should Know
 layout: hh
 tags: programming
+image: 97-things-java.jpg
 ---
 
 {:.series}

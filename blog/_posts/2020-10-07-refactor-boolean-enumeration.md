@@ -3,7 +3,6 @@ title: Refactor Boolean values to enumerations
 description: "From ‘97 Things Every Java Programmer Should Know’"
 layout: hh
 tags: programming DDD
-image: 97-things-java.webp
 image: gender-type-error.jpg
 ---
 

@@ -23,6 +23,8 @@ image: snowboard.jpg
 10. Psychological safety
 -->
 
+_See also: [presentation slides](/presentations/extreme-product)_
+
 [Extreme programming](http://www.extremeprogramming.org) won.
 Its once-extreme practices have gone mainstream:
 user stories, solution spikes, pair programming, unit tests, and frequent releases.

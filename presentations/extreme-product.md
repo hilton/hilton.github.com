@@ -2,6 +2,7 @@
 title: Extreme product development
 description: Not yet mainstream, but already happening
 layout: speaking
+image: extreme-product.png
 ---
 
 Extreme programming won.
@@ -28,6 +29,10 @@ such as team programming,
 but also support the other extreme practices.
 Attendees will broaden their perspective on software development,
 and discover new ways to progress in their team and in their career.
+
+## Slides
+
+<script defer class="speakerdeck-embed" data-id="add42419a85b4bbbaafb11061738b858" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
 # Conferences
 

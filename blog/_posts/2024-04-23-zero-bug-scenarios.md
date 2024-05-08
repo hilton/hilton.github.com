@@ -10,6 +10,10 @@ image: pesticide.jpg
 
 [MUS LIHAT](https://unsplash.com/photos/ZOKLwSOyeUQ){:.photocredit}
 
+{:.series}
+1. [Zero-bug policy](zero-bug-policy)
+2. Zero-bug scenarios ←
+
 When you discuss introducing a [zero-bug policy](zero-bug-policy),
 [don’t dwell on the edge cases](process-exceptions).
 Developers score points with increasingly unlikely scenarios, which you sometimes need, 

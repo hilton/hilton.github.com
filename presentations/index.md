@@ -8,10 +8,10 @@ css: ".banner img {width:320px}"
 Peter Hilton has presented at conferences, user groups and companies in several countries on a variety of software development topics.
 See also: [software development training courses](../training).
 
-<div class="banner"><img src="2023-devoxx-uk.webp" alt="Peter Hilton at Devoxx UK 2023"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"><img src="2016-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2016"></div>
+<div class="banner"><img src="2024-devoxx-uk.webp" alt="Peter Hilton at Devoxx UK 2024"><img src="2023-devoxx-uk.webp" alt="Peter Hilton at Devoxx UK 2023"><img src="2017-scala-exchange.jpg" alt="Peter Hilton at Scala eXchange 2017"></div>
 
-[Devoxx UK (left)](https://www.flickr.com/photos/125714253@N02/){:.photocredit}
-[Skills Matter (centre, right)](https://skillsmatter.com/){:.photocredit}
+[Devoxx UK (left, center)](https://www.flickr.com/photos/125714253@N02/){:.photocredit}
+[Skills Matter (right)](https://skillsmatter.com/){:.photocredit}
 
 Please [contact Peter](../contact) if you would like him to speak at your event or company.
 

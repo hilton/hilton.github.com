@@ -3,7 +3,12 @@ title: Alternative foreign language learning goals
 description: Reasons other than needing to become fluent
 layout: hh
 tags: language learning
+image: japanese-sign.jpg
 ---
+
+![](japanese-sign.jpg)
+
+[Ryoma Onita](https://unsplash.com/photos/t-J5BZ1a4fY){:.photocredit}
 
 We often talk about how to learn a foreign language, but not always about why.
 Living abroad has given me the strongest motivation to become fluent in other languages.

@@ -42,7 +42,7 @@ If you maintain a feature-based product backlog, you can either group features i
 ## 2. Use descriptive naming
 
 A backlog item name like _Capture kitten-related content_ tells you what it means, while a name like _Google_ doesn’t.
-Product names may benefit that flexibility, but backlog item names don’t.
+Product names may benefit fom that flexibility, but backlog item names don’t.
 Some names don’t mean anything, while others describe what they name.
 Some names lie in between, vaguely alluding to their origin:
 with the right context, you might guess what a web site called _NekoFeed_ does.

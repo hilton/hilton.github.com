@@ -16,7 +16,7 @@ But I’ve also found other reasons to learn a few phrases, or just the basics.
 
 ## Breaking the ice
 
-As a native English speaker, I need to speak a foreign language less often most of the people I meet.
+As a native English speaker, I need to speak in a foreign language less often than the non-native English speakers I meet.
 But I can turn that around: anything I do say in their language will often surprise them.
 The last colleague I tried this on laughed, and said, ‘oh, this is fun’.
 

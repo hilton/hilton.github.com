@@ -25,6 +25,12 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Location</th>
 </tr>
 <tr>
+	<td>2024-06-21</td>
+	<td><a href="extreme-product">Extreme product development</a> (lightning talk)</td>
+	<td><a href="http://joyofcoding.org/">Joy of Coding</a></td>
+	<td>🇳🇱 Rotterdam</td>
+</tr>
+<tr>
 	<td>2024-05-08</td>
 	<td><a href="extreme-product">Extreme product development</a></td>
 	<td><a href="https://www.devoxx.co.uk/talk/?id=13240">Devoxx UK</a></td>

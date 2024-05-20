@@ -30,6 +30,10 @@ but also support the other extreme practices.
 Attendees will broaden their perspective on software development,
 and discover new ways to progress in their team and in their career.
 
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U6TA7atF4Y0?si=e_hEA_AznsLQAu1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="add42419a85b4bbbaafb11061738b858" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>

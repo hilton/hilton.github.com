@@ -21,7 +21,7 @@ css: "form {padding:1em 2em; background:#eee; position:relative} form p:first-ch
 7. [2021 ideas](startup-ideas-2021)
 8. [2022 ideas](startup-ideas-2022)
 9. 2023 ideas (business) ←
-10. 2023 ideas (lifestyle)
+10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
 
 Startup ideas have [no intrinsic business value](startup-ideas-are-cheap), but we can still enjoy them.
 And from a product management perspective, they offer a regular reminder to separate the solution idea from the problem it solves.

@@ -10,6 +10,10 @@ image: plastic-bottles-1.jpg
 
 [Nick Fewings](https://unsplash.com/photos/-2lJGRIY5P0){:.photocredit}
 
+{:.series}
+1. Part 1 ←
+2. Part 2
+
 [Extreme product development](extreme-product)
 describes practices that sound extreme to most people in tech.
 More familiar practices make up a status quo that feels difficult to question,

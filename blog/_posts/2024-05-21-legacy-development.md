@@ -1,5 +1,5 @@
 ---
-title: Legacy product development
+title: Legacy product development (part 1)
 description: The converse of extreme product development
 layout: hh
 tags: product management
@@ -12,7 +12,7 @@ image: plastic-bottles-1.jpg
 
 {:.series}
 1. Part 1 ←
-2. Part 2
+2. [Part 2](legacy-development-2)
 
 [Extreme product development](extreme-product)
 describes practices that sound extreme to most people in tech.

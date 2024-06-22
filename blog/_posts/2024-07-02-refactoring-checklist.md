@@ -4,7 +4,12 @@ description: Ten practical tips for reducing technical debt
 layout: hh
 tags: product development
 css: article table {width:42em}
+image: refactoring-checklist.png
 ---
+
+![](boxes.jpg)
+
+[Chuttersnap](https://unsplash.com/photos/7eQlPra81zQ){:.photocredit}
 
 If you’ve analysed [refactoring opportunities](technical-debt-goals),
 and find yourself spoilt for choice, use this checklist to help yourself decide where to start.

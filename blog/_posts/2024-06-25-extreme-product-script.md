@@ -3,7 +3,7 @@ title: Extreme product development (script)
 description: The extended script for my Joy of Coding lightning talk
 layout: hh
 tags: product
-image: extreme-product-psychological-safety.jpg
+image: extreme-product-psychological-safety.png
 ---
 
 ![](extreme-ironing.jpg)

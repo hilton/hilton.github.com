@@ -25,7 +25,7 @@ and find yourself spoilt for choice, use this checklist to help yourself decide 
 | Mixing refactoring with functional changes | Use separate version control system commits |
 | Ignoring test failures | Start and end with passing tests |
 | Letting refactoring scope expand | Abandon refactorings whose scope grows |
-| Letting scope expand as you find dependencies | Start where there are no dependencies |
+| Letting scope expand as you find dependencies | Start in components without dependencies |
 
 ## Understand first
 

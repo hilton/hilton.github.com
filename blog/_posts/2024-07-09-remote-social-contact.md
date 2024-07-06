@@ -3,9 +3,12 @@ title: Meet people in person when working remote
 description: Don’t rely on colleagues for social contact
 layout: hh
 tags: remote
+image: programmer.jpg
 ---
 
-<!-- <= 586 -->
+![](programmer.jpg)
+
+[Clarisa Guerra](https://unsplash.com/photos/7bJ1265Y92Y){:.photocredit}
 
 When you start working remote, you miss the daily in-person contact with colleagues,
 but not all of it.

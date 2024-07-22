@@ -10,6 +10,11 @@ image: cleaning-spray.jpg
 
 [jeshoots](https://unsplash.com/photos/ZMnefoI3k){:.photocredit}
 
+{:.series}
+1. Manage technical debt ←
+2. [Prioritise goals](technical-debt-goals)
+3. [Refactoring checklist](refactoring-checklist)
+
 As a product manager, you don’t need to understand the details of
 [technical debt](https://martinfowler.com/bliki/TechnicalDebt.html),
 or the refactoring and systems maintenance work that reduces it.

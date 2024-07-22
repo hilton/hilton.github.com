@@ -10,6 +10,11 @@ image: cleaning-tools.jpg
 
 [Photos of Korea](https://unsplash.com/photos/BVrJBcmn0EU){:.photocredit}
 
+{:.series}
+1. [Manage technical debt](manage-technical-debt)
+2. Prioritise goals ←
+3. [Refactoring checklist](refactoring-checklist)
+
 Most of the writing about [technical debt](https://martinfowler.com/bliki/TechnicalDebt.html)
 focuses on defining it, and arguing about the financial metaphor’s suitability.
 Personally, I prefer the

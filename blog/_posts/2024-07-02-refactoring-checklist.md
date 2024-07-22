@@ -11,6 +11,11 @@ image: refactoring-checklist.png
 
 [Chuttersnap](https://unsplash.com/photos/7eQlPra81zQ){:.photocredit}
 
+{:.series}
+1. [Manage technical debt](manage-technical-debt)
+2. [Prioritise goals](technical-debt-goals)
+3. Refactoring checklist ←
+
 If you’ve analysed [refactoring opportunities](technical-debt-goals),
 and find yourself spoilt for choice, use this checklist to help yourself decide where to start.
 

@@ -6,8 +6,6 @@ tags: product book review
 image: who-does-what-by-how-much.jpg
 ---
 
-<!-- <= 608 -->
-
 <a class="cover" href="https://okr-book.com/"><img src="who-does-what-by-how-much.jpg" alt="Who Does What By How Much?"></a>
 
 [Who Does What By How Much?](https://okr-book.com),

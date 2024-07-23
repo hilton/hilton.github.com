@@ -28,7 +28,7 @@ for example.
 From a product management perspective,
 stakeholders have problems and _wishes_, not requirements.
 If you set out to discover all of their so-called requirements,
-you will end up with an [infinite backlog](infinite-backlog) that you will cannot ever complete.
+you will end up with an [infinite backlog](infinite-backlog) that you cannot ever complete.
 Don't try to boil the ocean.
 
 Requirements only exist in the context of a project-based business model that works badly for most kinds of software development.

@@ -93,7 +93,7 @@ OKRs focus on outcomes.
 I recommend three different books that introduce OKRs, each taking a different perspective:
 
 1. [Succeeding with OKRs in Agile](agile-okrs-review) - agile software development focus
-2. [Radical Focus](radical-focus-review) - start-up focus
+2. [Radical Focus](radical-focus) - start-up focus
 3. [Who Does What By How Much?](who-does-what-by-how-much-review) - broad adoption
 
 Organisations get different things out of OKRs, but everyone can take advantage of a new vocabulary.

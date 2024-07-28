@@ -10,6 +10,10 @@ image: japanese-sign.jpg
 
 [Ryoma Onita](https://unsplash.com/photos/t-J5BZ1a4fY){:.photocredit}
 
+{:.series}
+1. Language learning goals ←
+2. Basic language skills
+
 We often talk about how to learn a foreign language, but not always about why.
 Living abroad has given me the strongest motivation to become fluent in other languages.
 But I’ve also found other reasons to learn a few phrases, or just the basics.
@@ -37,7 +41,7 @@ A recurring group activity with a shared goal provides a good environment for ma
 Many people make lifelong friends at university, for example.
 And language classes, like anything practical, creative or sporty, work on a smaller scale.
 
-## Going on holiday
+## Taking a sabbatical
 
 [My 2004 sabbatical](sabbatical-2004) gave me time to travel, 
 and visit friends in countries I’d previously lived in, including Luxembourg.

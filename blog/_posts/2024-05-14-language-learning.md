@@ -12,7 +12,7 @@ image: japanese-sign.jpg
 
 {:.series}
 1. Language learning goals ←
-2. Basic language skills
+2. [Basic language skills](basic-language)
 
 We often talk about how to learn a foreign language, but not always about why.
 Living abroad has given me the strongest motivation to become fluent in other languages.

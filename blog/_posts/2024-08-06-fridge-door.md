@@ -3,7 +3,12 @@ title: The fridge door test for web accessibility
 description: minimum-effort signals in complex systems
 layout: hh
 tags: product
+image: fridge.jpg
 ---
+
+![](fridge.jpg)
+
+[Walls.io](https://unsplash.com/photos/rTg7ljxWGgI){:.photocredit}
 
 Copy-editing a book takes more skill, concentration and time than you expect.
 Self-publishing authors should therefore hire a third-party copy editor to make a good job of it.

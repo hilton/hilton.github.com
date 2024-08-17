@@ -11,6 +11,10 @@ image: wrong-way.jpg
 
 [NeONBRAND](https://unsplash.com/photos/-Cmz06-0btw){:.photocredit}
 
+{:.series}
+1. Use high-contrast colours ←
+2. [The fridge door test](fridge-door)
+
 User-interface design follows fashion as much as any other field,
 such as product management or programming.
 Visual trends like [skeuomorphism](https://en.wikipedia.org/wiki/Skeuomorph) and

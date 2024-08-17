@@ -10,6 +10,10 @@ image: fridge.jpg
 
 [Walls.io](https://unsplash.com/photos/rTg7ljxWGgI){:.photocredit}
 
+{:.series}
+1. [Use high-contrast colours](text-contrast)
+2. The fridge door test ←
+
 Copy-editing a book takes more skill, concentration and time than you expect.
 Self-publishing authors should therefore hire a third-party copy editor to make a good job of it.
 

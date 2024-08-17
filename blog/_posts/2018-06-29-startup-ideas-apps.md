@@ -19,6 +19,9 @@ image: light-bulbs-books.jpg
 6. [2020 ideas](startup-ideas-2020)
 7. [2021 ideas](startup-ideas-2021)
 8. [2022 ideas](startup-ideas-2022)
+9. [2023 business software ideas](startup-ideas-2023-business)
+10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
+11. 2024 H1 ideas
 
 Back in December 2014, I explained why [Start-up company ideas are cheap](startup-ideas-are-cheap), and included a bunch of free ideas by way of illustration.
 Once you’ve started recognising silly ideas as no less plausible than VC-funded start-ups’ business plans, it’s fun to keep sharing them.

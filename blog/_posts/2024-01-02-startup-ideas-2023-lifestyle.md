@@ -22,6 +22,7 @@ css: "body.writing h3 {clear:none}"
 8. [2022 ideas](startup-ideas-2022)
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. 2023 lifestyle ideas ←
+11. 2024 H1 ideas
 
 [You wouldn’t pay anyone for a startup idea](startup-ideas-are-cheap), especially a stupid one,
 but you might have the product management habit of thinking about the impact of solving a problem.

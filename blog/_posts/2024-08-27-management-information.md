@@ -11,29 +11,18 @@ image: warehouse-walking.jpg
 [Centre for Ageing Better](https://unsplash.com/photos/ZlOlRnWk8zU){:.photocredit}
 
 Managers need to know when work flows smoothly, and when something slows work down.
-In software development, meetings and tools address this information problem,
-and what we learn from doing the work informs continuous decision-making.
+In software development, meetings and tools address this information problem
+by making key activities and milestones explicit, and visible.
+
+The information we gather - what we learn from doing the work - informs decision-making.
 Without this continuous learning and adaptation,
 we would to revert up-front planning, and endless meetings.
 
-## Specialist tools
-
-Companies use different kinds of software tools.
-They have _collaboration_ applications that everyone uses:
-collaborative document editing, file management, and group chat, for example.
-At the same time, businesses also adopt _specialist_ software,
-used by people in specialist roles.
-
-In software development, designers, developers and product managers have their own tools.
-Similarly, marketing and finance teams also have specialist tools,
-with advanced functionality, designed for regular expert use.
-Casual software, by comparison, caters well for the occasional visit, but you wouldn’t want to live there.
-
 ## Status meetings
 
-A lot of management work involves gathering and analysing information about specialist work,
-and using it to make decisions.
-Managers require visibility of the work.
+In software development, a lot of management work involves making decisions based on the outcomes of work by designers and developers.
+Managers gather and analyse information about these specialist’s work,
+and use it to make decisions about future work.
 
 The old-fashioned approach to management information puts the specialists in a _status meeting_,
 where they describe their work verbally.

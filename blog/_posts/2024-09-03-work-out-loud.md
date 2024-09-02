@@ -3,7 +3,12 @@ title: Work remote and out loud
 description: observable work and narrating your work
 layout: hh
 tags: remote
+image: megaphone.jpg
 ---
+
+![](megaphone.jpg)
+
+[Oleg Laptev](https://unsplash.com/photos/QRKJwE6yfJo){:.photocredit}
 
 {:.series}
 1. [Management information](managment-information)

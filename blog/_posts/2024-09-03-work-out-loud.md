@@ -5,6 +5,10 @@ layout: hh
 tags: remote
 ---
 
+{:.series}
+1. [Management information](managment-information)
+2. Working out loud ←
+
 When you reduce meetings by working asynchronously, you risk making work less visible.
 People who don’t know about each other’s work miss collaboration opportunities.
 Working fully remote increases this risk,

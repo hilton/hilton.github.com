@@ -10,6 +10,10 @@ image: warehouse-walking.jpg
 
 [Centre for Ageing Better](https://unsplash.com/photos/ZlOlRnWk8zU){:.photocredit}
 
+{:.series}
+1. Management information ←
+2. Working out loud
+
 Managers need to know when work flows smoothly, and when something slows work down.
 In software development, meetings and tools address this information problem
 by making key activities and milestones explicit, and visible.

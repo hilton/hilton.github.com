@@ -22,7 +22,7 @@ image: light-bulbs.jpg
 8. [2022 ideas](startup-ideas-2022)
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
-11. 2024 H1 ideas
+11. [2024 H1 ideas](startup-ideas-2024-h1)
 
 Following on my earlier explanation of why 
 [start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more 

@@ -22,7 +22,7 @@ image: light-bulbs.jpg
 8. [2022 ideas](startup-ideas-2022)
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
-11. 2024 H1 ideas
+11. [2024 H1 ideas](startup-ideas-2024-h1)
 
 Entrepreneurs occasionally succumb to the illusion that their startup idea is worth something. An idea for a business or a product, however inspired, won’t get you anywhere without a team that can pull off the hard work of executing the idea. You’ll probably need some money too.
 

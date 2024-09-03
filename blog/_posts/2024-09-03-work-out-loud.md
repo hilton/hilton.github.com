@@ -11,7 +11,7 @@ image: megaphone.jpg
 [Oleg Laptev](https://unsplash.com/photos/QRKJwE6yfJo){:.photocredit}
 
 {:.series}
-1. [Management information](managment-information)
+1. [Management information](management-information)
 2. Working out loud ←
 
 When you reduce meetings by working asynchronously, you risk making work less visible.

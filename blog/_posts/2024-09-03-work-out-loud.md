@@ -13,7 +13,8 @@ image: megaphone.jpg
 {:.series}
 1. [Management information](management-information)
 2. Working out loud ←
-3. Collaboration opportunities
+3. [Collaboration opportunities](collaboration-opportunities)
+4. Activity feed
 
 When you reduce meetings by working asynchronously, you risk making work less visible.
 People who don’t know about each other’s work miss collaboration opportunities.

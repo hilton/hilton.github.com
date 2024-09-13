@@ -13,7 +13,8 @@ image: warehouse-walking.jpg
 {:.series}
 1. Management information ←
 2. [Working out loud](work-out-loud)
-3. Collaboration opportunities
+3. [Collaboration opportunities](collaboration-opportunities)
+4. Activity feed
 
 Managers need to know when work flows smoothly, and when something slows work down.
 In software development, meetings and tools address this information problem

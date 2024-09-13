@@ -15,6 +15,7 @@ css: "body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3
 1. [Management information](management-information)
 2. [Working out loud](work-out-loud)
 3. Collaboration opportunities ←
+4. Activity feed
 
 Software development remains the poster child for online team-based collaboration,
 with the option of a fully-remote team.
@@ -32,8 +33,9 @@ layout (screenshot) wasted most of the space on _Favourite Pages_ and _Spaces_:
 
 These bookmarks only helped with navigation, not collaboration.
 Fortunately, I could expand the _Recently Updated_ to use the whole right-hand half of the page.
-By devoting half of the page to an _activity feed_ of _recently updated_ pages,
-I could immediately see today’s team member activity.
+By devoting half of the page to an
+[activity feed](https://knock.app/blog/the-benefits-of-adding-an-activity-feed-to-your-product)
+of _recently updated_ pages, I could immediately see today’s team member activity.
 
 ## Collaboration visbility
 

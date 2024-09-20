@@ -15,7 +15,8 @@ css: "body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3
 1. [Management information](management-information)
 2. [Working out loud](work-out-loud)
 3. Collaboration opportunities ←
-4. [Activity feed](activity-feed)
+4. [Activity feeds](activity-feed)
+5. Activity feed design
 
 Software development remains the poster child for online team-based collaboration,
 with the option of a fully-remote team.

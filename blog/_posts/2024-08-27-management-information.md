@@ -16,6 +16,7 @@ image: warehouse-walking.jpg
 3. [Collaboration opportunities](collaboration-opportunities)
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
+6. Information pages
 
 Managers need to know when work flows smoothly, and when something slows work down.
 In software development, meetings and tools address this information problem

@@ -11,6 +11,14 @@ image: headlines.jpg
 
 [Ewien van Bergeijk - Kwant](https://unsplash.com/photos/JWRFUKfGWSk){:.photocredit}
 
+{:.series}
+1. [Management information](management-information)
+2. [Working out loud](work-out-loud)
+3. [Collaboration opportunities](collaboration-opportunities)
+4. [Activity feeds](activity-feed)
+5. Activity feed design ←
+6. Information pages
+
 When you [build a team activity feed](activity-feed) using tools’ built-in Slack integrations,
 you rarely get any control over their posts’ design.
 Only in [rare cases](https://tally.so/help/slack-integration#e4eedb694aa845ec9b63bf879dbed9d1)

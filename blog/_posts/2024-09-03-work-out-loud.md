@@ -16,6 +16,7 @@ image: megaphone.jpg
 3. [Collaboration opportunities](collaboration-opportunities)
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
+6. Information pages
 
 When you reduce meetings by working asynchronously, you risk making work less visible.
 People who don’t know about each other’s work miss collaboration opportunities.

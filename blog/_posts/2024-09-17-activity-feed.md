@@ -16,6 +16,7 @@ image: mailboxes.jpg
 3. [Collaboration opportunities](collaboration-opportunities)
 4. Activity feeds ←
 5. [Activity feed design](activity-feed-design)
+6. Information pages
 
 Teams that make their work visible find it easier to collaborate,
 without needing micromanagement to resolve missing

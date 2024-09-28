@@ -20,6 +20,7 @@ such as when logging notifications from your own custom automation,
 design for readability.
 And keep them short.
 
+{:#line}
 ## Limit notifications to one line
 
 Slack integration in third-party tools, such as 
@@ -34,6 +35,7 @@ they typically contain far too much content,
 starting with [unnecessary salutations](omit-notification-salutations).
 Meanwhile, most Slack notifications should fit on one line that states what happened.
 
+{:#what}
 ## State what happened
 
 [Working out loud](work-out-loud) works better when you stick to facts and changes.
@@ -57,7 +59,7 @@ Therefore, write each message as a direct and descriptive statement:
 Make each notification a complete sentence, to avoid ambiguity,
 but resist the temptation to add fluff or boilerplate.
 
-
+{:#emoji}
 ## Use emoji to show categories
 
 Single-line notifications risk becoming a wall of text, whose structure you cannot see.
@@ -80,6 +82,7 @@ Start each notification template with a different emoji:
 
 This makes it easier to spot a particular type of notification.
 
+{:#link}
 ## Link to business objects’ canonical URLs
 
 Attempting clear communication introduces a tension between brevity and detail.

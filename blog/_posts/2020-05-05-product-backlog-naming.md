@@ -22,6 +22,7 @@ Companies find it famously hard to name their products.
 Fortunately, for product people, they don’t name products often.
 However, content marketing and user-interface text include plenty of product-related names, which have to come from somewhere.
 
+{:#objects}
 ## Business objects and musical instruments
 
 Enterprise software sometimes lets you define your own data structures, blurring the lines between configuration, customisation and software development.
@@ -44,6 +45,7 @@ Unfortunately, other products use different names:
 
 As a product manager, adding a capability such as _configurable business objects_ to the product backlog means naming it, or choosing between the names already in use, in the market, among existing customers, and within your own organisation.
 
+{:#backlog}
 ## Product backlog naming
 
 A product contains many names - concepts and capabilities, jargon and features.
@@ -61,6 +63,7 @@ Product backlog items use a mixture of existing concepts and new concepts, which
 Naming product backlog items comes with great responsibility, because names stick.
 Even bad names.
 
+{:#naming}
 ## Good product capability naming
 
 Good product backlog naming goes beyond using a consistent abstraction level.

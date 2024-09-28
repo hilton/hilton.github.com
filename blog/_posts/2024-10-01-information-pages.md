@@ -6,10 +6,6 @@ tags: collaboration
 image: pages.jpg
 ---
 
-![](pages.jpg)
-
-[Patrick Tomasso](https://unsplash.com/photos/Oaqk7qqNh_c){:.photocredit}
-
 {:.series}
 1. [Management information](management-information)
 2. [Working out loud](work-out-loud)
@@ -17,6 +13,10 @@ image: pages.jpg
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
 6. Information pages ←
+
+![](pages.jpg)
+
+[Patrick Tomasso](https://unsplash.com/photos/Oaqk7qqNh_c){:.photocredit}
 
 *[B2B]: business-to-business - refers to software for companies, as opposed to B2C (business-to-customer) consumer software
 *[SaaS]: software-as-a-service - web-based software that you don’t have to install and upgrade

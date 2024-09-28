@@ -6,10 +6,6 @@ tags: remote
 image: megaphone.jpg
 ---
 
-![](megaphone.jpg)
-
-[Oleg Laptev](https://unsplash.com/photos/QRKJwE6yfJo){:.photocredit}
-
 {:.series}
 1. [Management information](management-information)
 2. Working out loud ←
@@ -17,6 +13,10 @@ image: megaphone.jpg
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
 6. Information pages
+
+![](megaphone.jpg)
+
+[Oleg Laptev](https://unsplash.com/photos/QRKJwE6yfJo){:.photocredit}
 
 When you reduce meetings by working asynchronously, you risk making work less visible.
 People who don’t know about each other’s work miss collaboration opportunities.

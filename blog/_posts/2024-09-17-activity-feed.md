@@ -6,10 +6,6 @@ tags: remote collaboration
 image: mailboxes.jpg
 ---
 
-![](mailboxes.jpg)
-
-[Philippe Murray-Pietsch](https://unsplash.com/photos/xiqCrk6LvTg){:.photocredit}
-
 {:.series}
 1. [Management information](management-information)
 2. [Working out loud](work-out-loud)
@@ -17,6 +13,10 @@ image: mailboxes.jpg
 4. Activity feeds ←
 5. [Activity feed design](activity-feed-design)
 6. Information pages
+
+![](mailboxes.jpg)
+
+[Philippe Murray-Pietsch](https://unsplash.com/photos/xiqCrk6LvTg){:.photocredit}
 
 Teams that make their work visible find it easier to collaborate,
 without needing micromanagement to resolve missing

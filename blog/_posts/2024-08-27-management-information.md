@@ -6,10 +6,6 @@ tags: management
 image: warehouse-walking.jpg
 ---
 
-![](warehouse-walking.jpg)
-
-[Centre for Ageing Better](https://unsplash.com/photos/ZlOlRnWk8zU){:.photocredit}
-
 {:.series}
 1. Management information ←
 2. [Working out loud](work-out-loud)
@@ -17,6 +13,10 @@ image: warehouse-walking.jpg
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
 6. Information pages
+
+![](warehouse-walking.jpg)
+
+[Centre for Ageing Better](https://unsplash.com/photos/ZlOlRnWk8zU){:.photocredit}
 
 Managers need to know when work flows smoothly, and when something slows work down.
 In software development, meetings and tools address this information problem

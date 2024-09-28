@@ -7,10 +7,6 @@ css: "blockquote em {font-style: normal; color: #555; font-size: 75%;}"
 image: headlines.jpg
 ---
 
-![](headlines.jpg)
-
-[Ewien van Bergeijk - Kwant](https://unsplash.com/photos/JWRFUKfGWSk){:.photocredit}
-
 {:.series}
 1. [Management information](management-information)
 2. [Working out loud](work-out-loud)
@@ -18,6 +14,10 @@ image: headlines.jpg
 4. [Activity feeds](activity-feed)
 5. Activity feed design ←
 6. Information pages
+
+![](headlines.jpg)
+
+[Ewien van Bergeijk - Kwant](https://unsplash.com/photos/JWRFUKfGWSk){:.photocredit}
 
 When you [build a team activity feed](activity-feed) using tools’ built-in Slack integrations,
 you rarely get any control over their posts’ design.

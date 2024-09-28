@@ -7,10 +7,6 @@ image: together-we-create.jpg
 css: "body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px); margin-bottom:0.5em }"
 ---
 
-![](together-we-create.jpg)
-
-[My Life Through A Lens](https://unsplash.com/photos/bq31L0jQAjU){:.photocredit}
-
 {:.series}
 1. [Management information](management-information)
 2. [Working out loud](work-out-loud)
@@ -18,6 +14,10 @@ css: "body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
 6. Information pages
+
+![](together-we-create.jpg)
+
+[My Life Through A Lens](https://unsplash.com/photos/bq31L0jQAjU){:.photocredit}
 
 Software development remains the poster child for online team-based collaboration,
 with the option of a fully-remote team.

@@ -1,5 +1,5 @@
 ---
-title: Publish canonical business information pages
+title: Publish business information pages
 description: canonical intranet web pages for internal tools to link to
 layout: hh
 tags: collaboration

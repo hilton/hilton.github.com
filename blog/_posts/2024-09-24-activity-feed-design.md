@@ -14,6 +14,7 @@ image: headlines.jpg
 4. [Activity feeds](activity-feed)
 5. Activity feed design ←
 6. Information pages
+7. Information page URLs
 
 ![](headlines.jpg)
 

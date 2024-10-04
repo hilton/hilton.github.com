@@ -13,6 +13,7 @@ image: mailboxes.jpg
 4. Activity feeds ←
 5. [Activity feed design](activity-feed-design)
 6. Information pages
+7. Information page URLs
 
 ![](mailboxes.jpg)
 

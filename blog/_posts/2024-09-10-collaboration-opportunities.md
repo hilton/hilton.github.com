@@ -14,6 +14,7 @@ css: "body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
 6. Information pages
+7. Information page URLs
 
 ![](together-we-create.jpg)
 

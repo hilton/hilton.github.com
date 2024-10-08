@@ -13,8 +13,8 @@ css: "body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3
 3. Collaboration opportunities ←
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
-6. Information pages
-7. Information page URLs
+6. [Information pages](information-pages)
+7. [Information page URLs](information-page-urls)
 
 ![](together-we-create.jpg)
 

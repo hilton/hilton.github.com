@@ -13,7 +13,7 @@ image: pages.jpg
 4. [Activity feeds](activity-feed)
 5. [Activity feed design](activity-feed-design)
 6. Information pages ←
-7. Information page URLs
+7. [Information page URLs](information-page-urls)
 
 ![](pages.jpg)
 

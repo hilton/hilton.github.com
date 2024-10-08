@@ -13,8 +13,8 @@ image: headlines.jpg
 3. [Collaboration opportunities](collaboration-opportunities)
 4. [Activity feeds](activity-feed)
 5. Activity feed design ←
-6. Information pages
-7. Information page URLs
+6. [Information pages](information-pages)
+7. [Information page URLs](information-page-urls)
 
 ![](headlines.jpg)
 

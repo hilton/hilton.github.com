@@ -19,7 +19,7 @@ If you don’t stop there, you also end up with an `#emoji-language` Slack chann
 for questions and answers about correct emoji usage, and their rules, exceptions and dialects.
 And if it escalates, you go beyond the standardised Unicode emoji,
 and start adopting slang, in the form of
-[Slack custom emoji](https://slack.com/intl/en-gb/help/articles/206870177-Add-customised-emoji-and-aliases-to-your-workspace).
+[Slack custom emoji](https://slackmojis.com).
 
 In the following vocabulary, each entry has an example of a title or heading that each emoji can introduce,
 to [categorise it](activity-feed-design#emoji), 

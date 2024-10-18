@@ -18,7 +18,7 @@ A new series of one-day training courses provides modern executives with the ski
 These skills enable senior leaders to translate their charisma and influence to where the work happens now.
 A recognised expert in the topic will deliver each course, bringing real-world industry experience and a track record of live presentations/performances.
 
-
+{:#emoji}
 ## Emoji skills for asynchronous working
 
 This one-day course tackles the awkward emotionally stunted business English traditionally used in the workplace, by introducing the revolutionary techniques of acknowledging and expressing emotions other than anger.
@@ -34,7 +34,7 @@ Course outline:
 
 Advanced module: custom emoji production, rollout and adoption.
 
-
+{:#meme}
 ## Memes for culture-building
 
 This one-day course explores how Internet memes acquire new significance in company culture, in a remote-work context.
@@ -49,7 +49,7 @@ Course outline:
 
 Advanced module: design patterns for custom memes by subculture.
 
-
+{:#gif}
 ## Animated GIF humour in the workplace
 
 This one-day course teaches managers how to stop taking themselves so seriously, and to allow some humour into the workplace.
@@ -65,7 +65,7 @@ Course outline:
 
 Advanced module: short-form video, from GIF to TikTok.
 
-
+{:#dj}
 ## DJ skills for online meetings
 
 This one-day course traverses traditional boundaries between work and entertainment by introducing music as a medium for crafting effective online collaborative spaces.
@@ -88,3 +88,5 @@ Advanced module: custom jingle production using a home office studio.
 * Course dates and maximum class size by mutual agreement.
 * Courses run within central European time (CET) time zone office hours (09:00-18:00).
 * Payment terms 14 days.
+
+Prices valid until the end of 2022.

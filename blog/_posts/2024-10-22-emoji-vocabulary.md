@@ -64,7 +64,6 @@ But if you use them consistently, it won’t take long before you can _read_ the
 
 📖 **documentation** - a document type
 
-✅ **done** - a task status
 
 {:#e}
 📧 **email** - a document/message type
@@ -104,8 +103,6 @@ But if you use them consistently, it won’t take long before you can _read_ the
 🌱 **needs** - customer needs, in discovery work
 
 🆕 **new product/feature** - software development work, in a work tracker
-
-❎ **not done (nothing to do here)** - a decision about how to resolve an issue
 
 📝 **notes** - a document type
 

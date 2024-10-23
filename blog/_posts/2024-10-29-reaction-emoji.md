@@ -61,26 +61,23 @@ For example, a Slack support channel might use emoji reactions for status and re
 ## Emotional reactions
 
 Emoji, in the original [emoticon](https://en.wikipedia.org/wiki/Emoticon) sense of _emotion icon_,
-add an emotional layer to online communication that adds a little real human contact.
-
+add an emotional layer to online communication.
 You save time writing when you can use emoji when you want to express emotion,
-which otherwise risks requiring a lot of text.
-If you don’t write novels, you probably can’t write emotion successfully anyway, and shouldn’t try.
+which otherwise requires difficult writing.
+And unless you write novels, you probably can’t write emotion well, and shouldn’t try.
 
-Emoji lower the stakes for misinterpretation by communicating a more limited emotional vocabulary
-that a team can use consistently.
-Ironically, for people who grew up with a limited ability to express or recognise different emotions,
-this emoji vocabulary may create opportunity for richer emotional communication, not less.
+Emoji lower the stakes for misinterpretation by limiting a team’s emotional vocabulary.
+Ironically, people who grew up with a limited ability to express or recognise emotions,
+this emoji vocabulary may help them achieve richer emotional communication, not less.
 
-However, beyond a separation into broad categories - such as _more_ or _less positive_ -
-groups of people use and interpret these emoji differently.
+We can separate reaction emoji into broad categories - such as _more_ or _less positive_:
 
 * positive reactions - 😀 😅 😬 😂 😭 😍
 * less positive reactions - 😶 😮 😢 😔 🥺 😱 🤮
 
+But more specific interpretations belong to smaller groups of people.
 Teams who work together online, and especially remote,
 can use this as an opportunity to build a shared emotional vocabulary.
-Circumstances that make this vocabulary semi-private also make it feel safer to use.
 
 
 ## Emoji dialects

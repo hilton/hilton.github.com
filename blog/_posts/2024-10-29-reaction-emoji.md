@@ -3,9 +3,13 @@ title: Express yourself with reaction emoji
 description: expanding your online emotional vocabulary
 layout: hh
 tags: collaboration
+image: emoji-balls.jpg
 ---
 
-<!-- → 580 -->
+![](emoji-balls.jpg)
+
+[Anthony Hortin](https://unsplash.com/photos/4klT9uUEexU){:.photocredit}
+
 
 Notion and Slack introduce two uses for emoji.
 Notion uses emoji as page logos, making lists of page titles easier to browse.

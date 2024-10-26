@@ -10,6 +10,9 @@ image: emoji-balls.jpg
 
 [Anthony Hortin](https://unsplash.com/photos/4klT9uUEexU){:.photocredit}
 
+{:.series}
+1. [Emoji vocabulary](emoji-vocabulary)
+2. Reaction emoji ←
 
 Notion and Slack introduce two uses for emoji.
 Notion uses emoji as page logos, making lists of page titles easier to browse.

@@ -10,6 +10,10 @@ image: nesting-dolls.jpg
 
 [Simon Hurry](https://unsplash.com/photos/QtiZpH_N2sA){:.photocredit}
 
+{:.series}
+1. Emoji vocabulary ←
+2. Reaction emoji
+
 When you use contemporary collaboration tools like Slack and Notion, you have a choice.
 You can either complain about the [emoji](https://en.wikipedia.org/wiki/Emoji)
 and call them _unprofessional_, in which case you need [help](executive-training-remote#emoji),

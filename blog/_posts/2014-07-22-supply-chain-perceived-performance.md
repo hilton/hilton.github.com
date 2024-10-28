@@ -3,7 +3,12 @@ title: Supply chain delivery performance improvements
 description: How status updates can improve perceived performance
 tags: supplychain
 layout: hh
+image: lorry.jpg
 ---
+
+![](lorry.jpg)
+
+[Jan Kopriva](https://unsplash.com/photos/Nvo5xeoccVg){:.photocredit}
 
 A [2008 Coding Horror article](http://blog.codinghorror.com/actual-performance-perceived-performance/) describes the difference between perceived performance and actual performance, referring to a study of progress bars in computer software. In [the study](http://chrisharrison.net/projects/progressbars/ProgBarHarrison.pdf) (PDF) it turned out that the people tested ‘perceived progress bars with pauses as taking longer to complete’ and that ‘accelerated progress was strongly favoured’.
 

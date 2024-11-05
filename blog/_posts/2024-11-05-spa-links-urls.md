@@ -79,5 +79,5 @@ On a static web page, this text comes from the HTML document _title_.
 
 A single-page app only has one HTML document _title_,
 which means that in a naive implementation, every browser history entry will have the same title.
-[Single-page apps much dynamically update the document title](https://www.kindacode.com/article/ways-to-set-page-title-dynamically-in-react/)
+[Single-page apps must dynamically update the document title](https://www.kindacode.com/article/ways-to-set-page-title-dynamically-in-react/)
 for each view and navigation history entry, so that browser functionality doesn’t show duplicate titles.

@@ -2,13 +2,12 @@
 title: Contact/connect
 description: Peter Hilton elsewhere
 layout: main
+css: "article img {vertical-align:top; margin-right:4px; height:16px; position:relative; top:3px;}"
 ---
 
+![Blueskey](picture/social/minimal/bluesky.png) [Bluesky](https://bsky.app/profile/peterhilton.bsky.social) @peterhilton.bsky.social
+
 ![e-mail](picture/social/minimal/email.png) e-mail - peter.hilton○gmail.com
-
-![Facebook](picture/social/minimal/facebook.png) [Facebook](http://www.facebook.com/profile.php?id=578484777)
-
-![Flickr](picture/social/minimal/flickr-2.png) [Flickr](https://www.flickr.com/photos/peterhilton/)
 
 <!-- ![Foursquare](picture/social/minimal/foursquare.png) [Foursquare](https://foursquare.com/peterhilton) -->
 
@@ -16,8 +15,15 @@ layout: main
 
 ![LinkedIn](picture/social/minimal/linkedin.png) [LinkedIn](http://www.linkedin.com/in/peterhilton)
 
-![Skype](picture/social/minimal/skype.png) Skype - peter.hilton
-
 ![Stack Overflow](picture/social/minimal/stackoverflow.png) [Stack Overflow](http://stackoverflow.com/users/2670/peter-hilton)
 
-![Twitter](picture/social/minimal/twitter.png) [Twitter](http://twitter.com/PeterHilton) - @PeterHilton
+![X](picture/social/minimal/x.png) [Twitter](http://x.com/PeterHilton) - @PeterHilton
+
+## No longer used
+
+![Facebook](picture/social/minimal/facebook.png) [Facebook](http://www.facebook.com/profile.php?id=578484777)
+
+![Flickr](picture/social/minimal/flickr-2.png) [Flickr](https://www.flickr.com/photos/peterhilton/)
+
+![Skype](picture/social/minimal/skype.png) Skype - peter.hilton
+

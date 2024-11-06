@@ -159,7 +159,7 @@ blockquote.big.solid-three a { color: #005199; }
 a.unsplash { background-color:#ccc; color:white; }
 a.unsplash:hover { background-color: #7FC4FF; }
 
-.social img { filter: grayscale(100%); }
+.social img { filter: grayscale(100%) opacity(0.5); }
 .social img:hover { filter: none; }
 
 strong { font-weight:normal; color: #DF5A49; }

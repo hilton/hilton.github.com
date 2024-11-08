@@ -3,7 +3,12 @@ title: The 3 phases of public API development
 description: unpacking the API product lifecycle
 layout: hh
 tags: API product
+image: moon-phases.jpg
 ---
+
+![](moon-phases.jpg)
+
+[Jordan](https://unsplash.com/photos/N953mNxAh-w){:.photocredit}
 
 <!-- 482 - 582 words -->
 

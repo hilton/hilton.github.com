@@ -27,17 +27,20 @@ does not make an API.
 
 What could possibly go wrong?
 
+{:#docs}
 ## Documentation costs more than that
 
 You know you need documentation, and will soon discover that this takes longer than you expect.
 Developers will try to generate all of the API documentation from code, 
 the first of several [HTTP API documentation mistakes](api-documentation-mistakes).
 
+{:#publishing}
 ## Publishing the API freezes it
 
 Sooner or later, a user-interface change will change the API, and annoyed customers will want to know why their expensive custom reports broke.
 You can’t break your API once _published_, so you’ll have to stop changing it.
 
+{:#growth}
 ## The actual API grows beyond what you published
 
 As you continue to develop new application functionality, the API grows to support it.
@@ -48,6 +51,7 @@ Customer will want an API for the new application functionality.
 They will figure out that the API has more functionality than what appears in the API documentation, and start using it.
 Now you have to support an implicitly scoped and partially undocumented API.
 
+{:#auth}
 ## User-based authentication prevents access control
 
 Because the API originally served the application user interface, it grants access to (human) users,
@@ -58,6 +62,7 @@ You’ll end up with some workaround that messes up license accounting, such as 
 You’ll want to charge more for API access, because in enterprise SaaS it has higher value than access for a single person, but your application can’t tell the difference.
 I don’t want to know how you work around this.
 
+{:#design}
 ## Documentation exposes bad design you can’t fix
 
 No-one designed the API holistically, the way designers approach a user interface.

@@ -19,30 +19,33 @@ A product’s public API essentially has two development phases:
 
 All software has a tension between these two goals, but public APIs have it more.
 Development teams typically have less API design experience and expertise than for other kinds of software design,
-such as user-interface design.
+such as user-interface design, and depend more on feedback and iterative development.
 
-APIs incur much higher costs of change for their users, compared to user interfaces.
+Meanwhile, APIs incur much higher costs of change for their users, compared to user interfaces.
 User-interface changes may slow someone down, but they will typically figure out how to navigation the change and proceed, without too much delay.
 Developers who use your API, by comparison, write API client code that API changes break.
 
 ## Phase 1: feedback and improvement
 
-In a public API’s first development phase, developers use the API for the first time.
-This typically uncovers bugs and [usability issues](api-docs-usability),
-which we can also call developer experience (DX) issues.
+In a public API’s first development phase, third-party developers use the API for the first time.
+They typically uncovers bugs and [usability issues](api-docs-usability),
+also known as _developer experience_ (DX) issues.
 In particular, [poor quality or missing API documentation](api-documentation-mistakes)
-lead to a bad developer experience.
+leads to a bad developer experience.
 
 In a successful first phase, you collect feedback from early API users,
-and constantly iterate the API to improve it.
-Improvement means reducing the number of support requests, and reducing time to value.
-You will aim to make enough improvements in this phase to launch a good API product,
-before success brings enough customers to force you into phase 2. 
+and iterate the API to improve it.
+Improvement means reducing the number of support requests,
+and how long it takes for developers to use the API successfully
+([time to value](https://en.wikipedia.org/wiki/Time_to_value)).
+
+You should aim to make enough improvements in phase 1 to launch a good API product.
+If you make improvements too slowly,
+gradual adoption will eventually bring enough customers to force a mediocre API into phase 2. 
 
 ## Phase 2: first stable version
 
-When enough customers use the API, they force you into phase 2,
-in which you support your first stable [API version](http-api-versioning) 
+In  phase 2, you support your first stable [API version](http-api-versioning) 
 without making breaking changes.
 In this phase, you can continue to make minor usability improvements,
 especially documentation improvements.
@@ -64,8 +67,10 @@ at best, _some_ of them will migrate within a year, but you shouldn’t expect t
 Instead, reduced support effort for _new customers_ justifies the new version
 
 In theory, the third phase corresponds to a major new version,
-with breaking changes that improve on the previous version’s design,
-and make developers who use the API more successful.
+with breaking changes that improve on the previous version’s design.
+These improvements will make developers who use the new API more successful.
+
 However, you need to believe that more customers will adopt the API in the future than currently use it,
 to justify this development effort.
 Perhaps that explains why so many APIs introduce versioning, and then never release a new version.
+Most public APIs remain forever at version 1.

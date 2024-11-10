@@ -7,3 +7,5 @@ plugins:
 title: Peter Hilton’s blog
 author: Peter Hilton
 description: Product management, software development, and other curiosities
+include:
+- .well-known

@@ -10,8 +10,6 @@ image: moon-phases.jpg
 
 [Jordan](https://unsplash.com/photos/N953mNxAh-w){:.photocredit}
 
-<!-- 482 - 582 words -->
-
 A product’s public API essentially has two development phases:
 
 1. Improve everything!
@@ -22,7 +20,8 @@ Development teams typically have less API design experience and expertise than f
 such as user-interface design, and depend more on feedback and iterative development.
 
 Meanwhile, APIs incur much higher costs of change for their users, compared to user interfaces.
-User-interface changes may slow someone down, but they will typically figure out how to navigation the change and proceed, without too much delay.
+User-interface changes may slow someone down, 
+but they will typically figure out how to navigate the change and proceed, without too much delay.
 Developers who use your API, by comparison, write API client code that API changes break.
 
 ## Phase 1: feedback and improvement

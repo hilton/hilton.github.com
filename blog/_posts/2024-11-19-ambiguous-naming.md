@@ -43,8 +43,8 @@ Next, you’ll tell someone that, ‘they didn’t come to the office today’.
 
 As with all naming problems, start by not naming things badly - _ambiguously_ in this case.
 
-* **Place names** give you a nice set of names to choose from, but  _Copenhagen_ and  _Tiergarten_ create ambiguity that doesn’t encumber, say, [asteroids](https://en.wikipedia.org/wiki/List_of_exceptional_asteroids) or [fictional prisons](https://en.wikipedia.org/wiki/List_of_fictional_prisons).
-* **Cute themes** for meeting rooms, such as _The monkey cage_ (not made up!), become awkward or embarrassing before long.
+* **Place names** give you a nice set of names to choose from, but  _Copenhagen_ and  _Tiergarten_ create ambiguity that doesn’t encumber, say, [asteroids](https://en.wikipedia.org/wiki/List_of_exceptional_asteroids) or [fictional prisons](https://en.wikipedia.org/wiki/List_of_fictional_prisons).
+* **Cute themes** for meeting rooms, such as _The monkey cage_ (not made up!), become awkward or embarrassing before long.
 
 Instead, you should at least manage to do better than:
 

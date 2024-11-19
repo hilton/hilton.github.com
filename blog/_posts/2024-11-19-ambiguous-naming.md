@@ -12,7 +12,7 @@ image: auditorium.jpg
 
 Someone I know recently received an invitation to speak at an academic conference
 with ‘Congress Helsinki 2025’ in its name.
-The letter also contained practical information, including the location:
+The letter also contained practical information, and the location:
 
 > The session will be held on 03/04/2025, from 09:00 to 10:00 in Copenhagen*.
 
@@ -50,7 +50,7 @@ Instead, you should at least manage to do better than:
 
 * **concise and unique (but boring) names** - when you call the third meeting room on the second floor _MR 2.3_
 * **hotel rooms**, like  _Room 203_ - only slightly less boring
-* **famous people’s names** - not ambiguous, but can result in things you want to ever have to say out loud when someone asks where to find you (‘you’ll find me in…’).
+* **famous people’s names** - not ambiguous, but can result in sentences you want to never have to say out loud (‘you’ll find me in…’).
 
 Alternatively, when facing a multiple-naming problem like this,
 you can reuse a name collection you already have.
@@ -74,13 +74,13 @@ The definite articles make these names stand out in sentences like,
 ‘I’ll see you after lunch in _The Inspiration_’ (you can hear the emphasis).
 No doubt they also perform well in their target market.
 
-Despite this sophistry, these don’t _sound like_ meeting room names, however.
-Plucking names from a different context, such as meeting goals, leads to this different kind of ambiguity.
-In domain-driven design terms, these names unwisely reuse domain language from bounded context in another.
+Despite this sophistry, these don’t _sound like_ meeting room names.
+Plucking names from a different context, such as meeting goals, creates this different kind of ambiguity.
+In domain-driven design terms, these names reuse domain language from bounded context in another.
 
 ## Good naming
 
-In practice, good names require more than to avoid ambiguity.
+Good names require more than avoiding ambiguity, in practice.
 Worse, you cannot easily _rename_ meeting rooms, so you probably only have one chance to get it right.
 Either way, some naming problems deserve some thought about what good looks like.
 

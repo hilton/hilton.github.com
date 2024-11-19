@@ -52,7 +52,7 @@ Use [U+202F NARROW NO-BREAK SPACE](https://unicode-explorer.com/c/202F)
 between a number and its unit, e.g. **100 m**
 ([Wikipedia](https://en.wikipedia.org/wiki/Non-breaking_space#Width_variation)).
 
-Also use [U+202F NO-BREAK SPACE](https://unicode-explorer.com/c/202F)
+Also use [U+202F NARROW NO-BREAK SPACE](https://unicode-explorer.com/c/202F)
 to group thousands, as an alternative to using a comma, or no grouping, e.g. **1 000 000**.
 
 ## Arithmetic

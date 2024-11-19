@@ -70,7 +70,7 @@
 {% if page.description %}{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}{% endif %}
 <section class="social">
 <p><a 
-href="https://bsky.app/intent/compose?text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+by+%40peterhilton.bsky.social+{{ url }}"><img 
+href="https://bsky.app/intent/compose?text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+by+%40hilton.org.uk+{{ url }}"><img 
 src="../picture/social/minimal/bluesky.png" srcset="../picture/social/minimal/bluesky-64.png 2x" alt="Share on Bluesky"></a><a 
 href="https://twitter.com/share?url={{ url }}&amp;text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+by+%40PeterHilton"><img 
 src="../picture/social/minimal/x.png" srcset="../picture/social/minimal/x-64.png 2x" alt="Share on X"></a><a 

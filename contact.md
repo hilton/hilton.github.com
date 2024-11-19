@@ -5,7 +5,7 @@ layout: main
 css: "article img {vertical-align:top; margin-right:4px; height:16px; position:relative; top:3px;}"
 ---
 
-![Blueskey](picture/social/minimal/bluesky.png) [Bluesky](https://bsky.app/profile/peterhilton.bsky.social) @peterhilton.bsky.social
+![Blueskey](picture/social/minimal/bluesky.png) [Bluesky](https://bsky.app/profile/hilton.org.uk) @hilton.org.uk
 
 ![e-mail](picture/social/minimal/email.png) e-mail - peter.hilton○gmail.com
 

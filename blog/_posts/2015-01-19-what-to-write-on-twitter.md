@@ -11,7 +11,8 @@ image: birds-pylon.jpg
 [Michael Coghlan](https://www.flickr.com/photos/mikecogh/14410924093){:.photocredit}
 [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
 
-The first rule of Twitter is _Don’t talk about Fight Club_, because tweets about Twitter are just as tedious as television programmes about television. In fact, I’ve successfully restrained myself for six and a half years now, since I explained [how to explain Twitter](http://blog.lunatech.com/2008/08/14/how-explain-twitter) Nevertheless, it turns out that for a lot of people, it’s not obvious how you might use Twitter, or even what you’d write about.
+The first rule of Twitter is _Don’t talk about Fight Club_, because tweets about Twitter are just as tedious as television programmes about television. In fact, I’ve successfully restrained myself for six and a half years now, since I explained [how to explain Twitter](http://blog.lunatech.com/2008/08/14/how-explain-twitter).
+Nevertheless, it turns out that for a lot of people, it’s not obvious how you might use Twitter, or even what you’d write about.
 
 There was a time when journalists, having just heard of ‘this new Twitter thing’, would write articles for other Luddites that boiled down the question, ‘who wants to know that you’re sitting on the toilet?’ Meanwhile, millions of people have come up with far more interesting things to write about.
 

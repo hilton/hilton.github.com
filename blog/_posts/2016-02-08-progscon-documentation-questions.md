@@ -56,7 +56,7 @@ A public API tends to provide an example of where documentation has high value a
 
 Developers also benefit from thinking about how the quality of an API’s design relates to its documentation.
 The attempt to write even a rough first draft of API documentation usually reveals problems with the API design, at all levels.
-Developers who release a bad API would ideally undergo the ordeal of having to use it to build something; failing that, documenting the would suffice.
+Developers who release a bad API would ideally undergo the ordeal of having to use it to build something; failing that, documenting the API would suffice.
 
 ## Clear code
 
@@ -76,5 +76,6 @@ This might be what Boileau meant, but I can’t be sure.
 
 Of course not! Before you decide whether to write documentation, don’t forget to consider audience and the documentation’s purpose.
 Reading an electronic appliance’s manual would be as weird as reading my e-mail clients’.
+
 However, I’d probably appreciate some documentation if I wanted to fix a bug in my iOS e-mail clients’ code, especially since I don’t know anything about SMTP or Swift programming.
 You’re much more likely to manage to design software that doesn’t need a user manual, than you are to write software that doesn’t need any developer documentation.

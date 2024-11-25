@@ -2,6 +2,7 @@
 title: Zero-bug policy success
 description: A practice for reducing software development waste 
 layout: speaking
+image: zero-bug.png
 ---
 
 Zero-bug policies are usually controversial, misunderstood, or both.

@@ -19,3 +19,7 @@ the objections and risks, and other implementation challenges.
 You’ll learn about why it’s worth the effort to fix (almost) all of the bugs,
 and which ones you can ignore.
 
+## Blog posts
+
+* [Implement a zero-bug policy](/blog/zero-bug-policy)
+* [Zero-bug policy scenarios](/blog/zero-bug-scenarios)

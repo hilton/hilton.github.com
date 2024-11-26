@@ -27,7 +27,7 @@ Developers who use your API, by comparison, write API client code that API chang
 ## Phase 1: feedback and improvement
 
 In a public API’s first development phase, third-party developers use the API for the first time.
-They typically uncovers bugs and [usability issues](api-docs-usability),
+They typically uncover bugs and [usability issues](api-docs-usability),
 also known as _developer experience_ (DX) issues.
 In particular, [poor quality or missing API documentation](api-documentation-mistakes)
 leads to a bad developer experience.

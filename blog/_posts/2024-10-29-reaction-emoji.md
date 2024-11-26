@@ -74,7 +74,7 @@ which otherwise requires difficult writing.
 And unless you write novels, you probably can’t write emotion well, and shouldn’t try.
 
 Emoji lower the stakes for misinterpretation by limiting a team’s emotional vocabulary.
-Ironically, people who grew up with a limited ability to express or recognise emotions,
+Ironically, for people who grew up with a limited ability to express or recognise emotions,
 this emoji vocabulary may help them achieve richer emotional communication, not less.
 
 We can separate reaction emoji into broad categories - such as _more_ or _less positive_:

@@ -53,7 +53,7 @@ before browsing by more visually-obvious differences, such as product type and c
 Information architecture goes wrong when we group things by the wrong characteristic.
 The most obvious categorisation makes things hard to find
 when everything within a category looks the same.
-Counter-intuitively, you don’t want to much similarity between items in the same category.
+Counter-intuitively, you don’t want too much similarity between items in the same category.
 
 A focus on [findability](https://en.wikipedia.org/wiki/Findability)
 shifts perspective from appearance to experience:

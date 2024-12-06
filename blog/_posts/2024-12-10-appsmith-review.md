@@ -7,8 +7,6 @@ css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1
 image: appsmith/project-ui.png
 ---
 
-<!-- 668 -->
-
 Web-based [information pages](information-pages), no longer require custom software development.
 Instead, low-code _app builders_ provide tools for connecting user-interface components to existing data sources.
 This especially fits for internal tools that don’t need a custom look and feel.

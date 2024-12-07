@@ -4,13 +4,12 @@ description: an app builder that works for information pages
 layout: hh
 tags: product review
 css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
+image: superblocks/edit-project.png
 ---
 
-<!-- 655 -->
-
-For this mini-review of [Superblocks](https://www.superblocks.com), a low-code application builder,
-I took the same approach as for [Appsmith](appsmith-review).
-I started building some project management [information pages](information-pages),
+This mini-review of [Superblocks](https://www.superblocks.com), a low-code application builder,
+takes the same approach as for [Appsmith](appsmith-review).
+I built some project management [information pages](information-pages),
 using [The Star Wars API](https://swapi.dev).
 
 ## Example application
@@ -22,7 +21,7 @@ I didn’t use its pagination, inline editing, conditional formatting, server-si
 
 [![The ‘Projects’ page – a table of projects](superblocks/deployed-projects.webp)](superblocks/deployed-projects.webp)
 
-Clicking a table row opens the project details page, showing text (left) and a paginated list (right):
+Clicking a table row opens a project details page, showing text (left) and a paginated list (right):
 
 [![The ‘Project’ details page – text and a list of project roles](superblocks/deployed-project.webp)](superblocks/deployed-project.webp)
 
@@ -53,13 +52,14 @@ passing the clicked row’s value for the `id` route parameter.
 ## Details pages
 
 The _project_ details page has a text block (left), and a
-[grid component](https://docs.superblocks.com/applications/components-library/grid) (right).
+[grid component](https://docs.superblocks.com/applications/components-library/grid) (selected, right).
 
 [![Configuring a grid component’s data with a JavaScript expression](superblocks/edit-project.webp)](superblocks/edit-project.webp)
 
-I liked the page layout, defined adding _sections_ to the page, choosing whether to layout their contents horizontally or vertically.
-Within those containers, as well as fixed sizes, component sizes can depend on their content, 
-their parent layout container, or the page.
+I liked page layout: adding _sections_ to the page, adding _columns_ to sections,
+and choosing to arrange their contents horizontally or vertically.
+Component sizes can depend on their content, their parent layout container, or the page.
+I prefer this to other tools’ absolute positions and dimensions.
 
 I also liked the low-code ability to add a complex JavaScript expression in the grid component’s
 _Data_ configuration, to transform the API data to what the component needs.
@@ -78,8 +78,22 @@ that would have taken time to add individually.
 Instead, I selected a _properties table_ from a catalogue of
 [UI templates](https://docs.superblocks.com/applications/ui-templates).
 
-I liked how the _Navigation_ sidebar (left) makes it easy to select the layout containers and components,
-provided that you name them properly.
+I liked how the _Navigation_ sidebar (left) makes it easy to select the layout containers and components.
+If you name them properly.
 
-## Page routes
+## Information pages
 
+Superblocks has the core capabilities for building [information pages](information-pages):
+
+1. [integration](https://docs.superblocks.com/integrations/overview) with external data sources
+2. [table](https://docs.superblocks.com/applications/components-library/table/) and [grid](https://docs.superblocks.com/applications/components-library/grid) components for browsing data
+3. [URL templates](https://docs.superblocks.com/applications/multi-page/routes#dynamic-routes), a.k.a. _route parameters_, for links to row-specific details pages
+4. [forms](https://docs.superblocks.com/applications/components-library/form), for editing data
+
+Beyond that, additional features add flexibility to what you can build, or save time.
+They also enable more use cases, but never all of them.
+
+Low-code tools save time, until you hit a fundamental limitation that blocks what you want to build.
+But that doesn’t matter: they don’t exist to replace traditional coding;
+they reduce the number of use cases that require it.
+And that no longer includes information pages.

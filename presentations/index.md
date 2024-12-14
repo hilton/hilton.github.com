@@ -25,10 +25,28 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Location</th>
 </tr>
 <tr>
-	<td>2025</td>
+	<td>2025-07-04</td>
 	<td><a href="zero-bug">Zero-bug policy success</a></td>
-	<td>TBD</td>
-	<td>TBD</td>
+	<td><a href="https://agileonthebeach.com">Agile on the Beach</a></td>
+	<td>🇬🇧 Falmouth</td>
+</tr>
+<tr>
+	<td>2025-03-26</td>
+	<td><a href="zero-bug">Zero-bug policy success</a></td>
+	<td><a href="https://www.boosterconf.no/2025/talks/#sz-session-765179">Booster</a></td>
+	<td>🇳🇴 Bergen</td>
+</tr>
+<tr>
+	<td>2025-02-04</td>
+   <td><a href="naming">How to name things</a></td>
+	<td>Hogeschool Rotterdam: Experience Week</td>
+	<td>🇳🇱 Rotterdam</td>
+</tr>
+<tr>
+	<td>2024-12-17</td>
+	<td>Remote work: software development without boundaries</td>
+	<td>company in-house</td>
+	<td>🇧🇪 Antwerp</td>
 </tr>
 <tr>
 	<td>2024-06-21</td>

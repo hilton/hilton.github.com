@@ -7,6 +7,11 @@ css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1
 image: superblocks/edit-project.png
 ---
 
+{:.series}
+1. [Appsmith](appsmith-review)
+2. Superblocks ←
+
+
 This mini-review of [Superblocks](https://www.superblocks.com), a low-code application builder,
 takes the same approach as for [Appsmith](appsmith-review).
 I built some project management [information pages](information-pages),

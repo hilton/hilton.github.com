@@ -3,85 +3,79 @@ title: Upgrade online meeting audio
 description: the easiest way to improve meetings when working remote
 layout: hh
 tags: remote productivity
+image: call-centre.jpg
 ---
 
-<!-- 584 -->
+![A woman wearing a headset at a desk in an office](call-centre.jpg)
 
-When I first worked remote,
-I had the worst part of the experience in meetings with a group of people in a meeting room.
-Table-top microphones made it difficult to understand people talking,
-and half the time, the presenter failed to connect it leaving me with a laptop microphone that couldn’t hear anyone else.
+[alanclarkdesign](https://www.flickr.com/photos/alanclarkdesign/2486109368/){:.photocredit}
+[CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0//){:.license}
+
+When I first worked remote, I hated the hybrid meetings.
+The meeting room’s table-top microphone barely worked,
+and half of the people couldn’t tell (or didn’t care) that they’d failed to connect it.
+Unsurprisingly, laptop microphones don’t work for a room full of people.
 
 ## Online meetings
 
-Most people already find it too hard to run meetings effectively, and barely try.
-Better meetings, especially online, require effort, discipline or both.
-By comparison, better audio upgrades the online meeting experience more easily than anything else.
-After all, what you can hear defines the meeting experience more than what you can see.
-
-Listing to people speaking requires more concentration when you have low-quality audio,
-much like how listening to a someone speaking a foreign language makes you tired more quickly,
-or even your own native language but with an accent.
+Following a discussion takes more effort when you have low-quality audio,
+much like listening to speech with a strong accent (or not in your native language).
 Online meetings in tech typically feature both, for most attendees.
+
+Most people don’t make the effort to use effective meeting techniques.
+By comparison, improving online meeting audio has a big impact for little effort.
+After all, what you can hear defines the meeting experience more than what you can see.
 
 ## Hybrid meetings
 
-Hybrid meetings make audio problems worse,
-because you have to combine remote attendees with whole-room audio.
-When some participants share a speaker and microphone in a meeting room,
-preventing these problems requires expensive equipment.
-The rest of this article focuses on fully-remote meetings, in which all participants connect individually.
+Hybrid meetings exacerbate audio problems,
+by combining remote attendees with participants who share a speaker and microphone.
+Fixing this requires expensive equipment.
+This article focuses on fully-remote meetings, in which all participants connect individually.
 
 ## Wear headphones
 
-First, wear headphones to prevent your microphone picking up other meeting attendees’ audio,
-when you unmute yourself.
-Online meeting software can filter out meeting audio from a nearby speaker,
+Wear headphones so your microphone doesn’t pick up meeting audio.
+Online meeting software filters out meeting audio from your microphone,
 but at a cost to how clear you sound.
-Even then, it sometimes fails, causing echo or audio feedback that disrupts the meeting.
+And it sometimes fails, causing echo or audio feedback that disrupts the meeting.
 
-## Start with a cheap headset
+## Use a headset
 
-While working remote for the first time, I once had an online meeting with a customer in another country,
-with clearer and louder audio than any of my colleagues.
-I emailed him after the meeting, to ask what equipment he had,
+In my first remote job, I had an online meeting with a customer who had clearer audio than any of my colleagues.
+After the meeting, I asked what equipment he used,
 and he replied that he _only had a cheap headset_ – a
 [Sennheiser PC-8](https://www.eposaudio.com/en/nl/products/pc-8-usb-voice-over-ip-headset-1000432)
-(now branded as _Epos_).
+(now _Epos_).
 I immediately ordered my own.
 
 You drastically improve your audio by positioning your microphone a few centimetres from your mouth.
-Headsets like the PC-8 use a microphone boom (arm) to position the microphone just in front of the corner of your mouth.
-And for less than €30, you don’t have any _good_ reasons for not making sure everyone on your team has audio at least this good.
+Headsets use a microphone boom (arm) to position the microphone near the corner of your mouth.
+And for less than €30, everyone on your team should have audio at least this good.
 
 ## Avoid wireless
 
-When I switched to my cheap PC-8 headset, I discovered unexpected benefits:
+When I got my own headset, I discovered unexpected benefits:
 
-1. its cheap lightweight plastic construction make it comfortable, and not too hot in summer
-2. the wired USB connection meant that I never had Bluetooth connection issues or interference
-3. the headset didn’t have batteries to run out at inconvenient times.
+1. its lightweight construction make it comfortable in long meetings, and not too hot in summer
+2. the wired USB connection meant that I never had Bluetooth issues
+3. the headset didn’t use batteries that could run out.
 
-I enjoy Bluetooth’s convenience away from my desk,
-but reliable always-connected audio at my desk felt like a revelation.
-I never had to worry about joining a meeting, and having to wait for an audio connection,
-or batteries running out.
+I enjoy Bluetooth’s convenience on the move, but always-connected audio at my desk felt like a revelation.
+I never worried about connection issues or dead batteries when joining a meeting.
 For regular online meetings at your desk, use wired headphones and microphone.
 
-Bluetooth audio quality drops when you switch from the profile for listing to music,
-to the profile that supports two-way audio with a microphone.
-Bluetooth headphones with a built-in microphone suffer twice:
-they position the microphone too far from your mouth, and their low-bandwidth audio lacks clarity
-(and gets worse with occasional interference).
+Bluetooth audio quality drops when you switch from the profile for listing to music, to using a microphone,
+and occasional interference makes it worse.
+Bluetooth headphones also degrade audio by positioning microphone too far from your mouth.
 
-## Value empathy and inclusion
+## Express empathy and inclusion
 
-When you have a bad microphone in online meetings,
-you give other people a bad experience, especially when not talking in their native language.
-Upgrading your audio in meetings shows empathy for your colleagues,
-because it improves their meeting experience, not yours.
+Using a bad microphone in online meetings degrades other people’s experience.
+Upgrading your audio in meetings shows empathy for your colleagues, and makes your team more effective.
+You should all do it.
 
-If your employer doesn’t give everyone a basic headset,
-you have opportunity to start bottom-up, in your own team.
-And if you have a generous office equipment budget and care about each other you can go further,
-like the fully-remote team with the love language of _excellent audio_.🎙️
+If your employer doesn’t give everyone a basic headset, start bottom-up, in your own team.
+And if you have a home office budget and care about each other you can go further,
+like the fully-remote team with two love languages:
+[reaction emoji](reaction-emoji) and _excellent audio_. 🎙️

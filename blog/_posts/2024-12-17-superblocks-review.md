@@ -3,14 +3,12 @@ title: Superblocks review
 description: an app builder that works for information pages
 layout: hh
 tags: product review
-css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 image: superblocks/edit-project.png
 ---
 
 {:.series}
 1. [Appsmith](appsmith-review)
 2. Superblocks ←
-
 
 This mini-review of [Superblocks](https://www.superblocks.com), a low-code application builder,
 takes the same approach as for [Appsmith](appsmith-review).
@@ -24,14 +22,17 @@ The _Projects_ page shows a single
 which provides functionality for sorting, filtering (search), column moving/resizing, and data export.
 I didn’t use its pagination, inline editing, conditional formatting, server-side pagination, or saved filters.
 
+{:.screenshot}
 [![The ‘Projects’ page – a table of projects](superblocks/deployed-projects.webp)](superblocks/deployed-projects.webp)
 
 Clicking a table row opens a project details page, showing text (left) and a paginated list (right):
 
+{:.screenshot}
 [![The ‘Project’ details page – text and a list of project roles](superblocks/deployed-project.webp)](superblocks/deployed-project.webp)
 
 Each list item links to a _project role_ details page – a simple properties table:
 
+{:.screenshot}
 [![The ‘Project role’ details page – a properties table](superblocks/deployed-role.webp)](superblocks/deployed-role.webp)
 
 These pages use a default look-and-feel that I didn’t customise.
@@ -44,6 +45,7 @@ To build the projects page, I first added the _films API_, which fetches data wh
 I then referenced the `films_api` in the table component’s _Data_ configuration (far right).
 _Run API_ populates the table, after which I configured the displayed columns.
 
+{:.screenshot}
 [![Configuring the projects table](superblocks/edit-projects.webp)](superblocks/edit-projects.webp)
 
 Superblocks does a good job of integrating the API set-up with the UI component configuration,
@@ -59,6 +61,7 @@ passing the clicked row’s value for the `id` route parameter.
 The _project_ details page has a text block (left), and a
 [grid component](https://docs.superblocks.com/applications/components-library/grid) (selected, right).
 
+{:.screenshot}
 [![Configuring a grid component’s data with a JavaScript expression](superblocks/edit-project.webp)](superblocks/edit-project.webp)
 
 I liked page layout: adding _sections_ to the page, adding _columns_ to sections,
@@ -75,6 +78,7 @@ At least it was straightforward to configure a
 [link component](https://docs.superblocks.com/applications/components-library/link)
 to link role names to the _role details page_:
 
+{:.screenshot}
 [![Configuring a value in a properties table](superblocks/edit-role.webp)](superblocks/edit-role.webp)
 
 This page uses layout containers and

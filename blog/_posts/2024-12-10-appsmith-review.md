@@ -3,7 +3,6 @@ title: Appsmith review
 description: a builder for dashboards, but not information pages
 layout: hh
 tags: product review
-css: "article p:has(img) { margin:15px 0; } body.writing article img { border: 1px solid #ddd; max-width:calc(100% - 3px) } article a:hover img { box-shadow: 0 0 6px 2px #428bca; }"
 image: appsmith/project-ui.png
 ---
 
@@ -23,6 +22,7 @@ For this review, I started building a project management application using
 
 I started my example with a ‘projects’ table, which shows the default look and feel.
 
+{:.screenshot}
 [![The ‘Projects’ page – a table of projects](appsmith/deployed-projects.webp)](appsmith/deployed-projects.webp)
 
 This page also shows what I like most about Appsmith: its
@@ -33,30 +33,30 @@ It defaults to client-side search, filter and pagination, and you can configure 
 Each _View project_ button opens a project _details page_, showing text (left) and a list (right).
 The list widget has a fixed size, and built-in pagination.
 
+{:.screenshot}
 [![The ‘Project’ details page – text and a list of project roles](appsmith/deployed-project.webp)](appsmith/deployed-project.webp)
-￼
 
 Clicking a list item opens another details page, showing the selected _project role_:
 
+{:.screenshot}
 [![The ‘Project role’ details page – a properties table](appsmith/deployed-role.webp)](appsmith/deployed-role.webp)
-￼
 
 ## Projects table
 
 To build the projects page, I first added the _films_ API to its _queries_:
 
+{:.screenshot}
 [![Configuring the API that provides projects data](appsmith/projects-queries.webp)](appsmith/projects-queries.webp)
-￼
 
 Next, I configured a table widget’s _Table data_ to use the films API:
 
+{:.screenshot}
 [![Configuring the projects table widget](appsmith/projects-ui.webp)](appsmith/projects-ui.webp)
-￼
 
 I like the UI editor’s live data preview, and the _Table data_ data source reference auto-complete.
 
+{:.screenshot}
 [![Configuring the ‘View project’ button widget](appsmith/projects-ui-action.webp)](appsmith/projects-ui-action.webp)
-￼
 
 For the page navigation, 
 it turned out that you can only configure a _Navigate to_ action on a button widget.
@@ -72,8 +72,8 @@ instead of having to change the API to suit Appsmith.
 The _project_ details page has a layout container for text (left),
 and a list widget with two text widgets per item (right).
 
+{:.screenshot}
 [![User-interface widgets on the project details page](appsmith/project-ui.png)](appsmith/project-ui.png)
-￼
 
 I found the list widget over-engineered.
 Each list item gives you a layout container, but you can’t render a plain HTML list.
@@ -81,8 +81,8 @@ Each list item gives you a layout container, but you can’t render a plain HTML
 The _role_ details page also uses absolutely-positioned text labels,
 in the absence of a _properties table_ widget.
 
+{:.screenshot}
 [![Text widgets on the project role details page](appsmith/role-ui.webp)](appsmith/role-ui.webp)
-￼
 
 On both details pages, I didn’t like having to size widgets by eye.
 They use absolute positions and dimensions,

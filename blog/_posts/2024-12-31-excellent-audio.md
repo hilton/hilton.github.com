@@ -3,7 +3,12 @@ title: Excellent online meeting audio
 description: how to sound more present in online meetings
 layout: hh
 tags: remote productivity
+image: podcast-microphone.jpg
 ---
+
+![](podcast-microphone.jpg)
+
+[Daniel Rubio](https://unsplash.com/photos/SV2I1osWqn8){:.photocredit}
 
 You should [upgrade your online meeting audio](meeting-audio),
 because bad audio makes online meetings unnecessarily tiring.

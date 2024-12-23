@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "Luke Skywalker",
+  "born": "19BBY",
+  "gender": "male",
+  "height": "172",
+  "mass": "77",
+  "skin": "fair",
+  "hair": "blond",
+  "eyes": "blue"
+}

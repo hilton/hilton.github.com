@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "name": "Darth Vader",
+  "born": "41.9BBY",
+  "gender": "male",
+  "height": "202",
+  "mass": "136",
+  "skin": "white",
+  "hair": "none",
+  "eyes": "yellow"
+}

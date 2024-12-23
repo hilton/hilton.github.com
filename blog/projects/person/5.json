@@ -1,0 +1,11 @@
+{
+  "id": 5,
+  "name": "Leia Organa",
+  "born": "19BBY",
+  "gender": "female",
+  "height": "150",
+  "mass": "49",
+  "skin": "light",
+  "hair": "brown",
+  "eyes": "brown"
+}

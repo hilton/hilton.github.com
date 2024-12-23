@@ -1,0 +1,11 @@
+{
+  "id": 14,
+  "name": "Han Solo",
+  "born": "29BBY",
+  "gender": "male",
+  "height": "180",
+  "mass": "80",
+  "skin": "fair",
+  "hair": "brown",
+  "eyes": "brown"
+}

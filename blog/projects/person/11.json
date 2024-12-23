@@ -1,0 +1,11 @@
+{
+  "id": 11,
+  "name": "Anakin Skywalker",
+  "born": "41.9BBY",
+  "gender": "male",
+  "height": "188",
+  "mass": "84",
+  "skin": "fair",
+  "hair": "blond",
+  "eyes": "blue"
+}

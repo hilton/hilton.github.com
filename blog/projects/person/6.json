@@ -1,0 +1,11 @@
+{
+  "id": 6,
+  "name": "Owen Lars",
+  "born": "52BBY",
+  "gender": "male",
+  "height": "178",
+  "mass": "120",
+  "skin": "light",
+  "hair": "brown, grey",
+  "eyes": "blue"
+}

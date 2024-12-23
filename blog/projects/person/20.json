@@ -1,0 +1,11 @@
+{
+  "id": 20,
+  "name": "Yoda",
+  "born": "896BBY",
+  "gender": "male",
+  "height": "66",
+  "mass": "17",
+  "skin": "green",
+  "hair": "white",
+  "eyes": "brown"
+}

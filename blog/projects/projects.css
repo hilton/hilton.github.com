@@ -1,0 +1,11 @@
+
+/* LAYOUT */
+table { border-collapse: collapse; }
+th, td { border: 1px solid; border-width: 1px 0; padding: 0.3em 1em 0.3em 0; }
+
+/* TEXT */
+body { font-family: system-ui;}
+th { text-align: left; }
+
+/* COLOUR */
+th, td { border-color: #ccc;}

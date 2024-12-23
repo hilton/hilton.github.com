@@ -1,0 +1,29 @@
+{
+    "producer": "Gary Kurtz, Rick McCallum",
+    "title": "A New Hope",
+    "episode_id": 4,
+    "director": "George Lucas",
+    "release_date": "1977-05-25",
+    "opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
+    "characters": [
+        { "id": 1, "name": "Luke Skywalker" },
+        { "id": 2, "name": "C-3PO" },
+        { "id": 3, "name": "R2-D2" },
+        { "id": 4, "name": "Darth Vader" },
+        { "id": 5, "name": "Leia Organa" },
+        { "id": 6, "name": "Owen Lars" },
+        { "id": 7, "name": "Beru Whitesun Lars" },
+        { "id": 8, "name": "R5-D4" },
+        { "id": 9, "name": "Biggs Darklighter" },
+        { "id": 10, "name": "Obi-Wan Kenobi" },
+        { "id": 12, "name": "Wilhuff Tarkin" },
+        { "id": 13, "name": "Chewbacca" },
+        { "id": 14, "name": "Han Solo" },
+        { "id": 15, "name": "Greedo" },
+        { "id": 16, "name": "Jabba Desilijic Tiure" },
+        { "id": 18, "name": "Wedge Antilles" },
+        { "id": 19, "name": "Jek Tono Porkins" },
+        { "id": 81, "name": "Raymus Antilles" }
+    ],
+    "id": 1
+}

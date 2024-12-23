@@ -1,0 +1,11 @@
+{
+  "id": 13,
+  "name": "Chewbacca",
+  "born": "200BBY",
+  "gender": "male",
+  "height": "228",
+  "mass": "112",
+  "skin": "unknown",
+  "hair": "brown",
+  "eyes": "blue"
+}

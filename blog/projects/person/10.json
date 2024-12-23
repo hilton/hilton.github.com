@@ -1,0 +1,11 @@
+{
+  "id": 10,
+  "name": "Obi-Wan Kenobi",
+  "born": "57BBY",
+  "gender": "male",
+  "height": "182",
+  "mass": "77",
+  "skin": "fair",
+  "hair": "auburn, white",
+  "eyes": "blue-gray"
+}

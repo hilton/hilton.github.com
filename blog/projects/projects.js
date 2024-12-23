@@ -6,7 +6,7 @@ const renderProjects = () => {
 			const tr = document.createElement('tr')
 		 	tr.innerHTML = `
 				<td>${film.id}</td>
-				<td><a href="project.html#_${film.id}">${film.title}</a></td>
+				<td><a href="project.html#${film.id}">${film.title}</a></td>
 				<td>${film.director}</td>
 				<td>${film.producer}</td>
 				<td>${film.released}</td>`
@@ -18,7 +18,7 @@ const renderProjects = () => {
 
 // Populates the title h1, opening crawl paragraph, and roles list
 const renderProject = () => {
-	const filmId = window.location.hash.replace('#_', '')
+	const filmId = window.location.hash.replace('#', '')
 	fetchJson(`film/${filmId}.json`).then(film => {
 		document.title = `${film.title} – Project`
 		document.querySelector('h1').textContent = `Phase ${film.episode}: ${film.title}`
@@ -26,7 +26,7 @@ const renderProject = () => {
 		const roles = document.querySelector('#roles')
 		film.characters.forEach(person => {
 			const li = document.createElement('li')
-			li.innerHTML = `<a href="role.html#_${person.id}">${person.name}</a>`
+			li.innerHTML = `<a href="role.html#${person.id}">${person.name}</a>`
 			roles.appendChild(li)
 		})
 	})
@@ -43,7 +43,7 @@ const renderRole = () => {
 		table.append(tr)
 	}
 
-	const personId = window.location.hash.replace('#_', '')
+	const personId = window.location.hash.replace('#', '')
 	fetchJson(`person/${personId}.json`).then(person => {
 		document.title = `${person.name} – Project role`
 		document.querySelector('h1').textContent = person.name

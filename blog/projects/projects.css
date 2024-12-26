@@ -1,5 +1,7 @@
 /* LAYOUT */
 body { width:620px; padding:0 10px 30px 10px; display:flex; flex-wrap: wrap; }
+body.error { width:auto; margin:0; height:100vh; }
+body.error::before { width:100%; }
 h1 { flex-basis:100%; }
 h2 { margin-top: 0; }
 section { margin-right: 3em; }
@@ -10,11 +12,14 @@ ul li { margin: 0 0 0.2em 0; list-style:none; }
 
 /* TEXT */
 body, pre { font-family: system-ui; font-size:10.5px; }
+body.error { text-align:center; line-height:100vh; font-size: min(95vh, 45vw); }
+body.error::before { content:'FAIL!'; }
 th { text-align: left; }
 
 /* COLOUR */
 html { background-color: white; }
 body { background-color: #f8fcff; }
+body.error { color:white; background:red; }
 h1 { font-size: 1.5em; }
 h2 { font-size: 1em; }
 th, td { border-color: #ccc; }

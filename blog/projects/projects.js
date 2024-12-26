@@ -21,8 +21,8 @@ const renderProject = () => {
 	const filmId = window.location.hash.replace('#', '')
 	fetchJson(`film/${filmId}.json`).then(film => {
 		document.title = `${film.title} – Project`
-		document.querySelector('h1').textContent = `Phase ${film.episode}: ${film.title}`
-		document.querySelector('#crawl').textContent = film.opening_crawl
+		document.querySelector('#name').textContent = `Phase ${film.episode}: ${film.title}`
+		document.querySelector('#context').textContent = film.opening_crawl
 		const roles = document.querySelector('#roles')
 		film.characters.forEach(person => {
 			const li = document.createElement('li')
@@ -46,7 +46,7 @@ const renderRole = () => {
 	const personId = window.location.hash.replace('#', '')
 	fetchJson(`person/${personId}.json`).then(person => {
 		document.title = `${person.name} – Project role`
-		document.querySelector('h1').textContent = person.name
+		document.querySelector('#name').textContent = person.name
 		const table = document.querySelector('table')
 		renderProperty(table, 'Born', person.born)
 		renderProperty(table, 'Gender', person.gender)
@@ -56,7 +56,7 @@ const renderRole = () => {
 		renderProperty(table, 'Hair', person.hair)
 		renderProperty(table, 'Eyes', person.eyes)
 	})
-	.catch(error => console.error(error))
+	.catch(renderError)
 }
 
 // Returns a JSON promise for data fetched from the given URL by HTTP.
@@ -71,4 +71,12 @@ const fetchJson = (url) => {
 			}
 			return response.json()
 		})
+}
+
+// Logs an error and renders the error page
+const renderError = error => {
+	console.error(error)
+	const body = document.querySelector('body')
+	body.innerHTML = ''
+	body.className = 'error'
 }

@@ -13,7 +13,7 @@ const renderProjects = () => {
 			tbody.appendChild(tr)
 		})
 	})
-	.catch(error => console.error(error))
+	.catch(renderError)
 }
 
 // Populates the title h1, opening crawl paragraph, and roles list
@@ -30,7 +30,7 @@ const renderProject = () => {
 			roles.appendChild(li)
 		})
 	})
-	.catch(error => console.error(error))
+	.catch(renderError)
 }
 
 // Populates the title h1, opening crawl paragraph, and roles list

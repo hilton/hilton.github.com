@@ -6,8 +6,6 @@ tags: collaboration
 image: projects/projects.png
 ---
 
-<!-- 927 -->
-
 {:.series}
 1. [Appsmith](appsmith-review)
 2. [Superblocks](superblocks-review)

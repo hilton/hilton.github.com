@@ -10,6 +10,10 @@ image: podcast-microphone.jpg
 
 [Daniel Rubio](https://unsplash.com/photos/SV2I1osWqn8){:.photocredit}
 
+{:.series}
+1. [Upgraded audio](meeting-audio)
+2. Excellent audio ←
+
 You should [upgrade your online meeting audio](meeting-audio),
 because bad audio makes online meetings unnecessarily tiring.
 You don’t have to stop there:

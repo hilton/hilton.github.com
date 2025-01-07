@@ -11,6 +11,10 @@ image: call-centre.jpg
 [alanclarkdesign](https://www.flickr.com/photos/alanclarkdesign/2486109368/){:.photocredit}
 [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0//){:.license}
 
+{:.series}
+1. Upgraded audio ←
+2. [Excellent audio](excellent-audio)
+
 When I first worked remote, I hated the hybrid meetings.
 The meeting room’s table-top microphone barely worked,
 and half of the people couldn’t tell (or didn’t care) that they’d failed to connect it.

@@ -100,8 +100,11 @@ Specifically:
 * Start with meaning and intention: think about what you want the code to _say_.
 * Use words with precise meanings.
 * Prefer fewer words in names.
-* Never use abbreviations in names, which are always ambiguous, except for `id`.
+* Never use abbreviations in names, which always lead to ambiguity, except for `id`.
 * Use code review to improve existing names.
+
+Choose from among the many
+[naming guidelines for professional programmers](/presentations/naming-guidelines).
 
 ## 10. Experiment with writing
 

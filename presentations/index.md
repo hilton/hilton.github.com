@@ -46,7 +46,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>2024-12-17</td>
 	<td>Remote work: software development without boundaries</td>
 	<td>company in-house</td>
-	<td>🇧🇪 Antwerp</td>
+	<td>🇳🇱 Eindhoven</td>
 </tr>
 <tr>
 	<td>2024-06-21</td>

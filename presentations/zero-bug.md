@@ -24,3 +24,9 @@ and which ones you can ignore.
 
 * [Implement a zero-bug policy](/blog/zero-bug-policy)
 * [Zero-bug policy scenarios](/blog/zero-bug-scenarios)
+
+## Conference presentations
+
+* [Booster Conference](https://www.boosterconf.no/2025/talks/#sz-session-765179) – 27 March 2025
+* [NDC Oslo](https://ndcoslo.com/agenda/zero-bug-policy-success-0adh/0droh9dvxe7) – 22 May 2025
+* [Agile on the Beach](https://agileonthebeach.com/the-conference/schedule/) – 4 July 2025

@@ -1,11 +1,14 @@
 ---
 title: Unhinged meeting room names
-description: chaotic naming instead of getting cute with set member names
+description: chaotic naming instead of boring or cute sets of names
 layout: hh
 tags: naming
+image: meeting-room.jpg
 ---
 
-<!-- 599 -->
+![](meeting-room.jpg)
+
+[2H Media](https://unsplash.com/photos/w8WIK6TuQFc){:.photocredit}
 
 [The well-known difficulty of naming things](why-naming-things-is-hard)
 explains why so many things have bad names.

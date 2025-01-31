@@ -14,7 +14,9 @@ On a Scrum project, there are a few common questions that turn out to be related
 2. Where’s the architecture?
 3. Why is the application so slow?
 
-The link is the role of the software architect on a Scrum project. In the same way that the Product Owner maintains a vision for how software functionality can deliver business value, the architect maintains a vision for how technical architecture can deliver a system that meets the non-functional requirements.
+The link is the role of the software architect on a Scrum project.
+In the same way that the [Product Owner](product-owner-unavailable)
+maintains a vision for how software functionality can deliver business value, the architect maintains a vision for how technical architecture can deliver a system that meets the non-functional requirements.
 
 
 ## Identifying non-functional requirements

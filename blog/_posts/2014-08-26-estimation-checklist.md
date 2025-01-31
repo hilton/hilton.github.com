@@ -12,6 +12,8 @@ layout: hh
 
 Perhaps the hardest thing that you are asked to do, as a professional software developer, is to estimate how long it will take to do something you’ve never done before. Estimation is hard, and unavoidable, so you cannot afford to make avoidable mistakes. 
 
+## Checklist
+
 Use the following checklist to identify unreliable estimates.
 
 1. Do you know who the estimate is for?

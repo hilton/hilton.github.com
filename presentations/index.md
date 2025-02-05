@@ -31,6 +31,12 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>🇬🇧 Falmouth</td>
 </tr>
 <tr>
+	<td>2025-05-22</td>
+	<td><a href="zero-bug">Zero-bug policy success</a></td>
+	<td><a href="https://ndcoslo.com/agenda/zero-bug-policy-success-0adh/0droh9dvxe7">NDC Oslo</a></td>
+	<td>🇳🇴 Oslo</td>
+</tr>
+<tr>
 	<td>2025-03-26</td>
 	<td><a href="zero-bug">Zero-bug policy success</a></td>
 	<td><a href="https://www.boosterconf.no/2025/talks/#sz-session-765179">Booster</a></td>

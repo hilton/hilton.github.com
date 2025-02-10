@@ -3,7 +3,12 @@ title: Write comments before refactoring code
 description: overcoming the self-documenting code delusion
 layout: hh
 tags: programming naming maintenance
+image: voynich.jpg
 ---
+
+[ ![Voynich manuscript (detail)](voynich.jpg) ](http://en.wikipedia.org/wiki/Voynich_manuscript)
+
+[Yale University Library](http://brbl-dl.library.yale.edu/vufind/Record/3519597){:.photocredit}
 
 Programmers resort to all sorts of excuses to avoid writing comments in code.
 I sympathise; becoming a programmer requires so much specialism

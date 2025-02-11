@@ -56,7 +56,7 @@ and improve the system.
 However, if a developer can’t fix the bug quickly, you will exhaust these opportunities long before.
 Instead, you record what you’ve learned, and then close the bug report.
 
-## The fix requires more longer
+## The fix requires more time
 
 If the bug does affect customers, or poses unacceptable risk, you’ll need to continue trying to fix it.
 A known bug might pose a low-key risk, such as the product manager knowing that telling a customer about it would embarrass them.

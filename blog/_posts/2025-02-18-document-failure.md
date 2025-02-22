@@ -10,6 +10,10 @@ image: eggs.jpg
 
 [Shubham Dhage](https://unsplash.com/photos/qgo7Tt_NWD0){:.photocredit}
 
+{:.series}
+1. Failure & recovery ←
+2. Specific techniques
+
 I’ve heard it said that cookbooks’ owners cook 1.5 recipes from each one, on average.
 I feel _seen_, and not only by the cookbooks on the shelf in the kitchen, but also reassured.
 Besides, cookbooks do sell well.

@@ -15,34 +15,32 @@ image: fried-rice.jpg
 2. [Specific techniques](document-techniques)
 3. Substitutions ←
 
-Annoyingly, cookbooks tend to only include one recipe for each dish, instead of _all of them_.
-And unfortunately, despite various attempts to produce the definitive Wikipedia for recipes,
-none of them seem to have pulled it off yet.
-[wikiHow](https://www.wikihow.com/Make-Egg-Fried-Rice) comes close, though,
-and they also seem to have heard of Tim Toady.
+Cookbooks annoy me by only including one recipe for each dish, instead of _all of them_.
+And despite various attempts at the definitive Wikipedia for recipes, none of them have pulled it off,
+although [wikiHow](https://www.wikihow.com/Make-Egg-Fried-Rice) comes close.
 
 ## Tim Toady
 
-Years ago, as a junior programmer, I approached new technologies on a quest to find the correct way to use each one.
-Each new programming language, in particular, seemed to embrace a certain idiom and style.
-Embracing these constraints, whether they arose accidentally, historically or by design, seemed like the right thing to do.
+Years ago, as a junior programmer,
+I discovered that programming languages usually embrace a specific idiom and style.
+I also learned that embracing these constraints,
+whether they arose accidentally, historically or by design, reduces friction.
 
-Programming in [Perl](https://en.wikipedia.org/wiki/Perl) 
-introduced me to its explicit guideline that _there’s more than one way to do it_.
-This community slogan, abbreviated as TMTOWTDI (pronounced _Tim Toady_),
+The [Perl](https://en.wikipedia.org/wiki/Perl) programming language, however, chooses friction.
+Its community slogan that _there’s more than one way to do it_,
+abbreviated as [TMTOWTDI](https://en.wikipedia.org/wiki/Perl#Philosophy) (pronounced _Tim Toady_),
 challenged me to accept the kind of variation in code style that I wouldn’t even notice in, say,
 cooking.
 
 ## Egg fried rice
 
-I often cook egg fried rice for lunch, since I work from home (photos, above).
-In ten minutes, I can cook tasty hot (and spicy) food with fresh vegetables.
-I also like that it gives me the flexibility to choose specific ingredients, 
-and that it works both with and without meat.
+I often cook egg fried rice for lunch, while working from home (photos, above).
+In ten minutes, I can cook tasty hot (and spicy) food with a flexible choice of vegetables.
+I also like that it works both with and without meat.
 
-Around the time I first encountered Perl, I published
+Around the time I first encountered Perl, I wrote
 [my first egg fried rice recipe](https://hilton.org.uk/rrrr).
-My recipe included prawns, chicken, ham, egg, peas, sweetcorn, spring onion, vegetable oil, and MSG.
+It included prawns, chicken, ham, egg, peas, sweetcorn, spring onion, vegetable oil, and MSG.
 In the recipe, which I rarely cooked exactly the same way twice, I quipped that:
 
 > All of the ingredients are optional, except for the rice.
@@ -60,18 +58,15 @@ When I cook egg fried rice, I aim to have at least one ingredient in each of fiv
 4. **MSG**, salt, soy sauce
 5. **spring onion (green part part), unsweetened chilli sauce**, sesame oil, crispy chilli oil
 
-After the **highlighted** preferred ingredients, I use the others as substitutes,
-when I’ve run out of something.
+I prefer the **highlighted** ingredients, and only use the others as substitutes for whatever I’ve run out of.
 For example, [Uncle Roger](https://www.youtube.com/@mrnigelng) calls shallots _better version of onion_.
-Similarly, I prefer the lower-salt taste of MSG
-(historically avoided by white people due to decades-old
+Similarly, I prefer the lower-salt taste of MSG (historically avoided by white people due to decades-old
 [racist myths](https://www.inverse.com/science/the-racist-history-of-msg)).
 
-Surprisingly, egg fried rice improves if you use as many of the ingredients from groups 2 and 3 as possible,
-unlike the other groups.
-Egg fried rice tests the usual rule that adding ingredients makes a recipe less interesting,
-like [Long Island Iced Tea](https://en.wikipedia.org/wiki/Long_Island_iced_tea)’s
-exception to the rule of thumb not to put more than three or four ingredients in a cocktail (excluding ice).
+Egg fried rice improves if you use as much of groups 2 and 3 as possible.
+This differs to most dishes, which become less interesting if you add more ingredients,
+and [Long Island Iced Tea](https://en.wikipedia.org/wiki/Long_Island_iced_tea)’s
+exception to the corresponding rule of thumb of 3–4 cocktail ingredients.
 
 ## Cookbooks
 
@@ -91,7 +86,6 @@ With the first version, you have to set it up in a certain way, on a certain pla
 Later versions give customers more choice, so that more customers can choose it.
 
 Technical documentation benefits from the same improvement, over time.
-The first version inevitably over-specifies prerequisites, and how to get something done.
-But as with the Perl and fried rice,
-the option choose between _more than one way_ lets you use the ingredients you have to hand.
+The first version inevitably over-specifies, but as with the Perl and fried rice,
+the option to choose between _more than one way_ lets you use the ingredients you have to hand.
 And tastes vary.

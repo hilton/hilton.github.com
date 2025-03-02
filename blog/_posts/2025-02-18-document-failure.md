@@ -12,7 +12,8 @@ image: eggs.jpg
 
 {:.series}
 1. Failure & recovery ←
-2. Specific techniques
+2. [Specific techniques](document-techniques)
+3. Substitutions
 
 I’ve heard it said that cookbooks’ owners cook 1.5 recipes from each one, on average.
 I feel _seen_, and not only by the cookbooks on the shelf in the kitchen, but also reassured.

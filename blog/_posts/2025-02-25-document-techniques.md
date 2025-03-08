@@ -14,7 +14,7 @@ image: mussels.jpg
 {:.series}
 1. [Failure & recovery](document-failure)
 2. Specific techniques ←
-3. Substitutions
+3. [Substitutions](document-substitutions)
 
 This instalment of _Cookbooks Don’t Teach You to Cook_
 considers another aspect of learning to cook that you rarely find in cookbooks and,

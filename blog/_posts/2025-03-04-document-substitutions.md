@@ -19,6 +19,7 @@ Cookbooks annoy me by only including one recipe for each dish, instead of _all o
 And despite various attempts at the definitive Wikipedia for recipes, none of them have pulled it off,
 although [wikiHow](https://www.wikihow.com/Make-Egg-Fried-Rice) comes close.
 
+{:#tmtowtdi}
 ## Tim Toady
 
 Years ago, as a junior programmer,
@@ -32,6 +33,7 @@ abbreviated as [TMTOWTDI](https://en.wikipedia.org/wiki/Perl#Philosophy) (pronou
 challenged me to accept the kind of variation in code style that I wouldn’t even notice in, say,
 cooking.
 
+{:#rice}
 ## Egg fried rice
 
 I often cook egg fried rice for lunch, while working from home (photos, above).
@@ -48,6 +50,7 @@ In the recipe, which I rarely cooked exactly the same way twice, I quipped that:
 But I didn’t get that quite right.
 What you can leave out depends on what you’ve already got.
 
+{:#substitutions}
 ## Substitutions
 
 When I cook egg fried rice, I aim to have at least one ingredient in each of five groups:
@@ -68,6 +71,7 @@ This differs to most dishes, which become less interesting if you add more ingre
 and [Long Island Iced Tea](https://en.wikipedia.org/wiki/Long_Island_iced_tea)’s
 exception to the corresponding rule of thumb of 3–4 cocktail ingredients.
 
+{:#cookbooks}
 ## Cookbooks
 
 Cookbooks systematically over-specify recipes, by failing to indicate how much freedom you have to change quantities or substitute ingredients.
@@ -79,6 +83,7 @@ Telling me to use [galangal](https://en.wikipedia.org/wiki/Galangal)
 instead of fresh ginger doesn’t help me much if I don’t know where to buy it.
 Sorry, Uncle Roger.
 
+{:#documentation}
 ## Software documentation
 
 Mature software typically has some flexibility about where and how you use it.

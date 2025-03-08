@@ -59,7 +59,7 @@ When I cook egg fried rice, I aim to have at least one ingredient in each of fiv
 2. **egg, pork (ham, bacon or roast pork)**, prawns, chicken
 3. **peas, sweetcorn**, carrot
 4. **MSG**, salt, soy sauce
-5. **spring onion (green part part), unsweetened chilli sauce**, sesame oil, crispy chilli oil
+5. **spring onion (green part), unsweetened chilli sauce**, sesame oil, crispy chilli oil
 
 I prefer the **highlighted** ingredients, and only use the others as substitutes for whatever I’ve run out of.
 For example, [Uncle Roger](https://www.youtube.com/@mrnigelng) calls shallots _better version of onion_.

@@ -4,7 +4,18 @@ description: cookbook disappointment and the recipe RACI matrix
 layout: hh
 tags: documentation cooking
 css: "td {text-align:center} td:first-child {text-align:left}"
+image: mussels.jpg
 ---
+
+![](ingredients.webp)
+
+[qi bin](https://unsplash.com/photos/IIzny_Qgw-g){:.photocredit}
+
+{:.series}
+1. [Failure & recovery](document-failure)
+2. [Specific techniques](document-techniques)
+3. [Substitutions](document-substitutions)
+4. Roles ←
 
 Software documentation has too much abstraction.
 Cookbooks don’t have enough.

@@ -58,7 +58,7 @@ and the vegetables also have **texture**.
 Similarly, the vegetables add **sweetness** that a sour chilli sauce balances,
 in a way that sweet chilli sauce and sweet crispy chilli oil don’t.
 
-![Egg fried rice ingredients’ functional groups](ingredient-groups.svg)
+![Egg fried rice ingredients’ functional groups](ingredient-groups.webp)
 
 This diagram shows a slightly more sophisticated view at this level of abstraction.
 Each ingredient may have a primary _purpose_, but also has multiple _consequences_.

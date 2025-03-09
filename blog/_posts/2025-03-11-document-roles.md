@@ -19,8 +19,8 @@ image: mussels.jpg
 
 Software documentation has too much abstraction.
 Cookbooks don’t have enough.
-Software developers can’t help adding 
-[gratuitous abstraction](https://en.wikipedia.org/wiki/Fundamental_theorem_of_software_engineering),
+Software developers 
+[can’t help adding gratuitous abstraction](https://en.wikipedia.org/wiki/Fundamental_theorem_of_software_engineering),
 while cookbook authors systematically avoid explaining their work.
 
 Instead of documenting recipe design, cookbooks only describe the final ingredients and method.

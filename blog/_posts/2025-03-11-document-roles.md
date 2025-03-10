@@ -4,7 +4,7 @@ description: cookbook disappointment and the recipe RACI matrix
 layout: hh
 tags: documentation cooking
 css: "td {text-align:center} td:first-child {text-align:left}"
-image: mussels.jpg
+image: ingredient-groups.png
 ---
 
 ![](ingredients.webp)
@@ -58,7 +58,7 @@ and the vegetables also have **texture**.
 Similarly, the vegetables add **sweetness** that a sour chilli sauce balances,
 in a way that sweet chilli sauce and sweet crispy chilli oil don’t.
 
-![Egg fried rice ingredients’ functional groups](ingredient-groups.webp)
+![Egg fried rice ingredients’ functional groups](ingredient-groups.png)
 
 This diagram shows a slightly more sophisticated view at this level of abstraction.
 Each ingredient may have a primary _purpose_, but also has multiple _consequences_.

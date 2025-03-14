@@ -9,6 +9,8 @@ image: rice/bowl.jpg
 
 ![A bowl of chicken rice, topped with chicken and chilli sauce](rice/bowl.jpg)
 
+<span>Peter Hilton</span>{:.photocredit}
+
 [Hainanese chicken rice](https://en.wikipedia.org/wiki/Hainanese_chicken_rice),
 like many classic dishes, maximises output from limited ingredients.
 results from economic constraints, in this case making one chicken go as far as possible.

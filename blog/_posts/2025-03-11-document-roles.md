@@ -16,6 +16,7 @@ image: ingredient-groups.png
 2. [Specific techniques](document-techniques)
 3. [Substitutions](document-substitutions)
 4. Roles ←
+5. Small tasks
 
 Software documentation has too much abstraction.
 Cookbooks don’t have enough.

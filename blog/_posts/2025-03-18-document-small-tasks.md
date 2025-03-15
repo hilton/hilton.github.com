@@ -6,8 +6,6 @@ tags: documentation cooking
 image: rice/bowl.jpg
 ---
 
-<!-- 611 -->
-
 ![A bowl of chicken rice, topped with chicken and chilli sauce](rice/bowl.jpg)
 
 <span>Peter Hilton</span>{:.photocredit}

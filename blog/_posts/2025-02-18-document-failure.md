@@ -15,6 +15,7 @@ image: eggs.jpg
 2. [Specific techniques](document-techniques)
 3. [Substitutions](document-substitutions)
 4. [Roles](document-roles)
+5. Small tasks
 
 I’ve heard it said that cookbooks’ owners cook 1.5 recipes from each one, on average.
 I feel _seen_, and not only by the cookbooks on the shelf in the kitchen, but also reassured.

@@ -13,6 +13,7 @@ image: pesticide.jpg
 {:.series}
 1. [Zero-bug policy](zero-bug-policy)
 2. Zero-bug scenarios ←
+3. Fix It Now or Delete It
 
 When you discuss introducing a [zero-bug policy](zero-bug-policy),
 [don’t dwell on the edge cases](process-exceptions).

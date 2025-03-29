@@ -20,6 +20,10 @@ the objections and risks, and other implementation challenges.
 You’ll learn about why it’s worth the effort to fix (almost) all of the bugs,
 and which ones you can ignore.
 
+## Video
+
+<iframe src="https://player.vimeo.com/video/1070228841" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## Blog posts
 
 * [Implement a zero-bug policy](/blog/zero-bug-policy)

@@ -3,10 +3,7 @@ title: Egg mayo sandwich optimisation
 description: how to minimise time-to-sandwich
 layout: hh
 tags: cooking
-# column-count:3; column-width:320px; 
-# 
-# display:grid; grid-column-gap:20px; grid-template-columns: 320px 320px 320px; 
-css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap; } @media (min-width:480px) { article div.columns { max-height:auto; }} @media (min-width:680px) { article div.columns { max-height:calc(150em + 960px); }} @media (min-width:1080px) { article div.columns { max-height:calc(100em + 640px); }} article section {margin:0 20px 20px 0; background:#A8463A; display:block; max-width:320px; } article section p { width:300px; margin:0.5em 10px; } article section p:has(img) {margin:0; width:320px; } article section h2 {margin:10px; padding-top:0.3em; padding-bottom:0; color:white; } section ul {padding-left:20px; width:290px; } section ul li {margin-left:10px; } article strong {color:#EFE4A9; } article section a {color:#CCE6FF;}"
+css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap; } @media (min-width:480px) { article div.columns { max-height:auto; }} @media (min-width:690px) { article div.columns { max-height:calc(150em + 960px); }} @media (min-width:1080px) { article div.columns { max-height:calc(100em + 640px); }} article section {margin:0 20px 20px 0; border:2px solid #E37263; border-radius:10px; color:inherit; display:block; max-width:320px; } article section p { width:300px; margin:0.5em 10px; } article section p:has(img) {margin:0; width:320px; } article section h2 {margin:10px; padding-top:0.3em; padding-bottom:0; } section ul {padding-left:20px; width:290px; } section ul li {margin-left:10px; } article section a {color: #428bca;} @media (min-width:1023px) { section h2 {width:100%; }}"
 ---
 
 <!-- 600 - 650 -->
@@ -15,10 +12,10 @@ css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap;
 
 <section>
 <h2 id="goals">Goals</h2>
-<p>This recipe optimises the egg mayonnaise sandwich in ways other recipes don’t.</p>
+<p>This recipe incorporates egg mayonnaise sandwich preparation optimisations that other recipes lack:</p>
 <ol>
-<li>Minimise time-to-sandwich.</li>
-<li>Minimise washing up.</li>
+<li>minimise time-to-sandwich, and</li>
+<li>minimise washing up.</li>
 </ol>
 <p>To achieve these goals, you will only make a single generous serving.</p>
 </section>
@@ -56,7 +53,7 @@ Pour boiling water into a moka pot base, to cover the egg, and put it on the sto
 <p>Cover the pot with the (inverted) moka pot basket, to retain heat,
 so you can achieve and maintain boiling temperature with less power:</p>
 <p><img src="egg-mayo/moka-pot-covered.webp" alt="The moka pot, covered with its basket" /></p>
-<p>The water should return to the boil within 90 seconds, then continue boiling it for a further 8 minutes.</p>
+<p>The water returns to the boil within 90 seconds, then continue boiling it for a further 8 minutes.</p>
 </section>
 
 <section>
@@ -89,7 +86,7 @@ which takes less time to scrape clean than a round mixing bowl:</p>
 <li><strong>Japanese mayonnaise and thick-sliced white bread</strong> for a simpler flavour, like a <a href="https://umamipot.com/tamago-sando/">tamago sando</a></li>
 <li><strong>wholemeal or seeded bread</strong> instead of white bread, for a more complex flavour</li>
 <li><strong>white pepper</strong> instead of black pepper</li>
-<li><strong>rocket</strong> instead of garden cress</li>
+<li><strong>rocket</strong> instead of garden cress (photo)</li>
 </ul>
 </section>
 

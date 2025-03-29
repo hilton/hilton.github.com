@@ -78,6 +78,18 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="https://www.devoxx.co.uk">Devoxx UK</a></td>
 	<td>🇬🇧 London</td>
 </tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+</tr>
 <tr>
    <td>2022-11-10</td>
    <td><a href="bugs">10 universal bugs</a></td>
@@ -113,18 +125,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td><a href="architect">Architect: the missing Scrum role</a></td>
 	<td>company in-house</td>
 	<td>🇳🇱 Deventer</td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
 </tr>
 <tr>
 	<td>2021-04-08</td>

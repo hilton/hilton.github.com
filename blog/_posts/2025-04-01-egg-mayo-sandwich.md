@@ -3,7 +3,7 @@ title: Egg mayo sandwich optimisation
 description: how to minimise time-to-sandwich
 layout: hh
 tags: cooking
-css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap; } @media (min-width:480px) { article div.columns { max-height:auto; }} @media (min-width:690px) { article div.columns { max-height:calc(150em + 960px); }} @media (min-width:1080px) { article div.columns { max-height:calc(100em + 640px); }} article section {margin:0 20px 20px 0; border:2px solid #E37263; border-radius:10px; color:inherit; display:block; max-width:320px; } article section p { width:300px; margin:0.5em 10px; } article section p:has(img) {margin:0; width:320px; } article section h2 {margin:10px; padding-top:0.3em; padding-bottom:0; } section ul {padding-left:20px; width:290px; } section ul li {margin-left:10px; } article section a {color: #428bca;} @media (min-width:1023px) { section h2 {width:100%; }}"
+css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap; } @media (min-width:480px) { article div.columns { max-height:auto; }} @media (min-width:690px) { article div.columns { max-height:calc(150em + 960px); }} @media (min-width:1080px) { article div.columns { max-height:calc(100em + 640px); }} article section {margin:0 20px 20px 0; border:2px solid #E37263; border-radius:10px; color:inherit; display:block; max-width:320px; } article section p { width:300px; margin:0.5em 10px; } article section p:has(img) {margin:0; width:320px; } article section h2 {margin:10px; padding-top:0.3em; padding-bottom:0; } section ul {padding-left:20px; width:290px; } section ul li {margin-left:10px; } article section a {color: #428bca;} @media (min-width:1023px) { section h2 {width:100%; }} p.optimisation:before {content:'🚀 '} p.optimisation {color:#DF5A49}"
 ---
 
 <div class="columns">
@@ -45,10 +45,10 @@ css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap;
 
 <section>
 <h2 id="boil">1. Boiling</h2>
-<p>Reduce the time to starting to boil the egg by boiling less water.
-Pour boiling water into a moka pot base, to cover the egg, and put it on the stove:</p>
+<p class="optimisation">Optimisation: reduce the time to boiling water, and boil less water.</p>
+<p>Pour boiling water into a moka pot base, to cover the egg, and put it on the stove:</p>
 <p><img src="egg-mayo/moka-pot-base.webp" alt="The egg in the base of a moka pot, covered with water" /></p>
-<p>Cover the pot with the (inverted) moka pot basket, to retain heat,
+<p class="optimisation">Optimisation: cover the pot with the (inverted) moka pot basket, to retain heat,
 so you can achieve and maintain boiling temperature with less power:</p>
 <p><img src="egg-mayo/moka-pot-covered.webp" alt="The moka pot, covered with its basket" /></p>
 <p>The water returns to the boil within 90 seconds, then continue boiling it for a further 8 minutes.</p>
@@ -63,6 +63,8 @@ so you can achieve and maintain boiling temperature with less power:</p>
 
 <section>
 <h2 id="mix">3. Mixing</h2>
+<p class="optimisation">Optimisation: weigh the mayonnaise directly on the chopping board,
+instead of using a utensil you have to wash up.</p>
 <p>Peel the egg.
 Put the chopping board on the scales, weigh 15 g mayonnaise, and add the other ingredients:</p>
 <p><img src="egg-mayo/unmixed.webp" alt="The unmixed ingredients" /></p>
@@ -72,7 +74,7 @@ Put the chopping board on the scales, weigh 15 g mayonnaise, and add the other 
 
 <section>
 <h2 id="assemble">4. Assembly</h2>
-<p>Use the spreading knife to scrape the mixture onto the bread from the board,
+<p class="optimisation">Optimisation: use the spreading knife to scrape the mixture onto the bread from the board,
 which takes less time to scrape clean than a round mixing bowl:</p>
 <p><img src="egg-mayo/served.webp" alt="The mixture on sourdough bread" /></p>
 </section>

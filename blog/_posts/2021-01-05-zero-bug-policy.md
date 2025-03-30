@@ -15,6 +15,7 @@ image: lizard.jpg
 2. [Zero-bug scenarios](zero-bug-scenarios)
 3. Fix It Now or Delete It
 4. [Zero-bug policy adoption](zero-bug-policy-adoption)
+5. Zero-bug policy success
 
 Product development teams typically don’t use their own software enough to understand their customers’ experience,
 and underestimate how much their customers hate bugs.

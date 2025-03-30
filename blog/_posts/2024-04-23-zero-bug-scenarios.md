@@ -15,6 +15,7 @@ image: pesticide.jpg
 2. Zero-bug scenarios ←
 3. Fix It Now or Delete It
 4. [Zero-bug policy adoption](zero-bug-policy-adoption)
+5. Zero-bug policy success
 
 When you discuss introducing a [zero-bug policy](zero-bug-policy),
 [don’t dwell on the edge cases](process-exceptions).

@@ -4,6 +4,7 @@ description: how to minimise time-to-sandwich in the kitchen
 layout: hh
 tags: cooking
 css: "article div.columns { display:flex; flex-direction:column; flex-wrap:wrap; } @media (min-width:480px) { article div.columns { max-height:auto; }} @media (min-width:690px) { article div.columns { max-height:calc(150em + 960px); }} @media (min-width:1080px) { article div.columns { max-height:calc(100em + 640px); }} article section {margin:0 20px 20px 0; border:2px solid #E37263; border-radius:10px; color:inherit; display:block; max-width:320px; } article section p { width:300px; margin:0.5em 10px; } article section p:has(img) {margin:0; width:320px; } article section h2 {margin:10px; padding-top:0.3em; padding-bottom:0; } section ul {padding-left:20px; width:290px; } section ul li {margin-left:10px; } article section a {color: #428bca;} @media (min-width:1023px) { section h2 {width:100%; }} p.optimisation:before {content:'🚀 '} p.optimisation {color:#DF5A49}"
+image: egg-mayo/served-crop.jpg
 ---
 
 <div class="columns">

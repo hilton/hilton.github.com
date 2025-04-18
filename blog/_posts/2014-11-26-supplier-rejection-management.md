@@ -112,7 +112,9 @@ The game ends when the caller finds the centre of the maze, or when they fall in
 
 ## Counterscript
 
-The SRM Counterscript module provides an implementation of the [Counterscript]( http://egbg.home.xs4all.nl/counterscript.html) that was written to provide countermeasures to the call-centre scripts that cold-callers use. This script turns the tables on the caller, and puts SRM in control of the conversation.
+The SRM Counterscript module provides an implementation of the
+[Counterscript](https://circusandersom.nl/en/projects/initiatives/tegenscript/)
+that was written to provide countermeasures to the call-centre scripts that cold-callers use. This script turns the tables on the caller, and puts SRM in control of the conversation.
 
 ```xml
 <Response>

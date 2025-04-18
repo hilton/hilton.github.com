@@ -1,5 +1,5 @@
 ---
-title: How to get better at naming things
+title: Get better at naming things
 description: 10 steps to mastering names in code
 layout: hh
 tags: naming programming

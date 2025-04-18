@@ -6,7 +6,9 @@ layout: hh
 image: laziness.jpg
 ---
 
-![Plain old laziness](laziness.jpg)
+![](laziness.jpg)
+
+[Christian Lue](https://unsplash.com/photos/NqhBMKJIbz4){:.photocredit}
 
 Productivity patterns give catchy names to productivity hacks and other habits, good and bad: like [design patterns](https://en.wikipedia.org/wiki/Design_pattern) but for productivity. For programmers, constructive laziness trumps all other productivity patterns by turning productivity problems into coding problems.
 
@@ -76,6 +78,3 @@ Using constructive laziness to replace work with programming can lead to a situa
 When you work with other programmers, they never seem to understand your code. Instead they ruin your day (and your productivity) by asking questions and asking you to explain your code. Not only are these explanations time-consuming, but the usual tactic of avoiding undesirable work by writing more code only seems to make the problem worse.
 
 When time spent explaining your code starts to get in the way of having enough time to write code, you are going to have to take constructive laziness to the next level. Instead of only writing code, you are going to have to write _documentation_ as well.
-
-
-Photo: [Warren R.M. Stuart](https://www.flickr.com/photos/wza/15999720424) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)

@@ -21,7 +21,8 @@ Programmers don’t _object_ to maintainable code, but want other things more.
 ## Programmer laziness
 
 We’re lazy programmers.
-I’m talking about _constructive laziness_ - the good kind of lazy, that leads a programmer to write code automate a task that they’re too ‘lazy’ to do manually.
+I’m talking about [constructive laziness](constructive-laziness) - 
+the good kind of lazy, that leads a programmer to write code automate a task that they’re too ‘lazy’ to do manually.
 The catch is that programmers tend to enjoy coding enough to forget that the automation started as a means to an end, and end up spending more time on avoiding the task that they’re too lazy to do than the task would haven taken to do manually.
 
 <blockquote class="big solid-one" style="max-width:34em">

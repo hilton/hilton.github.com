@@ -15,7 +15,7 @@ There are also aspects of software development that a lot of people are doing, b
 Software maintenance is one of those things.
 
 We don’t talk about software maintenance because we don’t want to face reality.
-It’s much easier to talk about the idealised perfect that we don’t actually have, because then we don’t have to admit to the problems we’re really facing, during long-term development.
+It’s much easier to talk about the idealised perfect software that we don’t actually have, because then we don’t have to admit to the problems we’re really facing, during long-term development.
 That’s a shame, because we’re ultimately be better off when we face up to the code maintenance problem.
 
 ## The code maintenance naming problem

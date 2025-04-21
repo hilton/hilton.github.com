@@ -9,8 +9,8 @@ image: superblocks/edit-project.png
 {:.series}
 1. [Appsmith](appsmith-review)
 2. Superblocks ←
-3. Retool
-4. JavaScript code
+3. [Retool](retool-review)
+4. [JavaScript code](information-pages-code)
 
 This mini-review of [Superblocks](https://www.superblocks.com), a low-code application builder,
 takes the same approach as for [Appsmith](appsmith-review).

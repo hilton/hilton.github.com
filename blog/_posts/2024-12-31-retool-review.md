@@ -10,9 +10,7 @@ image: retool/edit-project.png
 1. [Appsmith](appsmith-review)
 2. [Superblocks](superblocks-review)
 3. Retool ←
-4. JavaScript code
-
-<!-- 615 -->
+4. [JavaScript code](information-pages-code)
 
 This mini-review series continues with [Retool](https://www.superblocks.com),
 a much-imitated low-code application builder.

@@ -26,8 +26,7 @@ And while you say _compromise_, I say _optimisation_.
 
 I previously wrote about how [simple chicken rice](chicken-rice) doesn’t take more than half an hour, 
 if you skip or rush enough steps.
-My lunch recipe 
-It also skips the traditional sauces, which take extra time (and I have a bottle of chilli sauce in the fridge).
+My lunch recipe also skips the traditional sauces, which take extra time (and I have a bottle of chilli sauce in the fridge).
 It also settles for simmering the stock for just fifteen minutes.
 
 The result doesn’t taste as good as the traditional recipe, which uses a whole chicken and takes hours.
@@ -41,7 +40,7 @@ Even when I have time, I only cook the onions for 30–60 minutes, but that stil
 
 By sacrificing some richness of flavour, you can cook a single portion of chicken curry in 30 minutes,
 because a small onion takes less time to dice and cook than several large onions.
-Meanwhile, marinading the chicken pieces in yoghurt for ten minutes keep it moist and tender enough.
+Meanwhile, marinading the chicken pieces in yoghurt for ten minutes keeps them moist and tender enough.
 As with the chicken rice, a less tasty version of a tasty dish still tastes good.
 
 ## The faster hard-boiled egg

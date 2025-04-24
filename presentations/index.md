@@ -31,6 +31,12 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>🇬🇧 Falmouth</td>
 </tr>
 <tr>
+	<td>2025-06-05</td>
+	<td><a href="zero-bug">Zero-bug policy success</a></td>
+	<td><a href="http://jspring.nl/timetable-2025/">J-Spring</a></td>
+	<td>🇳🇱 Utrecht</td>
+</tr>
+<tr>
 	<td>2025-05-22</td>
 	<td><a href="zero-bug">Zero-bug policy success</a></td>
 	<td><a href="https://ndcoslo.com/agenda/zero-bug-policy-success-0adh/0droh9dvxe7">NDC Oslo</a></td>

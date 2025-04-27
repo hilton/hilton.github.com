@@ -52,7 +52,7 @@ Meanwhile, people expect different levels of formality from friends, colleagues,
 Greetings vary between countries, between communities in the same country, and also between contexts.
 Letting people choose gives you a better way to internationalise greetings than attempting fine-grained localisation, even if you did bother trying.
 
-Alternatively, just skip salutations in email from non-humans.
+Alternatively, just [skip salutations in email from non-humans](omit-notification-salutations).
 Personally, I’d rather have bug-free software and better performance than fake politeness.
 
 ## Ask only for what you actually need

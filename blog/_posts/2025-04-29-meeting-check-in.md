@@ -3,7 +3,12 @@ title: Check in to online meetings
 description: Building connection in distributed and remote teams
 layout: hh
 tags: remote
+image: video-call.jpg
 ---
+
+![](video-call.jpg)
+
+[Resume Genius](https://unsplash.com/photos/OrTcivPm8RY){:.photocredit}
 
 Distributed teams need to build personal connection between team members,
 just like co-located teams.

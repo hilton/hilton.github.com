@@ -36,3 +36,4 @@ and which ones you can ignore.
 * [NDC Oslo](https://ndcoslo.com/agenda/zero-bug-policy-success-0adh/0droh9dvxe7) – 22 May 2025
 * [J-Spring](https://jspring.nl) - 5 June 2025
 * [Agile on the Beach](https://agileonthebeach.com/the-conference/schedule/) – 4 July 2025
+* [Agile Cambridge](https://agilecambridge.net) – 1–2 October 2025

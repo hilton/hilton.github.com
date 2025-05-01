@@ -2,7 +2,7 @@
 title: Capturing what’s in your head
 description: The decision-making tacit knowledge problem
 layout: hh
-tags: NoCode
+tags: NoCode cooking
 image: birthday-cake.jpg
 ---
 

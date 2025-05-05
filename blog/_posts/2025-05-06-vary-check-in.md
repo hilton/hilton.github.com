@@ -39,7 +39,11 @@ For example:
 * ‘What surprised you recently?’
 * ‘What animal makes the best pet?’
 
-Sometimes this happens spontaneously: the first person picks a theme, and everyone joins in.
+Alternatively, you can focus questions on a time period instead of a subject:
+ask how people feel about this week, looking ahead or looking back.
+Sharing what you look forward to tells people a lot about your state of mind.
+
+Explicit questions sometimes emerge spontaneously: the first person picks a theme, and everyone joins in.
 Then you can have a weather check in, a food check in, or a home-life check in, for example.
 
 A good check-in prompt requires creativity.
@@ -52,7 +56,7 @@ a quirky check-in question that no-one has used before can turn things about bef
 Quirky check-in questions work the same way as quirky icebreakers.
 I once attended a web development community tech meet-up where each arrival got a marker pen and a sticker:
 
-> Hi, my name is…
+> Hi, you can call me…
 >
 > I built my first web application…
 

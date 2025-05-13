@@ -20,7 +20,7 @@ However, Anytype immediately _feels_ different, because of how fast and responsi
 ![An Anytype page, with navigation and properties sidebars](anytype/page.webp)
 ￼
 
-All Anytype pages have _properties_, such as a _Creation date_ or a _Tag_, which like in a sidebar.
+All Anytype pages have _properties_, such as a _Creation date_ or a _Tag_, which live in a sidebar.
 You can also choose which ones to include in the page header,
 and can insert a property name and value as a block anywhere in the page, using an insertion menu:
 

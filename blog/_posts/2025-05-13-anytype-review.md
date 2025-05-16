@@ -6,6 +6,10 @@ tags: product review
 image: anytype/page.png
 ---
 
+{:.series}
+1. Anytype review ←
+2. [Anytype architecture](anytype-local-first)
+
 Exploring European alternatives to office software revealed a new product from Germany.
 [Anytype](https://anytype.io/)’s public beta combines desktop and mobile user interfaces that resemble Notion,
 but with some new ideas and a promising user experience.

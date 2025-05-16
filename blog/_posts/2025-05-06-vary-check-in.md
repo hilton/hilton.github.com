@@ -10,6 +10,10 @@ image: question-mark.jpg
 
 [Towfiqu barbhuiya](https://unsplash.com/photos/oZuBNC-6E2s){:.photocredit}
 
+{:.series}
+1. [Check-in practice](meeting-check-in)
+2. Check-in questions ←
+
 Remote teams that [check in to meetings](meeting-check-in) can get stuck in a  routine.
 And while routine has its place, it can also make people stop thinking.
 As with many working practices, mixing things up sometimes helps.

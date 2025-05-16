@@ -10,6 +10,10 @@ image: video-call.jpg
 
 [Resume Genius](https://unsplash.com/photos/OrTcivPm8RY){:.photocredit}
 
+{:.series}
+1. Check-in practice ←
+2. [Check-in questions](vary-check-in)
+
 Distributed teams need to build personal connection between team members,
 just like co-located teams.
 But they don’t do it the same way.

@@ -10,10 +10,16 @@ image: laughing.jpg
 
 [Aleksandra Sapozhnikova](https://unsplash.com/photos/r_-zzXrnzxI){:.photocredit}
 
+{:.series}
+1. The importance of jokes ←
+2. [Original jokes](original-jokes) <!-- 2023-09-26 -->
+3. 97 Jokes
+
 Programmers share jokes as much as anyone else.
 You may even find some of them funny, although more likely _your mileage may vary_ (YMMV), as they say.
 From the right angle, that even looks like a feature, not a bug.
 
+{:#internet}
 ## Internet jokes
 
 In the book [Small Pieces Loosely Joined](https://www.smallpieces.com),
@@ -26,6 +32,7 @@ The same thing works in niche fields: the ability to appreciate a field’s in j
 Programming jokes work when you know enough to _get_ them.
 And programming culture, more than many others, exists online.
 
+{:#prolog}
 ## The Prolog lightbulb joke
 
 I once read a [Prolog](https://en.wikipedia.org/wiki/Prolog)
@@ -48,6 +55,7 @@ I wouldn’t actually know personally, though, having had no more exposure to Pr
 Even without shared experience with the Prolog community, knowing enough to understand the joke brings me a little closer to them.
 In the broader field of software development, sharing jokes and stories between communities creates a shared culture.
 
+{:#history}
 ## Historic code
 
 When I first saw [Kevlin Henney](https://about.me/kevlin) present
@@ -59,6 +67,7 @@ Kevlin’s presentation introduced the idea that programmers should treat histor
 Meanwhile, on the Web, jokes have similar potential.
 But on the Web, as Weinberger points out, jokes come first.
 
+{:#importance}
 ## The importance of programming jokes
 
 Programming jokes identify community inclusion milestones.

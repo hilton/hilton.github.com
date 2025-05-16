@@ -7,13 +7,16 @@ image: laughing.jpg
 css: "body.writing .big code {color:inherit; background-color:inherit}"
 ---
 
-<!-- -> 657 words -->
-
 <!-- Classic jokes 2009-2017 by @nicholassmith @ExceptionNotFnd @secretGeek @NickEVM @P_Malin @AnthonySteele @raouldp @pbowden @sempf @mathiasverraes @iamdevloper @malk_zameth -->
 
 ![](laughing.jpg)
 
 [Aleksandra Sapozhnikova](https://unsplash.com/photos/r_-zzXrnzxI){:.photocredit}
+
+{:.series}
+1. [The importance of jokes](domain-jokes) <!-- 2022-06-21 -->
+2. Original jokes ←
+3. 97 Jokes
 
 Jokes, even more than books and song lyrics, seem to become public domain as soon as they make someone laugh,
 unfortunately for comedy writers, who rarely get credit for the jokes they write that become _memes_

@@ -13,7 +13,7 @@ image: laughing.jpg
 {:.series}
 1. The importance of jokes ←
 2. [Original jokes](original-jokes) <!-- 2023-09-26 -->
-3. 97 Jokes
+3. 97 Jokes <!-- 2025-05-20 -->
 
 Programmers share jokes as much as anyone else.
 You may even find some of them funny, although more likely _your mileage may vary_ (YMMV), as they say.
@@ -35,8 +35,8 @@ And programming culture, more than many others, exists online.
 {:#prolog}
 ## The Prolog lightbulb joke
 
-I once read a [Prolog](https://en.wikipedia.org/wiki/Prolog)
-programming language tutorial whose introduction promised it would teach ‘enough Prolog to understand The Prolog Lightbulb Joke’.
+[The Prolog Lightbulb Joke](https://web.archive.org/web/20190131005203/http://www.j-paine.org/dobbs/prolog_lightbulb.html)
+starts with a tutorial… ‘enough Prolog for you to understand the _Prolog lightbulb joke_’.
 
 {:.big style="max-width:28em"}
 > How many Prolog programmers does it take to change a lightbulb?
@@ -47,8 +47,10 @@ You have to know a bit about Prolog to get the joke;
 you’d have to at least follow a tutorial to understand it.
 But only after having once spent hours struggling to write a Prolog program that passive-aggressively outputs `False` would you laugh.
 
-The Prolog Lightbulb Joke deserves a place of honour in the Prolog community, not because of its quality as a joke, but because of the shared experience it references.
-I wouldn’t actually know personally, though, having had no more exposure to Prolog programming than one short course at university, plus Corey Haines’ outstanding
+The Prolog Lightbulb Joke deserves a place of honour in the Prolog community, 
+not because of its quality as a joke, but because of the shared experience it references.
+Personally, though, I’ve had no more exposure to Prolog programming than one short course at university,
+plus Corey Haines’ outstanding
 [Joy of Coding](https://joyofcoding.org) conference presentation,
 [I don’t know Prolog and so can you](https://www.infoq.com/presentations/prolog-introduction/).
 

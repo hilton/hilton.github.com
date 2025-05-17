@@ -22,7 +22,9 @@ and which ones you can ignore.
 
 ## Video
 
-<iframe src="https://player.vimeo.com/video/1070228841" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe title="Devoxx UK recording" src="https://www.youtube.com/embed/2yoDNJtVj-0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<iframe title="Booster recording" src="https://player.vimeo.com/video/1070228841" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Blog posts
 

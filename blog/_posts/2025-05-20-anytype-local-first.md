@@ -3,7 +3,12 @@ title: Anytype’s local-first architecture
 description: new user experience and data ownership priorities
 layout: hh
 tags: product review
+image: local.jpg
 ---
+
+![](local.jpg)
+
+[Tim Mossholder](https://unsplash.com/photos/qvWnGmoTbik){:.photocredit}
 
 {:.series}
 1. [Anytype review](anytype-review)

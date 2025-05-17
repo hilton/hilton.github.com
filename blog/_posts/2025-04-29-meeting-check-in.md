@@ -85,6 +85,6 @@ Checking in at the start of the meeting becomes a daily practice, for a fully-re
 Like [working out loud](work-out-loud), check ins replace the way things work in a physical working environment,
 but as a deliberate practice.
 
-Effective remote teams systematically use deliberate practice to compensate for happens automatically in an office.
+Effective remote teams systematically use deliberate practice to compensate for what happens automatically in an office.
 These practices offer straightforward solution to the obvious challenges of working remote.
 You just have to do them.

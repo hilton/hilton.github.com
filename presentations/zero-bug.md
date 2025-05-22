@@ -20,6 +20,10 @@ the objections and risks, and other implementation challenges.
 You’ll learn about why it’s worth the effort to fix (almost) all of the bugs,
 and which ones you can ignore.
 
+## Slides
+
+<script async class="speakerdeck-embed" data-id="1a15e3734385470e9ec2ad9309cfb440" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Video
 
 <iframe title="Devoxx UK recording" src="https://www.youtube.com/embed/2yoDNJtVj-0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

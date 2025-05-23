@@ -39,7 +39,7 @@ and which ones you can ignore.
 
 * [Booster Conference](https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/zero-bug-policy-success/) – 27 March 2025
 * [Devoxx UK](https://www.devoxx.co.uk/talk/?id=2984) - 7 May 2025
-* [NDC Oslo](https://ndcoslo.com/agenda/zero-bug-policy-success-0adh/0droh9dvxe7) – 22 May 2025
+* [NDC Oslo](https://ndcoslo.com/agenda/zero-bug-policy-success-0adh/0droh9dvxe7) – 22 May 2025 (ratings: 🟩 80 green, 🟨 6 yellow, 🟥 2 red)
 * [J-Spring](https://jspring.nl) - 5 June 2025
 * [Agile on the Beach](https://agileonthebeach.com/the-conference/schedule/) – 4 July 2025
 * [Agile Cambridge](https://agilecambridge.net) – 1–2 October 2025

@@ -13,7 +13,7 @@ image: laughing.jpg
 {:.series}
 1. The importance of jokes ←
 2. [Original jokes](original-jokes) <!-- 2023-09-26 -->
-3. 97 Jokes <!-- 2025-05-20 -->
+3. [97 Jokes](97-jokes) <!-- 2025-05-20 -->
 
 Programmers share jokes as much as anyone else.
 You may even find some of them funny, although more likely _your mileage may vary_ (YMMV), as they say.

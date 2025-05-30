@@ -35,7 +35,7 @@ And programming culture, more than many others, exists online.
 {:#prolog}
 ## The Prolog lightbulb joke
 
-[The Prolog Lightbulb Joke](https://web.archive.org/web/20190131005203/http://www.j-paine.org/dobbs/prolog_lightbulb.html)
+[The Prolog Lightbulb Joke](http://www.j-paine.org/dobbs/prolog_lightbulb.html)
 starts with a tutorial… ‘enough Prolog for you to understand the _Prolog lightbulb joke_’.
 
 {:.big style="max-width:28em"}

@@ -17,6 +17,7 @@ image: ingredient-groups.png
 3. [Substitutions](document-substitutions)
 4. Roles ←
 5. [Small tasks](document-small-tasks)
+6. Quantities
 
 Software documentation has too much abstraction.
 Cookbooks don’t have enough.

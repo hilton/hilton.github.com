@@ -10,6 +10,14 @@ image: coleslaw.jpg
 
 <span>Peter Hilton</span>{:.photocredit}
 
+{:.series}
+1. [Failure & recovery](document-failure)
+2. [Specific techniques](document-techniques)
+3. [Substitutions](document-substitutions)
+4. [Roles](document-roles)
+5. [Small tasks](document-small-tasks)
+6. Quantities ←
+
 [Coleslaw](https://en.wikipedia.org/wiki/Coleslaw) presents an opportunity and a challenge.
 You can make it easily at home, using cheap fresh ingredients,
 and get a better cheaper result than pre-made coleslaw.

@@ -17,6 +17,7 @@ image: mussels.jpg
 3. [Substitutions](document-substitutions)
 4. [Roles](document-roles)
 5. [Small tasks](document-small-tasks)
+6. Quantities
 
 This instalment of _Cookbooks Don’t Teach You to Cook_
 considers another aspect of learning to cook that you rarely find in cookbooks and,

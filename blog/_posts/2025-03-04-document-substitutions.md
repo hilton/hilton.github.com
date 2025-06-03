@@ -16,7 +16,7 @@ image: fried-rice.jpg
 3. Substitutions ←
 4. [Roles](document-roles)
 5. [Small tasks](document-small-tasks)
-6. Quantities
+6. [Quantities](document-quantities)
 
 Cookbooks annoy me by only including one recipe for each dish, instead of _all of them_.
 And despite various attempts at the definitive Wikipedia for recipes, none of them have pulled it off,

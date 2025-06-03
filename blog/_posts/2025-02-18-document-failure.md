@@ -16,7 +16,7 @@ image: eggs.jpg
 3. [Substitutions](document-substitutions)
 4. [Roles](document-roles)
 5. [Small tasks](document-small-tasks)
-6. Quantities
+6. [Quantities](document-quantities)
 
 I’ve heard it said that cookbooks’ owners cook 1.5 recipes from each one, on average.
 I feel _seen_, and not only by the cookbooks on the shelf in the kitchen, but also reassured.

@@ -72,3 +72,11 @@ Either way, both companies have connections to
 [child labour in cocoa production](https://en.wikipedia.org/wiki/Child_labour_in_cocoa_production).
 So even if Kvikk Lunsj scores better than Kit Kat, 
 you probably shouldn’t buy either. 
+
+## Diversity
+
+When you visit Norway, from elsewhere in Europe, and go a supermarket,
+you’ll find many unfamiliar products.
+In the spirit of celebrating this diversity, and rooting for the less famous alternative,
+let’s say that Kvikk Lunsj beats Kit Kat, if only because of how cool its relative obscurity make it.
+And if you’ve never had a Kvikk Lunsj, I hope you now want to try one.

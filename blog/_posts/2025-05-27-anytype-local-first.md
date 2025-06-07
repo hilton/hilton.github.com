@@ -66,7 +66,7 @@ such as losing access to data, and losing GDPR compliance with little notice,
 in the case that the EU-US data protection framework adequacy decision collapses.
 
 Anytype belongs to a Swiss/German organisation, and you always have your data locally,
-so yau have less reason to worry about someone else blocking your access to your own data.
+so you have less reason to worry about someone else blocking your access to your own data.
 Meanwhile, Anytype encrypts your local data, using a key that only you have.
 You get control over who can access your data, and which devices can synchronise it.
 

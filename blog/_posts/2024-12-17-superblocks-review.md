@@ -1,5 +1,5 @@
 ---
-title: Superblocks review
+title: "Low-code builder review: Superblocks"
 description: an app builder that works for information pages
 layout: hh
 tags: product review

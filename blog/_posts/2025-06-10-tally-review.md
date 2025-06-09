@@ -6,6 +6,9 @@ tags: product review
 image: tally/preview-crop.png
 ---
 
+{:.screenshot}
+![The Tally form editor](tally/editor.webp)
+
 [Tally](https://tally.so)
 offer a GDPR-compliant web-based forms builder that stores form data in Europe.
 To try it out, I built a flexible product feedback form.
@@ -83,18 +86,19 @@ I like how clearly Tally implements this, and how subtly this makes it a flexibl
 Tally’s [hidden fields](https://tally.so/help/hidden-fields) led to my favourite discovery.
 To lower friction for gathering feedback, we wanted customers to click a star rating in our product user interface,
 and pre-populate the star rating.
-To do this in a Tally form:
+To do this, you:
 
 1. add a `rating` hidden field
-2. configure star rating’s _default answer_ (initial value) to use the `rating` hidden field’s value
-3. in the product user interface, use a different URL query string, e.g. `?rating=5`, in each star’s link, to populate the hidden field.
+2. configure star rating’s _default answer_ (initial value) to use the `rating` field’s value
+3. in the product user interface, make each star a separate link, with the rating in the URL query string, e.g. `?rating=5`, to populate the hidden field.
 
 ![Configuring a star rating to use a value](tally/default-answer.webp)
 
-Similarly, use a 	`subject` hidden field to track where in the product the feedback came from.
+Similarly, use a `subject` hidden field to track where in the product the feedback came from,
+so you can reuse the form.
 
 ## Rating
 
-Tally gets five starts. More like this please!
+Tally gets five stars. More like this please!
 
 ⭐️⭐️⭐️⭐️⭐️

@@ -3,12 +3,15 @@ title: "Product review: Nuclino"
 description: a cheaper simpler European Notion alternative
 layout: hh
 tags: product review
+image: nuclino/desktop.png
 ---
+
+![Nuclino desktop app](nuclino/desktop.png)
 
 [Nuclino](https://www.nuclino.com) offers a
 [European alternative](https://european-alternatives.eu) to
 [Notion](intranet-ten-word-wiki), with less functionality for a lower price.
-My first reaction was that I missed Notion’s flexible structure,
+At first, I missed Notion’s flexible structure,
 and [Anytype’s](anytype-review) fancy types and templates,
 but as I explored, Nuclino’s simpler structure and design grew on me.
 
@@ -45,7 +48,7 @@ The [list view](https://help.nuclino.com/ccaed59c-use-the-list-view) shows a hie
 
 The board view shows the same pages, with columns for the top-level collections.
 I appreciate the simplification of using the collection hierarchy like this,
-but it does feel strange to use this for a roadmap where the column isn’t an opportunity’s _status_.
+but it does feel strange to use this for a roadmap where the column doesn’s correspond to an opportunity’s _status_.
 
 {:.screenshot}
 ![A board view, showing the ‘Now’, ‘Next’ and ‘Later’ collections as columns](nuclino/board.webp)

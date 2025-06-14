@@ -1,5 +1,5 @@
 ---
-title: Modelling versus reality
+title: Embrace informal models
 description: stewing over the French Onion Soup Problem
 layout: hh
 tags: modelling cooking
@@ -83,6 +83,8 @@ and so with excellent timing, Claude (French) arrived, and came to the most Fren
 While cooking the soup, I watched Einar Høst’s NDC Oslo 2023 presentation,
 [Modelling vs Reality](https://youtu.be/SAWVPCO575k?si=l1SnLrg7LWKh-o9B),
 which inevitably prompted over-thinking soup categorisation.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/SAWVPCO575k?si=Pm5TY2137j2r0MKj" title="Modelling vs Reality, Einar Høst" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Einar explains that we use informal soup categories to describe reality,
 so we can talk about the different kinds of soup we eat.

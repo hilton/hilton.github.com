@@ -67,23 +67,23 @@ and left the soup to simmer.
 At this point in the process, it already smells pretty good,
 and so with excellent timing, Claude (French) arrived, and came to the most French conclusion imaginable.
 
-> 🇫🇷 **Claude:** ah, that smells good. What is it?
+> **Claude:** ah, that smells good. What is it?
 > 
-> 🇬🇧 **Pierre:** I’m cooking onion soup.
+> **Peter:** I’m cooking onion soup.
 > 
-> 🇫🇷 **Claude:** -
+> **Claude:** -
 > 
-> 🇬🇧 **Pierre:** But I can’t decide if it’s _French_ onion soup.
+> **Peter:** But I can’t decide if it’s _French_ onion soup.
 > After all, it’s a French recipe, we’re in France, and the onions are French; but I’m not.
 > 
-> 🇫🇷 **Claude:** well, … if it tastes good, it’s French.
+> **Claude:** well, … if it tastes good, it’s French.
 
 
 ## Modelling
 
 While cooking the soup, I watched Einar Høst’s NDC Oslo 2023 presentation,
 [Modelling vs Reality](https://youtu.be/SAWVPCO575k?si=l1SnLrg7LWKh-o9B).
-I blame Einar for over-thinking soup categorisation.
+I blame Einar for me over-thinking soup categorisation.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/SAWVPCO575k?si=Pm5TY2137j2r0MKj" title="Modelling vs Reality, Einar Høst" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

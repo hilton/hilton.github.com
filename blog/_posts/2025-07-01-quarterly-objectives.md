@@ -32,14 +32,14 @@ Focusing on one high-level problem at a time resolves this.
 It lets you say, ‘while solving that problem would add value, we currently choose to focus on this problem.’
 
 **Plan to work on business problems.**
-Make sure to work on _customer problems_.
+Make sure to work on _customer problems_, or other customer-focused opportunities.
 Don’t make _internal problems_ (that customers don’t care about) the only business problems you work on.
 
 
 ## Strategy
 
-A typical management team discussion: customers like the product, but it doesn’t make enough money.
-A change to business strategy might solve this – when the company tries a different way to achieve its business goal,
+A typical management discussion: customers like the product, but it doesn’t make enough money.
+Changing business strategy might help – trying a different way to achieve the business goal,
 but only when the product team works on problems that align with the new strategy.
 If they don’t, the investors will realise that they don’t care about what the team has decided to work on,
 and the team will eventually lose its funding.

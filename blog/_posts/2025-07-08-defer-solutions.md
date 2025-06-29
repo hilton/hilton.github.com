@@ -3,8 +3,12 @@ title: Defer solution-space work
 description: how quarterly objectives reduce development cost
 layout: hh
 tags: product management
+image: shh.jpg
 ---
 
+![](shh.jpg)
+
+[engin akyurt](https://unsplash.com/photos/vYqAHQNaOis){:.photocredit}
 
 {:.series}
 1. [Quarterly objectives](quarterly-objectives)

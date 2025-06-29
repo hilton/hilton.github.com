@@ -8,8 +8,7 @@ image: shh.jpg
 
 ![](shh.jpg)
 
-[anna gutermuth](https://www.flickr.com/photos/anniferrr/4379600329){:.photocredit}
-[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+[engin akyurt](https://unsplash.com/photos/vYqAHQNaOis){:.photocredit}
 
 Programmers like to talk about _bandwidth_. They want lots of information, as fast as they can process it. This means that all things being equal, programmers prefer talking face-to-face because that’s the highest-bandwidth communication method. (Actually, face-to-face plus whiteboard is better, but that’s another story.)
 

@@ -10,6 +10,10 @@ image: target.jpg
 
 [Marija Zaric](https://unsplash.com/photos/h2G3wT-aRL8){:.photocredit}
 
+{:.series}
+1. Quarterly objectives ←
+2. Premature solutions
+
 Software development teams can get stuck working _‘the way we’ve always done it’_,
 while struggling with a planning approach that doesn’t make anyone happy.
 They suffer from a kind of _development capture_:

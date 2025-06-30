@@ -3,7 +3,12 @@ title: How to play product tsundoku
 description: product management games and counter-games
 layout: hh
 tags: product humour
+image: book-pile.jpg
 ---
+
+![](book-pile.jpg)
+
+[Shiromani Kant](https://unsplash.com/photos/mo3FOTG62ao){:.photocredit}
 
 {:.series}
 1. [Quarterly objectives](quarterly-objectives)

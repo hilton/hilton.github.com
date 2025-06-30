@@ -58,7 +58,7 @@ depending on the product lifecycle phase. For example:
 
 Identifying feature/solution ideas does not constrain any of these phases.
 Unsurprisingly, premature solution work creates a backlog of unused feature ideas.
-We typically call this [ever-growing backlog](https://hilton.org.uk/blog/infinite-backlog) a _backlog_.
+We typically call this [ever-growing backlog](infinite-backlog) a _backlog_.
 Unfortunately, too many teams fail to notice the cost of this _inventory_, or to consider it _waste_.
 
 ## Deferred discussion

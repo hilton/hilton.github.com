@@ -13,7 +13,7 @@ image: target.jpg
 {:.series}
 1. Quarterly objectives ←
 2. [Premature solutions](defer-solutions)
-3. Product tsundoku
+3. [Product tsundoku](product-tsundoku)
 
 Software development teams can get stuck working _‘the way we’ve always done it’_,
 while struggling with a planning approach that doesn’t make anyone happy.

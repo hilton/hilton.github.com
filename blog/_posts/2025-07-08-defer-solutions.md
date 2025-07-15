@@ -13,7 +13,7 @@ image: shh.jpg
 {:.series}
 1. [Quarterly objectives](quarterly-objectives)
 2. Premature solutions ←
-3. Product tsundoku
+3. [Product tsundoku](product-tsundoku)
 
 [Quarterly objectives](quarterly-objectives) help product teams focus on work that matters,
 in more than one way.

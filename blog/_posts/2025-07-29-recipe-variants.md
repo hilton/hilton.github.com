@@ -3,8 +3,12 @@ title: The cookbook variant problem
 description: why recipe forks and remixes don’t satisfy
 layout: hh
 tags: documentation cooking
+image: scones.jpg
 ---
 
+![](scones.jpg)
+
+[Ben Stein](https://unsplash.com/photos/RP3t34O98e8){:.photocredit}
 
 {:.series}
 1. [Failure & recovery](document-failure)

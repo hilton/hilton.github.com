@@ -3,7 +3,7 @@ title: "Book review: The Goal"
 description: the business classic you should actually read
 layout: hh
 tags: book review
-image: the-goal.jpg
+image: the-goal-crop.jpg
 ---
 
 <a class="cover" href="https://en.wikipedia.org/wiki/The_Goal_(novel)"><img src="the-goal.jpg" alt="The Goal"></a>

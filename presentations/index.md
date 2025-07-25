@@ -597,7 +597,7 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
-
+* [Essential programming jokes](essential-programming-jokes)
 * [‘Feature’ is a construct](feature-construct)
 * [Overthinking numbers and strings](numbers-strings)
 * [Musical ensemble safety](ensemble-safety)
@@ -605,9 +605,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
   language-related bugs for European teams
 * [Software design for tech leads](software-design) -
   escaping the gap between functional and technical design
-
-## Not scheduled
-
 * _HTTP API checklist_ or _Dr Evil’s HTTP API_
 * _7 joys of coding_ - things that bring joy to writing code
 * _4 kinds of software design for application developers_

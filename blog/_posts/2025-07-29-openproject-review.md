@@ -44,14 +44,11 @@ lists related pull requests or merge requests, respectively.
 
 ## Roadmap
 
-As a software product manager, classic project management doesn’t interest me much,
-so I tried using OpenProject the way I would use a modern product management platform.
-To do this, a lean roadmap and a small Kanban board replace Gantt charts and backlogs.
-
-First, I used the [boards module](https://www.openproject.org/docs/user-guide/agile-boards/)
-for a now/next/later roadmap, instead of configuring a project lifecycle, or using work package _version_ attributes.
-Instead, the [basic board](https://www.openproject.org/docs/user-guide/agile-boards/#basic-board-community-edition)
-shows a work packages that you select and position manually:
+I don’t do classic project management, so I tried using OpenProject as product management platform.
+I replaced Gantt charts and backlogs with a lean roadmap and a basic Kanban board.
+The roadmap uses a
+[basic board](https://www.openproject.org/docs/user-guide/agile-boards/#basic-board-community-edition),
+which shows work packages that you select and position manually:
 
 {:.screenshot}
 ![Using a basic board for a now/next/later roadmap](openproject/board-roadmap.webp)
@@ -61,15 +58,15 @@ The board works well enough, although I don’t particularly like the visual and
 
 ## Development
 
-For development work, I created a more conventional
-[status board](https://www.openproject.org/docs/user-guide/agile-boards/#status-board),
-whose columns link to showing three selected statuses: _Confirmed_, _In progress_, and _Developed_.
+A conventional
+[status board](https://www.openproject.org/docs/user-guide/agile-boards/#status-board)
+supports development, whose columns linked to three statuses: _Confirmed_, _In progress_, and _Developed_.
 
 {:.screenshot}
 ![Using a status board for software development tasks](openproject/board-tasks.webp)
+￼
 
-I liked choosing which statuses to show on the board, instead of all of them,
-as this simplifies the development proces.
+I liked showing fewer statuses on the board, to match a simplified development process.
 
 ## Project activity
 
@@ -77,49 +74,49 @@ As a product manager, I rely on automated updates to avoid having to interrupt d
 especially for work package status changes.
 OpenProject provides
 [notifications](https://www.openproject.org/docs/user-guide/notifications/)
-via email notifications, in-app, and also shows a project activity feed:
+via email notifications, in-app, and
+[Slack](https://www.openproject.org/docs/system-admin-guide/integrations/#slack),
+and also shows a project activity feed:
 
 {:.screenshot}
 ![A project’s activity feed](openproject/activity.webp)
+￼
 
-Also, a community-built
-[Slack integration](https://www.openproject.org/docs/system-admin-guide/integrations/#slack)
-also pushes work package updates to a Slack channel.
 Together, these capabilities help [make the work visible](management-information).
 
 ## Simplification
 
-Using OpenProject for [simplified product work](simplify-product-work)
-tested the flexibility of OpenProject’s configuration.
-Fortunately, both the global administration configuration and project settings allowed me to reduce complexity.
+Using OpenProject for [simplified product work](simplify-product-work) tested its flexibility.
+Fortunately, I found many places to reduce complexity.
 
-First, I added a simplified _opportunity_ work package type to the global configuration,
-and removed the date/time/cost attributes from the _opportunity_ and _task_ types.
+I added a simplified _opportunity_ work package type to the global configuration,
+and removed the date/time/cost attributes from existing types.
 I also simplified the
-[work package status configuration](https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-status/)
-and edited the
-[work package workflow configuration](https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-workflows/)
-to allow transitions between all statuses.
+[work package statuses](https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-status/)
+and their
+[workflow transitions](https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-workflows/).
 
 {:.screenshot}
 ![Editing work package types in the administration section](openproject/administration-types.webp)
+￼
 
-Then, in _Project settings_, I disabled unused
+In _Project settings_, I disabled unused
 [modules](https://www.openproject.org/docs/user-guide/#overview-of-modules-in-openproject):
 backlogs, budgets, calendars, documents, forums, Gantt charts, news, team planners, time and costs
 
 {:.screenshot}
 ![Configuring which modules a project uses](openproject/project-settings-modules.webp)
+￼
 
-I like how this modular approach allows me to hide the complexity of functionality I don’t need.
-Similarly, at the work package level, I like that I can remove default fields and add custom fields to customise the data model.
+I like how this modular approach allows me to hide complexity.
+For work packages, I also like that I can customise the data model by replacing default fields with custom fields.
 
 ## Other modules
 
-While OpenProject doesn’t offer a product feedback database module, the
+OpenProject lacks a product feedback database module, but the
 [meetings](https://www.openproject.org/docs/user-guide/meetings/)
-module offers a way to plan and manage customer interviews,
-with links to related opportunities (work packages).
+module would help plan and manage customer interviews,
+with links to related opportunities.
 
 The [wiki](https://www.openproject.org/docs/user-guide/wiki/) module supports project-level documentation.
 Unfortunately, an _Edit_ button and a small text editor box now feels old-fashioned,
@@ -133,12 +130,10 @@ However, I didn’t test these.
 
 ## Conclusion
 
-Having suffered too many single-page apps, I appreciate having URL-addressable work packages,
-with a URL path like `/projects/bookshelf/work_packages/42/activity`,
-plus a corresponding short link `/wp/42`.
-I’d like to see a less messy user-interface design, though, and smoother user experience.
+OpenProject works, but deserves a less messy user-interface design, and smoother user experience.
+However, URL-addressable pages place it ahead of many products,
+with URL paths like `/projects/bookshelf/work_packages/42/activity`, and short links like `/wp/42`.
 
-OpenProject would certainly suit a large organisation that manages many projects,
+OpenProject would suit a large organisation with many projects,
 but would have to carefully plan how much project configuration variation to support.
-Meanwhile, for my simplified product management use case, OpenProject would work,
-but I’d prefer to have a simpler tool.
+Meanwhile, for simplified product management, OpenProject would work, but I’d prefer a simpler tool.

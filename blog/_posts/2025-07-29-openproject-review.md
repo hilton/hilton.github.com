@@ -26,14 +26,14 @@ I like how you can choose how much complexity the hierarchy has,
 by designing your own work package types, corresponding to different [units of work](units-of-work).
 
 {:.screenshot}
-![A project’s work packages – opportunities and tasks](openproject/work-packages.webp)
+[![A project’s work packages – opportunities and tasks](openproject/work-packages.webp)](openproject/work-packages.webp)
 
 Each work package has a type, e.g. _task_ or _opportunity_, a rich text description, various metadata, and
 [relations](https://www.openproject.org/docs/user-guide/work-packages/work-package-relations-hierarchies/)
 with other work packages:
 
 {:.screenshot}
-![A work package, representing a product improvement opportunity](openproject/work-package.webp)
+[![A work package, representing a product improvement opportunity](openproject/work-package.webp)](openproject/work-package.webp)
 
 As well as links to other work packages, the sidebar shows an activity feed, attached files, notification _watchers_, and linked meetings.
 For software projects,
@@ -51,7 +51,7 @@ The roadmap uses a
 which shows work packages that you select and position manually:
 
 {:.screenshot}
-![Using a basic board for a now/next/later roadmap](openproject/board-roadmap.webp)
+[![Using a basic board for a now/next/later roadmap](openproject/board-roadmap.webp)](openproject/board-roadmap.webp)
 
 The board works well enough, although I don’t particularly like the visual and UX design.
 
@@ -63,7 +63,7 @@ A conventional
 supports development, whose columns linked to three statuses: _Confirmed_, _In progress_, and _Developed_.
 
 {:.screenshot}
-![Using a status board for software development tasks](openproject/board-tasks.webp)
+[![Using a status board for software development tasks](openproject/board-tasks.webp)](openproject/board-tasks.webp)
 ￼
 
 I liked showing fewer statuses on the board, to match a simplified development process.
@@ -79,7 +79,7 @@ via email notifications, in-app, and
 and also shows a project activity feed:
 
 {:.screenshot}
-![A project’s activity feed](openproject/activity.webp)
+[![A project’s activity feed](openproject/activity.webp)](openproject/activity.webp)
 ￼
 
 Together, these capabilities help [make the work visible](management-information).
@@ -97,7 +97,7 @@ and their
 [workflow transitions](https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-workflows/).
 
 {:.screenshot}
-![Editing work package types in the administration section](openproject/administration-types.webp)
+[![Editing work package types in the administration section](openproject/administration-types.webp)](openproject/administration-types.webp)
 ￼
 
 In _Project settings_, I disabled unused
@@ -105,7 +105,7 @@ In _Project settings_, I disabled unused
 backlogs, budgets, calendars, documents, forums, Gantt charts, news, team planners, time and costs
 
 {:.screenshot}
-![Configuring which modules a project uses](openproject/project-settings-modules.webp)
+[![Configuring which modules a project uses](openproject/project-settings-modules.webp)](openproject/project-settings-modules.webp)
 ￼
 
 I like how this modular approach allows me to hide complexity.

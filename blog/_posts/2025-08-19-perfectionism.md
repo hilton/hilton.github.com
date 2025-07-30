@@ -3,7 +3,12 @@ title: The perfectionism problem
 description: coping with learned failure to prioritise
 layout: hh
 tags: product
+image: tidy.jpg
 ---
+
+![](tidy.jpg)
+
+[LUM3N](https://unsplash.com/photos/-RBuQ2PK_L8){:.photocredit}
 
 Imagine a fictional job interview, with participants acting out a contrived role-play.
 The interviewer sticks to the script, and asks:

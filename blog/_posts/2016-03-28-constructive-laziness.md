@@ -10,7 +10,9 @@ image: laziness.jpg
 
 [Christian Lue](https://unsplash.com/photos/NqhBMKJIbz4){:.photocredit}
 
-Productivity patterns give catchy names to productivity hacks and other habits, good and bad: like [design patterns](https://en.wikipedia.org/wiki/Design_pattern) but for productivity. For programmers, constructive laziness trumps all other productivity patterns by turning productivity problems into coding problems.
+Productivity patterns give catchy names to productivity hacks and other habits, good and bad: like
+[design patterns](https://en.wikipedia.org/wiki/Design_pattern) but for productivity.
+For programmers, **constructive laziness** trumps all other productivity patterns by turning productivity problems into coding problems.
 
 
 ## Understanding constructive laziness

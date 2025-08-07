@@ -14,6 +14,7 @@ image: minature-people.jpg
 1. [Infinite backlog problem](infinite-backlog)
 2. Incredible shrinking backlog ←
 3. [Backlog abstraction layer](backlog-abstraction-layer)
+4. How to shrink your backlog
 
 In the past, software development teams had shockingly long backlogs, and planned tasks for months or years ahead.
 Today, development teams still have longer backlogs than they need.

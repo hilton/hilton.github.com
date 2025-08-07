@@ -1,6 +1,6 @@
 ---
 title: How to shrink your backlog
-description: ways to reduce backlog management waste
+description: reducing backlog management waste
 layout: hh
 tags: product
 image: tape-measure-blue.jpg

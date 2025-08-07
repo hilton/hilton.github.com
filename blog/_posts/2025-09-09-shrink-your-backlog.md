@@ -3,7 +3,12 @@ title: How to shrink your backlog
 description: ways to reduce backlog management waste
 layout: hh
 tags: product
+image: tape-measure-blue.jpg
 ---
+
+![](tape-measure-blue.jpg)
+
+[Ekaterina Grosheva](https://unsplash.com/photos/tnbdRX9Yaxk){:.photocredit}
 
 {:.series}
 1. [Infinite backlog problem](infinite-backlog)
@@ -41,14 +46,15 @@ This also highlights actual requirements, such as compliance with legislation.
 ## Defer design
 
 Everyone enjoys making a _quick prototype_.
-Unlucky designers work with product managers who populate a backlog with features and wireframes;
+Unlucky designers work with product managers who populate a backlog with wireframes;
 _very_ unlucky designers get given clickable prototypes.
 While designers value input,
 [design costs more when you don’t let them do their job](https://www.boredpanda.com/designer-price-list-client-helps-digital-synopsis/).
 
-**To shrink your backlog, defer design** until you need it,
-and stop asking for a _quick design_ for every random idea.
-Instead, let designers focus the problems you will actually solve, and ongoing UX improvements.
+**To shrink your backlog, defer design** until you need it.
+Stop filling the backlog with badly-designed features,
+and let designers focus on one problem at a time,
+so they can design features with good enough usability to find out if anyone wants them.
 
 ## Add items later
 
@@ -58,7 +64,7 @@ Second, when you add backlog items for too far in the future, new priorities red
 but you leave them in the backlog for ‘later’, instead of removing them.
 
 **To shrink your backlog, add items as late as possible**.
-Only add as many as you need to avoid blocking development work,
+[Only add as many as you need](backlog-shrinkage) to avoid blocking development work,
 typically no more than 5–10 days in advance.
 Restraining yourself from writing user stories until you need them takes discipline,
 but avoids polluting your backlog.
@@ -71,7 +77,7 @@ After decomposing a new feature into twenty user stories, say,
 you might split them across five releases, and get early feedback from each increment.
 
 **To shrink your backlog, only move stories from the story map one release at a time**.
-Then you can limit the backlog to 5–10 days’ work, even when working on complex features in parallel.
+Then you can limit the backlog to upcoming work, even when working on complex features in parallel.
 It also reduces backlog changes when you update the user story map.
 
 ## Fix bugs first
@@ -82,7 +88,7 @@ Then you add too many items to the backlog, because they take longer than you ex
 **To shrink your backlog, don’t add items faster than you can make them bug free**.
 To achieve this, [implement a zero-bug policy](zero-bug-policy),
 to make development faster and more predictable.
-Then you don’t need as many backlog items to accurately have enough for the next 5–10 days.
+Then you don’t need as many backlog items to accurately have enough of them.
 
 ## Beyond backlogs
 

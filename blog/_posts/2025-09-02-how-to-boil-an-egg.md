@@ -57,7 +57,7 @@ The recipes indicate more expensive ingredients, and
 [suggest cheaper substitutions](document-substitutions), such as specific cuts of meat,
 or mark them optional, such as the brandy in the [French onion soup](informal-models).
 
-Choosing cheaper ingredients limits them to what available in England, 
+Choosing cheaper ingredients limits them to what you can buy in England, 
 while the recipes focus on English cooking.
 This means english cheeses, and butter instead of olive oil, for example.
 I’d love to see equivalent books for other countries,

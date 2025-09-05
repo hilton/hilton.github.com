@@ -45,7 +45,7 @@ The _everyday fruit scones_ variation _adds_ ingredients instead of substituting
 > (or a mixture of fruit) to the dry ingredients in the basic recipe.
 
 In the Standard Cookbook Model, each recipe lists _ingredients_ and preparation steps (the _method_).
-In simple cases, such as scones, ingredient variations don’t the method.
+In simple cases, such as scones, ingredient variations don’t affect the method.
 But in general, changing ingredients changes the method.
 
 ## Cookbook variants

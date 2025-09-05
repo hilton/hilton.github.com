@@ -69,7 +69,7 @@ The conductor should express their intent better.
 
 Referring to **the tenor entry in bar 21** adds just enough redundant information:
 
-![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp
+![Excerpt from a renaissance polyphony score, with numbered bars](score/missa-pro-defunctis.webp)
 
 Singers will easily see where the tenor part (T) starts a new phrase in bar 21.
 

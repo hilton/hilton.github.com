@@ -53,6 +53,7 @@
 {% endif %}
 
 {{ content }}
+
 </article>
 
 <article class="related">
@@ -68,6 +69,11 @@
 {% if page.title %}
 {% capture url %}https%3A%2F%2Fhilton.org.uk{{ page.url | replace:'.html','' | cgi_escape }}{% endcapture %}
 {% if page.description %}{% capture description %}{{ page.description | cgi_escape }}{% for tag in page.tags %}+%23{{ tag }}{% endfor %}{% endcapture %}{% endif %}
+
+<article class="">
+<p style="margin-top:3em;padding:0.5em 1em;background:#FBF1D2">📌 As of {{ site.time | date: '%B %Y' }}, Peter Hilton is available for a new senior product management role (Europe remote, or Rotterdam), and speaking engagements.</p>
+</article>
+
 <section class="social">
 <p><a 
 href="https://bsky.app/intent/compose?text={{ page.title | cgi_escape }}%3A+{{ description }}+%7C+by+%40hilton.org.uk+{{ url }}"><img 

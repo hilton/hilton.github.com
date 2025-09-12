@@ -7,6 +7,8 @@ layout: main
 <div class="row">
 <div class="column-2">
 
+<p style="padding:0.5em 1em;background:#FBF1D2">📌 As of {{ site.time | date: '%B %Y' }}, Peter is available for a new senior product management role (Europe remote, or Rotterdam), and speaking engagements.</p>
+
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left; margin-right:1em"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
 Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
 Peter’s professional interests are B2B SaaS products, no-code automation, software development methods, and software documentation.

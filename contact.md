@@ -9,21 +9,20 @@ css: "article img {vertical-align:top; margin-right:4px; height:16px; position:r
 
 ![e-mail](picture/social/minimal/email.png) e-mail - peter.hilton○gmail.com
 
-
 ![Github](picture/social/minimal/github.png) [Github](https://github.com/hilton)
 
 ![LinkedIn](picture/social/minimal/linkedin.png) [LinkedIn](http://www.linkedin.com/in/peterhilton)
 
-![Stack Overflow](picture/social/minimal/stackoverflow.png) [Stack Overflow](http://stackoverflow.com/users/2670/peter-hilton)
-
 ## No longer used
-
-![X](picture/social/minimal/x.png) [Twitter](http://x.com/PeterHilton) - @PeterHilton
 
 ![Facebook](picture/social/minimal/facebook.png) [Facebook](http://www.facebook.com/profile.php?id=578484777)
 
 ![Flickr](picture/social/minimal/flickr-2.png) [Flickr](https://www.flickr.com/photos/peterhilton/)
 
+<!-- ![Foursquare](picture/social/minimal/foursquare.png) [Foursquare](https://foursquare.com/peterhilton) -->
+
 ![Skype](picture/social/minimal/skype.png) Skype - peter.hilton
 
-![Foursquare](picture/social/minimal/foursquare.png) [Foursquare](https://foursquare.com/peterhilton)
+![Stack Overflow](picture/social/minimal/stackoverflow.png) [Stack Overflow](http://stackoverflow.com/users/2670/peter-hilton)
+
+![X](picture/social/minimal/x.png) [Twitter](http://x.com/PeterHilton) - @PeterHilton

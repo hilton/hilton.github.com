@@ -3,7 +3,12 @@ title: Good company/bad company
 description: Choices that companies make for current and future employees
 layout: hh
 tags: management
+image: office-building.jpg
 ---
+
+![](office-building.jpg)
+
+[Parrish Freeman](https://unsplash.com/photos/0d-z8cJGIR4){:.photocredit}
 
 Now that I find myself looking for a new product management job,
 it might make more sense to start by looking for _companies_ than _vacancies_.

@@ -5,6 +5,10 @@ layout: hh
 tags: career
 ---
 
+![](desk-new.jpg)
+
+[Georgie Cobbs](https://unsplash.com/photos/bKjHgo_Lbpo){:.photocredit}
+
 While looking for role as a product manager at a [good company](good-company-bad-company)
 I have to reflect on _what kind_ of role I want.
 Product teams in different companies practice product management so differently that

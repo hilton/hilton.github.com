@@ -15,7 +15,7 @@ image: bug-green-caterpillar.jpg
 2. [Zero-bug scenarios](zero-bug-scenarios)
 3. [Fix It Now or Delete It](fix-it-now-or-delete-it)
 4. Zero-bug policy adoption ←
-5. Zero-bug policy success
+5. [Zero-bug policy success](zero-bug-success)
 
 When I first wrote about [implementing a zero-bug policy](zero-bug-policy) in 2021,
 I didn’t know what it would take to actually adopt one.

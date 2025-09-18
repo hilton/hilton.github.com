@@ -15,8 +15,8 @@ css: "body.writing blockquote {width:25em; margin-bottom:1em} body.writing block
 1. [Zero-bug policy](zero-bug-policy)
 2. [Zero-bug scenarios](zero-bug-scenarios)
 3. Fix It Now or Delete It ←
-4. [Zero-bug policy adoption](zero-bug-policy-adoption)
-5. Zero-bug policy success
+4. [Zero-bug policy adoption](zero-bug-adoption)
+5. [Zero-bug policy success](zero-bug-success)
 
 [Fix It Now or Delete It](https://www.fixitnowordeleteit.com), by Yassal Sundman,
 introduces _the definitive bug management system_.

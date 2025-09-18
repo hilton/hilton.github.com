@@ -35,8 +35,11 @@ and which ones you can ignore.
 
 ## Blog posts
 
-* [Implement a zero-bug policy](/blog/zero-bug-policy)
-* [Zero-bug policy scenarios](/blog/zero-bug-scenarios)
+1. [Implement a zero-bug policy](/blog/zero-bug-policy)
+2. [Zero-bug policy scenarios](/blog/zero-bug-scenarios)
+3. [Fix It Now or Delete It](/blog/fix-it-now-or-delete-it)
+4. [Zero-bug policy adoption](/blog/zero-bug-adoption)
+5. [Zero-bug policy success](/blog/zero-bug-success)
 
 ## Conference presentations
 

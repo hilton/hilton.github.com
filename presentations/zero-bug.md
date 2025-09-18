@@ -30,6 +30,9 @@ and which ones you can ignore.
 
 <iframe title="Booster recording" src="https://player.vimeo.com/video/1070228841" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<iframe title="NDC Oslo recording" src="https://www.youtube.com/embed/iaXfYWEc1yY" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
 ## Blog posts
 
 * [Implement a zero-bug policy](/blog/zero-bug-policy)

@@ -71,3 +71,7 @@ Products vary in which markets and segments they serve,
 and working with business customers can feel very different to serving consumers.
 Moreover, B2C and B2B product teams have different collaborations with go-to-market teams.
 However, I have enjoyed both; mission comes first, business strategy follows.
+
+## Introductions welcome
+
+If you know a company with a role like this, please [introduce me](/contact) 🚀

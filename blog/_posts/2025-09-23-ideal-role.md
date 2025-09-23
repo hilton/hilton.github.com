@@ -3,6 +3,7 @@ title: My ideal product management role
 description: navigating varied product manager job opportunities
 layout: hh
 tags: career
+image: desk-new.jpg
 ---
 
 ![](desk-new.jpg)

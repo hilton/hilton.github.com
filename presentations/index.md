@@ -25,10 +25,22 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<th>Location</th>
 </tr>
 <tr>
+	<td>2025-11-06</td>
+	<td><a href="essential-programming-jokes">Essential programming jokes</a></td>
+	<td><a href="https://jfall.nl/">J-Fall 2025</a></td>
+	<td>🇳🇱 Ede</td>
+</tr>
+<tr>
 	<td>2025-10-01</td>
 	<td><a href="zero-bug">Zero-bug policy success</a></td>
 	<td><a href="https://agilecambridge.net">Agile Cambridge</a></td>
 	<td>🇬🇧 Cambridge</td>
+</tr>
+<tr>
+	<td>2025-15-04</td>
+	<td><a href="extreme-product">Extreme product development</a> (keynote)</td>
+	<td>in-house engineering conference</td>
+	<td>🇳🇱 online</td>
 </tr>
 <tr>
 	<td>2025-07-04</td>
@@ -66,6 +78,18 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 	<td>Hogeschool Rotterdam: Experience Week</td>
 	<td>🇳🇱 Rotterdam</td>
 </tr>
+</table>
+
+
+## Selected previous presentations
+
+<table class="table">
+<tr>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Venue</th>
+	<th>Location</th>
+</tr>
 <tr>
 	<td>2024-12-17</td>
 	<td>Remote work: software development without boundaries</td>
@@ -89,18 +113,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
    <td><a href="bugs">Universal bugs</a></td>
 	<td><a href="https://www.devoxx.co.uk">Devoxx UK</a></td>
 	<td>🇬🇧 London</td>
-</tr>
-</table>
-
-
-## Selected previous presentations
-
-<table class="table">
-<tr>
-	<th>Date</th>
-	<th>Title</th>
-	<th>Venue</th>
-	<th>Location</th>
 </tr>
 <tr>
    <td>2022-11-10</td>
@@ -597,7 +609,6 @@ Please [contact Peter](../contact) if you would like him to speak at your event 
 
 ## Proposals
 
-* [Essential programming jokes](essential-programming-jokes)
 * [‘Feature’ is a construct](feature-construct)
 * [Overthinking numbers and strings](numbers-strings)
 * [Musical ensemble safety](ensemble-safety)

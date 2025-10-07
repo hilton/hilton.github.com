@@ -3,7 +3,12 @@ title: Post-agile software development
 description: topics from Agile Cambridge 2025
 layout: hh
 tags: agile
+image: churchill-college.jpg
 ---
+
+![Churchill College – the venue of Agile Cambridge](churchill-college.jpg)
+
+<span>Peter Hilton</span>{:.photocredit}
 
 Last week, I attended and presented at [Agile Cambridge 2025](https://agilecambridge.net/),
 an excellent conference where agile practitioners in various roles mix for two days.

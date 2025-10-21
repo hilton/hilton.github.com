@@ -3,7 +3,7 @@ title: Secret macOS file drag and drop
 description: useful but hard-to-discover Mac interactions
 layout: hh
 tags: usability
-image: file-to-terminal-drag.jpg
+image: drag-and-drop/file-to-terminal-drag.jpg
 ---
 
 Ironically, not many people know about [macOS](https://en.wikipedia.org/wiki/MacOS)’

@@ -3,9 +3,12 @@ title: Curate a product feedback database
 description: where so-called product ‘feature requests’ belong
 layout: hh
 tags: product management
+image: mailboxes.jpg
 ---
 
-<!-- 586 -->
+![](mailboxes.jpg)
+
+[Philippe Murray-Pietsch](https://unsplash.com/photos/xiqCrk6LvTg){:.photocredit}
 
 Product managers value feedback about their product,
 because its broad and unfiltered customer perspectives help them identify product problems and opportunities.

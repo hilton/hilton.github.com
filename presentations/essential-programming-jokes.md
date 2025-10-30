@@ -4,6 +4,8 @@ description: shared experiences and teaching each other
 layout: speaking
 ---
 
+(with [Marit van Dijk](https://maritvandijk.com/))
+
 Programming jokes are underrated.
 They encode essential knowledge that every programmer should know, carry dark warnings from the past,
 and give us the opportunity to share our pain.

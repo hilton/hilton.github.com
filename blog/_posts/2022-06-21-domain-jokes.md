@@ -25,10 +25,10 @@ From the right angle, that even looks like a feature, not a bug.
 In the book [Small Pieces Loosely Joined](https://www.smallpieces.com),
 David Weinberger offers an insight that hasn’t become less fresh in the twenty years since the book’s publication:
 
-> In fact, you can look at the Web as consisting of two basic forms of knowledge: the database and the joke. […] Unlike databases, jokes, the other form of knowledge on the web, reveal what you weren’t expecting. If they’re predictable, they’re about is funny as a database. […] Jokes are all about context.
+> In fact, you can look at the Web as consisting of two basic forms of knowledge: the database and the joke. […] Unlike databases, jokes, the other form of knowledge on the web, reveal what you weren’t expecting. If they’re predictable, they’re about as funny as a database. […] Jokes are all about context.
 
 Weinberger explains that you can learn a lot about someone’s cultural context by what they find funny.
-The same thing works in niche fields: the ability to appreciate a field’s in jokes depends on domain knowledge or shared professional experience.
+The same thing works in niche fields: the ability to appreciate a field’s in-jokes depends on domain knowledge or shared professional experience.
 Programming jokes work when you know enough to _get_ them.
 And programming culture, more than many others, exists online.
 

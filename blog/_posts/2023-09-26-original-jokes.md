@@ -83,7 +83,7 @@ and may cause the computer to crash spectacularly, although not necessarily in y
 ventures successfully into observational humour:
 
 {:.big.solid-one style="max-width:39em"}
-> Programmers love computer games because they get to experience performing a task from start to finish without the requirements changing
+> I only play computer games to have an IT task I can complete without requirements changing.
 
 ## 2014
 
@@ -101,6 +101,9 @@ has spread even more than the Phil Karlton joke, in an untestable number of vari
 {:.big.solid-three style="max-width:38em"}
 > QA Engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. 
 > Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.
+
+[Sempf’s blog post](https://www.sempf.net/post/On-Testing1)
+included the joke with its backstory, and some variations.
 
 ## 2015
 

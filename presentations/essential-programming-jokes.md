@@ -19,3 +19,13 @@ You’ll also learn when to ignore the conventional advice never to explain a jo
 and when having to explain a programming joke is a feature, not a bug.
 Actionable takeaways focus on best practices for joke deployment and,
 of course, you’ll learn a new joke or two.
+
+# Conferences
+
+* [J-Fall](https://jfall.nl/) - 6 November 2025
+
+# Articles
+
+* [97 Jokes Every Programmer Should Know](/blog/97-jokes)
+* [Original programming jokes](/blog/original-jokes)
+* [The importance of programming jokes](/blog/domain-jokes)

@@ -17,6 +17,7 @@ css: "body.writing .big code {color:inherit; background-color:inherit}"
 1. [The importance of jokes](domain-jokes) <!-- 2022-06-21 -->
 2. Original jokes ←
 3. [97 Jokes](97-jokes)
+4. Joke cycles
 
 Jokes, even more than books and song lyrics, seem to become public domain as soon as they make someone laugh,
 unfortunately for comedy writers, who rarely get credit for the jokes they write that become _memes_

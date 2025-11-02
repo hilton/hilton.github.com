@@ -59,12 +59,12 @@ hasn’t spread as much, but scores points for the pun:
 > We haven't done a gig yet.
 
 [Paul Malin’s 2011-11-12 tweet](https://twitter.com/P_Malin/status/135467325796265984)
-unusually contains compilable code, which makes it hard to
+contains code, which makes it hard to
 [tell out loud](https://www.felienne.com/archives/5947):
 
 {:.big.solid-three style="max-width:27em"}
-> Q: What's yellow and dangerous?  
-> A: `*((int*)rand()) = 0xffff00;`
+> What's yellow and dangerous?  
+> `*((int*)rand()) = 0xffff00;`
 
 This riffs on the children’s
 [shark-infested custard joke](https://twitter.com/gavinandstacytv/status/1300906218517680135).
@@ -135,8 +135,8 @@ laments the coder condition:
 ## 2017
 
 [Romeu Moura’s 2017-11-10 tweet](https://twitter.com/malk_zameth/status/928974920276697088) established 
-[domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design)
-as a real thing, with its first proper joke:
+[domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design),
+with its first proper joke:
 
 {:.big.solid-one style="max-width:40em"}
 > In the culinary bounded context: 🍅 is a vegetable  

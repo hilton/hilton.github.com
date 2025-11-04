@@ -14,7 +14,7 @@ image: laughing.jpg
 1. The importance of jokes ←
 2. [Original jokes](original-jokes) <!-- 2023-09-26 -->
 3. [97 Jokes](97-jokes) <!-- 2025-05-20 -->
-4. Joke cycles
+4. [Joke cycles](programming-joke-cycles) <!-- 2025-11-04 -->
 
 Programmers share jokes as much as anyone else.
 You may even find some of them funny, although more likely _your mileage may vary_ (YMMV), as they say.

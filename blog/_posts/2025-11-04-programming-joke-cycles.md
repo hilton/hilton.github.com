@@ -13,7 +13,7 @@ image: laughing.jpg
 {:.series}
 1. [The importance of jokes](domain-jokes) <!-- 2022-06-21 -->
 2. [Original jokes](original-jokes) <!-- 2023-09-26 -->
-3. [97 Jokes](97-jokes) <!-- 2025-50-20 -->
+3. [97 Jokes](97-jokes) <!-- 2025-05-20 -->
 4. Joke cycles ←
 
 Jokes often belong to [joke cycles](https://en.wikipedia.org/wiki/Joke#Joke_cycles) –

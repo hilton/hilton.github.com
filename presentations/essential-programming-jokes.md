@@ -26,6 +26,7 @@ of course, you’ll learn a new joke or two.
 
 # Articles
 
-* [97 Jokes Every Programmer Should Know](/blog/97-jokes)
-* [Original programming jokes](/blog/original-jokes)
 * [The importance of programming jokes](/blog/domain-jokes)
+* [Original programming jokes](/blog/original-jokes)
+* [97 Jokes Every Programmer Should Know](/blog/97-jokes)
+* [Programming joke cycles](/blog/programming-joke-cycles)

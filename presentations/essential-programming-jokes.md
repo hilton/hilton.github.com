@@ -5,7 +5,7 @@ layout: speaking
 image: essential-programming-jokes.jpg
 ---
 
-(with [Marit van Dijk](https://maritvandijk.com/))
+(with [Marit van Dijk](https://maritvandijk.com/presentations/essential-programming-jokes/))
 
 Programming jokes are underrated.
 They encode essential knowledge that every programmer should know, carry dark warnings from the past,

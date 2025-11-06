@@ -21,17 +21,15 @@ and when having to explain a programming joke is a feature, not a bug.
 Actionable takeaways focus on best practices for joke deployment and,
 of course, you’ll learn a new joke or two.
 
-# Slides
-
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="753ee7c6dcdf407598316f9288baa1ae" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
-# Conferences
+## Conferences
 
 * [J-Fall](https://jfall.nl/) - 6 November 2025
 
-# Articles
+## Articles
 
 * [The importance of programming jokes](/blog/domain-jokes)
 * [Original programming jokes](/blog/original-jokes)

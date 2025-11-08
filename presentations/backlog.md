@@ -16,3 +16,7 @@ You’ll learn how to move feature requests and roadmaps elsewhere,
 defer requirements and designs until you need them,
 and have more time to improve the user experience.
 Whatever your role and level, you can help simplify how your team works.
+
+## Articles
+
+* [How to shrink your backlog](/blog/shrink-your-backlog)

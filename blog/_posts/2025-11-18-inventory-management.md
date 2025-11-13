@@ -3,6 +3,7 @@ title: Domestic inventory management
 description: optimising supermarket home delivery
 layout: hh
 tags: product
+image: shelf-preview.jpg
 ---
 
 In 2020, I started playing an _inventory management_ game at home.

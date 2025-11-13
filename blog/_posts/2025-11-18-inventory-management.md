@@ -6,18 +6,16 @@ tags: product
 image: shelf-preview.jpg
 ---
 
-In 2020, I started playing an _inventory management_ game at home.
+Back in 2020, I started playing an _inventory management_ game at home.
 I signed up for a supermarket home delivery service,
 to avoid the supermarket during lockdown.
-This introduced an interesting complication:
-a minimum order value that often meant ordering too much.
+This introduced an interesting complication.
 
 ## Home inventory
 
-I started with a two-part problem:
-
-1. Reach the minimum order value every week.
-2. Eventually use all purchased stock.
+I wanted to order every week, to have fresh fruit and vegetables,
+but the minimum order value meant ordering more food than I needed.
+I would have to order additional non-perishable goods that I would eventually use.
 
 The obvious solution involves topping up orders with Champagne,
 to reach the minimum order value, but I didn’t want to make a habit of that.
@@ -26,53 +24,39 @@ such as when I needed more dishwasher tablets, or other infrequent purchases.
 
 ## Spend control
 
-To avoid ‘having’ to order bubbly every other week, I added an objective:
-
-{:start="3"}
-1. Minimise the value of each order.
-
+To avoid ‘having’ to order bubbly every other week,
 I started spreading out infrequent purchases, especially expensive ones.
-This meant tracking my home inventory, and ‘topping up’ orders to the minimum value,
-by _stocking up_ in advance.
+That way I could avoid over-spending by ‘topping up’ orders to the minimum value,
+and _stocking up_ on some products in advance.
 
 ![Home inventory in June 2020](inventory/2020.webp)
-￼
 
 This resulted in an inventory of over 100 stock items,
-tracking each item’s **product name** and **inventory** (quantity).
+and tracking each item’s **product name** and **inventory** (quantity).
 Most food items appear in the storeroom photo (above), excluding fridge and freezer contents.
 
 ## Storeroom location
 
-I updated the inventory before each order, to check what we’d run out of.
-Going through the list required a consistent space for every stock item, and new rules.
-
-{:start="3"}
-1. Store each product in a consistent location in the storeroom.
-2. Don’t run out of space on any storeroom shelf.
-
+Before placing each order, I’d check for out-of-stock products.
+Going through the list of products I ordered required a consistent location for each one,
+so I had to shelve stock consistently.
 I recorded each stock item’s **shelf** location,
 using spreadsheet-style column-row references:
 
-![Home inventory in June 2020](inventory/shelf.webp)
+![Spreadsheet-style shelf locations, such as ‘shelf B2’](inventory/shelf.webp)
 
 These locations remained stable,
 except for occasional relocations to accommodate _maximum inventory_ changes.
 
 ## Price optimisation
 
-Supermarkets continuously operate
-[sales promotions](https://en.wikipedia.org/wiki/Sales_promotion),
-and I could browse discounts for the week containing the delivery date.
-This created a new opportunity when stocking up:
-
-{:start="5"}
-1. Use discounts to minimise each stock item’s average price.
-
+Supermarket [sales promotions](https://en.wikipedia.org/wiki/Sales_promotion)
+offer discounts to browse, for the week containing the delivery date.
+By stocking up on discounted goods, to reach the minimum order value,
+I could reduce costs enough to more than cover the delivery subscription fee.
 This made the game even more _satisfying_, but caused a new problem:
 
 ![Spaghetti overstock – 12 packs of spaghetti and spaghettini](inventory/spaghetti.webp)
-￼
 
 After a series of [BOGOF](https://en.wikipedia.org/wiki/Buy_one,_get_one_free) 
 (buy one, get one free) offers, I had ordered lots of spaghetti and _spaghettini_
@@ -80,28 +64,31 @@ After a series of [BOGOF](https://en.wikipedia.org/wiki/Buy_one,_get_one_free)
 
 ## Overstock
 
-Spaghetti lasts a long time, but not necessarily _for ever_.
-I discovered that we use several products more slowly than I had realised,
-and that I had overachieved during some enthusiastic discount-driven stocking-up.
-I had to refine the second rule:
+Spaghetti lasts a long time, but not necessarily _forever_.
+I discovered several products that we use more slowly than I had realised,
+and that I had overachieved during discount-driven stocking-up.
 
-{:start="2"}
-1. Eventually use all stock, **before its _best before_ date**.
-
-I use tinned tomatoes every week, and they last for years, so I can really stock up.
-But whatever the discount, I shouldn’t have more than six packs of flour tortillas.
-To set limits, I estimated each stock item’s **maximum inventory**
-that would avoid [overstocking](https://en.wikipedia.org/wiki/Overstock).
-Then, given a discount, I could safely stock up to the maximum inventory.
+Flour tortillas last about six months, and we use about one pack per month,
+so whatever the discount, I shouldn’t have inventory of more than six packs.
+Based on usage and shelf life,
+I estimated the maximum inventory I could safely stock for each product,
+to avoid [overstocking](https://en.wikipedia.org/wiki/Overstock).
 
 I occasionally had to adjust the _maximum stock_.
 To make it easier for slow-moving products, I added the product’s **shelf life** –
 the number of months from delivery until its _best before_ date.
-Also, **last discount** tracks the year when the stock item last had a discount,
-to highlight which products never have a discount, when stocking up.
+
+## Last discount
+
+Sometimes, nothing on my list had a discount to stock up with,
+so I might have had to stock up to the maximum inventory without using a discount.
+This would remove the option to use a future discount for that product.
+
+I started tracking which products never have a discount, by noting the **last discount** year.
+Then I could see which products probably won’t have a discount next week.
 
 ## Inventory management
 
-I can’t do even this trivial inventory management in my head,
-and the supermarket web site doesn’t help me manage my home stock.
-Inevitably, I had to use another software tool to do this, which leads to the next part of the game.
+Unsurprisingly, I couldn’t do this domestic inventory management in my head,
+and the supermarket web site didn’t help with my home inventory.
+I needed another software tool, which leads to the next part of the game.

@@ -96,6 +96,8 @@ Then, given a discount, I could safely stock up to the maximum inventory.
 I occasionally had to adjust the _maximum stock_.
 To make it easier for slow-moving products, I added the product’s **shelf life** –
 the number of months until its _best before_ date, on delivery.
+I also added the **last discount** – the year when the stock item last had a discount,
+to highlight which products never had a discount.
 
 ## Inventory management
 

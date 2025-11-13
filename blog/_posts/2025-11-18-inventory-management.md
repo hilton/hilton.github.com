@@ -48,8 +48,8 @@ I updated the inventory before each order, to check what we’d run out of.
 Going through the list required a consistent space for every stock item, and new rules.
 
 {:start="3"}
-1. Store each product in a consistent location in the storeroom
-2. Don’t run out of space in the storeroom
+1. Store each product in a consistent location in the storeroom.
+2. Don’t run out of space on any storeroom shelf.
 
 I recorded each stock item’s **shelf** location,
 using spreadsheet-style column-row references:

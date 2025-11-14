@@ -3,8 +3,12 @@ title: Deconstructed inventory management
 description: the basis for a home information management project
 layout: hh
 tags: product
-image: 2024-preview.jpg
+image: tidy.jpg
 ---
+
+![](tidy.jpg)
+
+[LUM3N](https://unsplash.com/photos/-RBuQ2PK_L8){:.photocredit}
 
 {:.series}
 1. [Narrative](inventory-management)

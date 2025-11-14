@@ -48,9 +48,9 @@ _Photo: twelve of the storeroom shelves in 2024 – some of the unrefrigerated 
 | shelf life         | 12                        | Months from delivery date to ‘best before’ date        |
 | last discount      | 2025                      | The year of this product’s last discount               |
 
-Note that while I would absolutely use the unique product
-[SKU codes](https://en.wikipedia.org/wiki/Stock_keeping_unit)
-the supermarket uses, they don’t expose them in the customer-facing interface.
+I would absolutely use the supermarket’s unique product
+[SKU codes](https://en.wikipedia.org/wiki/Stock_keeping_unit),
+but they don’t expose them in the customer-facing interface.
 
 I occasionally append the product weight/volume/quantity to the product name,
 to choose among alternatives, but not often enough to want a separate attribute.

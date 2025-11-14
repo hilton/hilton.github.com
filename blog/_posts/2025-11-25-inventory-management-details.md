@@ -19,6 +19,7 @@ This article deconstructs the narrative, to make it look more like a software pr
 
 _Photo: twelve of the storeroom shelves in 2024 – some of the unrefrigerated food inventory_
 
+{:#context}
 ## Context
 
 * Weekly orders include fresh goods, such as fruit and vegetables.
@@ -26,6 +27,7 @@ _Photo: twelve of the storeroom shelves in 2024 – some of the unrefrigerated 
 * Weekly supplies reach 50–80% of the minimum order value.
 * Available storeroom space easily accommodates each item’s _maximum inventory_.
 
+{:#goals}
 ## Optimisation goals & constraints
 
 1. Use all inventory before its _best before_ date.
@@ -33,6 +35,7 @@ _Photo: twelve of the storeroom shelves in 2024 – some of the unrefrigerated 
 3. Keep the storeroom tidy, without spreading a stock item across more than one shelf.
 4. Use discounts to minimise each stock item’s moving average price.
 
+{:#model}
 ## Inventory data model
 
 | Attribute name     | Example value             | Description |
@@ -49,6 +52,10 @@ Note that while I would absolutely use the unique product
 [SKU codes](https://en.wikipedia.org/wiki/Stock_keeping_unit)
 the supermarket uses, they don’t expose them in the customer-facing interface.
 
+I occasionally append the product weight/volume/quantity to the product name,
+to choose among alternatives, but not often enough to want a separate attribute.
+
+{:#process}
 ## Ordering process
 
 1. Update inventory levels, by inspecting the storeroom and kitchen.
@@ -62,6 +69,7 @@ the supermarket uses, they don’t expose them in the customer-facing interface.
 9. For each order line, update _expected inventory_ to _actual inventory_ + _order quantity_.
 10. After delivery, update _actual inventory_ levels, and clear _expected inventory_.
 
+{:#variation}
 ## Process variation
 
 **Step 1** doesn’t happen during travel, in which case **step 2** uses a laptop or phone,
@@ -73,6 +81,7 @@ to bet against a large discount returning before using up that stock.
 **Step 6**: a small discount (e.g. 10%) may justify only partially restocking a previously-discounted product,
 to bet on a larger discount later.
 
+{:#question}
 ## The question
 
 Given this summary of my domestic inventory management, how would you manage the inventory levels?

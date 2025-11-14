@@ -9,6 +9,7 @@ image: 2024-preview.jpg
 {:.series}
 1. [Narrative](inventory-management)
 2. Details ←
+3. Tooling
 
 Since 2020, I’ve played [home inventory management](inventory-management),
 which makes online orders for supermarket deliveries more satisfying.

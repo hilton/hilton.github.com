@@ -59,12 +59,13 @@ to choose among alternatives, but not often enough to want a separate attribute.
 {:#data}
 ## Example data
 
-| Shelf | Product name              | Inventory | Maximum | Shelf life | Last discount |
-| ----- | ------------------------- | --------- | ------- | ---------- | ------------- |
-| B3    | Tortilla wraps            | 3         | 6       | 6 months   |               |
-| C1    | Marmite yeast extract     | 3         | 4       | 13 months  | 2025          |
-| C2    | De Cecco Spaghetti no. 12 | 1         | 6       |            | 2025          | 
-| D2    | Mutti Polpa               | 5         | 36      |            | 2024          |
+| Shelf  | Product name              | Inventory | Maximum | Shelf life | Last discount |
+| ------ | ------------------------- | --------- | ------- | ---------- | ------------- |
+| B3     | Tortilla wraps            | 3         | 6       | 6 months   |               |
+| C1     | Marmite yeast extract     | 3         | 4       | 13 months  | 2025          |
+| C2     | De Cecco Spaghetti no. 12 | 1         | 6       |            | 2025          |
+| D2     | Mutti Polpa               | 5         | 36      |            | 2024          |
+| fridge | Mozzarella                | 0         | 1       |            |               |
 
 {:#process}
 ## Ordering process

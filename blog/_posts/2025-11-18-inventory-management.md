@@ -3,13 +3,14 @@ title: Domestic inventory management
 description: optimising supermarket home delivery
 layout: hh
 tags: product
-image: shelf-preview.jpg
+image: inventory/shelf-preview.jpg
 ---
 
 {:.series}
 1. Narrative ←
 2. Details
 3. Tooling
+4. Minimum viable solution
 
 Back in 2020, I started playing an _inventory management_ game at home.
 I signed up for a supermarket home delivery service,

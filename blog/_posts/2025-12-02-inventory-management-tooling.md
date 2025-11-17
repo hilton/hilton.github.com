@@ -1,6 +1,6 @@
 ---
-title: Deconstructed inventory management
-description: the basis for a home information management project
+title: Domestic inventory management tooling
+description: the ultimate nerd shopping list
 layout: hh
 tags: product
 image: tidy.jpg
@@ -14,12 +14,12 @@ image: tidy.jpg
 1. [Narrative](inventory-management)
 2. [Details](inventory-management-details)
 3. Tooling ←
+4. Minimum viable solution
 
 My [home inventory management](inventory-management)
 story describes how online supermarket shopping escalated into a game
 that I find so satisfying that I sometimes wish I could play more than one move per week.
-[The follow-up article](inventory-management-details)
-reframes this as a software problem.
+[Adding details](inventory-management-details) reframes this as a software problem.
 This article explores potential solutions, and how I actually do it.
 
 ## Tool requirements

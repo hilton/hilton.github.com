@@ -3,13 +3,14 @@ title: Deconstructed inventory management
 description: the basis for a home information management project
 layout: hh
 tags: product
-image: 2024-preview.jpg
+image: inventory/2024-preview.jpg
 ---
 
 {:.series}
 1. [Narrative](inventory-management)
 2. Details ←
 3. Tooling
+4. Minimum viable solution
 
 Since 2020, I’ve played [home inventory management](inventory-management),
 which makes online orders for supermarket deliveries more satisfying.

@@ -78,13 +78,13 @@ If you want to try any other approach, you will have to compete with an _ad hoc_
 
 In this case, a spreadsheet’s tabular interface suits the inventory’s 150 rows and 7 columns.
 Apple Numbers, for example, does a good job of adapting the spreadsheet user experience to a small screen,
-it still feels too fiddly to update inventory levels in the iOS version.
+but it still feels too fiddly to update inventory levels in the iOS version.
 
 ## Minimum viable inventory management
 
 Back in 2020, I started with the simplest possible solution – a list in a simple text document.
 To prioritise the text editing user experience,
 and have synchronised data between mobile and desktop applications,
-chose software that I already used.
+I chose software that I already used.
 In the end, for domestic inventory management,
 I use [Apple Notes](https://en.wikipedia.org/wiki/Notes_(Apple)).

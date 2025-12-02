@@ -8,8 +8,8 @@ image: inventory/shelf-preview.jpg
 
 {:.series}
 1. Narrative ←
-2. Details
-3. Tooling
+2. [Details](inventory-management-details)
+3. [Tooling](inventory-management-tooling)
 4. Minimum viable solution
 
 Back in 2020, I started playing an _inventory management_ game at home.

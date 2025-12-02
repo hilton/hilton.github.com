@@ -9,7 +9,7 @@ image: inventory/2024-preview.jpg
 {:.series}
 1. [Narrative](inventory-management)
 2. Details ←
-3. Tooling
+3. [Tooling](inventory-management-tooling)
 4. Minimum viable solution
 
 Since 2020, I’ve played [home inventory management](inventory-management),

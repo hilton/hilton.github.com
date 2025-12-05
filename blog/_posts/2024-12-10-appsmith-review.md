@@ -96,6 +96,10 @@ On the details pages, I couldn’t make the list items and properties use any le
 
 ## URL denial
 
+{:.info}
+🚀 Update: as of November 2025, Appsmith supports 
+[static app URLs](https://docs.appsmith.com/build-apps/how-to-guides/configure-static-app-urls).
+
 These screen shots don’t show the biggest horror: Appsmith’s URLs.
 The pages above have URLs like:
 

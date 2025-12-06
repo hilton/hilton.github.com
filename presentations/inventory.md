@@ -14,3 +14,10 @@ and that you don’t have to craft or build physical things to have a nerdy home
 In fact, any complex software problem can be a hobby project, if you simplify it enough. 
 You’ll also learn that managing physical inventory can be exceedingly satisfying,
 and even save money. 
+
+## Articles
+
+1. [Domestic inventory management](/blog/inventory-management)
+2. [Deconstructed inventory management](/blog/inventory-management-details)
+3. [Domestic inventory management tooling](/blog/inventory-management-tooling)
+4. Minimum viable inventory management

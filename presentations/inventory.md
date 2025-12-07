@@ -5,9 +5,11 @@ layout: speaking
 ---
 
 Any simple day-to-day problem can be a complicated software project, if you overthink it enough.
-This mini-case study shows my inventory management system for managing supermarket deliveries. 
-It includes inventory management techniques, turning it into a software problem,
-my solution, and an unexpected lesson about commercial software development.
+This case study tells the story of how I turned the problem of planning supermarket deliveries into an even bigger inventory management problem.
+Obsessively over-complicating the problem expanded its scope to include spend control, 
+price optimisation, storage and stock levels.
+The story concludes with how I chose a software solution,
+and an unexpected lesson about commercial software development.
 
 Attendees will learn about the biggest software design tradeoff,
 and that you don’t have to craft or build physical things to have a nerdy home project.

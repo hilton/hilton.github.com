@@ -18,7 +18,7 @@ image: ingredient-groups.png
 4. Roles ←
 5. [Small tasks](document-small-tasks)
 6. [Quantities](document-quantities)
-7. Variants
+7. [Variants](document-variants)
 
 Software documentation has too much abstraction.
 Cookbooks don’t have enough.

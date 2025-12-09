@@ -17,7 +17,7 @@ image: coleslaw.jpg
 4. [Roles](document-roles)
 5. [Small tasks](document-small-tasks)
 6. Quantities ←
-7. Variants
+7. [Variants](document-variants)
 
 [Coleslaw](https://en.wikipedia.org/wiki/Coleslaw) presents an opportunity and a challenge.
 You can make it easily at home, using cheap fresh ingredients,

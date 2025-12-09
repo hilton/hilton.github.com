@@ -14,7 +14,7 @@ image: tidy.jpg
 1. [Narrative](inventory-management)
 2. [Details](inventory-management-details)
 3. Tooling ←
-4. Minimum viable solution
+4. [Minimum viable solution](inventory-management-minimum)
 
 My [home inventory management](inventory-management)
 story describes how online supermarket shopping escalated into a game

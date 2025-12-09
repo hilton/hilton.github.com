@@ -10,7 +10,7 @@ image: inventory/shelf-preview.jpg
 1. Narrative ←
 2. [Details](inventory-management-details)
 3. [Tooling](inventory-management-tooling)
-4. Minimum viable solution
+4. [Minimum viable solution](inventory-management-minimum)
 
 Back in 2020, I started playing an _inventory management_ game at home.
 I signed up for a supermarket home delivery service,

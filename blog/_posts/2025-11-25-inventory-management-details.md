@@ -10,7 +10,7 @@ image: inventory/2024-preview.jpg
 1. [Narrative](inventory-management)
 2. Details ←
 3. [Tooling](inventory-management-tooling)
-4. Minimum viable solution
+4. [Minimum viable solution](inventory-management-minimum)
 
 Since 2020, I’ve played [home inventory management](inventory-management),
 which makes online orders for supermarket deliveries more satisfying.

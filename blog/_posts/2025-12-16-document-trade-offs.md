@@ -3,7 +3,12 @@ title: Document trade-offs and compromises
 description: Northern Europe’s crimes against Italian cuisine
 layout: hh
 tags: documentation cooking
+image: caprese-salad.jpg
 ---
+
+![](caprese-salad.jpg)
+
+[Bryony Elena](https://unsplash.com/photos/dJGeISqeEiw){:.photocredit}
 
 {:.series}
 1. [Failure & recovery](document-failure)
@@ -26,8 +31,9 @@ This happened because everyone makes different trade-offs and compromises, but n
 
 ## Italian cooking
 
-In Italy, the [Caprese salad](https://en.wikipedia.org/wiki/Caprese_salad) consists of four ingredients,
-arranged simply on a plate: mozzarella, tomato, basil, and olive oil.
+In Italy, the [Caprese salad](https://en.wikipedia.org/wiki/Caprese_salad) (photo, above)
+consists of four ingredients, arranged simply on a plate:
+mozzarella, tomato, basil, and olive oil.
 Italian cooking looks like painting with primary colours:
 if not the Italian flag’s, then like those of a 1980s shopping centre,
 as opposed to a Scandinavian furniture shop’s shades of brown and grey.
@@ -56,6 +62,8 @@ when attempting an Italian recipe.
 4. Adjust Italian recipes to build richer flavours, using local ingredients.
 5. Abandon the attempt to prepare recognisably-Italian food.
 
+For example, a ‘Caprese salad’ outside Italy will often include additional stronger flavours,
+such as olives or balsamic vinegar, to compensate for bland tomatoes.
 Either way, you get to choose a compromise from among these options.
 Some of them will annoy Italians, or disappoint your guests, though.
 When you cook Italian food outside Italy, you have to make trade-offs.

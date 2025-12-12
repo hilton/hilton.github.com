@@ -18,6 +18,7 @@ image: rice/bowl.jpg
 5. Small tasks ←
 6. [Quantities](document-quantities)
 7. [Variants](document-variants)
+8. Trade-offs
 
 If you like cooking and prefer a hot meal for lunch, working from home means doing better than a sandwich.
 On a lunch break, you can probably only afford about 30 minutes to prepare and cook, at most.

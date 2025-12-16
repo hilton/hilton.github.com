@@ -35,7 +35,7 @@ Agile methods do this for three reasons:
 The highest bandwidth communication between two people combines face-to-face verbal communication… plus a whiteboard.
 This combination gives you a conversation with quick diagrams. 
 
-It matters that you use low-fidelity [back-of-the-napkin|http://www.danroam.com/the-back-of-the-napkin/]-style diagrams that you can draw quickly.
+It matters that you use low-fidelity [back-of-the-napkin](http://www.danroam.com/the-back-of-the-napkin/)-style diagrams that you can draw quickly.
 This part doesn’t work as well on a computer, where diagramming software invokes a time warp.
 Time slows down while you endlessly fiddle with box alignment and arrow placement.
 A picture sometimes takes as long to produce as a thousand words.
@@ -45,9 +45,10 @@ A picture sometimes takes as long to produce as a thousand words.
 Despite whiteboards’ usefulness, many teams have a single shared whiteboard.
 Just one.
 If your team only has one whiteboard then they can only have one high-bandwidth conversation at a time.
-Unless you exclusive use team programming, this unnecessarily constrains communication.
+Unless you exclusively use team programming, this unnecessarily constrains communication.
 
-Centralised discussion belongs old-fashioned school classrooms and meetings, not for software development teams.
+Centralised discussion belongs to old-fashioned school classrooms and meetings,
+not to software development teams.
 Treating a whiteboard marker like a software development team’s talking stick annoys programmers as much a version control system that locks files on check-out.
 (Yes, that used to happen, and 
 [frequently ended badly](https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe#Criticism).)

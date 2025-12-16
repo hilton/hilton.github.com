@@ -30,11 +30,14 @@ Fortunately, we have new alternatives.
 
 ## Sticky notes and sketches
 
-[Miro](https://miro.com/online-whiteboard/) and
-[Mural](https://www.mural.co)
-both give you similar canvases that you can use like a whiteboard.
-In both cases, the canonical interaction adds a sticky note to the board, while both let you add almost anything else to the board.
-Both also offer explicit team collaboration and meeting capabilities.
+[Whimsical](https://whimsical.com/boards),
+[Mural](https://www.mural.co),
+[FigJam](https://www.figma.com/figjam/), and
+[Miro](https://miro.com/online-whiteboard/)
+all give you similar canvases that you can use like a whiteboard.
+In each one, the canonical interaction adds a sticky note to the board,
+while also letting you add almost anything else to the board.
+They also offer explicit team collaboration and meeting capabilities.
 
 [Excalidraw](https://github.com/excalidraw/excalidraw/blob/master/README.md)
 uses a web-based canvas for sketching diagrams, rather than written notes.

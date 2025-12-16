@@ -19,7 +19,7 @@ Bad managers justify treating people badly (bullying) as ‘tough love’ and �
 Good managers behave how everyone would want everyone else to behave.
 
 Bad managers ‘pressure people’ until they complain, as if that somehow makes them complicit in the abuse they receive.
-Good managers ￼respect personal, moral, ethical, and employment law boundaries.
+Good managers respect personal, moral, ethical, and employment law boundaries.
 
 Bad managers disparage remote working because they want to project status through physical presence and office layout.
 Good managers embrace remote working because it leverages the trustful relationships they teach their teams to build.
@@ -68,8 +68,8 @@ Good managers acknowledge gaps in their own knowledge, and encourage research.
 
 ## Build
 
-Bad managers complain that estimates and call them ‘too large’. 
+Bad managers complain about estimates and call them ‘too large’. 
 Good managers seek to understand how estimates contribute to decision-making, if at all, before talking about the estimates themselves.
 
-Bad managers complain that estimates and call them ‘too large’. 
+Bad managers complain about estimates and call them ‘too large’. 
 Good managers seek to understand the estimation process and what kind of estimate it produced.

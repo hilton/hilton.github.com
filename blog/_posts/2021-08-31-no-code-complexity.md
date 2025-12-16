@@ -16,10 +16,10 @@ In practice, no-code solutions decline to exhibit several kinds of simplicity, w
 ## Process complexity
 
 We mislead ourselves with simple business process examples, such as a vacation request process that illustrates key concepts with only a few process steps.
-Higher value business processes such as banking customer onboarding or insurance claims adjustment have far more steps.
+Higher value business processes such as bank customer onboarding or insurance claims adjustment have far more steps.
 
 In general, workflow examples’ box and arrow diagrams show the 5-10 steps that fit neatly on a page.
-While that might be appropriate for a high-level business process, successful automation takes care of details and edge cases, typically resulting in 50-100 steps.
+While that might work for a high-level business process, successful automation takes care of details and edge cases, typically resulting in 50-100 steps.
 
 Subject matter experts build complex solutions when they keep going until something works, and sometimes go way beyond what their tools intend to support.
 Although it doesn’t happen often, they sometimes add 1000 steps to a graphical workflow, because they can and perhaps because nobody told them they couldn’t.
@@ -38,7 +38,7 @@ These examples are easier to spot when the previous solution was a spreadsheet w
 Subject matter experts build complex solutions when they work in a complex domain whose processes and data outgrow simple examples.
 The people we call experts have become comfortable in their domain’s essential complexity, which only surprises people whose arrogance leads them to assume that other people have easy jobs because they appear simple.
 
-Subject matter experts also build complex solutions when they happily start building them without worrying about maintenance, which exactly mirrors what professional programmers do at first.
+Subject matter experts also build complex solutions when they happily start building them without worrying about maintenance, which exactly mirrors what junior programmers do at first.
 Keeping things working for a group of people over the course of several years corresponds to a different kind of challenge.
 
 ## Acceptable complexity

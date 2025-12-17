@@ -95,8 +95,9 @@ Substituting by role doesn’t mean improvising.
 ## Software documentation
 
 Software developers write terrible documentation, if at all.
-Understanding how it works doesn’t mean wanting to explain how they understand it, or acknowledge that other people don’t.
+Understanding how the software works doesn’t mean wanting to explain how they understand it,
+or acknowledging that other people don’t.
 
 Abstractions make complex topics teachable, and learnable.
-Experts have internalised the abstractions and can’t team them unless they slow down and make the critical abstractions explicit.
+Experts have internalised the abstractions and can’t teach them unless they slow down and make the critical abstractions explicit.
 Perhaps recipes make good technical documentation practice after all.

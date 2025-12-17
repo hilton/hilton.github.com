@@ -19,7 +19,7 @@ image: ingredient-groups.png
 5. [Small tasks](document-small-tasks)
 6. [Quantities](document-quantities)
 7. [Variants](document-variants)
-8. Trade-offs
+8. [Trade-offs](document-trade-offs)
 
 Software documentation has too much abstraction.
 Cookbooks don’t have enough.

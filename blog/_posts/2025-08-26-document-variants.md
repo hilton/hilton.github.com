@@ -18,7 +18,7 @@ image: scones.jpg
 5. [Small tasks](document-small-tasks)
 6. [Quantities](document-quantities)
 7. Variants ←
-8. Trade-offs
+8. [Trade-offs](document-trade-offs)
 
 I’ve heard it said that [pesto](https://en.wikipedia.org/wiki/Pesto) has as many variations as families in Genoa. 
 Cookbooks typically describe one specific version of each dish,

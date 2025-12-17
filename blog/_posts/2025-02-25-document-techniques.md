@@ -19,7 +19,7 @@ image: mussels.jpg
 5. [Small tasks](document-small-tasks)
 6. [Quantities](document-quantities)
 7. [Variants](document-variants)
-8. Trade-offs
+8. [Trade-offs](document-trade-offs)
 
 This instalment of _Cookbooks Don’t Teach You to Cook_
 considers another aspect of learning to cook that you rarely find in cookbooks and,

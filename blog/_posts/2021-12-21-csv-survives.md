@@ -4,6 +4,7 @@ description: The enduring nature of comma-separated values (CSV)
 layout: hh
 tags: data
 image: columns-old-car.jpg
+css: "blockquote strong {color:#FF634D}"
 ---
 
 ![](columns-old-car.jpg)

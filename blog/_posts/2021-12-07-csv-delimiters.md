@@ -20,10 +20,10 @@ image: columns.jpg
 6. [Excel’s broken CSV](csv-excel)
 
 Comma-separated values (CSV) files appear in many kinds of software.
-So do problems with CSV files.
+So do _problems_ with CSV files.
 Despite decades of popularity as the most popular tabular data format, anyone who uses CSV has to deal with numerous problems.
-Its delimiters cause the most obvious problem with CSV.
-În practice, _C_ doesn’t always stand for _comma_.
+Its delimiters cause the most obvious problem with CSV:
+in practice, the _C_ doesn’t always stand for _comma_.
 
 ## Separator anxiety
 

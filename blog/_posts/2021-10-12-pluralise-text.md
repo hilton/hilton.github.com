@@ -39,6 +39,7 @@ In some contexts, the easiest option involves using programmer-friendly content 
 After all, developers don’t mind seeing code in the prose.
 However, if you do this, you may have ‘reduced’ the problem to a harder one:
 _getting programmers to write prose_.
+
 More scalable solutions manage content, including handling pluralisation, in a way that technical writers can use.
 Proper content management also handles a more international kind of complexity.
 

@@ -67,7 +67,8 @@ On my smartphone, I first used a now-defunct plain text editor that synchronised
 These days, I use the Apple Notes app, whose elegance and simplicity I love.
 I also love that synchronising notes between my phone and laptop _just works_;
 I value this feature above all others.
-Meanwhile, folders, headings and bullet lists give me enough to organise more notes than I can count, and I also appreciate fast search and backups.
+
+Folders, headings and bullet lists give me enough to organise more notes than I can count, and I also appreciate fast search and backups.
 Anyway, who needs unnecessary features to distract you when you have to obsess over the perfect emoji to prefix each note title, to sort notes into categories?
 
 ## Nurture your ideas

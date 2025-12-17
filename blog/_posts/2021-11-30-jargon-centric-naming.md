@@ -25,13 +25,13 @@ Perhaps the number of combinations of three or four words means that you don’t
 
 If you build accounting software, for example, perhaps the size of your accounting glossary matters more than your English thesaurus.
 An alternative approach to naming things might focus on a controlled vocabulary of domain language, rather than the size of the general English vocabulary.
-After all, each subject matter domains brings its own list of jargon: domain-driven design’s
+After all, each subject matter domain brings its own list of jargon: domain-driven design’s
 [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html).
 
 Using domain jargon only helps if everyone knows what it means, which is why a
 [living glossary](living-glossary) helps people without subject matter expertise, such as software developers.
 Ideally, someone else writes your glossary for you, 
-which is what happens when you limit jargon to things that have Wikipedia pages.
+such as when you limit jargon to things that already have Wikipedia pages.
 You have to document the rest.
 
 ## Controlled languages
@@ -54,7 +54,7 @@ Unfortunately, I can’t predict how well this will work out for naming things.
 
 [Basic English’s restricted verb list](http://ogden.basic-english.org/verbs.html)
 probably makes it unsuitable for naming things, in practice.
-Basic English includes the following words, plus their conjugations:
+Basic English includes the following verbs, plus their conjugations:
 
 {:.big style="max-width:38em" title="Basic English verb list"}
 > come, get, give, go, keep, let, make, put, seem, take; be, do, have; say, see, send; may, will

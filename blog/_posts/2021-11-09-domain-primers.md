@@ -14,6 +14,7 @@ When you work on either general purpose software or custom software development,
 If you’ve never visited a warehouse or talked to someone who works in one, attempting to build 
 [inventory management software](https://en.wikipedia.org/wiki/Inventory_management_software)
 will most likely result in unusable or even useless software.
+
 To properly understand your customer’s subject-matter _domains_, you could do their job,
 but this takes a few years.
 You’ll save time if you read some kind of _domain primer_.
@@ -35,10 +36,11 @@ equations start melting your brain.
 ## Novels
 
 Ideally, you find a deeper book-length introduction to a particular business.
-However, non-fiction about someone else’s job is likely to help you catch up on sleep more than it helps you understand the field they work in.
+However, non-fiction about someone else’s job will probably help you catch up on sleep more than it helps you understand the field they work in.
 Novels work better, especially if they’re funny.
 
-_Refusal Shoes_, for example, offers entertaining but unflattering insights into how immigration (border control) works at a large airport.
+[Refusal Shoes](https://app.thestorygraph.com/books/1bba2dc4-4944-4fe4-9a20-1266cc6c69cc), for example,
+offers entertaining but unflattering insights into how immigration (border control) works at a large airport.
 Presumably not coincidentally, [Tony Saint](https://en.wikipedia.org/wiki/Tony_Saint)
 wrote _Refusal Shoes_ after ten years working for the UK Immigration Service.
 And [Time Will Tell](https://www.amazon.co.uk/Time-Will-Tell-Donald-Greig/dp/0857283448), 
@@ -46,12 +48,13 @@ by Donald Greig, follows an early music vocal ensemble on an adventure.
 
 
 Non-fiction examples from industry insiders that forego a novel’s plot structure but retain plenty of wit include Gideon Karting’s book,
-[Never Work With Your Idols: 35 Commandments for a Successful Career in the Music Industry](https://gideonkarting.nl/werk-nooit-met-je-idolen/) (in Dutch), and 
+[Never Work With Your Idols: 35 Commandments for a Successful Career in the Music Industry](https://gideonkarting.nl/product/book-never-work-with-your-idols-signed/), and 
 [This is Going to Hurt: Secret Diaries of a Junior Doctor](https://en.wikipedia.org/wiki/This_Is_Going_to_Hurt),
 by Adam Kay.
 
-Unfortunately, not every business has a canonical fictionalisation.
-I don’t know of an entertaining novel whose protagonist works in a warehouse.
+Unfortunately, not every business has a canonical fictionalisation,
+even as a classic business novel like [The Goal](the-goal-review) (manufacturing).
+I still don’t know of an entertaining novel whose protagonist works in a warehouse.
 
 ## Television
 

@@ -26,6 +26,7 @@ These standardised data formats allow for special handling, for input, validatio
 
 When software developers build business software, a lot of effort goes into handling data such as bank account numbers.
 To mitigate the cost of errors, software user interfaces can guide user input, check for certain kinds of input errors, and format values in helpful ways.
+
 While an IBAN consists of letters and digits, conceptually, we usually read them in groups of four characters separated by spaces, because that makes them easier to transcribe correctly.
 The IBAN standard also includes an 
 [algorithm for verifying the check digits](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Validating_the_IBAN).
@@ -35,6 +36,7 @@ The IBAN standard also includes an
 
 Writing code to handle input, validation and formatting for specific data types requires significant software development effort.
 It also involves complexity that leads to extra time for testing and fixing bugs.
+
 Professional developers turn to open-source libraries for these specifics, such as 
 [iban4j](https://github.com/arturmkrtchyan/iban4j) and
 [java-iban](https://github.com/barend/java-iban),

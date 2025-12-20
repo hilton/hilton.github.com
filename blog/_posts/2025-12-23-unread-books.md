@@ -14,7 +14,7 @@ Some new year’s resolutions inevitably get the neglect they deserve, as
 
 Everyone deserves an accumulation of books they haven’t read yet,
 if not a whole unread-books bookcase.
-Don’t book-shame people!
+Don’t book-shame yourself!
 
 ## The wish list problem
 

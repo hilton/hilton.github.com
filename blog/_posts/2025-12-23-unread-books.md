@@ -3,7 +3,12 @@ title: Accumulate unread books
 description: why your wish list doesn’t belong in a database
 layout: hh
 tags: books reading
+image: book-pile.jpg
 ---
+
+![](book-pile.jpg)
+
+[Shiromani Kant](https://unsplash.com/photos/mo3FOTG62ao){:.photocredit}
 
 Some new year’s resolutions inevitably get the neglect they deserve, as
 [Emily half-joked](https://bsky.app/profile/emilyelizabeth.bsky.social/post/3macyxa3hzs2x):

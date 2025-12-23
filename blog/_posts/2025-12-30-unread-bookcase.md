@@ -1,29 +1,33 @@
 ---
-title: Accumulate unread books
-description: why your wish list doesn’t belong in a database
+title: Get an unread-books bookcase
+description: the joy of accommodating ‘too many’ books
 layout: hh
 tags: books reading
 ---
 
+{:.series}
+1. [Unread books](unread-books)
+2. Unread bookcase ←
+
 People who really like reading books sometimes worry about 
 buying new books before they finish reading the ones they already have.
-Sensible readers reject this unnecessary self-inflicted guilt,
+Sensible readers reject unnecessary self-inflicted guilt,
 and instead give themselves permission to [accumulate unread books](unread-books).
 
 In practice, permission to _increase_ the number of unread books will escalate.
 You can rationalise book acquisition as _having options for what to read next_,
 but this means that book acquisition becomes its own hobby.
-You also need space for it.
+A hobby with storage requirements.
 
 ## The bedside table problem
 
 Unread books typically form a growing pile on your bedside table.
-Then you can stay up late to finish a book,
+When you have a bedside book queue, you can stay up late to finish a book,
 and then fall asleep with the comfort of knowing that your next book lies within arm’s reach.
-However, the book stack creates the bedside table problem: it hides new books from view.
+But now you have a bedside table problem: it hides new books from view.
 
 Unread books deserve a shelf where you can see them waiting patiently.
-When you see them every day, you can repeatedly enjoy the anticipation of starting to read them.
+Every day, you will enjoy the anticipation of starting to read them.
 This either motivates you to finish your current book, or encourages you read several in parallel
 (we don’t judge).
 

@@ -12,7 +12,7 @@ image: book-pile.jpg
 
 {:.series}
 1. Unread books ←
-2. Unread bookcase
+2. [Unread bookcase](unread-bookcase)
 
 Some new year’s resolutions inevitably get the neglect they deserve, as
 [Emily half-joked](https://bsky.app/profile/emilyelizabeth.bsky.social/post/3macyxa3hzs2x):

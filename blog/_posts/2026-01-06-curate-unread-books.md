@@ -3,10 +3,15 @@ title: Curate an unread books collection
 description: establishing varied options for what to read next
 layout: hh
 tags: books reading
+image: guildcare-greenhouse.jpg
 ---
 
-If you read a lot, you should [accumulate unread books](unread-books),
-so you always have something to read next.
+![Secondhand books at the Guildcare charity superstore ‘The Greenhouse’, East Worthing, UK](guildcare-greenhouse.jpg)
+
+<span>Peter Hilton</span>{:.photocredit}
+
+If you read a lot,
+[accumulate unread books](unread-books) so you always have something to read next.
 When you do it properly, you’ll have to [get an unread-books bookcase](unread-bookcase)
 to accommodate them all.
 
@@ -14,50 +19,47 @@ to accommodate them all.
 
 A whole bookcase of unread books gives you plenty of options for what to read next,
 but only when you solve the bookcase curation problem.
-Without some kind of plan, you end up with a random selection of books you don’t really want to read.
+Without a plan, you end up with a random selection of books you don’t want to read.
 
-The well-curated unread-books bookcase has the same variety as the books you like to read.
-This of course requires self-reflection and honesty about the difference between the books you actually read,
+A well-curated unread-books bookcase has the same variety as the books you read.
+This requires self-reflection, and honesty about the difference between the books you actually read,
 and books you want to _have read_.
 
 ## Genres
 
-I have four genres in my various bookcases, both _read_ and _unread_:
+My bookcases cover four genres:
 
 1. my favourite genre
 2. guilty pleasures, for easy reading
-3. ‘normal’ fiction, for balance, variety, and new discoveries
-4. non-fiction, to read in parallel with fiction.
+3. ‘normal’ fiction, to balance the above, and for new discoveries
+4. non-fiction.
 
-If you read more than one genre, or both non-fiction and fiction,
-you’ll need at least one option for each.
-Alternating between genres and authors lets you introduce easy reading after a tough read,
+If you read more than one genre, you’ll need at least one unread option for each one.
+Alternating genres and authors gives you easy reading options after a tough read,
 while stopping the easy reading’s formulaic writing getting stale.
 
 ## Lengths
 
-My unread books include epic trilogies, that really keep you going,
-and postpone book completion disappointment.
-But sometimes, I only want a short detour into a different genre between longer books.
+My unread books include epic trilogies that postpone book completion disappointment.
+But sometimes, I only want a short genre detour between longer books.
 
-In each genre, curate a mix of short novels, longer novels, and whole series.
-Then you can read different genres in turn, for the variety, but also choose your pace.
+In each genre, curate a mix of short and long novels, and series.
+Choose short novels to avoid getting stuck on one book for too long,
+when you don’t have enough time to read.
 
 ## Dimensions
 
-While I generally avoid reading more than one novel at a time,
 I don’t want to take the last fifty pages of a book on holiday.
-Similarly, when I go on a day trip, I take a slim small-format (178 mm) paperback,
+And when I go on a day trip, I take a slim small-format (178 mm) paperback,
 instead of carrying a heavy brick of a book, or an oversized trade paperback.
 
-Books tend to all come in the same shape, but they do come in different sizes.
-Curate your unread bookcase to include sizes and genres suitable for reading on the go,
-so you can always have a book with you when you find yourself stuck somewhere.
+Books tend to come one shape, but different sizes.
+Curate your unread bookcase to include travel-size books,
+so you can always have a book to read when you get stuck somewhere.
 
 ## Recommendations
 
-I have a few prolific favourite authors,
-and can easily fill my unread bookcase with safe options that I know I will like.
+My more prolific favourite authors can easily fill my unread bookcase with safe options that I know I will like.
 I also need variety, and the occasional new author, though.
 Recommendations help with both.
 
@@ -65,20 +67,24 @@ Ask everyone whose taste you respect to recommend the best book they’ve ever r
 Make a list, and don’t forget to write down who recommended each book,
 so you can have a fun conversation about it later.
 Besides, when you hesitate to take a chance on a new author or genre,
-it helps to have someone to talk to about it, or even blame.
+it helps to have someone to talk to about it.
+Or blame.
 
 ## Random bargains
 
-When I visit the UK, I like browsing the secondhand books in high street charity shops,
-which typically cost £1–3, and occasionally less.
-I buy anything I see by any of the dozens of authors I usually read,
-or who someone has recommended.
-[World of Books](https://www.worldofbooks.com/en-gb) offers an online alternative.
-Secondhand bargains inject welcome randomness into my bookcase curation.
+When I visit the UK, I like browsing charity shops,
+such as [The Greenhouse](https://www.guildcare.org/greenhouse) (photo).
+Charity shop’s secondhand books typically cost £1–3, occasionally less.
+If I get lucky, I find something from my wish list, a recommendation.
+And sometimes, I impulse-buy something that adds welcome randomness to my unread bookcase.
 
-If you can afford to buy and accommodate a year’s worth of unread books,
-you can reduce the average purchase price by buying bargains.
-And when your unread bookcase fills up,
-more strictly applying a maximum secondhand price limits the accumulation rate.
-It also means you have less reason not to pay full price for a new book,
-when planning and curation fails, and you haven’t already got the book you want to read next.
+[World of Books](https://www.worldofbooks.com/en-gb) offers an online source for used books,
+with an explicit [sustainability mission](https://www.worldofbooks.com/en-gb/pages/about-us).
+After all, re-use beats recycling, for sustainability.
+
+Bargains reduce the average purchase price,
+and setting a maximum price also limits your book accumulation rate.
+Therefore, a year’s worth of unread books gives you a buffer 
+that lets you buy the books you want more slowly and cheaply, as you find them.
+Meanwhile, you can still pay full price for a new book,
+when you discover an urgent gap in your unread bookcase.

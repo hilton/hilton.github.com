@@ -10,6 +10,11 @@ image: guildcare-greenhouse.jpg
 
 <span>Peter Hilton</span>{:.photocredit}
 
+{:.series}
+1. [Unread books](unread-books)
+2. [Unread bookcase](unread-bookcase)
+3. Curating unread books ←
+
 If you read a lot,
 [accumulate unread books](unread-books) so you always have something to read next.
 When you do it properly, you’ll have to [get an unread-books bookcase](unread-bookcase)

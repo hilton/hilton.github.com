@@ -13,6 +13,7 @@ image: books-non-fiction.jpg
 {:.series}
 1. [Unread books](unread-books)
 2. Unread bookcase ←
+3. [Curating unread books](curate-unread-books)
 
 People who really like reading books sometimes worry about 
 buying new books before they finish reading the ones they already have.

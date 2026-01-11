@@ -14,6 +14,7 @@ image: guildcare-greenhouse.jpg
 1. [Unread books](unread-books)
 2. [Unread bookcase](unread-bookcase)
 3. Curating unread books ←
+4. Track unread books
 
 If you read a lot,
 [accumulate unread books](unread-books) so you always have something to read next.

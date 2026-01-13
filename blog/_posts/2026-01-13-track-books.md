@@ -1,6 +1,6 @@
 ---
 title: Track unread books
-description: another domestic inventory management problem
+description: solving another domestic inventory management problem
 layout: hh
 tags: books reading
 image: inventory/books.jpg

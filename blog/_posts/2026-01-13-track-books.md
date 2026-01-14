@@ -11,6 +11,7 @@ image: inventory/books.jpg
 2. [Unread bookcase](unread-bookcase)
 3. [Curating unread books](curate-unread-books)
 4. Track unread books ←
+5. The StoryGraph
 
 When you [curate an unread books collection](curate-unread-books),
 you improve your reading habit’s physical supply chain.

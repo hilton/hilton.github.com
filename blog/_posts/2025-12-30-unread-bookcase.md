@@ -14,7 +14,8 @@ image: books-non-fiction.jpg
 1. [Unread books](unread-books)
 2. Unread bookcase ←
 3. [Curating unread books](curate-unread-books)
-4. Track unread books
+4. [Track unread books](track-books)
+5. The StoryGraph
 
 People who really like reading books sometimes worry about 
 buying new books before they finish reading the ones they already have.

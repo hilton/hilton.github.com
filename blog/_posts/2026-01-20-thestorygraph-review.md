@@ -3,6 +3,8 @@ title: "Consumer SaaS review: The StoryGraph"
 description: the independent book tracker
 layout: hh
 tags: books reading review
+image: thestorygraph/mobile.jpg
+css: "body.writing article img.mobile {width:210px; margin-right:5px;} body.writing article img.mobile:last-child {margin-right:0}"
 ---
 
 {:.series}
@@ -39,9 +41,7 @@ before buying it.
 I search my owned books for a specific book by author/title,
 and then use the mobile app to scan (i.e. photograph) the barcode or cover.
 
-![Searching in books I own on the mobile app](thestorygraph/owned.webp) {:.mobile}
-![Adding a book I now own, by using the mobile app to capture a cover](thestorygraph/cover.webp) {:.mobile}
-![Adding a book I now own, by using the mobile app to capture a barcode](thestorygraph/barcode.webp) {:.mobile}
+![Searching in books I own on the mobile app](thestorygraph/owned-books-mobile.webp){:.mobile}![Adding a book I now own, by using the mobile app to capture a cover](thestorygraph/capture-cover-mobile.webp){:.mobile}![Adding a book I now own, by using the mobile app to capture a barcode](thestorygraph/capture-barcode-mobile.webp){:.mobile}
 
 This feature previously became the killer app for using Goodreads, for me,
 and I like using it in The StoryGraph.
@@ -50,26 +50,27 @@ Scanning the barcode often misreads the ISBN.
 
 ## Book details
 
-On the (desktop app)
+On the
 [book details page](https://app.thestorygraph.com/books/92b37194-21e3-494e-8f4d-11843d8331a0)
-I can set the status to _read_, _currently reading_, or _did not finish_.
+I later update the status to _read_, _currently reading_, or _did not finish_:
 
 {:.screenshot}
 ![The many details of a single book](thestorygraph/book.webp)
 
 This populates the searchable _Owned books_ list,
-which you can choose to restrict (as I do) or make public:
+which you can choose to restrict access to, or make public:
 
 {:.screenshot}
 ![Searching the books I own by author name](thestorygraph/owned-books.webp)
 
 I like the straightforward user interface, including the clean UUID-based URLs.
-In particular, I love how this avoids the online retailers’ cluttered page layouts,
+In particular, I love how the design avoids the online retailers’ cluttered page layouts,
 and colours that detract from the book covers.
+The design could have more internal consistency, though, such as fewer different font styles.
 
 ## Editions & series
 
-At home I have a separate science fiction bookcase that contains many small-format paperbacks,
+At home, I have a separate science fiction bookcase that contains many small-format paperbacks,
 with 1970s and 1980s cover art.
 My favourite StoryGraph feature, that online retailers don’t have,
 lets you choose a specific edition of a book, usually with the correct cover art.
@@ -81,18 +82,18 @@ For example, my 1975 edition of Ursula K. Le Guin’s book,
 
 A more practical feature that I love links a book the series it belongs to.
 _The Dispossessed_, for example, appears fifth in Le Guin’s
-[Hainish Cycle](https://app.thestorygraph.com/series/521).
+[Hainish Cycle](https://app.thestorygraph.com/series/521), which _Hainish Cycle #5_ links to.
 
 {:.screenshot}
 ![Books that appear in a series, in order, with owned/read books marked](thestorygraph/series.webp)
 
-Not only can I browse the series to see which ones I haven’t read yet,
-but I can also see some of the other classic cover art that I can aspire to own.
+Not only do I find it useful to browse the series to see which ones I haven’t read yet,
+but I love seeing the other classic cover art.
 
 ## Mission & support
 
-The StoryGraph had me at the mission: ‘an Amazon-free alternative to Goodreads’.
-This product shows what a small focused team can achieve,
+The StoryGraph already had me at the mission: ‘an Amazon-free alternative to Goodreads’.
+Beyond that, it shows what a small focused team can achieve,
 and that simpler software alternatives can exist.
-Ironically, I don’t have any use for the additional features in the paid subscription,
+I don’t actually need the additional features in the paid subscription,
 but will sign up after my free trial anyway, because I’d like to see more software like this in the world.

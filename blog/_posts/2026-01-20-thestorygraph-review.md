@@ -11,7 +11,7 @@ css: "body.writing article img.mobile {width:210px; margin-right:5px;} body.writ
 1. [Unread books](unread-books)
 2. [Unread bookcase](unread-bookcase)
 3. [Curating unread books](curate-unread-books)
-4. Track unread books
+4. [Track unread books](track-books)
 5. The StoryGraph ←
 
 [The StoryGraph](https://thestorygraph.com)

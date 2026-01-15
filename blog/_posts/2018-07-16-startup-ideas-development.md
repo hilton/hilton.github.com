@@ -22,6 +22,9 @@ image: programmer.jpg
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
 11. [2024 H1 ideas](startup-ideas-2024-h1)
+12. [2024 H2 ideas](startup-ideas-2024-h2)
+13. [2025 H1 ideas](startup-ideas-2025-h1)
+14. 2025 H2 ideas
 
 Following on my earlier explanation of why [start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more [start-up ideas for app developers](startup-ideas-apps).
 If you’re more interested in software for programmers, rather than software for normal people, here are some ideas for improving the developer experience (DX).

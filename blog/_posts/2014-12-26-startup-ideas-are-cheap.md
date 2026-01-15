@@ -13,7 +13,7 @@ image: light-bulbs.jpg
 
 {:.series}
 1. 2014 ideas ←
-2. [2015-2017 ideas](startup-ideas-misc)
+2. [2015-2017 ideas](startup-ideas-misc) <!-- 2018-07-27 -->
 3. [2018 app ideas](startup-ideas-apps)
 4. [2018 development ideas](startup-ideas-development)
 5. [2018-2019 ideas](startup-ideas-2018-2019)
@@ -23,6 +23,9 @@ image: light-bulbs.jpg
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
 11. [2024 H1 ideas](startup-ideas-2024-h1)
+12. [2024 H2 ideas](startup-ideas-2024-h2)
+13. [2025 H1 ideas](startup-ideas-2025-h1)
+14. 2025 H2 ideas
 
 Entrepreneurs occasionally succumb to the illusion that their startup idea is worth something. An idea for a business or a product, however inspired, won’t get you anywhere without a team that can pull off the hard work of executing the idea. You’ll probably need some money too.
 

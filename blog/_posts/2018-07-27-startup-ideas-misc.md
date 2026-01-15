@@ -14,7 +14,7 @@ image: light-bulbs.jpg
 {:.series}
 1. [2014 ideas](startup-ideas-are-cheap)
 2. 2015-2017 ideas ←
-3. [2018 app ideas](startup-ideas-apps)
+3. [2018 app ideas](startup-ideas-apps) <!-- 2018-06-29 -->
 4. [2018 development ideas](startup-ideas-development)
 5. [2018-2019 ideas](startup-ideas-2018-2019)
 6. [2020 ideas](startup-ideas-2020)
@@ -23,6 +23,9 @@ image: light-bulbs.jpg
 9. [2023 business software ideas](startup-ideas-2023-business)
 10. [2023 ideas (lifestyle)](startup-ideas-2023-lifestyle)
 11. [2024 H1 ideas](startup-ideas-2024-h1)
+12. [2024 H2 ideas](startup-ideas-2024-h2)
+13. [2025 H1 ideas](startup-ideas-2025-h1)
+14. 2025 H2 ideas
 
 Following on my earlier explanation of why 
 [start-up company ideas are cheap](startup-ideas-are-cheap), I recently published some more 

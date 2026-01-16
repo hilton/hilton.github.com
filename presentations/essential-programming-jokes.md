@@ -21,6 +21,10 @@ and when having to explain a programming joke is a feature, not a bug.
 Actionable takeaways focus on best practices for joke deployment and,
 of course, you’ll learn a new joke or two.
 
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t4AXiPLWA-E?si=cy8B9Vgiz1gnt4Vf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="753ee7c6dcdf407598316f9288baa1ae" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>

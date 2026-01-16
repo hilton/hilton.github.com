@@ -8,11 +8,12 @@ layout: main
 <div class="column-2">
 
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left; margin-right:1em"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
-Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
-Peter’s professional interests are B2B SaaS products, no-code automation, software development methods, and software documentation.
+Peter Hilton is a product manager, writer, speaker, trainer, and musician.
+Peter’s professional interests include B2B SaaS products, software development methods, and software documentation.
 He has spent the last five years working as a product manager, and also delivers the occasional lecture and training course.</p>
 
-<p>Peter has presented at several European developer conferences, including DDD Europe, NDC Oslo, Booster, ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone and GeeCON.
+<p>Peter has presented at many European developer conferences, including DDD Europe, NDC Oslo, Devoxx UK, Booster, Joy of Coding, J-Fall, ACCU, Scala eXchange, Devoxx (Belgium), Øredev, Jfokus, Javazone and GeeCON.
+Peter has also presented at agile software development conerences, such as Agile Cambridge, Agile on the Beach, and XP Days Benelux.
 Peter co-authored <a href="http://bit.ly/playscala2p">Play for Scala</a> (Manning Publications, 2013)
 and certified to train <a href="http://www.lightbend.com/services/training">Fast Track to Play with Scala</a> around the same time.</p>
 

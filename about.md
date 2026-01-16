@@ -7,8 +7,6 @@ layout: main
 <div class="row">
 <div class="column-2">
 
-<p style="padding:0.5em 1em;background:#FBF1D2">📌 As of {{ site.time | date: '%B %Y' }}, Peter is available for a new senior product management role (Europe remote, or Rotterdam), and speaking engagements.</p>
-
 <p><a title="hi-res version" href="picture/face/hilton-peter.jpg" style="float:left; margin-right:1em"><img class="thumbnail" src="picture/face/hilton-peter-128.jpg" srcset="picture/face/hilton-peter-256.jpg 2x"></a>
 Peter Hilton is a product manager, software developer, writer, speaker, trainer, and musician.
 Peter’s professional interests are B2B SaaS products, no-code automation, software development methods, and software documentation.
@@ -53,7 +51,7 @@ Since 2020, Peter has published weekly on his <a href="/blog/">blog</a>.</p>
 <h2 style="margin-top: 0">History</h2>
 
 <ul>
-<li>Product manager at <a href="https://pafyll.com/en-NO">På(fyll)</a> (since 2024)</li>
+<li>Product manager at <a href="https://pafyll.com/en-NO">På(fyll)</a> (2024-2025)</li>
 <li>Consulting for <a href="">Varias</a> as a product operations specialist (2023).</li>
 <li>Three-month sabbatical in Rotterdam (2023).</li>
 <li>Working for <a href="https://bryter.com/">BRYTER</a> as a product manager (2020-2023).</li>

@@ -3,8 +3,12 @@ title: How to work with me
 description: a remote work user guide
 layout: hh
 tags: collaboration
-published: false
+image: signpost-footpath.jpg
 ---
+
+![](signpost-footpath.jpg)
+
+[Marco Kaufmann](https://unsplash.com/photos/0kbNh7XrJ7Q){:.photocredit}
 
 Remote work risks _the meeting trap_ – trying to do too much of the work synchronously, in meetings.
 Successful remote teams avoid this by working asynchronously, and _writing things down_.

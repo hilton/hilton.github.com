@@ -10,6 +10,10 @@ image: mailboxes.jpg
 
 [Philippe Murray-Pietsch](https://unsplash.com/photos/xiqCrk6LvTg){:.photocredit}
 
+{:.series}
+1. Starting discovery
+2. Feedback database ←
+
 Product managers value feedback about their product,
 because its broad and unfiltered customer perspectives help them identify product problems and opportunities.
 Curating a product feedback database makes this work more systematic.

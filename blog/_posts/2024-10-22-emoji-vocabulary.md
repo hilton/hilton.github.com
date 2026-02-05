@@ -12,7 +12,7 @@ image: nesting-dolls.jpg
 
 {:.series}
 1. Emoji vocabulary ←
-2. Reaction emoji
+2. [Reaction emoji](reaction-emoji)
 
 When you use contemporary collaboration tools like Slack and Notion, you have a choice.
 You can either complain about the [emoji](https://en.wikipedia.org/wiki/Emoji)

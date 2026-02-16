@@ -16,7 +16,7 @@ image: pesticide.jpg
 3. [Fix It Now or Delete It](fix-it-now-or-delete-it)
 4. [Zero-bug policy adoption](zero-bug-adoption)
 5. [Zero-bug policy success](zero-bug-success)
-6. Zero-bug policy questions
+6. [Zero-bug policy questions](zero-bug-questions)
 
 When you discuss introducing a [zero-bug policy](zero-bug-policy),
 [don’t dwell on the edge cases](process-exceptions).

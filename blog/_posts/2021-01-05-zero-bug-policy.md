@@ -16,7 +16,7 @@ image: lizard.jpg
 3. [Fix It Now or Delete It](fix-it-now-or-delete-it)
 4. [Zero-bug policy adoption](zero-bug-adoption)
 5. [Zero-bug policy success](zero-bug-success)
-6. Zero-bug policy questions
+6. [Zero-bug policy questions](zero-bug-questions)
 
 Product development teams typically don’t use their own software enough to understand their customers’ experience,
 and underestimate how much their customers hate bugs.

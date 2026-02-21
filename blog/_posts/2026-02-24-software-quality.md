@@ -38,7 +38,7 @@ Casual software, like casual writing, works for its small audience, but not for 
 We call the alternative to casual software not _formal software_, but _software products_,
 which somebody pays for.
 For casual software, you don’t necessarily care about how much time and tokens it cost,
-let alone [whether it was worth the time](https://xkcd.com/1205/).
+let alone [whether you saved more time than you spent](https://xkcd.com/1205/).
 
 Paid software, by contrast, tends to cost enough to require a business case,
 which shifts the focus to the value a paying customer gets, compared to the alternative.
@@ -57,7 +57,7 @@ In many cases, software teams choose low quality, deliberately or otherwise, in 
 Each of these problems corresponds to work in a particular software development discipline
 that goes beyond merely producing the initial code:
 
-1. **quality assurance** – includes finding, describing and [fixing those bugs]()
+1. **quality assurance** – includes finding, describing and [fixing those bugs](zero-bug-policy)
 2. **UX design** – includes improving features until everyone who needs them can use them
 3. **software architecture** – includes reducing complexity in the software model
 4. **product management** – includes managing demand risk, and building what people need.

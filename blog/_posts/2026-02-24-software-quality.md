@@ -34,7 +34,7 @@ Apart from the difficulty of following a chat’s unstructured stream of conscio
 casual writing for your friends and family uses all of the idioms and other linguistic shortcuts that you know they understand.
 The general public wouldn’t stand a chance.
 
-## Causal software
+## Casual software
 
 Programmers _hack together_ (rather than _write_) one-off scripts that do a specific job,
 but won’t make sense elsewhere, or later, or to someone else.

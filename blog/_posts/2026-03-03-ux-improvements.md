@@ -2,7 +2,7 @@
 title: Continuously improve user experience
 description: meaningfully finishing software features
 layout: hh
-tags: product design
+tags: product UX
 ---
 
 [Choosing software quality](software-quality) means _finishing_ the features you add,

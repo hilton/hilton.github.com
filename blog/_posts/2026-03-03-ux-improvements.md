@@ -5,6 +5,10 @@ layout: hh
 tags: product UX
 ---
 
+{:.series}
+1. [Software quality](software-quality)
+2. UX improvements ←
+
 [Choosing software quality](software-quality) means _finishing_ the features you add,
 instead of stopping working on them as soon as they work.
 Unfinished features _work_, to some degree, but not for everyone.

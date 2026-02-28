@@ -10,6 +10,10 @@ image: texting.jpg
 
 [The Vinh](https://unsplash.com/photos/Lai59ZwLNBw){:.photocredit}
 
+{:.series}
+1. Software quality ←
+2. UX improvements
+
 Software, like all creative media, has become easier to produce over the years.
 As a result, its consumers experience a broader range of quality that they did in earlier generations,
 when the only kind of software you used came shrink-wrapped in a box:

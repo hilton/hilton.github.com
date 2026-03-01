@@ -3,7 +3,12 @@ title: Continuously improve user experience
 description: meaningfully finishing software features
 layout: hh
 tags: product UX
+image: mowing.jpg
 ---
+
+![](mowing.jpg)
+
+[Remi Muller](https://unsplash.com/photos/LlHgaeBwYVE){:.photocredit}
 
 {:.series}
 1. [Software quality](software-quality)

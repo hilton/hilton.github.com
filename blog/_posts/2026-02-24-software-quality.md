@@ -12,7 +12,7 @@ image: texting.jpg
 
 {:.series}
 1. Software quality ←
-2. UX improvements
+2. [UX improvements](ux-improvements)
 
 Software, like all creative media, has become easier to produce over the years.
 As a result, its consumers experience a broader range of quality that they did in earlier generations,

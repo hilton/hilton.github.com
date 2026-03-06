@@ -66,7 +66,7 @@ Software teams choose low quality, deliberately or otherwise, in several ways. F
 Each of these problems corresponds to software development work that goes beyond merely producing the initial code:
 
 1. **quality assurance** – includes finding, describing and [fixing those bugs](zero-bug-policy)
-2. **UX design** – includes improving features until everyone who needs them can use them
+2. **UX design** – includes [improving features](ux-improvements) until everyone who needs them can use them
 3. **software architecture** – includes reducing complexity in the software model
 4. **product management** – includes managing demand risk, and building what people need.
 

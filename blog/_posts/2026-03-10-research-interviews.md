@@ -3,7 +3,12 @@ title: Start customer research interviews
 description: the first step towards continuous product discovery
 layout: hh
 tags: product
+image: meeting-with-notes.jpg
 ---
+
+![](meeting-with-notes.jpg)
+
+[Amy Hirschi](https://unsplash.com/photos/JaoVGh5aJ3E){:.photocredit}
 
 As a product manager, you can [collect product feedback from many sources](discovery).
 However, the gold standard for product discovery remains _talking to customers_.

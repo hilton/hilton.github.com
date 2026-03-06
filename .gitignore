@@ -7,3 +7,4 @@ vendor
 .bundle
 test.html
 _includes/mapbox-public-token.txt
+.idea

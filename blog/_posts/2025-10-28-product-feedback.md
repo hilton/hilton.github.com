@@ -11,7 +11,7 @@ image: mailboxes.jpg
 [Philippe Murray-Pietsch](https://unsplash.com/photos/xiqCrk6LvTg){:.photocredit}
 
 {:.series}
-1. Starting discovery
+1. [Starting discovery](discovery)
 2. Feedback database ←
 
 Product managers value feedback about their product,

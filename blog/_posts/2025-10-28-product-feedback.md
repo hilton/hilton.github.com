@@ -12,7 +12,7 @@ image: mailboxes.jpg
 
 {:.series}
 1. [Starting discovery](discovery)
-2. [Research interviews](research-interviews)
+2. Research interviews
 3. Interview analysis
 4. Feedback database ←
 

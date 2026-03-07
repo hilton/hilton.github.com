@@ -12,7 +12,9 @@ image: mailboxes.jpg
 
 {:.series}
 1. [Starting discovery](discovery)
-2. Feedback database ←
+2. [Research interviews](research-interviews)
+3. Interview analysis
+4. Feedback database ←
 
 Product managers value feedback about their product,
 because its broad and unfiltered customer perspectives help them identify product problems and opportunities.

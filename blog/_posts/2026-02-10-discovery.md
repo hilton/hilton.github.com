@@ -15,7 +15,9 @@ image: notepad-writing.jpg
 
 {:.series}
 1. Starting discovery ←
-2. [Feedback database](product-feedback)
+2. [Research interviews](research-interviews)
+3. Interview analysis
+4. [Feedback database](product-feedback)
 
 When you start a new product management role,
 you don’t have any first-hand evidence for customer needs yet.

@@ -10,6 +10,12 @@ image: meeting-with-notes.jpg
 
 [Amy Hirschi](https://unsplash.com/photos/JaoVGh5aJ3E){:.photocredit}
 
+{:.series}
+1. [Starting discovery](discovery)
+2. Research interviews ←
+3. Interview analysis
+4. [Feedback database](product-feedback)
+
 As a product manager, you can [collect product feedback from many sources](discovery).
 However, the gold standard for product discovery remains _talking to customers_.
 This sounds straightforward, but can prove difficult to achieve in practice,

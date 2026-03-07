@@ -17,18 +17,19 @@ image: laptop-dog.jpg
 4. [Feedback database](product-feedback)
 
 The main benefit of [starting customer research interviews](research-interviews)
-takes care of itself.
-Unless you fail to actually _listen_, you will inevitably learn what customers care about.
-Even if you do nothing else, this will add a dose of reality to team conversations and product decisions.
+takes care of itself:
+unless you fail to actually _listen_, you will inevitably learn what customers care about.
+Even if you do nothing else, this will add a dose of reality to your team conversations and product decisions.
 However, you can also do this more deliberately.
 
 ## Review your notes
 
 You have several options for capturing the content of research interviews,
 each with pros and cons.
-Use a combination of video recording, automatic transcription, and your own ideas;
+Use a combination of video recording, automatic transcription, and your own notes;
 ideally all three.
-Book calendar time immediately after the interview, to make it easier and faster.
+Book calendar time immediately after the interview,
+to make review and analysis easier and faster.
 
 As a product manager, you most need the customer‘s raw statements:
 don’t accept any kind of summary, however good.
@@ -77,7 +78,7 @@ Ideally, you can share information that will _surprise_ the product team.
 If you can do this weekly, as part of continuous discovery,
 you will have much better conversation with the team about customer needs and their solutions.
 
-## Add to your product feedback database
+## Curate a product feedback database
 
 Over the course of many interviews, you can [build a product feedback database](product-feedback)
 that collates product opportunities.

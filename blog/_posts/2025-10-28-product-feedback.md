@@ -27,7 +27,7 @@ Naive teams add these requests to their development backlog,
 creating the [infinite backlog problem](infinite-backlog).
 
 Teams that ignore feature requests choose to miss out on their value,
-and create unnecessarily conflict with the stakeholders who share them.
+and create unnecessary conflict with the stakeholders who share them.
 [To stop talking about requirements](requirements),
 teams must also stop talking about _feature requests_.
 
@@ -35,7 +35,7 @@ teams must also stop talking about _feature requests_.
 
 When you reframe feature requests as product _feedback_,
 adding to a development backlog stops sounding like a good idea.
-It also better describes its actual value:
+It also better describes feedback’s actual value:
 a signal about how people experience the product,
 rather than something you have to build.
 

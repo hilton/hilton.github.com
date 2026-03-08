@@ -71,4 +71,4 @@ Split epics, roadmap features, quarterly objectives, long-term initiatives,
 and everything else all the way up to your
 [minimal product definition](minimal-product-definition).
 As well as continuously reducing scope,
-reduce scope at multiple levels. 
+[reduce scope at multiple levels](scope-scales).

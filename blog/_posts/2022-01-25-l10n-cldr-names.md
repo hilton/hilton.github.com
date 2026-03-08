@@ -81,7 +81,7 @@ However, you should exclude the X currencies such as `XAU` (gold), deprecated cu
 Similarly, you also need to filter the CLDR _territories_ to get a countries list.
 You can exclude large regions with three-digit codes such as `151` (Eastern Europe),
 and regions with two-letter codes: `EU` (European Union), `EZ` (Eurozone), `QO` (Outlying Oceania), and `UN` (United Nations).
-After that, [it gets complicated](https://en.wikipedia.org/wiki/List_of_states_with_limited_recognition).
+After that, [it gets complicated](country-lists).
 
 In general, depending on which list you want, you may need to filter its contents.
 CLDR helps with this by including _validity data_ that divides these lists’ entries into categories:

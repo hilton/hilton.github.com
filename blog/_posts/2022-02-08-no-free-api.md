@@ -67,6 +67,7 @@ I don’t want to know how you work around this.
 
 No-one designed the API holistically, the way designers approach a user interface.
 Instead, developers will have reinvented HTTP features because explaining how the API works to a colleague takes less time than both reading HTTP documentation and adopting a standard approaches.
+
 Customers will struggle, though, so the documentation maintainer will suggest API improvements.
 Unfortunately, without an [API versioning strategy](http-api-versioning) the developers can’t make API changes,
 so the documentation will have to compensate:

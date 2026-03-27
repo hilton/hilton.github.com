@@ -1,6 +1,7 @@
 ---
 title: How to work with me
 description: a remote work user guide
+excerpt:     a remote work user guide
 layout: hh
 tags: collaboration
 image: signpost-footpath.jpg

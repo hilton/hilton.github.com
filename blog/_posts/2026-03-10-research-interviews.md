@@ -1,6 +1,7 @@
 ---
 title: Start customer research interviews
 description: the first step towards continuous product discovery
+excerpt:     the first step towards continuous product discovery
 layout: hh
 tags: product
 image: meeting-with-notes.jpg

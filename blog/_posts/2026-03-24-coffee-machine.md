@@ -1,6 +1,7 @@
 ---
 title: Coffee machine collaboration
 description: hardware upgrades and unexpected consequences
+excerpt:     hardware upgrades and unexpected consequences
 layout: hh
 tags: office collaboration
 image: coffee.jpg

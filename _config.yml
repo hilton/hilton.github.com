@@ -9,3 +9,5 @@ author: Peter Hilton
 description: Product management, software development, and other curiosities
 include:
 - .well-known
+feed:
+  excerpt_only: true

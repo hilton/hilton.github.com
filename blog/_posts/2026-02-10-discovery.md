@@ -1,6 +1,7 @@
 ---
 title: Starting product discovery
 description: how to bootstrap understanding customer needs
+excerpt:     how to bootstrap understanding customer needs
 layout: hh
 tags: product management
 image: notepad-writing.jpg

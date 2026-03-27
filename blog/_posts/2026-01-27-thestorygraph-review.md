@@ -1,6 +1,7 @@
 ---
 title: "Consumer SaaS review: The StoryGraph"
 description: the independent book tracker
+excerpt:     the independent book tracker
 layout: hh
 tags: books reading review
 image: thestorygraph/mobile.jpg

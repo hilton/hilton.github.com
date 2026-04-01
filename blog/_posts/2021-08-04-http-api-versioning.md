@@ -39,7 +39,7 @@ Troy Hunt expands on URL path versioning’s problems, writing that
 
 Each of these involves a combination of compromises:
 
-1. Breaking HTTP semantics - by using URLs to refer not to specific versions of resources
+1. Breaking HTTP semantics - by using URLs to refer to specific versions of resources
 2. [Changing URLs](https://www.w3.org/Provider/Style/URI.html) when you change the API
 3. Making the API harder to test - by forcing clients to set HTTP headers
 4. Breaking existing API clients - when a new version includes incompatible changes

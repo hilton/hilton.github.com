@@ -51,9 +51,10 @@ And they don’t need vibe product management any more than they need vibe codin
 
 As a product manager in a new role, you might find yourself slotting into an existing product management process, with established product operations.
 But you might also find yourself spending your first year on product management _transformation_, to establish product operations.
-This transformation requires product management focus, and resisting both coding’s lure and the trap of convenience-over-quality.
 
+This transformation requires product management focus, and resisting both coding’s lure and the trap of convenience-over-quality.
 AI tools offer developers and product managers different opportunities.
 While developers seek productivity increases, product managers working on transformation still face an alignment problem.
+
 Optimising product managers’ productivity comes later.
 _Artificial product management_ – using AI tools – might address productivity opportunities in the future, but some product teams currently have bigger opportunities.

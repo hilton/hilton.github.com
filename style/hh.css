@@ -11,6 +11,7 @@ nav li a { padding: 0 1em; }
 
 article, section p, article > header { width: 60em;}
 article > * { width: 40em; }
+article > h1, article > h2 { width: 100%; }
 article > .banner { width: 960px; }
 
 h1, h2, h3 { margin: 0.6em 0 0.3em;}

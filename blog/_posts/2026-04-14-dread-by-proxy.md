@@ -3,7 +3,7 @@ title: Dread by proxy
 description: reflections on existential dread and the end of programming
 excerpt:     reflections on existential dread and the end of programming
 layout: hh
-tags: product
+tags: programming
 ---
 
 In his essay about ‘[existential dread and the end of programming](https://gist.github.com/davidwhitney/eabf5823bed54f75d8342889b4531db5)’,

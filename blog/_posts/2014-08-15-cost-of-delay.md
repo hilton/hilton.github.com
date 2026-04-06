@@ -3,12 +3,7 @@ title: Talking about the cost of delay
 description: Another way to look at business value
 tags: agile
 layout: hh
-image: delays.jpg
 ---
-
-![](delays.jpg)
-
-[Lee Jordan](https://www.flickr.com/photos/leejordan/2347982593){:.photocredit}
 
 In an earlier article about [development cost versus value](development-cost-versus-value), I suggested that there’s not much point getting upset about the quality of software development estimates for individual features if you have no idea what the business value is. After all, if you don’t know the value of a user story, knowing that it will take exactly two days to implement isn’t enough information to be able to decide whether to start work on it.
 

@@ -3,10 +3,7 @@ title: George Orwell’s six rules for Scala programmers
 description: A concise style guide
 tags: Scala
 layout: hh
-image: george-orwell.jpg
 ---
-
-![](george-orwell.jpg)
 
 In his 1946 essay, [Politics and the English Language](http://www.orwell.ru/library/essays/politics/english/e_polit), [George Orwell](http://en.wikipedia.org/wiki/George_Orwell) (1903-1950) considers ‘the decadence of our language’. At the end of the essay he writes:
 
@@ -84,4 +81,4 @@ As with written English, code that uses unnecessary theoretical terminology look
 
 Finally, the last rule is a warning not to take rules too seriously. In this context, ‘barbarous’ is a literary way of saying unmaintainable. Again, in the ultimate parallel with prose, bad code is code whose meaning rapidly fades from the moment it was written.
 
-_Photo: [Phil Campbell](https://www.flickr.com/photos/clanlife/2620948678)_
+

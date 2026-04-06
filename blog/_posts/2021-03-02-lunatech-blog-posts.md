@@ -9,6 +9,7 @@ image: typewriter.jpg
 ![](typewriter.jpg)
 
 [Marco Tedaldi](https://www.flickr.com/photos/kruemi/3391634807){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
 
 People sometimes ask me about starting a public tech blog, to give developers an opportunity to write in public, and promote their work.
 The recently-resurrected Lunatech Blog shows how I did this, from 2005 to 2014.

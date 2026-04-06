@@ -3,10 +3,7 @@ title: Scaling down Play and Scala web applications
 description: Cruising with Play, Scala and in style
 tags: Scala
 layout: hh
-image: rolls-royce.jpg
 ---
-
-[ ![](rolls-royce.jpg) ](https://www.flickr.com/photos/alexprevot/8696067685)
 
 What’s the best kind of car for getting around town, popping out to the shops and cruising along the seafront on a warm summer evening? The most basic small car will do, perhaps, but it won’t do it in style. If you can afford it, it’s far more classy to cruise along in a massively overpowered Rolls Royce, with nothing more than a soft purr from its V12 engine.
 
@@ -74,4 +71,3 @@ Either way, scaling down database access means avoiding complexity or magic. Wit
 
 After you’ve scaled down your coding, the last step is to scale up your development workstation hardware. To truly cruise in style, you need such a powerful workstation that the quietest sound in the room is a low hum from continuous Scala compilation as you type.
 
-_Photo: [Alexandre Prévot](https://www.flickr.com/photos/alexprevot/8696067685)_

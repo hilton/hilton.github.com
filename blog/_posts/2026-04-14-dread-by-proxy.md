@@ -4,15 +4,16 @@ description: reflections on existential dread and the end of programming
 excerpt:     reflections on existential dread and the end of programming
 layout: hh
 tags: programming
-image: dont-panic.jpg
+image: david-whitney.jpg
 ---
 
-![](dont-panic.jpg)
+![David Whitney on stage at NDC Oslo 2025, in front of a slide with the text ‘no design meets implementation unharmed’](david-whitney.jpg)
 
-[Tonik](https://unsplash.com/photos/U0wwiY6nRGA){:.photocredit}
+[Ard Jongsma & NDC Conferences](https://www.flickr.com/photos/ndc_conferences/54579978238/in/album-72177720326770368){:.photocredit}
 
 In his essay about ‘[existential dread and the end of programming](https://gist.github.com/davidwhitney/eabf5823bed54f75d8342889b4531db5)’,
-[David Whitney](https://bsky.app/profile/davidwhitney.co.uk/post/3mf3jlhghsc2x) narrates his change in perspective on using generative AI for programming.
+[David Whitney](https://bsky.app/profile/davidwhitney.co.uk/post/3mf3jlhghsc2x) 
+(photo, above) narrates his change in perspective on programming with generative AI.
 He has mixed feelings:
 
 > I’m simultaneously having the time of my life building and am sat at my computer with the dread of looking at the end-times.

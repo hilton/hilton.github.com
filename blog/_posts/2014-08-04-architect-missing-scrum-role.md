@@ -8,6 +8,9 @@ image: architect.jpg
 
 [ ![](architect.jpg) ](https://www.flickr.com/photos/juhansonin/12140602074)
 
+[Juhan Sonin](https://www.flickr.com/photos/juhansonin/12140602074){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 On a Scrum project, there are a few common questions that turn out to be related.
 
 1. How do we handle non-functional requirements?
@@ -68,5 +71,3 @@ Alternatively, you could separate non-functional requirements from (normal) user
 The final catch, as if this weren’t difficult enough already, is that non-functional requirements are like any other requirements in that they change during the project. Vision, business value, priorities, and the requirements these result in are also evolving.
 
 The result is software architecture must continuously evolve to respond to two kinds of continuous change. Not only does the size of the system change, as you build it, but also the non-functional requirements that the architecture must support. An architect’s work is never done.
-
-_Photo: [Juhan Sonin](https://www.flickr.com/photos/juhansonin/12140602074)_

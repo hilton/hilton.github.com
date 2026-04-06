@@ -4,7 +4,13 @@ description: calculating a minimum standard while building trust
 excerpt:     calculating a minimum standard while building trust
 layout: hh
 tags: programming quality
+image: post-it-notes.jpg
 ---
+
+![](post-it-notes.jpg)
+
+[Michael Arrighi](https://www.flickr.com/photos/arrighi/8562416557){:.photocredit}
+[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/){:.license}
 
 Software development teams like to automate all sorts of things, including measuring their automated software tests.
 Deciding whether they have ‘enough’ automated tests proves complicated, unlike concluding that they don’t have enough, yet.

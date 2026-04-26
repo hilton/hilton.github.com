@@ -4,6 +4,7 @@ description: balancing constraints and guidance in automation
 excerpt:     balancing constraints and guidance in automation
 layout: hh
 tags: process UX
+image: travel-booking/preview.png
 css: 'ul.phases { list-style:none; display:inline-table; text-align:center; padding-left:0; margin-bottom:20px; }
 ul.phases li { float:left; height:28px; padding:4px 16px 0 32px; position:relative; margin:0 7px 0 0; }
 ul.phases li.selected:after { border-left:16px solid !important; }

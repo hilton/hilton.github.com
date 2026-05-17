@@ -12,8 +12,11 @@ image: wrong-way.jpg
 [NeONBRAND](https://unsplash.com/photos/-Cmz06-0btw){:.photocredit}
 
 {:.series}
-1. Use high-contrast colours ←
-2. [The fridge door test](fridge-door)
+1. [The fridge door test](fridge-door)
+2. [Text truncation](truncate-content-in-context)
+3. Text contrast ←
+4. [Text size](text-size)
+5. [White space](information-density)
 
 User-interface design follows fashion as much as any other field,
 such as product management or programming.

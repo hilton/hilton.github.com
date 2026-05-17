@@ -11,10 +11,11 @@ image: white-desk.jpg
 [Bench Accounting](https://unsplash.com/photos/nvzvOPQW0gc){:.photocredit}
 
 {:.series}
-1. [Text truncation](truncate-content-in-context)
-2. [Text contrast](text-contrast)
-3. [Text size](text-size)
-4. White space ←
+1. [The fridge door test](fridge-door)
+2. [Text truncation](truncate-content-in-context)
+3. [Text contrast](text-contrast)
+4. [Text size](text-size)
+5. White space ←
 
 When designers hate text, they [elide](truncate-content-in-context), [fade](text-contrast) and [shrink](text-size) it.
 But most of all, they have as little as possible text on the screen, as if people can’t handle many words at the same time.

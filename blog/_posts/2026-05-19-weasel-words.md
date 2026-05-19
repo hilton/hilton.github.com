@@ -75,3 +75,6 @@ that consolidates results from earlier work – collectively, _the literature_.
 
 A common thread ties these examples from product design, programming, and scientific research.
 People understand explanations better when concrete examples should precede abstraction.
+
+Weasel words use overly vague or abstract ideas to avoid actual communication.
+If you have something to say, then put in the extra effort to say what you mean.

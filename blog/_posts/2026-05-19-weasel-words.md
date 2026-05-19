@@ -1,7 +1,7 @@
 ---
 title: Domain-specific weasel words
-description: bad naming habits for product people, coders, and
-excerpt:     
+description: bad naming habits for product people, coders, and scientists
+excerpt:     bad naming habits for product people, coders, and scientists
 layout: hh
 tags: product
 image: library-reference.jpg

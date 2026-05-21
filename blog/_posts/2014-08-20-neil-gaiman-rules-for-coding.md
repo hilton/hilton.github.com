@@ -3,10 +3,12 @@ title: Neil Gaiman’s rules for coding
 description: "@neilhimself writes about programming"
 tags: programming
 layout: hh
-image: neil-gaiman.jpg
+image: books-non-fiction.jpg
 ---
 
-![](neil-gaiman.jpg)
+![](books-non-fiction.jpg)
+
+[Karim Ghantous](https://unsplash.com/photos/JHTlgIpNyQA){:.photocredit}
 
 The problem with getting programming advice from programmers is none of them are really famous, and hardly any of them can write. It’s easier to get good programming advice from someone a famous novellist.
 
@@ -69,5 +71,3 @@ This is another homage, this time a salute to [Eric Raymond’s lesson](http://w
 Finally, the last word goes to Gaiman:
 
 > I’m not sure that there are any other rules. Not ones that matter.
-
-_Photo: [Ran Yaniv Hartstein](https://www.flickr.com/photos/ranh/10429043703)_

@@ -8,6 +8,9 @@ image: tape-measure.jpg
 
 ![](tape-measure.jpg)
 
+[Brad Hagan](https://www.flickr.com/photos/bradhoc/7343762168){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
+
 Sooner or later, a software development team has to settle on a standard for the maximum line length for source code. They might even add it to a written [coding standard](missing-from-scala-style-guide). The thing is, that different people and teams don’t often agree on how long a line of code can be. It turns out that _it depends_.
 
 ## How long is a line of code?
@@ -99,4 +102,4 @@ The worst consequence of short lines, however, is the tendency towards short nam
 
 How long is _too long_ does not only depend on your code editor window, but all of the tools you use to view code. For some old-school programmers, this is only the terminal window, but most programmers now use more tools than just an IDE. Coding is a team sport, and now we have web-based collaboration tools.
 
-_Photo: [Brad Hagan](https://www.flickr.com/photos/bradhoc/7343762168)_
+

@@ -10,6 +10,13 @@ image: carrots.jpg
 
 [Louis Hansel](https://unsplash.com/photos/GHM1kzxNVA8){:.photocredit}
 
+{:.series}
+1. [The fridge door test](fridge-door)
+2. Text truncation ←
+3. [Text contrast](text-contrast)
+4. [Text size](text-size)
+5. [White space](information-density)
+
 When your software user interface displays variable length text, you have to decide what to do when you get longer text than you expected.
 You can:
 

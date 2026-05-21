@@ -1,6 +1,7 @@
 ---
 title: Normalise search query characters
 description: searching for Türkiye
+excerpt:     searching for Türkiye
 layout: hh
 tags: data DDD
 image: istanbul-maidens-tower.jpg

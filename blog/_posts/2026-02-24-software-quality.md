@@ -1,6 +1,7 @@
 ---
 title: Software quality is a decision
 description: casual software and software products worth paying for
+excerpt:     casual software and software products worth paying for
 layout: hh
 tags: product
 image: texting.jpg

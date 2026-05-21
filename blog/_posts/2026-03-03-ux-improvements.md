@@ -1,6 +1,7 @@
 ---
 title: Continuously improve user experience
 description: meaningfully finishing software features
+excerpt:     meaningfully finishing software features
 layout: hh
 tags: product UX
 image: mowing.jpg

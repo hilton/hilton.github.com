@@ -9,6 +9,7 @@ image: typewriter.jpg
 ![](typewriter.jpg)
 
 [Marco Tedaldi](https://www.flickr.com/photos/kruemi/3391634807){:.photocredit}
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/){:.license}
 
 Once a killer application for desktop computers, word-processors less often provide the best tool for any particular job.
 This creates new opportunities.

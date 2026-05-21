@@ -9,6 +9,7 @@ image: imac-dv.jpg
 ![](imac-dv.jpg)
 
 [raneko](https://www.flickr.com/photos/raneko/5265434665){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
 
 Twenty years ago, before [blogging](https://en.wikipedia.org/wiki/Blog#History)
 became mainstream, posts typically had a different style to today’s various kinds of articles.

@@ -8,6 +8,9 @@ image: foreign-language.jpg
 
 ![](foreign-language.jpg)
 
+[Lily](https://www.flickr.com/photos/lilivanili/4581105812){:.photocredit}
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/){:.license}
+
 There’s no point being upset because ‘your’ programming language is threatened with obsolescence. Just learn another language: it will probably be tough, but it’s worth persevering and doing it again because it gets easier after the second one.
 
 ## Foreign language learning
@@ -46,5 +49,3 @@ Finally, if nothing else, this highlights the value of being able to learn by be
 [‘Always try to see technologies from a beginner’s mind’](http://www.zenprogrammer.org/en/the10rulesofazenprogrammer.html#beginners-mind).
 
 _Peter Hilton learned French the usual way at school and university, Dutch the slow way, and at least ten programming languages by simply joining a development project and getting on with it._
-
-_Photo: [Lily](https://www.flickr.com/photos/lilivanili/4581105812)_

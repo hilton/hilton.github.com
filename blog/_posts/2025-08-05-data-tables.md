@@ -9,6 +9,7 @@ image: spreadsheet.jpg
 ![](spreadsheet.jpg)
 
 [atlken77](https://www.flickr.com/photos/floridaken77/5964733034){:.photocredit}
+[CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/){:.license}
 
 *[B2B]: business-to-business - refers to software for companies, as opposed to B2C (business-to-customer) consumer software
 *[SaaS]: software-as-a-service - web-based software that you don’t have to install and upgrade

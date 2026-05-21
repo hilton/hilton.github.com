@@ -1,6 +1,7 @@
 ---
 title: Analyse research interview results
 description: getting value from customer research
+excerpt:     getting value from customer research
 layout: hh
 tags: product
 image: laptop-dog.jpg

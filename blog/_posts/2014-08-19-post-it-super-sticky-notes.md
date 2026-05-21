@@ -8,6 +8,9 @@ image: post-it-notes.jpg
 
 ![](post-it-notes.jpg)
 
+[Michael Arrighi](https://www.flickr.com/photos/arrighi/8562416557){:.photocredit}
+[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/){:.license}
+
 Scrum projects are tiring, because it’s hard work to maintain continuous improvement, sprint after sprint. That’s why it helps to talk to other people about how they do it: each new idea, insight and technique is a new opportunity to improve.
 
 Scrum tools are low-tech, so it’s a rare treat to see innovation in the basic hardware. In case you didn’t realise, there’s now a better kind of Post-it note.
@@ -58,5 +61,3 @@ Correct Post-it Technique therefore has several benefits:
 3. Opportunity to demonstrate Correct Post-it Technique in order to suggest superior agile coaching expertise.
 
 Correct Post-it Technique is surprisingly rare. It is the secret handshake of the agile community.
-
-_Photo: [Michael Arrighi](https://www.flickr.com/photos/arrighi/8562416557)_

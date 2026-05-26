@@ -1,7 +1,7 @@
 ---
 title: Unsolved problems
-description: mathematics, astronomy, linguistics, and software
-excerpt:     mathematics, astronomy, linguistics, and software
+description: hard things in mathematics, astronomy, linguistics, and software
+excerpt:     hard things in mathematics, astronomy, linguistics, and software
 layout: hh
 tags: product
 image: voynich.jpg
@@ -21,19 +21,18 @@ But despite having this in common, different fields have different kinds of unso
 [Lists of unsolved problems in mathematics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics) date back to
 [Hilbert’s problems](https://en.wikipedia.org/wiki/Hilbert%27s_problems), published in 1900.
 Today, fewer than half of the 23 original problems have accepted solutions.
+For example, consider
+[Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture) (Wikipedia):
 
-For example,
-[Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture):
-
-> even natural number greater than 2 is the sum of two prime numbers (Wikipedia)
+> even natural number greater than 2 is the sum of two prime numbers
 
 Mathematicians have tried to prove this ever since Goldbach posed it in a 1742 letter to Euler.
 So far, they have ‘only’ proved weaker versions, such as allowing a sum of _four_ prime numbers.
 
 Solving this kind of problem typically requires new techniques in number theory,
 not some insight that escaped Goldbach three-hundred years ago.
-Meanwhile, using computers has shown that the conjecture holds for numbers up to 4 × 10¹⁸.
-But partial evidence doesn’t count in pure mathematics.
+And even though using computers has shown that the conjecture holds for numbers up to 4 × 10¹⁸,
+partial evidence doesn’t count in pure mathematics.
 It only makes a formal proof seem more elusive.
 
 ## Astonomy
@@ -42,7 +41,7 @@ It only makes a formal proof seem more elusive.
 include the [Fermi paradox](https://en.wikipedia.org/wiki/Fermi_paradox).
 On the question of whether
 [extraterrestrial intelligence](https://en.wikipedia.org/wiki/Extraterrestrial_intelligence)
-exists, the Fermi paradox asks a meta-question: why haven’t we found any evidence?
+exists, the Fermi paradox asks a meta-question: why haven’t we found any evidence of it?
 This leaves two unlikely alternatives:
 
 1. despite the overwhelmingly large number of stars in the observable universe, aliens don’t exist
@@ -60,13 +59,18 @@ leaving the Fermi paradox unsolved.
 the [Voynich manuscript](https://en.wikipedia.org/wiki/Voynich_manuscript).
 This [interesting Wikipedia page](today-i-learned), describes a fifteenth-century
 [manuscript written in an undeciphered writing system](https://en.wikipedia.org/wiki/Category:Manuscripts_written_in_undeciphered_writing_systems).
+This detail from one of its 240 pages shows unfamiliar but often repeated letters and words, in fluid calligraphy:
+
+[ ![Voynich manuscript (detail)](voynich.jpg) ](http://en.wikipedia.org/wiki/Voynich_manuscript)
+
+[Yale University Library](http://brbl-dl.library.yale.edu/vufind/Record/3519597){:.photocredit}
 
 Intriguingly, like the Fermi paradox, the Voynich manuscript poses two unlikely alternatives:
 
 1. no other example exists of this unknown writing system, probably used in this case by multiple scribes, and extensive research has failed to identify the language used
-2. an elaborate hoax managed to produce text that linguistic analyses developed hundreds of years later now identify as natural language.
+2. an elaborate hoax somehow managed to produce text that linguistic analyses developed hundreds of years later now identify as natural language.
 
-As with the Fermi paradox, new evidence could resolve the Voynich paradox at any time.
+As with the Fermi paradox, new evidence could illuminate the Voynich paradox at any time.
 Also, as with the Goldback conjecture, new techniques in the field could reveal a solution.
 
 ## Software development

@@ -18,6 +18,8 @@ The interviewer sticks to the script, and asks:
 ‘I’m a perfectionist!’ beams the disingenuous candidate, happy to use one of their prepared answers.
 One of two things happens next.
 
+The interviewer, comforted by the familiar response, 
+may distractedly scribble on the piece of paper in front of them, and continue with the interview.
 Or perhaps the candidate’s clichéd lack of originality shocks the interviewer awake,
 and they actually consider the implications of what they just heard.
 

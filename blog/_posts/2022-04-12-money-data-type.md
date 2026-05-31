@@ -17,14 +17,14 @@ However, these technologies rarely have built-in separation for money amounts, l
 
 ## Currencies
 
-If your software represents a money amount using a number, and nothing else, the amount has in implicit currency.
+If your software represents a money amount using a number, and nothing else, the amount has an implicit currency.
 I call this approach _asking for trouble_ because sooner or later someone will neglect to assume the correct currency.
 Instead, make the currency explicit.
 
 Money amounts have currencies in the same way that 
 [measurements have units](https://en.wikipedia.org/wiki/Unit_of_measurement).
 Represent a money amount as a pair of two values: the _amount_ and the _currency_.
-For the later, using a standard [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) 
+For the latter, using a standard [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) 
 three-letter currency code, such as `EUR` (Euro), prevents ambiguity.
 
 ## Fixed-precision

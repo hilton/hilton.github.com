@@ -60,7 +60,7 @@ Teams need both starters and finishers, and enough of each.
 
 ## Personality types  
 
-Personality type models, such as the infamous [Myers–Briggs Type Indicator](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) and _Which Disney princess are you?_ quizzes, deserve their bad reputation.
+Personality type models, such as the infamous [Myers–Briggs Type Indicator](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) and _Which cartoon character are you?_ quizzes, deserve their bad reputation.
 But despite their occasional cult-like following and subsequent backlash against them, people who work in tech often find value in discussing [wrong models](https://en.wikipedia.org/wiki/All_models_are_wrong), even if only ironically.
 
 An explicit policy to form teams of both experimenting and optimising developers would end badly, no doubt.

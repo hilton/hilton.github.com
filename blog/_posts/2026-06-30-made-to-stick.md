@@ -1,6 +1,7 @@
 ---
 title: "Book review: Made to Stick"
-description: an actually-useful cookbook that tells you how to cook things
+description: memorable messaging by Chip & Dan Heath
+excerpt:     memorable messaging by Chip & Dan Heath
 layout: hh
 tags: book review
 image: made-to-stick.jpg

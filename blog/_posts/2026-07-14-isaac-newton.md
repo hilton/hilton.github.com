@@ -10,8 +10,6 @@ css: ".cover { border: 1px solid #ddd; }"
 
 [![Book cover: Isaac Newton, by James Gleick](isaac-newton.jpg)](https://around.com/isaac-newton/){:.cover}
 
-[Ekaterina Grosheva](https://unsplash.com/photos/tnbdRX9Yaxk){:.photocredit}
-
 James Gleick introduced me to excellent popular science writing when I read his first book,
 [Chaos: Making a New Science](https://en.wikipedia.org/wiki/Chaos:_Making_a_New_Science), as a teenager.
 At the time, it inspired me to focus my [A-level](https://en.wikipedia.org/wiki/A-level)

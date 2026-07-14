@@ -1,5 +1,5 @@
 ---
-title: Book review: Isaac Newton
+title: "Book review: Isaac Newton"
 description: James Gleick’s story of renaissance philosophy and mathematics
 excerpt:     James Gleick’s story of renaissance philosophy and mathematics
 layout: hh

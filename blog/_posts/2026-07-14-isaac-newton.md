@@ -5,9 +5,10 @@ excerpt:     James Gleick’s story of renaissance philosophy and mathematics
 layout: hh
 tags: book
 image: isaac-newton.jpg
+css: ".cover { border: 1px solid #ddd; }"
 ---
 
-![Book cover: Isaac Newton, by James Gleick](isaac-newton.jpg)
+[![Book cover: Isaac Newton, by James Gleick](isaac-newton.jpg)](https://around.com/isaac-newton/){:.cover}
 
 [Ekaterina Grosheva](https://unsplash.com/photos/tnbdRX9Yaxk){:.photocredit}
 

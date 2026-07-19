@@ -4,7 +4,12 @@ description: building a personal library that you don’t have space for
 excerpt:     building a personal library that you don’t have space for
 layout: hh
 tags: books
+image: shipping-containers-pastel.jpg
 ---
+
+![](shipping-containers-pastel.jpg)
+
+[Kristin Hillery](https://unsplash.com/photos/YId0l2vqc6E){:.photocredit}
 
 As hobbies go, reading novels hardly costs anything at all.
 You have zero start-up costs, assuming that you already know how to read, and physical books don’t require additional hardware.

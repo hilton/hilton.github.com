@@ -1,7 +1,7 @@
 ---
 title: A shipping container library
-description: building a personal library that you don’t have space for
-excerpt:     building a personal library that you don’t have space for
+description: building a personal library that you don’t have space for at home
+excerpt:     building a personal library that you don’t have space for at home
 layout: hh
 tags: books
 image: shipping-containers-pastel.jpg

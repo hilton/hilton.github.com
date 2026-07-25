@@ -46,7 +46,7 @@ Let’s assume that we need 80 cm – one bookcase-width – in front of eac
 ## Minimum viable bookcase
 
 The easiest layout lines the walls with bookcases.
-This gives you 16 bookcases in the following plan, with the container doors opening on the left (not shown).
+This gives you sixteen bookcases in the following plan, with the container doors opening on the left (not shown).
 
 ![Diagram showing 16 bookcases lining the container walls](container/edges.webp)
 
@@ -82,7 +82,7 @@ Let’s try a more interesting layout.
 ## Cosy alcoves
 
 Arranging bookcases into U-shapes creates alcoves that increase the book density,
-so you get 11 bookcases along one wall, instead of only 7.
+so you get eleven bookcases along one wall, instead of only seven.
 
 ![Diagram showing alcoves along one wall](container/alcoves-top.webp)
 

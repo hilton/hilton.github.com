@@ -4,6 +4,7 @@ description: booksmaxxing by numbers
 excerpt:     booksmaxxing by numbers
 layout: hh
 tags: books
+image: container/shelves-combined.jpg
 css: "body.writing article img {max-width:70%} body.writing article img.single {width:213px; margin: 0 0 2em 20px; float:right} body.writing article p.double {text-align:center; padding:1em 0} article li {font-variant-numeric: tabular-nums}"
 ---
 

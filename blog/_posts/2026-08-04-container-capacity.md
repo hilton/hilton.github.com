@@ -16,7 +16,7 @@ Therefore, you also need to know how many _books_ would fit in your shipping con
 
 ## Books per shipping container
 
-![Front view of a BILLY bookcase’s standard configuration](container/standard.webp){:.single}
+![Front view of a BILLY bookcase’s standard configuration](container/billy.webp){:.single}
 
 A standard BILLY bookcase has six shelves, each 76 cm wide.
 Meanwhile, paperback books have an average thickness of 22–25 mm, with variation in the number of pages,

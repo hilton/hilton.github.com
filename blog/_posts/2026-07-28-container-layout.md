@@ -14,6 +14,7 @@ image: billy.jpg
 {:.series}
 1. [Shipping container library](container-library)
 2. Library layout ←
+3. [Library capacity](container-capacity)
 
 If you liked the idea of a personal [shipping container library](container-library)
 in a container that you rent at a self-storage facility, perhaps you want to know how many bookcases you’d have room for.

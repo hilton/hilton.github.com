@@ -5,8 +5,17 @@ excerpt:     booksmaxxing by numbers
 layout: hh
 tags: books
 image: container/shelves-combined.jpg
-css: "body.writing article img {max-width:70%} body.writing article img.single {width:213px; margin: 0 0 2em 20px; float:right} body.writing article p.double {text-align:center; padding:1em 0} article li {font-variant-numeric: tabular-nums}"
+css: "body.writing article img.diagram {max-width:70%} body.writing article img.single {width:213px; margin: 0 0 2em 20px; float:right} body.writing article p.double {text-align:center; padding:1em 0} article li {font-variant-numeric: tabular-nums}"
 ---
+
+![](book-pile.jpg)
+
+[Shiromani Kant](https://unsplash.com/photos/mo3FOTG62ao){:.photocredit}
+
+{:.series}
+1. [Shipping container library](container-library)
+2. [Library layout](container-layout)
+3. Library capacity ←
 
 In your personal [shipping container library](container-library),
 an [interesting layout](container-layout) would accommodate 21 BILLY-equivalent bookcases
@@ -17,7 +26,7 @@ Therefore, you also need to know how many _books_ would fit in your shipping con
 
 ## Books per shipping container
 
-![Front view of a BILLY bookcase’s standard configuration](container/billy.webp){:.single}
+![Front view of a BILLY bookcase’s standard configuration](container/billy.webp){:.single .diagram}
 
 A standard BILLY bookcase has six shelves, each 76 cm wide.
 Meanwhile, paperback books have an average thickness of 22–25 mm, with variation in the number of pages,
@@ -54,7 +63,7 @@ In theory, you could evenly space nine shelves of A-format paperbacks, or eight 
 leaving around 2 cm space above each book, for access:
 
 {:.double}
-![Front view of two BILLY bookcases with shelf-spacing to accommodate either A-format or B-format paperback books](container/a-b-2-up.webp)
+![Front view of two BILLY bookcases with shelf-spacing to accommodate either A-format or B-format paperback books](container/a-b-2-up.webp){:.diagram}
 
 Unfortunately, a BILLY doesn’t give you quite that much flexibility.
 
@@ -76,7 +85,7 @@ With the shelf-position constraints, you can fit eight shelves
 by alternating between enough vertical space for B-format and A-format books (below, left).
 
 {:.double}
-![Front view of two BILLY bookcases, one with alternating shelf-spacing for A-format and B-format paperbacks, and one with glass shelves to accommodate B-format paperbacks on all shelves](container/a-b-mixed-2-up.webp)
+![Front view of two BILLY bookcases, one with alternating shelf-spacing for A-format and B-format paperbacks, and one with glass shelves to accommodate B-format paperbacks on all shelves](container/a-b-mixed-2-up.webp){:.diagram}
 
 However, I don’t have enough A-format paperbacks to fill half of the shelves.
 I have mostly B-format fiction paperbacks, a smaller number of A-format paperbacks,

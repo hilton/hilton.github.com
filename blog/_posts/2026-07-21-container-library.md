@@ -14,6 +14,7 @@ image: shipping-containers-pastel.jpg
 {:.series}
 1. Shipping container library ←
 2. [Library layout](container-layout)
+3. [Library capacity](container-capacity)
 
 As hobbies go, reading novels hardly costs anything at all.
 You have zero start-up costs, assuming that you already know how to read, and physical books don’t require additional hardware.

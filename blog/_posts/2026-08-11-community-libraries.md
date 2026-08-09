@@ -5,7 +5,7 @@ excerpt:     librarymaxxing for philanthropists
 layout: hh
 tags: books
 image: tiny-house-a-frame.jpg
-css: "body.writing article p.pair img {max-width:320px}"
+css: ".column {width:320px; margin-right:0;} @media all and (max-width: 680px) { .column {width:auto} }"
 ---
 
 ![An A-frame tiny house in a woodland clearing](tiny-house-a-frame.jpg)
@@ -49,11 +49,17 @@ has probably got us the closest to productising container-sized buildings.
 The niche idea of living in a really small home, for a small-footprint lifestyle,
 offers some combination of simpler, cheaper, location-flexible or more sustainable living.
 
-{:.pair}
-![A container-shaped tiny house at dusk with outside lights](tiny-house-dusk.jpg)![A container-shaped tiny house on a grassy slope with trees in the background](tiny-house.jpg)
+<div class="row">
 
-[Bram van Ooost](https://unsplash.com/photos/pcDDRTN-Vfw){:.photocredit}
-[Flo](https://unsplash.com/photos/lZjBNG9NBgQ){:.photocredit}
+<div class="column">
+<p><img src="tiny-house-dusk.jpg" alt="A container-shaped tiny house at dusk with outside lights"></p>
+<p><a class="photocredit" href="https://unsplash.com/photos/pcDDRTN-Vfw">Bram van Ooost</a></p>
+</div>
+<div class="column">
+<p><img src="tiny-house.jpg" alt="A container-shaped tiny house on a grassy slope with trees in the background"></p>
+<p><a class="photocredit" href="https://unsplash.com/photos/lZjBNG9NBgQ">Flo</a></p>
+</div>
+</div>
 
 Tiny houses can also offer designer luxury: browsing
 [26 Modern Tiny House Design Inspirations For Your Tiny Home](https://www.tinyeasy.com/modern-tiny-house-design)

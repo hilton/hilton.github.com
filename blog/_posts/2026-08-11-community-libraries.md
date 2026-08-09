@@ -4,19 +4,19 @@ description: librarymaxxing for philanthropists
 excerpt:     librarymaxxing for philanthropists
 layout: hh
 tags: books
-image: dunga-container-library.jpg
+image: tiny-house-a-frame.jpg
+css: "body.writing article p.pair img {max-width:320px}"
 ---
+
+![An A-frame tiny house in a woodland clearing](tiny-house-a-frame.jpg)
+
+[Clay Banks](https://unsplash.com/photos/gmQr2-qWkYQ){:.photocredit}
 
 {:.series}
 1. [Shipping container library](container-library)
 2. [Library layout](container-layout)
 3. [Library capacity](container-capacity)
 4. Community libraries ←
-
-![Container library in Dunga, Zanzibar](dunga-container-library.jpg)
-  
-[Book Aid International](https://bookaid.org/what-we-do/supporting-libraries/community-container-libraries/){:.photocredit}
-
 
 In this series, I’ve established that a [shipping container library](container-library)
 with an [interesting layout](container-layout) can
@@ -32,7 +32,10 @@ The books want you to share them.
 Book Aid International knows why you need 5000+ books in a shipping container: for
 [Community Container Libraries](https://bookaid.org/what-we-do/supporting-libraries/community-container-libraries/)
 that ‘bring more books to the communities worldwide that will benefit from them the most’.
-(Reassuringly, they also arrive at the same 5000+ capacity, despite adding windows.)
+
+![Container library in Dunga, Zanzibar, made from three 40-foot shipping containers arranged in an L-shape, painted pink](dunga-container-library.jpg)
+  
+[Book Aid International](https://bookaid.org/what-we-do/supporting-libraries/community-container-libraries/){:.photocredit}
 
 They’ve figured out how to source, install, and stock a shipping container library, such as the one pictured (photo, above) in Dunga, Zanzibar (population 76 000).
 This kind of custom [cargotecture](https://en.wikipedia.org/wiki/Shipping_container_architecture)
@@ -45,6 +48,12 @@ So far, the [tiny-house movement](https://en.wikipedia.org/wiki/Tiny-house_movem
 has probably got us the closest to productising container-sized buildings.
 The niche idea of living in a really small home, for a small-footprint lifestyle,
 offers some combination of simpler, cheaper, location-flexible or more sustainable living.
+
+{:.pair}
+![A container-shaped tiny house at dusk with outside lights](tiny-house-dusk.jpg)![A container-shaped tiny house on a grassy slope with trees in the background](tiny-house.jpg)
+
+[Bram van Ooost](https://unsplash.com/photos/pcDDRTN-Vfw){:.photocredit}
+[Flo](https://unsplash.com/photos/lZjBNG9NBgQ){:.photocredit}
 
 Tiny houses can also offer designer luxury: browsing
 [26 Modern Tiny House Design Inspirations For Your Tiny Home](https://www.tinyeasy.com/modern-tiny-house-design)
@@ -74,7 +83,7 @@ Whisky, maybe.
 
 A successful ‘hardback’ product for the luxury market might generate significant revenue,
 design and construction expertise, and economies of scale.
-This could fund a more affordable ‘paperback’ product – tiny libraries for more price-sensitive markets:
+This could potentially fund a more affordable ‘paperback’ product – tiny libraries for more price-sensitive markets:
 
 * **young professionals** with disposable income, but not enough to buy a home big enough for their growing book collection
 * **holiday parks**, because now matter how good their facilities, when you run out of books to read in the middle of your summer holiday, they never seem to have a decent library

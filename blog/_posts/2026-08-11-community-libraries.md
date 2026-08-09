@@ -100,4 +100,4 @@ And these, of course, would only represent the next milestone on the ultimate bu
 ## Community libraries
 
 Mass-market tiny libraries would commoditise their construction.
-And best of all, they could fund widespread and cheaper community libraries for Book Aid International, and other charities.
+And more than that, imagine a business model that could fund widespread and cheaper community libraries for Book Aid International, and other charities.

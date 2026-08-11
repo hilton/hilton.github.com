@@ -16,7 +16,7 @@ css: "body.writing article img.diagram {max-width:70%} body.writing article img.
 1. [Shipping container library](container-library)
 2. [Library layout](container-layout)
 3. Library capacity ←
-4. Community libraries
+4. [Community libraries](community-libraries)
 
 In your personal [shipping container library](container-library),
 an [interesting layout](container-layout) would accommodate 21 BILLY-equivalent bookcases

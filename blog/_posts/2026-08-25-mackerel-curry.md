@@ -5,6 +5,7 @@ excerpt:     a tasty store-cupboard recipe
 layout: hh
 tags: cooking
 image: mackerel-curry.jpg
+css: “body.writing article img {max-width:320px}"
 ---
 
 ![A bowl of mackerel curry with rice](mackerel-curry-served.webp)
@@ -41,7 +42,7 @@ This recipe dials up convenience enough for me to cook it weekly, but remains ta
 
 ## Tips
 
-![Minimally browned onions, with ginger and garlic, and space to fry curry powder and turmeric in the oil](mackerel-curry-onions.webp)
+![Minimally browned onions, with ginger and garlic, and space to fry curry powder and turmeric in the oil](mackerel-curry-onion.webp)
 
 **Browning the onions** enough without burning them requires the most practicewebp
 You may also have to watch (videos of) someone doing it properly to accept how much more oil it needs than you would use in Italian cooking, for example.

@@ -1,7 +1,7 @@
 ---
-title: "Mackerel & lentil curry"
-description: a tasty store-cupboard recipe
-excerpt:     a tasty store-cupboard recipe
+title: "Mackerel & lentil curry recipe"
+description: a tasty store-cupboard dish
+excerpt:     a tasty store-cupboard dish
 layout: hh
 tags: cooking
 image: mackerel-curry.jpg
@@ -25,7 +25,7 @@ This recipe dials up convenience enough for me to cook it weekly, but remains ta
 8. 200 g (½ tin) brown lentils in water
 9. 1 courgette
 
-## Method
+## Method – 60 minutes
 
 1. Drain all of the oil from the tinned mackerel into a wide pan.
 2. Finely chop the onion, and add to the pan.

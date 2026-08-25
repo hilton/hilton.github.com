@@ -34,9 +34,9 @@ This recipe dials up convenience enough for me to cook it weekly, but remains ta
 5. Fry the garlic and ginger for a few minutes, without burning it.
 6. Add the salt.
 7. Fry the curry powder in the oil for one minute.
-8. Add the mackerel, chopped tomatoes, and lentils, including the water from the tin.
+8. Add the mackerel, chopped tomatoes, and lentils, including the water from the lentil tin.
 9. Simmer for at least 15 minutes.
-10. Chop the courgettes into 1 cm cubes.
+10. Chop the courgette into 1 cm cubes.
 11. 10–15 minutes before serving, add the courgette, so it cooks but retains texture.
 12. Serve with rice.
 
@@ -44,12 +44,13 @@ This recipe dials up convenience enough for me to cook it weekly, but remains ta
 
 ![Minimally browned onions, with ginger and garlic, and space to fry curry powder and turmeric in the oil](mackerel-curry-onion.webp)
 
-**Browning the onions** enough without burning them requires the most practicewebp
+**Browning the onions** enough without burning them requires the most practice.
 You may also have to watch (videos of) someone doing it properly to accept how much more oil it needs than you would use in Italian cooking, for example.
-Ideally, you would have time to cook them slowly enough to turn an even golden brown, without going brown at the edges first.
+Ideally, you would have time to cook them slowly enough to turn an even golden brown,
+darker than in the photo (above) without going brown at the edges first.
 Of course, ideally you have someone else who can spend all day in the kitchen for you.
 
-**To fry the curry powder in the oil**, push the contents of the pan to one side, tip the oil back into the gap, and stir the curry powder into the oil (photo, above-left).
+**To fry the curry powder in the oil**, push the contents of the pan to one side, tip the oil back into the gap, and stir the curry powder into the oil (photo, above).
 
 **For additional flavour**, add extras when serving, to make the result more interesting.
 For example, stir in 1 teaspoon garam masala immediately before serving,
@@ -59,9 +60,9 @@ garnish with lots of chopped fresh coriander, and use lime pickle as a condiment
 
 ![After adding tinned mackerel, tinned tomato, and tinned lentils](mackerel-curry-tomato.webp)
 
-1. If you prefer soft courgette, add them with the mackerel, chopped tomatoes, and lentils (photo, above-centre).
+1. If you prefer soft courgette, add them with the mackerel, chopped tomatoes, and lentils (photo, above).
 2. For extra flavour, roast the cubed courgette in the oven while baking something else, deglaze the oven dish with boiling water, and add to the curry.
 3. Use aubergine instead of courgette.
-4. Serve with steamed spinach or stir-fried (tenderstem) broccoli, instead of adding courgette.
+4. Serve with steamed spinach or stir-fried (tenderstem) broccoli, instead of courgette.
 5. Serve with minimally-cooked frozen broccoli, instead of courgette, to minimise shopping for fresh ingredients.
-6. Use a different curry powder, or add extra turmeric (photo, above-left).
+6. Use a different curry powder, or add extra turmeric (photo, above, under _Tips_).

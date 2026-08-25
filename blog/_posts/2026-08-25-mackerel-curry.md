@@ -7,7 +7,7 @@ tags: cooking
 image: mackerel-curry.jpg
 ---
 
-![A bowl of mackerel curry with rice](mackerel-curry-served.jpg)
+![A bowl of mackerel curry with rice](mackerel-curry-served.webp)
 
 Cooking at home typically involves a trade-off between tasty and healthy food, and effort, including the time to shop for fresh ingredients.
 This recipe dials up convenience enough for me to cook it weekly, but remains tasty enough for me to love it every time.
@@ -41,9 +41,9 @@ This recipe dials up convenience enough for me to cook it weekly, but remains ta
 
 ## Tips
 
-![Minimally browned onions, with ginger and garlic, and space to fry curry powder and turmeric in the oil](mackerel-curry-onions.jpg)
+![Minimally browned onions, with ginger and garlic, and space to fry curry powder and turmeric in the oil](mackerel-curry-onions.webp)
 
-**Browning the onions** enough without burning them requires the most practice.
+**Browning the onions** enough without burning them requires the most practicewebp
 You may also have to watch (videos of) someone doing it properly to accept how much more oil it needs than you would use in Italian cooking, for example.
 Ideally, you would have time to cook them slowly enough to turn an even golden brown, without going brown at the edges first.
 Of course, ideally you have someone else who can spend all day in the kitchen for you.
@@ -56,7 +56,7 @@ garnish with lots of chopped fresh coriander, and use lime pickle as a condiment
 
 ## Variations
 
-![After adding tinned mackerel, tinned tomato, and tinned lentils](mackerel-curry-tomato.jpg)
+![After adding tinned mackerel, tinned tomato, and tinned lentils](mackerel-curry-tomato.webp)
 
 1. If you prefer soft courgette, add them with the mackerel, chopped tomatoes, and lentils (photo, above-centre).
 2. For extra flavour, roast the cubed courgette in the oven while baking something else, deglaze the oven dish with boiling water, and add to the curry.

@@ -5,7 +5,7 @@ excerpt:     a tasty store-cupboard recipe
 layout: hh
 tags: cooking
 image: mackerel-curry.jpg
-css: “body.writing article img {max-width:320px}"
+css: "body.writing article img {max-width:320px}"
 ---
 
 ![A bowl of mackerel curry with rice](mackerel-curry-served.webp)

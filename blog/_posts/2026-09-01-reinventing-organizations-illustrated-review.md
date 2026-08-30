@@ -10,8 +10,9 @@ image: reinventing-organizations-illustrated.jpg
 
 [Reinventing organizations: an illustrated invitation to join the conversation on next-stage organizations](https://www.reinventingorganizations.com/iro.html)
 introduces modern management ideas, and how the organisations we work for could change.
-
-
+Unlike most management books, which focus on success in existing organisations,
+this book aims to change how we think about organisational models.
+This book offers nothing less than a manifesto for a revolution.
 
 ## Teal organisations
 
@@ -54,6 +55,10 @@ and page layouts that present information better than the usual wall of text.
 Meanwhile, the 172 pages focus on the original book’s core ideas.
 I found the reading experience unusual but refreshing,
 and suspect that every business book would benefit from this treatment.
+
+I did find the large format somewhat unwieldy, though.
+I wonder if a more conventional (but still large) 152 × 229 mm trade paperback would work better,
+with smaller illustrations, less whitespace, and more pages.
 
 ## Reinventing organisations
 

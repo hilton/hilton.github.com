@@ -8,8 +8,8 @@ image: reinventing-organizations-illustrated.jpg
 
 [![Reinventing organizations (illustrated)](reinventing-organizations-illustrated.jpg)](https://www.reinventingorganizations.com/iro.html)
 
-[Reinventing organizations: an illustrated invitation to join the conversation on next-stage organizations](https://www.reinventingorganizations.com/iro.html)
-introduces modern management ideas, and how the organisations we work for could change.
+[Reinventing organizations: an illustrated invitation to join the conversation on next-stage organizations](https://www.reinventingorganizations.com/iro.html),
+by Frederic Laloux, introduces modern management ideas, and how the organisations we work for could change.
 Unlike most management books, which focus on success in existing organisations,
 this book aims to change how we think about organisational models.
 This book offers nothing less than a manifesto for a revolution.

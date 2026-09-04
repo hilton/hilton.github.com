@@ -16,8 +16,8 @@ image: notepad-writing.jpg
 
 {:.series}
 1. Starting discovery ←
-2. Research interviews
-3. Interview analysis
+2. [Research interviews](research-interviews)
+3. [Interview analysis](analyse-interviews)
 4. [Feedback database](product-feedback)
 
 When you start a new product management role,

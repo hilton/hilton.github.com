@@ -14,7 +14,7 @@ image: meeting-with-notes.jpg
 {:.series}
 1. [Starting discovery](discovery)
 2. Research interviews ←
-3. Interview analysis
+3. [Interview analysis](analyse-interviews)
 4. [Feedback database](product-feedback)
 
 As a product manager, you can [collect product feedback from many sources](discovery).

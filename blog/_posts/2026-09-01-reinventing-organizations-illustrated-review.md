@@ -1,6 +1,7 @@
 ---
 title: "Book review: Reinventing organizations (illustrated)"
 description: a different kind of business book for a different kind of business
+excerpt:     a different kind of business book for a different kind of business
 layout: hh
 tags: book review
 image: reinventing-organizations-illustrated.jpg

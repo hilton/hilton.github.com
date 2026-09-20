@@ -1,6 +1,7 @@
 ---
 title: The return of the business paperback
 description: e-readers win on convenience, until they don’t
+excerpt:     e-readers win on convenience, until they don’t
 layout: hh
 tags: management books
 image: book-pile.jpg

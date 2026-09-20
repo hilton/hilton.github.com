@@ -6,6 +6,8 @@ layout: hh
 tags: product development
 ---
 
+![The night train from Brussels to Milan in three photos: a couchette compartment, Lake Lugano, and the North entrance of the Gotthard Tunnel at Göschenen](brussles-milan.jpg)
+
 Modern life fetishises _saving time_ and doing things _faster_.
 So does modern business.
 We rationalise this, quite reasonably, by recognising that we only have a fixed amount of time in a working day,
@@ -21,8 +23,8 @@ Last year, I flew to Northern Italy for a week-long music workshop.
 I met several people who had taken two days to travel from England by train,
 which inspired me to do the same.
 This year, I took the first departure of the new
-[European Sleeper night train from Brussels to Milan](https://www.seat61.com/trains-and-routes/european-sleeper-brussels-milan.htm),
-as part of a 30-hour train journey.
+[European Sleeper night train from Brussels to Milan](https://www.seat61.com/trains-and-routes/european-sleeper-brussels-milan.htm)
+(photos, above), as part of a 30-hour train journey.
 
 Travelling by train initially seemed like a terrible idea: it cost slightly more than flying,
 and arriving by Friday afternoon meant leaving home on Thursday afternoon instead of Friday morning.

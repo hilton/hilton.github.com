@@ -4,6 +4,7 @@ description: finding better ways than faster ways
 excerpt:     finding better ways than faster ways
 layout: hh
 tags: product development
+image: brussles-milan.jpg
 ---
 
 ![The night train from Brussels to Milan in three photos: a couchette compartment, Lake Lugano, and the North entrance of the Gotthard Tunnel at Göschenen](brussles-milan.jpg)

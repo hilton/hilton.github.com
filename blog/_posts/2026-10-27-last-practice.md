@@ -69,7 +69,7 @@ describes most of the methods we have focused on since then:
 6. Extreme Programming (XP)
 7. Adaptive Software Development (ASD)
 
-Kanban doesn’t appear in the book’s table of contents, because it only became popular in the five years that followed.
+Kanban doesn’t appear in the book’s table of contents, because it only became popular in the five years that followed, 2003–2008.
 
 ## The last practice
 

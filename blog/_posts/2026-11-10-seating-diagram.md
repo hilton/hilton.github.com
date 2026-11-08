@@ -5,10 +5,10 @@ excerpt:     the mindfulness of cooking lunch instead of ordering in
 layout: hh
 tags: programming
 image: rehearsal-seating.jpg
-css: "svg { background-color: #FCF9F1; width:640px } path {fill:transparent} text {font:24px sans-serif; word-spacing:190%}"
+css: "body.writing article img.photo {width:100%} body.writing article img, article > svg {width:25em} svg { background-color: #FCF9F1; } path {fill:transparent} text {font:24px sans-serif; word-spacing:190%}"
 ---
 
-![Seating for a choir rehearsal in a church](rehearsal-seating.jpg)
+![Seating for a choir rehearsal in a church](rehearsal-seating.jpg){:.photo}
 
 <span>Peter Hilton</span>{:.photocredit}
 
